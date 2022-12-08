@@ -1,8 +1,7 @@
 body {
-    background-image: url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/915b1b4a05133186525a956d7ca5c142a3c3c9f3.webm);
-    /* background-size:100vw 100vh; */
+    background-color: bisque;
     background-origin: content-box;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 .background.video {
@@ -21,7 +20,7 @@ body {
     color: #fff;
     position: relative;
     background: #ffffff69;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
     transform: translateX(-50%);
     text-shadow: 1px 1px 1px #000;
     border-left: 6px solid rgb(0 156 255 / 75%);
@@ -35,19 +34,16 @@ body {
     padding-top: 8px;
 }
 
-.home{
+.home {
     margin: auto;
     padding-top: 12vh;
     padding-bottom: 12vh;
 }
 
-
-
 .uiz2 {
     list-style-type: none;
     display: flex;
     height: 106px;
-    margin-bottom: 8px;
     border-bottom: 1px solid #3d4348;
     position: relative;
 }
@@ -85,6 +81,42 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+
 .champions.title {
     position: static;
+}
+
+
+.itemui {
+    padding: 20px 30px;
+    text-align: left;
+    text-shadow: none;
+    font-size: initial;
+}
+
+.inline {
+    display: inline-block;
+    color: black;
+}
+
+.inline.title {
+    font-size: 22px;
+}
+
+.small {
+    font-size: 12px;
+    color: #3d4348;
+}
+
+.name{
+    font-size: 12px;
+    color: #000000;
+}
+
+.by{
+    line-height:12px;
+}
+
+.introduction{
+    font-size: 15px;
 }
