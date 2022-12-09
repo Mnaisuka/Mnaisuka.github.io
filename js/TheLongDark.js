@@ -9,10 +9,10 @@
         InitItem(transl)
     });
     function InitItem() {
-        fetch('./api/item.json').then((response) => response.json()).then((item) => {
+        fetch('./api/item.json').then((response) => response.json()).then(async (item) => {
             item.sort(function (a, b) {
                 return getTime(b.update) - getTime(a.update)
-                function getTime(text){
+                function getTime(text) {
                     var match = RegExp('(\\d+)/(\\d+)/(\\d+)').exec(text)
                     return (new Date(`${match[3]}-${match[2]}-${match[1]}`)).getTime()
                 }
@@ -21,7 +21,7 @@
                 var focus = item[i]
                 if (focus.status < 5) {
                     $('.item.welcome').append(
-                        generate(focus.title, focus.author, focus.update, focus.game_ver, focus.load_ver, focus.detailed, focus.dependence == "undefined" ? null : focus.dependence, focus.github,focus.download)
+                        generate(focus.title, focus.author, focus.update, focus.game_ver, focus.load_ver, focus.detailed, focus.dependence == "undefined" ? null : focus.dependence, focus.github, focus.download)
                     )
                 }
             }

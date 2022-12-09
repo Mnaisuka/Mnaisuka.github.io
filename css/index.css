@@ -18,6 +18,8 @@ body {
     width: 1080px;
     min-height: 720PX;
     color: #fff;
+    display: flex;
+    flex-flow: column;
     position: relative;
     background: #ffffff69;
     backdrop-filter: blur(20px);
