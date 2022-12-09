@@ -16,6 +16,7 @@ function reptile() {
         var dependence = focus.find(".deps-names").text() || "undefined"
         var detailed = focus.find(".mod-description").text() || "undefined"
         var update = focus.find(".mod-release")[0].childNodes[1].nodeValue || "undefined"
+        var github = focus.find('.mod-source a').attr('href')||'none'
         var temporary = {
             'title': title,
             'status': status,
@@ -26,6 +27,7 @@ function reptile() {
             'dependence': dependence,
             'detailed': detailed,
             'update': update,
+            'github':github
         }
         $(document.querySelector("#agriculture"))
         dict['item'][title] = temporary

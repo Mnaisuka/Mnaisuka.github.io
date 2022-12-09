@@ -1,0 +1,17 @@
+(async function () {
+    const sleep = function (ms) {
+        return new Promise(resolve => setTimeout(resolve, ms))
+    }
+    var dict = {}
+    var item = json.item
+    for (const key in item) {
+        var transl = await translation(item[key].detailed)
+        dict[item[key].detailed] = transl.text
+        await sleep(1000)
+        var transl1 = await translation(key)
+        dict[key] = transl1.text
+        await sleep(1000)
+        console.log(transl,transl1);
+    }
+    console.log(dict);
+})()
