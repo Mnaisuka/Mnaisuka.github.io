@@ -12,7 +12,7 @@ var arr = [];
         var transl1 = await translation(item[i].title)
         dict[item[i].title] = transl1.text
         await sleep(100)
-        console.log(transl,transl1);
+        console.log(transl, transl1);
     }
     console.log(dict);
 })()

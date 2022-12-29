@@ -1,41 +1,5 @@
 [
     {
-        "title": "Afraid of the Dark",
-        "status": "0",
-        "game_ver": "TLD Version 2.06",
-        "load_ver": "MelonLoader 0.6.0.0",
-        "download": "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark/releases/download/v2.0/AfraidOfTheDark.dll",
-        "author": "Atlas Lumi",
-        "dependence": "undefined",
-        "detailed": "Makes the player anxious at night.",
-        "update": " 28/12/2022",
-        "github": "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark"
-    },
-    {
-        "title": "Seasoned Interloping",
-        "status": "0",
-        "game_ver": "TLD Version 2.06",
-        "load_ver": "MelonLoader 0.6.0.0",
-        "download": "https://github.com/ds5678/SeasonedInterloping/releases/download/1.0.0/SeasonedInterloping.dll",
-        "author": "ds5678",
-        "dependence": "undefined",
-        "detailed": "Adds Forsaken Airfield and Bleak Inlet to the list of Interloper start regions.Patreon",
-        "update": " 27/12/2022",
-        "github": "https://github.com/ds5678/SeasonedInterloping"
-    },
-    {
-        "title": "DeveloperConsole",
-        "status": "0",
-        "game_ver": "TLD Version 2.06",
-        "load_ver": "MelonLoader 0.6.0.0",
-        "download": "https://github.com/FINDarkside/TLD-Developer-Console/releases/download/1.5.0/DeveloperConsole.dll",
-        "author": "FINDarksidezeobviouslyfakeaccds5678",
-        "dependence": "undefined",
-        "detailed": "A mod that makes Hinterland's developer console accessible in-game. F1 to open / close the console, type 'help' to get a list of commands.",
-        "update": " 25/12/2022",
-        "github": "https://github.com/FINDarkside/TLD-Developer-Console"
-    },
-    {
         "title": "Improved Soundtrack",
         "status": "2",
         "game_ver": "TLD Version 2.02",
@@ -96,6 +60,18 @@
         "github": "https://github.com/DeletedAccount01/OpGuns"
     },
     {
+        "title": "AutoSave",
+        "status": "1",
+        "game_ver": "TLD Version 1.99",
+        "load_ver": "MelonLoader 0.4.3.0",
+        "download": "https://github.com/brecheisen37/TLD-Autosaves/releases/download/v1.2.0/AutosaveMod.dll",
+        "author": "Primadonna",
+        "dependence": "ModSettings",
+        "detailed": "Adds Quicksaves, exit saves, animal trigger saves, lots of saves.",
+        "update": " 9/8/2022",
+        "github": "https://github.com/brecheisen37/TLD-Autosaves"
+    },
+    {
         "title": "Choose Starting Gear",
         "status": "2",
         "game_ver": "TLD Version 2.01",
@@ -130,18 +106,6 @@
         "detailed": "Silences player character voice. Full instructions in the README.",
         "update": " 9/8/2022",
         "github": "https://github.com/GruffCassquatch/SilentProtagonist"
-    },
-    {
-        "title": "AutoSave",
-        "status": "1",
-        "game_ver": "TLD Version 1.99",
-        "load_ver": "MelonLoader 0.4.3.0",
-        "download": "https://github.com/brecheisen37/TLD-Autosaves/releases/download/v1.2.0/AutosaveMod.dll",
-        "author": "Primadonna",
-        "dependence": "ModSettings",
-        "detailed": "Adds Quicksaves, exit saves, animal trigger saves, lots of saves.",
-        "update": " 9/8/2022",
-        "github": "https://github.com/brecheisen37/TLD-Autosaves"
     },
     {
         "title": "QuickPick",
@@ -216,6 +180,18 @@
         "github": "https://github.com/GruffCassquatch/WolvesComeOutAtNight"
     },
     {
+        "title": "Rest Max",
+        "status": "1",
+        "game_ver": "TLD Version 1.99",
+        "load_ver": "MelonLoader 0.4.3.0",
+        "download": "https://github.com/brecheisen37/TLD-RestMax/releases/tag/v2.0.1",
+        "author": "Primadonna",
+        "dependence": "ModSettings",
+        "detailed": "Better sleep menu options.",
+        "update": " 26/7/2022",
+        "github": "https://github.com/brecheisen37/TLD-RestMax/"
+    },
+    {
         "title": "Bedroll Tweaker",
         "status": "2",
         "game_ver": "TLD Version 2.01",
@@ -238,18 +214,6 @@
         "detailed": "Allows you to adjust the warmth, warmth when wet, waterproof, windproof, protection, mobility, weight and decay values of clothing items. Full instructions in the README.",
         "update": " 26/7/2022",
         "github": "https://github.com/GruffCassquatch/ClothingTweaker"
-    },
-    {
-        "title": "Rest Max",
-        "status": "1",
-        "game_ver": "TLD Version 1.99",
-        "load_ver": "MelonLoader 0.4.3.0",
-        "download": "https://github.com/brecheisen37/TLD-RestMax/releases/tag/v2.0.1",
-        "author": "Primadonna",
-        "dependence": "ModSettings",
-        "detailed": "Better sleep menu options.",
-        "update": " 26/7/2022",
-        "github": "https://github.com/brecheisen37/TLD-RestMax/"
     },
     {
         "title": "ArrowMod",
@@ -334,18 +298,6 @@
         "detailed": "undefined",
         "update": " 16/6/2022",
         "github": "https://github.com/bushtail/HMSRedux"
-    },
-    {
-        "title": "Read When Hungry",
-        "status": "1",
-        "game_ver": "TLD Version 1.99",
-        "load_ver": "MelonLoader 0.5.4",
-        "download": "https://github.com/bushtail/ReadWhenHungry/releases/latest/download/ReadWhenHungry.dll",
-        "author": "bushtail",
-        "dependence": "ModSettings",
-        "detailed": "New maintainer",
-        "update": " 12/6/2022",
-        "github": "https://github.com/bushtail/ReadWhenHungry"
     },
     {
         "title": "Stretch Armstrong",
@@ -492,6 +444,18 @@
         "github": "https://github.com/stmSantana/ItemPiles"
     },
     {
+        "title": "Afraid of the Dark",
+        "status": "1",
+        "game_ver": "TLD Version 2.0",
+        "load_ver": "MelonLoader 0.5.4",
+        "download": "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark/releases/download/v1.3/AnxietyAtNight.dll",
+        "author": "Atlas Lumi",
+        "dependence": "undefined",
+        "detailed": "Makes the player anxious at night.",
+        "update": " 25/4/2022",
+        "github": "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark"
+    },
+    {
         "title": "TLD-Cigarettes",
         "status": "1",
         "game_ver": "TLD Version 2.0",
@@ -528,6 +492,18 @@
         "github": "https://github.com/ttr/tld-ToolsQuality"
     },
     {
+        "title": "BringBackComponets",
+        "status": "0",
+        "game_ver": "TLD Version 1.95+",
+        "load_ver": "MelonLoader 0.4.5",
+        "download": "https://github.com/werasik2aa/BringBackComponents/releases/download/3.0/BringBackComponents.dll",
+        "author": "NopirateOnlySteam",
+        "dependence": "undefined",
+        "detailed": "Bring Back Component WheelCollider and HinjeJoint API FOR DEVELOPPERS !!!Only patching the components!!!",
+        "update": " 12/4/2022",
+        "github": "https://github.com/werasik2aa/BringBackComponents"
+    },
+    {
         "title": "MapTweaks",
         "status": "1",
         "game_ver": "TLD Version 2.0",
@@ -550,18 +526,6 @@
         "detailed": "Adds warming Buff to cooked food and allows calories adjustment for each meat/fish type. Future sucessor: Food Tweaker",
         "update": " 12/4/2022",
         "github": "https://github.com/ttr/tld-WarmFood"
-    },
-    {
-        "title": "BringBackComponets",
-        "status": "0",
-        "game_ver": "TLD Version 1.95+",
-        "load_ver": "MelonLoader 0.4.5",
-        "download": "https://github.com/werasik2aa/BringBackComponents/releases/download/3.0/BringBackComponents.dll",
-        "author": "NopirateOnlySteam",
-        "dependence": "undefined",
-        "detailed": "Bring Back Component WheelCollider and HinjeJoint API FOR DEVELOPPERS !!!Only patching the components!!!",
-        "update": " 12/4/2022",
-        "github": "https://github.com/werasik2aa/BringBackComponents"
     },
     {
         "title": "Unity Explorer",
@@ -1594,6 +1558,18 @@
         "detailed": "Reduce scent and decay for meat, fish and guts, if using Moose Bag",
         "update": " 3/6/2021",
         "github": "https://github.com/ttr/tld-MooseSatchelMod"
+    },
+    {
+        "title": "DeveloperConsole",
+        "status": "1",
+        "game_ver": "TLD Version 1.97",
+        "load_ver": "MelonLoader 0.4.3.0",
+        "download": "https://github.com/FINDarkside/TLD-Developer-Console/releases/download/1.4.0/DeveloperConsole.dll",
+        "author": "FINDarksidezeobviouslyfakeaccds5678",
+        "dependence": "undefined",
+        "detailed": "A mod that makes Hinterland's developer console accessible in-game. F1 to open / close the console, type 'help' to get a list of commands.",
+        "update": " 2/6/2021",
+        "github": "https://github.com/FINDarkside/TLD-Developer-Console"
     },
     {
         "title": "Infinity Fires",

@@ -1,8 +1,10 @@
 $ = $1
 
 function reptile() {
+    var dict = {}
     var item = $('#modList>*')
-    var arr = []
+    dict['length'] = item.length
+    dict['item'] = {}
     for (let i = 0; i < item.length; i++) {
         var focus = $(item[i])
         var title = focus.find('a[title]')[0].childNodes[0].nodeValue
@@ -28,9 +30,9 @@ function reptile() {
             'github':github
         }
         $(document.querySelector("#agriculture"))
-        arr.push(temporary)
+        dict['item'][title] = temporary
     }
-    return arr
+    return dict
     function GetModsState(item) {
         var control = {
             "0": ".mod-working.mod-updated",//正常工作
