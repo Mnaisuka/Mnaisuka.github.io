@@ -16,6 +16,18 @@ for name in list:
         print(name.get('href'))
         img = Request(name.get('href'))
         img = urlopen(img)
-        file = open('./background/TheLongDark/'+str(index)+'.jpg', mode='wb+')
-        file.write(img.read())
-        file.close()
+
+
+        
+        file = open(f'./debug.html', mode='wb+')
+        file.write(bytes(html,'utf-8'))
+        file.close() 
+
+
+
+
+
+""" file = open(f'./debug.html', mode='wb+')
+file.write(bytes(html,'utf-8'))
+file.close() """
+# pip install beautifulsoup4

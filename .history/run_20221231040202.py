@@ -4,11 +4,8 @@ ret = Request(
     "https://yande.re/post?tags=wallpaper+rating%3Asafe+score%3A%3E%3D20")
 res = urlopen(ret)
 html = res.read().decode('utf-8')
-
 soup = BeautifulSoup(html, 'html.parser')
-
 list = soup.find_all('a', class_='largeimg')
-
 index = 0
 for name in list:
     if index < 5:
