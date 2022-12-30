@@ -10,10 +10,6 @@ soup = BeautifulSoup(html, 'html.parser')
 
 list = soup.find_all('a', class_='largeimg')
 
-update = open('update.txt', mode='w+')
-update.write(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
-update.close()
-
 index = 0
 for name in list:
     if index < 5:
@@ -24,3 +20,6 @@ for name in list:
         file = open('./background/TheLongDark/'+str(index-1)+'.jpg', mode='wb+')
         file.write(img.read())
         file.close()
+open('update.txt', mode='w+')
+file.write(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+file.close()

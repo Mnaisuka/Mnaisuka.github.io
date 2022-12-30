@@ -10,9 +10,9 @@ soup = BeautifulSoup(html, 'html.parser')
 
 list = soup.find_all('a', class_='largeimg')
 
-update = open('update.txt', mode='w+')
-update.write(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
-update.close()
+file = open('update.txt', mode='w+')
+file.write(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+file.close()
 
 index = 0
 for name in list:
