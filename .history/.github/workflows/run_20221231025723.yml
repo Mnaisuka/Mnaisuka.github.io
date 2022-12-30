@@ -27,9 +27,9 @@ jobs:
          git config --local user.email "2567810193@qq.com"
          git config --local user.name "Mnaisuka"
          git pull
-         git add debug.html
-         git commit -m "update debug.html"
-    - name: "推送更新"
+         git add debug.text
+         git commit -m "update debug.text"
+    - name: Push changes
       uses: ad-m/github-push-action@master
       with:
          github_token: ${{ secrets.my_token }}

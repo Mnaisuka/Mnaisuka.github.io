@@ -17,19 +17,21 @@ jobs:
     - name: '指定python环境'
       uses: actions/setup-python@v3
       with:
-        python-version: "3.7"
-    - name: "运行爬虫脚本"
-      run: python run.py
-    - name: "检查目录"
+        python-version: "3.11"
+    - name: debugt0
       run: ls
-    - name: "提交更新"
+    - name: run py
+      run: python run.py
+    - name: debug
+      run: ls
+    - name: update file
       run: |
          git config --local user.email "2567810193@qq.com"
          git config --local user.name "Mnaisuka"
          git pull
-         git add debug.html
-         git commit -m "update debug.html"
-    - name: "推送更新"
+         git add debug.text
+         git commit -m "update debug.text"
+    - name: Push changes
       uses: ad-m/github-push-action@master
       with:
          github_token: ${{ secrets.my_token }}

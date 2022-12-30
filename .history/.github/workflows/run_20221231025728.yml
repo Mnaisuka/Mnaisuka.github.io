@@ -27,8 +27,8 @@ jobs:
          git config --local user.email "2567810193@qq.com"
          git config --local user.name "Mnaisuka"
          git pull
-         git add debug.html
-         git commit -m "update debug.html"
+         git add debug.text
+         git commit -m "update debug.text"
     - name: "推送更新"
       uses: ad-m/github-push-action@master
       with:
