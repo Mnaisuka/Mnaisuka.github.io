@@ -28,7 +28,7 @@ jobs:
          git add debug.text
          git commit -m "update file"
     - name: Push changes
-      uses: ad-m/Mnaisuka.github.io@master
+      uses: ad-m/Mnaisuka.github.io@main
       with:
          github_token: ${{ secrets.my_token }}
          branch: main
