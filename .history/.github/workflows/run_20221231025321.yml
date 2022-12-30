@@ -29,7 +29,7 @@ jobs:
          git add debug.text
          git commit -m "update debug.text"
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master@master
       with:
          github_token: ${{ secrets.my_token }}
          branch: main
