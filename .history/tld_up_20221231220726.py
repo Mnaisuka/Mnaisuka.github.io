@@ -2,7 +2,7 @@ import requests
 import js2py
 import json
 import time
-import re,os
+import re
 
 proxies = {
     "http": "127.0.0.1:7890",
@@ -22,8 +22,8 @@ for url in arrlist['list']:
     mods = requests.get(url, proxies=proxies).json()
     for info in mods['mods']:
         wdict = {}
-        wdict['title'] = info['name']
         wdict['author'] = mods['author']
+        wdict['title'] = info['name']
         wdict['game_ver'] = info['testedon']['tldversion']
         wdict['load_ver'] = info['testedon']['mlversion']
         wdict['download'] = info['downloadURL']
@@ -43,7 +43,7 @@ arr_str = '['+(','.join(write))+']'
 with open('./game/thelongdark/api/item.json', 'w+') as f:
     f.write(arr_str)
 
-#项目按日期排序
+#项目重新排序
 with open('./game/thelongdark/api/item.json', 'r', encoding='UTF-8') as f:
     item = json.load(f)
 def getTimestamp(text: str):

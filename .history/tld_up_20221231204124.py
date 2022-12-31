@@ -1,8 +1,6 @@
 import requests
 import js2py
 import json
-import time
-import re,os
 
 proxies = {
     "http": "127.0.0.1:7890",
@@ -14,7 +12,15 @@ response = requests.get(url, proxies=proxies)  # 获取所有作者提供的列�
 getlist = js2py.eval_js(
     "function get(){\n"+response.text+"\n return modSources}")
 arrlist = json.loads(str(getlist()).replace("'", '"'))
+print(arrlist['list'])
 write = []
+
+
+# if 'ze' in data: print(data['ze'])
+# else: print('ze不存在')
+
+with open('./game/thelongdark/api/transl.json', 'r') as f:
+    transl = json.load(f)
 
 index = 0
 for url in arrlist['list']:
@@ -22,8 +28,8 @@ for url in arrlist['list']:
     mods = requests.get(url, proxies=proxies).json()
     for info in mods['mods']:
         wdict = {}
-        wdict['title'] = info['name']
         wdict['author'] = mods['author']
+        wdict['title'] = info['name']
         wdict['game_ver'] = info['testedon']['tldversion']
         wdict['load_ver'] = info['testedon']['mlversion']
         wdict['download'] = info['downloadURL']
@@ -37,35 +43,22 @@ for url in arrlist['list']:
         wdict['update'] = info['updated']
         wdict['github'] = info['modURL']
         wdict['status'] = info['status']['working']
+
+        if not (wdict['detailed'] in transl):
+            transl[wdict['detailed']] = '待翻译:'+wdict['detailed']
+            print('创建新节点', wdict['detailed'])
+        if not (wdict['title'] in transl):
+            transl[wdict['title']] = '待翻译:'+wdict['title']
+            print('创建新节点', wdict['title'])
+
         write.append(json.dumps(wdict))
     print(index, len(arrlist['list']))
 arr_str = '['+(','.join(write))+']'
 with open('./game/thelongdark/api/item.json', 'w+') as f:
     f.write(arr_str)
 
-#项目按日期排序
-with open('./game/thelongdark/api/item.json', 'r', encoding='UTF-8') as f:
-    item = json.load(f)
-def getTimestamp(text: str):
-    arr = re.findall('(\d+)\D(\d+)\D(\d+)', text)
-    return time.mktime(time.strptime(f'{arr[0][0]}-{arr[0][1]}-{arr[0][2]} 00:00:00', '%Y-%m-%d %H:%M:%S'))
-item.sort(key=lambda x: getTimestamp(x["update"]), reverse=True)
-with open('./game/thelongdark/api/item.json', 'w+', encoding='UTF-8') as f:
-    f.write(json.dumps(item))
+# 查询汉化状态
 
-#根据排序写出文本
-if not os.path.exists('./game/thelongdark/api/transl.json'):
-    f = open('./game/thelongdark/api/transl.json', 'w+') 
-    f.write("{}")
-    f.close()
-with open('./game/thelongdark/api/transl.json', 'r+', encoding='UTF-8') as f:#读汉化文件
-    transl = json.load(f)
-    f.close()
-for this in item:
-    if not (this['title'] in transl):
-        transl[this['title']] = '[×]'+this['title']
-    if not (this['detailed'] in transl):
-        transl[this['detailed']] = '[×]'+this['detailed']
-with open('./game/thelongdark/api/transl.json', 'w+') as f:  # 写汉化文件
-    f.write(json.dumps(transl))
-    f.close()
+
+def SearchTransl():
+    ...
