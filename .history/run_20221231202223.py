@@ -1,7 +1,6 @@
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 import time
-
 """ ret = Request(
     "https://yande.re/post?tags=wallpaper+rating%3Asafe+score%3A%3E%3D20")
 res = urlopen(ret)
