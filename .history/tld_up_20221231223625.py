@@ -40,27 +40,10 @@ for url in arrlist['list']:
         write.append(json.dumps(wdict))
     print(index, len(arrlist['list']))
 arr_str = '['+(','.join(write))+']'
-
-
-
-if os.path.exists('./game'): 
-    print("该目录存在！") 
-else: 
-    print("该目录不存在！")
-
-if os.path.exists('./game/thelongdark'): 
-    print("该目录存在！2") 
-else: 
-    print("该目录不存在！2")
-
-if os.path.exists('./game/thelongdark/api'): 
-    print("该目录存在！3") 
-else: 
-    print("该目录不存在！3")
-
 with open('./game/thelongdark/api/item.json', 'w+') as f:
     f.write(arr_str)
     f.close()
+
 #项目按日期排序
 with open('./game/thelongdark/api/item.json', 'r', encoding='UTF-8') as f:
     item = json.load(f)
