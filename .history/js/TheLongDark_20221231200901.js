@@ -13,6 +13,7 @@
             item.sort(function (a, b) {
                 return getTime(b.update) - getTime(a.update)
                 function getTime(text) {
+                    console.log(text);
                     var match = RegExp('(\\d+)\\D(\\d+)\\D(\\d+)').exec(text)
                     return (new Date(`${match[1]}-${match[2]}-${match[3]}`)).getTime()
                 }
