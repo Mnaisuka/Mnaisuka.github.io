@@ -5,8 +5,8 @@ import time
 import re,os
 
 proxies = {
-    "http":"127.0.0.1:7890",
-    "https": "127.0.0.1:7890",
+    "http":None,
+    "https": None,
 }
 
 url = 'https://xpazeman.com/tld-mod-list/assets/js/ModSources.js'
