@@ -39,7 +39,6 @@ jobs:
          git pull
          git add update.txt
          git add background/TheLongDark/*
-         git add background/TheLongDark/api/*
          git commit -m "up"
     - name: "推送更新"
       uses: ad-m/github-push-action@master
