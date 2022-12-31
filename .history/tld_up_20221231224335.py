@@ -50,10 +50,6 @@ else:
         print("创建目录成功") 
     else: 
         print("创建目录失败?")
-        if os.path.exists('/game/thelongdark/api'): 
-            print("创建目录成功...") 
-        else: 
-            print("创建目录失败...")
 
 with open('./game/thelongdark/api/item.json', 'w+') as f:
     f.write(arr_str)
