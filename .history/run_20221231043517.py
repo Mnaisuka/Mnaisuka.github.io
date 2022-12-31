@@ -12,7 +12,6 @@ list = soup.find_all('a', class_='largeimg')
 
 update = open('update.txt', mode='w+')
 update.write(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
-print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 update.close()
 
 index = 0
