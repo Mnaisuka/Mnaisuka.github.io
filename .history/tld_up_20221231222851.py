@@ -40,12 +40,12 @@ for url in arrlist['list']:
         write.append(json.dumps(wdict))
     print(index, len(arrlist['list']))
 arr_str = '['+(','.join(write))+']'
-with open('/game/thelongdark/api/item.json', 'w+') as f:
+with open('./game/thelongdark/api/item.json', 'w+') as f:
     f.write(arr_str)
     f.close()
 
 #项目按日期排序
-with open('/game/thelongdark/api/item.json', 'r', encoding='UTF-8') as f:
+with open('./game/thelongdark/api/item.json', 'r', encoding='UTF-8') as f:
     item = json.load(f)
 def getTimestamp(text: str):
     arr = re.findall('(\d+)\D(\d+)\D(\d+)', text)
