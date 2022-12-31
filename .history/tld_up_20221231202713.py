@@ -40,5 +40,3 @@ with open('./game/thelongdark/api/item.json', 'w+') as f:
     f.write(arr_str)
     
 #查询汉化状态
-def SearchTransl():
-    ...
