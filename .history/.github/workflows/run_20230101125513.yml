@@ -38,11 +38,11 @@ jobs:
     - name: "安装运行环境3"
       run: pip install requests
     - name: "运行爬虫脚本"
-      run: python py/run.py
+      run: python run.py
     - name: "检查目录"
       run: ls
     - name: "TLD自动更新"
-      run: python py/thelongdark.py
+      run: python py/TheLongDark.py
     - name: "检查目录"
       run: ls -ltr *
     - name: "提交更新"
