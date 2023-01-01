@@ -42,7 +42,7 @@ jobs:
     - name: "TLD自动更新"
       run: python thelongdark.py
     - name: "开始更新壁纸"
-      run: python py/wallpaper.py
+      run: python run.py
     - name: "检查目录"
       run: ls
     - name: "提交更新"
