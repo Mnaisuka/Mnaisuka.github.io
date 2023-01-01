@@ -29,7 +29,7 @@ jobs:
     - name: "检查目录"
       run: ls
     - name: "TLD自动更新"
-      run: python tld_up.py
+      run: python py/TheLongDark.py
     - name: "检查目录"
       run: ls -ltr *
     - name: "提交更新"
