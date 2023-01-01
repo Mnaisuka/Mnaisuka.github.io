@@ -60,7 +60,7 @@ jobs:
          github_token: ${{ secrets.my_token }}
          branch: main
   deploy: #分支
-    needs: job_update
+    needs: job1
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -73,6 +73,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
+          # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
