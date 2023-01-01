@@ -44,7 +44,7 @@ jobs:
     - name: "TLD自动更新"
       run: python ./py/thelongdark.py
     - name: "检查目录"
-      run: ls
+      run: ls -ltr *
     - name: "提交更新"
       run: |
          git config --local user.email "2567810193@qq.com"
