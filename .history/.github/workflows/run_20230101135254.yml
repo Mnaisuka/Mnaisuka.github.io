@@ -55,13 +55,11 @@ jobs:
       group: "pages"
       cancel-in-progress: true
     needs: job_update
-    
     - name: "获取更新"
       run: |
          git config --local user.email "2567810193@qq.com"
          git config --local user.name "Mnaisuka"
          git pull
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
