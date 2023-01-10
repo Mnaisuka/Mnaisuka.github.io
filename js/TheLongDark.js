@@ -25,6 +25,33 @@
                     )
                 }
             }
+            //绑定事件 - 单击查找模组
+            $('.inline.small.introduction').click(
+                function (e) {
+                    let item = null
+                    $('.origin-name').each(
+                        function () {
+                            if (this.getAttribute('origin') == e.target.innerHTML) {
+                                item = this
+                            }
+                        }
+                    )
+                    if (!!item) {
+                        item.scrollIntoView({
+                            "behavior": "smooth",
+                            "block": "center"
+                        })
+                        $(item.parentNode.parentNode).css('background', '#ffebcd8c')
+                        setTimeout(
+                            function () {
+                                $(item.parentNode.parentNode).css('background', '')
+                            }, 15000
+                        )
+                    } else {
+                        console.log("项目不存在", item)
+                    }
+                }
+            )
         });
     }
     function create(title, author, update, version, position, introduction, dependence, github, download) {
@@ -50,7 +77,7 @@
                 <div class="inline small"> | </div>
                 <div class="inline small" style="color: #000000;" title="该模组所适用的插件版本">前置插件 ${position}</div>
                 <div class="inline small"> | </div>
-                <div class="inline small" style="color: #000000;">原名 ${backup}</div>
+                <div class="inline small origin-name" origin="${backup}" style="color: #000000;">原名 ${backup}</div>
                 <div class="inline small"> | </div>
                 <a href="${github}" target="_blank" class="inline small" style="color: #000000;">Github</a>
                 <div class="inline small"> | </div>
@@ -62,11 +89,24 @@
                 <div style="padding-top: 8px;">
                 ${!!dependence ? `<div class="inline small introduction" style="color: #000000;" title="使用该模组前,需安装的模组">模组依赖 </div>` : ""}
                 ${!!dependence ? `<div class="inline small"> | </div>` : ""}
-                ${!!dependence ? `<div class="inline small introduction" style="color: #004aa1;">${dependence}</div>` : ""}
+                ${dependence_html(dependence)}
                 </div>
             </div>
         </div>`
         return html
+        function dependence_html(dependence) {
+            if (!dependence) {
+                return ""
+            }
+            dependence = dependence.split(',')
+            html = []
+            for (index in dependence) {
+                let tl = dependence[index]
+                html.push(`<div class="inline small introduction" style="color: #004aa1;" title="${transl[tl] || tl}">${tl}</div>`)
+            }
+            return html.join('<div class="inline small" style="padding-right: 2px;padding-left: 2px;color: black;font-size: 15px;"> , </div>')
+
+        }
     }
     function RandomNum(Min, Max) {
         var Range = Max - Min;
