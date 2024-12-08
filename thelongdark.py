@@ -10,6 +10,7 @@ proxies = {
     "https": None,  # "127.0.0.1:7890"
 }
 
+
 # 'https://xpazeman.com/tld-mod-list/assets/js/ModSources.js'
 url = 'https://xpazeman.com/tld-mod-list/sources/mod-sources.js?v=3.0.1'
 response = requests.get(url, proxies=proxies)  # 获取所有作者提供的列表
