@@ -1,5 +1,5 @@
 import requests
-import js2py
+import re
 import json
 import time
 import re
@@ -13,13 +13,17 @@ proxies = {
 # 'https://xpazeman.com/tld-mod-list/assets/js/ModSources.js'
 url = 'https://xpazeman.com/tld-mod-list/sources/mod-sources.js?v=3.0.1'
 response = requests.get(url, proxies=proxies)  # 获取所有作者提供的列表
-getlist = js2py.eval_js(
+""" getlist = js2py.eval_js(
     "function get(){\n"+response.text+"\n return modSources}")
-arrlist = json.loads(str(getlist()).replace("'", '"'))
+arrlist = json.loads(str(getlist()).replace("'", '"')) """
+url_pattern = r"'(https?://[^']+)'"
+arrlist = re.findall(url_pattern, response.text)
+
+
 write = []
 
 index = 0
-for url in arrlist['list']:
+for url in arrlist:
     index = index + 1
     mods = requests.get(url, proxies=proxies).json()
     for info in mods['mods']:
@@ -40,7 +44,8 @@ for url in arrlist['list']:
         wdict['github'] = info['modURL']
         wdict['status'] = info['status']['working']
         write.append(json.dumps(wdict))
-    print(index, len(arrlist['list']))
+    print(index, len(arrlist))
+    break
 arr_str = '['+(','.join(write))+']'
 
 if os.path.exists('./game/thelongdark/api'):
