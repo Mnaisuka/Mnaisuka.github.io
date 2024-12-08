@@ -14,7 +14,12 @@
                 return getTime(b.update) - getTime(a.update)
                 function getTime(text) {
                     var match = RegExp('(\\d+)\\D(\\d+)\\D(\\d+)').exec(text)
-                    return (new Date(`${match[1]}-${match[2]}-${match[3]}`)).getTime()
+                    try {
+                        return (new Date(`${match[1]}-${match[2]}-${match[3]}`)).getTime()
+                    } catch (error) {
+                        return (new Date(`1970-01-01`)).getTime()
+                    }
+                    
                 }
             })//时间排序
             for (let i = 0; i < item.length; i++) {
