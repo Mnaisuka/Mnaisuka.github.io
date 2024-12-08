@@ -5,7 +5,7 @@ import time
 import re
 import os
 
-proxies = {"http": None, "https":None}
+proxies = {"http": None, "https": None}
 
 # 'https://xpazeman.com/tld-mod-list/assets/js/ModSources.js'
 url = "https://xpazeman.com/tld-mod-list/sources/mod-sources.js?v=3.0.1"
@@ -61,11 +61,14 @@ with open("./game/thelongdark/api/item.json", "r", encoding="UTF-8") as f:
 def getTimestamp(text: str):
     arr = re.findall("(\d+)\D(\d+)\D(\d+)", text)
     print("时间戳", text)
-    return time.mktime(
-        time.strptime(
-            f"{arr[0][0]}-{arr[0][1]}-{arr[0][2]} 00:00:00", "%Y-%m-%d %H:%M:%S"
+    try:
+        return time.mktime(
+            time.strptime(
+                f"{arr[0][0]}-{arr[0][1]}-{arr[0][2]} 00:00:00", "%Y-%m-%d %H:%M:%S"
+            )
         )
-    )
+    except:
+        return time.mktime(time.strptime("1970-01-01 00:00:00", "%Y-%m-%d %H:%M:%S"))
 
 
 item.sort(key=lambda x: getTimestamp(x["update"]), reverse=True)
