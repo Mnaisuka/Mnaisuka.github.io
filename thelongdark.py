@@ -22,6 +22,7 @@ write = []
 index = 0
 for url in arrlist:
     index = index + 1
+    print(url)
     mods = requests.get(url, proxies=proxies).json()
     for info in mods["mods"]:
         wdict = {}
