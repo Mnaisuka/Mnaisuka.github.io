@@ -7,44 +7,30 @@ import os
 
 proxies = {"http": None, "https": None}
 
-# 'https://xpazeman.com/tld-mod-list/assets/js/ModSources.js'
-url = "https://xpazeman.com/tld-mod-list/sources/mod-sources.js?v=3.0.1"
+url = "https://tldmods.com/api.json?details"
 response = requests.get(url, proxies=proxies)  # 获取所有作者提供的列表
-""" getlist = js2py.eval_js(
-    "function get(){\n"+response.text+"\n return modSources}")
-arrlist = json.loads(str(getlist()).replace("'", '"')) """
-url_pattern = r"'(https?://[^']+)'"
-arrlist = re.findall(url_pattern, response.text)
+mods = response.json()
 
 
 write = []
 
 index = 0
-for url in arrlist:
-    index = index + 1
-    try:
-        mods = requests.get(url, proxies=proxies).json()
-        for info in mods["mods"]:
-            wdict = {}
-            wdict["title"] = info["name"]
-            wdict["author"] = mods["author"]
-            wdict["game_ver"] = info["testedon"]["tldversion"]
-            wdict["load_ver"] = info["testedon"]["mlversion"]
-            wdict["download"] = info["downloadURL"]
-            dependencies = info["dependencies"]
-            if not dependencies:
-                dependencies = "undefined"
-            else:
-                dependencies = ",".join(dependencies)
-            wdict["dependence"] = dependencies
-            wdict["detailed"] = info["description"]
-            wdict["update"] = info["updated"]
-            wdict["github"] = info["modURL"]
-            wdict["status"] = info["status"]["working"]
-            write.append(json.dumps(wdict))
-    except Exception as e:
-        print(url,str(e))
-    print(index, len(arrlist))
+
+for _, mod in enumerate(mods):
+    t = {
+        "title": mod,
+        "author": mods[mod]["Author"],
+        "game_ver": mods[mod]["TestedOn"]["tld"],
+        "load_ver": mods[mod]["TestedOn"]["ml"],
+        "download": mods[mod]["Download"]["browser_download_url"],
+        "dependence": mods[mod]["Description"],
+        "update": mods[mod]["Updated"],
+        "github": mods[mod]["ModUrl"],
+        "status": mods[mod]["Status"]["working"],
+    }
+    write.append(json.dumps(t))
+    print(_, len(mods), mod)
+    
 arr_str = "[" + (",".join(write)) + "]"
 
 if os.path.exists("./game/thelongdark/api"):
