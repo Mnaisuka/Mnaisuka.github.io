@@ -30,7 +30,7 @@ for _, mod in enumerate(mods):
     }
     write.append(json.dumps(t))
     print(_, len(mods), mod)
-    
+
 arr_str = "[" + (",".join(write)) + "]"
 
 if os.path.exists("./game/thelongdark/api"):
@@ -60,26 +60,30 @@ def getTimestamp(text: str):
         return time.mktime(time.strptime("1970-01-01 00:00:00", "%Y-%m-%d %H:%M:%S"))
 
 
-item.sort(key=lambda x: getTimestamp(x["update"]), reverse=True)
-with open("./game/thelongdark/api/item.json", "w+", encoding="UTF-8") as f:
-    f.write(json.dumps(item))
-    f.close()
+try:
+    item.sort(key=lambda x: getTimestamp(x["update"]), reverse=True)
+    with open("./game/thelongdark/api/item.json", "w+", encoding="UTF-8") as f:
+        f.write(json.dumps(item))
+        f.close()
 
-# 根据排序写出文本
-if not os.path.exists("./game/thelongdark/api/transl.json"):
-    f = open("./game/thelongdark/api/transl.json", "w+")
-    f.write("{}")
-    f.close()
-with open(
-    "./game/thelongdark/api/transl.json", "r+", encoding="UTF-8"
-) as f:  # 读汉化文件
-    transl = json.load(f)
-    f.close()
-for this in item:
-    if not (this["title"] in transl):
-        transl[this["title"]] = "[×]" + this["title"]
-    if not (this["detailed"] in transl):
-        transl[this["detailed"]] = "[×]" + this["detailed"]
-with open("./game/thelongdark/api/transl.json", "w+") as f:  # 写汉化文件
-    f.write(json.dumps(transl))
-    f.close()
+    # 根据排序写出文本
+    if not os.path.exists("./game/thelongdark/api/transl.json"):
+        f = open("./game/thelongdark/api/transl.json", "w+")
+        f.write("{}")
+        f.close()
+    with open(
+        "./game/thelongdark/api/transl.json", "r+", encoding="UTF-8"
+    ) as f:  # 读汉化文件
+        transl = json.load(f)
+        f.close()
+    for this in item:
+        if not (this["title"] in transl):
+            transl[this["title"]] = "[×]" + this["title"]
+        if not (this["detailed"] in transl):
+            transl[this["detailed"]] = "[×]" + this["detailed"]
+    with open("./game/thelongdark/api/transl.json", "w+") as f:  # 写汉化文件
+        f.write(json.dumps(transl))
+        f.close()
+
+except Exception as e:
+    print("未知错误",str(e))
