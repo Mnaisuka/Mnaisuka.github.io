@@ -79,8 +79,8 @@ try:
     for this in item:
         if not (this["title"] in transl):
             transl[this["title"]] = "[×]" + this["title"]
-        if not (this["detailed"] in transl):
-            transl[this["detailed"]] = "[×]" + this["detailed"]
+        if not (this["dependence"] in transl):
+            transl[this["dependence"]] = "[×]" + this["dependence"]
     with open("./game/thelongdark/api/transl.json", "w+") as f:  # 写汉化文件
         f.write(json.dumps(transl))
         f.close()
