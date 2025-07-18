@@ -18,7 +18,7 @@ jobs:
     - name: '指定python环境'
       uses: actions/setup-python@v3
       with:
-        python-version: "3.7"
+        python-version: "3.9.23"
     - name: "安装运行环境1"
       run: pip install beautifulsoup4
     - name: "安装运行环境2"
