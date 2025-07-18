@@ -22,26 +22,28 @@ write = []
 index = 0
 for url in arrlist:
     index = index + 1
-    print(url)
-    mods = requests.get(url, proxies=proxies).json()
-    for info in mods["mods"]:
-        wdict = {}
-        wdict["title"] = info["name"]
-        wdict["author"] = mods["author"]
-        wdict["game_ver"] = info["testedon"]["tldversion"]
-        wdict["load_ver"] = info["testedon"]["mlversion"]
-        wdict["download"] = info["downloadURL"]
-        dependencies = info["dependencies"]
-        if not dependencies:
-            dependencies = "undefined"
-        else:
-            dependencies = ",".join(dependencies)
-        wdict["dependence"] = dependencies
-        wdict["detailed"] = info["description"]
-        wdict["update"] = info["updated"]
-        wdict["github"] = info["modURL"]
-        wdict["status"] = info["status"]["working"]
-        write.append(json.dumps(wdict))
+    try:
+        mods = requests.get(url, proxies=proxies).json()
+        for info in mods["mods"]:
+            wdict = {}
+            wdict["title"] = info["name"]
+            wdict["author"] = mods["author"]
+            wdict["game_ver"] = info["testedon"]["tldversion"]
+            wdict["load_ver"] = info["testedon"]["mlversion"]
+            wdict["download"] = info["downloadURL"]
+            dependencies = info["dependencies"]
+            if not dependencies:
+                dependencies = "undefined"
+            else:
+                dependencies = ",".join(dependencies)
+            wdict["dependence"] = dependencies
+            wdict["detailed"] = info["description"]
+            wdict["update"] = info["updated"]
+            wdict["github"] = info["modURL"]
+            wdict["status"] = info["status"]["working"]
+            write.append(json.dumps(wdict))
+    except Exception as e:
+        print(url,str(e))
     print(index, len(arrlist))
 arr_str = "[" + (",".join(write)) + "]"
 
