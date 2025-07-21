@@ -52,7 +52,7 @@ def tl(text):
 
 def process_mod(name, model):
     remarks = model["Name"].strip()
-    model["Name"] = tl(model["Name"]) + f"|{remarks}"
+    model["Name"] = tl(model["Name"]) + f"（{remarks}）"
     model["Description"] = tl(model["Description"])
     print(name, model["Name"])
     print(name, model["Description"])
