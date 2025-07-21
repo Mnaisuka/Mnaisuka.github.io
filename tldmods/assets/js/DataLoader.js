@@ -16,7 +16,7 @@ DataLoader.prototype = {
 
 		var _this = this;
 
-		var file = "/api.json";
+		var file = "/thelongdark/api.json";
 			$.getJSON(file, function(data) {
 				 $.each(data, function (modName, modData) {
 //					console.log(modData);
