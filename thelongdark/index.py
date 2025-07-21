@@ -51,7 +51,8 @@ def tl(text):
 
 
 def process_mod(name, model):
-    model["Name"] = tl(model["Name"])
+    remarks = model["Name"].strip()
+    model["Name"] = tl(model["Name"]) + f"|{remarks}"
     model["Description"] = tl(model["Description"])
     print(name, model["Name"])
     print(name, model["Description"])
