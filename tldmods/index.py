@@ -4,7 +4,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 
 bigmodel_token = os.environ.get("GH_TOKEN")
-CACHE_FILE = "./tldmods/tl_cache.json"
+CACHE_FILE = "./thelongdark/i18n.json"
 
 # 加载本地缓存
 if os.path.exists(CACHE_FILE):
@@ -76,7 +76,7 @@ def thelongdark():
             name, updated_model = future.result()
             updated_mods[name] = updated_model
 
-    with open("./api.json", "w+", encoding="UTF-8") as f:
+    with open("./thelongdark/api.json", "w+", encoding="UTF-8") as f:
         json.dump(updated_mods, f, ensure_ascii=False, indent=2)
 
 
