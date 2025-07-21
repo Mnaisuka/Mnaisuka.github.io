@@ -1,6 +1,6 @@
 {
   "SafehouseCustomizationPlus": {
-    "Name": "安全屋定制增强版|Safehouse Customization Plus",
+    "Name": "安全屋定制增强版（Safehouse Customization Plus）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "允许在所有地方进行自定义，可以移动和拾取容器、炉灶、工作台等等。<br><br>警告！请将此模组视为实验性。虽然没有报告丢失物品的情况，但可能性仍然存在。请随时备份存档以防万一。",
@@ -62,7 +62,7 @@
     ]
   },
   "AdaptiveArsenal": {
-    "Name": "适应性武器库|Adaptive Arsenal",
+    "Name": "适应性武器库（Adaptive Arsenal）",
     "Type": "mod",
     "Author": "Deadman",
     "Description": "适应性武器库是一个改进《The Long Dark》中现有武器机制的模组。",
@@ -118,7 +118,7 @@
     ]
   },
   "AdditionalMiserySpawns": {
-    "Name": "额外的苦难模式生成点|Additional Misery Spawns",
+    "Name": "额外的苦难模式生成点（Additional Misery Spawns）",
     "Type": "mod",
     "Author": "BigFish",
     "Description": "在苦难模式中增加更多生成点",
@@ -172,7 +172,7 @@
     ]
   },
   "AdjustableWalkSpeed": {
-    "Name": "可调节步行速度|Adjustable Walk Speed",
+    "Name": "可调节步行速度（Adjustable Walk Speed）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "可调节步行速度允许玩家通过鼠标滚轮调整步行速度，以获得更慢的电影化时刻。",
@@ -225,7 +225,7 @@
     ]
   },
   "AfflictionComponent": {
-    "Name": "病痛组件|Affliction Component",
+    "Name": "病痛组件（Affliction Component）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "一个框架模组，允许模组制作者向游戏中添加自定义病痛。",
@@ -282,7 +282,7 @@
     ]
   },
   "AfraidoftheDark": {
-    "Name": "怕黑|Afraid of the Dark",
+    "Name": "怕黑（Afraid of the Dark）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "使玩家在夜间感到焦虑。",
@@ -336,7 +336,7 @@
     ]
   },
   "AlcoholMod": {
-    "Name": "酒精模组|AlcoholMod",
+    "Name": "酒精模组（AlcoholMod）",
     "Type": "mod",
     "Author": "BA",
     "Description": "ModComponent的附加组件，启用酒精机制。没有此组件，所有含酒精的食物将视为无酒精食物。",
@@ -393,7 +393,7 @@
     ]
   },
   "AllRandomLayoutsAtOnce": {
-    "Name": "所有随机布局同时启用|All Random Layouts At Once",
+    "Name": "所有随机布局同时启用（All Random Layouts At Once）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "此模组允许在同一局游戏中结合所有随机布局。",
@@ -451,7 +451,7 @@
     ]
   },
   "AlternativeActionUtilities": {
-    "Name": "替代动作工具|AlternativeActionUtilities",
+    "Name": "替代动作工具（AlternativeActionUtilities）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "一个用于点击物体时执行自定义动作的工具模组。",
@@ -508,7 +508,7 @@
     ]
   },
   "AmbientLights": {
-    "Name": "环境光|Ambient Lights",
+    "Name": "环境光（Ambient Lights）",
     "Type": "mod",
     "Author": "Xpazeman",
     "Description": "此模组旨在修改带窗户的室内默认光线，使其更明亮，这样在中午时无需光源即可移动，并更能反映室外的情况（时间、天气和太阳位置）。",
@@ -569,7 +569,7 @@
     ]
   },
   "AmmunitionCraftingTools": {
-    "Name": "弹药制作工具|AmmunitionCraftingTools",
+    "Name": "弹药制作工具（AmmunitionCraftingTools）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。使用这些工具制作弹药耗时显著更长。",
@@ -634,7 +634,7 @@
     ]
   },
   "Architect": {
-    "Name": "建筑师|Architect",
+    "Name": "建筑师（Architect）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "模块化基地建造模组",
@@ -695,7 +695,7 @@
     ]
   },
   "ArrowMod": {
-    "Name": "箭矢模组|ArrowMod",
+    "Name": "箭矢模组（ArrowMod）",
     "Type": "mod",
     "Author": "ttr",
     "Description": "允许更改制作箭和箭头的持续时间。为箭添加了额外的制作选项。\n\n设置更改后可能需要重新启动游戏。",
@@ -752,7 +752,7 @@
     ]
   },
   "AudioCore": {
-    "Name": "音频核心|AudioCore",
+    "Name": "音频核心（AudioCore）",
     "Type": "plugin",
     "Author": "Digitalzombie",
     "Description": "这是一个插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！",
@@ -808,7 +808,7 @@
     ]
   },
   "AudioManager": {
-    "Name": "音频管理器|AudioManager",
+    "Name": "音频管理器（AudioManager）",
     "Type": "library",
     "Author": "Digitalzombie",
     "Description": "用于使用自定义音频片段和控制原版音频的辅助模组。\n\n禁用信号弹音频，禁用瀑布音频，调整室内风效音量（例如，像叮当声），调整极光音乐音量。",
@@ -868,7 +868,7 @@
     ]
   },
   "AuroraMonitor": {
-    "Name": "极光监视器|Aurora Monitor",
+    "Name": "极光监视器（Aurora Monitor）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "一个正在开发中的模组，最终将允许完全控制天气。目前允许控制极光，并会在急救界面显示天气统计信息。",
@@ -928,7 +928,7 @@
     "GameVersion": []
   },
   "AutoUpdatingPlugin": {
-    "Name": "自动更新插件|Auto Updating Plugin",
+    "Name": "自动更新插件（Auto Updating Plugin）",
     "Type": "plugin",
     "Author": "STBlade",
     "Description": "插件。自动更新大多数模组和插件。",
@@ -980,7 +980,7 @@
     ]
   },
   "BeachcombingAdjustments": {
-    "Name": "海岸拾荒调整|Beachcombing Adjustments",
+    "Name": "海岸拾荒调整（Beachcombing Adjustments）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "允许你更改海岸拾荒的战利品表。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -1033,7 +1033,7 @@
     ]
   },
   "BedrollTweaker": {
-    "Name": "睡袋调整器|Bedroll Tweaker",
+    "Name": "睡袋调整器（Bedroll Tweaker）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "* 调整每种睡袋类型的保暖度、重量和衰减率。\n* 使睡袋能够“叠加”保暖加成。",
@@ -1093,7 +1093,7 @@
     ]
   },
   "BetterBases": {
-    "Name": "更好的基地|Better Bases",
+    "Name": "更好的基地（Better Bases）",
     "Type": "mod",
     "Author": "Xpazeman",
     "Description": "《The Long Dark》的模组，允许玩家以多种方式改进基地：大多数家具可以移动（前提是你先清理了杂物），大多数损坏的橱柜和抽屉可以修复，室内的大多数杂物可以移除，其中一些还可以移动。",
@@ -1154,7 +1154,7 @@
     ]
   },
   "BetterNightSky": {
-    "Name": "更好的夜空|Better Night Sky",
+    "Name": "更好的夜空（Better Night Sky）",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "Description": "使夜空更加逼真。用更精细的图像替换了月亮和星星。添加了流星雨。",
@@ -1213,7 +1213,7 @@
     ]
   },
   "BetterSkillXP": {
-    "Name": "更好的技能经验|Better Skill XP",
+    "Name": "更好的技能经验（Better Skill XP）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "通过此模组，技能点数根据（可调整的）做事时间获得。",
@@ -1269,7 +1269,7 @@
     ]
   },
   "BetterWaterManagement": {
-    "Name": "更好的水资源管理|Better Water Management",
+    "Name": "更好的水资源管理（Better Water Management）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "改进《The Long Dark》中水资源管理方式的模组。<br><br><a href='https://github.com/dommrogers/Better-Water-Management' target='_blank'>安装说明</a>",
@@ -1329,7 +1329,7 @@
     ]
   },
   "Binoculars": {
-    "Name": "双筒望远镜|Binoculars",
+    "Name": "双筒望远镜（Binoculars）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "让你看得更远。<br><br><a href='https://github.com/ds5678/Binoculars' target='_blank'>安装说明</a><br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -1389,7 +1389,7 @@
     ]
   },
   "BleedingRevamped": {
-    "Name": "出血机制重制|Bleeding Revamped",
+    "Name": "出血机制重制（Bleeding Revamped）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "动物出血机制的重制。",
@@ -1444,7 +1444,7 @@
     ]
   },
   "BlueprintCleaner": {
-    "Name": "蓝图清理器|Blueprint Cleaner",
+    "Name": "蓝图清理器（Blueprint Cleaner）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "- 此模组为你的制作/烹饪面板添加了一些生活质量改进。\n- 它允许你随时隐藏/显示你想要的蓝图/配方，以保持面板尽可能整洁。",
@@ -1499,7 +1499,7 @@
     ]
   },
   "BountifulForaging": {
-    "Name": "丰富的采集|Bountiful Foraging",
+    "Name": "丰富的采集（Bountiful Foraging）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "在野外寻找食物和有用的材料。GitHub仓库中有非DLC兼容版本。",
@@ -1563,7 +1563,7 @@
     ]
   },
   "BowRepair": {
-    "Name": "弓箭修复|Bow Repair",
+    "Name": "弓箭修复（Bow Repair）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "使所有弓箭可修复，修复成本和地点可自定义。",
@@ -1622,7 +1622,7 @@
     ]
   },
   "CaffeinatedSodas": {
-    "Name": "含咖啡因的汽水|Caffeinated Sodas",
+    "Name": "含咖啡因的汽水（Caffeinated Sodas）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "汽水现在可以减少疲劳，每种汽水的减少量可自定义。因为汽水通常含有咖啡因和高糖，它们至少会给你一点提神效果，对吧？",
@@ -1681,7 +1681,7 @@
     ]
   },
   "CampingTools": {
-    "Name": "露营工具|Camping Tools",
+    "Name": "露营工具（Camping Tools）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "用于户外冒险的工具。",
@@ -1744,7 +1744,7 @@
     ]
   },
   "Candlelight": {
-    "Name": "烛光|Candlelight",
+    "Name": "烛光（Candlelight）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "添加蜡烛和制作蜡烛的新材料。",
@@ -1807,7 +1807,7 @@
     ]
   },
   "CanisterRefill": {
-    "Name": "罐体填充|Canister Refill",
+    "Name": "罐体填充（Canister Refill）",
     "Type": "mod",
     "Author": "TonisGaming",
     "Description": "增加了填充呼吸器使用过的空罐体的能力。",
@@ -1860,7 +1860,7 @@
     ]
   },
   "CanneryManufacturing": {
-    "Name": "罐头制造|CanneryManufacturing",
+    "Name": "罐头制造（CanneryManufacturing）",
     "Type": "mod",
     "Author": "Varrxion",
     "Description": "旨在提高Bleak Inlet中Last Resort罐头厂车间的可用性，特别是在Interloper难度下。",
@@ -1920,7 +1920,7 @@
     ]
   },
   "CarcassYieldTweaker": {
-    "Name": "尸体产出调整器|Carcass Yield Tweaker",
+    "Name": "尸体产出调整器（Carcass Yield Tweaker）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "允许调整尸体产出和收获时间。",
@@ -1979,7 +1979,7 @@
     ]
   },
   "ChangeCustomSettings": {
-    "Name": "更改自定义设置|ChangeCustomSettings",
+    "Name": "更改自定义设置（ChangeCustomSettings）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "允许你更改正在运行游戏的难度设置。",
@@ -2035,7 +2035,7 @@
     ]
   },
   "ChooseStartingConditions": {
-    "Name": "选择起始条件|Choose Starting Conditions",
+    "Name": "选择起始条件（Choose Starting Conditions）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "允许你在开始新游戏时选择起始状态、疲劳、饥饿、口渴、保暖、受伤和疾病。完整说明在README中。",
@@ -2088,7 +2088,7 @@
     "GameVersion": []
   },
   "ChooseStartingGear": {
-    "Name": "选择起始装备|Choose Starting Gear",
+    "Name": "选择起始装备（Choose Starting Gear）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "允许你在开始新游戏时选择起始装备。完整说明在README中。",
@@ -2141,7 +2141,7 @@
     "GameVersion": []
   },
   "ChooseStartingLocation": {
-    "Name": "选择起始地点|Choose Starting Location",
+    "Name": "选择起始地点（Choose Starting Location）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "允许你在开始新的沙盒游戏时选择起始地点。300多个地点，覆盖所有区域和所有难度模式。完整说明在README中。",
@@ -2194,7 +2194,7 @@
     "GameVersion": []
   },
   "ClothingExpanded": {
-    "Name": "服装扩展|Clothing Expanded",
+    "Name": "服装扩展（Clothing Expanded）",
     "Type": "mod",
     "Author": "TonisGaming",
     "Description": "增加了一种将配件与服装结合的方式，以同时装备更多配件。",
@@ -2254,7 +2254,7 @@
     ]
   },
   "ClothingTweaker2": {
-    "Name": "服装调整器2|Clothing Tweaker 2",
+    "Name": "服装调整器2（Clothing Tweaker 2）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "重新构想的服装调整器。允许你随时编辑服装属性。",
@@ -2313,7 +2313,7 @@
     ]
   },
   "CoastalConnection": {
-    "Name": "海岸连接|Coastal Connection",
+    "Name": "海岸连接（Coastal Connection）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "通过共享道路连接Coastal Highway和Bleak Inlet。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -2364,7 +2364,7 @@
     ]
   },
   "CollectorCards": {
-    "Name": "收藏卡|Collector Cards",
+    "Name": "收藏卡（Collector Cards）",
     "Type": "mod",
     "Author": "Kaiusername",
     "Description": "在大熊岛上寻找隐藏的手绘卡片收藏！",
@@ -2426,7 +2426,7 @@
     ]
   },
   "ComplexLogger": {
-    "Name": "复杂日志记录器|Complex Logger",
+    "Name": "复杂日志记录器（Complex Logger）",
     "Type": "library",
     "Author": "The Illusion",
     "Description": "一个为游戏添加更复杂日志记录的模组。",
@@ -2481,7 +2481,7 @@
     "GameVersion": []
   },
   "CoolHome": {
-    "Name": "酷之家|CoolHome",
+    "Name": "酷之家（CoolHome）",
     "Type": "mod",
     "Author": "yasenfire",
     "Description": "不再有安全的地方。此模组移除庇护所的温度加成。使用火、火把、信号弹和其他热源。适当加热的庇护所即使没有火也能保持一段时间的温暖。",
@@ -2538,7 +2538,7 @@
     ]
   },
   "CoordinatesGrabber": {
-    "Name": "坐标获取器|Coordinates Grabber",
+    "Name": "坐标获取器（Coordinates Grabber）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "工具模组。允许你查看/复制交互物品的名称、位置、旋转和场景。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -2593,7 +2593,7 @@
     ]
   },
   "CougarSoundBegone": {
-    "Name": "美洲狮声音移除|CougarSoundBegone",
+    "Name": "美洲狮声音移除（CougarSoundBegone）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "在启动时移除主菜单中烦人的美洲狮。",
@@ -2647,7 +2647,7 @@
     ]
   },
   "CozyBlankets": {
-    "Name": "舒适毯子|CozyBlankets",
+    "Name": "舒适毯子（CozyBlankets）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "在寒冷的冬夜让你更温暖。原作者ds5678。",
@@ -2708,7 +2708,7 @@
     ]
   },
   "CozyCushions": {
-    "Name": "舒适靠垫|CozyCushions",
+    "Name": "舒适靠垫（CozyCushions）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "14种可制作的枕头；可坐在椅子、长凳、厕所等其他物体上；可选增益效果。",
@@ -2768,7 +2768,7 @@
     ]
   },
   "CraftAnywhereRedux": {
-    "Name": "随处制作重制|Craft Anywhere Redux",
+    "Name": "随处制作重制（Craft Anywhere Redux）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "允许你调整原版可制作物品的制作地点。",
@@ -2823,7 +2823,7 @@
     "GameVersion": []
   },
   "CraftingRevisions": {
-    "Name": "制作修订|Crafting Revisions",
+    "Name": "制作修订（Crafting Revisions）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "改进制作用户界面并启用自定义蓝图/配方创建。",
@@ -2876,7 +2876,7 @@
     ]
   },
   "CraftingHotkey": {
-    "Name": "制作快捷键|CraftingHotkey",
+    "Name": "制作快捷键（CraftingHotkey）",
     "Type": "mod",
     "Author": "BA",
     "Description": "为制作菜单添加快捷键。",
@@ -2931,7 +2931,7 @@
     ]
   },
   "CustomSaveDataUtilities": {
-    "Name": "自定义存档数据工具|Custom Save Data Utilities",
+    "Name": "自定义存档数据工具（Custom Save Data Utilities）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "用于装备物品自定义存档数据的工具模组。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -2982,7 +2982,7 @@
     ]
   },
   "CustomWhiteout": {
-    "Name": "自定义白化|CustomWhiteout",
+    "Name": "自定义白化（CustomWhiteout）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "《The Long Dark》的模组，让你体验自定义白化挑战。",
@@ -3036,7 +3036,7 @@
     "GameVersion": []
   },
   "DIYbySantana": {
-    "Name": "Santana的DIY|DIY by Santana",
+    "Name": "Santana的DIY（DIY by Santana）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "添加可制作的家具。",
@@ -3099,7 +3099,7 @@
     ]
   },
   "DarkerNights": {
-    "Name": "更暗的夜晚|Darker Nights",
+    "Name": "更暗的夜晚（Darker Nights）",
     "Type": "mod",
     "Author": "Xpazeman",
     "Description": "《The Long Dark》的模组，使夜晚更暗，带来新的挑战。",
@@ -3158,7 +3158,7 @@
     ]
   },
   "DeadAir": {
-    "Name": "死寂|Dead Air",
+    "Name": "死寂（Dead Air）",
     "Type": "mod",
     "Author": "TonisGaming",
     "Description": "强烈建议仅在新存档上使用。将整个大熊转化为有毒荒地，类似于ZoC的化学池。请预期会有问题。",
@@ -3217,7 +3217,7 @@
     ]
   },
   "DeveloperConsole": {
-    "Name": "开发者控制台|DeveloperConsole",
+    "Name": "开发者控制台（DeveloperConsole）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "一个使Hinterland的开发者控制台在游戏中可访问的模组。按F1打开/关闭控制台，输入“help”获取命令列表。",
@@ -3279,7 +3279,7 @@
     ]
   },
   "DeveloperConsoleWintermute": {
-    "Name": "开发者控制台Wintermute|DeveloperConsoleWintermute",
+    "Name": "开发者控制台Wintermute（DeveloperConsoleWintermute）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "故事模式的控制台。请查看发行说明以获取详细说明。",
@@ -3334,7 +3334,7 @@
     ]
   },
   "DisableCabinFever": {
-    "Name": "禁用舱内综合症|Disable Cabin Fever",
+    "Name": "禁用舱内综合症（Disable Cabin Fever）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "在所有游戏模式中禁用舱内综合症。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -3386,7 +3386,7 @@
     ]
   },
   "DrawFromDrawer": {
-    "Name": "从抽屉中取物|DrawFromDrawer",
+    "Name": "从抽屉中取物（DrawFromDrawer）",
     "Type": "mod",
     "Author": "yasenfire",
     "Description": "此模组允许你在工作台上使用抽屉中的物品进行制作。弹药工作台也适用。",
@@ -3439,7 +3439,7 @@
     ]
   },
   "DroppableUndroppables": {
-    "Name": "可丢弃的不可丢弃物|Droppable Undroppables",
+    "Name": "可丢弃的不可丢弃物（Droppable Undroppables）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "允许移动所有可能的物品，并从库存中移除所有之前不可丢弃的物品。提供将收藏品转为普通物品的选项以增加沉浸感。可选为应有重量但没有的物品添加重量。",
@@ -3497,7 +3497,7 @@
     ]
   },
   "DualSenseX": {
-    "Name": "DualSenseX|DualSenseX",
+    "Name": "DualSenseX（DualSenseX）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "在GitHub上查看说明。",
@@ -3556,7 +3556,7 @@
     ]
   },
   "DynamicTrees": {
-    "Name": "动态树木|Dynamic Trees",
+    "Name": "动态树木（Dynamic Trees）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "动态树木动态替换树木的叶片纹理，以表现积雪，增加游戏的沉浸感。",
@@ -3614,7 +3614,7 @@
     ]
   },
   "DynamicWorld": {
-    "Name": "动态世界|Dynamic World",
+    "Name": "动态世界（Dynamic World）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "添加包括地震在内的动态事件，使大熊岛的世界感觉更动态并随时间变化。",
@@ -3671,7 +3671,7 @@
     ]
   },
   "EdiblePlants": {
-    "Name": "可食用植物|Edible Plants",
+    "Name": "可食用植物（Edible Plants）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "使采摘的植物（如玫瑰果）可食用。每种物品的维生素C和卡路里可自定义。允许将物品移动到食品类别以便使用。",
@@ -3730,7 +3730,7 @@
     ]
   },
   "EternalWeather": {
-    "Name": "永恒天气|Eternal Weather",
+    "Name": "永恒天气（Eternal Weather）",
     "Type": "mod",
     "Author": "Deadman",
     "Description": "永恒天气是一个允许玩家从多种状态中更改天气并设定为无限时间的模组。",
@@ -3787,7 +3787,7 @@
     ]
   },
   "ExamineActionsAPI": {
-    "Name": "检查动作API|Examine Actions API",
+    "Name": "检查动作API（Examine Actions API）",
     "Type": "mod",
     "Author": "BA",
     "Description": "用于自定义检查动作的模组框架。",
@@ -3840,7 +3840,7 @@
     ]
   },
   "ExportJournal": {
-    "Name": "导出日志|Export Journal",
+    "Name": "导出日志（Export Journal）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "《The Long Dark》（2.06+）的模组，允许玩家导出活跃存档的日志数据。",
@@ -3897,7 +3897,7 @@
     ]
   },
   "ExtraGraphicsSettings": {
-    "Name": "额外图形设置|Extra Graphics Settings",
+    "Name": "额外图形设置（Extra Graphics Settings）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "一个为图形设置添加更多选项的模组。",
@@ -3961,7 +3961,7 @@
     ]
   },
   "ExtremeTemperatureDrop": {
-    "Name": "极端温度下降|Extreme Temperature Drop",
+    "Name": "极端温度下降（Extreme Temperature Drop）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "更改温度退化",
@@ -4015,7 +4015,7 @@
     "GameVersion": []
   },
   "FasterHarvesting": {
-    "Name": "更快收获|Faster Harvesting",
+    "Name": "更快收获（Faster Harvesting）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "添加自定义选项以更改收获物品所需的时间。",
@@ -4073,7 +4073,7 @@
     ]
   },
   "FasterSearching": {
-    "Name": "更快搜索|Faster Searching",
+    "Name": "更快搜索（Faster Searching）",
     "Type": "mod",
     "Author": "MikeyPdog",
     "Description": "加速容器搜索动作，并使空容器搜索即时完成。",
@@ -4126,7 +4126,7 @@
     "GameVersion": []
   },
   "FiligranisSkills": {
-    "Name": "Filigrani的技能|Filigrani's Skills",
+    "Name": "Filigrani的技能（Filigrani's Skills）",
     "Type": "mod",
     "Author": "BA",
     "Description": "自定义技能API",
@@ -4180,7 +4180,7 @@
     ]
   },
   "FirePackDLC": {
-    "Name": "火包DLC|Fire Pack DLC",
+    "Name": "火包DLC（Fire Pack DLC）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "新的可再生火源工具。原作者ds5678和WulfMarius。",
@@ -4244,7 +4244,7 @@
     ]
   },
   "FireAddons": {
-    "Name": "火源附加组件|FireAddons",
+    "Name": "火源附加组件（FireAddons）",
     "Type": "mod",
     "Author": "ttr",
     "Description": "余烬，烹饪时间基于温度，不同的引火物有不同的点火加成。详情见GitHub上的readme。",
@@ -4304,7 +4304,7 @@
     ]
   },
   "FixSteamWorkshopItems": {
-    "Name": "修复Steam创意工坊物品|Fix Steam Workshop Items",
+    "Name": "修复Steam创意工坊物品（Fix Steam Workshop Items）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "一个快速重新启用创意工坊本地化文件的模组。",
@@ -4357,7 +4357,7 @@
     ]
   },
   "FoodPackbyTKG": {
-    "Name": "TKG的食品包|Food Pack by 'TKG'",
+    "Name": "TKG的食品包（Food Pack by 'TKG'）",
     "Type": "mod",
     "Author": "Thekillergreece",
     "Description": "为游戏引入38种新食品。\n\n此模组是为Waltz的模组扩展设计的，因此请务必也下载那个模组！",
@@ -4420,7 +4420,7 @@
     ]
   },
   "FoodTweaker": {
-    "Name": "食品调整器|Food Tweaker",
+    "Name": "食品调整器（Food Tweaker）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "食品调整器。它做什么？它调整食品。",
@@ -4477,7 +4477,7 @@
     ]
   },
   "FoodsbyCalorieWaltz": {
-    "Name": "Calorie Waltz的食品|Foods by 'Calorie Waltz'",
+    "Name": "Calorie Waltz的食品（Foods by 'Calorie Waltz'）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "添加了20多种独特美味的<a href='https://raw.githubusercontent.com/HAHAYOUDEAD/FoodsByCalorieWaltz/main/Images/allRender2.png' target='_blank'>食品和饮料项目</a>。包含可爱的收藏品和方便的设置！<br><br>通过解压到.../Mods/进行安装。",
@@ -4536,7 +4536,7 @@
     ]
   },
   "ForgeBlueprintsDLC": {
-    "Name": "锻造蓝图DLC|Forge Blueprints DLC",
+    "Name": "锻造蓝图DLC（Forge Blueprints DLC）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "锻造中添加更多蓝图。原作者ds5678。",
@@ -4599,7 +4599,7 @@
     ]
   },
   "FoxCompanion": {
-    "Name": "狐狸伙伴|FoxCompanion",
+    "Name": "狐狸伙伴（FoxCompanion）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "为孤独的《The Long Dark》玩家添加一个小狐狸伙伴。",
@@ -4654,7 +4654,7 @@
     ]
   },
   "FriendlyInlet": {
-    "Name": "友好的入口|FriendlyInlet",
+    "Name": "友好的入口（FriendlyInlet）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "通过将木材生成点重新分配到海岸并减少和重新定位一些狼的生成点，使Bleak Inlet更友好。",
@@ -4708,7 +4708,7 @@
     "GameVersion": []
   },
   "FrozenFood": {
-    "Name": "冷冻食品|Frozen Food",
+    "Name": "冷冻食品（Frozen Food）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "冷冻食品旨在通过允许食物物品随时间冻结，为游戏增加一些真实性。",
@@ -4764,7 +4764,7 @@
     ]
   },
   "FuelManager": {
-    "Name": "燃料管理器|Fuel Manager",
+    "Name": "燃料管理器（Fuel Manager）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "燃料管理器添加了生活质量功能以帮助管理各种燃料物品。包括Better-Fuel-Management的所有功能。",
@@ -4832,7 +4832,7 @@
     ]
   },
   "FullSwing": {
-    "Name": "全力挥击|FullSwing",
+    "Name": "全力挥击（FullSwing）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "添加选项以修改冰箱门的挥动速度和半径。",
@@ -4889,7 +4889,7 @@
     ]
   },
   "GearDecayModifier": {
-    "Name": "装备衰减调整器|Gear Decay Modifier",
+    "Name": "装备衰减调整器（Gear Decay Modifier）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "《The Long Dark》的模组，用于修改装备的衰减率。设置从完全停止衰减到显著加快衰减。有多种类别可更改。",
@@ -4945,7 +4945,7 @@
     ]
   },
   "GearInfo": {
-    "Name": "装备信息|Gear Info",
+    "Name": "装备信息（Gear Info）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "在你的库存中显示额外的装备信息（装备名称旁有一个小的(i)按钮）。",
@@ -5004,7 +5004,7 @@
     ]
   },
   "GearSpawner": {
-    "Name": "装备生成器|Gear Spawner",
+    "Name": "装备生成器（Gear Spawner）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "用于生成模组物品的工具模组。",
@@ -5057,7 +5057,7 @@
     ]
   },
   "HUDImprovements": {
-    "Name": "HUD改进|HUD Improvements",
+    "Name": "HUD改进（HUD Improvements）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "Description": "HUD改进模组通过ModSettings添加了启用或禁用某些可能烦人的HUD元素的功能。\n非常感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或火源的悬浮文本。你玩游戏时间够长了，你知道一根棍子长什么样。",
@@ -5119,7 +5119,7 @@
     ]
   },
   "Halloween": {
-    "Name": "万圣节|Halloween",
+    "Name": "万圣节（Halloween）",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "Description": "Howl-oween - 由Discord模组社区献上的万圣节",
@@ -5181,7 +5181,7 @@
     ]
   },
   "HarvestYieldTweaker": {
-    "Name": "收获产出调整器|Harvest Yield Tweaker",
+    "Name": "收获产出调整器（Harvest Yield Tweaker）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "一个游戏模组，允许用户更改分解某些物品的产出量。",
@@ -5237,7 +5237,7 @@
     ]
   },
   "HouseBasements": {
-    "Name": "房屋地下室|House Basements",
+    "Name": "房屋地下室（House Basements）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "为游戏添加更多地下室。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -5289,7 +5289,7 @@
     ]
   },
   "HouseLights": {
-    "Name": "房屋灯光|House Lights",
+    "Name": "房屋灯光（House Lights）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "神奇地在大熊岛恢复电力！你可以在任何地方使用电灯开关打开和关闭灯光。",
@@ -5348,7 +5348,7 @@
     ]
   },
   "HowToRead": {
-    "Name": "如何阅读|How To Read",
+    "Name": "如何阅读（How To Read）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "此模组旨在捕捉不阅读的用户。此模组不应安装。如果你在读这个，那么你通过了测试。",
@@ -5398,7 +5398,7 @@
     ]
   },
   "HungerRevamped": {
-    "Name": "饥饿机制重制|Hunger Revamped",
+    "Name": "饥饿机制重制（Hunger Revamped）",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "Description": "改进饥饿系统，将饥饿和储存的卡路里分开。添加烹饪的自定义选项，如启用烹饪变质食物。",
@@ -5454,7 +5454,7 @@
     ]
   },
   "ImprovedAfflictions": {
-    "Name": "改进的病痛|Improved Afflictions",
+    "Name": "改进的病痛（Improved Afflictions）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "改进的病痛重制并更改了许多病痛，使其持续时间更长，效果更致命，使游戏更具挑战性。",
@@ -5511,7 +5511,7 @@
     ]
   },
   "ImprovedClothing": {
-    "Name": "改进的服装|Improved Clothing",
+    "Name": "改进的服装（Improved Clothing）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "增加因在雪地和冰面上行走、动物攻击导致的服装湿润，以及一种直接从身上放置服装的新快捷方式。",
@@ -5564,7 +5564,7 @@
     ]
   },
   "ImprovedCougar": {
-    "Name": "改进的美洲狮|Improved Cougar",
+    "Name": "改进的美洲狮（Improved Cougar）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "一个添加和更改美洲狮相关机制的游戏模组。",
@@ -5620,7 +5620,7 @@
     ]
   },
   "ImprovedFlasks": {
-    "Name": "改进的保温瓶|Improved Flasks",
+    "Name": "改进的保温瓶（Improved Flasks）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "一个为保温瓶添加新生活质量功能的游戏模组。",
@@ -5676,7 +5676,7 @@
     ]
   },
   "ImprovedLoadingScreens": {
-    "Name": "改进的加载屏幕|Improved Loading Screens",
+    "Name": "改进的加载屏幕（Improved Loading Screens）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "一个通过自定义提示、背景图像和启用或禁用加载屏幕各个方面的功能来改进游戏加载屏幕的模组。",
@@ -5731,7 +5731,7 @@
     ]
   },
   "ImprovedMagnifyingLens": {
-    "Name": "改进的放大镜|Improved Magnifying Lens",
+    "Name": "改进的放大镜（Improved Magnifying Lens）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "为使用放大镜点火增加一些真实感。",
@@ -5787,7 +5787,7 @@
     ]
   },
   "ImprovedRestForAll": {
-    "Name": "改进的全面休息|Improved Rest For All",
+    "Name": "改进的全面休息（Improved Rest For All）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "此模组允许在休息期间状态恢复设置为无（自定义模式）时，从改进休息增益中恢复状态。",
@@ -5844,7 +5844,7 @@
     ]
   },
   "ImprovedSoundtrack": {
-    "Name": "改进的音轨|Improved Soundtrack",
+    "Name": "改进的音轨（Improved Soundtrack）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "通过添加新条件来播放原声带中稀有或移除的音乐曲目，改进游戏内音轨。包括新发现地点的提示音。",
@@ -5900,7 +5900,7 @@
     ]
   },
   "ImprovedTales": {
-    "Name": "改进的故事|Improved Tales",
+    "Name": "改进的故事（Improved Tales）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "通过生活质量自定义选项改进Signal Void故事。",
@@ -5958,7 +5958,7 @@
     ]
   },
   "InDoorTemps": {
-    "Name": "室内温度|In Door Temps",
+    "Name": "室内温度（In Door Temps）",
     "Type": "mod",
     "Author": "ttr",
     "Description": "室内温度与室外温度对齐。庇护所（雪地、汽车、洞穴）不再提供固定加成。",
@@ -6013,7 +6013,7 @@
     ]
   },
   "IndoorCampfires": {
-    "Name": "室内营火|Indoor Campfires",
+    "Name": "室内营火（Indoor Campfires）",
     "Type": "mod",
     "Author": "Xpazeman",
     "Description": "此模组允许你在室内创建营火。",
@@ -6068,7 +6068,7 @@
     ]
   },
   "IndoorsGreenery": {
-    "Name": "室内绿植|Indoors Greenery",
+    "Name": "室内绿植（Indoors Greenery）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "打造自己的室内农场并重新种植植物。",
@@ -6131,7 +6131,7 @@
     ]
   },
   "InfiniteCheatDeath": {
-    "Name": "无限作弊死亡|Infinite Cheat Death",
+    "Name": "无限作弊死亡（Infinite Cheat Death）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "一个简单的模组，允许无限重生。每次重生时，你的生命计数将重置为3，允许无限重生。此模组不移除重生惩罚，惩罚仍然存在。",
@@ -6186,7 +6186,7 @@
     ]
   },
   "InfiniteFires": {
-    "Name": "无限火源|InfiniteFires",
+    "Name": "无限火源（InfiniteFires）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "用鼠标中键设置无限持续时间的火",
@@ -6245,7 +6245,7 @@
     ]
   },
   "InteriorWallDecorations": {
-    "Name": "室内墙壁装饰|Interior Wall Decorations",
+    "Name": "室内墙壁装饰（Interior Wall Decorations）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "让你用图片装饰你的基地，并上传你自己的图片。",
@@ -6305,7 +6305,7 @@
     ]
   },
   "InterloperRegionSelection": {
-    "Name": "Interloper区域选择|Interloper Region Selection",
+    "Name": "Interloper区域选择（Interloper Region Selection）",
     "Type": "mod",
     "Author": "zeobviouslyfakeacc",
     "Description": "此模组让你在Interloper模式下选择生成区域。",
@@ -6355,7 +6355,7 @@
     "GameVersion": []
   },
   "InventoryReassignments": {
-    "Name": "库存重新分配|InventoryReassignments",
+    "Name": "库存重新分配（InventoryReassignments）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "这是一个为《The Long Dark》设计的模组，允许玩家将各种装备物品重新分配到不同的库存类别。",
@@ -6410,7 +6410,7 @@
     "GameVersion": []
   },
   "ItemPiles": {
-    "Name": "物品堆|Item Piles",
+    "Name": "物品堆（Item Piles）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "为堆叠物品添加蓝图。",
@@ -6464,7 +6464,7 @@
     ]
   },
   "ItemRarities": {
-    "Name": "物品稀有度|Item Rarities",
+    "Name": "物品稀有度（Item Rarities）",
     "Type": "mod",
     "Author": "Deadman",
     "Description": "物品稀有度是一个为《The Long Dark》中每个物品赋予独特感的模组。",
@@ -6523,7 +6523,7 @@
     ]
   },
   "ItemPicker": {
-    "Name": "物品选择器|ItemPicker",
+    "Name": "物品选择器（ItemPicker）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "在拾取棍子/石头或其他物品时跳过物品检查。\n\n在你周围一定半径内批量拾取所有棍子/石头或其他物品。有或没有卡路里消耗。\n\n完全可定制。",
@@ -6581,7 +6581,7 @@
     ]
   },
   "Jump": {
-    "Name": "跳跃|Jump",
+    "Name": "跳跃（Jump）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "允许你跳跃。还包括一些设置。通过拖放到.../Mods/安装。",
@@ -6639,7 +6639,7 @@
     ]
   },
   "KeroseneLampTweaks": {
-    "Name": "煤油灯调整|Kerosene Lamp Tweaks",
+    "Name": "煤油灯调整（Kerosene Lamp Tweaks）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "修改煤油灯的燃料消耗率，为其添加衰减并更改它们发出的颜色。",
@@ -6700,7 +6700,7 @@
     ]
   },
   "KeyboardUtilities": {
-    "Name": "键盘工具|Keyboard Utilities",
+    "Name": "键盘工具（Keyboard Utilities）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "一个使其他模组更容易使用键盘和鼠标输入的工具模组。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -6751,7 +6751,7 @@
     ]
   },
   "Leatherworks": {
-    "Name": "皮革工艺|Leatherworks",
+    "Name": "皮革工艺（Leatherworks）",
     "Type": "mod",
     "Author": "TonisGaming",
     "Description": "增加了一种从兽皮更新皮革的方法，能够制作某些皮革服装，并添加了树皮，可用于多种用途，如面粉、食物和绳子。",
@@ -6814,7 +6814,7 @@
     ]
   },
   "LimitlessContainerSpace": {
-    "Name": "无限容器空间|Limitless Container Space",
+    "Name": "无限容器空间（Limitless Container Space）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "将所有容器的容量增加到10000公斤。",
@@ -6868,7 +6868,7 @@
     ]
   },
   "LitharsMending": {
-    "Name": "Lithars的修补|LitharsMending",
+    "Name": "Lithars的修补（LitharsMending）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "让你修复损坏的服装物品。",
@@ -6924,7 +6924,7 @@
     ]
   },
   "LocalizationUtilities": {
-    "Name": "本地化工具|Localization Utilities",
+    "Name": "本地化工具（Localization Utilities）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "用于本地化文本的工具模组。",
@@ -6975,7 +6975,7 @@
     ]
   },
   "LonelyOrca": {
-    "Name": "孤独的虎鲸|LonelyOrca",
+    "Name": "孤独的虎鲸（LonelyOrca）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "一个移植到DLC后《The Long Dark》的经典模组。一只孤独的虎鲸生活在Desolation Point。",
@@ -7030,7 +7030,7 @@
     ]
   },
   "MaintainYourself": {
-    "Name": "自我维护|Maintain Yourself",
+    "Name": "自我维护（Maintain Yourself）",
     "Type": "mod",
     "Author": "Deus",
     "Description": "这添加了自定义状态增益的选项。这可以使状态恢复变得更难或更容易，通过使恢复与你的需求成比例。",
@@ -7083,7 +7083,7 @@
     ]
   },
   "MapMakerTools": {
-    "Name": "地图制作工具|Map Maker Tools",
+    "Name": "地图制作工具（Map Maker Tools）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "辅助为《The Long Dark》绘制地形的模组。",
@@ -7134,7 +7134,7 @@
     ]
   },
   "MapManager": {
-    "Name": "地图管理器|Map Manager",
+    "Name": "地图管理器（Map Manager）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "显示玩家箭头\n以玩家为中心\n显示地图\n勘测地图选项：\n- 修改范围\n- 修改勘测时间\n- 自动使用宝丽来（即使你没有它们）\n自动将尸体添加到地图上。",
@@ -7194,7 +7194,7 @@
     ]
   },
   "MiseryinCustomGames": {
-    "Name": "自定义游戏中的苦难|Misery in Custom Games",
+    "Name": "自定义游戏中的苦难（Misery in Custom Games）",
     "Type": "mod",
     "Author": "BigFish",
     "Description": "为任何自定义游戏运行添加自定义设置以启用痛苦折磨。  \n原版：常规痛苦时间线  \nOnSpawn：开始一个所有折磨都已应用的运行",
@@ -7250,7 +7250,7 @@
     ]
   },
   "ModData": {
-    "Name": "模组数据|Mod Data",
+    "Name": "模组数据（Mod Data）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "一个为《The Long Dark》设计的工具模组，让其他模组独立于存档文件保存数据。",
@@ -7303,7 +7303,7 @@
     ]
   },
   "ModComponent": {
-    "Name": "模组组件|ModComponent",
+    "Name": "模组组件（ModComponent）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "工具模组；让你加载外部物品包。",
@@ -7362,7 +7362,7 @@
     ]
   },
   "ModSettings": {
-    "Name": "模组设置|ModSettings",
+    "Name": "模组设置（ModSettings）",
     "Type": "library",
     "Author": "Digitalzombie",
     "Description": "让其他模组在游戏中显示其设置。此模组本身不做任何事情，仅应作为其他模组的依赖项使用。\n\n感谢zeobviouslyfakeacc的全部工作！",
@@ -7417,7 +7417,7 @@
     ]
   },
   "ModdersGearToolbox": {
-    "Name": "模组制作者的装备工具箱|Modders' Gear Toolbox",
+    "Name": "模组制作者的装备工具箱（Modders' Gear Toolbox）",
     "Type": "mod",
     "Author": "Jods-Its",
     "Description": "此模组旨在通过添加“通用”材料和工具来帮助其他模组制作者在他们的模组中使用。物品完整列表在GitHub仓库中。",
@@ -7480,7 +7480,7 @@
     ]
   },
   "Moment": {
-    "Name": "时刻|Moment",
+    "Name": "时刻（Moment）",
     "Type": "mod",
     "Author": "BA",
     "Description": "用于模组监控游戏内时间和调度事件的模组工具。",
@@ -7534,7 +7534,7 @@
     ]
   },
   "MooseSatchelMod": {
-    "Name": "驼鹿背包模组|MooseSatchelMod",
+    "Name": "驼鹿背包模组（MooseSatchelMod）",
     "Type": "mod",
     "Author": "ttr",
     "Description": "如果佩戴驼鹿背包，减少肉、鱼、内脏和馅饼的气味和腐烂。",
@@ -7589,7 +7589,7 @@
     ]
   },
   "MoreCameraSpawns": {
-    "Name": "更多相机生成点|More Camera Spawns",
+    "Name": "更多相机生成点（More Camera Spawns）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "一个为Lower Great Bear周围添加即时相机新生成点的游戏模组。",
@@ -7644,7 +7644,7 @@
     ]
   },
   "MoreLockedDoors": {
-    "Name": "更多锁门|More Locked Doors",
+    "Name": "更多锁门（More Locked Doors）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "在游戏世界中的门和建筑物上添加更多锁。",
@@ -7700,7 +7700,7 @@
     ]
   },
   "MoreWood": {
-    "Name": "更多木材|MoreWood",
+    "Name": "更多木材（MoreWood）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "Description": "此模组添加了两种新木材。桦木可在桦树或森林附近找到。橡木柴火有时可在橡树附近找到，偶尔在森林中。",
@@ -7765,7 +7765,7 @@
     ]
   },
   "MotionTracker": {
-    "Name": "运动追踪器|MotionTracker",
+    "Name": "运动追踪器（MotionTracker）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "添加一个可以显示动物和喷漆标记的小地图。",
@@ -7823,7 +7823,7 @@
     ]
   },
   "Muscle": {
-    "Name": "肌肉|Muscle",
+    "Name": "肌肉（Muscle）",
     "Type": "mod",
     "Author": "BA",
     "Description": "吃得好，多运动，适当睡眠，你就会增加肌肉。",
@@ -7879,7 +7879,7 @@
     ]
   },
   "NonOPTorches": {
-    "Name": "非过度强大的火把|Non-OP Torches",
+    "Name": "非过度强大的火把（Non-OP Torches）",
     "Type": "mod",
     "Author": "Deus",
     "Description": "此模组使火把不那么过于强大。",
@@ -7933,7 +7933,7 @@
     ]
   },
   "NorthernLightsBroadcast": {
-    "Name": "北极光广播|NorthernLightsBroadcast",
+    "Name": "北极光广播（NorthernLightsBroadcast）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "在《The Long Dark》中观看你喜爱的电影和剧集。",
@@ -7995,7 +7995,7 @@
     ]
   },
   "NorthfolkClothingPack": {
-    "Name": "北民服装包|Northfolk Clothing Pack",
+    "Name": "北民服装包（Northfolk Clothing Pack）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "添加2件之前见过的+3件全新、受北方民族启发的可制作服装。<br><br>这是一个标准的ModComponent包，通过拖放到.../Mods/安装。",
@@ -8051,7 +8051,7 @@
     ]
   },
   "NotSoSilly": {
-    "Name": "不那么傻|NotSoSilly",
+    "Name": "不那么傻（NotSoSilly）",
     "Type": "mod",
     "Author": "BA",
     "Description": "为放置的装备启用10秒的物理效果，以便你可以自然地丢弃物品，或利用重力堆叠物品。旨在在生存模式中实用。仍有一定风险，请查看readme以了解正确用法。",
@@ -8107,7 +8107,7 @@
     ]
   },
   "PastimeReading": {
-    "Name": "消遣阅读|Pastime Reading",
+    "Name": "消遣阅读（Pastime Reading）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "添加一本可阅读、可自定义的书，带有动画等内容。<br><br><a href='https://youtu.be/MIUvKW89SgI' target='_blank'>展示视频</a>。 <a href='https://www.youtube.com/watch?v=q_k4YNhaY5A' target='_blank'>详细评论（带字幕）</a>。<br><br>模组通过解压.zip到.../Mods/安装。",
@@ -8166,7 +8166,7 @@
     ]
   },
   "PathfindersAscent": {
-    "Name": "探路者攀登|Pathfinders Ascent",
+    "Name": "探路者攀登（Pathfinders Ascent）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "Timberwolf Mountain、Blackrock和Ash Canyon的替代版本，旨在为资深幸存者提供新鲜且具挑战性的体验。",
@@ -8223,7 +8223,7 @@
     "GameVersion": []
   },
   "PauseInJournal": {
-    "Name": "日志中暂停|Pause In Journal",
+    "Name": "日志中暂停（Pause In Journal）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "在日志的任何类别中游戏将暂停。",
@@ -8279,7 +8279,7 @@
     ]
   },
   "Personality": {
-    "Name": "个性|Personality",
+    "Name": "个性（Personality）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "!!! 大多数功能已移除，请查看发行说明了解当前功能。如果仍有旧版本，请在更新前移除旧版本模组！！！ <br><br>让你自定义角色：替换纹理和更改服装。这里有一个有趣的<a href='https://youtu.be/jm8WjlVVtw8' target='_blank'>展示视频</a>。<br><br>通过解压到.../Mods/安装。",
@@ -8338,7 +8338,7 @@
     ]
   },
   "PhotoofaLovedOne": {
-    "Name": "挚爱照片|Photo of a Loved One",
+    "Name": "挚爱照片（Photo of a Loved One）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "允许你携带一张你关心的东西的可自定义图片。",
@@ -8395,7 +8395,7 @@
     ]
   },
   "PickWaterFromFishingHoles": {
-    "Name": "从钓鱼洞取水|Pick Water From Fishing Holes",
+    "Name": "从钓鱼洞取水（Pick Water From Fishing Holes）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "从淡水钓鱼洞收集无限量的非饮用水。",
@@ -8454,7 +8454,7 @@
     ]
   },
   "PineNeedleTea": {
-    "Name": "松针茶|Pine Needle Tea",
+    "Name": "松针茶（Pine Needle Tea）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "在世界各地添加松针生成，可制成富含维生素C的草药茶。高度可自定义。",
@@ -8516,7 +8516,7 @@
     ]
   },
   "PlacingAnywhere": {
-    "Name": "随处放置|Placing Anywhere",
+    "Name": "随处放置（Placing Anywhere）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "《The Long Dark》的模组，移除放置物品的限制，并添加旋转和定位物体的控制。",
@@ -8573,7 +8573,7 @@
     ]
   },
   "PlantHarvestTweaker": {
-    "Name": "植物收获调整器|Plant Harvest Tweaker",
+    "Name": "植物收获调整器（Plant Harvest Tweaker）",
     "Type": "mod",
     "Author": "Marcy",
     "Description": "允许更改游戏中所有植物的收获量和收获时间。允许在最小值和最大值之间随机化物品产出。添加一个选项，使工具在用于植物收获时会损耗。",
@@ -8632,7 +8632,7 @@
     ]
   },
   "QoL": {
-    "Name": "生活质量|QoL",
+    "Name": "生活质量（QoL）",
     "Type": "mod",
     "Author": "BA",
     "Description": "减少用户界面带来的挫败感，甚至使其使用起来更愉快。你现在可以大部分时间使用键盘控制游戏。",
@@ -8687,7 +8687,7 @@
     ]
   },
   "RNStrippedfunctions": {
-    "Name": "RN-剥离函数|RN-Stripped functions",
+    "Name": "RN-剥离函数（RN-Stripped functions）",
     "Type": "mod",
     "Author": "RN mod",
     "Description": "尸体移动和从电器点燃火把 - 从Relentless Nights模组中提取（去看看吧！）",
@@ -8744,7 +8744,7 @@
     ]
   },
   "RadialMenuUtilities": {
-    "Name": "径向菜单工具|Radial Menu Utilities",
+    "Name": "径向菜单工具（Radial Menu Utilities）",
     "Type": "library",
     "Author": "The Illusion",
     "Description": "一个为其他模组添加创建自定义径向菜单能力的工具模组。",
@@ -8800,7 +8800,7 @@
     ]
   },
   "RandomMainMenu": {
-    "Name": "随机主菜单|Random Main Menu",
+    "Name": "随机主菜单（Random Main Menu）",
     "Type": "mod",
     "Author": "Xpazeman",
     "Description": "这个模组随机化了主菜单屏幕的时间和天气，所以每次你进入时它都会改变。",
@@ -8855,7 +8855,7 @@
     ]
   },
   "RandomizeInterloperRareSpawns": {
-    "Name": "随机化Interloper稀有生成点|Randomize Interloper Rare Spawns",
+    "Name": "随机化Interloper稀有生成点（Randomize Interloper Rare Spawns）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "禁用Interloper战利品表并替换为新的随机生成点。不要在现有存档上使用。<br><br><a href='https://github.com/ds5678/RandomizeInterloperRareSpawns' target='_blank'>安装说明</a><br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -8915,7 +8915,7 @@
     ]
   },
   "RareExclusiveLoot": {
-    "Name": "稀有-独占战利品|Rare-Exclusive Loot",
+    "Name": "稀有-独占战利品（Rare-Exclusive Loot）",
     "Type": "mod",
     "Author": "Thekillergreece",
     "Description": "地堡和/或交易者中的物品现在会在世界中出现，尽管稀有且数量少。",
@@ -8976,7 +8976,7 @@
     ]
   },
   "RavineBridgeFix": {
-    "Name": "峡谷桥梁修复|Ravine Bridge Fix",
+    "Name": "峡谷桥梁修复（Ravine Bridge Fix）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "修复峡谷中的桥梁。",
@@ -9030,7 +9030,7 @@
     "GameVersion": []
   },
   "RecipeRequirements": {
-    "Name": "配方要求|Recipe Requirements",
+    "Name": "配方要求（Recipe Requirements）",
     "Type": "mod",
     "Author": "Ezinw",
     "Description": "允许玩家调整创建特定配方所需的烹饪技能等级。",
@@ -9089,7 +9089,7 @@
     ]
   },
   "RecordingUtils": {
-    "Name": "录制工具|Recording Utils",
+    "Name": "录制工具（Recording Utils）",
     "Type": "mod",
     "Author": "BigFish",
     "Description": "为录制目的添加了一些动物和相机控制功能。 \n此外，还添加了@Digitalzombie的freebird实现。",
@@ -9148,7 +9148,7 @@
     ]
   },
   "ReducedLoot": {
-    "Name": "减少战利品|Reduced Loot",
+    "Name": "减少战利品（Reduced Loot）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "减少战利品通过在某些物品随机生成时移除它们来减少世界中某些物品的数量。",
@@ -9203,7 +9203,7 @@
     ]
   },
   "RelentlessNight": {
-    "Name": "无尽之夜|Relentless Night",
+    "Name": "无尽之夜（Relentless Night）",
     "Type": "mod",
     "Author": "ShieldHeart",
     "Description": "TLD 2.23使用RN 4.7.2，TLD 2.19使用RN 4.7.1，TLD 2.10+使用RN 4.6.3，TLD 2.06&2.08使用RN 4.6.1<br>地球的自转正在减慢。白天和黑夜越来越长。每个漫长的夜晚比前一个更冷更严酷。寒冷无处不在。你能在这个诡异的新世界中生存多久？<br><br>你可以通过我们的Relentless Mods Discord频道参与模组讨论、获取更新和报告问题 - <a href='https://discord.gg/GjAG9XNfR7' target='_blank'>邀请</a>。",
@@ -9261,7 +9261,7 @@
     ]
   },
   "RememberBreakDownItem": {
-    "Name": "记住分解物品|Remember Break Down Item",
+    "Name": "记住分解物品（Remember Break Down Item）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "",
@@ -9314,7 +9314,7 @@
     ]
   },
   "RemoveCougars": {
-    "Name": "移除美洲狮|Remove Cougars",
+    "Name": "移除美洲狮（Remove Cougars）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "这是一个为《The Long Dark》设计的模组，移除存在于各个区域的美洲狮。",
@@ -9369,7 +9369,7 @@
     "GameVersion": []
   },
   "RepairableRepairables": {
-    "Name": "可修复的修复工具|Repairable Repairables",
+    "Name": "可修复的修复工具（Repairable Repairables）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "Description": "可修复的修复工具，给你修复三种用于修理、制作和磨砺的基本工具的选项。可修复的工具有：步枪清洁套件、缝纫套件、磨刀石/ sharpening石。",
@@ -9431,7 +9431,7 @@
     ]
   },
   "RerollBurntBuildings": {
-    "Name": "重新随机燃烧的建筑物|Reroll Burnt Buildings",
+    "Name": "重新随机燃烧的建筑物（Reroll Burnt Buildings）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "添加控制台命令，允许你重新随机燃烧的建筑物生成点。现在还包括随机钓鱼小屋门。完整说明在README中。",
@@ -9485,7 +9485,7 @@
     "GameVersion": []
   },
   "ResearchBookTweaker": {
-    "Name": "研究书籍调整器|Research Book Tweaker",
+    "Name": "研究书籍调整器（Research Book Tweaker）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "原为更短阅读间隔模组",
@@ -9545,7 +9545,7 @@
     ]
   },
   "RetroFoodPack": {
-    "Name": "复古食品包|Retro Food Pack",
+    "Name": "复古食品包（Retro Food Pack）",
     "Type": "mod",
     "Author": "Thekillergreece",
     "Description": "23种复古食品。",
@@ -9608,7 +9608,7 @@
     ]
   },
   "RunInBackground": {
-    "Name": "后台运行|RunInBackground",
+    "Name": "后台运行（RunInBackground）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "在游戏失去焦点时保持运行。",
@@ -9664,7 +9664,7 @@
     ]
   },
   "SaveImageFilter": {
-    "Name": "保存图像滤镜|Save Image Filter",
+    "Name": "保存图像滤镜（Save Image Filter）",
     "Type": "mod",
     "Author": "zeobviouslyfakeacc",
     "Description": "保存并重新加载你选择的图像滤镜（选项 > 显示 > 图像滤镜），而不是在每次游戏重启时恢复为“无滤镜”。",
@@ -9714,7 +9714,7 @@
     "GameVersion": []
   },
   "SaveManager": {
-    "Name": "存档管理器|Save Manager",
+    "Name": "存档管理器（Save Manager）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "在沙盒/生存模式中添加使用快捷键保存、加载和自动保存的功能。目前不重新添加暂停菜单中的按钮。",
@@ -9773,7 +9773,7 @@
     ]
   },
   "SaveSafety": {
-    "Name": "存档安全|Save Safety",
+    "Name": "存档安全（Save Safety）",
     "Type": "mod",
     "Author": "BA",
     "Description": "此模组在保存或加载补丁未成功执行时明确警告你，以便你知道是时候不保存退出。",
@@ -9825,7 +9825,7 @@
     ]
   },
   "SeasonedInterloping": {
-    "Name": "老练的Interloping|Seasoned Interloping",
+    "Name": "老练的Interloping（Seasoned Interloping）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "将Forsaken Airfield、Bleak Inlet、Zone of Contamination和Sundered Pass添加到Interloper起始区域列表中。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -9876,7 +9876,7 @@
     ]
   },
   "ShelterTemperatureTweaks": {
-    "Name": "庇护所温度调整|Shelter Temperature Tweaks",
+    "Name": "庇护所温度调整（Shelter Temperature Tweaks）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "允许你调整没有加载屏幕的庇护所的温度，如登山者小屋。完整说明在README中。",
@@ -9928,7 +9928,7 @@
     "GameVersion": []
   },
   "ShootingRange": {
-    "Name": "射击场|Shooting Range",
+    "Name": "射击场（Shooting Range）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "在Pleasant Valley的Pensive Pond附近启用射击场目标、风向标、狩猎掩体和一个温暖的谷仓。",
@@ -9983,7 +9983,7 @@
     "GameVersion": []
   },
   "Shortcuts": {
-    "Name": "快捷方式|Shortcuts",
+    "Name": "快捷方式（Shortcuts）",
     "Type": "mod",
     "Author": "moosemeat",
     "Description": "为某些区域添加多种快捷方式。你需要重新加载游戏以使更改生效。",
@@ -10039,7 +10039,7 @@
     "GameVersion": []
   },
   "SilentProtagonist": {
-    "Name": "沉默的主角|Silent Protagonist",
+    "Name": "沉默的主角（Silent Protagonist）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "使玩家角色声音沉默。完整说明在README中。",
@@ -10089,7 +10089,7 @@
     "GameVersion": []
   },
   "SillyMod": {
-    "Name": "傻瓜模组|Silly Mod",
+    "Name": "傻瓜模组（Silly Mod）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "启用乐趣：装备物品物理效果、碰撞等<br><br>不要在你的正常存档上使用，你会后悔的。",
@@ -10147,7 +10147,7 @@
     ]
   },
   "SkillAdjustment": {
-    "Name": "技能调整|Skill Adjustment",
+    "Name": "技能调整（Skill Adjustment）",
     "Type": "mod",
     "Author": "Ezinw",
     "Description": "允许玩家调整每个等级的技能收益。",
@@ -10206,7 +10206,7 @@
     ]
   },
   "SkillManager": {
-    "Name": "技能管理器|Skill Manager",
+    "Name": "技能管理器（Skill Manager）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "",
@@ -10262,7 +10262,7 @@
     ]
   },
   "SkipIntroRedux": {
-    "Name": "跳过开场重制|Skip Intro Redux",
+    "Name": "跳过开场重制（Skip Intro Redux）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "允许玩家在启动游戏时跳到主菜单。<br><br><b>使用风险自负</b> - 现在跳过那些烦人的免责声明。",
@@ -10314,7 +10314,7 @@
     ]
   },
   "SkyCoop": {
-    "Name": "天空合作|Sky Co-op",
+    "Name": "天空合作（Sky Co-op）",
     "Type": "mod",
     "Author": "Filigrani",
     "Description": "游戏的多人模组",
@@ -10378,7 +10378,7 @@
     ]
   },
   "SleepWithoutABed": {
-    "Name": "无床睡眠|SleepWithoutABed",
+    "Name": "无床睡眠（SleepWithoutABed）",
     "Type": "mod",
     "Author": "Ezinw",
     "Description": "允许玩家在没有床或睡袋的情况下睡觉。通过径向菜单中的Pass Time选项访问。",
@@ -10436,7 +10436,7 @@
     ]
   },
   "Solitaire": {
-    "Name": "纸牌游戏|Solitaire",
+    "Name": "纸牌游戏（Solitaire）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "优雅地浪费时间 - 玩纸牌游戏",
@@ -10502,7 +10502,7 @@
     ]
   },
   "Solstice": {
-    "Name": "至日|Solstice",
+    "Name": "至日（Solstice）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "为《The Long Dark》添加季节。",
@@ -10561,7 +10561,7 @@
     ]
   },
   "SonicMode": {
-    "Name": "音速模式|Sonic Mode",
+    "Name": "音速模式（Sonic Mode）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "让你跑得快！<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -10612,7 +10612,7 @@
     ]
   },
   "Sprainkle": {
-    "Name": "扭伤调整|Sprainkle",
+    "Name": "扭伤调整（Sprainkle）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "一个全新改进的模组，完全替换旧的脚踝扭伤模组。此模组包含脚踝和手腕扭伤的单独设置以及一般扭伤的设置。",
@@ -10669,7 +10669,7 @@
     ]
   },
   "StackManager": {
-    "Name": "堆叠管理器|Stack Manager",
+    "Name": "堆叠管理器（Stack Manager）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "为更多物品添加堆叠功能。",
@@ -10728,7 +10728,7 @@
     ]
   },
   "StalkerAidsAndSupplements": {
-    "Name": "潜行者辅助和补充|StalkerAidsAndSupplements",
+    "Name": "潜行者辅助和补充（StalkerAidsAndSupplements）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "Description": "这个模组扩展了TLD的医疗物品。它深受S.T.A.L.K.E.R游戏的影响，你可能会遇到一些参考。:D",
@@ -10796,7 +10796,7 @@
     ]
   },
   "StorageProblem": {
-    "Name": "存储问题|Storage Problem",
+    "Name": "存储问题（Storage Problem）",
     "Type": "mod",
     "Author": "BA",
     "Description": "将容器管理变成一个小游戏。",
@@ -10850,7 +10850,7 @@
     ]
   },
   "StoryModeCollectibles": {
-    "Name": "故事模式收藏品|Story Mode Collectibles",
+    "Name": "故事模式收藏品（Story Mode Collectibles）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "将Wintermute中的收藏品添加到生存模式中。",
@@ -10906,7 +10906,7 @@
     ]
   },
   "StretchArmstrong": {
-    "Name": "弹力阿姆斯特朗|Stretch Armstrong",
+    "Name": "弹力阿姆斯特朗（Stretch Armstrong）",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "Description": "更改你可以与之交互的范围。",
@@ -10961,7 +10961,7 @@
     ]
   },
   "StruggleTweaks": {
-    "Name": "挣扎调整|StruggleTweaks",
+    "Name": "挣扎调整（StruggleTweaks）",
     "Type": "mod",
     "Author": "ttr",
     "Description": "设置挣扎后立即杀死狼的几率或更改狼的流血时间。你还可以更改点击力度以保护你的鼠标按钮。",
@@ -11018,7 +11018,7 @@
     ]
   },
   "SunOrientationFixes": {
-    "Name": "太阳方向修复|Sun Orientation Fixes",
+    "Name": "太阳方向修复（Sun Orientation Fixes）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "修复了几个区域的太阳方向。现在所有区域应与彼此和世界地图一致。",
@@ -11068,7 +11068,7 @@
     "GameVersion": []
   },
   "SurvivorKnowledge": {
-    "Name": "幸存者知识|Survivor Knowledge",
+    "Name": "幸存者知识（Survivor Knowledge）",
     "Type": "mod",
     "Author": "Fuar",
     "Description": "通过将制作配方和收获动作锁定在技能等级后面，模拟幸存者知识。",
@@ -11122,7 +11122,7 @@
     ]
   },
   "SurvivorsLegacy": {
-    "Name": "幸存者的遗产|Survivor's Legacy",
+    "Name": "幸存者的遗产（Survivor's Legacy）",
     "Type": "mod",
     "Author": "BA",
     "Description": "启用最小的多人互动：让其他玩家找到你的尸体（某种程度上）。",
@@ -11178,7 +11178,7 @@
     ]
   },
   "TLDsavetools": {
-    "Name": "《The Long Dark》存档工具|TLD save tools",
+    "Name": "《The Long Dark》存档工具（TLD save tools）",
     "Type": "mod",
     "Author": "TacticalEx",
     "Description": "用于管理《The Long Dark》游戏存档的简单工具。注意：这是一个外部工具，不是模组。",
@@ -11232,7 +11232,7 @@
     ]
   },
   "TLDCigarettes": {
-    "Name": "《The Long Dark》-香烟|TLD-Cigarettes",
+    "Name": "《The Long Dark》-香烟（TLD-Cigarettes）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "添加可使用的香烟。",
@@ -11290,7 +11290,7 @@
     ]
   },
   "TLDMorphine": {
-    "Name": "《The Long Dark》-吗啡|TLD-Morphine",
+    "Name": "《The Long Dark》-吗啡（TLD-Morphine）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "将吗啡添加为可使用物品。",
@@ -11351,7 +11351,7 @@
     ]
   },
   "TLDWolfskinScarf": {
-    "Name": "《The Long Dark》-狼皮围巾|TLD-WolfskinScarf",
+    "Name": "《The Long Dark》-狼皮围巾（TLD-WolfskinScarf）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "添加一个由狼皮制成的新可制作围巾。",
@@ -11408,7 +11408,7 @@
     ]
   },
   "TargetPracticeAndMasterHunter": {
-    "Name": "目标练习与狩猎大师|Target Practice & Master Hunter",
+    "Name": "目标练习与狩猎大师（Target Practice & Master Hunter）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "目标练习：提供一系列训练功能，让你练习并享受乐趣。\n大师猎人：提供多种选项来阻止你自动、轻松地通过技能等级，确保你更努力地获得它们。\n请查看ReadMe文件以获取更多详细信息。",
@@ -11468,7 +11468,7 @@
     ]
   },
   "TheLongDevelopmentRegions": {
-    "Name": "长期开发区域|The Long Development Regions",
+    "Name": "长期开发区域（The Long Development Regions）",
     "Type": "mod",
     "Author": "Kaiusername",
     "Description": "一个小型团队项目和社区协作努力，以美丽和平衡的方式扩展大熊岛。",
@@ -11530,7 +11530,7 @@
     ]
   },
   "ThingsToDo": {
-    "Name": "待办事项|Things To Do",
+    "Name": "待办事项（Things To Do）",
     "Type": "mod",
     "Author": "BA",
     "Description": "EAAPI的演示模组，提供了一些有用的动作。",
@@ -11584,7 +11584,7 @@
     ]
   },
   "TimberwolvesAnywhere": {
-    "Name": "随处可见的森林狼|Timberwolves Anywhere",
+    "Name": "随处可见的森林狼（Timberwolves Anywhere）",
     "Type": "mod",
     "Author": "STBlade",
     "Description": "允许用户决定区域内生成哪种类型的狼。",
@@ -11637,7 +11637,7 @@
     ]
   },
   "TimeAccelerator": {
-    "Name": "时间加速器|Time Accelerator",
+    "Name": "时间加速器（Time Accelerator）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "允许玩家在不更改游戏难度的情况下加速时间。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -11691,7 +11691,7 @@
     ]
   },
   "TinCanImprovements": {
-    "Name": "锡罐改进|Tin Can Improvements",
+    "Name": "锡罐改进（Tin Can Improvements）",
     "Type": "mod",
     "Author": "zeobviouslyfakeacc",
     "Description": "允许你将4个锡罐制作成1个废金属，将锡罐的重量减少到0.05公斤，修复罐头食品重量错误。",
@@ -11741,7 +11741,7 @@
     "GameVersion": []
   },
   "TinyTweaksBuryCorpses": {
-    "Name": "小调整：埋葬尸体|Tiny Tweaks: Bury Corpses",
+    "Name": "小调整：埋葬尸体（Tiny Tweaks: Bury Corpses）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "自从安全屋定制具有相同功能后变得多余。但仍可使用<br><br>通过右键点击去除那些恶心的尸体。",
@@ -11800,7 +11800,7 @@
     ]
   },
   "TinyTweaksCorrectDropOrientation": {
-    "Name": "小调整：纠正掉落方向|Tiny Tweaks: Correct Drop Orientation",
+    "Name": "小调整：纠正掉落方向（Tiny Tweaks: Correct Drop Orientation）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "修复掉落的木制火柴和步枪的方向。因为是的，它们之前是错误的。",
@@ -11857,7 +11857,7 @@
     ]
   },
   "TinyTweaksExtendedFOV": {
-    "Name": "小调整：扩展视野|Tiny Tweaks: Extended FOV",
+    "Name": "小调整：扩展视野（Tiny Tweaks: Extended FOV）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "将视野滑块扩展到150。",
@@ -11914,7 +11914,7 @@
     ]
   },
   "TinyTweaksFallDeathGoat": {
-    "Name": "小调整：坠落死亡山羊|Tiny Tweaks: Fall Death Goat",
+    "Name": "小调整：坠落死亡山羊（Tiny Tweaks: Fall Death Goat）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "禁用坠落死亡触发但使坠落伤害加倍（可调整）。",
@@ -11974,7 +11974,7 @@
     ]
   },
   "TinyTweaksMapTextOutline": {
-    "Name": "小调整：地图文本轮廓|Tiny Tweaks: Map Text Outline",
+    "Name": "小调整：地图文本轮廓（Tiny Tweaks: Map Text Outline）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "在地图上勾勒文本轮廓，以便你能清楚看到内容。有几种变体。",
@@ -12033,7 +12033,7 @@
     ]
   },
   "TinyTweaksPauseOnRadial": {
-    "Name": "小调整：径向菜单暂停|Tiny Tweaks: Pause On Radial",
+    "Name": "小调整：径向菜单暂停（Tiny Tweaks: Pause On Radial）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "在调出径向菜单时减慢时间。",
@@ -12091,7 +12091,7 @@
     ]
   },
   "TinyTweaksPlantsRegrow": {
-    "Name": "小调整：植物再生|Tiny Tweaks: Plants Regrow",
+    "Name": "小调整：植物再生（Tiny Tweaks: Plants Regrow）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "植物现在将在45天后再生（可更改）。",
@@ -12151,7 +12151,7 @@
     ]
   },
   "TinyTweaksRunWithLantern": {
-    "Name": "小调整：持灯跑步|Tiny Tweaks: Run With Lantern",
+    "Name": "小调整：持灯跑步（Tiny Tweaks: Run With Lantern）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "移除灯笼动画的限制：允许移动并移除相机锁定。",
@@ -12207,7 +12207,7 @@
     ]
   },
   "TinyTweaksWakeupCall": {
-    "Name": "小调整：唤醒提示|Tiny Tweaks: Wakeup Call",
+    "Name": "小调整：唤醒提示（Tiny Tweaks: Wakeup Call）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "允许你随意中断睡眠。有一个选项在极光开始时唤醒，还有一些其他选项。",
@@ -12266,7 +12266,7 @@
     ]
   },
   "ToggleHUD": {
-    "Name": "切换HUD|Toggle HUD",
+    "Name": "切换HUD（Toggle HUD）",
     "Type": "mod",
     "Author": "ds5678",
     "Description": "允许玩家切换气味和时间指示器，而不是在一段时间后消失。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
@@ -12318,7 +12318,7 @@
     ]
   },
   "ToolUpgrade": {
-    "Name": "工具升级|Tool Upgrade",
+    "Name": "工具升级（Tool Upgrade）",
     "Type": "mod",
     "Author": "TonisGaming",
     "Description": "通过蓝图添加获取物品变体和其他物品的替代方式。",
@@ -12378,7 +12378,7 @@
     ]
   },
   "ToolsQuality": {
-    "Name": "工具质量|ToolsQuality",
+    "Name": "工具质量（ToolsQuality）",
     "Type": "mod",
     "Author": "ttr",
     "Description": "保持你的工具锋利。工具状况低会增加执行动作的时间。调整尸体/树枝的收获时间倍数。",
@@ -12436,7 +12436,7 @@
     ]
   },
   "TorchTweaker": {
-    "Name": "火把调整器|Torch Tweaker",
+    "Name": "火把调整器（Torch Tweaker）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "调整一些火把参数并允许玩家从灯笼点燃火把。",
@@ -12495,7 +12495,7 @@
     ]
   },
   "TravoisTether": {
-    "Name": "雪橇绳|Travois Tether",
+    "Name": "雪橇绳（Travois Tether）",
     "Type": "mod",
     "Author": "Waltz",
     "Description": "防止雪橇消失。",
@@ -12552,7 +12552,7 @@
     ]
   },
   "UniqueKnowledge": {
-    "Name": "独特知识|Unique Knowledge",
+    "Name": "独特知识（Unique Knowledge）",
     "Type": "mod",
     "Author": "BA",
     "Description": "每本书只读一次。",
@@ -12606,7 +12606,7 @@
     ]
   },
   "UnityExplorerTLD": {
-    "Name": "UnityExplorerTLD|UnityExplorerTLD",
+    "Name": "UnityExplorerTLD（UnityExplorerTLD）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "针对《The Long Dark》优化的UnityExplorer。",
@@ -12661,7 +12661,7 @@
     ]
   },
   "UniversalTweaks": {
-    "Name": "通用调整|Universal Tweaks",
+    "Name": "通用调整（Universal Tweaks）",
     "Type": "mod",
     "Author": "Deadman",
     "Description": "通用调整是一个通过修改《The Long Dark》中合理的内容来增强现有游戏元素的模组。",
@@ -12728,7 +12728,7 @@
     ]
   },
   "UseTheWorstFirstAndDropStone": {
-    "Name": "优先使用最差的并丢弃石头|Use The Worst First And Drop Stone",
+    "Name": "优先使用最差的并丢弃石头（Use The Worst First And Drop Stone）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "允许你在径向菜单和其他情况下优先使用状况最差的物品。\n允许你丢弃石头/引火物而不是诱饵来标记路径。\n更多详情见README。",
@@ -12785,7 +12785,7 @@
     ]
   },
   "VitaminCTracker": {
-    "Name": "维生素C追踪器|Vitamin C Tracker",
+    "Name": "维生素C追踪器（Vitamin C Tracker）",
     "Type": "mod",
     "Author": "The Illusion",
     "Description": "终于知道你有多少维生素C了！不再生活在无知中。",
@@ -12841,7 +12841,7 @@
     ]
   },
   "Watches": {
-    "Name": "手表|Watches",
+    "Name": "手表（Watches）",
     "Type": "mod",
     "Author": "Deadman",
     "Description": "一个更改《The Long Dark》中时间显示方式的模组。",
@@ -12901,7 +12901,7 @@
     ]
   },
   "WildlifeTuning": {
-    "Name": "野生动物调整|Wildlife Tuning",
+    "Name": "野生动物调整（Wildlife Tuning）",
     "Type": "mod",
     "Author": "BA",
     "Description": "一个随机化动物行为配置的TLD模组。",
@@ -12955,7 +12955,7 @@
     ]
   },
   "WolvesComeOutAtNight": {
-    "Name": "狼群夜间出没|Wolves Come Out At Night",
+    "Name": "狼群夜间出没（Wolves Come Out At Night）",
     "Type": "mod",
     "Author": "Cass",
     "Description": "防止狼在白天生成。可按区域设置或全局应用。完整说明在README中。",
@@ -13007,7 +13007,7 @@
     "GameVersion": []
   },
   "WoodenStatuesbyTKG": {
-    "Name": "TKG的木雕|Wooden Statues by 'TKG'",
+    "Name": "TKG的木雕（Wooden Statues by 'TKG'）",
     "Type": "mod",
     "Author": "Thekillergreece",
     "Description": "引入4种木制动物雕像，有大有小。",
@@ -13068,7 +13068,7 @@
     ]
   },
   "WorkingClocks": {
-    "Name": "工作中的时钟|Working Clocks",
+    "Name": "工作中的时钟（Working Clocks）",
     "Type": "mod",
     "Author": "Xpazeman",
     "Description": "《漫长的黑暗》的一个模组，让游戏中的部分时钟可以工作。",
@@ -13123,7 +13123,7 @@
     ]
   },
   "YesIKnow": {
-    "Name": "我知道|Yes I Know",
+    "Name": "我知道（Yes I Know）",
     "Type": "mod",
     "Author": "Digitalzombie",
     "Description": "禁用物品和/或火源的悬浮文本。",
