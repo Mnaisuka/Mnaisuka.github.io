@@ -26,7 +26,7 @@ jobs:
     - name: "TLD自动更新"
       env:
        GH_TOKEN: ${{ secrets.BIG_TOKEN }}
-      run: python tldmods/index.py
+      run: python thelongdark/index.py
     - name: "检查目录"
       run: ls
     - name: "提交更新"
@@ -34,7 +34,7 @@ jobs:
          git config --local user.email "2567810193@qq.com"
          git config --local user.name "Mnaisuka"
          git pull
-         git add tldmods/*
+         git add thelongdark/*
          git commit -m "update"
     - name: "推送更新"
       uses: ad-m/github-push-action@master
