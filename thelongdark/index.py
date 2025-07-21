@@ -16,7 +16,7 @@ else:
 
 def save_cache():
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(tl_cache, f, ensure_ascii=False, indent=2)
+        json.dump(tl_cache, f, ensure_ascii=False, indent=4)
 
 
 def tl(text):
@@ -34,7 +34,7 @@ def tl(text):
             "messages": [
                 {
                     "role": "system",
-                    "content": "将我输入的任何内容都翻译为中文,不要进行任何解释",
+                    "content": "翻译为中文,不要解释或包含其他内容",
                 },
                 {"role": "user", "content": text},
             ],
@@ -51,7 +51,7 @@ def tl(text):
 
 
 def process_mod(name, model):
-    model["Name"] = tl(model["Name"]) + f" - {model['Name']}"
+    model["Name"] = tl(model["Name"])
     model["Description"] = tl(model["Description"])
     print(name, model["Name"])
     print(name, model["Description"])
