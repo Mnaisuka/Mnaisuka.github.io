@@ -575,7 +575,7 @@
     "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。使用这些工具制作弹药耗时显著更长。",
     "Aliases": [
       "AmmunitionCraftingTools",
-      "AmmoCraftingTools"
+      "v3.0"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools",
@@ -587,18 +587,19 @@
       "ModComponent",
       "LocalizationUtilities",
       "GearSpawner",
-      "CraftingRevisions"
+      "CraftingRevisions",
+      "ModSettings"
     ],
-    "Version": "2.2.2",
+    "Version": "3.0.0",
     "Error": false,
     "Download": {
-      "name": "AmmoCraftingTools.modcomponent",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/download/v2.2.2/AmmoCraftingTools.modcomponent"
+      "name": "v3.0.0",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.0.0"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/download/v2.2.2/AmmoCraftingTools.modcomponent"
+        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.0.0"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -611,11 +612,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.39",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-10-28",
-    "Updated": "2024-12-18",
+    "Updated": "2025-07-21",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.png"
     ],
@@ -10773,7 +10774,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-08-01",
