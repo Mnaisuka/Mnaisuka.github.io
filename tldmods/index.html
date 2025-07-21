@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+
+    <title>漫漫长夜Mod列表 - 漫漫长夜 (TLD) Mod之家</title>
+    <meta name="description" content="漫漫长夜 (TLD) Mod之家">
+
+
+    <meta property="og:title" content="漫漫长夜Mod列表">
+    <meta property="og:description" content="漫漫长夜 (TLD) Mod之家">
+    <meta property="og:image" content="//tldmods.com/thumbnail.png">
+    <meta property="og:url" content="//tldmods.com">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/assets/css/style.css?v=3.1.0">
+    <link href="/assets/fa/css/fontawesome.css" rel="stylesheet" />
+    <link href="/assets/fa/css/solid.css" rel="stylesheet" />
+    <link href="/assets/fa/css/solid.css" rel="stylesheet" />
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+</head>
+<body>
+    <div class="main">
+        <div id="topbar" class="topbar">
+            <div class="topbar-inner">
+                <div class="logo">
+                    <h1 class="title">(TLD) 漫漫长夜 Mod列表</h1>
+                </div>
+                <div class="top-menu">
+                    <div class="menu-item"><a href="index.html" class="active">Mod列表</a></div>
+                    <div class="menu-item"><a href="install.html">Mod安装教程</a></div>
+                    <div class="menu-item"><a href="https://discord.gg/EhBWKRx" target="_blank">Moding Discord</a></div>
+                    <div class="menu-item"><a href="https://the-long-dark-modding.fandom.com/wiki/The_Long_Dark_Modding_Wiki">Moding维基</a></div>
+                </div>
+                <div class="info">
+                    </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div id="sidebar" class="sidebar">
+                <div class="sidebar-wrapper">
+                    <div class="filter-block filter-actions">
+                        <a href="#" class="filter-action reset-filters">重置筛选</a>
+                        <a href="#" class="filter-action copy-url">链接此搜索</a>
+                    </div>
+                    <div class="filter-block">
+                        <input type="text" class="search-box" id="searchText" placeholder="搜索Mod..." />
+                    </div>
+                    <div class="filter-block">
+                        <h3 class="filter-title">分类 <span class="selected-num">3</span> <i class="fas fa-caret-down"></i></h3>
+                        <ul class="filter-holder" data-filter-type="category">
+                            <li class="filter-item" data-filter-type="category" data-filter="quality-of-life">生活质量</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="gameplay">游戏玩法</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="gear-items">装备物品</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="clothing">服装</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="food">食物</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="base-building">基地建设</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="graphics">图形</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="audio">音频</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="overhaul">大修</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="utility-mod">实用Mod</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="cheats">作弊</li>
+                            <li class="filter-item" data-filter-type="category" data-filter="misc">杂项</li>
+                        </ul>
+                    </div>
+                    <div class="filter-block">
+                        <h3 class="filter-title">游戏版本</h3>
+                        <ul class="filter-holder" data-filter-type="gameversion">
+                            <li class="filter-item" data-filter-type="gameversion" data-filter="vanilla">原版</li>
+                            <li class="filter-item" data-filter-type="gameversion" data-filter="tftft">TFTFT</li>
+                        </ul>
+                    </div>
+                    <div class="filter-block">
+                        <h3 class="filter-title">类型</h3>
+                        <ul class="filter-holder" data-filter-type="type">
+                            <li class="filter-item" data-filter-type="type" data-filter="mod">Mod</li>
+                            <li class="filter-item" data-filter-type="type" data-filter="plugin">插件</li>
+                            <li class="filter-item" data-filter-type="type" data-filter="library">库</li>
+                        </ul>
+                    </div>
+                    <div class="filter-block">
+                        <h3 class="filter-title">状态</h3>
+                        <ul class="filter-holder" data-filter-type="status">
+                            <li class="filter-item" data-filter-type="status" data-filter="working">正常工作</li>
+                            <li class="filter-item" data-filter-type="status" data-filter="with-issues">存在问题</li>
+                            <li class="filter-item" data-filter-type="status" data-filter="not-updated">未更新</li>
+                            <li class="filter-item" data-filter-type="status" data-filter="not-working">无法工作</li>
+                            <li class="filter-item" data-filter-type="status" data-filter="no-info">无信息</li>
+                        </ul>
+                    </div>
+                    <div class="filter-block">
+                        </div>
+                </div>
+                
+            </div>
+
+
+
+            <div class="modlist">
+                <div class="mods-loading" id="mods-loading">
+                    <i class="fa-solid fa-cog fa-3x fa-spin fa-spin-reverse"></i><br />
+                    <h3>正在加载Mod列表...</h3>
+                </div>
+
+                <div class="mod-sorting" data-sorting="name" data-sortdir="asc">
+                    <div class="results-count">显示 <span class="num-results">0</span> 条结果</div>
+                    <div class="sort-label">排序方式:</div>
+                    <div class="sort-item active" data-sort="name">名称 <i class="fa fa-caret-up"></i></div>
+                    <div class="sort-item" data-sort="update">更新 <i class="fa fa-caret-up"></i></div>
+                    <div class="sort-item" data-sort="author">作者 <i class="fa fa-caret-up"></i></div>
+                </div>
+
+                <div class="mod-template-wrapper" id="modTemplate">
+                    <div class="mod-item mod-item-template" data-status="" data-search="" data-name="" id="" data-author="" data-description="" data-update="" data-category="" data-gameversion="" data-tags="" data-type="">
+                        <div class="mod-badges">
+                            
+                        </div>
+                        <div class="mod-content">
+                            <div class="mod-thumb">
+                                <div class="thumb-fallback">
+                                    <div class="thumb-fallback-text">
+                                        
+                                    </div>
+                                </div>
+                                <div class="thumb-image">
+                                    <img src="" alt=""/>
+                                </div>
+                            </div>
+                            <div class="mod-data">
+                                <div class="mod-data-col mod-data-col-left">
+                                    <div class="mod-name">
+                                        <span class="mod-name-wrapper"></span> 
+                                        v<span class="mod-version-wrapper"></span>
+                                    </div>
+                                    <div class="mod-author">作者：<span class="mod-author-wrapper"></span></div>
+                                    <div class="mod-categories">
+                                        <span class="data-label">分类</span><br />
+                                        <span class="mod-categories-list-wrapper"></span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="mod-data-col mod-data-col-right">
+                                    <div class="mod-update">
+                                        <span class="data-label">上次更新</span><br />
+                                        <span class="mod-last-update-wrapper last-update"></span>
+                                    </div>
+                                    <div class="mod-workingon">
+                                        <span class="data-label">测试版本</span><br />
+                                        <span class="mod-tested-on-wrapper tested-on"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mod-description"></div>
+                            <div class="mod-item-bottom">
+                                <div class="mod-links">
+                                    <a class="mod-link mod-support" href="#" target="_blank">
+                                        <i class="fas fa-heart" aria-hidden="true"></i> <span class="long">显示 </span>支持
+                                    </a>
+                                    
+                                    <a class="mod-link mod-dependencies-download">依赖项 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <a class="mod-link mod-download" href="#" target="_blank">
+                                        <i class="fas fa-download" aria-hidden="true"></i> <span class="long">下载</span>
+                                    </a>
+                                    <a class="mod-link mod-viewmore" href="#">
+                                        详情
+                                    </a>
+                                </div>
+                                <div class="mod-deps-list">
+                                    <ul class="deps-list-wrapper">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modlist-wrapper" id="modList">
+                    
+                    
+
+                    </div>
+            </div>
+
+            <div class="mod-modal-wrapper" data-modid="">
+                <div class="modal-overlay"></div>
+                <div class="mod-modal">
+                    <div class="modal-close"><i class="fa fa-times"></i></div>
+
+                    <div class="mod-modal-content">
+                        
+                    
+                        <div class="modal-left">
+                            <div class="modal-images">
+                                <img src="assets/img/ambient_lights.png" />
+                            </div>
+                            
+                        </div>
+                        <div class="modal-right">
+                            <div class="modal-data">
+                                <div class="modal-title">
+                                    <span class="modal-name"></span> 
+                                    <span class="modal-version"></span>
+                                </div>
+                                <div class="modal-author"></div>
+                                <div class="modal-prev-author"></div>
+                                <div class="modal-description"></div>
+                            </div>
+                            <div class="modal-info-panel">
+                                <div class="mod-info-item mod-patchnotes">
+                                    <span class="info-label">最新补丁说明</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-released">
+                                    <span class="info-label">发布日期</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-updated">
+                                    <span class="info-label">更新日期</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-categories">
+                                    <span class="info-label">分类</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-status">
+                                    <span class="info-label">状态</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-dependencies">
+                                    <span class="info-label">依赖项</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-notes">
+                                    <span class="info-label">备注</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                                <div class="mod-info-item mod-issues">
+                                    <span class="info-label">问题</span>
+                                    <span class="info-data">-</span>
+                                </div>
+                            </div>
+                            <div class="modal-actions">
+                                <div class="actions-wrapper">
+                                    <a class="mod-action mod-support" href="#" target="_blank">
+                                        显示支持 <i class="fas fa-heart" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="mod-action mod-source" href="#" target="_blank">源代码与说明</a>
+                                    <a class="mod-action mod-download" href="#" target="_blank">下载 <i class="fas fa-download" aria-hidden="true"></i></a>
+                                    <a class="mod-action mod-dependencies-download">依赖项 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    
+                                </div>
+                                <div class="deps-list">
+                                    <ul class="deps-list-wrapper">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/lib/jquery.min.js?v=3.4.1"></script>
+    <script src="assets/js/DataStructures.js?v=4"></script>
+    <script src="assets/js/DataLoader.js?v=4"></script>
+    <script src="assets/js/ListDisplay.js?v=4"></script>
+    <script src="assets/js/Filtering.js?v=4"></script>
+    <script src="assets/js/Modals.js?v=4"></script>
+    <script src="assets/js/app.js?v=4"></script>
+</body>
+</html>
