@@ -42,7 +42,7 @@ def tl(text):
         reply = requests.post(url=url, headers=headers, json=data)
         reply.raise_for_status()
         result = reply.json()["choices"][0]["message"]["content"]
-        tl_cache[text] = result + "*big"
+        tl_cache[text] = result + "[*big]"  # 标记智谱翻译
         save_cache()  # 每次翻译后立即保存缓存
         return result
     except Exception as e:
