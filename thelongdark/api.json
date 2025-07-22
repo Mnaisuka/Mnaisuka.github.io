@@ -118,10 +118,10 @@
     ]
   },
   "AdditionalMiserySpawns": {
-    "Name": "额外的厄难模式生成点（Additional Misery Spawns）",
+    "Name": "额外的厄难模式出生点（Additional Misery Spawns）",
     "Type": "mod",
     "Author": "BigFish",
-    "Description": "在厄难模式中增加更多生成点",
+    "Description": "在厄难模式中增加更多出生点",
     "Aliases": [
       "Additional Misery Spawns"
     ],
