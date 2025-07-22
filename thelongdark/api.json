@@ -118,10 +118,10 @@
     ]
   },
   "AdditionalMiserySpawns": {
-    "Name": "额外的苦难模式生成点（Additional Misery Spawns）",
+    "Name": "额外的厄难模式生成点（Additional Misery Spawns）",
     "Type": "mod",
     "Author": "BigFish",
-    "Description": "在苦难模式中增加更多生成点",
+    "Description": "在厄难模式中增加更多生成点",
     "Aliases": [
       "Additional Misery Spawns"
     ],
@@ -7195,7 +7195,7 @@
     ]
   },
   "MiseryinCustomGames": {
-    "Name": "自定义游戏中的苦难（Misery in Custom Games）",
+    "Name": "自定义游戏中的厄难（Misery in Custom Games）",
     "Type": "mod",
     "Author": "BigFish",
     "Description": "为任何自定义游戏运行添加自定义设置以启用痛苦折磨。  \n原版：常规痛苦时间线  \nOnSpawn：开始一个所有折磨都已应用的运行",
