@@ -62,10 +62,10 @@
     ]
   },
   "AdaptiveArsenal": {
-    "Name": "适应性武器库（Adaptive Arsenal）",
+    "Name": "自定义武器库（Adaptive Arsenal）",
     "Type": "mod",
     "Author": "Deadman",
-    "Description": "适应性武器库是一个改进《The Long Dark》中现有武器机制的模组。",
+    "Description": "自定义武器库是一个改进《The Long Dark》中现有武器机制的模组。",
     "Aliases": [
       "Adaptive Arsenal"
     ],
@@ -2983,10 +2983,10 @@
     ]
   },
   "CustomWhiteout": {
-    "Name": "自定义白化（CustomWhiteout）",
+    "Name": "自定义Whiteout挑战（CustomWhiteout）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "《The Long Dark》的模组，让你体验自定义白化挑战。",
+    "Description": "《The Long Dark》的模组，让你体验自定义的Whiteout挑战。",
     "Aliases": [
       "CustomWhiteout"
     ],
@@ -3335,10 +3335,10 @@
     ]
   },
   "DisableCabinFever": {
-    "Name": "禁用舱内综合症（Disable Cabin Fever）",
+    "Name": "禁用幽闭恐惧症（Disable Cabin Fever）",
     "Type": "mod",
     "Author": "ds5678",
-    "Description": "在所有游戏模式中禁用舱内综合症。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "在所有游戏模式中禁用幽闭恐惧症。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
     "Aliases": [
       "Disable Cabin Fever",
       "Disable-Cabin-Fever"
@@ -10503,7 +10503,7 @@
     ]
   },
   "Solstice": {
-    "Name": "至日（Solstice）",
+    "Name": "至日(季节)（Solstice）",
     "Type": "mod",
     "Author": "Romain",
     "Description": "为《The Long Dark》添加季节。",
@@ -10907,7 +10907,7 @@
     ]
   },
   "StretchArmstrong": {
-    "Name": "弹力阿姆斯特朗（Stretch Armstrong）",
+    "Name": "Stretch Armstrong（Stretch Armstrong）",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "Description": "更改你可以与之交互的范围。",
@@ -11179,7 +11179,7 @@
     ]
   },
   "TLDsavetools": {
-    "Name": "《The Long Dark》存档工具（TLD save tools）",
+    "Name": "TLD - 存档工具（TLD save tools）",
     "Type": "mod",
     "Author": "TacticalEx",
     "Description": "用于管理《The Long Dark》游戏存档的简单工具。注意：这是一个外部工具，不是模组。",
@@ -11233,7 +11233,7 @@
     ]
   },
   "TLDCigarettes": {
-    "Name": "《The Long Dark》-香烟（TLD-Cigarettes）",
+    "Name": "TLD - 香烟（TLD-Cigarettes）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "添加可使用的香烟。",
@@ -11291,7 +11291,7 @@
     ]
   },
   "TLDMorphine": {
-    "Name": "《The Long Dark》-吗啡（TLD-Morphine）",
+    "Name": "TLD - 吗啡（TLD-Morphine）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "将吗啡添加为可使用物品。",
@@ -11352,7 +11352,7 @@
     ]
   },
   "TLDWolfskinScarf": {
-    "Name": "《The Long Dark》-狼皮围巾（TLD-WolfskinScarf）",
+    "Name": "TLD - 狼皮围巾（TLD-WolfskinScarf）",
     "Type": "mod",
     "Author": "Atlas Lumi",
     "Description": "添加一个由狼皮制成的新可制作围巾。",
