@@ -575,7 +575,7 @@
     "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。使用这些工具制作弹药耗时显著更长。",
     "Aliases": [
       "AmmunitionCraftingTools",
-      "v3.0"
+      "v3.1"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools",
@@ -584,22 +584,22 @@
       "Sm4rtBoyTom"
     ],
     "Dependencies": [
+      "ModSettings",
       "ModComponent",
       "LocalizationUtilities",
       "GearSpawner",
-      "CraftingRevisions",
-      "ModSettings"
+      "CraftingRevisions"
     ],
-    "Version": "3.0.0",
+    "Version": "3.1.0",
     "Error": false,
     "Download": {
-      "name": "v3.0.0",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.0.0"
+      "name": "v3.1.0",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.0"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.0.0"
+        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.0"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -616,7 +616,7 @@
       "ml": "0.6.6"
     },
     "Released": "2024-10-28",
-    "Updated": "2025-07-21",
+    "Updated": "2025-07-24",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.png"
     ],
@@ -2035,58 +2035,65 @@
       "tftft"
     ]
   },
-  "ChooseStartingConditions": {
-    "Name": "选择起始条件（Choose Starting Conditions）",
+  "ChooseStartingConditionsRemastered": {
+    "Name": "选择起始条件 - 改版（Choose Starting Conditions - Remastered）",
     "Type": "mod",
-    "Author": "Cass",
-    "Description": "允许你在开始新游戏时选择起始状态、疲劳、饥饿、口渴、保暖、受伤和疾病。完整说明在README中。",
+    "Author": "Sm4rtBoyTom",
+    "Description": "《漫长的黑暗》的一个模组。这个模组允许你在开始新游戏时选择你的起始状态、疲劳度、饥饿度、口渴度、体温、伤势和疾病。",
     "Aliases": [
-      "Choose Starting Conditions"
+      "Choose Starting Conditions - Remastered",
+      "ChooseStartingConditions"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/ChooseStartingConditions",
-    "RepoName": "ChooseStartingConditions",
+    "ModUrl": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions",
+    "RepoName": "ChooseStartingConditionsRemastered",
     "DisplayAuthor": [
-      "Cass"
+      "Sm4rtBoyTom"
     ],
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.0.0",
-    "Error": true,
+    "Version": "2.1.0",
+    "Error": false,
     "Download": {
       "name": "ChooseStartingConditions.dll",
-      "browser_download_url": "https://github.com/GruffCassquatch/ChooseStartingConditions/releases/download/2.0/ChooseStartingConditions.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.0/ChooseStartingConditions.dll"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/GruffCassquatch/ChooseStartingConditions/releases/download/2.0/ChooseStartingConditions.dll"
+        "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.0/ChooseStartingConditions.dll"
       ]
     },
-    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": null,
     "Categories": [
-      "Quality of Life",
-      "Gameplay"
+      "Gameplay",
+      "Cheats",
+      "Misc"
     ],
     "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
-    "Released": "",
-    "Updated": "2023-05-01",
-    "Images": [],
+    "Released": "2025-07-24",
+    "Updated": "2025-07-24",
+    "Images": [
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.png"
+    ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "",
+      "notes": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
-    "GameVersion": []
+    "PreviousAuthors": "Cass, Phaedrus",
+    "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
   },
   "ChooseStartingGear": {
     "Name": "选择起始装备（Choose Starting Gear）",
@@ -9256,6 +9263,68 @@
     },
     "PreviousAuthors": "ShieldHeart",
     "Source": "https://raw.githubusercontent.com/Burakalite/ModInstallerDescription/master/RelentlessNight.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  "RelicsoftheQuietApocalypse": {
+    "Name": "寂静末日遗物（Relics of the Quiet Apocalypse）",
+    "Type": "mod",
+    "Author": "Sm4rtBoyTom",
+    "Description": "寂静末日遗物模组将TLD早期版本中的GearItem纹理带回来。（可通过ModSettings进行自定义。）",
+    "Aliases": [
+      "Relics of the Quiet Apocalypse",
+      "RetroTextures"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse",
+    "RepoName": "RelicsoftheQuietApocalypse",
+    "DisplayAuthor": [
+      "Sm4rtBoyTom"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.1.0",
+    "Error": false,
+    "Download": {
+      "name": "RetroTextures.dll",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.0/RetroTextures.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.0/RetroTextures.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/Sm4rtBoyTom",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Graphics",
+      "Overhaul",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-07-24",
+    "Updated": "2025-07-24",
+    "Images": [
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
       "vanilla",
       "tftft"
