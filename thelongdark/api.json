@@ -7195,7 +7195,7 @@
     ]
   },
   "MiseryinCustomGames": {
-    "Name": "自定义游戏中的厄难（Misery in Custom Games）",
+    "Name": "自定义厄难模式（Misery in Custom Games）",
     "Type": "mod",
     "Author": "BigFish",
     "Description": "为任何自定义游戏运行添加自定义设置以启用痛苦折磨。  \n原版：常规痛苦时间线  \nOnSpawn：开始一个所有折磨都已应用的运行",
