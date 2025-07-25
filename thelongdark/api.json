@@ -2036,10 +2036,10 @@
     ]
   },
   "ChooseStartingConditionsRemastered": {
-    "Name": "选择起始条件 - 改版（Choose Starting Conditions - Remastered）",
+    "Name": "选择起始条件 - 改版[*big]（Choose Starting Conditions - Remastered）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "《漫长的黑暗》的一个模组。这个模组允许你在开始新游戏时选择你的起始状态、疲劳度、饥饿度、口渴度、体温、伤势和疾病。",
+    "Description": "《漫长的黑暗》的一个模组。这个模组允许你在开始新游戏时选择你的起始状态、疲劳度、饥饿度、口渴度、体温、伤势和疾病。[*big]",
     "Aliases": [
       "Choose Starting Conditions - Remastered",
       "ChooseStartingConditions"
@@ -9269,10 +9269,10 @@
     ]
   },
   "RelicsoftheQuietApocalypse": {
-    "Name": "寂静末日遗物（Relics of the Quiet Apocalypse）",
+    "Name": "寂静末日遗物[*big]（Relics of the Quiet Apocalypse）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "寂静末日遗物模组将TLD早期版本中的GearItem纹理带回来。（可通过ModSettings进行自定义。）",
+    "Description": "寂静末日遗物模组将TLD早期版本中的GearItem纹理带回来。（可通过ModSettings进行自定义。）[*big]",
     "Aliases": [
       "Relics of the Quiet Apocalypse",
       "RetroTextures"
