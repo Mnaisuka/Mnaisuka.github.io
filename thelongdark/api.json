@@ -4606,6 +4606,60 @@
       "tftft"
     ]
   },
+  "FortifiedLookouts": {
+    "Name": "设防哨所（Fortified Lookouts）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "增加尺寸，添加一个常规尺寸的嵌入式瞭望台，并将窗户抬高，以便Mystery Lake、Coastal Highway和Bleak Inlet的瞭望员有清晰的视野。",
+    "Aliases": [
+      "Fortified Lookouts"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/FortifiedLookouts",
+    "RepoName": "FortifiedLookouts",
+    "DisplayAuthor": [
+      "moosemeat"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "FortifiedLookouts.dll",
+      "browser_download_url": "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.0.0/FortifiedLookouts.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.0.0/FortifiedLookouts.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-07-25",
+    "Updated": "2025-07-25",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/FortifiedLookouts_modlist.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
   "FoxCompanion": {
     "Name": "狐狸伙伴（FoxCompanion）",
     "Type": "mod",
