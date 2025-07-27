@@ -290,6 +290,7 @@ ListDisplay.prototype = {
 			modDesc.html(mod.description);
 
 			modLinks.find(".mod-download").attr("href", mod.downloadURL);
+			modLinks.find(".mod-download").attr("onclick", "()=>{}");
 			modLinks.find(".mod-download").click(((key, data) => {
 				return function (e) {
 					if (key in i18n) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
