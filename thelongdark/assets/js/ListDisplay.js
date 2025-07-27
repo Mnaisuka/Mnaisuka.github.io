@@ -39,6 +39,12 @@ ListDisplay.prototype = {
 
 		this.json.modstatus = {};
 
+		// 载入已汉化的模组列表
+		var r = new XMLHttpRequest();
+		r.open("GET", "\\thelongdark\\i18n_mod\\list.json", false);
+		r.send(null);
+		var i18n = JSON.parse(r.responseText);
+
 		for (var key in sList) {
 			if (!sList.hasOwnProperty(key)) continue;
 
@@ -286,8 +292,12 @@ ListDisplay.prototype = {
 			modLinks.find(".mod-download").attr("href", mod.downloadURL);
 			modLinks.find(".mod-download").click(((key, data) => {
 				return function (e) {
-					console.log(key, data);
-					e.originalEvent.preventDefault();
+					if (key in i18n) {
+						if (confirm("该模组存在汉化版本，是否下载汉化版本？")) {
+							window.open(i18n[key]["Download"], '_blank')
+							e.originalEvent.preventDefault();
+						}
+					}
 				}
 			})(key, iData))
 
