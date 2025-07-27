@@ -4134,10 +4134,10 @@
     "GameVersion": []
   },
   "FeatSettings": {
-    "Name": "功能设置（Feat Settings）",
+    "Name": "功能设置[*big]（Feat Settings）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "公开属性和技能解锁设置。允许解锁传承技能“大猫杀手”。消除了通过错误方式（如漏洞或控制台命令）解锁的技能的启动噪音。",
+    "Description": "公开属性和技能解锁设置。允许解锁传承技能“大猫杀手”。消除了通过错误方式（如漏洞或控制台命令）解锁的技能的启动噪音。[*big]",
     "Aliases": [
       "Feat Settings"
     ],
