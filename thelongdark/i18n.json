@@ -482,5 +482,7 @@
     "A mod for The Long Dark. This mod allows you to choose your starting condition, fatigue, hunger, thirst, warmth, injuries and illnesses when starting a new game.": "《漫漫长夜》的模组。此模组允许你在新游戏开始时自定义起始状态，包括疲劳、饥饿、口渴、体温、受伤和疾病。",
     "Relics of the Quiet Apocalypse mod brings back GearItem textures from the older builds of TLD. (Can be customized via ModSettings.)": "寂静末日遗物模组恢复了《漫漫长夜》早期版本的GearItem纹理。（可通过ModSettings进行自定义。）",
     "Fortified Lookouts": "强化瞭望台",
-    "Increase the size, add a second regular sized embedded lookout, and raise the windows for a clear view for the lookouts in Mystery Lake, Coastal Highway and Bleak Inlet.": "扩大瞭望台尺寸，添加一个标准尺寸的嵌入式瞭望台，并抬高窗户，为神秘湖、沿海公路和荒凉湾的瞭望台提供清晰视野。"
+    "Increase the size, add a second regular sized embedded lookout, and raise the windows for a clear view for the lookouts in Mystery Lake, Coastal Highway and Bleak Inlet.": "扩大瞭望台尺寸，添加一个标准尺寸的嵌入式瞭望台，并抬高窗户，为神秘湖、沿海公路和荒凉湾的瞭望台提供清晰视野。",
+    "Feat Settings": "功能设置[*big]",
+    "Exposes effect and unlock settings for feats. Allows unlocking of legacy feat, \"Big Cat Killer\". Eliminates startup noises for feats unlocked \"the wrong way\" via bugs or console command use.": "公开属性和技能解锁设置。允许解锁传承技能“大猫杀手”。消除了通过错误方式（如漏洞或控制台命令）解锁的技能的启动噪音。[*big]"
 }
