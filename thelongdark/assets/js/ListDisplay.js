@@ -292,7 +292,7 @@ ListDisplay.prototype = {
 			modLinks.find(".mod-download").attr("href", mod.downloadURL);
 			modLinks.find(".mod-download").click(((key, data) => {
 				return function (e) {
-					if (key in i18n) {
+					if (key in i18n) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
 						if (confirm("该模组存在汉化版本，是否下载汉化版本？")) {
 							window.open(i18n[key]["Download"], '_blank')
 							e.originalEvent.preventDefault();
