@@ -572,7 +572,7 @@
     "Name": "弹药制作工具（AmmunitionCraftingTools）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。但使用这些工具制作弹药耗时会显著增加。",
+    "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。使用这些工具制作弹药耗时显著更长。",
     "Aliases": [
       "AmmunitionCraftingTools",
       "v3.1"
