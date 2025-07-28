@@ -483,5 +483,6 @@
     "Relics of the Quiet Apocalypse mod brings back GearItem textures from the older builds of TLD. (Can be customized via ModSettings.)": "寂静末日遗物模组恢复了《漫漫长夜》早期版本的GearItem纹理。（可通过ModSettings进行自定义。）",
     "Fortified Lookouts": "强化瞭望台",
     "Increase the size, add a second regular sized embedded lookout, and raise the windows for a clear view for the lookouts in Mystery Lake, Coastal Highway and Bleak Inlet.": "扩大瞭望台尺寸，添加一个标准尺寸的嵌入式瞭望台，并抬高窗户，为神秘湖、沿海公路和荒凉湾的瞭望台提供清晰视野。",
-    "Exposes effect and unlock settings for feats. Allows unlocking of legacy feat, \"Big Cat Killer\". Eliminates startup noises for feats unlocked \"the wrong way\" via bugs or console command use.": "徽章效果与解锁徽章设置，允许解锁徽章“大猫杀手”。若通过漏洞或控制台指令等“非正常方式”解锁专长，将消除其启动音效。"
+    "Exposes effect and unlock settings for feats. Allows unlocking of legacy feat, \"Big Cat Killer\". Eliminates startup noises for feats unlocked \"the wrong way\" via bugs or console command use.": "徽章效果与解锁徽章设置，允许解锁徽章“大猫杀手”。若通过漏洞或控制台指令等“非正常方式”解锁专长，将消除其启动音效。",
+    "Feat Settings": "功能设置[*big]"
 }
