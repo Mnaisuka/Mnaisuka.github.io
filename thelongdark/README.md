@@ -5,3 +5,4 @@
 
 ## 25/07/28 新增汉化
 * Shortcuts
+* ItemPicker
