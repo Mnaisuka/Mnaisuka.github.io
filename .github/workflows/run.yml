@@ -34,7 +34,7 @@ jobs:
           git config --local user.email "2567810193@qq.com"
           git config --local user.name "Mnaisuka"
           git pull
-          git add *
+          git add thelongdark/*
           if git diff --cached --quiet; then
             echo "没有文件变化"
           else
