@@ -1,4 +1,4 @@
-var Filters = function(){
+var Filters = function () {
 	this.init();
 }
 
@@ -9,9 +9,9 @@ Filters.prototype = {
 	$versionFilter: null,
 	$statusFilter: null,
 
-	currentFilters:{},
+	currentFilters: {},
 
-	init:function(){
+	init: function () {
 		this.initFilters();
 		this.populateFilters();
 
@@ -20,49 +20,49 @@ Filters.prototype = {
 		//$(".filter-item[data-filter='working']").click();
 	},
 
-	initFilters: function(){
+	initFilters: function () {
 		this.$authorFilter = $(".filter-holder[data-filter-type='author']");
 		this.$search = $("#searchText");
 	},
 
-	populateFilters(){
+	populateFilters() {
 		var _this = this;
 
 		this.$authorFilter.html("");
 
-		app.data.authorList.forEach(function(author){
-			_this.$authorFilter.append('<li class="filter-item" data-filter-type="author" data-filter="'+author.toLowerCase().replaceAll(" ","-")+'">'+author+'</li>');
+		app.data.authorList.forEach(function (author) {
+			_this.$authorFilter.append('<li class="filter-item" data-filter-type="author" data-filter="' + author.toLowerCase().replaceAll(" ", "-") + '">' + author + '</li>');
 		});
 	},
 
-	initFilterEvents: function(){
+	initFilterEvents: function () {
 		var _this = this;
 
-		$(".filter-item").off("click").on("click", function(){
+		$(".filter-item").off("click").on("click", function () {
 			$(this).toggleClass("selected");
 
 			var filterType = $(this).attr("data-filter-type");
 			var filterVal = $(this).attr("data-filter");
 
-			$('html,body').animate({scrollTop: 0},300);
+			$('html,body').animate({ scrollTop: 0 }, 300);
 
-			if ($(this).hasClass("selected")){
+			if ($(this).hasClass("selected")) {
 
-				if (_this.currentFilters[filterType]){
+				if (_this.currentFilters[filterType]) {
 					_this.currentFilters[filterType].push(filterVal);
-				}else{
+				} else {
 					_this.currentFilters[filterType] = [filterVal];
 				}
-			}else{
+			} else {
 				var index = _this.currentFilters[filterType].indexOf(filterVal);
-  				if (index > -1) {
-    				_this.currentFilters[filterType].splice(index, 1);
-  				}
+				if (index > -1) {
+					_this.currentFilters[filterType].splice(index, 1);
+				}
 
-  				if (_this.currentFilters[filterType].length == 0){
-  					_this.currentFilters[filterType] = null;
-  					delete _this.currentFilters[filterType];
-  				}
+				if (_this.currentFilters[filterType].length == 0) {
+					_this.currentFilters[filterType] = null;
+					delete _this.currentFilters[filterType];
+				}
 			}
 
 			_this.applyFilters();
@@ -70,217 +70,217 @@ Filters.prototype = {
 
 		_this.setupInlineFilters();
 
-		this.$search.on("input", function(){
+		this.$search.on("input", function () {
 			_this.applyFilters();
 		});
 
-		$(".filter-action.reset-filters").off("click").on("click", function(){
+		$(".filter-action.reset-filters").off("click").on("click", function () {
 			_this.resetFilters();
 		});
 
-		$(".filter-action.copy-url").off("click").on("click", function(){
+		$(".filter-action.copy-url").off("click").on("click", function () {
 			var url = _this.createFilterURL();
 			console.log(url);
-			window.location.href=url;
+			window.location.href = url;
 		});
 	},
 
-	setupInlineFilters: function(){
+	setupInlineFilters: function () {
 		var _this = this;
 
-		$(".inline-filter-item").off("click").on("click", function(){
-			
+		$(".inline-filter-item").off("click").on("click", function () {
+
 			var filterType = $(this).attr("data-filter-type");
 			var filterVal = $(this).attr("data-filter");
 
-			if (filterType != "dependency"){
+			if (filterType != "dependency") {
 
-				$(".filter-item[data-filter-type='"+filterType+"'][data-filter='"+filterVal+"']").addClass("selected");
+				$(".filter-item[data-filter-type='" + filterType + "'][data-filter='" + filterVal + "']").addClass("selected");
 
-				if (_this.currentFilters[filterType] && _this.currentFilters[filterType].indexOf(filterVal) > -1){
+				if (_this.currentFilters[filterType] && _this.currentFilters[filterType].indexOf(filterVal) > -1) {
 					_this.currentFilters[filterType].push(filterVal);
-				}else{
+				} else {
 					_this.currentFilters[filterType] = [filterVal];
 				}
 
-			}else{
+			} else {
 				$("#searchText").val(filterVal);
 			}
-			
+
 			app.modals.closeModal();
 
 			_this.applyFilters();
 		});
 	},
 
-	resetFilters: function(){
+	resetFilters: function () {
 		$(".filter-item").removeClass("selected");
 		$("#searchText").val("");
 
 		this.currentFilters = {};
 
 		this.applyFilters();
-		window.location.href="/";
+		window.location.href = "/";
 	},
 
-	processURLFilters: function(){
+	processURLFilters: function () {
 		var _this = this;
 
 		const searchParams = new URL(window.location.href).searchParams;
 		for (const [key, value] of searchParams) {
-			if (key == "q"){
+			if (key == "q") {
 				$("#searchText").val(value);
-			}else{
+			} else {
 				var filterValues = value.split(",");
 
-				filterValues.forEach(function(val){
-					$(".filter-item[data-filter-type='"+key+"'][data-filter='"+val+"']").addClass("selected");
+				filterValues.forEach(function (val) {
+					$(".filter-item[data-filter-type='" + key + "'][data-filter='" + val + "']").addClass("selected");
 
-					if (_this.currentFilters[key] && _this.currentFilters[key].indexOf(val) > -1){
+					if (_this.currentFilters[key] && _this.currentFilters[key].indexOf(val) > -1) {
 						_this.currentFilters[key].push(val);
-					}else{
+					} else {
 						_this.currentFilters[key] = [val];
 					}
-				});				
+				});
 			}
 		}
 
 		this.applyFilters();
 	},
 
-	createFilterURL: function(){
+	createFilterURL: function () {
 		var url = location.protocol + '//' + location.host + location.pathname + "?";
 
-		url += "q="+$("#searchText").val();
+		url += "q=" + $("#searchText").val();
 
-		$(".filter-holder").each(function(){
+		$(".filter-holder").each(function () {
 			var type = $(this).data("filter-type");
 			var values = [];
 
-			$(this).find(".filter-item").each(function(){
-				if ($(this).hasClass("selected")){
+			$(this).find(".filter-item").each(function () {
+				if ($(this).hasClass("selected")) {
 					values.push($(this).data("filter"));
 				}
 			});
 
-			if (values.length){
-				url += "&"+type+"="+values.join(",");
+			if (values.length) {
+				url += "&" + type + "=" + values.join(",");
 			}
 		});
 
 		return url;
 	},
 
-	applyFilters: function(){
+	applyFilters: function () {
 		var _this = this;
 
 		var count = 0;
 
 		$("#modList .mod-item").hide();
 
-		var query = this.$search.val().trim().toLowerCase().replaceAll("-"," ");
-console.log(query);
-			console.log(_this.currentFilters);
+		var query = this.$search.val().trim().toLowerCase().replaceAll("-", " ");
+		console.log(query);
+		console.log(_this.currentFilters);
 
-		$("#modList .mod-item").each(function(){
+		$("#modList .mod-item").each(function () {
 
 			var item = $(this);
 			var showItem = true;
 
-			if (query){
+			if (query) {
 				if (item.attr("data-search").indexOf(query) == -1 &&
 					item.attr("id").indexOf(query) == -1 &&
 					item.attr("data-author").indexOf(query) == -1 &&
-					item.attr("data-tags").indexOf(query) == -1){
+					item.attr("data-tags").indexOf(query) == -1) {
 
 					showItem = false;
 				}
 			}
 
 			var foundFilter = false;
-			
+
 			//Category filter
-			if (_this.currentFilters.category){
+			if (_this.currentFilters.category) {
 				foundFilter = false;
-				_this.currentFilters.category.forEach(function(fCategory){
-					if (item.attr("data-category").indexOf(fCategory) != -1 || item.attr("data-category").indexOf(fCategory.replaceAll("-"," ")) != -1 || item.attr("data-category").indexOf(fCategory.replaceAll("-","")) != -1){
+				_this.currentFilters.category.forEach(function (fCategory) {
+					if (item.attr("data-category").indexOf(fCategory) != -1 || item.attr("data-category").indexOf(fCategory.replaceAll("-", " ")) != -1 || item.attr("data-category").indexOf(fCategory.replaceAll("-", "")) != -1) {
 						foundFilter = true;
 					}
 				});
 
-				if (!foundFilter){
+				if (!foundFilter) {
 					showItem = false;
 				}
 			}
 
 			//Author filter
-			if (_this.currentFilters.author){
+			if (_this.currentFilters.author) {
 				foundFilter = false;
-				_this.currentFilters.author.forEach(function(fAuthor){
-					if (item.attr("data-author").indexOf(fAuthor) != -1 || item.attr("data-author").indexOf(fAuthor.replaceAll("-"," ")) != -1 || item.attr("data-author").indexOf(fAuthor.replaceAll("-","")) != -1){
+				_this.currentFilters.author.forEach(function (fAuthor) {
+					if (item.attr("data-author").indexOf(fAuthor) != -1 || item.attr("data-author").indexOf(fAuthor.replaceAll("-", " ")) != -1 || item.attr("data-author").indexOf(fAuthor.replaceAll("-", "")) != -1) {
 						foundFilter = true;
 					}
 				});
 
-				if (!foundFilter){
+				if (!foundFilter) {
 					showItem = false;
 				}
 			}
 
 			//Type filter
-			if (_this.currentFilters.type){
+			if (_this.currentFilters.type) {
 				foundFilter = false;
-				_this.currentFilters.type.forEach(function(fType){
-					if (item.attr("data-type").indexOf(fType) != -1){
+				_this.currentFilters.type.forEach(function (fType) {
+					if (item.attr("data-type").indexOf(fType) != -1) {
 						foundFilter = true;
 					}
 				});
 
-				if (!foundFilter){
+				if (!foundFilter) {
 					showItem = false;
 				}
 			}
 
 			//Version filter
-			if (_this.currentFilters.gameversion){
+			if (_this.currentFilters.gameversion) {
 				foundFilter = false;
-				_this.currentFilters.gameversion.forEach(function(fVersion){
-					if (item.attr("data-gameversion").indexOf(fVersion) != -1){
+				_this.currentFilters.gameversion.forEach(function (fVersion) {
+					if (item.attr("data-gameversion").indexOf(fVersion) != -1) {
 						foundFilter = true;
 					}
 				});
 
-				if (!foundFilter){
+				if (!foundFilter) {
 					showItem = false;
 				}
 			}
 
 			//Status filter
-			if (_this.currentFilters.status){
+			if (_this.currentFilters.status) {
 				foundFilter = false;
-				_this.currentFilters.status.forEach(function(fStatus){
-//					if (item.attr("data-status").indexOf(fStatus) != -1){
-						if (item.attr("data-status") == fStatus){
+				_this.currentFilters.status.forEach(function (fStatus) {
+					//					if (item.attr("data-status").indexOf(fStatus) != -1){
+					if (item.attr("data-status") == fStatus) {
 						foundFilter = true;
-						}
+					}
 
-//						if (fStatus == "not-working") item.addClass("force-not-working");
-//					}else{
-//						item.removeClass("force-not-working");
-//					}
+					//						if (fStatus == "not-working") item.addClass("force-not-working");
+					//					}else{
+					//						item.removeClass("force-not-working");
+					//					}
 				});
 
-				if (!foundFilter){
+				if (!foundFilter) {
 					showItem = false;
 				}
 			}
 
-			if (showItem){
+			if (showItem) {
 				item.show();
 			}
 		});
 
-		if (!query && jQuery.isEmptyObject(this.currentFilters)){
+		if (!query && jQuery.isEmptyObject(this.currentFilters)) {
 			$("#modList .mod-item").show();
 		}
 

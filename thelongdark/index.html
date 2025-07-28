@@ -15,12 +15,36 @@
     <link href="/thelongdark/assets/fa/css/solid.css" rel="stylesheet" />
     <meta name="twitter:card" content="summary_large_image">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
 
     <meta name="google-site-verification" content="uLSmef-B4atRyuMbnnW_0bZ4nXpNUl9n8dxfigLgWVI" />
     <meta name="msvalidate.01" content="657691E1730343AD24A38FAB1BB15AF3" />
 
+    <style>
+        .favorite-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+
+        .favorite-btn .icon {
+            width: 20px;
+            height: 20px;
+            fill: none;
+            stroke: #999;
+            stroke-width: 2;
+            transition: all 0.3s ease;
+        }
+
+        .favorite-btn.favorited .icon {
+            fill: gold;
+            stroke: gold;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,7 +56,7 @@
                 </div>
                 <div class="top-menu">
                     <div class="menu-item"><a href="index.html" class="active">模组列表</a></div>
-                    <div class="menu-item"><a href="install.html">安装教程</a></div>
+                    <div class="menu-item"><a href="javascript:favoritesModal.show()">我的收藏</a></div>
                     <div class="menu-item"><a href="https://discord.gg/EhBWKRx" target="_blank">Discord频道</a></div>
                     <div class="menu-item"><a
                             href="https://the-long-dark-modding.fandom.com/wiki/The_Long_Dark_Modding_Wiki">开发教程</a>
@@ -175,6 +199,15 @@
                                     <a class="mod-link mod-viewmore" href="#">
                                         详情
                                     </a>
+
+                                    <a class="mod-link mod-favorite favorite-btn" href="javascript:void(0)"
+                                        id="favoriteLink">
+                                        <svg class="icon" viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21 12 17.27z" />
+                                        </svg>
+                                    </a>
+
                                 </div>
                                 <div class="mod-deps-list">
                                     <ul class="deps-list-wrapper">
@@ -283,10 +316,9 @@
     <script src="assets/js/Filtering.js?v=4"></script>
     <script src="assets/js/Modals.js?v=4"></script>
     <script src="assets/js/app.js?v=4"></script>
+    <script src="assets/js/Favorites.js"></script>
     <script>
-        console.log("...");
-        
-
+        const favoritesModal = new FavoritesModal();
     </script>
 </body>
 

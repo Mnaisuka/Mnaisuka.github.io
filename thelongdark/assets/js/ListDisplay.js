@@ -45,6 +45,13 @@ ListDisplay.prototype = {
 		r.send(null);
 		var i18n = JSON.parse(r.responseText);
 
+		// 载入已收藏的模组列表
+		var favoritesStr = localStorage.getItem('favorites');
+		var favorites = favoritesStr ? JSON.parse(favoritesStr) : [];
+
+		// 声明到全局
+		window["srcData"] = this.srcData;
+
 		for (var key in sList) {
 			if (!sList.hasOwnProperty(key)) continue;
 
@@ -290,7 +297,6 @@ ListDisplay.prototype = {
 			modDesc.html(mod.description);
 
 			modLinks.find(".mod-download").attr("href", mod.downloadURL);
-			modLinks.find(".mod-download").attr("onclick", "()=>{}");
 			modLinks.find(".mod-download").click(((key, data) => {
 				return function (e) {
 					if (key in i18n) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
@@ -301,6 +307,31 @@ ListDisplay.prototype = {
 					}
 				}
 			})(key, iData))
+
+			modLinks.find(".mod-favorite").click(((key, data) => {
+				return function (e) {
+					var isFavorited = e.delegateTarget.classList.toggle('favorited');
+
+					let f = localStorage.getItem('favorites');
+					f = f ? JSON.parse(f) : [];
+
+					if (isFavorited) {
+						if (!f.includes(key)) {
+							f.push(key);
+						}
+						console.log("收藏", key);
+					} else {
+						f = f.filter(item => item !== key);
+						console.log("取消收藏", key);
+					}
+
+					localStorage.setItem('favorites', JSON.stringify(f));
+				}
+			})(key, iData))
+
+			if (favorites.includes(key)) { // 初始化favorited颜色
+				modLinks.find(".mod-favorite").addClass("favorited");
+			}
 
 			if (mod.modURL) {
 				modLinks.find(".mod-source").attr("href", mod.modURL).show();
@@ -321,22 +352,6 @@ ListDisplay.prototype = {
 			});
 
 			Object.keys(mod.badges).forEach(type => {
-				/* var chs = {
-					"WORKING": "正常工作",
-					"WITH ISSUES": "存在问题",
-					"JUST UPDATED": "最近更新",
-					"NOT WORKING":"无法工作",
-					"BETA": "测试版",
-					"PLUGIN": "插件",
-					"LIBRARY": "库",
-					"NEW": "新"
-				}
-				if (mod.badges[type] in chs) {
-					var title = chs[mod.badges[type]]
-				}
-				else {
-					var title = mod.badges[type]
-				} */
 				var title = mod.badges[type]
 				modBadges.append('<div class="mod-badge mod-badge-' + type + '">\
 					<span class="badge-text" title="' + _this.badgeDescription[type] + '">' + title + '</span>\
