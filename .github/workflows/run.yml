@@ -36,8 +36,9 @@ jobs:
           git pull
           git add *
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "没有文件变化"
           else
+            echo "正在推送更新"
             git commit -m "update"
             git push
           fi
