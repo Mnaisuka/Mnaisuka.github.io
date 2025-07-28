@@ -1,7 +1,7 @@
 {
-    "name": "worker-name",
+    "name": "thelongdark",
     "compatibility_date": "2025-07-28",
     "assets": {
-        "directory": "."
+        "directory": "./dist"
     }
 }
