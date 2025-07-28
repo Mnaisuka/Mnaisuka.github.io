@@ -41,7 +41,7 @@ ListDisplay.prototype = {
 
 		// 载入已汉化的模组列表
 		var r = new XMLHttpRequest();
-		r.open("GET", "\\thelongdark\\i18n_mod\\list.json", false);
+		r.open("GET", "\\thelongdark\\is_hanified\\list.json", false);
 		r.send(null);
 		window['isHanified'] = JSON.parse(r.responseText); // 声明到全局
 
