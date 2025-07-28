@@ -199,8 +199,8 @@ class FavoritesModal {
 
         const usedByMap = this.getModUsedByMap(modList);
 
-        modList.forEach(modId => {
-            const model_info = srcData[modId];
+        modList.forEach(mod_id => {
+            const model_info = srcData[mod_id];
             if (!model_info) return;
 
             const modItem = document.createElement('div');
@@ -214,10 +214,10 @@ class FavoritesModal {
                 <div class="mod-status">状态：${model_info.Status.working ? '正常工作' : '存在问题'}</div>
             `;
 
-            if (usedByMap[modId]) {
+            if (usedByMap[mod_id]) {
                 const usedBy = document.createElement('div');
                 usedBy.className = 'mod-usedby';
-                usedBy.textContent = `被以下模组使用：${usedByMap[modId].join(', ')}`;
+                usedBy.textContent = `被以下模组使用：${usedByMap[mod_id].join(', ')}`;
                 modItem.appendChild(usedBy);
             }
 
@@ -225,11 +225,19 @@ class FavoritesModal {
                 const btn = document.createElement('button');
                 btn.className = 'mod-download-btn';
                 btn.textContent = '下载';
-                btn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    const url = model_info.Download.browser_download_url;
-                    window.open(url, '_blank');
-                });
+                btn.addEventListener('click', ((mod_id) => {
+                    return function (e) {
+                        e.stopPropagation();
+                        var url = model_info.Download.browser_download_url;
+                        if (mod_id in isHanified) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
+                            if (confirm("该模组存在汉化版本，是否下载汉化版本？")) {
+                                url = isHanified[mod_id]["Download"]
+                            }
+                        }
+                        window.open(url, '_blank');
+                        e.target.textContent = "已下载"
+                    }
+                })(mod_id));
                 modItem.appendChild(btn);
             }
 

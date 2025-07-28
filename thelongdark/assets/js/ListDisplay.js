@@ -43,7 +43,7 @@ ListDisplay.prototype = {
 		var r = new XMLHttpRequest();
 		r.open("GET", "\\thelongdark\\i18n_mod\\list.json", false);
 		r.send(null);
-		var i18n = JSON.parse(r.responseText);
+		window['isHanified'] = JSON.parse(r.responseText); // 声明到全局
 
 		// 载入已收藏的模组列表
 		var favoritesStr = localStorage.getItem('favorites');
@@ -299,9 +299,9 @@ ListDisplay.prototype = {
 			modLinks.find(".mod-download").attr("href", mod.downloadURL);
 			modLinks.find(".mod-download").click(((key, data) => {
 				return function (e) {
-					if (key in i18n) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
+					if (key in isHanified) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
 						if (confirm("该模组存在汉化版本，是否下载汉化版本？")) {
-							window.open(i18n[key]["Download"], '_blank')
+							window.open(isHanified[key]["Download"], '_blank')
 							e.originalEvent.preventDefault();
 						}
 					}
