@@ -10126,17 +10126,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "Download": {
       "name": "ShootingRange.dll",
-      "browser_download_url": "https://github.com/moosemeat817/ShootingRange/releases/download/1.0.0/ShootingRange.dll"
+      "browser_download_url": "https://github.com/moosemeat817/ShootingRange/releases/download/1.0.1/ShootingRange.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/ShootingRange/releases/download/1.0.1/ShootingRange.dll",
-        "https://github.com/moosemeat817/ShootingRange/releases/download/1.0.0/ShootingRange.dll"
+        "https://github.com/moosemeat817/ShootingRange/releases/download/1.0.1/ShootingRange.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
