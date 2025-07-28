@@ -4134,7 +4134,7 @@
     "GameVersion": []
   },
   "FeatSettings": {
-    "Name": "功能设置（Feat Settings）",
+    "Name": "徽章设置（Feat Settings）",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "Description": "徽章效果与解锁徽章设置，允许解锁徽章“大猫杀手”。若通过漏洞或控制台指令等“非正常方式”解锁专长，将消除其启动音效。",
