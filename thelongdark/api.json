@@ -6209,16 +6209,16 @@
       "CraftingRevisions",
       "Modders' Gear Toolbox"
     ],
-    "Version": "3.1.0",
-    "Error": true,
+    "Version": "3.1.1",
+    "Error": false,
     "Download": {
       "name": "IndoorsGreenery.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.0-TLD_v2.25_fix/IndoorsGreenery.zip"
+      "browser_download_url": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.0-TLD_v2.25_fix/IndoorsGreenery.zip"
+        "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -6228,18 +6228,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-04-30",
-    "Updated": "2023-10-08",
+    "Updated": "2025-08-01",
     "Images": [
       "https://imgur.com/9TpDA41.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "Added recipes, dlc planters, German localization, Turkish localization and Russian localization.",
+      "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -7558,15 +7558,15 @@
       "CraftingRevisions"
     ],
     "Version": "1.0.3",
-    "Error": true,
+    "Error": false,
     "Download": {
       "name": "ModdersGearToolbox.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3/ModdersGearToolbox.zip"
+      "browser_download_url": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3FIX/ModdersGearToolbox.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3/ModdersGearToolbox.zip"
+        "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3FIX/ModdersGearToolbox.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -7577,18 +7577,18 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.29",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-07-27",
-    "Updated": "2024-06-26",
+    "Updated": "2025-08-01",
     "Images": [
       "https://i.imgur.com/4WpvfIK.png"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "minor bugfixing. Added Russian, Turkish, Italian and French localizations",
+      "patchnotes": "Updated to latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
