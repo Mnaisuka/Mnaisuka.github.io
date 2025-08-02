@@ -1705,15 +1705,15 @@
       "ExamineActionsAPI"
     ],
     "Version": "2.2.1",
-    "Error": true,
+    "Error": false,
     "Download": {
       "name": "CampingTools.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1/CampingTools.zip"
+      "browser_download_url": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1FIX/CampingTools.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1/CampingTools.zip"
+        "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1FIX/CampingTools.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -1722,18 +1722,18 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.29",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-04-24",
-    "Updated": "2024-06-27",
+    "Updated": "2025-08-01",
     "Images": [
       "https://i.imgur.com/s4QXeLl.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "Added turkish, russian and italian localizations. Adjustments and fixes.",
+      "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -2098,54 +2098,55 @@
   "ChooseStartingGear": {
     "Name": "选择起始装备（Choose Starting Gear）",
     "Type": "mod",
-    "Author": "Cass",
-    "Description": "允许你在开始新游戏时选择起始装备。完整说明在README中。",
+    "Author": "moosemeat",
+    "Description": "选择您希望开始游戏时拥有的物品。",
     "Aliases": [
       "Choose Starting Gear"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/ChooseStartingGear",
+    "ModUrl": "https://github.com/moosemeat817/ChooseStartingGear",
     "RepoName": "ChooseStartingGear",
     "DisplayAuthor": [
-      "Cass"
+      "moosemeat"
     ],
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.2",
-    "Error": true,
+    "Version": "2.0.0",
+    "Error": false,
     "Download": {
       "name": "ChooseStartingGear.dll",
-      "browser_download_url": "https://github.com/GruffCassquatch/ChooseStartingGear/releases/download/1.2.2/ChooseStartingGear.dll"
+      "browser_download_url": "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll"
     },
     "Updater": {
-      "enable_update": false,
+      "enable_update": true,
       "downloads": [
-        "https://github.com/GruffCassquatch/ChooseStartingGear/releases/download/1.2.2/ChooseStartingGear.dll"
+        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll"
       ]
     },
-    "AuthorUrl": "https://github.com/GruffCassquatch",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
-      "Quality of Life",
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.01",
-      "ml": "0.5.7"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
-    "Released": "",
-    "Updated": "2022-08-09",
-    "Images": [],
+    "Released": "2025-08-02",
+    "Updated": "2025-08-02",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ChooseStartingGear_modlist.jpg"
+    ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "Use with 2.01 Time Capsule, will not work on game versions >2.02",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
   },
   "ChooseStartingLocation": {
@@ -2675,16 +2676,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "1.4.2",
+    "Version": "1.4.3",
     "Error": false,
     "Download": {
       "name": "CozyBlankets.zip",
-      "browser_download_url": "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.2/CozyBlankets.zip"
+      "browser_download_url": "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.2/CozyBlankets.zip"
+        "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -2693,18 +2694,18 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.29",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-06-21",
-    "Updated": "2024-06-28",
+    "Updated": "2025-08-02",
     "Images": [
       "https://i.imgur.com/nGMeJ68.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added Turkish, Russian and Italian localizations. Bug fixes.",
+      "patchnotes": "Fixed for last version.",
       "notes": "Unzip the .zip, drop contents in mods folder.",
       "issues": ""
     },
@@ -4287,8 +4288,8 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.29",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-06-19",
     "Updated": "2024-06-28",
@@ -4642,8 +4643,8 @@
       "Quality Of Life"
     ],
     "TestedOn": {
-      "tld": "2.29",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-06-15",
     "Updated": "2023-06-15",
@@ -8162,7 +8163,7 @@
       "beta": false,
       "patchnotes": "",
       "notes": "",
-      "issues": "Does not currently work with TFTFT DLC, due to it having gear with exact same names as the mod"
+      "issues": ""
     },
     "PreviousAuthors": "nbakulev",
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
