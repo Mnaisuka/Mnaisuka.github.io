@@ -485,5 +485,7 @@
     "Increase the size, add a second regular sized embedded lookout, and raise the windows for a clear view for the lookouts in Mystery Lake, Coastal Highway and Bleak Inlet.": "扩大瞭望台尺寸，添加一个标准尺寸的嵌入式瞭望台，并抬高窗户，为神秘湖、沿海公路和荒凉湾的瞭望台提供清晰视野。",
     "Exposes effect and unlock settings for feats. Allows unlocking of legacy feat, \"Big Cat Killer\". Eliminates startup noises for feats unlocked \"the wrong way\" via bugs or console command use.": "徽章效果与解锁徽章设置，允许解锁徽章“大猫杀手”。若通过漏洞或控制台指令等“非正常方式”解锁专长，将消除其启动音效。",
     "Feat Settings": "徽章设置",
-    "Select the items you would like to start the game with.": "选择您希望开始游戏时拥有的物品。[*big]"
+    "Select the items you would like to start the game with.": "选择您希望开始游戏时拥有的物品。[*big]",
+    "Predator Spawn Selector": "捕食者生成选择器[*big]",
+    "Enable or disable predator spawns by region and select which type of wolves or bears for each region. ***This mod replaces both Remove Cougars and Timberwolves Anywhere***": "通过区域启用或禁用掠食者生成，并选择每个区域要生成的狼或熊的类型。***此模组替换了“任何地方移除美洲狮”和“任何地方移除林狼”两个模组***[*big]"
 }

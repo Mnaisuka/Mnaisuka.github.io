@@ -2099,7 +2099,7 @@
     "Name": "选择起始装备（Choose Starting Gear）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "选择您希望开始游戏时拥有的物品。",
+    "Description": "选择您希望开始游戏时拥有的物品。[*big]",
     "Aliases": [
       "Choose Starting Gear"
     ],
@@ -8752,6 +8752,61 @@
       "tftft"
     ]
   },
+  "PredatorSpawnSelector": {
+    "Name": "捕食者生成选择器（Predator Spawn Selector）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "通过区域启用或禁用掠食者生成，并选择每个区域要生成的狼或熊的类型。***此模组替换了“任何地方移除美洲狮”和“任何地方移除林狼”两个模组***",
+    "Aliases": [
+      "Predator Spawn Selector"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/PredatorSpawnSelector",
+    "RepoName": "PredatorSpawnSelector",
+    "DisplayAuthor": [
+      "moosemeat"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "PredatorSpawnSelector.dll",
+      "browser_download_url": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.0.0/PredatorSpawnSelector.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll",
+        "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.0.0/PredatorSpawnSelector.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-08-03",
+    "Updated": "2025-08-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/PredatorSpawnSelector_MODLIST.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
   "QoL": {
     "Name": "生活质量（QoL）",
     "Type": "mod",
@@ -9495,61 +9550,6 @@
       "vanilla",
       "tftft"
     ]
-  },
-  "RemoveCougars": {
-    "Name": "移除美洲狮（Remove Cougars）",
-    "Type": "mod",
-    "Author": "moosemeat",
-    "Description": "这是一个为《The Long Dark》设计的模组，移除存在于各个区域的美洲狮。",
-    "Aliases": [
-      "Remove Cougars"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/RemoveCougars",
-    "RepoName": "RemoveCougars",
-    "DisplayAuthor": [
-      "moosemeat"
-    ],
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.1.0",
-    "Error": false,
-    "Download": {
-      "name": "RemoveCougars.dll",
-      "browser_download_url": "https://github.com/moosemeat817/RemoveCougars/releases/download/1.1/RemoveCougars.dll"
-    },
-    "Updater": {
-      "enable_update": true,
-      "downloads": [
-        "https://github.com/moosemeat817/RemoveCougars/releases/download/1.1/RemoveCougars.dll"
-      ]
-    },
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
-    "Categories": [
-      "Quality of Life",
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
-    },
-    "Released": "2025-01-25",
-    "Updated": "2025-03-28",
-    "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/RemoveCougars_modlist.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
-    "GameVersion": []
   },
   "RepairableRepairables": {
     "Name": "可修复的修复工具（Repairable Repairables）",
@@ -11762,59 +11762,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
-      "tftft"
-    ]
-  },
-  "TimberwolvesAnywhere": {
-    "Name": "随处可见的森林狼（Timberwolves Anywhere）",
-    "Type": "mod",
-    "Author": "STBlade",
-    "Description": "允许用户决定区域内生成哪种类型的狼。",
-    "Aliases": [
-      "Timberwolves Anywhere"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/TimberwolvesAnywhere/",
-    "RepoName": "TimberwolvesAnywhere",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.0.0",
-    "Error": false,
-    "Download": {
-      "name": "TimberwolvesAnywhere.dll",
-      "browser_download_url": "https://github.com/dommrogers/TimberwolvesAnywhere/releases/download/2.0.0/TimberwolvesAnywhere.dll"
-    },
-    "Updater": {
-      "enable_update": true,
-      "downloads": [
-        "https://github.com/dommrogers/TimberwolvesAnywhere/releases/download/2.0.0/TimberwolvesAnywhere.dll"
-      ]
-    },
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.19",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-04-10",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/dommrogers/mod_list/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
