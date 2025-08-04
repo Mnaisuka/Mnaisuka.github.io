@@ -281,7 +281,21 @@ ListDisplay.prototype = {
 				item.attr("data-update", "0");
 			}
 
-			modThumb.find(".thumb-fallback-text").html(mod.displayName);
+			
+
+			try {
+				var pattern = /(.*?)（/;
+				var match = mod.displayName.match(pattern);
+				if (match) {
+					modThumb.find(".thumb-fallback-text").html(match[1]);
+				} else {
+					modThumb.find(".thumb-fallback-text").html(mod.displayName);
+				}
+			} catch (error) {
+				modThumb.find(".thumb-fallback-text").html(mod.displayName);
+			}//避免文本溢出
+
+
 			if (mod.images && mod.images.length > 0) {
 				modThumb.find(".thumb-image img").attr("src", mod.images[0]);
 			} else {
