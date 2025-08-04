@@ -487,5 +487,7 @@
     "Feat Settings": "徽章设置",
     "Select the items you would like to start the game with.": "请选择你希望开局时携带的物品。",
     "Predator Spawn Selector": "捕食者生成设置",
-    "Enable or disable predator spawns by region and select which type of wolves or bears for each region. ***This mod replaces both Remove Cougars and Timberwolves Anywhere***": "你可以按区域启用或关闭捕食者刷新，并选择各区域出现的狼或熊类型。***本模组整合并替代了“移除美洲狮”和“狼群自由生成”两个模组***"
+    "Enable or disable predator spawns by region and select which type of wolves or bears for each region. ***This mod replaces both Remove Cougars and Timberwolves Anywhere***": "你可以按区域启用或关闭捕食者刷新，并选择各区域出现的狼或熊类型。***本模组整合并替代了“移除美洲狮”和“狼群自由生成”两个模组***",
+    "Simple save and restore tool": "简单的保存和恢复工具[*big]",
+    "Description: A simple tool to make backing up and restoring survival game saves for The Long Dark more convenient. Note: This is an external tool, not a mod and does not require a mod loader to use.": "描述：一个简单工具，使备份和恢复《The Long Dark》生存游戏存档更加方便。注意：这是一个外部工具，不是模组，使用时不需要模组加载器。[*big]"
 }

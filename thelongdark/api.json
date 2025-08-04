@@ -2099,7 +2099,7 @@
     "Name": "选择起始装备（Choose Starting Gear）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "选择您希望开始游戏时拥有的物品。[*big]",
+    "Description": "请选择你希望开局时携带的物品。",
     "Aliases": [
       "Choose Starting Gear"
     ],
@@ -8753,10 +8753,10 @@
     ]
   },
   "PredatorSpawnSelector": {
-    "Name": "捕食者生成选择器（Predator Spawn Selector）",
+    "Name": "捕食者生成设置（Predator Spawn Selector）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "通过区域启用或禁用掠食者生成，并选择每个区域要生成的狼或熊的类型。***此模组替换了“任何地方移除美洲狮”和“任何地方移除林狼”两个模组***",
+    "Description": "你可以按区域启用或关闭捕食者刷新，并选择各区域出现的狼或熊类型。***本模组整合并替代了“移除美洲狮”和“狼群自由生成”两个模组***",
     "Aliases": [
       "Predator Spawn Selector"
     ],
@@ -10328,6 +10328,64 @@
       "tftft"
     ]
   },
+  "Simplesaveandrestoretool": {
+    "Name": "简单的保存和恢复工具（Simple save and restore tool）",
+    "Type": "mod",
+    "Author": "Tactical Ex",
+    "Description": "描述：一个简单工具，使备份和恢复《The Long Dark》生存游戏存档更加方便。注意：这是一个外部工具，不是模组，使用时不需要模组加载器。",
+    "Aliases": [
+      "Simple save and restore tool",
+      "v2.1"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
+    "RepoName": "Simplesaveandrestoretool",
+    "DisplayAuthor": [
+      "Tactical Ex"
+    ],
+    "Dependencies": [],
+    "Version": "2.1.0",
+    "Error": false,
+    "Download": {
+      "name": "v2.1.0",
+      "browser_download_url": "https://gitlab.com/TacticalEx/tld-tools/-/releases/v2.1.0"
+    },
+    "Updater": {
+      "enable_update": false,
+      "downloads": [
+        "https://gitlab.com/TacticalEx/tld-tools/-/releases/v2.1.0"
+      ]
+    },
+    "AuthorUrl": "https://gitlab.com/TacticalEx",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2023-08-24",
+    "Updated": "2024-01-27",
+    "Images": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Bug fixes\nResolved an issue that would prevent backups from being created if the source path, backup path or app installation path had a space in it.\nReadme typos resolved\n\nImprovements\nNew UI theme utilizing colors and fonts from the game\nReadMe updated to clarify the restore process\nCode comment cleanup and typo fixing",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
   "SkillAdjustment": {
     "Name": "技能调整（Skill Adjustment）",
     "Type": "mod",
@@ -11356,60 +11414,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
-      "tftft"
-    ]
-  },
-  "TLDsavetools": {
-    "Name": "TLD - 存档工具（TLD save tools）",
-    "Type": "mod",
-    "Author": "TacticalEx",
-    "Description": "用于管理《The Long Dark》游戏存档的简单工具。注意：这是一个外部工具，不是模组。",
-    "Aliases": [
-      "TLD save tools",
-      "tld-tools-v2.0.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
-    "RepoName": "TLDsavetools",
-    "DisplayAuthor": [
-      "TacticalEx"
-    ],
-    "Dependencies": [],
-    "Version": "2.0.0",
-    "Error": false,
-    "Download": {
-      "name": "tld-tools-v2.0.0.zip",
-      "browser_download_url": "https://gitlab.com/TacticalEx/tld-tools/-/archive/v2.0.0/tld-tools-v2.0.0.zip"
-    },
-    "Updater": {
-      "enable_update": false,
-      "downloads": [
-        "https://gitlab.com/TacticalEx/tld-tools/-/archive/v2.0.0/tld-tools-v2.0.0.zip"
-      ]
-    },
-    "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-11-18",
-    "Updated": "2023-11-18",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
-    "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
