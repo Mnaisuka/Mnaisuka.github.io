@@ -5083,7 +5083,7 @@
       "ModSettings",
       "LocalizationUtilities"
     ],
-    "Version": "0.9.3",
+    "Version": "0.9.4",
     "Error": false,
     "Download": {
       "name": "GearInfo.dll",
@@ -5106,7 +5106,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-05-26",
-    "Updated": "2025-06-12",
+    "Updated": "2025-08-07",
     "Images": [
       "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/4d56185b662f51df77ee6a0f20ecfcb951530962/pics/GearInfo.png"
     ],
@@ -9900,7 +9900,7 @@
     "Name": "存档管理器（Save Manager）",
     "Type": "mod",
     "Author": "The Illusion",
-    "Description": "在沙盒/生存模式中添加使用热键保存、加载和自动保存的功能。同时添加了自动保存的功能。",
+    "Description": "在沙盒/生存模式中添加使用热键保存、加载和自动保存的功能。同时添加了自动保存的功能。[*big]",
     "Aliases": [
       "Save Manager"
     ],
