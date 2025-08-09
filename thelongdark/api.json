@@ -1563,6 +1563,124 @@
       "tftft"
     ]
   },
+  "BowRepair": {
+    "Name": "弓箭修复（Bow Repair）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "使所有弓箭可修复，修复成本和地点可自定义。",
+    "Aliases": [
+      "Bow Repair"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-Bow-Repair",
+    "RepoName": "BowRepair",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.1",
+    "Error": false,
+    "Download": {
+      "name": "BowRepair.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-Bow-Repair/releases/download/1.2.1/BowRepair.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-Bow-Repair/releases/download/1.2.1/BowRepair.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2024-03-10",
+    "Updated": "2024-12-04",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/Thumb_BR.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  "CaffeinatedSodas": {
+    "Name": "含咖啡因的汽水（Caffeinated Sodas）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "汽水现在可以减少疲劳，每种汽水的减少量可自定义。因为汽水通常含有咖啡因和高糖，它们至少会给你一点提神效果，对吧？",
+    "Aliases": [
+      "Caffeinated Sodas"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/CaffeinatedSodas",
+    "RepoName": "CaffeinatedSodas",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "CaffeinatedSodas.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/CaffeinatedSodas/releases/download/1.0.0/CaffeinatedSodas.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/CaffeinatedSodas/releases/download/1.0.0/CaffeinatedSodas.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Food",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2024-12-08",
+    "Updated": "2024-12-08",
+    "Images": [
+      "https://github.com/DemonBunnyBon/ModListJson/blob/main/THUMB_CS.png?raw=true"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
   "CampingTools": {
     "Name": "露营工具（Camping Tools）",
     "Type": "mod",
@@ -3329,6 +3447,64 @@
       "tftft"
     ]
   },
+  "DroppableUndroppables": {
+    "Name": "可丢弃的不可丢弃物（Droppable Undroppables）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "允许移动所有可能的物品，并从库存中移除所有之前不可丢弃的物品。提供将收藏品转为普通物品的选项以增加沉浸感。可选为应有重量但没有的物品添加重量。",
+    "Aliases": [
+      "Droppable Undroppables"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/DroppableUndroppables",
+    "RepoName": "DroppableUndroppables",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.5.0",
+    "Error": false,
+    "Download": {
+      "name": "DroppableUndroppables.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/DroppableUndroppables/releases/download/1.5.0/DroppableUndroppables.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/DroppableUndroppables/releases/download/1.5.0/DroppableUndroppables.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gear Items",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-01-18",
+    "Updated": "2025-04-06",
+    "Images": [
+      "https://github.com/DemonBunnyBon/ModListJson/blob/main/THUMB_DU.png?raw=true"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
   "DualSenseX": {
     "Name": "DualSenseX（DualSenseX）",
     "Type": "mod",
@@ -3501,6 +3677,65 @@
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  "EdiblePlants": {
+    "Name": "可食用植物（Edible Plants）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "使采摘的植物（如玫瑰果）可食用。每种物品的维生素C和卡路里可自定义。允许将物品移动到食品类别以便使用。",
+    "Aliases": [
+      "Edible Plants"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-Edible-Plants",
+    "RepoName": "EdiblePlants",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.5",
+    "Error": false,
+    "Download": {
+      "name": "EdiblePlants.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-Edible-Plants/releases/download/1.1.5/EdiblePlants.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-Edible-Plants/releases/download/1.1.5/EdiblePlants.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Food"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2024-02-13",
+    "Updated": "2024-07-09",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/Thumb_EP.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   "EternalWeather": {
@@ -5174,6 +5409,65 @@
       "vanilla"
     ]
   },
+  "HouseLights": {
+    "Name": "房屋灯光（House Lights）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "神奇地在大熊岛恢复电力！你可以在任何地方使用电灯开关打开和关闭灯光。",
+    "Aliases": [
+      "House Lights"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/tld-house-lights",
+    "RepoName": "HouseLights",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.8.5",
+    "Error": false,
+    "Download": {
+      "name": "HouseLights.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/tld-house-lights/releases/download/2.8.5/HouseLights.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/tld-house-lights/releases/download/2.8.5/HouseLights.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Graphics",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2019-05-12",
+    "Updated": "2025-05-21",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_HL.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "See github page.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Xpazeman",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
   "HowToRead": {
     "Name": "如何阅读（How To Read）",
     "Type": "mod",
@@ -5952,6 +6246,61 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  "InfiniteCheatDeath": {
+    "Name": "无限作弊死亡（Infinite Cheat Death）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "一个简单的模组，允许无限重生。每次重生时，你的生命计数将重置为3，允许无限重生。此模组不移除重生惩罚，惩罚仍然存在。",
+    "Aliases": [
+      "Infinite Cheat Death"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-InfiniteCheatDeath/tree/main",
+    "RepoName": "InfiniteCheatDeath",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "InfiniteCheatDeath.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-InfiniteCheatDeath/releases/download/1.0.0/InfiniteCheatDeath.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-InfiniteCheatDeath/releases/download/1.0.0/InfiniteCheatDeath.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-05-24",
+    "Updated": "2025-05-24",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_ICD.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -8225,6 +8574,68 @@
       "tftft"
     ]
   },
+  "PineNeedleTea": {
+    "Name": "松针茶（Pine Needle Tea）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "在世界各地添加松针生成，可制成富含维生素C的草药茶。高度可自定义。",
+    "Aliases": [
+      "Pine Needle Tea"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/PineNeedleTea",
+    "RepoName": "PineNeedleTea",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent",
+      "CraftingRevisions"
+    ],
+    "Version": "2.0.2",
+    "Error": false,
+    "Download": {
+      "name": "PineNeedleTea.zip",
+      "browser_download_url": "https://github.com/DemonBunnyBon/PineNeedleTea/releases/download/2.0.2/PineNeedleTea.zip"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/PineNeedleTea/releases/download/2.0.2/PineNeedleTea.zip"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Gear Items",
+      "Food"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2024-07-06",
+    "Updated": "2024-12-14",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/Thumb_PNT.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
   "PlacingAnywhere": {
     "Name": "随处放置（Placing Anywhere）",
     "Type": "mod",
@@ -8277,6 +8688,65 @@
     },
     "PreviousAuthors": "xpazeman",
     "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  "PlantHarvestTweaker": {
+    "Name": "植物收获调整器（Plant Harvest Tweaker）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "允许更改游戏中所有植物的收获量和收获时间。允许在最小值和最大值之间随机化物品产出。添加一个选项，使工具在用于植物收获时会损耗。",
+    "Aliases": [
+      "Plant Harvest Tweaker"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/PlantHarvestTweaker",
+    "RepoName": "PlantHarvestTweaker",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.5",
+    "Error": false,
+    "Download": {
+      "name": "PlantHarvestTweaker.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.3.5/PlantHarvestTweaker.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.3.5/PlantHarvestTweaker.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Cheats",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-03-28",
+    "Updated": "2025-04-04",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/PHT_Thumb.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
     "GameVersion": [
       "vanilla",
       "tftft"
