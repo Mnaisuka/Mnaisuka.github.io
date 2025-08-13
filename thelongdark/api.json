@@ -2112,16 +2112,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.0.0",
+    "Version": "2.1.0",
     "Error": false,
     "Download": {
       "name": "ChooseStartingGear.dll",
-      "browser_download_url": "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll"
+      "browser_download_url": "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.1.0/ChooseStartingGear.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll"
+        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.1.0/ChooseStartingGear.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -2133,8 +2133,8 @@
       "tld": "2.44",
       "ml": "0.6.6"
     },
-    "Released": "2025-08-02",
-    "Updated": "2025-08-02",
+    "Released": "2025-08-13",
+    "Updated": "2025-08-13",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ChooseStartingGear_modlist.jpg"
     ],
