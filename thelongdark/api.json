@@ -1154,6 +1154,66 @@
       "tftft"
     ]
   },
+  "BetterCamera": {
+    "Name": "更好的相机（Better Camera）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为以及从相机卸下胶卷。",
+    "Aliases": [
+      "Better Camera"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-Better-Camera",
+    "RepoName": "BetterCamera",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "BetterCamera.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.0.0/BetterCamera.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.0.0/BetterCamera.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Gear Items",
+      "Overhaul",
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-08-18",
+    "Updated": "2025-08-18",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_BC.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
   "BetterNightSky": {
     "Name": "更好的夜空（Better Night Sky）",
     "Type": "mod",
