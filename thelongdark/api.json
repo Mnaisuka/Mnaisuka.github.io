@@ -2432,68 +2432,6 @@
       "tftft"
     ]
   },
-  "CollectorCards": {
-    "Name": "收藏卡（Collector Cards）",
-    "Type": "mod",
-    "Author": "Kaiusername",
-    "Description": "在大熊岛上寻找隐藏的手绘卡片收藏！",
-    "Aliases": [
-      "Collector Cards",
-      "Collector.Cards"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Kaiusername/Collector-Cards",
-    "RepoName": "CollectorCards",
-    "DisplayAuthor": [
-      "Kaiusername"
-    ],
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent",
-      "LocalizationUtilities",
-      "GearSpawner"
-    ],
-    "Version": "2",
-    "Error": false,
-    "Download": {
-      "name": "Collector.Cards.modcomponent",
-      "browser_download_url": "https://github.com/Kaiusername/Collector-Cards/releases/download/Update/Collector.Cards.modcomponent"
-    },
-    "Updater": {
-      "enable_update": true,
-      "downloads": [
-        "https://github.com/Kaiusername/Collector-Cards/releases/download/Update/Collector.Cards.modcomponent"
-      ]
-    },
-    "AuthorUrl": "https://github.com/Kaiusername",
-    "SupportUrl": null,
-    "Categories": [
-      "Gear Items",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.27",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-10-31",
-    "Updated": "2024-03-22",
-    "Images": [
-      "https://i.imgur.com/4lX7aJq.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Rebuilt mod from the ground up. Added new cards and new card packs.",
-      "notes": "Download the .modcomponent and drop it into your 'mods' folder.",
-      "issues": "Mod will not be able to be translated into other languages until a later update."
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Kaiusername/Mod-List/main/Kaiusername.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
   "ComplexLogger": {
     "Name": "复杂日志记录器（Complex Logger）",
     "Type": "library",
@@ -11707,68 +11645,6 @@
     },
     "PreviousAuthors": "MikeyPdog, ds5678, Thekillergreece",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  "TheLongDevelopmentRegions": {
-    "Name": "长期开发区域（The Long Development Regions）",
-    "Type": "mod",
-    "Author": "Kaiusername",
-    "Description": "一个小型团队项目和社区协作努力，以美丽和平衡的方式扩展大熊岛。",
-    "Aliases": [
-      "The Long Development Regions",
-      "97xM7k8nCH"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://discord.gg/97xM7k8nCH",
-    "RepoName": "TheLongDevelopmentRegions",
-    "DisplayAuthor": [
-      "Kaiusername",
-      "STBlade"
-    ],
-    "Dependencies": [],
-    "Version": "2.24.3",
-    "Error": false,
-    "Download": {
-      "name": "97xM7k8nCH",
-      "browser_download_url": "https://discord.gg/97xM7k8nCH"
-    },
-    "Updater": {
-      "enable_update": false,
-      "downloads": [
-        "https://discord.gg/97xM7k8nCH"
-      ]
-    },
-    "AuthorUrl": "https://github.com/Kaiusername",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay",
-      "Base Building",
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-11-08",
-    "Updated": "2023-11-25",
-    "Images": [
-      "https://i.imgur.com/HhScmee.png",
-      "https://i.imgur.com/cZYR6BS.png",
-      "https://i.imgur.com/V4qn7J2.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "Forsaken Shore Update 2 (2.25.3) is out for beta testers now.",
-      "issues": "TLDev Regions are currently in closed testing, please check back later."
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Kaiusername/Mod-List/main/Kaiusername.json",
     "GameVersion": [
       "vanilla",
       "tftft"
