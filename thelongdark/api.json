@@ -2284,7 +2284,7 @@
       "CraftingRevisions"
     ],
     "Version": "1.0.5",
-    "Error": false,
+    "Error": true,
     "Download": {
       "name": "V1.0.5",
       "browser_download_url": "https://github.com/TonisGaming/ClothingExpanded/releases/tag/V1.0.5"
@@ -2310,7 +2310,7 @@
     "Updated": "2024-05-19",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
