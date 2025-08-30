@@ -1563,10 +1563,9 @@
     "Name": "丰富的采集（Bountiful Foraging）",
     "Type": "mod",
     "Author": "Jods-Its",
-    "Description": "在野外寻找食物和有用的材料。GitHub仓库中有非DLC兼容版本。",
+    "Description": "在野外寻找食物和有用的材料。",
     "Aliases": [
-      "Bountiful Foraging",
-      "BountifulForagingDLC"
+      "Bountiful Foraging"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Jods-Its/Jods-Bountiful-Foraging",
@@ -1579,18 +1578,19 @@
       "ModComponent",
       "LocalizationUtilities",
       "GearSpawner",
-      "CraftingRevisions"
+      "CraftingRevisions",
+      "Modders' Gear Toolbox"
     ],
-    "Version": "1.1.2",
-    "Error": true,
+    "Version": "1.2.0",
+    "Error": false,
     "Download": {
-      "name": "BountifulForagingDLC.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.1.2/BountifulForagingDLC.zip"
+      "name": "BountifulForaging.zip",
+      "browser_download_url": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.0/BountifulForaging.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.1.2/BountifulForagingDLC.zip"
+        "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.0/BountifulForaging.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -1601,19 +1601,19 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-06-15",
-    "Updated": "2023-08-06",
+    "Updated": "2025-08-29",
     "Images": [
       "https://i.imgur.com/oYzE4vg.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "Fixed various bugs, new Turkish localization.",
-      "notes": "Unzip the .zip, drop contents in mod folder. Available CandleLight version.",
+      "patchnotes": "A lot of stuff. Check changelog on the repo.",
+      "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
     "PreviousAuthors": "",

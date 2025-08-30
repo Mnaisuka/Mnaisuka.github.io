@@ -492,5 +492,6 @@
     "Description: A simple tool to make backing up and restoring survival game saves for The Long Dark more convenient. Note: This is an external tool, not a mod and does not require a mod loader to use.": "描述：一个简单工具，使备份和恢复《The Long Dark》生存游戏存档更加方便。注意：这是一个外部工具，不是模组，使用时不需要模组加载器。[*big]",
     "Adds the ability to save, load and autosave in Sandbox/Survival using hotkeys. Also adds the ability to autosave": "在沙盒/生存模式中添加使用热键保存、加载和自动保存的功能。同时添加了自动保存的功能。[*big]",
     "Better Camera": "更好的相机[*big]",
-    "Improves and expands the photo camera functionality, allowing to save photos to disk, adjust camera behavior and unloading film from the camera.": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为以及从相机卸下胶卷。[*big]"
+    "Improves and expands the photo camera functionality, allowing to save photos to disk, adjust camera behavior and unloading film from the camera.": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为以及从相机卸下胶卷。[*big]",
+    "Find food and useful materials in the wild.": "在野外寻找食物和有用的材料。[*big]"
 }
