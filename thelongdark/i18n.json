@@ -493,5 +493,7 @@
     "Adds the ability to save, load and autosave in Sandbox/Survival using hotkeys. Also adds the ability to autosave": "在沙盒/生存模式中添加使用热键保存、加载和自动保存的功能。同时添加了自动保存的功能。[*big]",
     "Better Camera": "更好的相机[*big]",
     "Improves and expands the photo camera functionality, allowing to save photos to disk, adjust camera behavior and unloading film from the camera.": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为以及从相机卸下胶卷。[*big]",
-    "Find food and useful materials in the wild.": "在野外寻找食物和有用的材料。[*big]"
+    "Find food and useful materials in the wild.": "在野外寻找食物和有用的材料。[*big]",
+    "More Cooking Slots": "更多烹饪机位[*big]",
+    "Adds more cooking slots to fire sources that look like they could have them but do not, such as fireplaces and fire barrels.": "为看起来可能需要但实际没有烹饪格的火源（如壁炉和火桶）增加更多的烹饪格。[*big]"
 }

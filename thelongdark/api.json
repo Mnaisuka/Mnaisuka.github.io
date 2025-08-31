@@ -1563,7 +1563,7 @@
     "Name": "丰富的采集（Bountiful Foraging）",
     "Type": "mod",
     "Author": "Jods-Its",
-    "Description": "在野外寻找食物和有用的材料。",
+    "Description": "在野外寻找食物和有用的材料。[*big]",
     "Aliases": [
       "Bountiful Foraging"
     ],
@@ -7762,6 +7762,65 @@
       "tftft"
     ]
   },
+  "MoreCookingSlots": {
+    "Name": "更多烹饪机位（More Cooking Slots）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "为看起来可能需要但实际没有烹饪格的火源（如壁炉和火桶）增加更多的烹饪格。",
+    "Aliases": [
+      "More Cooking Slots"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots",
+    "RepoName": "MoreCookingSlots",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "MoreCookingSlots.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots/releases/download/1.0.0/MoreCookingSlots.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots/releases/download/1.0.0/MoreCookingSlots.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-08-31",
+    "Updated": "2025-08-31",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_MCS.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
   "MoreLockedDoors": {
     "Name": "更多锁门（More Locked Doors）",
     "Type": "mod",
@@ -8724,8 +8783,8 @@
     "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Gameplay",
-      "Cheats",
-      "Misc"
+      "Misc",
+      "Tweaks"
     ],
     "TestedOn": {
       "tld": "2.40",
