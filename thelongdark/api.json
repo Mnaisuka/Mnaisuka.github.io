@@ -7556,16 +7556,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Error": false,
     "Download": {
       "name": "ModdersGearToolbox.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3FIX/ModdersGearToolbox.zip"
+      "browser_download_url": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3FIX/ModdersGearToolbox.zip"
+        "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -7580,7 +7580,7 @@
       "ml": "0.6.6"
     },
     "Released": "2023-07-27",
-    "Updated": "2025-08-01",
+    "Updated": "2025-09-05",
     "Images": [
       "https://i.imgur.com/4WpvfIK.png"
     ],
