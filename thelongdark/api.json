@@ -1157,7 +1157,7 @@
     "Name": "更好的相机[*big]（Better Camera）",
     "Type": "mod",
     "Author": "Marcy",
-    "Description": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为以及从相机卸下胶卷。[*big]",
+    "Description": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为、动态缩放和卸载相机胶卷。",
     "Aliases": [
       "Better Camera"
     ],
@@ -1170,16 +1170,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.5.0",
     "Error": false,
     "Download": {
       "name": "BetterCamera.dll",
-      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.1.0/BetterCamera.dll"
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.5.0/BetterCamera.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.1.0/BetterCamera.dll"
+        "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.5.0/BetterCamera.dll"
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
@@ -1196,7 +1196,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-08-18",
-    "Updated": "2025-08-19",
+    "Updated": "2025-09-06",
     "Images": [
       "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_BC.jpg"
     ],
