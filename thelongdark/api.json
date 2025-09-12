@@ -3104,6 +3104,61 @@
       "tftft"
     ]
   },
+  "DLCChooseStartingGearDLC": {
+    "Name": "DLC - 选择初始装备 - DLC（DLC - Choose Starting Gear - DLC）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***",
+    "Aliases": [
+      "DLC - Choose Starting Gear - DLC",
+      "DLC_ChooseStartingGear_DLC"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC",
+    "RepoName": "DLCChooseStartingGearDLC",
+    "DisplayAuthor": [
+      "moosemeat"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "DLC_ChooseStartingGear_DLC.dll",
+      "browser_download_url": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.0.0/DLC_ChooseStartingGear_DLC.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.0.0/DLC_ChooseStartingGear_DLC.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-11",
+    "Updated": "2025-09-11",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/DLC_ChooseStartingGear_DLC_modlist.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
   "DarkerNights": {
     "Name": "更暗的夜晚（Darker Nights）",
     "Type": "mod",
