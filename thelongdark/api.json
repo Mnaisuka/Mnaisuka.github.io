@@ -3105,10 +3105,10 @@
     ]
   },
   "DLCChooseStartingGearDLC": {
-    "Name": "DLC - 选择初始装备 - DLC（DLC - Choose Starting Gear - DLC）",
+    "Name": "DLC - 选择初始装备 - DLC[*big]（DLC - Choose Starting Gear - DLC）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***",
+    "Description": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***[*big]",
     "Aliases": [
       "DLC - Choose Starting Gear - DLC",
       "DLC_ChooseStartingGear_DLC"
