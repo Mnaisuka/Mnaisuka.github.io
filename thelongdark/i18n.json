@@ -498,5 +498,15 @@
     "Adds more cooking slots to fire sources that look like they could have them but do not, such as fireplaces and fire barrels.": "为看起来可能需要但实际没有烹饪格的火源（如壁炉和火桶）增加更多的烹饪格。[*big]",
     "Improves and expands the photo camera functionality, allowing to save photos to disk, adjust camera behavior, dynamically zoom in and out, and unload film from the camera.": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为、动态缩放和卸载相机胶卷。[*big]",
     "DLC - Choose Starting Gear - DLC": "DLC - 选择初始装备 - DLC[*big]",
-    "***This mod REQUIRES THE DLC !!!*** Select the items you would like to start the game with including DLC items. ***This mod REQUIRES THE DLC !!!***": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***[*big]"
+    "***This mod REQUIRES THE DLC !!!*** Select the items you would like to start the game with including DLC items. ***This mod REQUIRES THE DLC !!!***": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***[*big]",
+    "Ambush Wolf": "伏击狼[*big]",
+    "Tracking Wolf": "追踪狼[*big]",
+    "Expanded Ai Framework": "扩展的AI框架[*big]",
+    "Companion Wolf": "伴侣狼[*big]",
+    "Wandering Wolf": "流浪狼[*big]",
+    "Creates a new wolf spawn type that hides around the map, waiting for you to walk by...": "创建一种新的狼生成类型，它会在地图周围隐藏，等待你路过...[*big]",
+    "Provides framework needed for new spawn mechanics and AI behaviors.": "提供新生成机制和AI行为所需的框架。[*big]",
+    "Creates a new wolf spawn type that wanders around the map instead of staying in a small area.": "创建一种新的狼生成类型，让它在地图上四处游荡，而不是待在小区域内。[*big]",
+    "Creates a new wolf spawn type that tracks you across the map, no matter your scent level. Watch your back!": "创建一种新的狼生成类型，无论你的气味等级如何，它都会在整张地图上追踪你。小心你的后背！[*big]",
+    "Creates a new wolf spawn type that can be tempted with meat and eventually tamed. This mod is still very early in development, it works well enough to get the pup following you and growing but there are no functional changes beyond burning a hole in your meat stash.": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。[*big]"
 }

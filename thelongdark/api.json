@@ -568,6 +568,64 @@
       "tftft"
     ]
   },
+  "AmbushWolf": {
+    "Name": "伏击狼（Ambush Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼生成类型，它会在地图周围隐藏，等待你路过...",
+    "Aliases": [
+      "Ambush Wolf",
+      "ExpandedAiFramework.AmbushWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "AmbushWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.0",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.AmbushWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.AmbushWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.AmbushWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-09-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
   "AmmunitionCraftingTools": {
     "Name": "弹药制作工具（AmmunitionCraftingTools）",
     "Type": "mod",
@@ -2431,6 +2489,64 @@
       "tftft"
     ]
   },
+  "CompanionWolf": {
+    "Name": "伴侣狼（Companion Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。",
+    "Aliases": [
+      "Companion Wolf",
+      "ExpandedAiFramework.CompanionWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "CompanionWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.0",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.CompanionWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.CompanionWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.CompanionWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-09-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
   "ComplexLogger": {
     "Name": "复杂日志记录器（Complex Logger）",
     "Type": "library",
@@ -3897,6 +4013,63 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  "ExpandedAiFramework": {
+    "Name": "扩展的AI框架（Expanded Ai Framework）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "提供新生成机制和AI行为所需的框架。",
+    "Aliases": [
+      "Expanded Ai Framework"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "ExpandedAiFramework",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.0",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-09-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "BACK UP YOUR SAVES!",
+      "issues": "BETA. Unstable. It crashes. No corruption noted."
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
@@ -12673,6 +12846,64 @@
       "tftft"
     ]
   },
+  "TrackingWolf": {
+    "Name": "追踪狼（Tracking Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼生成类型，无论你的气味等级如何，它都会在整张地图上追踪你。小心你的后背！",
+    "Aliases": [
+      "Tracking Wolf",
+      "ExpandedAiFramework.TrackingWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "TrackingWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.0",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.TrackingWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.TrackingWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.TrackingWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-09-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
   "TravoisTether": {
     "Name": "雪橇绳（Travois Tether）",
     "Type": "mod",
@@ -13017,6 +13248,64 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  "WanderingWolf": {
+    "Name": "流浪狼（Wandering Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼生成类型，让它在地图上四处游荡，而不是待在小区域内。",
+    "Aliases": [
+      "Wandering Wolf",
+      "ExpandedAiFramework.WanderingWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "WanderingWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.0",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.WanderingWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.WanderingWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.WanderingWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-09-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   "Watches": {
