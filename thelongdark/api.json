@@ -569,10 +569,10 @@
     ]
   },
   "AmbushWolf": {
-    "Name": "伏击狼（Ambush Wolf）",
+    "Name": "伏击狼[*big]（Ambush Wolf）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "创建一种新的狼生成类型，它会在地图周围隐藏，等待你路过...",
+    "Description": "创建一种新的狼生成类型，它会在地图周围隐藏，等待你路过...[*big]",
     "Aliases": [
       "Ambush Wolf",
       "ExpandedAiFramework.AmbushWolfMod"
@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.0",
+    "Version": "0.11.2",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -611,7 +611,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-14",
+    "Updated": "2025-09-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -2490,10 +2490,10 @@
     ]
   },
   "CompanionWolf": {
-    "Name": "伴侣狼（Companion Wolf）",
+    "Name": "伴侣狼[*big]（Companion Wolf）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。",
+    "Description": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。[*big]",
     "Aliases": [
       "Companion Wolf",
       "ExpandedAiFramework.CompanionWolfMod"
@@ -2510,7 +2510,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.0",
+    "Version": "0.11.2",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2532,7 +2532,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-14",
+    "Updated": "2025-09-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -3227,7 +3227,7 @@
     "Description": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***[*big]",
     "Aliases": [
       "DLC - Choose Starting Gear - DLC",
-      "DLC_ChooseStartingGear_DLC"
+      "DLC-ChooseStartingGear-DLC"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC",
@@ -3241,13 +3241,13 @@
     "Version": "1.0.0",
     "Error": false,
     "Download": {
-      "name": "DLC_ChooseStartingGear_DLC.dll",
-      "browser_download_url": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.0.0/DLC_ChooseStartingGear_DLC.dll"
+      "name": "DLC-ChooseStartingGear-DLC.dll",
+      "browser_download_url": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.0.0/DLC-ChooseStartingGear-DLC.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.0.0/DLC_ChooseStartingGear_DLC.dll"
+        "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.0.0/DLC-ChooseStartingGear-DLC.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -4017,10 +4017,10 @@
     ]
   },
   "ExpandedAiFramework": {
-    "Name": "扩展的AI框架（Expanded Ai Framework）",
+    "Name": "扩展的AI框架[*big]（Expanded Ai Framework）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "提供新生成机制和AI行为所需的框架。",
+    "Description": "提供新生成机制和AI行为所需的框架。[*big]",
     "Aliases": [
       "Expanded Ai Framework"
     ],
@@ -4035,7 +4035,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.0",
+    "Version": "0.11.2",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4057,7 +4057,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-14",
+    "Updated": "2025-09-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -12847,10 +12847,10 @@
     ]
   },
   "TrackingWolf": {
-    "Name": "追踪狼（Tracking Wolf）",
+    "Name": "追踪狼[*big]（Tracking Wolf）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "创建一种新的狼生成类型，无论你的气味等级如何，它都会在整张地图上追踪你。小心你的后背！",
+    "Description": "创建一种新的狼生成类型，无论你的气味等级如何，它都会在整张地图上追踪你。小心你的后背！[*big]",
     "Aliases": [
       "Tracking Wolf",
       "ExpandedAiFramework.TrackingWolfMod"
@@ -12867,7 +12867,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.0",
+    "Version": "0.11.2",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -12889,7 +12889,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-14",
+    "Updated": "2025-09-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -13251,10 +13251,10 @@
     ]
   },
   "WanderingWolf": {
-    "Name": "流浪狼（Wandering Wolf）",
+    "Name": "流浪狼[*big]（Wandering Wolf）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "创建一种新的狼生成类型，让它在地图上四处游荡，而不是待在小区域内。",
+    "Description": "创建一种新的狼生成类型，让它在地图上四处游荡，而不是待在小区域内。[*big]",
     "Aliases": [
       "Wandering Wolf",
       "ExpandedAiFramework.WanderingWolfMod"
@@ -13271,7 +13271,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.0",
+    "Version": "0.11.2",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13293,7 +13293,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-14",
+    "Updated": "2025-09-15",
     "Images": [],
     "Status": {
       "working": true,
