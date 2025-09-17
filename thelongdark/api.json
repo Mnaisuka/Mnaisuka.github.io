@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.2",
+    "Version": "0.11.3",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -611,7 +611,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-15",
+    "Updated": "2025-09-17",
     "Images": [],
     "Status": {
       "working": true,
@@ -2510,7 +2510,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.2",
+    "Version": "0.11.3",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2532,7 +2532,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-15",
+    "Updated": "2025-09-17",
     "Images": [],
     "Status": {
       "working": true,
@@ -4035,7 +4035,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.2",
+    "Version": "0.11.3",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4057,7 +4057,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-15",
+    "Updated": "2025-09-17",
     "Images": [],
     "Status": {
       "working": true,
@@ -10463,16 +10463,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.8.0",
+    "Version": "1.8.2",
     "Error": false,
     "Download": {
       "name": "Shortcuts.dll",
-      "browser_download_url": "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.0/Shortcuts.dll"
+      "browser_download_url": "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.2/Shortcuts.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.0/Shortcuts.dll"
+        "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.2/Shortcuts.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -10487,9 +10487,9 @@
       "ml": "0.6.6"
     },
     "Released": "2025-01-25",
-    "Updated": "2025-07-18",
+    "Updated": "2025-09-16",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Shortcuts_modlist.jpg"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Shortcuts_modlist_new.jpg"
     ],
     "Status": {
       "working": true,
@@ -12867,7 +12867,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.2",
+    "Version": "0.11.3",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -12889,7 +12889,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-15",
+    "Updated": "2025-09-17",
     "Images": [],
     "Status": {
       "working": true,
@@ -13271,7 +13271,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.2",
+    "Version": "0.11.3",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13293,7 +13293,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-15",
+    "Updated": "2025-09-17",
     "Images": [],
     "Status": {
       "working": true,
