@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.3",
+    "Version": "0.11.4",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -2510,7 +2510,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.3",
+    "Version": "0.11.4",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -4035,7 +4035,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.3",
+    "Version": "0.11.4",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -12867,7 +12867,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.3",
+    "Version": "0.11.4",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -13271,7 +13271,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.3",
+    "Version": "0.11.4",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
