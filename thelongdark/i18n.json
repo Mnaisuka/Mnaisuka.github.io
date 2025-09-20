@@ -508,5 +508,6 @@
     "Provides framework needed for new spawn mechanics and AI behaviors.": "提供新生成机制和AI行为所需的框架。[*big]",
     "Creates a new wolf spawn type that wanders around the map instead of staying in a small area.": "创建一种新的狼生成类型，让它在地图上四处游荡，而不是待在小区域内。[*big]",
     "Creates a new wolf spawn type that tracks you across the map, no matter your scent level. Watch your back!": "创建一种新的狼生成类型，无论你的气味等级如何，它都会在整张地图上追踪你。小心你的后背！[*big]",
-    "Creates a new wolf spawn type that can be tempted with meat and eventually tamed. This mod is still very early in development, it works well enough to get the pup following you and growing but there are no functional changes beyond burning a hole in your meat stash.": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。[*big]"
+    "Creates a new wolf spawn type that can be tempted with meat and eventually tamed. This mod is still very early in development, it works well enough to get the pup following you and growing but there are no functional changes beyond burning a hole in your meat stash.": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。[*big]",
+    "This mod rewamps and changes the process of crafting ammunitions, making it harder but more rewarding and enjoyable.": "这个模组重新改造并改变了制作弹药的过程，使其更具挑战性，但回报更丰厚，也更有趣。[*big]"
 }

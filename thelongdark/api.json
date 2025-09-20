@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.5",
+    "Version": "0.11.7",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -611,7 +611,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-19",
+    "Updated": "2025-09-20",
     "Images": [],
     "Status": {
       "working": true,
@@ -630,7 +630,7 @@
     "Name": "弹药制作工具（AmmunitionCraftingTools）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。使用这些工具制作弹药耗时显著更长。",
+    "Description": "这个模组重新改造并改变了制作弹药的过程，使其更具挑战性，但回报更丰厚，也更有趣。",
     "Aliases": [
       "AmmunitionCraftingTools",
       "v3.1"
@@ -648,16 +648,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "3.1.1",
+    "Version": "3.1.2",
     "Error": false,
     "Download": {
-      "name": "v3.1.1",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.1"
+      "name": "v3.1.2",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.2"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.1"
+        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.2"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -674,7 +674,7 @@
       "ml": "0.6.6"
     },
     "Released": "2024-10-28",
-    "Updated": "2025-08-06",
+    "Updated": "2025-09-20",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.png"
     ],
@@ -2170,16 +2170,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.1.0",
+    "Version": "2.1.1",
     "Error": false,
     "Download": {
       "name": "ChooseStartingConditions.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.0/ChooseStartingConditions.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.1/ChooseStartingConditions.dll"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.0/ChooseStartingConditions.dll"
+        "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.1/ChooseStartingConditions.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -2194,7 +2194,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-07-24",
-    "Updated": "2025-07-24",
+    "Updated": "2025-09-20",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.png"
     ],
@@ -2510,7 +2510,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.5",
+    "Version": "0.11.7",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2532,7 +2532,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-19",
+    "Updated": "2025-09-20",
     "Images": [],
     "Status": {
       "working": true,
@@ -4035,7 +4035,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.5",
+    "Version": "0.11.7",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4057,7 +4057,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-19",
+    "Updated": "2025-09-20",
     "Images": [],
     "Status": {
       "working": true,
@@ -5455,7 +5455,7 @@
       "beta": false,
       "patchnotes": "",
       "notes": "https://github.com/Sm4rtBoyTom/HUDImprovements",
-      "issues": ""
+      "issues": "Some UI stay slightly visible on the screen, when enabled in the ModSettings. Nothing game breaking, just annoying."
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
@@ -8111,7 +8111,7 @@
     "Description": "此模组添加了两种新木材。桦木可在桦树或森林附近找到。橡木柴火有时可在橡树附近找到，偶尔在森林中。",
     "Aliases": [
       "MoreWood",
-      "MoreWood2.1.0"
+      "v2.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/MoreWood",
@@ -8126,16 +8126,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "2.1.0",
+    "Version": "2.2.0",
     "Error": false,
     "Download": {
-      "name": "MoreWood2.1.0.zip",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/MoreWood/releases/download/v2.1.0/MoreWood2.1.0.zip"
+      "name": "v2.2.0",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/MoreWood/releases/tag/v2.2.0"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/MoreWood/releases/download/v2.1.0/MoreWood2.1.0.zip"
+        "https://github.com/Sm4rtBoyTom/MoreWood/releases/tag/v2.2.0"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -8147,11 +8147,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.43",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-10-04",
-    "Updated": "2025-06-05",
+    "Updated": "2025-09-20",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreWood.png"
     ],
@@ -9737,16 +9737,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Error": false,
     "Download": {
       "name": "RetroTextures.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.0/RetroTextures.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.1/RetroTextures.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.0/RetroTextures.dll"
+        "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.1/RetroTextures.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -9763,7 +9763,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-07-24",
-    "Updated": "2025-07-24",
+    "Updated": "2025-09-20",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.png"
     ],
@@ -12867,7 +12867,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.5",
+    "Version": "0.11.7",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -12889,7 +12889,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-19",
+    "Updated": "2025-09-20",
     "Images": [],
     "Status": {
       "working": true,
@@ -13271,7 +13271,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.5",
+    "Version": "0.11.7",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13293,7 +13293,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-19",
+    "Updated": "2025-09-20",
     "Images": [],
     "Status": {
       "working": true,
