@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.7",
+    "Version": "0.11.8",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -611,7 +611,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-20",
+    "Updated": "2025-09-21",
     "Images": [],
     "Status": {
       "working": true,
@@ -630,7 +630,7 @@
     "Name": "弹药制作工具（AmmunitionCraftingTools）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "这个模组重新改造并改变了制作弹药的过程，使其更具挑战性，但回报更丰厚，也更有趣。",
+    "Description": "这个模组重新改造并改变了制作弹药的过程，使其更具挑战性，但回报更丰厚，也更有趣。[*big]",
     "Aliases": [
       "AmmunitionCraftingTools",
       "v3.1"
@@ -676,7 +676,7 @@
     "Released": "2024-10-28",
     "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.jpg"
     ],
     "Status": {
       "working": true,
@@ -1134,7 +1134,7 @@
     "Released": "2025-02-24",
     "Updated": "2025-02-24",
     "Images": [
-      "https://github.com/user-attachments/assets/bf81c8a7-6333-4562-b605-22b476b4d5dd"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/bf81c8a7-6333-4562-b605-22b476b4d5dd"
     ],
     "Status": {
       "working": true,
@@ -1545,7 +1545,7 @@
     "Released": "2023-11-07",
     "Updated": "2023-11-07",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281925127-62f56906-2afb-4c01-9ac0-e7c64848f08e.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281925127-62f56906-2afb-4c01-9ac0-e7c64848f08e.png"
     ],
     "Status": {
       "working": true,
@@ -1638,16 +1638,16 @@
       "CraftingRevisions",
       "Modders' Gear Toolbox"
     ],
-    "Version": "1.2.1",
+    "Version": "1.2.2",
     "Error": false,
     "Download": {
       "name": "BountifulForaging.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.1/BountifulForaging.zip"
+      "browser_download_url": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.1/BountifulForaging.zip"
+        "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -1662,7 +1662,7 @@
       "ml": "0.6.6"
     },
     "Released": "2023-06-15",
-    "Updated": "2025-08-31",
+    "Updated": "2025-09-20",
     "Images": [
       "https://i.imgur.com/oYzE4vg.jpg"
     ],
@@ -2080,7 +2080,7 @@
     "Released": "2023-11-05",
     "Updated": "2025-01-21",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281892254-90e50b07-3987-4deb-8588-6055d3c39a2c.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281892254-90e50b07-3987-4deb-8588-6055d3c39a2c.png"
     ],
     "Status": {
       "working": true,
@@ -2196,7 +2196,7 @@
     "Released": "2025-07-24",
     "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.jpg"
     ],
     "Status": {
       "working": true,
@@ -2510,7 +2510,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.7",
+    "Version": "0.11.8",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2532,7 +2532,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-20",
+    "Updated": "2025-09-21",
     "Images": [],
     "Status": {
       "working": true,
@@ -4035,7 +4035,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.7",
+    "Version": "0.11.8",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4057,7 +4057,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-20",
+    "Updated": "2025-09-21",
     "Images": [],
     "Status": {
       "working": true,
@@ -4753,7 +4753,7 @@
     "Released": "2025-02-20",
     "Updated": "2025-02-20",
     "Images": [
-      "https://github.com/user-attachments/assets/41e52fea-94c6-4017-a6d7-19e94bbfbc2b"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/41e52fea-94c6-4017-a6d7-19e94bbfbc2b"
     ],
     "Status": {
       "working": true,
@@ -5448,7 +5448,7 @@
     "Released": "2025-01-02",
     "Updated": "2025-05-17",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDImprovements.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDImprovements.jpg"
     ],
     "Status": {
       "working": true,
@@ -6116,7 +6116,7 @@
     "Released": "2025-04-01",
     "Updated": "2025-04-01",
     "Images": [
-      "https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63"
     ],
     "Status": {
       "working": true,
@@ -6173,7 +6173,7 @@
     "Released": "2025-02-18",
     "Updated": "2025-02-18",
     "Images": [
-      "https://github.com/user-attachments/assets/18f257b6-a644-4cfe-81c4-07703eecd7ae"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/18f257b6-a644-4cfe-81c4-07703eecd7ae"
     ],
     "Status": {
       "working": true,
@@ -7029,7 +7029,7 @@
     "Released": "2025-04-01",
     "Updated": "2025-04-01",
     "Images": [
-      "https://github.com/user-attachments/assets/a3764279-6ef7-43d4-94e9-362c06c7af17"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/a3764279-6ef7-43d4-94e9-362c06c7af17"
     ],
     "Status": {
       "working": true,
@@ -8153,7 +8153,7 @@
     "Released": "2024-10-04",
     "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreWood.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreWood.jpg"
     ],
     "Status": {
       "working": true,
@@ -8667,7 +8667,7 @@
     "Released": "2025-03-17",
     "Updated": "2025-03-17",
     "Images": [
-      "https://github.com/user-attachments/assets/fed5d742-2ad8-4a5a-8b42-9f96a24b8211"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/fed5d742-2ad8-4a5a-8b42-9f96a24b8211"
     ],
     "Status": {
       "working": true,
@@ -8842,7 +8842,7 @@
     "Released": "2025-03-17",
     "Updated": "2025-03-18",
     "Images": [
-      "https://github.com/user-attachments/assets/27a10b0a-14d9-4bc0-beaf-57934fa5c87d"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/27a10b0a-14d9-4bc0-beaf-57934fa5c87d"
     ],
     "Status": {
       "working": true,
@@ -9053,16 +9053,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "Download": {
       "name": "PredatorSpawnSelector.dll",
-      "browser_download_url": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.0.0/PredatorSpawnSelector.dll"
+      "browser_download_url": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.1.0/PredatorSpawnSelector.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.0.0/PredatorSpawnSelector.dll"
+        "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.1.0/PredatorSpawnSelector.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -9075,7 +9075,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-08-03",
-    "Updated": "2025-08-03",
+    "Updated": "2025-09-21",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/PredatorSpawnSelector_MODLIST.jpg"
     ],
@@ -9765,7 +9765,7 @@
     "Released": "2025-07-24",
     "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.jpg"
     ],
     "Status": {
       "working": true,
@@ -9880,7 +9880,7 @@
     "Released": "2025-05-31",
     "Updated": "2025-05-31",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RepairableRepairables.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RepairableRepairables.jpg"
     ],
     "Status": {
       "working": true,
@@ -9994,7 +9994,7 @@
     "Released": "2023-11-08",
     "Updated": "2025-05-18",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/283618634-c5d11e63-ee00-4850-bdff-d767781a65c5.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/283618634-c5d11e63-ee00-4850-bdff-d767781a65c5.png"
     ],
     "Status": {
       "working": true,
@@ -11066,7 +11066,7 @@
     "Released": "2023-12-17",
     "Updated": "2025-02-08",
     "Images": [
-      "https://github.com/RomainDeschampsFR/Solstice/assets/38351288/39e3e8ef-99d8-4c9c-940e-a9344c260c53"
+      "https://tldmods.com/thumb.php?u=https://github.com/RomainDeschampsFR/Solstice/assets/38351288/39e3e8ef-99d8-4c9c-940e-a9344c260c53"
     ],
     "Status": {
       "working": true,
@@ -11301,7 +11301,7 @@
     "Released": "2024-08-01",
     "Updated": "2025-08-06",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.jpg"
     ],
     "Status": {
       "working": true,
@@ -11364,7 +11364,7 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
+    "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
       "tftft"
@@ -11918,7 +11918,7 @@
     "Released": "2023-11-05",
     "Updated": "2023-11-05",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281917179-a6c539e3-a369-4b4f-af2c-b7ca403ba5b5.jpg"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281917179-a6c539e3-a369-4b4f-af2c-b7ca403ba5b5.jpg"
     ],
     "Status": {
       "working": true,
@@ -12830,7 +12830,7 @@
     "Released": "2025-03-27",
     "Updated": "2025-03-27",
     "Images": [
-      "https://github.com/user-attachments/assets/8389ed38-79eb-459c-b4fa-a2f3243d417c"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/8389ed38-79eb-459c-b4fa-a2f3243d417c"
     ],
     "Status": {
       "working": true,
@@ -12867,7 +12867,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.7",
+    "Version": "0.11.8",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -12889,7 +12889,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-20",
+    "Updated": "2025-09-21",
     "Images": [],
     "Status": {
       "working": true,
@@ -13178,7 +13178,7 @@
     "Released": "2023-11-09",
     "Updated": "2023-11-09",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281922507-fd6d4c4a-552c-4771-b473-9c25783b7689.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281922507-fd6d4c4a-552c-4771-b473-9c25783b7689.png"
     ],
     "Status": {
       "working": true,
@@ -13271,7 +13271,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.7",
+    "Version": "0.11.8",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13293,7 +13293,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-20",
+    "Updated": "2025-09-21",
     "Images": [],
     "Status": {
       "working": true,
@@ -13416,7 +13416,7 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
+    "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
       "tftft"
