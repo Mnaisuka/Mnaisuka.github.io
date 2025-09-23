@@ -7213,6 +7213,64 @@
       "tftft"
     ]
   },
+  "LitharsRidge": {
+    "Name": "利瑟岭（Lithar's Ridge）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "一个隐蔽的山脊，位于荒凉湾，那里有一座舒适的木屋、风景优美的观景台，以及一条供探险者发现新奇的路径。",
+    "Aliases": [
+      "Lithar's Ridge"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/LitharsRidge",
+    "RepoName": "LitharsRidge",
+    "DisplayAuthor": [
+      "moosemeat",
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "LitharsRidge.zip",
+      "browser_download_url": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.0.0/LitharsRidge.zip"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "",
+        "https://github.com/moosemeat817/LitharsRidge/releases/download/1.0.0/LitharsRidge.zip"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-22",
+    "Updated": "2025-09-22",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/LitharsRidge_modlist.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
   "LitharsMending": {
     "Name": "Lithars的修补（LitharsMending）",
     "Type": "mod",
