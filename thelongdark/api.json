@@ -3300,16 +3300,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "Download": {
       "name": "DLC-ChooseStartingGear-DLC.dll",
-      "browser_download_url": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.1.0/DLC-ChooseStartingGear-DLC.dll"
+      "browser_download_url": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.2.0/DLC-ChooseStartingGear-DLC.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.1.0/DLC-ChooseStartingGear-DLC.dll"
+        "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.2.0/DLC-ChooseStartingGear-DLC.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -3322,7 +3322,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-11",
-    "Updated": "2025-09-18",
+    "Updated": "2025-09-27",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/DLC_ChooseStartingGear_DLC_modlist.jpg"
     ],
@@ -5464,17 +5464,18 @@
       "tftft"
     ]
   },
-  "HUDImprovements": {
-    "Name": "HUD改进（HUD Improvements）",
+  "HUDTweaks": {
+    "Name": "HUD调整（HUD Tweaks）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "HUD改进模组通过ModSettings添加了启用或禁用某些可能烦人的HUD元素的功能。\n非常感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或火源的悬浮文本。你玩游戏时间够长了，你知道一根棍子长什么样。",
+    "Description": "HUD调整/改进模组通过ModSettings添加了启用或禁用某些可能令人烦恼的HUD元素的功能。\n特别感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或发射时的悬停文本。你玩这个游戏已经足够久了，你知道一根棍子长什么样子。",
     "Aliases": [
-      "HUD Improvements"
+      "HUD Tweaks",
+      "HUDImprovements"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Sm4rtBoyTom/HUDImprovements",
-    "RepoName": "HUDImprovements",
+    "ModUrl": "https://github.com/Sm4rtBoyTom/HUDTweaks",
+    "RepoName": "HUDTweaks",
     "DisplayAuthor": [
       "Sm4rtBoyTom",
       "Digitalzombie"
@@ -5482,16 +5483,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.1",
+    "Version": "1.2.0",
     "Error": false,
     "Download": {
       "name": "HUDImprovements.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/HUDImprovements/releases/download/v1.1.1/HUDImprovements.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/download/v1.2.0/HUDImprovements.dll"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/HUDImprovements/releases/download/v1.1.1/HUDImprovements.dll"
+        "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/download/v1.2.0/HUDImprovements.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -5504,20 +5505,20 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-01-02",
-    "Updated": "2025-05-17",
+    "Updated": "2025-09-28",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDImprovements.jpg"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDTweals.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "https://github.com/Sm4rtBoyTom/HUDImprovements",
-      "issues": "Some UI stay slightly visible on the screen, when enabled in the ModSettings. Nothing game breaking, just annoying."
+      "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
@@ -7295,17 +7296,17 @@
       "ModData",
       "ModComponent"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "Download": {
       "name": "LitharsRidge.zip",
-      "browser_download_url": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.0.0/LitharsRidge.zip"
+      "browser_download_url": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.1.0/LitharsRidge.zip"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
         "",
-        "https://github.com/moosemeat817/LitharsRidge/releases/download/1.0.0/LitharsRidge.zip"
+        "https://github.com/moosemeat817/LitharsRidge/releases/download/1.1.0/LitharsRidge.zip"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -7318,9 +7319,9 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-22",
-    "Updated": "2025-09-22",
+    "Updated": "2025-09-28",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/LitharsRidge_modlist.jpg"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/LitharsRidge_Exp_modlist.jpg"
     ],
     "Status": {
       "working": true,
