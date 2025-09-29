@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.8",
+    "Version": "0.11.10",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -611,7 +611,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-21",
+    "Updated": "2025-09-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -2572,7 +2572,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.8",
+    "Version": "0.11.10",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2594,7 +2594,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-21",
+    "Updated": "2025-09-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -4097,7 +4097,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.8",
+    "Version": "0.11.10",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4119,7 +4119,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-21",
+    "Updated": "2025-09-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -5465,10 +5465,10 @@
     ]
   },
   "HUDTweaks": {
-    "Name": "HUD调整（HUD Tweaks）",
+    "Name": "HUD调整[*big]（HUD Tweaks）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "HUD调整/改进模组通过ModSettings添加了启用或禁用某些可能令人烦恼的HUD元素的功能。\n特别感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或发射时的悬停文本。你玩这个游戏已经足够久了，你知道一根棍子长什么样子。",
+    "Description": "HUD调整/改进模组通过ModSettings添加了启用或禁用某些可能令人烦恼的HUD元素的功能。\n特别感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或发射时的悬停文本。你玩这个游戏已经足够久了，你知道一根棍子长什么样子。[*big]",
     "Aliases": [
       "HUD Tweaks",
       "HUDImprovements"
@@ -7296,17 +7296,17 @@
       "ModData",
       "ModComponent"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "Download": {
       "name": "LitharsRidge.zip",
-      "browser_download_url": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.1.0/LitharsRidge.zip"
+      "browser_download_url": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.2.0/LitharsRidge.zip"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
         "",
-        "https://github.com/moosemeat817/LitharsRidge/releases/download/1.1.0/LitharsRidge.zip"
+        "https://github.com/moosemeat817/LitharsRidge/releases/download/1.2.0/LitharsRidge.zip"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -7319,7 +7319,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-22",
-    "Updated": "2025-09-28",
+    "Updated": "2025-09-29",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/LitharsRidge_Exp_modlist.jpg"
     ],
@@ -13049,7 +13049,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.8",
+    "Version": "0.11.10",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -13071,7 +13071,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-21",
+    "Updated": "2025-09-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -13453,7 +13453,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.8",
+    "Version": "0.11.10",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13475,7 +13475,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-21",
+    "Updated": "2025-09-28",
     "Images": [],
     "Status": {
       "working": true,
