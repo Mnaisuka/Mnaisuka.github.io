@@ -593,12 +593,12 @@
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.AmbushWolfMod.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.AmbushWolfMod.dll"
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
@@ -2576,12 +2576,12 @@
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.CompanionWolfMod.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.CompanionWolfMod.dll"
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
@@ -4101,12 +4101,12 @@
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.dll"
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
@@ -4442,12 +4442,13 @@
     "Error": false,
     "Download": {
       "name": "FeatSettings.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/FeatSettings/releases/download/1.1.3/FeatSettings.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/FeatSettings/releases/download/1.1.3/FeatSettings.dll"
+        "https://github.com/monsieurmeh/FeatSettings/releases/download/1.1.3/FeatSettings.dll",
+        "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
@@ -13053,12 +13054,12 @@
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.TrackingWolfMod.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.TrackingWolfMod.dll"
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
@@ -13457,12 +13458,12 @@
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.WanderingWolfMod.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/download/Beta/ExpandedAiFramework.WanderingWolfMod.dll"
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
