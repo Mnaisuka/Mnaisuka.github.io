@@ -589,7 +589,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.10",
+    "Version": "0.11.12",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -611,7 +611,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-28",
+    "Updated": "2025-10-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -2572,7 +2572,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.10",
+    "Version": "0.11.12",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2594,7 +2594,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-28",
+    "Updated": "2025-10-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -4097,7 +4097,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.10",
+    "Version": "0.11.12",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4119,7 +4119,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-28",
+    "Updated": "2025-10-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -4891,10 +4891,10 @@
     ]
   },
   "ForagersDelight": {
-    "Name": "寻宝者的喜悦（Forager's Delight）",
+    "Name": "寻宝者的喜悦[*big]（Forager's Delight）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "寻宝者的喜悦模组为某些服装物品添加了小的（可自定义的）携带负重增益。",
+    "Description": "寻宝者的喜悦模组为某些服装物品添加了小的（可自定义的）携带负重增益。[*big]",
     "Aliases": [
       "Forager's Delight",
       "Forager.s.Delight"
@@ -9165,7 +9165,7 @@
     "Name": "植物收获调整器（Plant Harvest Tweaker）",
     "Type": "mod",
     "Author": "Marcy",
-    "Description": "允许更改游戏中所有植物的收获量和收获时间。允许在最小值和最大值之间随机化物品产出。添加一个选项，使工具在用于植物收获时会损耗。",
+    "Description": "修改游戏中所有植物的单位产量、收获速度和所需工具。为植物收获添加可选难度，例如收获失败几率或产量随机化。",
     "Aliases": [
       "Plant Harvest Tweaker"
     ],
@@ -9178,16 +9178,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.5.0",
+    "Version": "1.6.5",
     "Error": false,
     "Download": {
       "name": "PlantHarvestTweaker.dll",
-      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.5.0/PlantHarvestTweaker.dll"
+      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.5/PlantHarvestTweaker.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.5.0/PlantHarvestTweaker.dll"
+        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.5/PlantHarvestTweaker.dll"
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
@@ -9202,7 +9202,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-03-28",
-    "Updated": "2025-04-04",
+    "Updated": "2025-10-06",
     "Images": [
       "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/PHT_Thumb.png"
     ],
@@ -11437,7 +11437,7 @@
     "Name": "潜行者辅助和补充（StalkerAidsAndSupplements）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "这个模组扩展了TLD的医疗物品。大部分物品灵感来源于S.T.A.L.K.E.R游戏，你可能会遇到一些参考。",
+    "Description": "这个模组扩展了TLD的医疗物品。大部分物品灵感来源于S.T.A.L.K.E.R游戏，你可能会遇到一些参考。[*big]",
     "Aliases": [
       "StalkerAidsAndSupplements",
       "v2.2"
@@ -13112,7 +13112,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.10",
+    "Version": "0.11.12",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -13134,7 +13134,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-28",
+    "Updated": "2025-10-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -13516,7 +13516,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.10",
+    "Version": "0.11.12",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13538,7 +13538,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-09-28",
+    "Updated": "2025-10-05",
     "Images": [],
     "Status": {
       "working": true,
