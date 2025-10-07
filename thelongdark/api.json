@@ -9165,7 +9165,7 @@
     "Name": "植物收获调整器（Plant Harvest Tweaker）",
     "Type": "mod",
     "Author": "Marcy",
-    "Description": "修改游戏中所有植物的单位产量、收获速度和所需工具。为植物收获添加可选难度，例如收获失败几率或产量随机化。",
+    "Description": "修改游戏中所有植物的单位产量、收获速度和所需工具。为植物收获添加可选难度，例如收获失败几率或产量随机化。[*big]",
     "Aliases": [
       "Plant Harvest Tweaker"
     ],
