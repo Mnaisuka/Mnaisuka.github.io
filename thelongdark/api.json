@@ -1717,7 +1717,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-03-10",
@@ -1776,7 +1776,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-12-08",
@@ -3946,7 +3946,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-02-13",
@@ -5797,7 +5797,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2019-05-12",
@@ -6635,7 +6635,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-05-24",
@@ -9082,7 +9082,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-07-06",
@@ -9178,16 +9178,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.6.8",
+    "Version": "1.6.9",
     "Error": false,
     "Download": {
       "name": "PlantHarvestTweaker.dll",
-      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.8/PlantHarvestTweaker.dll"
+      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.9/PlantHarvestTweaker.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.8/PlantHarvestTweaker.dll"
+        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.9/PlantHarvestTweaker.dll"
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
@@ -9198,11 +9198,11 @@
       "Tweaks"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-03-28",
-    "Updated": "2025-10-10",
+    "Updated": "2025-10-11",
     "Images": [
       "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/PHT_Thumb.png"
     ],
