@@ -39,12 +39,6 @@ ListDisplay.prototype = {
 
 		this.json.modstatus = {};
 
-		// 载入已汉化的模组列表
-		var r = new XMLHttpRequest();
-		r.open("GET", "\\thelongdark\\is_hanified\\list.json", false);
-		r.send(null);
-		window['isHanified'] = JSON.parse(r.responseText); // 声明到全局
-
 		// 载入已收藏的模组列表
 		var favoritesStr = localStorage.getItem('favorites');
 		var favorites = favoritesStr ? JSON.parse(favoritesStr) : [];
@@ -311,17 +305,6 @@ ListDisplay.prototype = {
 			modDesc.html(mod.description);
 
 			modLinks.find(".mod-download").attr("href", mod.downloadURL);
-			modLinks.find(".mod-download").click(((key, data) => {
-				return function (e) {
-					if (key in isHanified) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
-						if (confirm("该模组存在汉化版本，是否下载汉化版本？")) {
-							window.open(isHanified[key]["Download"], '_blank')
-							e.originalEvent.preventDefault();
-						}
-					}
-				}
-			})(key, iData))
-
 			modLinks.find(".mod-favorite").click(((key, data) => {
 				return function (e) {
 					var isFavorited = e.delegateTarget.classList.toggle('favorited');

@@ -229,11 +229,6 @@ class FavoritesModal {
                     return function (e) {
                         e.stopPropagation();
                         var url = model_info.Download.browser_download_url;
-                        if (mod_id in isHanified) { // 通过模组更新日期判断是否为过期汉化版，如果为则...
-                            if (confirm("该模组存在汉化版本，是否下载汉化版本？")) {
-                                url = isHanified[mod_id]["Download"]
-                            }
-                        }
                         window.open(url, '_blank');
                         e.target.textContent = "已下载"
                     }
