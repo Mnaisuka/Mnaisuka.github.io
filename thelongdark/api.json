@@ -568,14 +568,72 @@
       "tftft"
     ]
   },
+  "AmbushWolf": {
+    "Name": "伏击狼[*big]（Ambush Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼生成类型，它会在地图周围隐藏，等待你路过...[*big]",
+    "Aliases": [
+      "Ambush Wolf",
+      "ExpandedAiFramework.AmbushWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "AmbushWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.12",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.AmbushWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-10-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
   "AmmunitionCraftingTools": {
     "Name": "弹药制作工具（AmmunitionCraftingTools）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "此模组为野外制作弹药添加了工具。你不再需要弹药工作台来制作弹药。使用这些工具制作弹药耗时显著更长。",
+    "Description": "这个模组重新改造并改变了制作弹药的过程，使其更具挑战性，但回报更丰厚，也更有趣。[*big]",
     "Aliases": [
       "AmmunitionCraftingTools",
-      "v3.1"
+      "v3.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools",
@@ -590,16 +648,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "3.1.0",
+    "Version": "3.2.0",
     "Error": false,
     "Download": {
-      "name": "v3.1.0",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.0"
+      "name": "v3.2.0",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.2.0"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.1.0"
+        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.2.0"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -616,9 +674,9 @@
       "ml": "0.6.6"
     },
     "Released": "2024-10-28",
-    "Updated": "2025-07-24",
+    "Updated": "2025-10-05",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.jpg"
     ],
     "Status": {
       "working": true,
@@ -630,7 +688,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
@@ -1077,7 +1134,7 @@
     "Released": "2025-02-24",
     "Updated": "2025-02-24",
     "Images": [
-      "https://github.com/user-attachments/assets/bf81c8a7-6333-4562-b605-22b476b4d5dd"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/bf81c8a7-6333-4562-b605-22b476b4d5dd"
     ],
     "Status": {
       "working": true,
@@ -1151,6 +1208,66 @@
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
+      "tftft"
+    ]
+  },
+  "BetterCamera": {
+    "Name": "更好的相机[*big]（Better Camera）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "改进并扩展了照片相机功能，允许将照片保存到磁盘、调整相机行为、动态缩放和卸载相机胶卷。[*big]",
+    "Aliases": [
+      "Better Camera"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-Better-Camera",
+    "RepoName": "BetterCamera",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.5.0",
+    "Error": false,
+    "Download": {
+      "name": "BetterCamera.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.5.0/BetterCamera.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-Better-Camera/releases/download/1.5.0/BetterCamera.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Gear Items",
+      "Overhaul",
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-08-18",
+    "Updated": "2025-09-06",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_BC.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
       "tftft"
     ]
   },
@@ -1428,7 +1545,7 @@
     "Released": "2023-11-07",
     "Updated": "2023-11-07",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281925127-62f56906-2afb-4c01-9ac0-e7c64848f08e.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281925127-62f56906-2afb-4c01-9ac0-e7c64848f08e.png"
     ],
     "Status": {
       "working": true,
@@ -1503,10 +1620,9 @@
     "Name": "丰富的采集（Bountiful Foraging）",
     "Type": "mod",
     "Author": "Jods-Its",
-    "Description": "在野外寻找食物和有用的材料。GitHub仓库中有非DLC兼容版本。",
+    "Description": "在野外寻找食物和有用的材料。[*big]",
     "Aliases": [
-      "Bountiful Foraging",
-      "BountifulForagingDLC"
+      "Bountiful Foraging"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Jods-Its/Jods-Bountiful-Foraging",
@@ -1519,18 +1635,19 @@
       "ModComponent",
       "LocalizationUtilities",
       "GearSpawner",
-      "CraftingRevisions"
+      "CraftingRevisions",
+      "Modders' Gear Toolbox"
     ],
-    "Version": "1.1.2",
-    "Error": true,
+    "Version": "1.2.2",
+    "Error": false,
     "Download": {
-      "name": "BountifulForagingDLC.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.1.2/BountifulForagingDLC.zip"
+      "name": "BountifulForaging.zip",
+      "browser_download_url": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.1.2/BountifulForagingDLC.zip"
+        "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -1541,19 +1658,19 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1"
+      "tld": "2.44",
+      "ml": "0.6.6"
     },
     "Released": "2023-06-15",
-    "Updated": "2023-08-06",
+    "Updated": "2025-09-20",
     "Images": [
       "https://i.imgur.com/oYzE4vg.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "Fixed various bugs, new Turkish localization.",
-      "notes": "Unzip the .zip, drop contents in mod folder. Available CandleLight version.",
+      "patchnotes": "A lot of stuff. Check changelog on the repo.",
+      "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
     "PreviousAuthors": "",
@@ -1593,14 +1710,14 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Quality of Life",
       "Gameplay",
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-03-10",
@@ -1652,14 +1769,14 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Quality of Life",
       "Food",
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-12-08",
@@ -1963,7 +2080,7 @@
     "Released": "2023-11-05",
     "Updated": "2025-01-21",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281892254-90e50b07-3987-4deb-8588-6055d3c39a2c.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281892254-90e50b07-3987-4deb-8588-6055d3c39a2c.png"
     ],
     "Status": {
       "working": true,
@@ -2053,16 +2170,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.1.0",
+    "Version": "2.1.1",
     "Error": false,
     "Download": {
       "name": "ChooseStartingConditions.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.0/ChooseStartingConditions.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.1/ChooseStartingConditions.dll"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.0/ChooseStartingConditions.dll"
+        "https://github.com/Sm4rtBoyTom/ChooseStartingConditions/releases/download/v2.1.1/ChooseStartingConditions.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -2077,9 +2194,9 @@
       "ml": "0.6.6"
     },
     "Released": "2025-07-24",
-    "Updated": "2025-07-24",
+    "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.jpg"
     ],
     "Status": {
       "working": true,
@@ -2099,7 +2216,7 @@
     "Name": "选择起始装备（Choose Starting Gear）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "选择您希望开始游戏时拥有的物品。[*big]",
+    "Description": "请选择你希望开局时携带的物品。",
     "Aliases": [
       "Choose Starting Gear"
     ],
@@ -2112,16 +2229,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.0.0",
+    "Version": "2.1.0",
     "Error": false,
     "Download": {
       "name": "ChooseStartingGear.dll",
-      "browser_download_url": "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll"
+      "browser_download_url": "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.1.0/ChooseStartingGear.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll"
+        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.1.0/ChooseStartingGear.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -2133,8 +2250,8 @@
       "tld": "2.44",
       "ml": "0.6.6"
     },
-    "Released": "2025-08-02",
-    "Updated": "2025-08-02",
+    "Released": "2025-08-13",
+    "Updated": "2025-08-13",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ChooseStartingGear_modlist.jpg"
     ],
@@ -2224,7 +2341,7 @@
       "CraftingRevisions"
     ],
     "Version": "1.0.5",
-    "Error": false,
+    "Error": true,
     "Download": {
       "name": "V1.0.5",
       "browser_download_url": "https://github.com/TonisGaming/ClothingExpanded/releases/tag/V1.0.5"
@@ -2250,7 +2367,7 @@
     "Updated": "2024-05-19",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -2432,6 +2549,64 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  "CompanionWolf": {
+    "Name": "伴侣狼[*big]（Companion Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼 spawn 类型，可以用肉引诱，最终驯服。这个模组开发还处于非常早期的阶段，它足以让幼狼跟随你并成长，但除了在肉食库存中烧个洞之外，没有其他功能性的改变。[*big]",
+    "Aliases": [
+      "Companion Wolf",
+      "ExpandedAiFramework.CompanionWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "CompanionWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.12",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.CompanionWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-10-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   "ComplexLogger": {
@@ -3107,6 +3282,61 @@
       "tftft"
     ]
   },
+  "DLCChooseStartingGearDLC": {
+    "Name": "DLC - 选择初始装备 - DLC[*big]（DLC - Choose Starting Gear - DLC）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "***这个模组需要DLC！！！*** 选择你想要开始游戏时拥有的物品，包括DLC物品。***这个模组需要DLC！！！***[*big]",
+    "Aliases": [
+      "DLC - Choose Starting Gear - DLC",
+      "DLC-ChooseStartingGear-DLC"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC",
+    "RepoName": "DLCChooseStartingGearDLC",
+    "DisplayAuthor": [
+      "moosemeat"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "Download": {
+      "name": "DLC-ChooseStartingGear-DLC.dll",
+      "browser_download_url": "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.3.0/DLC-ChooseStartingGear-DLC.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/moosemeat817/DLC_ChooseStartingGear_DLC/releases/download/1.3.0/DLC-ChooseStartingGear-DLC.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-11",
+    "Updated": "2025-10-10",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/DLC_ChooseStartingGear_DLC_modlist.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
   "DarkerNights": {
     "Name": "更暗的夜晚（Darker Nights）",
     "Type": "mod",
@@ -3477,7 +3707,7 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Quality of Life",
       "Gear Items",
@@ -3709,14 +3939,14 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Quality of Life",
       "Gameplay",
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-02-13",
@@ -3845,6 +4075,63 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  "ExpandedAiFramework": {
+    "Name": "扩展的AI框架[*big]（Expanded Ai Framework）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "提供新生成机制和AI行为所需的框架。[*big]",
+    "Aliases": [
+      "Expanded Ai Framework"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "ExpandedAiFramework",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.12",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-10-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "BACK UP YOUR SAVES!",
+      "issues": "BETA. Unstable. It crashes. No corruption noted."
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
@@ -4151,16 +4438,17 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.2",
+    "Version": "1.1.3",
     "Error": false,
     "Download": {
       "name": "FeatSettings.dll",
-      "browser_download_url": "https://github.com/monsieurmeh/FeatSettings/releases/download/1.1.2/FeatSettings.dll"
+      "browser_download_url": "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/monsieurmeh/FeatSettings/releases/download/1.1.2/FeatSettings.dll"
+        "https://github.com/monsieurmeh/FeatSettings/releases/download/1.1.3/FeatSettings.dll",
+        "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll"
       ]
     },
     "AuthorUrl": "https://github.com/monsieurmeh/",
@@ -4172,7 +4460,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.42",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-07-26",
@@ -4446,16 +4734,17 @@
       "AlcoholMod",
       "CraftingRevisions"
     ],
-    "Version": "6",
+    "Version": "6.1",
     "Error": false,
     "Download": {
-      "name": "FoodPackByTKG.zip",
-      "browser_download_url": "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6/FoodPackByTKG.zip"
+      "name": "FoodPackByTKG.7z",
+      "browser_download_url": "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.1/FoodPackByTKG.7z"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6/FoodPackByTKG.zip"
+        "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6/FoodPackByTKG.zip",
+        "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.1/FoodPackByTKG.7z"
       ]
     },
     "AuthorUrl": "https://github.com/Thekillergreece",
@@ -4468,14 +4757,14 @@
       "ml": "0.6.6"
     },
     "Released": "2023-04-11",
-    "Updated": "2025-05-20",
+    "Updated": "2025-10-12",
     "Images": [
       "https://i.imgur.com/daZdf7U.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Version 6. Added recipes, packages and spawns to MOD Mountain Pass.",
+      "patchnotes": "Version 6.1 - Additional food spawns at custom regions.",
       "notes": "Just drop the content into the mods folder.",
       "issues": ""
     },
@@ -4528,7 +4817,7 @@
     "Released": "2025-02-20",
     "Updated": "2025-02-20",
     "Images": [
-      "https://github.com/user-attachments/assets/41e52fea-94c6-4017-a6d7-19e94bbfbc2b"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/41e52fea-94c6-4017-a6d7-19e94bbfbc2b"
     ],
     "Status": {
       "working": true,
@@ -4597,6 +4886,68 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  "ForagersDelight": {
+    "Name": "寻宝者的喜悦[*big]（Forager's Delight）",
+    "Type": "mod",
+    "Author": "Sm4rtBoyTom",
+    "Description": "寻宝者的喜悦模组为某些服装物品添加了小的（可自定义的）携带负重增益。[*big]",
+    "Aliases": [
+      "Forager's Delight",
+      "Forager.s.Delight"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Sm4rtBoyTom/Forager-s-Delight",
+    "RepoName": "ForagersDelight",
+    "DisplayAuthor": [
+      "Sm4rtBoyTom"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "Forager.s.Delight.dll",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.0.0/Forager.s.Delight.dll"
+    },
+    "Updater": {
+      "enable_update": false,
+      "downloads": [
+        "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.0.0/Forager.s.Delight.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/Sm4rtBoyTom",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Clothing",
+      "Overhaul",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-10-05",
+    "Updated": "2025-10-05",
+    "Images": [
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ForagersDelight.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "https://github.com/Sm4rtBoyTom/Forager-s-Delight",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -5083,7 +5434,7 @@
       "ModSettings",
       "LocalizationUtilities"
     ],
-    "Version": "0.9.3",
+    "Version": "0.9.4",
     "Error": false,
     "Download": {
       "name": "GearInfo.dll",
@@ -5106,7 +5457,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-05-26",
-    "Updated": "2025-06-12",
+    "Updated": "2025-08-07",
     "Images": [
       "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/4d56185b662f51df77ee6a0f20ecfcb951530962/pics/GearInfo.png"
     ],
@@ -5177,17 +5528,18 @@
       "tftft"
     ]
   },
-  "HUDImprovements": {
-    "Name": "HUD改进（HUD Improvements）",
+  "HUDTweaks": {
+    "Name": "HUD调整[*big]（HUD Tweaks）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "HUD改进模组通过ModSettings添加了启用或禁用某些可能烦人的HUD元素的功能。\n非常感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或火源的悬浮文本。你玩游戏时间够长了，你知道一根棍子长什么样。",
+    "Description": "HUD调整/改进模组通过ModSettings添加了启用或禁用某些可能令人烦恼的HUD元素的功能。\n特别感谢DigitalZombie允许我将此模组与他的Yes I Know模组合并\n禁用物品和/或发射时的悬停文本。你玩这个游戏已经足够久了，你知道一根棍子长什么样子。[*big]",
     "Aliases": [
-      "HUD Improvements"
+      "HUD Tweaks",
+      "HUDImprovements"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Sm4rtBoyTom/HUDImprovements",
-    "RepoName": "HUDImprovements",
+    "ModUrl": "https://github.com/Sm4rtBoyTom/HUDTweaks",
+    "RepoName": "HUDTweaks",
     "DisplayAuthor": [
       "Sm4rtBoyTom",
       "Digitalzombie"
@@ -5195,16 +5547,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.1",
+    "Version": "1.2.0",
     "Error": false,
     "Download": {
       "name": "HUDImprovements.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/HUDImprovements/releases/download/v1.1.1/HUDImprovements.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/download/v1.2.0/HUDImprovements.dll"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/HUDImprovements/releases/download/v1.1.1/HUDImprovements.dll"
+        "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/download/v1.2.0/HUDImprovements.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -5217,13 +5569,13 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-01-02",
-    "Updated": "2025-05-17",
+    "Updated": "2025-09-28",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDImprovements.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDTweals.jpg"
     ],
     "Status": {
       "working": true,
@@ -5439,14 +5791,14 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Quality of Life",
       "Graphics",
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2019-05-12",
@@ -5594,16 +5946,16 @@
       "ModSettings",
       "AfflictionComponent"
     ],
-    "Version": "3.1.1",
+    "Version": "3.1.2",
     "Error": false,
     "Download": {
       "name": "ImprovedAfflictions.dll",
-      "browser_download_url": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.1/ImprovedAfflictions.dll"
+      "browser_download_url": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.2/ImprovedAfflictions.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.1/ImprovedAfflictions.dll"
+        "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.2/ImprovedAfflictions.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
@@ -5612,11 +5964,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.36",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2023-07-22",
-    "Updated": "2025-02-13",
+    "Updated": "2025-09-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -5891,7 +6243,7 @@
     "Released": "2025-04-01",
     "Updated": "2025-04-01",
     "Images": [
-      "https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63"
     ],
     "Status": {
       "working": true,
@@ -5948,7 +6300,7 @@
     "Released": "2025-02-18",
     "Updated": "2025-02-18",
     "Images": [
-      "https://github.com/user-attachments/assets/18f257b6-a644-4cfe-81c4-07703eecd7ae"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/18f257b6-a644-4cfe-81c4-07703eecd7ae"
     ],
     "Status": {
       "working": true,
@@ -6279,12 +6631,12 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-05-24",
@@ -6804,7 +7156,7 @@
     "Released": "2025-04-01",
     "Updated": "2025-04-01",
     "Images": [
-      "https://github.com/user-attachments/assets/a3764279-6ef7-43d4-94e9-362c06c7af17"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/a3764279-6ef7-43d4-94e9-362c06c7af17"
     ],
     "Status": {
       "working": true,
@@ -6987,6 +7339,64 @@
     "GameVersion": [
       "tftft"
     ]
+  },
+  "LitharsRidge": {
+    "Name": "利瑟岭[*big]（Lithar's Ridge）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "一个隐蔽的山脊，位于荒凉湾，那里有一座舒适的木屋、风景优美的观景台，以及一条供探险者发现新奇的路径。[*big]",
+    "Aliases": [
+      "Lithar's Ridge"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/LitharsRidge",
+    "RepoName": "LitharsRidge",
+    "DisplayAuthor": [
+      "moosemeat",
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "Download": {
+      "name": "LitharsRidge.zip",
+      "browser_download_url": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.3.0/LitharsRidge.zip"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "",
+        "https://github.com/moosemeat817/LitharsRidge/releases/download/1.3.0/LitharsRidge.zip"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-22",
+    "Updated": "2025-10-11",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/LitharsRidge_Exp_modlist.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   "LitharsMending": {
     "Name": "Lithars的修补（LitharsMending）",
@@ -7558,16 +7968,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Error": false,
     "Download": {
       "name": "ModdersGearToolbox.zip",
-      "browser_download_url": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3FIX/ModdersGearToolbox.zip"
+      "browser_download_url": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.3FIX/ModdersGearToolbox.zip"
+        "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip"
       ]
     },
     "AuthorUrl": "https://github.com/Jods-Its",
@@ -7582,7 +7992,7 @@
       "ml": "0.6.6"
     },
     "Released": "2023-07-27",
-    "Updated": "2025-08-01",
+    "Updated": "2025-09-05",
     "Images": [
       "https://i.imgur.com/4WpvfIK.png"
     ],
@@ -7764,6 +8174,65 @@
       "tftft"
     ]
   },
+  "MoreCookingSlots": {
+    "Name": "更多烹饪机位[*big]（More Cooking Slots）",
+    "Type": "mod",
+    "Author": "Marcy",
+    "Description": "为看起来可能需要但实际没有烹饪格的火源（如壁炉和火桶）增加更多的烹饪格。[*big]",
+    "Aliases": [
+      "More Cooking Slots"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots",
+    "RepoName": "MoreCookingSlots",
+    "DisplayAuthor": [
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "MoreCookingSlots.dll",
+      "browser_download_url": "https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots/releases/download/1.0.0/MoreCookingSlots.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots/releases/download/1.0.0/MoreCookingSlots.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/DemonBunnyBon",
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-08-31",
+    "Updated": "2025-08-31",
+    "Images": [
+      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_MCS.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
   "MoreLockedDoors": {
     "Name": "更多锁门（More Locked Doors）",
     "Type": "mod",
@@ -7827,7 +8296,7 @@
     "Description": "此模组添加了两种新木材。桦木可在桦树或森林附近找到。橡木柴火有时可在橡树附近找到，偶尔在森林中。",
     "Aliases": [
       "MoreWood",
-      "MoreWood2.1.0"
+      "v2.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/MoreWood",
@@ -7842,16 +8311,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "2.1.0",
+    "Version": "2.2.0",
     "Error": false,
     "Download": {
-      "name": "MoreWood2.1.0.zip",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/MoreWood/releases/download/v2.1.0/MoreWood2.1.0.zip"
+      "name": "v2.2.0",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/MoreWood/releases/tag/v2.2.0"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/MoreWood/releases/download/v2.1.0/MoreWood2.1.0.zip"
+        "https://github.com/Sm4rtBoyTom/MoreWood/releases/tag/v2.2.0"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -7863,13 +8332,13 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.43",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-10-04",
-    "Updated": "2025-06-05",
+    "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreWood.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreWood.jpg"
     ],
     "Status": {
       "working": true,
@@ -8383,7 +8852,7 @@
     "Released": "2025-03-17",
     "Updated": "2025-03-17",
     "Images": [
-      "https://github.com/user-attachments/assets/fed5d742-2ad8-4a5a-8b42-9f96a24b8211"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/fed5d742-2ad8-4a5a-8b42-9f96a24b8211"
     ],
     "Status": {
       "working": true,
@@ -8558,7 +9027,7 @@
     "Released": "2025-03-17",
     "Updated": "2025-03-18",
     "Images": [
-      "https://github.com/user-attachments/assets/27a10b0a-14d9-4bc0-beaf-57934fa5c87d"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/27a10b0a-14d9-4bc0-beaf-57934fa5c87d"
     ],
     "Status": {
       "working": true,
@@ -8606,7 +9075,7 @@
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Quality of Life",
       "Gameplay",
@@ -8614,7 +9083,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2024-07-06",
@@ -8697,7 +9166,7 @@
     "Name": "植物收获调整器（Plant Harvest Tweaker）",
     "Type": "mod",
     "Author": "Marcy",
-    "Description": "允许更改游戏中所有植物的收获量和收获时间。允许在最小值和最大值之间随机化物品产出。添加一个选项，使工具在用于植物收获时会损耗。",
+    "Description": "修改游戏中所有植物的单位产量、收获速度和所需工具。为植物收获添加可选难度，例如收获失败几率或产量随机化。[*big]",
     "Aliases": [
       "Plant Harvest Tweaker"
     ],
@@ -8710,31 +9179,31 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.5",
+    "Version": "1.6.9",
     "Error": false,
     "Download": {
       "name": "PlantHarvestTweaker.dll",
-      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.3.5/PlantHarvestTweaker.dll"
+      "browser_download_url": "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.9/PlantHarvestTweaker.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.3.5/PlantHarvestTweaker.dll"
+        "https://github.com/DemonBunnyBon/PlantHarvestTweaker/releases/download/1.6.9/PlantHarvestTweaker.dll"
       ]
     },
     "AuthorUrl": "https://github.com/DemonBunnyBon",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/marcythejinx",
     "Categories": [
       "Gameplay",
-      "Cheats",
-      "Misc"
+      "Misc",
+      "Tweaks"
     ],
     "TestedOn": {
-      "tld": "2.40",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2025-03-28",
-    "Updated": "2025-04-04",
+    "Updated": "2025-10-11",
     "Images": [
       "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/PHT_Thumb.png"
     ],
@@ -8753,10 +9222,10 @@
     ]
   },
   "PredatorSpawnSelector": {
-    "Name": "捕食者生成选择器（Predator Spawn Selector）",
+    "Name": "捕食者生成设置（Predator Spawn Selector）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "通过区域启用或禁用掠食者生成，并选择每个区域要生成的狼或熊的类型。***此模组替换了“任何地方移除美洲狮”和“任何地方移除林狼”两个模组***",
+    "Description": "你可以按区域启用或关闭捕食者刷新，并选择各区域出现的狼或熊类型。***本模组整合并替代了“移除美洲狮”和“狼群自由生成”两个模组***",
     "Aliases": [
       "Predator Spawn Selector"
     ],
@@ -8769,17 +9238,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "Download": {
       "name": "PredatorSpawnSelector.dll",
-      "browser_download_url": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.0.0/PredatorSpawnSelector.dll"
+      "browser_download_url": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.1.0/PredatorSpawnSelector.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/ChooseStartingGear/releases/download/2.0.0/ChooseStartingGear.dll",
-        "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.0.0/PredatorSpawnSelector.dll"
+        "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.1.0/PredatorSpawnSelector.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -8792,7 +9260,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-08-03",
-    "Updated": "2025-08-03",
+    "Updated": "2025-09-21",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/PredatorSpawnSelector_MODLIST.jpg"
     ],
@@ -8825,16 +9293,16 @@
       "ModSettings",
       "KeyboardUtilities"
     ],
-    "Version": "1.7.2",
+    "Version": "1.7.3",
     "Error": false,
     "Download": {
       "name": "QoL.dll",
-      "browser_download_url": "https://github.com/No3371/TLD-QoL/releases/download/1.7.2/QoL.dll"
+      "browser_download_url": "https://github.com/No3371/TLD-QoL/releases/download/1.7.3/QoL.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/No3371/TLD-QoL/releases/download/1.7.2/QoL.dll"
+        "https://github.com/No3371/TLD-QoL/releases/download/1.7.3/QoL.dll"
       ]
     },
     "AuthorUrl": "https://github.com/No3371",
@@ -8843,11 +9311,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.43",
+      "tld": "2.44",
       "ml": "0.6.6"
     },
     "Released": "2023-05-12",
-    "Updated": "2025-06-10",
+    "Updated": "2025-10-13",
     "Images": [],
     "Status": {
       "working": true,
@@ -9454,16 +9922,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Error": false,
     "Download": {
       "name": "RetroTextures.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.0/RetroTextures.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.1/RetroTextures.dll"
     },
     "Updater": {
-      "enable_update": true,
+      "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.0/RetroTextures.dll"
+        "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.1/RetroTextures.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -9480,9 +9948,9 @@
       "ml": "0.6.6"
     },
     "Released": "2025-07-24",
-    "Updated": "2025-07-24",
+    "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.jpg"
     ],
     "Status": {
       "working": true,
@@ -9597,7 +10065,7 @@
     "Released": "2025-05-31",
     "Updated": "2025-05-31",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RepairableRepairables.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RepairableRepairables.jpg"
     ],
     "Status": {
       "working": true,
@@ -9711,7 +10179,7 @@
     "Released": "2023-11-08",
     "Updated": "2025-05-18",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/283618634-c5d11e63-ee00-4850-bdff-d767781a65c5.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/283618634-c5d11e63-ee00-4850-bdff-d767781a65c5.png"
     ],
     "Status": {
       "working": true,
@@ -9900,7 +10368,7 @@
     "Name": "存档管理器（Save Manager）",
     "Type": "mod",
     "Author": "The Illusion",
-    "Description": "在沙盒/生存模式中添加使用快捷键保存、加载和自动保存的功能。目前不重新添加暂停菜单中的按钮。",
+    "Description": "在沙盒/生存模式中添加使用热键保存、加载和自动保存的功能。同时添加了自动保存的功能。[*big]",
     "Aliases": [
       "Save Manager"
     ],
@@ -9917,7 +10385,7 @@
       "ModSettings",
       "ComplexLogger"
     ],
-    "Version": "1.1.0",
+    "Version": "1.0.9",
     "Error": false,
     "Download": {
       "name": "SaveManager.dll",
@@ -9944,15 +10412,14 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added Save Safety measures",
-      "notes": "",
-      "issues": ""
+      "patchnotes": "",
+      "notes": "Currently does not re-add the buttons in the pause menu",
+      "issues": "Does not respect save safety (expect this to change in the next major update)"
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   "SaveSafety": {
@@ -10181,16 +10648,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.8.0",
+    "Version": "1.8.2",
     "Error": false,
     "Download": {
       "name": "Shortcuts.dll",
-      "browser_download_url": "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.0/Shortcuts.dll"
+      "browser_download_url": "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.2/Shortcuts.dll"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.0/Shortcuts.dll"
+        "https://github.com/moosemeat817/Shortcuts/releases/download/1.8.2/Shortcuts.dll"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -10205,9 +10672,9 @@
       "ml": "0.6.6"
     },
     "Released": "2025-01-25",
-    "Updated": "2025-07-18",
+    "Updated": "2025-09-16",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Shortcuts_modlist.jpg"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Shortcuts_modlist_new.jpg"
     ],
     "Status": {
       "working": true,
@@ -10323,6 +10790,64 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  "Simplesaveandrestoretool": {
+    "Name": "简单的保存和恢复工具[*big]（Simple save and restore tool）",
+    "Type": "mod",
+    "Author": "Tactical Ex",
+    "Description": "描述：一个简单工具，使备份和恢复《The Long Dark》生存游戏存档更加方便。注意：这是一个外部工具，不是模组，使用时不需要模组加载器。[*big]",
+    "Aliases": [
+      "Simple save and restore tool",
+      "v2.1"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
+    "RepoName": "Simplesaveandrestoretool",
+    "DisplayAuthor": [
+      "Tactical Ex"
+    ],
+    "Dependencies": [],
+    "Version": "2.1.0",
+    "Error": false,
+    "Download": {
+      "name": "v2.1.0",
+      "browser_download_url": "https://gitlab.com/TacticalEx/tld-tools/-/releases/v2.1.0"
+    },
+    "Updater": {
+      "enable_update": false,
+      "downloads": [
+        "https://gitlab.com/TacticalEx/tld-tools/-/releases/v2.1.0"
+      ]
+    },
+    "AuthorUrl": "https://gitlab.com/TacticalEx",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2023-08-24",
+    "Updated": "2024-01-27",
+    "Images": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Bug fixes\nResolved an issue that would prevent backups from being created if the source path, backup path or app installation path had a space in it.\nReadme typos resolved\n\nImprovements\nNew UI theme utilizing colors and fonts from the game\nReadMe updated to clarify the restore process\nCode comment cleanup and typo fixing",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -10726,7 +11251,7 @@
     "Released": "2023-12-17",
     "Updated": "2025-02-08",
     "Images": [
-      "https://github.com/RomainDeschampsFR/Solstice/assets/38351288/39e3e8ef-99d8-4c9c-940e-a9344c260c53"
+      "https://tldmods.com/thumb.php?u=https://github.com/RomainDeschampsFR/Solstice/assets/38351288/39e3e8ef-99d8-4c9c-940e-a9344c260c53"
     ],
     "Status": {
       "working": true,
@@ -10913,10 +11438,10 @@
     "Name": "潜行者辅助和补充（StalkerAidsAndSupplements）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
-    "Description": "这个模组扩展了TLD的医疗物品。它深受S.T.A.L.K.E.R游戏的影响，你可能会遇到一些参考。:D",
+    "Description": "这个模组扩展了TLD的医疗物品。大部分物品灵感来源于S.T.A.L.K.E.R游戏，你可能会遇到一些参考。[*big]",
     "Aliases": [
       "StalkerAidsAndSupplements",
-      "StalkerAidsAndSupplements2.2.3"
+      "v2.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements",
@@ -10931,16 +11456,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "2.2.3",
+    "Version": "2.2.5",
     "Error": false,
     "Download": {
-      "name": "StalkerAidsAndSupplements2.2.3.zip",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/download/v2.2.3/StalkerAidsAndSupplements2.2.3.zip"
+      "name": "v2.2.5",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v2.2.5"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/download/v2.2.3/StalkerAidsAndSupplements2.2.3.zip"
+        "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v2.2.5"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -10959,9 +11484,9 @@
       "ml": "0.6.6"
     },
     "Released": "2024-08-01",
-    "Updated": "2025-07-21",
+    "Updated": "2025-10-05",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.png"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.jpg"
     ],
     "Status": {
       "working": true,
@@ -10973,7 +11498,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
@@ -11025,7 +11549,7 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
+    "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
       "tftft"
@@ -11359,60 +11883,6 @@
       "tftft"
     ]
   },
-  "TLDsavetools": {
-    "Name": "TLD - 存档工具（TLD save tools）",
-    "Type": "mod",
-    "Author": "TacticalEx",
-    "Description": "用于管理《The Long Dark》游戏存档的简单工具。注意：这是一个外部工具，不是模组。",
-    "Aliases": [
-      "TLD save tools",
-      "tld-tools-v2.0.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
-    "RepoName": "TLDsavetools",
-    "DisplayAuthor": [
-      "TacticalEx"
-    ],
-    "Dependencies": [],
-    "Version": "2.0.0",
-    "Error": false,
-    "Download": {
-      "name": "tld-tools-v2.0.0.zip",
-      "browser_download_url": "https://gitlab.com/TacticalEx/tld-tools/-/archive/v2.0.0/tld-tools-v2.0.0.zip"
-    },
-    "Updater": {
-      "enable_update": false,
-      "downloads": [
-        "https://gitlab.com/TacticalEx/tld-tools/-/archive/v2.0.0/tld-tools-v2.0.0.zip"
-      ]
-    },
-    "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-11-18",
-    "Updated": "2023-11-18",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
   "TLDCigarettes": {
     "Name": "TLD - 香烟（TLD-Cigarettes）",
     "Type": "mod",
@@ -11633,7 +12103,7 @@
     "Released": "2023-11-05",
     "Updated": "2023-11-05",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281917179-a6c539e3-a369-4b4f-af2c-b7ca403ba5b5.jpg"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281917179-a6c539e3-a369-4b4f-af2c-b7ca403ba5b5.jpg"
     ],
     "Status": {
       "working": true,
@@ -11653,7 +12123,7 @@
     "Name": "长期开发区域（The Long Development Regions）",
     "Type": "mod",
     "Author": "Kaiusername",
-    "Description": "一个小型团队项目和社区协作努力，以美丽和平衡的方式扩展大熊岛。",
+    "Description": "一个小型模组项目，旨在以美观和平衡的方式扩展《漫长黑暗》中的大熊岛。[*big]",
     "Aliases": [
       "The Long Development Regions",
       "97xM7k8nCH"
@@ -11688,7 +12158,7 @@
     ],
     "TestedOn": {
       "tld": "2.24",
-      "ml": "0.6.1"
+      "ml": "0.6.6"
     },
     "Released": "2023-11-08",
     "Updated": "2023-11-25",
@@ -11701,8 +12171,7 @@
       "working": true,
       "beta": true,
       "patchnotes": "",
-      "notes": "Forsaken Shore Update 2 (2.25.3) is out for beta testers now.",
-      "issues": "TLDev Regions are currently in closed testing, please check back later."
+      "notes": "Join our Discord for EARLY ACCESS. https://discord.gg/97xM7k8nCH"
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Kaiusername/Mod-List/main/Kaiusername.json",
@@ -12607,7 +13076,7 @@
     "Released": "2025-03-27",
     "Updated": "2025-03-27",
     "Images": [
-      "https://github.com/user-attachments/assets/8389ed38-79eb-459c-b4fa-a2f3243d417c"
+      "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/8389ed38-79eb-459c-b4fa-a2f3243d417c"
     ],
     "Status": {
       "working": true,
@@ -12621,6 +13090,64 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  "TrackingWolf": {
+    "Name": "追踪狼[*big]（Tracking Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼生成类型，无论你的气味等级如何，它都会在整张地图上追踪你。小心你的后背！[*big]",
+    "Aliases": [
+      "Tracking Wolf",
+      "ExpandedAiFramework.TrackingWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "TrackingWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.12",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.TrackingWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-10-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   "TravoisTether": {
@@ -12897,7 +13424,7 @@
     "Released": "2023-11-09",
     "Updated": "2023-11-09",
     "Images": [
-      "https://user-images.githubusercontent.com/38351288/281922507-fd6d4c4a-552c-4771-b473-9c25783b7689.png"
+      "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281922507-fd6d4c4a-552c-4771-b473-9c25783b7689.png"
     ],
     "Status": {
       "working": true,
@@ -12967,6 +13494,64 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  "WanderingWolf": {
+    "Name": "流浪狼[*big]（Wandering Wolf）",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "Description": "创建一种新的狼生成类型，让它在地图上四处游荡，而不是待在小区域内。[*big]",
+    "Aliases": [
+      "Wandering Wolf",
+      "ExpandedAiFramework.WanderingWolfMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
+    "RepoName": "WanderingWolf",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ExpandedAiFramework",
+      "ComplexLogger"
+    ],
+    "Version": "0.11.12",
+    "Error": false,
+    "Download": {
+      "name": "ExpandedAiFramework.WanderingWolfMod.dll",
+      "browser_download_url": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll"
+      ]
+    },
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-09-14",
+    "Updated": "2025-10-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   "Watches": {
@@ -13077,7 +13662,7 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
+    "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
       "tftft"
