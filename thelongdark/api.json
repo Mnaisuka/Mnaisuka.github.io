@@ -4743,7 +4743,6 @@
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6/FoodPackByTKG.zip",
         "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.1/FoodPackByTKG.7z"
       ]
     },
@@ -10218,16 +10217,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "1.4",
+    "Version": "1.5",
     "Error": false,
     "Download": {
-      "name": "RetroFood.zip",
-      "browser_download_url": "https://github.com/Thekillergreece/Retro-Food/releases/download/1.4/RetroFood.zip"
+      "name": "RetroFood.7z",
+      "browser_download_url": "https://github.com/Thekillergreece/Retro-Food/releases/download/1.5/RetroFood.7z"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/Thekillergreece/Retro-Food/releases/download/1.4/RetroFood.zip"
+        "https://github.com/Thekillergreece/Retro-Food/releases/download/1.5/RetroFood.7z"
       ]
     },
     "AuthorUrl": "https://github.com/Thekillergreece",
@@ -10240,14 +10239,14 @@
       "ml": "0.6.6"
     },
     "Released": "2023-09-19",
-    "Updated": "2024-09-27",
+    "Updated": "2025-10-14",
     "Images": [
       "https://i.imgur.com/8yYdPp9.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Version 1.4. Added spawns to modded regions.",
+      "patchnotes": "Version 1.5. Added more spawns to modded regions.",
       "notes": "Drop the files into the mods folder.",
       "issues": ""
     },
