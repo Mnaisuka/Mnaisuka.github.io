@@ -633,7 +633,7 @@
     "Description": "这个模组重新改造并改变了制作弹药的过程，使其更具挑战性，但回报更丰厚，也更有趣。[*big]",
     "Aliases": [
       "AmmunitionCraftingTools",
-      "v3.2"
+      "3.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools",
@@ -648,16 +648,16 @@
       "GearSpawner",
       "CraftingRevisions"
     ],
-    "Version": "3.2.0",
+    "Version": "3.2.1",
     "Error": false,
     "Download": {
-      "name": "v3.2.0",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.2.0"
+      "name": "3.2.1",
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/3.2.1"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.2.0"
+        "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/3.2.1"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -674,7 +674,7 @@
       "ml": "0.6.6"
     },
     "Released": "2024-10-28",
-    "Updated": "2025-10-05",
+    "Updated": "2025-10-22",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.jpg"
     ],
