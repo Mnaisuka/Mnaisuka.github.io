@@ -510,59 +510,57 @@
   "AmbientLights": {
     "Name": "环境光（Ambient Lights）",
     "Type": "mod",
-    "Author": "Xpazeman",
+    "Author": "Thekillergreece",
     "Description": "此模组旨在修改带窗户的室内默认光线，使其更明亮，这样在中午时无需光源即可移动，并更能反映室外的情况（时间、天气和太阳位置）。",
     "Aliases": [
       "Ambient Lights"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Xpazeman/tld-ambient-lights",
+    "ModUrl": "https://github.com/Thekillergreece/tld-ambient-lights",
     "RepoName": "AmbientLights",
     "DisplayAuthor": [
-      "Xpazeman"
+      "Thekillergreece"
     ],
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.8.1",
+    "Version": "3.0",
     "Error": false,
     "Download": {
-      "name": "AmbientLights.zip",
-      "browser_download_url": "https://github.com/Xpazeman/tld-ambient-lights/releases/latest/download/AmbientLights.zip"
+      "name": "AmbientLights.7z",
+      "browser_download_url": "https://github.com/Thekillergreece/tld-ambient-lights/releases/download/v3/AmbientLights.7z"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/Xpazeman/tld-ambient-lights/releases/latest/download/AmbientLights.zip"
+        "https://github.com/Thekillergreece/tld-ambient-lights/releases/download/v3/AmbientLights.7z"
       ]
     },
-    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
-    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "AuthorUrl": "https://github.com/Thekillergreece",
+    "SupportUrl": null,
     "Categories": [
       "Gameplay",
       "Graphics",
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
+      "tld": "2.40",
+      "ml": "0.6.6"
     },
     "Released": "2018-09-08",
-    "Updated": "2023-02-14",
+    "Updated": "2025-11-03",
     "Images": [
-      "https://tld.xpazeapps.com/images/ambient_lights_0.jpg",
-      "https://tld.xpazeapps.com/images/ambient_lights_1.jpg",
-      "https://tld.xpazeapps.com/images/ambient_lights_2.jpg"
+      ""
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Changed some config files to avoid excessive brightness with high ambience level settings. Added Ash Canyon interiors. Removed configs for caves and mines so mod isn't active in them.",
-      "notes": "To install, extract zip contents in Mods folder. <strong>DO NOT LEAVE THE .ZIP FILE IN THE FOLDER.</strong>",
-      "issues": "Most recent regions don't have config. Disable 'True sun' settings if you experiencing performance issue"
+      "patchnotes": "Version 3.",
+      "notes": "Drop the file into the mods folder.",
+      "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "PreviousAuthors": "Xpazeman",
+    "Source": "https://raw.githubusercontent.com/Thekillergreece/mod_list/main/Thekillergreece.json",
     "GameVersion": [
       "vanilla",
       "tftft"
