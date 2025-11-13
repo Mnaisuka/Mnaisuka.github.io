@@ -13613,6 +13613,63 @@
       "tftft"
     ]
   },
+  "WildFire": {
+    "Name": "野火（WildFire）",
+    "Type": "mod",
+    "Author": "moosemeat",
+    "Description": "这是一个为《漫长的黑暗》添加的模组，它为火添加了颜色、烟雾和火花的自定义功能，同时还添加了6件新装备，并使一些原版物品可以燃烧。",
+    "Aliases": [
+      "WildFire"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/WildFire",
+    "RepoName": "WildFire",
+    "DisplayAuthor": [
+      "moosemeat",
+      "Marcy"
+    ],
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "Download": {
+      "name": "WildFire.zip",
+      "browser_download_url": "https://github.com/moosemeat817/WildFire/releases/download/1.0.0/WildFire.zip"
+    },
+    "Updater": {
+      "enable_update": true,
+      "downloads": [
+        "",
+        "https://github.com/moosemeat817/WildFire/releases/download/1.0.0/WildFire.zip"
+      ]
+    },
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.44",
+      "ml": "0.6.6"
+    },
+    "Released": "2025-11-13",
+    "Updated": "2025-11-13",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/WildFire_Cover.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
   "WildlifeTuning": {
     "Name": "野生动物调整（Wildlife Tuning）",
     "Type": "mod",
