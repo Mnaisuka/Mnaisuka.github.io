@@ -13614,10 +13614,10 @@
     ]
   },
   "WildFire": {
-    "Name": "野火（WildFire）",
+    "Name": "野火[*big]（WildFire）",
     "Type": "mod",
     "Author": "moosemeat",
-    "Description": "这是一个为《漫长的黑暗》添加的模组，它为火添加了颜色、烟雾和火花的自定义功能，同时还添加了6件新装备，并使一些原版物品可以燃烧。",
+    "Description": "这是一个为《漫长的黑暗》添加的模组，它为火添加了颜色、烟雾和火花的自定义功能，同时还添加了6件新装备，并使一些原版物品可以燃烧。[*big]",
     "Aliases": [
       "WildFire"
     ],
