@@ -587,7 +587,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.12",
+    "Version": "0.11.13",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -609,7 +609,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-10-05",
+    "Updated": "2025-11-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -2570,7 +2570,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.12",
+    "Version": "0.11.13",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2592,7 +2592,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-10-05",
+    "Updated": "2025-11-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -4095,7 +4095,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.12",
+    "Version": "0.11.13",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4117,7 +4117,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-10-05",
+    "Updated": "2025-11-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -13112,7 +13112,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.12",
+    "Version": "0.11.13",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -13134,7 +13134,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-10-05",
+    "Updated": "2025-11-15",
     "Images": [],
     "Status": {
       "working": true,
@@ -13516,7 +13516,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.12",
+    "Version": "0.11.13",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13538,7 +13538,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-10-05",
+    "Updated": "2025-11-15",
     "Images": [],
     "Status": {
       "working": true,
