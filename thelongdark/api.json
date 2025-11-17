@@ -5884,7 +5884,8 @@
       "TLD Modding Community"
     ],
     "Dependencies": [
-      "ModSettings"
+      "ModSettings",
+      "ModData"
     ],
     "Version": "2.0.6",
     "Error": false,
