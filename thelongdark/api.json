@@ -13328,9 +13328,11 @@
       "CarryWeightMod",
       "WeightTweaks",
       "EnableFeatProgressInCustomMode",
+      "LimitlessContainerSpace",
       "CarryWeightMod",
       "WeightTweaks",
-      "EnableFeatProgressInCustomMode"
+      "EnableFeatProgressInCustomMode",
+      "LimitlessContainerSpace"
     ],
     "ModUrl": "https://github.com/Deaadman/UniversalTweaks",
     "RepoName": "UniversalTweaks",
@@ -13341,7 +13343,7 @@
       "ModSettings",
       "LocalizationUtilities"
     ],
-    "Version": "1.4.4",
+    "Version": "1.4.5",
     "Error": false,
     "Download": {
       "name": "UniversalTweaks.dll",
@@ -13361,11 +13363,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.6"
+      "tld": "2.44",
+      "ml": "0.7.1"
     },
     "Released": "2023-10-14",
-    "Updated": "2024-12-17",
+    "Updated": "2025-11-21",
     "Images": [
       "https://raw.githubusercontent.com/Deaadman/UniversalTweaks/release/Images/UniversalTweaksThumbnail.png"
     ],
@@ -13570,8 +13572,7 @@
     ],
     "Dependencies": [
       "ModComponent",
-      "ModData",
-      "Modders' Gear Toolbox"
+      "ModData"
     ],
     "Version": "1.0.1",
     "Error": false,
@@ -13592,8 +13593,8 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.6"
+      "tld": "",
+      "ml": ""
     },
     "Released": "2024-08-12",
     "Updated": "2024-12-14",
@@ -13603,8 +13604,8 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "For information on the most recent patches, visit <a href='https://github.com/Deaadman/Watches/releases/latest' target='_blank'>here</a>.",
-      "notes": "For more information, visit the <a href='https://github.com/Deaadman/Watches' target='_blank'>GitHub Repository</a>.",
+      "patchnotes": "",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
