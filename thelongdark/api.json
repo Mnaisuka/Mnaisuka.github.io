@@ -4423,7 +4423,7 @@
     "Name": "徽章设置（Feat Settings）",
     "Type": "mod",
     "Author": "MonsieurMeh",
-    "Description": "徽章效果与解锁徽章设置，允许解锁徽章“大猫杀手”。若通过漏洞或控制台指令等“非正常方式”解锁专长，将消除其启动音效。",
+    "Description": "公开属性和技能解锁设置。允许解锁传承技能“大猫杀手”。消除通过错误方式（如漏洞或控制台命令）解锁的技能的启动噪音。允许在任何难度级别自定义技能数量。",
     "Aliases": [
       "Feat Settings"
     ],
@@ -4436,7 +4436,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.4",
+    "Version": "1.2.1",
     "Error": false,
     "Download": {
       "name": "FeatSettings.dll",
@@ -4461,8 +4461,8 @@
       "tld": "2.44",
       "ml": "0.6.6"
     },
-    "Released": "2025-11-08",
-    "Updated": "2025-11-08",
+    "Released": "2025-10-08",
+    "Updated": "2025-11-21",
     "Images": [
       "https://ibb.co/j9T1VgGJ"
     ],
