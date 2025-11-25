@@ -521,5 +521,6 @@
     "Change the yield, harvest speed, and required tools of all plants in the game. Adds optional difficulty to harvesting plants, such as a chance to fail harvesting or yield randomization.": "修改游戏中所有植物的单位产量、收获速度和所需工具。为植物收获添加可选难度，例如收获失败几率或产量随机化。[*big]",
     "WildFire": "野火[*big]",
     "This is a mod for The Long Dark that add color, smoke and sparks customization for fires, along with 6 new gear items and makes several vanilla items burnable.": "这是一个为《漫长的黑暗》添加的模组，它为火添加了颜色、烟雾和火花的自定义功能，同时还添加了6件新装备，并使一些原版物品可以燃烧。[*big]",
-    "Exposes effect and unlock settings for feats. Allows unlocking of legacy feat, \"Big Cat Killer\". Eliminates startup noises for feats unlocked \"the wrong way\" via bugs or console command use. Allows customizable number of feats at any difficulty level.": "公开属性和技能解锁设置。允许解锁传承技能“大猫杀手”。消除通过错误方式（如漏洞或控制台命令）解锁的技能的启动噪音。允许在任何难度级别自定义技能数量。[*big]"
+    "Exposes effect and unlock settings for feats. Allows unlocking of legacy feat, \"Big Cat Killer\". Eliminates startup noises for feats unlocked \"the wrong way\" via bugs or console command use. Allows customizable number of feats at any difficulty level.": "公开属性和技能解锁设置。允许解锁传承技能“大猫杀手”。消除通过错误方式（如漏洞或控制台命令）解锁的技能的启动噪音。允许在任何难度级别自定义技能数量。[*big]",
+    "Universal Tweaks is a mod for The Long Dark that enhances existing gameplay elements by modifying them in a way that just make sense.": "通用微调是一个《漫长的黑暗》模组，它通过一种合乎情理的方式来修改现有游戏元素，从而增强游戏体验。[*big]"
 }

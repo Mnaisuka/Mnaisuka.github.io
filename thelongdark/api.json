@@ -13320,7 +13320,7 @@
     "Name": "通用调整（Universal Tweaks）",
     "Type": "mod",
     "Author": "Deadman",
-    "Description": "通用调整是一个通过修改《The Long Dark》中合理的内容来增强现有游戏元素的模组。",
+    "Description": "通用微调是一个《漫长的黑暗》模组，它通过一种合乎情理的方式来修改现有游戏元素，从而增强游戏体验。",
     "Aliases": [
       "Universal Tweaks"
     ],
@@ -13343,7 +13343,7 @@
       "ModSettings",
       "LocalizationUtilities"
     ],
-    "Version": "1.4.5",
+    "Version": "1.4.6",
     "Error": false,
     "Download": {
       "name": "UniversalTweaks.dll",
@@ -13367,7 +13367,7 @@
       "ml": "0.7.1"
     },
     "Released": "2023-10-14",
-    "Updated": "2025-11-21",
+    "Updated": "2025-11-25",
     "Images": [
       "https://raw.githubusercontent.com/Deaadman/UniversalTweaks/release/Images/UniversalTweaksThumbnail.png"
     ],
