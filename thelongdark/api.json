@@ -8774,17 +8774,17 @@
       "ModData",
       "ModComponent"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "Download": {
       "name": "PathfindersAscent.zip",
-      "browser_download_url": "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.1.0/PathfindersAscent.zip"
+      "browser_download_url": "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.2.0/PathfindersAscent.zip"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
         "",
-        "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.1.0/PathfindersAscent.zip"
+        "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.2.0/PathfindersAscent.zip"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -8797,7 +8797,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-06-18",
-    "Updated": "2025-06-19",
+    "Updated": "2025-11-28",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/PathfindersAscent_modlist2.jpg"
     ],
