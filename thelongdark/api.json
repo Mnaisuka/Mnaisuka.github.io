@@ -587,7 +587,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.13",
+    "Version": "0.12.0",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.AmbushWolfMod.dll",
@@ -609,7 +609,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-11-15",
+    "Updated": "22025-11-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -2570,7 +2570,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.13",
+    "Version": "0.12.0",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.CompanionWolfMod.dll",
@@ -2592,7 +2592,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-11-15",
+    "Updated": "22025-11-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -4095,7 +4095,7 @@
       "ModData",
       "ComplexLogger"
     ],
-    "Version": "0.11.13",
+    "Version": "0.12.0",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.dll",
@@ -4117,7 +4117,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-11-15",
+    "Updated": "22025-11-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -6043,7 +6043,7 @@
     "Description": "一个添加和更改美洲狮相关机制的游戏模组。",
     "Aliases": [
       "Improved Cougar",
-      "1.0"
+      "2.0"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Fuar11/ImprovedCougar",
@@ -6053,18 +6053,21 @@
     ],
     "Dependencies": [
       "ComplexLogger",
-      "ModSettings"
+      "ModSettings",
+      "ModData",
+      "Expanded AI Framework",
+      "AudioManager"
     ],
-    "Version": "1.0.1",
+    "Version": "2.0.0",
     "Error": false,
     "Download": {
-      "name": "1.0.1",
-      "browser_download_url": "https://github.com/Fuar11/ImprovedCougar/releases/tag/1.0.1"
+      "name": "2.0.0",
+      "browser_download_url": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.0"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
-        "https://github.com/Fuar11/ImprovedCougar/releases/tag/1.0.1"
+        "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.0"
       ]
     },
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
@@ -6073,11 +6076,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.35",
+      "tld": "2.40",
       "ml": "0.6.6"
     },
     "Released": "2024-12-12",
-    "Updated": "2024-12-13",
+    "Updated": "2025-11-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -8774,17 +8777,17 @@
       "ModData",
       "ModComponent"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "Download": {
       "name": "PathfindersAscent.zip",
-      "browser_download_url": "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.2.0/PathfindersAscent.zip"
+      "browser_download_url": "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.2.1/PathfindersAscent.zip"
     },
     "Updater": {
       "enable_update": true,
       "downloads": [
         "",
-        "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.2.0/PathfindersAscent.zip"
+        "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.2.1/PathfindersAscent.zip"
       ]
     },
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -13113,7 +13116,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.13",
+    "Version": "0.12.0",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.TrackingWolfMod.dll",
@@ -13135,7 +13138,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-11-15",
+    "Updated": "22025-11-28",
     "Images": [],
     "Status": {
       "working": true,
@@ -13519,7 +13522,7 @@
       "ExpandedAiFramework",
       "ComplexLogger"
     ],
-    "Version": "0.11.13",
+    "Version": "0.12.0",
     "Error": false,
     "Download": {
       "name": "ExpandedAiFramework.WanderingWolfMod.dll",
@@ -13541,7 +13544,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-09-14",
-    "Updated": "2025-11-15",
+    "Updated": "22025-11-28",
     "Images": [],
     "Status": {
       "working": true,
