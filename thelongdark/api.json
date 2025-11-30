@@ -4908,16 +4908,16 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "Download": {
       "name": "Forager.s.Delight.dll",
-      "browser_download_url": "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.0.0/Forager.s.Delight.dll"
+      "browser_download_url": "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.1.0/Forager.s.Delight.dll"
     },
     "Updater": {
       "enable_update": false,
       "downloads": [
-        "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.0.0/Forager.s.Delight.dll"
+        "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.1.0/Forager.s.Delight.dll"
       ]
     },
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
@@ -4934,7 +4934,7 @@
       "ml": "0.6.6"
     },
     "Released": "2025-10-05",
-    "Updated": "2025-10-05",
+    "Updated": "2025-11-30",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ForagersDelight.jpg"
     ],
