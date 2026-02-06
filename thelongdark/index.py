@@ -32,7 +32,7 @@ def tl(text):
             "Authorization": bigmodel_token,
         }
         data = {
-            "model": "glm-4-flash-250414",
+            "model": "GLM-4-Flash",
             "temperature": 0,
             "messages": [
                 {
