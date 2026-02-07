@@ -1025,12 +1025,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.1.0",
+    "Version": "2.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.0/BedrollTweaker.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.1/BedrollTweaker.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.0/BedrollTweaker.dll"
+      "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.1/BedrollTweaker.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1041,11 +1041,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-02-24",
-    "Updated": "2025-02-24",
+    "Updated": "2026-02-07",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/bf81c8a7-6333-4562-b605-22b476b4d5dd&s=600"
     ],
@@ -1059,8 +1059,7 @@
     "PreviousAuthors": "Cass, Phaedrus, The Illusion",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -1250,12 +1249,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.0/BetterSkillXP.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.1/BetterSkillXP.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.0/BetterSkillXP.dll"
+      "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.1/BetterSkillXP.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1263,11 +1262,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-04-05",
-    "Updated": "2025-04-05",
+    "Updated": "2026-02-07",
     "Images": [],
     "Status": {
       "working": true,
@@ -1279,8 +1278,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -5796,7 +5794,7 @@
     "ModUrl": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/",
     "RepoName": "ImprovedMagnifyingLens",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.0/ImprovedMagnifyingLens.dll",
@@ -5810,11 +5808,11 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-04-01",
-    "Updated": "2025-04-01",
+    "Updated": "2026-02-07",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63&s=600"
     ],
@@ -5828,8 +5826,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
