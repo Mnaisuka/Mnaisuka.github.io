@@ -637,6 +637,56 @@
     ]
   },
   {
+    "DisplayName": "Animal Respawn Time Mod",
+    "Name": "动物重生时间修改器（Animal Respawn Time Mod）",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "此模组允许在Json文件中调整动物重生时间为小时。",
+    "Aliases": [
+      "Animal Respawn Time Mod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod",
+    "RepoName": "AnimalRespawnTimeMod",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.0.0/AnimalRespawnTimeMod.dll",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.0.0/AnimalRespawnTimeMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2-ci.2388"
+    },
+    "Released": "2026-02-08",
+    "Updated": "2026-02-08",
+    "Images": [
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/main/ModlistFile.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "Architect",
     "Name": "建筑师（Architect）",
     "Type": "mod",
@@ -1458,12 +1508,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BlueprintCleaner/releases/download/1.1.0/BlueprintCleaner.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BlueprintCleaner/releases/download/1.1.1/BlueprintCleaner.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BlueprintCleaner/releases/download/1.1.0/BlueprintCleaner.dll"
+      "https://github.com/RomainDeschampsFR/BlueprintCleaner/releases/download/1.1.1/BlueprintCleaner.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1471,11 +1521,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-02-06",
-    "Updated": "2025-02-06",
+    "Updated": "2026-02-07",
     "Images": [],
     "Status": {
       "working": true,
@@ -1487,8 +1537,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -4881,8 +4930,7 @@
     "PreviousAuthors": "Xpazeman",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -5845,12 +5893,12 @@
     "ModUrl": "https://github.com/RomainDeschampsFR/ImprovedRestForAll",
     "RepoName": "ImprovedRestForAll",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/ImprovedRestForAll/releases/download/1.0.0/ImprovedRestForAll.dll",
+    "Download": "https://github.com/RomainDeschampsFR/ImprovedRestForAll/releases/download/1.0.1/ImprovedRestForAll.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/ImprovedRestForAll/releases/download/1.0.0/ImprovedRestForAll.dll"
+      "https://github.com/RomainDeschampsFR/ImprovedRestForAll/releases/download/1.0.1/ImprovedRestForAll.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -5860,11 +5908,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-02-18",
-    "Updated": "2025-02-18",
+    "Updated": "2026-02-07",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/18f257b6-a644-4cfe-81c4-07703eecd7ae&s=600"
     ],
@@ -5878,8 +5926,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -6633,12 +6680,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.4.0",
+    "Version": "2.4.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/KeroseneLampTweaks/releases/download/2.4.0/KeroseneLampTweaks.dll",
+    "Download": "https://github.com/RomainDeschampsFR/KeroseneLampTweaks/releases/download/2.4.1/KeroseneLampTweaks.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/KeroseneLampTweaks/releases/download/2.4.0/KeroseneLampTweaks.dll"
+      "https://github.com/RomainDeschampsFR/KeroseneLampTweaks/releases/download/2.4.1/KeroseneLampTweaks.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -6650,11 +6697,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-04-01",
-    "Updated": "2025-04-01",
+    "Updated": "2026-02-07",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/a3764279-6ef7-43d4-94e9-362c06c7af17&s=600"
     ],
@@ -6668,8 +6715,7 @@
     "PreviousAuthors": "Xpazeman",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -8251,12 +8297,12 @@
     "ModUrl": "https://github.com/RomainDeschampsFR/PauseInJournal",
     "RepoName": "PauseInJournal",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/PauseInJournal/releases/download/1.0.0/PauseInJournal.dll",
+    "Download": "https://github.com/RomainDeschampsFR/PauseInJournal/releases/download/1.0.1/PauseInJournal.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/PauseInJournal/releases/download/1.0.0/PauseInJournal.dll"
+      "https://github.com/RomainDeschampsFR/PauseInJournal/releases/download/1.0.1/PauseInJournal.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -8265,11 +8311,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-03-17",
-    "Updated": "2025-03-17",
+    "Updated": "2026-02-07",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/fed5d742-2ad8-4a5a-8b42-9f96a24b8211&s=600"
     ],
@@ -8283,8 +8329,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -12521,12 +12566,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/TorchTweaker/releases/download/1.1.0/TorchTweaker.dll",
+    "Download": "https://github.com/RomainDeschampsFR/TorchTweaker/releases/download/1.1.1/TorchTweaker.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/TorchTweaker/releases/download/1.1.0/TorchTweaker.dll"
+      "https://github.com/RomainDeschampsFR/TorchTweaker/releases/download/1.1.1/TorchTweaker.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -12536,11 +12581,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-03-27",
-    "Updated": "2025-03-27",
+    "Updated": "2026-02-07",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/8389ed38-79eb-459c-b4fa-a2f3243d417c&s=600"
     ],
@@ -12554,8 +12599,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {

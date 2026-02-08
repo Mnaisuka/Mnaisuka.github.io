@@ -500,5 +500,7 @@
     "This is a mod for The Long Dark that add color, smoke and sparks customization for fires, along with 6 new gear items and makes several vanilla items burnable.": "这是一个为《暗黑地平线》添加的模组，增加了对火堆的颜色、烟雾和火花的自定义，同时加入了6件新装备，并使一些原版物品可燃烧。",
     "Disables the hovertext on items and/or fire": "禁用物品和/或发射的悬停文本",
     "Prevents wolves spawning during the day. Can set by region or to apply everywhere. Full instructions in the README.": "防止狼在白天生成。可按区域设置或应用于所有地方。完整说明请参阅README。",
-    "Mod for The Long Dark that makes some of the clocks in the game work.": "《暗黑长夜》游戏的一个模组，使游戏中的某些时钟工作。"
+    "Mod for The Long Dark that makes some of the clocks in the game work.": "《暗黑长夜》游戏的一个模组，使游戏中的某些时钟工作。",
+    "Animal Respawn Time Mod": "动物重生时间修改器",
+    "This mod makes animals' respawn time in hours adjustable in a Json file.": "此模组允许在Json文件中调整动物重生时间为小时。"
 }
