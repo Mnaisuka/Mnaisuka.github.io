@@ -502,5 +502,7 @@
     "Prevents wolves spawning during the day. Can set by region or to apply everywhere. Full instructions in the README.": "防止狼在白天生成。可按区域设置或应用于所有地方。完整说明请参阅README。",
     "Mod for The Long Dark that makes some of the clocks in the game work.": "《暗黑长夜》游戏的一个模组，使游戏中的某些时钟工作。",
     "Animal Respawn Time Mod": "动物重生时间修改器",
-    "This mod makes animals' respawn time in hours adjustable in a Json file.": "此模组允许在Json文件中调整动物重生时间为小时。"
+    "This mod makes animals' respawn time in hours adjustable in a Json file.": "此模组允许在Json文件中调整动物重生时间为小时。",
+    "Bricklayers Door Fix": "砖匠门修理工",
+    "Fix the door at Bricklayer's Retreat.": "请修理Bricklayer's Retreat的门。"
 }

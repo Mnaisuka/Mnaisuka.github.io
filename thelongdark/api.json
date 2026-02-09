@@ -1075,12 +1075,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.1.1",
+    "Version": "2.1.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.1/BedrollTweaker.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.2/BedrollTweaker.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.1/BedrollTweaker.dll"
+      "https://github.com/RomainDeschampsFR/BedrollTweaker/releases/download/2.1.2/BedrollTweaker.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1095,7 +1095,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-02-24",
-    "Updated": "2026-02-07",
+    "Updated": "2026-02-09",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/bf81c8a7-6333-4562-b605-22b476b4d5dd&s=600"
     ],
@@ -1448,19 +1448,18 @@
     ],
     "Description": "动物血液机制重制。",
     "Aliases": [
-      "Bleeding Revamped",
-      "BleedingRevamped"
+      "Bleeding Revamped"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/RomainDeschampsFR/BleedingRevamped",
-    "RepoName": "BleedingRevampedLegacy",
+    "RepoName": "BleedingRevamped",
     "Dependencies": [],
-    "Version": "2.2.0",
+    "Version": "2.2.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.0/BleedingRevamped.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.1/BleedingRevamped.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.0/BleedingRevamped.dll"
+      "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.1/BleedingRevamped.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1468,11 +1467,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2023-11-07",
-    "Updated": "2023-11-07",
+    "Updated": "2026-02-09",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281925127-62f56906-2afb-4c01-9ac0-e7c64848f08e.png&s=600"
     ],
@@ -1486,8 +1485,7 @@
     "PreviousAuthors": "Deus13",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -1651,6 +1649,56 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "Bricklayers Door Fix",
+    "Name": "砖匠门修理工（Bricklayers Door Fix）",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "请修理Bricklayer's Retreat的门。",
+    "Aliases": [
+      "Bricklayers Door Fix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/BricklayersDoorFix",
+    "RepoName": "BricklayersDoorFix",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/BricklayersDoorFix/releases/download/1.0.0/BricklayersDoorFix.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/BricklayersDoorFix/releases/download/1.0.0/BricklayersDoorFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-08",
+    "Updated": "2026-02-08",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_BricklayersDoorFix.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "Caffeinated Sodas",
@@ -4362,12 +4410,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.1.0",
+    "Version": "2.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/FoodTweaker/releases/download/2.1.0/FoodTweaker.dll",
+    "Download": "https://github.com/RomainDeschampsFR/FoodTweaker/releases/download/2.1.1/FoodTweaker.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/FoodTweaker/releases/download/2.1.0/FoodTweaker.dll"
+      "https://github.com/RomainDeschampsFR/FoodTweaker/releases/download/2.1.1/FoodTweaker.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -4376,11 +4424,11 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-02-20",
-    "Updated": "2025-02-20",
+    "Updated": "2026-02-09",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/41e52fea-94c6-4017-a6d7-19e94bbfbc2b&s=600"
     ],
@@ -8509,12 +8557,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/PickWaterFromFishingHoles/releases/download/1.2.0/PickWaterFromFishingHoles.dll",
+    "Download": "https://github.com/RomainDeschampsFR/PickWaterFromFishingHoles/releases/download/1.2.1/PickWaterFromFishingHoles.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/PickWaterFromFishingHoles/releases/download/1.2.0/PickWaterFromFishingHoles.dll"
+      "https://github.com/RomainDeschampsFR/PickWaterFromFishingHoles/releases/download/1.2.1/PickWaterFromFishingHoles.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -8524,11 +8572,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
     "Released": "2025-03-17",
-    "Updated": "2025-03-18",
+    "Updated": "2026-02-09",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/27a10b0a-14d9-4bc0-beaf-57934fa5c87d&s=600"
     ],
@@ -8542,8 +8590,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -9507,8 +9554,7 @@
     ],
     "Description": "可修复的可修复工具，为您提供了修复三个用于修理、制作和磨锐的基本工具的选项。可修复的工具如下：步枪清洁套件、缝纫套件、磨刀石/磨石",
     "Aliases": [
-      "RepairableRepairables",
-      "Repairable.Repairables"
+      "RepairableRepairables"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/Repairable-Repairables",
@@ -9519,9 +9565,9 @@
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/download/v1.1.0/Repairable.Repairables.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/download/v1.1.0/RepairableRepairables.dll",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/download/v1.1.0/Repairable.Repairables.dll"
+      "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/download/v1.1.0/RepairableRepairables.dll"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": null,
