@@ -5000,7 +5000,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "0.9.6",
+    "Version": "0.9.7",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/GearInfo/releases/latest/download/GearInfo.dll",
@@ -5018,7 +5018,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-05-26",
-    "Updated": "2026-01-13",
+    "Updated": "2026-02-14",
     "Images": [
       "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/4d56185b662f51df77ee6a0f20ecfcb951530962/pics/GearInfo.png"
     ],
