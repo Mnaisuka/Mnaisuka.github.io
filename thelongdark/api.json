@@ -2179,8 +2179,8 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "ChooseStartingCondition-Remastered",
-    "Name": "选择起始条件-重制版（ChooseStartingCondition-Remastered）",
+    "DisplayName": "ChooseStartingCondition",
+    "Name": "选择起始条件（ChooseStartingCondition）",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
@@ -2188,12 +2188,12 @@
     ],
     "Description": "《暗黑长夜》的模组。此模组允许你在开始新游戏时选择你的起始状态，包括疲劳、饥饿、口渴、温暖、伤害和疾病。",
     "Aliases": [
-      "ChooseStartingCondition-Remastered",
+      "ChooseStartingCondition",
       "ChooseStartingConditions"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/ChooseStartingConditions",
-    "RepoName": "ChooseStartingConditionRemastered",
+    "RepoName": "ChooseStartingCondition",
     "Dependencies": [
       "ModSettings"
     ],
@@ -11692,7 +11692,7 @@
   },
   {
     "DisplayName": "SweatSystem",
-    "Name": "SweatSystem（SweatSystem）",
+    "Name": "汗水系统（SweatSystem）",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
@@ -11740,113 +11740,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_EtherSystem.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "TLD-Cigarettes",
-    "Name": "TLD-香烟（TLD-Cigarettes）",
-    "Type": "mod",
-    "Author": "Atlas Lumi",
-    "DisplayAuthor": [
-      "Atlas Lumi",
-      "Thekillergreece"
-    ],
-    "Description": "增加可用的香烟",
-    "Aliases": [
-      "TLD-Cigarettes",
-      "Cigarettes"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/TLD-Cigarettes",
-    "RepoName": "TLDCigarettes",
-    "Dependencies": [
-      "ModComponent"
-    ],
-    "Version": "1.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/TLD-Cigarettes/releases/download/Latest/Cigarettes.modcomponent",
-    "Downloads": [
-      "https://github.com/Atlas-Lumi/TLD-Cigarettes/releases/download/Latest/Cigarettes.modcomponent"
-    ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-04-19",
-    "Images": [
-      "https://user-images.githubusercontent.com/102776369/163693492-e0c76482-5351-4bf7-99ea-a4da1e512963.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "TLD-Morphine",
-    "Name": "TLD-吗啡（TLD-Morphine）",
-    "Type": "mod",
-    "Author": "Atlas Lumi",
-    "DisplayAuthor": [
-      "Atlas Lumi",
-      "Thekillergreece"
-    ],
-    "Description": "添加吗啡作为可用物品",
-    "Aliases": [
-      "TLD-Morphine",
-      "Morphine"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/TLD_Morphine",
-    "RepoName": "TLDMorphine",
-    "Dependencies": [
-      "ModComponent",
-      "AlcoholMod"
-    ],
-    "Version": "1.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/TLD-Morphine/releases/download/Latest/Morphine.modcomponent",
-    "Downloads": [
-      "https://github.com/Atlas-Lumi/TLD-Morphine/releases/download/Latest/Morphine.modcomponent"
-    ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
-    "Categories": [
-      "Gear Items"
-    ],
-    "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-05-18",
-    "Images": [
-      "https://user-images.githubusercontent.com/102776369/161359073-25bd7862-7567-4229-848c-7004e55fbeb4.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
-    "GameVersion": [
-      "tftft"
-    ]
   },
   {
     "DisplayName": "TLD-WolfskinScarf",

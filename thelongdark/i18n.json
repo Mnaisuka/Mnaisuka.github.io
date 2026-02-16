@@ -514,5 +514,6 @@
     "Add a system to simulate oxygen deprivation based on the player's altitude.": "根据玩家的海拔添加一个模拟缺氧的系统。",
     "Adds 12 new minor afflictions.": "增加12种新的小疾病。",
     "Adds a new distinct difficulty mode between Stalker and Interloper. Start with 3 matches and a chance to find interloper-banned items around the world.": "添加了介于潜行者与入侵者之间的新独特难度模式。起始时有3场比赛，并有机会在世界各地找到被入侵者禁止的物品。",
-    "TLD MOD that scans nearby items, containers, and harvestable plants around the player and displays their locations on screen.": "TLD MOD，扫描玩家周围附近的物品、容器和可收获的植物，并在屏幕上显示它们的位置。"
+    "TLD MOD that scans nearby items, containers, and harvestable plants around the player and displays their locations on screen.": "TLD MOD，扫描玩家周围附近的物品、容器和可收获的植物，并在屏幕上显示它们的位置。",
+    "ChooseStartingCondition": "选择起始条件"
 }
