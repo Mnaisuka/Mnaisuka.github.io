@@ -102,6 +102,110 @@
     ]
   },
   {
+    "DisplayName": "Adjustable Walk Speed",
+    "Name": "可调行走速度（Adjustable Walk Speed）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "可调节行走速度允许玩家通过滚轮输入调整行走速度，以便在更多电影时刻行走得更慢。",
+    "Aliases": [
+      "Adjustable Walk Speed"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/AdjustableWalkSpeed",
+    "RepoName": "AdjustableWalkSpeed",
+    "Dependencies": [],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/AdjustableWalkSpeed/releases/download/1.1/AdjustableWalkSpeed.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/AdjustableWalkSpeed/releases/download/1.1/AdjustableWalkSpeed.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-12-18",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "Affliction Component",
+    "Name": "痛苦成分（Affliction Component）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar",
+      "Deadman"
+    ],
+    "Description": "一个框架模组，允许模制者向游戏中添加他们自己的自定义疾病。",
+    "Aliases": [
+      "Affliction Component",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/TLD-Mods/AfflictionComponent",
+    "RepoName": "AfflictionComponent",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModData"
+    ],
+    "Version": "1.0.5",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/TLD-Mods/AfflictionComponent/releases/latest",
+    "Downloads": [
+      "https://github.com/TLD-Mods/AfflictionComponent/releases/latest"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-08-25",
+    "Updated": "2026-02-18",
+    "Images": [
+      "https://i.imgur.com/EUZC3G7.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "Afraid of the Dark",
     "Name": "害怕黑暗（Afraid of the Dark）",
     "Type": "mod",
@@ -3334,6 +3438,166 @@
     ]
   },
   {
+    "DisplayName": "Dynamic Temperature",
+    "Name": "动态温度（Dynamic Temperature）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款增加动态温度和简化模拟热力学的游戏玩法模组。保持你的安全屋温暖！",
+    "Aliases": [
+      "CoolHome",
+      "DynamicTemperature",
+      "Dynamic Temperature"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/DynamicTemperature",
+    "RepoName": "DynamicTemperature",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/DynamicTemperature/releases/latest/download/DynamicTemperature.zip",
+    "Downloads": [
+      "https://github.com/Fuar11/DynamicTemperature/releases/latest/download/DynamicTemperature.zip"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-01-26",
+    "Updated": "2026-01-26",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "yasenfire",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "Dynamic Trees",
+    "Name": "动态树（Dynamic Trees）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar",
+      "Jods-Its"
+    ],
+    "Description": "动态树系统会动态地替换树木的叶纹理，以表现累积的降雪，为游戏增添另一层沉浸感。",
+    "Aliases": [
+      "Dynamic Trees"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/DynamicTrees",
+    "RepoName": "DynamicTrees",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModData"
+    ],
+    "Version": "1.2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.2.2/DynamicTrees.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/DynamicTrees/releases/download/1.2.2/DynamicTrees.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-11-14",
+    "Updated": "2026-01-06",
+    "Images": [
+      "https://i.imgur.com/zdZMjCh.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "Dynamic World",
+    "Name": "动态世界（Dynamic World）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "添加动态事件，包括地震，使大熊的世界感觉更加生动并随时间变化。",
+    "Aliases": [
+      "Dynamic World"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/DynamicWorld",
+    "RepoName": "DynamicWorld",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings",
+      "ModData",
+      "AudioManager"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/DynamicWorld/releases/download/1.0.1/DynamicWorld.zip",
+    "Downloads": [
+      "https://github.com/Fuar11/DynamicWorld/releases/download/1.0.1/DynamicWorld.zip"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.33",
+      "ml": "0.6.6"
+    },
+    "Released": "2024-07-24",
+    "Updated": "2024-12-03",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "Edible Plants",
     "Name": "可食用植物（Edible Plants）",
     "Type": "mod",
@@ -4504,6 +4768,59 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "Frozen Food",
+    "Name": "冷冻食品（Frozen Food）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "冷冻食品旨在通过允许食物项目随时间结冰来为游戏增添更多现实感。",
+    "Aliases": [
+      "Frozen Foods",
+      "FrozenFood",
+      "Frozen Food"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/FrozenFood",
+    "RepoName": "FrozenFood",
+    "Dependencies": [
+      "ModData"
+    ],
+    "Version": "1.5.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.1/FrozenFood.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.1/FrozenFood.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Food"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-05-28",
+    "Updated": "2025-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "Fuel Manager",
     "Name": "燃油管理器（Fuel Manager）",
     "Type": "mod",
@@ -4993,6 +5310,58 @@
     ]
   },
   {
+    "DisplayName": "Harvest Yield Tweaker",
+    "Name": "产量调整器（Harvest Yield Tweaker）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个允许用户更改分解某些物品所获得产出的游戏模组。",
+    "Aliases": [
+      "Harvest Yield Tweaker",
+      "1.1"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/HarvestYieldTweaker",
+    "RepoName": "HarvestYieldTweaker",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings"
+    ],
+    "Version": "1.1.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/HarvestYieldTweaker/releases/tag/1.1.1",
+    "Downloads": [
+      "https://github.com/Fuar11/HarvestYieldTweaker/releases/tag/1.1.1"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-12-04",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "Hotkey Mod",
     "Name": "快捷键模组（Hotkey Mod）",
     "Type": "mod",
@@ -5243,6 +5612,271 @@
     ]
   },
   {
+    "DisplayName": "Improved Afflictions",
+    "Name": "改善的苦难（Improved Afflictions）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "改进的折磨系统对许多折磨进行了重做和更改，使它们持续时间更长，造成更致命的效果，并使游戏更具挑战性。",
+    "Aliases": [
+      "Improved Afflictions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedAfflictions",
+    "RepoName": "ImprovedAfflictions",
+    "Dependencies": [
+      "ModData",
+      "Moment",
+      "ModSettings",
+      "AfflictionComponent"
+    ],
+    "Version": "3.1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.3/ImprovedAfflictions.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.3/ImprovedAfflictions.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-07-22",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "Improved Clothing",
+    "Name": "改进的服装（Improved Clothing）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "增加在雪地和冰上行走时的衣物湿气，动物攻击，以及一种新的快速放置衣物物品的方法，直接从您的身体上。",
+    "Aliases": [
+      "Improved Clothing"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedClothing",
+    "RepoName": "ImprovedClothing",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedClothing/releases/download/1.2.2/ImprovedClothing.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedClothing/releases/download/1.2.2/ImprovedClothing.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-04-13",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "Improved Cougar",
+    "Name": "改进的Cougar（Improved Cougar）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款增加和改变Cougar周围机制的玩法模组",
+    "Aliases": [
+      "Improved Cougar",
+      "2.0"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedCougar",
+    "RepoName": "ImprovedCougar",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings",
+      "ModData",
+      "Expanded AI Framework",
+      "AudioManager"
+    ],
+    "Version": "2.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.1",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.1"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.40",
+      "ml": "0.6.6"
+    },
+    "Released": "2024-12-12",
+    "Updated": "2025-11-28",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "Improved Flasks",
+    "Name": "改进的Flask（Improved Flasks）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个为保温瓶添加新QOL功能的游戏玩法模组。",
+    "Aliases": [
+      "Improved Flasks",
+      "1.2"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedFlasks",
+    "RepoName": "ImprovedFlasks",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedFlasks/releases/tag/1.2.3",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedFlasks/releases/tag/1.2.3"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-12-04",
+    "Updated": "2025-05-17",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "Improved Loading Screens",
+    "Name": "改进的加载界面（Improved Loading Screens）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个改进游戏加载界面的模组，包含自定义提示、背景图片以及启用或禁用加载界面各种功能的能力。",
+    "Aliases": [
+      "Improved Loading Screens"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedLoadingScreens",
+    "RepoName": "ImprovedLoadingScreens",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedLoadingScreens/releases/latest/download/ImprovedLoadingScreens.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedLoadingScreens/releases/latest/download/ImprovedLoadingScreens.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "",
+    "Updated": "2025-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "Improved Magnifying Lens",
     "Name": "改进型放大镜（Improved Magnifying Lens）",
     "Type": "mod",
@@ -5343,6 +5977,113 @@
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "Improved Soundtrack",
+    "Name": "改进的配乐（Improved Soundtrack）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "改善游戏原声带，通过添加新条件播放稀有或已移除的音乐曲目。包括新发现的位置打击乐。",
+    "Aliases": [
+      "Improved OST",
+      "ImprovedSoundtrack",
+      "Improved Soundtrack"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedSoundtrack",
+    "RepoName": "ImprovedSoundtrack",
+    "Dependencies": [
+      "ModSettings",
+      "AudioCore"
+    ],
+    "Version": "1.1.4",
+    "Error": true,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedSoundtrack/releases/download/v1.1.4/ImprovedSoundtrack.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedSoundtrack/releases/download/v1.1.4/ImprovedSoundtrack.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Audio"
+    ],
+    "TestedOn": {
+      "tld": "2.02",
+      "ml": "0.5.5.0"
+    },
+    "Released": "",
+    "Updated": "2022-09-30",
+    "Images": [],
+    "Status": {
+      "working": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": "Not updated for TFTFT Expansion Update"
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "Improved Tales",
+    "Name": "改进的故事（Improved Tales）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "改善信号空隙故事，增加QOL自定义选项。",
+    "Aliases": [
+      "",
+      "ImprovedTales",
+      "Improved Tales",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedTales",
+    "RepoName": "ImprovedTales",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedTales/releases/latest",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedTales/releases/latest"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-04-11",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
     ]
   },
   {
@@ -6652,9 +7393,11 @@
     "ModUrl": "https://github.com/EtherSystem/MinorMiseries",
     "RepoName": "MinorMiseries",
     "Dependencies": [
-      "AfflictionComponent, ModComponent, ModSettings"
+      "AfflictionComponent",
+      "ModComponent",
+      "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -6671,7 +7414,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-02-11",
+    "Updated": "2026-02-16",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
     ],
@@ -7055,6 +7798,57 @@
     ]
   },
   {
+    "DisplayName": "More Camera Spawns",
+    "Name": "更多摄像头生成（More Camera Spawns）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个游戏模组，为下大熊附近的即时相机添加新的生成点",
+    "Aliases": [
+      "More Camera Spawns"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/MoreCameraSpawns",
+    "RepoName": "MoreCameraSpawns",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/MoreCameraSpawns/releases/download/1.1.0/MoreCameraSpawns.zip",
+    "Downloads": [
+      "https://github.com/Fuar11/MoreCameraSpawns/releases/download/1.1.0/MoreCameraSpawns.zip"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-12-07",
+    "Updated": "2026-01-29",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "More Cooking Slots",
     "Name": "更多烹饪槽位（More Cooking Slots）",
     "Type": "mod",
@@ -7104,6 +7898,59 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "More Locked Doors",
+    "Name": "更多锁着的门（More Locked Doors）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "为游戏世界中的门和建筑增加了更多锁。",
+    "Aliases": [
+      "",
+      "MoreLockedDoors",
+      "More Locked Doors",
+      "v2.0"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/MoreLockedDoors",
+    "RepoName": "MoreLockedDoors",
+    "Dependencies": [
+      "ModComponent",
+      "ModData"
+    ],
+    "Version": "2.0.2",
+    "Error": true,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/MoreLockedDoors/releases/tag/v2.0.2",
+    "Downloads": [
+      "https://github.com/Fuar11/MoreLockedDoors/releases/tag/v2.0.2"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.32",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-03-26",
+    "Updated": "2024-10-18",
+    "Images": [],
+    "Status": {
+      "working": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -7498,9 +8345,11 @@
     "ModUrl": "https://github.com/EtherSystem/OxygenLevels",
     "RepoName": "OxygenLevels",
     "Dependencies": [
-      "ModComponent, ModSettings"
+      "AfflictionComponent",
+      "ModComponent",
+      "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/OxygenLevels/releases/latest/download/OxygenLevels.dll",
@@ -7517,7 +8366,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-07",
-    "Updated": "2026-02-11",
+    "Updated": "2026-02-16",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/OxygenLevels.png"
     ],
@@ -8586,6 +9435,58 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  {
+    "DisplayName": "Reduced Loot",
+    "Name": "减少战利品（Reduced Loot）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "减少战利品通过使它们在随机生成时消失来减少世界中某些物品的数量。",
+    "Aliases": [
+      "Reduced Loot"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ReducedLoot",
+    "RepoName": "ReducedLoot",
+    "Dependencies": [
+      "ModData",
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.2/ReducedLoot.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.2/ReducedLoot.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-10-31",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   {
@@ -10690,6 +11591,58 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "Survivor Knowledge",
+    "Name": "幸存者知识（Survivor Knowledge）",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "通过锁定工艺配方和采集动作在技能等级之后来模拟幸存者的知识。",
+    "Aliases": [
+      "Knowledge Mod",
+      "SurvivorKnowledge",
+      "Survivor Knowledge"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/SurvivorKnowledge",
+    "RepoName": "SurvivorKnowledge",
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger"
+    ],
+    "Version": "1.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.2/SurvivorKnowledge.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.2/SurvivorKnowledge.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-01-08",
+    "Updated": "2024-12-10",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "Survivor's Legacy",
     "Name": "幸存者遗志（Survivor's Legacy）",
     "Type": "mod",
@@ -10956,6 +11909,58 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "TheLongMood",
+    "Name": "长情绪（TheLongMood）",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "添加了《僵尸男孩》风格的无聊与抑郁到《长夜》中。",
+    "Aliases": [
+      "TheLongMood"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/TheLongMood",
+    "RepoName": "TheLongMood",
+    "Dependencies": [
+      "AfflictionComponent",
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-16",
+    "Updated": "2026-02-17",
+    "Images": [
+      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_EtherSystem.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "Things To Do",
