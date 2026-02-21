@@ -2028,6 +2028,63 @@
     ]
   },
   {
+    "DisplayName": "Catch Cold Mod",
+    "Name": "感冒药（Catch Cold Mod）",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "这个模组增加了一种感染感冒的机制，发展出对感冒的抵抗力或感冒恶化成肺炎。",
+    "Aliases": [
+      "Catch Cold Mod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/CatchColdMod",
+    "RepoName": "CatchColdMod",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "Affliction Component"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.0.0/CatchColdMod.dll",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.0.0/CatchColdMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2-ci.2388"
+    },
+    "Released": "2026-02-21",
+    "Updated": "2026-02-21",
+    "Images": [
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_38.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_39.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_36.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "Check the Repo for more details!",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/main/ModlistFile.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "ChangeCustomSettings",
     "Name": "更改自定义设置（ChangeCustomSettings）",
     "Type": "mod",
