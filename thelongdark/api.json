@@ -171,7 +171,7 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/TLD-Mods/AfflictionComponent/releases/latest",
@@ -188,7 +188,7 @@
       "ml": "0.7.2"
     },
     "Released": "2024-08-25",
-    "Updated": "2026-02-18",
+    "Updated": "2026-02-21",
     "Images": [
       "https://i.imgur.com/EUZC3G7.png"
     ],
