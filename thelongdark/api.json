@@ -2047,12 +2047,12 @@
       "ModData",
       "Affliction Component"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.0.0/CatchColdMod.dll",
+    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.1/CatchColdMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.0.0/CatchColdMod.dll"
+      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.1/CatchColdMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
@@ -2064,17 +2064,16 @@
       "ml": "0.7.2-ci.2388"
     },
     "Released": "2026-02-21",
-    "Updated": "2026-02-21",
+    "Updated": "2026-02-22",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_38.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_39.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_36.jpg"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_42.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_43.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "- new icons\n- when treating pneumonia, the damage will be less severe\n- overall a little less harsh pneumonia\n- fixed birch bark tea\n- added coughing when afflicted pneumonia\n- fix for cold risk not curing when fully depleted",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -2287,6 +2286,61 @@
     "PreviousAuthors": "Cass, Phaedrus",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "ChooseStartingLocation",
+    "Name": "选择起始位置（ChooseStartingLocation）",
+    "Type": "mod",
+    "Author": "Ezinw",
+    "DisplayAuthor": [
+      "Ezinw"
+    ],
+    "Description": "允许您在开始新沙盒游戏时选择起始位置。300多个位置，涵盖所有地区，所有难度模式。完整说明请参阅README。",
+    "Aliases": [
+      "ChooseStartingLocation",
+      "v1.1"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Ezinw/ChooseStartingLocation",
+    "RepoName": "ChooseStartingLocation",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": true,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0",
+    "Downloads": [
+      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0"
+    ],
+    "AuthorUrl": "https://github.com/Ezinw",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-20",
+    "Updated": "2026-02-20",
+    "Images": [
+      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/CSL.jpg"
+    ],
+    "Status": {
+      "working": false,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Cass",
+    "Source": "https://raw.githubusercontent.com/Ezinw/ModListTLD/refs/heads/main/ModListTLD.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
@@ -4691,12 +4745,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.1.0/FortifiedLookouts.dll",
+    "Download": "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.1.1/FortifiedLookouts.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.1.0/FortifiedLookouts.dll"
+      "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.1.1/FortifiedLookouts.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -4708,7 +4762,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-07-25",
-    "Updated": "2026-01-03",
+    "Updated": "2026-02-22",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_FortifiedLookouts.jpg"
     ],
