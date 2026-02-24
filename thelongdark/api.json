@@ -2235,6 +2235,61 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "Choose Starting Location",
+    "Name": "选择起始位置（Choose Starting Location）",
+    "Type": "mod",
+    "Author": "Ezinw",
+    "DisplayAuthor": [
+      "Ezinw"
+    ],
+    "Description": "允许您在开始新沙盒游戏时选择起始位置。300多个位置，涵盖所有地区，所有难度模式。完整说明请参阅README。",
+    "Aliases": [
+      "Choose Starting Location",
+      "v1.1"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Ezinw/ChooseStartingLocation",
+    "RepoName": "ChooseStartingLocationTFTFT",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0",
+    "Downloads": [
+      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0"
+    ],
+    "AuthorUrl": "https://github.com/Ezinw",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-20",
+    "Updated": "2026-02-20",
+    "Images": [
+      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/CSL.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Cass",
+    "Source": "https://raw.githubusercontent.com/Ezinw/ModListTLD/refs/heads/main/ModListTLD.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "ChooseStartingCondition",
     "Name": "选择起始条件（ChooseStartingCondition）",
     "Type": "mod",
@@ -2286,61 +2341,6 @@
     "PreviousAuthors": "Cass, Phaedrus",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "ChooseStartingLocation",
-    "Name": "选择起始位置（ChooseStartingLocation）",
-    "Type": "mod",
-    "Author": "Ezinw",
-    "DisplayAuthor": [
-      "Ezinw"
-    ],
-    "Description": "允许您在开始新沙盒游戏时选择起始位置。300多个位置，涵盖所有地区，所有难度模式。完整说明请参阅README。",
-    "Aliases": [
-      "ChooseStartingLocation",
-      "v1.1"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Ezinw/ChooseStartingLocation",
-    "RepoName": "ChooseStartingLocation",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.1.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0",
-    "Downloads": [
-      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0"
-    ],
-    "AuthorUrl": "https://github.com/Ezinw",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-02-20",
-    "Updated": "2026-02-20",
-    "Images": [
-      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/CSL.jpg"
-    ],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "Cass",
-    "Source": "https://raw.githubusercontent.com/Ezinw/ModListTLD/refs/heads/main/ModListTLD.json",
-    "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
@@ -5315,10 +5315,10 @@
       "Sm4rtBoyTom",
       "Digitalzombie"
     ],
-    "Description": "HUD Tweaks 模组通过ModSettings添加了启用或禁用某些可能令人烦恼的HUD元素的功能。",
+    "Description": "启用/禁用UI的某些部分以获得更沉浸式的体验。",
     "Aliases": [
       "HUDTweaks",
-      "HUDImprovements"
+      "v2.0"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/HUDTweaks",
@@ -5326,12 +5326,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "2.0.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/download/v1.2.0/HUDImprovements.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/tag/v2.0.0",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/download/v1.2.0/HUDImprovements.dll"
+      "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/tag/v2.0.0"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -5347,7 +5347,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-01-02",
-    "Updated": "2025-09-28",
+    "Updated": "2026-2-24",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDTweals.jpg"
     ],
@@ -11398,24 +11398,25 @@
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "这个模组扩展了TLD的医疗装备物品。一些物品灵感来源于《S.T.A.L.K.E.R》系列。",
+    "Description": "急救系统扩展。受《S.T.A.L.K.E.R.系列》启发。与改进的疾病兼容。",
     "Aliases": [
       "StalkerAidsAndSupplements",
-      "v2.3"
+      "v3.0"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements",
     "RepoName": "StalkerAidsAndSupplements",
     "Dependencies": [
       "ModSettings",
-      "ModComponent"
+      "ModComponent",
+      "AlcoholMod"
     ],
-    "Version": "2.3.0",
+    "Version": "3.0.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v2.3.0",
+    "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.0",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v2.3.0"
+      "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.0"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -11433,7 +11434,7 @@
       "ml": "0.7.2"
     },
     "Released": "2024-08-01",
-    "Updated": "2026-01-05",
+    "Updated": "2026-02-24",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.jpg"
     ],
