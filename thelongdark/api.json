@@ -5251,6 +5251,56 @@
     ]
   },
   {
+    "DisplayName": "GreatBareIsland",
+    "Name": "大裸岛（GreatBareIsland）",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "一个去除大部分小屋、拖车和普通房屋，或将它们替换为废墟以带来新挑战的熊岛替代版本。",
+    "Aliases": [
+      "GreatBareIsland"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/GreatBareIsland",
+    "RepoName": "GreatBareIsland",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/GreatBareIsland/releases/download/1.0.0/GreatBareIsland.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/GreatBareIsland/releases/download/1.0.0/GreatBareIsland.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-24",
+    "Updated": "2026-02-24",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_GreatBareIsland.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "HUD Positioner",
     "Name": "抬头显示定位器（HUD Positioner）",
     "Type": "mod",
