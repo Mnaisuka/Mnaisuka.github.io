@@ -6838,12 +6838,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.1/ItemScanner.dll",
+    "Download": "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.2/ItemScanner.dll",
     "Downloads": [
-      "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.1/ItemScanner.dll"
+      "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.2/ItemScanner.dll"
     ],
     "AuthorUrl": "https://github.com/hzb1130",
     "SupportUrl": null,
@@ -6856,7 +6856,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-10",
-    "Updated": "2026-02-11",
+    "Updated": "2026-02-26",
     "Images": [
       "https://raw.githubusercontent.com/hzb1130/ItemScanner/main/images/3.1.png"
     ],
@@ -7587,7 +7587,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_EtherSystem.json",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
   },
   {
@@ -8539,7 +8539,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_EtherSystem.json",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
   },
   {
@@ -11904,7 +11904,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_EtherSystem.json",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
   },
   {
@@ -12121,7 +12121,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_EtherSystem.json",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
   },
   {
