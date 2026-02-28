@@ -524,5 +524,10 @@
     "Enable/Disable certains parts of the UI for more immersive experience.": "启用/禁用UI的某些部分以获得更沉浸式的体验。",
     "Expansion of the First Aid System. Inspired by S.T.A.L.K.E.R Series. Compatible with Improved Afflictions.": "急救系统扩展。受《S.T.A.L.K.E.R.系列》启发。与改进的疾病兼容。",
     "GreatBareIsland": "大裸岛",
-    "An alternate version of Great Bear Island that removes most cabins, trailers and generic houses or replaces them with ruins for a new challenge.": "一个去除大部分小屋、拖车和普通房屋，或将它们替换为废墟以带来新挑战的熊岛替代版本。"
+    "An alternate version of Great Bear Island that removes most cabins, trailers and generic houses or replaces them with ruins for a new challenge.": "一个去除大部分小屋、拖车和普通房屋，或将它们替换为废墟以带来新挑战的熊岛替代版本。",
+    "Makes animals' respawn times adjustable through ModSettings (in days)": "通过ModSettings调整动物重生时间（以天为单位）",
+    "Adds 2 brand new affliction: Cold and Pneumonia.\nAdds a new buff: Cold Resistance.": "新增2种全新疾病：感冒和肺炎。\n新增一个增益效果：抗寒。",
+    "Preserve Container Items": "保留容器物品",
+    "Mod that sets condition to 100% for customizable items when looted. Can be customized through a Json file generated after first load. Default affected Items: Matches (both types), Lamp Fuel, Jerry Can, Magnifying Lens, Antiseptic, Insulated Flasks": "设置自定义物品在拾取时条件为100%的模组。可以通过首次加载后生成的Json文件进行自定义。默认受影响物品：火柴（两种类型）、灯笼燃料、汽油桶、放大镜、消毒剂、隔热瓶",
+    "Gear items that are at 0% condition will no longer disappear from containers.  CAUTION: Has not been tested on every single type of container, so be careful.": "装备物品在0%状态时将不再从容器中消失。注意：并非在每种类型的容器上进行了测试，所以请小心。"
 }
