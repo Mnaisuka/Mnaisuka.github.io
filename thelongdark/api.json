@@ -398,7 +398,11 @@
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ParasitesThumbnail1.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/305620_19.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/305620_20.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -668,7 +672,9 @@
     },
     "Released": "2026-02-27",
     "Updated": "2026-02-27",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/AnimalRTMthumbnail.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -5179,7 +5185,10 @@
     },
     "Released": "2026-02-27",
     "Updated": "2026-02-27",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/GPCM1.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/GPCM2.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -5550,7 +5559,9 @@
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/HotkexMod1.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -5716,50 +5727,53 @@
     "DisplayName": "Hunger Revamped",
     "Name": "饥饿重装（Hunger Revamped）",
     "Type": "mod",
-    "Author": "TLD Modding Community",
+    "Author": "BaltaZar",
     "DisplayAuthor": [
-      "TLD Modding Community"
+      "BaltaZar",
+      "TLD modding community"
     ],
-    "Description": "改进了饥饿系统，通过分离饥饿和储存的卡路里。增加了烹饪的自定义选项，例如启用烹饪损坏的食物。",
+    "Description": "改进了饥饿系统，通过分离饥饿和储存的卡路里。增加了各种烹饪的定制选项，例如启用烹饪损坏的食物。",
     "Aliases": [
       "Hunger Revamped"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TLD-Mods/HungerRevamped",
+    "ModUrl": "https://gitlab.com/baltazar72/hungerrevamped",
     "RepoName": "HungerRevamped",
     "Dependencies": [
       "ModSettings",
       "ModData"
     ],
-    "Version": "2.0.6",
+    "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/TLD-Mods/HungerRevamped/releases/download/2.0.6/HungerRevamped.dll",
+    "Download": "https://gitlab.com/baltazar72/hungerrevamped/-/raw/main/HungerRevamped.dll",
     "Downloads": [
-      "https://github.com/TLD-Mods/HungerRevamped/releases/download/2.0.6/HungerRevamped.dll"
+      "https://gitlab.com/baltazar72/hungerrevamped/-/raw/main/HungerRevamped.dll"
     ],
-    "AuthorUrl": null,
+    "AuthorUrl": "https://gitlab.com/gyurkasbela",
     "SupportUrl": null,
     "Categories": [
       "Gameplay",
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.51",
+      "ml": "0.7.2-ci.2388"
     },
     "Released": "2018-03-31",
-    "Updated": "2025-04-18",
-    "Images": [],
+    "Updated": "2026-02-28",
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/hunger_bar_fill_levels.png?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Updated for current game version.\nFixed Harvest Can.\nAdded a feature which gives you a recycled can when used one up in a cooking recipe.\nMade debug logging off by default.",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "BA, zeobviouslyfakeacc",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
+    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -8726,7 +8740,10 @@
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/PemmicanThumbnail1.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/PemmicanMeat.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -9755,7 +9772,7 @@
     "Description": "《寂静末日遗物》模组恢复了TLD旧版本中的GearItem纹理。（可通过ModSettings进行自定义。）",
     "Aliases": [
       "RelicsOfTheQuietApocalypse",
-      "RetroTextures"
+      "v0.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse",
@@ -9763,12 +9780,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "0.1.2",
+    "Version": "0.2.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.2/RetroTextures.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/tag/v0.2.0",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/download/v0.1.2/RetroTextures.dll"
+      "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/tag/v0.2.0"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -9784,7 +9801,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-07-24",
-    "Updated": "2026-01-05",
+    "Updated": "2026-02-28",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.jpg"
     ],
@@ -9887,7 +9904,9 @@
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RenewableGM1.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -10101,7 +10120,11 @@
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RBcover.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RBbullet1.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RBbullet2.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -10514,7 +10537,10 @@
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
-    "Images": [],
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SF1.jpg?ref_type=heads",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SF2.jpg?ref_type=heads"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -11529,6 +11555,61 @@
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
       "tftft"
+    ]
+  },
+  {
+    "DisplayName": "Stolen Meat Mod",
+    "Name": "被盗肉模（Stolen Meat Mod）",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar",
+      "MonsieurMeh"
+    ],
+    "Description": "肉类放在外面会被捕食者偷走，如果不妥善保存。如果你在门口堆放一堆肉，可能会吸引一些不友好的访客！迫使你停止堆放肉堆，或者也许可以利用它们来达到你的目的？",
+    "Aliases": [
+      "Stolen Meat Mod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://gitlab.com/baltazar72/stolenmeatmod",
+    "RepoName": "StolenMeatMod",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://gitlab.com/baltazar72/stolenmeatmod/-/raw/main/StolenMeatMod.dll",
+    "Downloads": [
+      "https://gitlab.com/baltazar72/stolenmeatmod/-/raw/main/StolenMeatMod.dll"
+    ],
+    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2-ci.2388"
+    },
+    "Released": "2026-03-01",
+    "Updated": "2026-03-01",
+    "Images": [
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SMthumbnail.jpg",
+      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SM2.jpg?ref_type=heads"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "Check the Repo for more details!",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   {

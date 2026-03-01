@@ -529,5 +529,8 @@
     "Adds 2 brand new affliction: Cold and Pneumonia.\nAdds a new buff: Cold Resistance.": "新增2种全新疾病：感冒和肺炎。\n新增一个增益效果：抗寒。",
     "Preserve Container Items": "保留容器物品",
     "Mod that sets condition to 100% for customizable items when looted. Can be customized through a Json file generated after first load. Default affected Items: Matches (both types), Lamp Fuel, Jerry Can, Magnifying Lens, Antiseptic, Insulated Flasks": "设置自定义物品在拾取时条件为100%的模组。可以通过首次加载后生成的Json文件进行自定义。默认受影响物品：火柴（两种类型）、灯笼燃料、汽油桶、放大镜、消毒剂、隔热瓶",
-    "Gear items that are at 0% condition will no longer disappear from containers.  CAUTION: Has not been tested on every single type of container, so be careful.": "装备物品在0%状态时将不再从容器中消失。注意：并非在每种类型的容器上进行了测试，所以请小心。"
+    "Gear items that are at 0% condition will no longer disappear from containers.  CAUTION: Has not been tested on every single type of container, so be careful.": "装备物品在0%状态时将不再从容器中消失。注意：并非在每种类型的容器上进行了测试，所以请小心。",
+    "Stolen Meat Mod": "被盗肉模",
+    "Improves the hunger system by separating hunger and stored calories. Adds customization options for various cooking such as enabling cooking ruined food.": "改进了饥饿系统，通过分离饥饿和储存的卡路里。增加了各种烹饪的定制选项，例如启用烹饪损坏的食物。",
+    "Meat outside gets stolen by predators, if not stored properly. If you leave a meat pile on your doorstep, you might attract a few unfriendly visitors too! Force you to stop building meat piles, or maybe use them to your advantage??": "肉类放在外面会被捕食者偷走，如果不妥善保存。如果你在门口堆放一堆肉，可能会吸引一些不友好的访客！迫使你停止堆放肉堆，或者也许可以利用它们来达到你的目的？"
 }
