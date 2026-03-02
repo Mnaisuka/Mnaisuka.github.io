@@ -4,7 +4,7 @@ var DataStructures = function(){
 
 DataStructures.prototype = {
 	authorList: [],
-	catList: [],
+	catList: {},
 	modList: {},
 
 	init: function(){
@@ -25,12 +25,13 @@ DataStructures.prototype = {
 			}
 		});
 
-		this.authorList.sort();
+		_this.authorList.sort();
 
 	},
 
-	addCategory: function(category){
-
+	addCategory: function(catId,cat){
+		var _this = this;
+		_this.catList[catId] = cat;
 	},
 
 	addMod: function(modID, mod){
