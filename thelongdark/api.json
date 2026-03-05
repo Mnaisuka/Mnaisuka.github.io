@@ -8504,7 +8504,8 @@
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
-      "EtherSystem"
+      "EtherSystem",
+      "Flower Field"
     ],
     "Description": "添加一个根据玩家海拔高度模拟缺氧的系统。",
     "Aliases": [
@@ -8518,7 +8519,7 @@
       "ModComponent",
       "ModSettings"
     ],
-    "Version": "1.3.1",
+    "Version": "1.4.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/OxygenLevels/releases/latest/download/OxygenLevels.dll",
@@ -8535,7 +8536,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-07",
-    "Updated": "2026-02-16",
+    "Updated": "2026-03-05",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/OxygenLevels.png"
     ],
@@ -12191,7 +12192,8 @@
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
-      "EtherSystem"
+      "EtherSystem",
+      "Flower Field"
     ],
     "Description": "为《漫漫长夜》增添了类似《僵尸毁灭工程》的无聊和抑郁元素。",
     "Aliases": [
@@ -12202,10 +12204,11 @@
     "RepoName": "TheLongMood",
     "Dependencies": [
       "AfflictionComponent",
+      "ModComponent",
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -12222,7 +12225,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-02-17",
+    "Updated": "2026-03-05",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
