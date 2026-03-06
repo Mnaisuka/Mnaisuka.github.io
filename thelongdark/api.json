@@ -8519,7 +8519,7 @@
       "ModComponent",
       "ModSettings"
     ],
-    "Version": "1.4.0",
+    "Version": "1.4.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/OxygenLevels/releases/latest/download/OxygenLevels.dll",
@@ -8536,7 +8536,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-07",
-    "Updated": "2026-03-05",
+    "Updated": "2026-03-06",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/OxygenLevels.png"
     ],
