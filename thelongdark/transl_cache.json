@@ -522,5 +522,8 @@
     "Add a system to simulate oxygen deprivation based on the player's altitude.": "添加一个根据玩家海拔高度模拟缺氧的系统。",
     "Adds a way to renew leather from hide, the ability to make certain leather clothing, and adds tree bark, that can be utilized for many different utilities, like flour, food and string": "新增了从兽皮中再生皮革的方法，可以制作某些皮革服装，还新增了树皮，树皮可用于制作面粉、食物和绳索等多种用途。",
     "Leatherworks": "皮革制品",
-    "Adds 14 new minor afflictions.": "新增14种轻微疾病。"
+    "Adds 14 new minor afflictions.": "新增14种轻微疾病。",
+    "Sets condition to 100 for specified looted Gear items. Customizable Json. Default items: Matches, Lamp fuel, Mag lens, Antiseptic, Insulated flasks": "将指定拾取装备的物品掉落率设为 100%。可自定义 JSON 数据。默认物品：火柴、灯油、放大镜、消毒剂、保温瓶。",
+    "This mod adds a mechanic of catching a Cold affliction, developing a resistance or the cold worsens to Pneumonia.": "该模组增加了感染感冒的机制，玩家可以逐渐产生抵抗力，否则感冒会恶化为肺炎。",
+    "This mod makes animals' respawn time in hours adjustable in a Json file.": "该模组允许通过 JSON 文件调整动物的重生时间（以小时为单位）。"
 }

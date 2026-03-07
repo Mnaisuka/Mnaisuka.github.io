@@ -375,7 +375,7 @@
       "Alternative Parasites At Max Lvl"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/alternativeparasitesatmaxlvl.git",
+    "ModUrl": "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl",
     "RepoName": "AlternativeParasitesAtMaxLvl",
     "Dependencies": [
       "ModSettings"
@@ -383,11 +383,11 @@
     "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/alternativeparasitesatmaxlvl/-/raw/main/AlternativeParasitesAtMaxLvl.dll?ref_type=heads",
+    "Download": "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.2.0/AlternativeParasitesAtMaxLvl.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/alternativeparasitesatmaxlvl/-/raw/main/AlternativeParasitesAtMaxLvl.dll?ref_type=heads"
+      "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.2.0/AlternativeParasitesAtMaxLvl.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay"
@@ -399,9 +399,9 @@
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ParasitesThumbnail1.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/305620_19.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/305620_20.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/ParasitesThumbnail1.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/305620_19.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/305620_20.jpg"
     ],
     "Status": {
       "working": true,
@@ -411,7 +411,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -644,12 +644,12 @@
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "允许通过 ModSettings 调整动物的重生时间（以天为单位）。",
+    "Description": "该模组允许通过 JSON 文件调整动物的重生时间（以小时为单位）。",
     "Aliases": [
       "Animal Respawn Time Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/animalrespawntimemod",
+    "ModUrl": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod",
     "RepoName": "AnimalRespawnTimeMod",
     "Dependencies": [
       "ModSettings"
@@ -657,11 +657,11 @@
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/animalrespawntimemod/-/raw/main/AnimalRespawnTimeMod.dll",
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/animalrespawntimemod/-/raw/main/AnimalRespawnTimeMod.dll"
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay"
@@ -670,20 +670,20 @@
       "tld": "2.51",
       "ml": "0.7.2-ci.2388"
     },
-    "Released": "2026-02-27",
-    "Updated": "2026-02-27",
+    "Released": "2026-02-08",
+    "Updated": "2026-02-15",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/AnimalRTMthumbnail.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "ModSettings implementation",
-      "notes": "Change values in the ModSettings menu",
+      "patchnotes": "ModSettings implementation. Old Json file can be deleted.",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -2035,12 +2035,12 @@
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "新增两种全新疾病：寒冷和肺炎。新增一种增益效果：寒冷抗性。",
+    "Description": "该模组增加了感染感冒的机制，玩家可以逐渐产生抵抗力，否则感冒会恶化为肺炎。",
     "Aliases": [
       "Catch Cold Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/catchcoldmod",
+    "ModUrl": "https://github.com/BaltaZar-7/CatchColdMod",
     "RepoName": "CatchColdMod",
     "Dependencies": [
       "ModSettings",
@@ -2050,11 +2050,11 @@
     "Version": "1.1.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/catchcoldmod/-/raw/main/CatchColdMod.dll",
+    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.2/CatchColdMod.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/catchcoldmod/-/raw/main/CatchColdMod.dll"
+      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.2/CatchColdMod.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay"
@@ -2063,22 +2063,22 @@
       "tld": "2.51",
       "ml": "0.7.2-ci.2388"
     },
-    "Released": "2026-02-28",
+    "Released": "2026-02-21",
     "Updated": "2026-02-28",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/CatchColdMod.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/305620_42.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/305620_43.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_42.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_43.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fixed birch bark tea (properly now)\nfixed a risk issue",
+      "patchnotes": "- new icons\n- when treating pneumonia, the damage will be less severe\n- overall a little less harsh pneumonia\n- fixed birch bark tea\n- added coughing when afflicted pneumonia\n- fix for cold risk not curing when fully depleted",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -5156,48 +5156,47 @@
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "此模组可将拾取物品的触发几率设为100%。可通过首次加载后生成的Json文件进行自定义设置。默认受影响的物品：火柴（两种类型）、灯油、油桶、放大镜、消毒剂、保温瓶。",
+    "Description": "将指定拾取装备的物品掉落率设为 100%。可自定义 JSON 数据。默认物品：火柴、灯油、放大镜、消毒剂、保温瓶。",
     "Aliases": [
       "ToolsFullConditionMod",
       "GearPerfectConditionMod",
       "Gear Perfect Condition Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/gearperfectconditionmod",
+    "ModUrl": "https://github.com/BaltaZar-7/GearPerfectConditionMod",
     "RepoName": "GearPerfectConditionMod",
     "Dependencies": [],
     "Version": "1.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/gearperfectconditionmod/-/raw/main/GearPerfectConditionMod.dll",
+    "Download": "https://github.com/BaltaZar-7/GearPerfectConditionMod/releases/download/1.0.0/GearPerfectConditionMod.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/gearperfectconditionmod/-/raw/main/GearPerfectConditionMod.dll"
+      "https://github.com/BaltaZar-7/GearPerfectConditionMod/releases/download/1.0.0/GearPerfectConditionMod.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
-      "Quality of Life",
       "Gear Items"
     ],
     "TestedOn": {
       "tld": "2.51",
       "ml": "0.7.2-ci.2388"
     },
-    "Released": "2026-02-27",
-    "Updated": "2026-02-27",
+    "Released": "2026-01-26",
+    "Updated": "2026-01-26",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/GPCM1.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/GPCM2.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/GearPerfectConditionMod/305620_16asd.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/GearPerfectConditionMod/305620_15asd.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "",
+      "notes": "This mod is the successor of my former mod, ToolsFullConditionMod",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -5538,17 +5537,17 @@
       "Hotkey Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/hotkeymod",
+    "ModUrl": "https://github.com/BaltaZar-7/HotkeyMod",
     "RepoName": "HotkeyMod",
     "Dependencies": [],
     "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/hotkeymod/-/raw/main/HotkeyMod.dll",
+    "Download": "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.1/HotkeyMod.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/hotkeymod/-/raw/main/HotkeyMod.dll"
+      "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.1/HotkeyMod.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Quality of Life"
@@ -5558,19 +5557,19 @@
       "ml": "0.7.2-ci.2388"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-01-22",
+    "Updated": "2026-02-01",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/HotkexMod1.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HotkeyMod/Screenshot%202026-01-22%20221343.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Fixed an issue with ruined torches getting selected first.",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -5737,7 +5736,7 @@
       "Hunger Revamped"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/hungerrevamped",
+    "ModUrl": "https://github.com/BaltaZar-7/HungerRevamped",
     "RepoName": "HungerRevamped",
     "Dependencies": [
       "ModSettings",
@@ -5746,11 +5745,11 @@
     "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/hungerrevamped/-/raw/main/HungerRevamped.dll",
+    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/hungerrevamped/-/raw/main/HungerRevamped.dll"
+      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay",
@@ -5763,17 +5762,18 @@
     "Released": "2018-03-31",
     "Updated": "2026-02-28",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/hunger_bar_fill_levels.png?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_bar_fill_levels.png",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_and_stored_calories.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated for current game version.\nFixed Harvest Can.\nAdded a feature which gives you a recycled can when used one up in a cooking recipe.\nMade debug logging off by default.",
-      "notes": "",
+      "patchnotes": "Updated for current version.\nFixed Harvest Can.\nAdded a feature which gives you a recycled can when used one up in a cooking recipe.\nMade debug logging off by default.",
+      "notes": "Check the Repo for more details!",
       "issues": ""
     },
     "PreviousAuthors": "BA, zeobviouslyfakeacc",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -8721,17 +8721,17 @@
       "Pemmican Slower Decay"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/pemmicanslowerdecay",
+    "ModUrl": "https://github.com/BaltaZar-7/PemmicanSlowerDecay",
     "RepoName": "PemmicanSlowerDecay",
     "Dependencies": [],
     "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/pemmicanslowerdecay/-/raw/main/PemmicanSlowerDecay.dll",
+    "Download": "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.3.0/PemmicanSlowerDecay.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/pemmicanslowerdecay/-/raw/main/PemmicanSlowerDecay.dll"
+      "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.3.0/PemmicanSlowerDecay.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gear Items",
@@ -8744,8 +8744,8 @@
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/PemmicanThumbnail1.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/PemmicanMeat.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/PemmicanThumbnail1.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/osszehasonlitas.jpg"
     ],
     "Status": {
       "working": true,
@@ -8755,7 +8755,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "tftft"
     ]
@@ -9882,7 +9882,7 @@
       "Renewable Gunpowder Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/renewablegunpowdermod",
+    "ModUrl": "https://github.com/BaltaZar-7/RenewableGunpowderMod",
     "RepoName": "RenewableGunpowderMod",
     "Dependencies": [
       "ModSettings",
@@ -9891,11 +9891,11 @@
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/renewablegunpowdermod/-/raw/main/RenewableGunpowderMod.zip",
+    "Download": "https://github.com/BaltaZar-7/RenewableGunpowderMod/releases/download/1.1.0/RenewableGunpowderMod.zip",
     "Downloads": [
-      "https://gitlab.com/baltazar72/renewablegunpowdermod/-/raw/main/RenewableGunpowderMod.zip"
+      "https://github.com/BaltaZar-7/RenewableGunpowderMod/releases/download/1.1.0/RenewableGunpowderMod.zip"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay",
@@ -9908,7 +9908,7 @@
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RenewableGM1.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RenewableGunpowderMod/305620_14.jpg"
     ],
     "Status": {
       "working": true,
@@ -9918,7 +9918,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -10097,7 +10097,7 @@
       "Retrieve Bullets Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/retrievebulletsmod",
+    "ModUrl": "https://github.com/BaltaZar-7/RetrieveBulletsMod",
     "RepoName": "RetrieveBulletsMod",
     "Dependencies": [
       "ModComponent",
@@ -10106,11 +10106,11 @@
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/retrievebulletsmod/-/raw/main/RetrieveBulletsMod.dll?ref_type=heads",
+    "Download": "https://github.com/BaltaZar-7/RetrieveBulletsMod/releases/download/1.1.0/RetrieveBulletsMod.zip",
     "Downloads": [
-      "https://gitlab.com/baltazar72/retrievebulletsmod/-/raw/main/RetrieveBulletsMod.dll?ref_type=heads"
+      "https://github.com/BaltaZar-7/RetrieveBulletsMod/releases/download/1.1.0/RetrieveBulletsMod.zip"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay",
@@ -10124,9 +10124,10 @@
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RBcover.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RBbullet1.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/RBbullet2.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_9.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_10b.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_12.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_11.jpg"
     ],
     "Status": {
       "working": true,
@@ -10136,7 +10137,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -10518,17 +10519,17 @@
       "Scaled Fish Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/scaledfishmod",
+    "ModUrl": "https://github.com/BaltaZar-7/ScaledFishMod",
     "RepoName": "ScaledFishMod",
     "Dependencies": [],
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/scaledfishmod/-/raw/main/ScaledFishMod.dll?ref_type=heads",
+    "Download": "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/scaledfishmod/-/raw/main/ScaledFishMod.dll?ref_type=heads"
+      "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Food",
@@ -10539,10 +10540,10 @@
       "ml": "0.7.2-ci.2388"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-01-22",
+    "Updated": "2026-01-25",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SF1.jpg?ref_type=heads",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SF2.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_13.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg"
     ],
     "Status": {
       "working": true,
@@ -10552,7 +10553,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -10864,18 +10865,18 @@
     "Description": "描述：一款简单易用的工具，让您更方便地备份和恢复《漫漫长夜》的生存模式游戏存档。注意：这是一个外部工具，并非模组，无需模组加载器即可使用。",
     "Aliases": [
       "Simple save and restore tool",
-      "v2.1"
+      "2.2"
     ],
     "Replaces": [],
     "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
     "RepoName": "TLDTools",
     "Dependencies": [],
-    "Version": "2.1.0",
+    "Version": "2.2.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://gitlab.com/TacticalEx/tld-tools/-/releases/v2.1.0",
+    "Download": "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0",
     "Downloads": [
-      "https://gitlab.com/TacticalEx/tld-tools/-/releases/v2.1.0"
+      "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0"
     ],
     "AuthorUrl": "https://gitlab.com/TacticalEx",
     "SupportUrl": null,
@@ -10889,14 +10890,14 @@
       "ml": "0.7.2"
     },
     "Released": "2023-08-24",
-    "Updated": "2024-01-27",
+    "Updated": "2026-03-06",
     "Images": [
       "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Bug fixes\nResolved an issue that would prevent backups from being created if the source path, backup path or app installation path had a space in it.\nReadme typos resolved\n\nImprovements\nNew UI theme utilizing colors and fonts from the game\nReadMe updated to clarify the restore process\nCode comment cleanup and typo fixing",
+      "patchnotes": "Added optional mod-data configuration support for backing up and restoring with mods enabled",
       "notes": "",
       "issues": ""
     },
@@ -11564,17 +11565,17 @@
     "DisplayName": "偷肉模组",
     "Name": "StolenMeatMod",
     "Type": "mod",
-    "Author": "BaltaZar",
+    "Author": "MonsieurMeh",
     "DisplayAuthor": [
-      "BaltaZar",
-      "MonsieurMeh"
+      "MonsieurMeh",
+      "BaltaZar"
     ],
     "Description": "如果储存不当，放在外面的肉会被掠食者偷走。如果你把肉堆在门口，也可能招来一些不速之客！这会让你停止堆放肉堆，或者也许你会利用它们来获得好处？",
     "Aliases": [
       "Stolen Meat Mod"
     ],
     "Replaces": [],
-    "ModUrl": "https://gitlab.com/baltazar72/stolenmeatmod",
+    "ModUrl": "https://github.com/BaltaZar-7/StolenMeatMod",
     "RepoName": "StolenMeatMod",
     "Dependencies": [
       "ModSettings",
@@ -11583,11 +11584,11 @@
     "Version": "1.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://gitlab.com/baltazar72/stolenmeatmod/-/raw/main/StolenMeatMod.dll",
+    "Download": "https://github.com/BaltaZar-7/StolenMeatMod/releases/download/v1.0.0/StolenMeatMod.dll",
     "Downloads": [
-      "https://gitlab.com/baltazar72/stolenmeatmod/-/raw/main/StolenMeatMod.dll"
+      "https://github.com/BaltaZar-7/StolenMeatMod/releases/download/v1.0.0/StolenMeatMod.dll"
     ],
-    "AuthorUrl": "https://gitlab.com/gyurkasbela",
+    "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": null,
     "Categories": [
       "Gameplay"
@@ -11599,8 +11600,8 @@
     "Released": "2026-03-01",
     "Updated": "2026-03-01",
     "Images": [
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SMthumbnail.jpg",
-      "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/SM2.jpg?ref_type=heads"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/StolenMeatMod/SMthumbnail.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/StolenMeatMod/SM2.jpg"
     ],
     "Status": {
       "working": true,
@@ -11610,7 +11611,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/baltazar72/tldmodsite/-/raw/main/ModlistFileSecond.json",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12208,7 +12209,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -12225,7 +12226,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-03-05",
+    "Updated": "2026-03-07",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
