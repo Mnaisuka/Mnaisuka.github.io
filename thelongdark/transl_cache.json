@@ -528,5 +528,8 @@
     "This mod makes animals' respawn time in hours adjustable in a Json file.": "该模组允许通过 JSON 文件调整动物的重生时间（以小时为单位）。",
     "This mod makes animals' respawn times adjustable in days through ModSettings.": "该模组允许通过 ModSettings 以天为单位调整动物的重生时间。",
     "This mod expands Trapper's Cabin found in Mystery Lake to make it a little bigger in size.\nInterior and exterior is modified along 1 axis (making it wider).": "此模组扩展了神秘湖中的猎人小屋，使其面积略微增大。小屋的内部和外部沿一个轴进行了修改（使其变宽）。",
-    "Bigger Trapper's": "更大的捕兽人"
+    "Bigger Trapper's": "更大的捕兽人",
+    "Mod for The Long Dark that adds more spawn locations in misery mode and adds a custom setting to enable misery afflictions for custom runs.  Formerly Additional Misery Spawns and Misery in Custom Games.": "这款适用于《漫漫长夜》的模组，在苦难模式下增加了更多怪物刷新点，并添加了自定义设置，允许在自定义游戏中启用苦难效果。原名：额外苦难刷新点和自定义游戏中的苦难效果。",
+    "Misery Mode Plus": "痛苦模式加强版",
+    "Mod for the Long Dark that adds better camera control for recording or streaming purposes.": "为《漫漫长夜》添加的模组，可更好地控制摄像机，用于录制或直播。"
 }

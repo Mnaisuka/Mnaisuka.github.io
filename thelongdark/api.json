@@ -52,56 +52,6 @@
     ]
   },
   {
-    "DisplayName": "额外苦难生成",
-    "Name": "AdditionalMiserySpawns",
-    "Type": "mod",
-    "Author": "BigFish",
-    "DisplayAuthor": [
-      "BigFish"
-    ],
-    "Description": "在苦难模式下增加更多重生点",
-    "Aliases": [
-      "Additional Misery Spawns"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns",
-    "RepoName": "AdditionalMiserySpawns",
-    "Dependencies": [],
-    "Version": "1.0.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns/releases/download/v1.0.2/AdditionalMiserySpawns.dll",
-    "Downloads": [
-      "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns/releases/download/v1.0.2/AdditionalMiserySpawns.dll"
-    ],
-    "AuthorUrl": "https://github.com/B1gF1s4",
-    "SupportUrl": "https://www.twitch.tv/b1gf1s4",
-    "Categories": [
-      "Quality of Life",
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.31",
-      "ml": "0.6.1"
-    },
-    "Released": "2024-07-01",
-    "Updated": "2024-07-10",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns/blob/main/Changelog.md",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/B1gF1s4/TLD-ModDefinitions/main/mod.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "可调节步行速度",
     "Name": "AdjustableWalkSpeed",
     "Type": "mod",
@@ -7652,56 +7602,55 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "自定义游戏中的痛苦",
-    "Name": "MiseryInCustomGames",
+    "DisplayName": "痛苦模式加强版",
+    "Name": "MiseryModePlus",
     "Type": "mod",
-    "Author": "BigFish",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "BigFish"
+      "MooseMeat"
     ],
-    "Description": "添加自定义设置，允许在任何自定义游戏中启用痛苦诅咒。原版：常规痛苦诅咒生效时间线；出生时：游戏开始时所有痛苦诅咒均已生效。",
+    "Description": "这款适用于《漫漫长夜》的模组，在苦难模式下增加了更多怪物刷新点，并添加了自定义设置，允许在自定义游戏中启用苦难效果。原名：额外苦难刷新点和自定义游戏中的苦难效果。",
     "Aliases": [
-      "Misery in Custom Games"
+      "Misery Mode Plus"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/B1gF1s4/TLD-MiseryInCustomGames",
-    "RepoName": "MiseryInCustomGames",
+    "ModUrl": "https://github.com/moosemeat817/MiseryModePlus",
+    "RepoName": "MiseryModePlus",
     "Dependencies": [
       "ModSettings",
       "ModData"
     ],
-    "Version": "0.7.0",
+    "Version": "1.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/B1gF1s4/TLD-MiseryInCustomGames/releases/download/PRE-RELEASE-0.7.0/MiseryInCustomGames.dll",
+    "Download": "https://github.com/moosemeat817/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll",
     "Downloads": [
-      "https://github.com/B1gF1s4/TLD-MiseryInCustomGames/releases/download/PRE-RELEASE-0.7.0/MiseryInCustomGames.dll"
+      "https://github.com/moosemeat817/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll"
     ],
-    "AuthorUrl": "https://github.com/B1gF1s4",
-    "SupportUrl": "https://www.twitch.tv/b1gf1s4",
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.31",
-      "ml": "0.6.1"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "2024-07-10",
-    "Updated": "2024-07-10",
-    "Images": [],
+    "Released": "2026-03-10",
+    "Updated": "2026-03-10",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_MiseryModePlus.jpg"
+    ],
     "Status": {
       "working": true,
-      "beta": true,
-      "patchnotes": "https://github.com/B1gF1s4/TLD-MiseryInCustomGames/blob/main/Changelog.md",
+      "beta": false,
+      "patchnotes": "",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/B1gF1s4/TLD-ModDefinitions/main/mod.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "数据",
@@ -9660,56 +9609,51 @@
     "DisplayName": "录音工具",
     "Name": "RecordingUtils",
     "Type": "mod",
-    "Author": "BigFish",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "BigFish"
+      "MooseMeat"
     ],
-    "Description": "增加了一些动物和相机控制功能，用于录制。此外，还添加了 @Digitalzombie 开发的 Freebird 功能。",
+    "Description": "为《漫漫长夜》添加的模组，可更好地控制摄像机，用于录制或直播。",
     "Aliases": [
       "Recording Utils"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/B1gF1s4/TLD-RecordingUtils",
+    "ModUrl": "https://github.com/moosemeat817/RecordingUtils",
     "RepoName": "RecordingUtils",
     "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "DeveloperConsole"
+      "ModSettings"
     ],
-    "Version": "0.4.0",
+    "Version": "0.5.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/B1gF1s4/TLD-RecordingUtils/releases/download/v0.4.0/RecordingUtils.dll",
+    "Download": "https://github.com/moosemeat817/RecordingUtils/releases/download/0.5.0/RecordingUtils.dll",
     "Downloads": [
-      "https://github.com/B1gF1s4/TLD-RecordingUtils/releases/download/v0.4.0/RecordingUtils.dll"
+      "https://github.com/moosemeat817/RecordingUtils/releases/download/0.5.0/RecordingUtils.dll"
     ],
-    "AuthorUrl": "https://github.com/B1gF1s4",
-    "SupportUrl": "https://www.twitch.tv/b1gf1s4",
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
-      "Quality of Life",
-      "Graphics",
-      "Utility Mod"
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.31",
-      "ml": ""
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "2024-07-10",
-    "Updated": "2024-07-10",
-    "Images": [],
+    "Released": "2026-03-10",
+    "Updated": "2026-03-10",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_RecordingUtils.jpg"
+    ],
     "Status": {
       "working": true,
-      "beta": true,
-      "patchnotes": "https://github.com/B1gF1s4/TLD-RecordingUtils/blob/main/Changelog.md",
-      "notes": "Commands:\n- animal_freeze\n  - toggles animation freeze in radius\n  - is affected by animal control radius\n- animal_wander\n  - makes all animals in radius wander to current cam position\n  - is affected by animal control radius in mod settings\n- cam_freebird\n  - toggles freebird cam on/off\n- cam_save\n  - saves current camera position and rotation\n  - is tied to scene. can only load a save while in same scene\n  - only works in freebird or flymode\n- cam_load\n  - loads last saved camera position and rotation\n  - is tied to scene. can only load a save while in same scene\n  - only works in freebird or flymode\n\nSettings:\n- animal control radius, key bindings\n- flymode slow, normal and fast speed\n- freebird cam settings",
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/B1gF1s4/TLD-ModDefinitions/main/mod.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "战利品减少",
