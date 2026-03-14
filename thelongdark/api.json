@@ -510,7 +510,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2025-09-14",
     "Updated": "2026-1-5",
@@ -2592,7 +2592,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2025-09-14",
     "Updated": "2026-1-5",
@@ -3900,7 +3900,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2025-09-14",
     "Updated": "2026-1-5",
@@ -4185,6 +4185,58 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "脂肪破坏者",
+    "Name": "FatDestroyer",
+    "Type": "mod",
+    "Author": "Data-0",
+    "DisplayAuthor": [
+      "Data-0"
+    ],
+    "Description": "让世界各地所有低品质的脂肪消失，这样它们就不会永远腐烂在你家门口了。",
+    "Aliases": [
+      "Fat Destroyer",
+      "RuinedFatDestroyer"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Data-0/Fat-Destroyer",
+    "RepoName": "FatDestroyer",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Data-0/Fat-Destroyer/releases/download/stable/RuinedFatDestroyer.dll",
+    "Downloads": [
+      "https://github.com/Data-0/Fat-Destroyer/releases/download/stable/RuinedFatDestroyer.dll"
+    ],
+    "AuthorUrl": "https://github.com/Data-0",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-11",
+    "Updated": "2026-03-11",
+    "Images": [
+      "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Fat%20destroy.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated for 2.51",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Data-0_Mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "功能设置",
     "Name": "FeatSettings",
     "Type": "mod",
@@ -4219,7 +4271,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2025-10-08",
     "Updated": "2026-1-5",
@@ -7528,7 +7580,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2026-2-4",
     "Updated": "2026-2-4",
@@ -8337,6 +8389,58 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  {
+    "DisplayName": "非致命性信号弹",
+    "Name": "NonLethalFlares",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "禁用信号枪造成的伤害和流血效果。可选择启用或禁用信号枪子弹粘附在野生动物身上的效果。",
+    "Aliases": [
+      "Nonlethal Flares"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/NonLethalFlares",
+    "RepoName": "NonLethalFlares",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-3-13",
+    "Updated": "2026-3-13",
+    "Images": [
+      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/unamused.PNG"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   {
@@ -11766,6 +11870,57 @@
     ]
   },
   {
+    "DisplayName": "强力钓鱼线",
+    "Name": "StrongFishingLine",
+    "Type": "mod",
+    "Author": "Data-0",
+    "DisplayAuthor": [
+      "Data-0"
+    ],
+    "Description": "一种会在世界各地容器附近生成的小物品。通常在渔屋里可以找到。分解后可以获得一些鱼线。",
+    "Aliases": [
+      "Strong Fishing Line",
+      "FishingLine"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Data-0/Fishing-Line",
+    "RepoName": "StrongFishingLine",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "2.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Data-0/Fishing-Line/releases/download/Release2/FishingLine.modcomponent",
+    "Downloads": [
+      "https://github.com/Data-0/Fishing-Line/releases/download/Release2/FishingLine.modcomponent"
+    ],
+    "AuthorUrl": "https://github.com/Data-0",
+    "SupportUrl": null,
+    "Categories": [
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-11",
+    "Updated": "2026-03-11",
+    "Images": [
+      "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/fishingline.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated for 2.51",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Data-0_Mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "挣扎调整",
     "Name": "StruggleTweaks",
     "Type": "mod",
@@ -13113,7 +13268,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2025-09-14",
     "Updated": "2026-1-5",
@@ -13166,7 +13321,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2026-2-14",
     "Updated": "2026-2-14",
@@ -13491,7 +13646,7 @@
     ],
     "TestedOn": {
       "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "ml": "0.7.2"
     },
     "Released": "2025-09-14",
     "Updated": "2026-1-5",
@@ -13564,6 +13719,55 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "轻型木工工具",
+    "Name": "WeightlessWoodworkingTools",
+    "Type": "mod",
+    "Author": "Data-0",
+    "DisplayAuthor": [
+      "Data-0"
+    ],
+    "Description": "这使得木工工具的重量几乎可以忽略不计。玩家不应该因为想要装饰自己的家而受到惩罚。",
+    "Aliases": [
+      "Weightless Woodworking Tools",
+      "WeightlessTools"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Data-0/Weightless-WoodTools",
+    "RepoName": "WeightlessWoodworkingTools",
+    "Dependencies": [],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Data-0/Weightless-WoodTools/releases/download/stable/WeightlessTools.dll",
+    "Downloads": [
+      "https://github.com/Data-0/Weightless-WoodTools/releases/download/stable/WeightlessTools.dll"
+    ],
+    "AuthorUrl": "https://github.com/Data-0",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-11",
+    "Updated": "2026-03-11",
+    "Images": [
+      "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/woodTools.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated for 2.51",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Data-0_Mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "野火",
