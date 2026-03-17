@@ -200,7 +200,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
     "GameVersion": [
       "tftft"
     ]
@@ -2190,55 +2190,6 @@
   },
   {
     "DisplayName": "选择起始位置",
-    "Name": "ChooseStartingLocation",
-    "Type": "mod",
-    "Author": "Cass",
-    "DisplayAuthor": [
-      "Cass"
-    ],
-    "Description": "允许您在开始新的沙盒游戏时选择起始位置。超过 300 个地点，涵盖所有区域和难度模式。完整说明请参阅 README 文件。",
-    "Aliases": [
-      "Choose Starting Location"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/ChooseStartingLocation",
-    "RepoName": "ChooseStartingLocation",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/GruffCassquatch/ChooseStartingLocation/releases/download/1.0.0/ChooseStartingLocation.dll",
-    "Downloads": [
-      "https://github.com/GruffCassquatch/ChooseStartingLocation/releases/download/1.0.0/ChooseStartingLocation.dll"
-    ],
-    "AuthorUrl": "https://github.com/GruffCassquatch",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.01",
-      "ml": "0.5.7"
-    },
-    "Released": "",
-    "Updated": "2022-08-04",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Use with 2.01 Time Capsule, will not work on game versions >2.02",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
-    "GameVersion": []
-  },
-  {
-    "DisplayName": "选择起始位置",
     "Name": "ChooseStartingLocationTFTFT",
     "Type": "mod",
     "Author": "Ezinw",
@@ -3174,7 +3125,7 @@
       "issues": ""
     },
     "PreviousAuthors": "stmSantana",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
     "GameVersion": [
       "tftft"
     ]
@@ -6621,7 +6572,7 @@
       "issues": ""
     },
     "PreviousAuthors": "stmSantana",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
     "GameVersion": [
       "tftft"
     ]
@@ -6726,38 +6677,40 @@
     "DisplayName": "物品堆",
     "Name": "ItemPiles",
     "Type": "mod",
-    "Author": "Atlas Lumi",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Atlas Lumi"
+      "MooseMeat"
     ],
     "Description": "为堆叠物品添加蓝图。",
     "Aliases": [
       "Item Piles"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/ItemPiles",
+    "ModUrl": "https://github.com/moosemeat817/ItemPiles",
     "RepoName": "ItemPiles",
-    "Dependencies": [],
-    "Version": "2.0",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "3.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/ItemPiles/releases/download/v2.0/ItemPiles.modcomponent",
+    "Download": "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.0/ItemPiles.modcomponent",
     "Downloads": [
-      "https://github.com/Atlas-Lumi/ItemPiles/releases/download/v2.0/ItemPiles.modcomponent"
+      "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.0/ItemPiles.modcomponent"
     ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.0.1"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2023-04-17",
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
     "Images": [
-      "https://raw.githubusercontent.com/stmSantana/ItemPiles/main/Images/item-pile-mod-title.jpg"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/item-pile-mod-title.jpg"
     ],
     "Status": {
       "working": true,
@@ -6766,11 +6719,9 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "stmSantana",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
-    "GameVersion": [
-      "tftft"
-    ]
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "物品稀有度",
@@ -7139,56 +7090,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
-    "GameVersion": [
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "无限的容器空间",
-    "Name": "LimitlessContainerSpace",
-    "Type": "mod",
-    "Author": "Atlas Lumi",
-    "DisplayAuthor": [
-      "Atlas Lumi"
-    ],
-    "Description": "将所有集装箱的容量增加到10000公斤",
-    "Aliases": [
-      "Limitless Container Space"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/LimitlessContainerSpace",
-    "RepoName": "LimitlessContainerSpace",
-    "Dependencies": [],
-    "Version": "2.0",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/LimitlessContainerSpace/releases/download/v2.0/LimitlessContainerSpace.dll",
-    "Downloads": [
-      "https://github.com/Atlas-Lumi/LimitlessContainerSpace/releases/download/v2.0/LimitlessContainerSpace.dll"
-    ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.0.1"
-    },
-    "Released": "",
-    "Updated": "2023-04-15",
-    "Images": [
-      ""
-    ],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
     "GameVersion": [
       "tftft"
     ]
@@ -8967,7 +8868,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -10184,6 +10085,54 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "简历预览器",
+    "Name": "ResumePreviewer",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "显示在主菜单中按下“继续”按钮之前将加载的存档槽位。",
+    "Aliases": [
+      "ResumePreviewer"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/ResumePreview",
+    "RepoName": "ResumePreviewer",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/ResumePreview/releases/latest/download/ResumePreviewer.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/ResumePreview/releases/latest/download/ResumePreviewer.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
+    "Images": [
+      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/ResumePreviewer.PNG"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "回收子弹模组",
@@ -11771,40 +11720,40 @@
     "DisplayName": "故事模式收集品",
     "Name": "StoryModeCollectibles",
     "Type": "mod",
-    "Author": "Atlas Lumi",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Atlas Lumi"
+      "MooseMeat"
     ],
     "Description": "将 Wintermute 中的可收集物品添加到生存模式中。",
     "Aliases": [
       "Story Mode Collectibles"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/TLD_StoryModeCollectibles",
+    "ModUrl": "https://github.com/moosemeat817/StoryModeCollectibles",
     "RepoName": "StoryModeCollectibles",
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "2.0",
+    "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/TLD_StoryModeCollectibles/releases/download/v2.0/StorymodeCollectibles.modcomponent",
+    "Download": "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent",
     "Downloads": [
-      "https://github.com/Atlas-Lumi/TLD_StoryModeCollectibles/releases/download/v2.0/StorymodeCollectibles.modcomponent"
+      "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent"
     ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.10",
-      "ml": "0.6.0"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2023-04-05",
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
     "Images": [
-      "https://user-images.githubusercontent.com/102776369/162088567-3a22ec1d-741d-450a-af83-cb9377bd7980.png"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/storymodecollectibles.png"
     ],
     "Status": {
       "working": true,
@@ -11814,7 +11763,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
       "tftft"
     ]
@@ -12178,9 +12127,9 @@
     "DisplayName": "TLD-狼皮围巾",
     "Name": "TLDWolfskinScarf",
     "Type": "mod",
-    "Author": "Atlas Lumi",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Atlas Lumi"
+      "MooseMeat"
     ],
     "Description": "新增一条可制作的狼毛围巾。",
     "Aliases": [
@@ -12188,7 +12137,7 @@
       "WolfskinScarf"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/TLD-WolfskinScarf",
+    "ModUrl": "https://github.com/moosemeat817/WolfskinScarf",
     "RepoName": "TLDWolfskinScarf",
     "Dependencies": [
       "ModComponent"
@@ -12196,23 +12145,23 @@
     "Version": "2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/TLD-WolfskinScarf/releases/download/v2.0/WolfskinScarf.modcomponent",
+    "Download": "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent",
     "Downloads": [
-      "https://github.com/Atlas-Lumi/TLD-WolfskinScarf/releases/download/v2.0/WolfskinScarf.modcomponent"
+      "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent"
     ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.10",
-      "ml": "0.6.0"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2023-04-05",
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
     "Images": [
-      "https://user-images.githubusercontent.com/102776369/166163181-619890d1-6eaf-43b2-8930-8fec482f3a35.png"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/wolfscarf.png"
     ],
     "Status": {
       "working": true,
@@ -12221,8 +12170,8 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Atlas-Lumi/ModlistJson/main/atlaslumi.json",
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
       "vanilla"
     ]
