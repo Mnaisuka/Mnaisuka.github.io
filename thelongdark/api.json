@@ -159,38 +159,39 @@
     "DisplayName": "害怕黑暗",
     "Name": "AfraidoftheDark",
     "Type": "mod",
-    "Author": "Atlas Lumi",
+    "Author": "EtherSystem",
     "DisplayAuthor": [
-      "Atlas Lumi"
+      "EtherSystem"
     ],
     "Description": "让玩家夜不能寐。",
     "Aliases": [
-      "Afraid of the Dark"
+      "Afraid of the Dark",
+      "AnxietyAtNight"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark",
+    "ModUrl": "https://github.com/EtherSystem/TLD-Afraid-of-the-Dark",
     "RepoName": "AfraidoftheDark",
     "Dependencies": [],
-    "Version": "2.0",
+    "Version": "2.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark/releases/download/v2.0/AfraidOfTheDark.dll",
+    "Download": "https://github.com/EtherSystem/TLD-Afraid-of-the-Dark/releases/latest/download/AnxietyAtNight.dll",
     "Downloads": [
-      "https://github.com/Atlas-Lumi/TLD-Afraid-of-the-Dark/releases/download/v2.0/AfraidOfTheDark.dll"
+      "https://github.com/EtherSystem/TLD-Afraid-of-the-Dark/releases/latest/download/AnxietyAtNight.dll"
     ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
+    "AuthorUrl": "https://github.com/EtherSystem",
     "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.06",
-      "ml": "0.6.0.0"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2022-12-28",
+    "Released": "2022-04-11",
+    "Updated": "2026-03-18",
     "Images": [
-      "https://user-images.githubusercontent.com/102776369/162824531-ae345853-7c63-4d49-b90b-24d9f60b4d22.png"
+      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/AnxietyAtNight.png"
     ],
     "Status": {
       "working": true,
@@ -199,11 +200,9 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
-    "GameVersion": [
-      "tftft"
-    ]
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "酒精修饰",
@@ -8825,40 +8824,40 @@
     "DisplayName": "亲人的照片",
     "Name": "PhotoofaLovedOne",
     "Type": "mod",
-    "Author": "Atlas Lumi",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Atlas Lumi"
+      "MooseMeat"
     ],
-    "Description": "允许您携带一张您关心的事物的自定义图片。",
+    "Description": "这个模组允许你携带一张你关心的事物的自定义图片。",
     "Aliases": [
       "Photo of a Loved One"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/Photo-of-a-Loved-One",
+    "ModUrl": "https://github.com/moosemeat817/Photo-of-a-Loved-One",
     "RepoName": "PhotoofaLovedOne",
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "0.6.0",
+    "Version": "0.7.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Atlas-Lumi/Photo-of-a-Loved-One/releases/download/v0.6.0/PhotoOfALovedOne.zip",
+    "Download": "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip",
     "Downloads": [
-      "https://github.com/Atlas-Lumi/Photo-of-a-Loved-One/releases/download/v0.6.0/PhotoOfALovedOne.zip"
+      "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip"
     ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.31",
-      "ml": "0.6.1.0"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "2024-07-05",
-    "Updated": "2024-07-09",
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
     "Images": [
-      "https://github.com/Atlas-Lumi/Photo-of-a-Loved-One/assets/102776369/0f763b57-2f04-4512-ac4e-376df4d24036"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/photomod.png"
     ],
     "Status": {
       "working": true,
@@ -8867,8 +8866,8 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -12087,9 +12086,7 @@
     "Replaces": [],
     "ModUrl": "https://github.com/EtherSystem/SweatSystem",
     "RepoName": "SweatSystem",
-    "Dependencies": [
-      ""
-    ],
+    "Dependencies": [],
     "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
