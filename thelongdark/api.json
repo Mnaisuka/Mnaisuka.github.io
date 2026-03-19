@@ -12307,7 +12307,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.4",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -12324,7 +12324,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-03-12",
+    "Updated": "2026-03-18",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
