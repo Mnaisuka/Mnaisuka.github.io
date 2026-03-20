@@ -762,12 +762,12 @@
     "ModUrl": "https://github.com/DigitalzombieTLD/AudioCore",
     "RepoName": "AudioCore",
     "Dependencies": [],
-    "Version": "3.0.0",
+    "Version": "3.1.0",
     "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/3.0.0/AudioCore.dll",
+    "AutoUpdate": false,
+    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/3.0.0/AudioCore.dll"
+      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -776,18 +776,18 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
+      "tld": "2.51",
+      "ml": "0.7.2.0"
     },
     "Released": "",
-    "Updated": "2023-12-14",
+    "Updated": "2026-03-20",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiocore.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "TLD 2.25 fix, made everything more robust",
+      "patchnotes": "TLD 2.51 fix",
       "notes": "",
       "issues": ""
     },
@@ -817,12 +817,12 @@
       "ModSettings",
       "AudioCore"
     ],
-    "Version": "1.5.1",
+    "Version": "2.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/1.5.1/AudioManager.dll",
+    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.0/AudioManager.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/1.5.1/AudioManager.dll"
+      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.0/AudioManager.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -832,11 +832,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
+      "tld": "2.51",
+      "ml": "0.7.2.0"
     },
     "Released": "2023-01-14",
-    "Updated": "2024-10-17",
+    "Updated": "2026-03-20",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiomanager.jpg"
     ],
@@ -8136,60 +8136,6 @@
     ]
   },
   {
-    "DisplayName": "运动追踪器",
-    "Name": "MotionTracker",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "增加一个小地图，可以显示动物和喷漆标记。",
-    "Aliases": [
-      "MotionTracker"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD",
-    "RepoName": "MotionTracker",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/MotionTracker/releases/download/v1.1.0/MotionTracker.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/MotionTracker/releases/download/v1.1.0/MotionTracker.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-04-16",
-    "Updated": "2023-06-23",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_motiontracker.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "TLD 2.17 fix, Ptarmigans added, size reduced",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "肌肉",
     "Name": "Muscle",
     "Type": "mod",
@@ -9002,12 +8948,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "3.0.0",
+    "Version": "3.0.5",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/tld-placing-anywhere/releases/download/v3.0.0/PlacingAnywhere.dll",
+    "Download": "https://github.com/DigitalzombieTLD/tld-placing-anywhere/releases/download/v3.0.5/PlacingAnywhere.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/tld-placing-anywhere/releases/download/v3.0.0/PlacingAnywhere.dll"
+      "https://github.com/DigitalzombieTLD/tld-placing-anywhere/releases/download/v3.0.5/PlacingAnywhere.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -9020,12 +8966,12 @@
       "ml": "0.7.2.0"
     },
     "Released": "",
-    "Updated": "2023-01-06",
+    "Updated": "2026-03-20",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Lite version until big update",
+      "patchnotes": "Stuff",
       "notes": "",
       "issues": ""
     },
