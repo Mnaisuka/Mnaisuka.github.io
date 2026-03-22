@@ -748,6 +748,44 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "更好的基地",
+    "Name": "BetterBases",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的模组，允许玩家以多种方式改善他们的基地：大多数家具可以移动（如果你先清理掉杂物），大多数损坏的橱柜和抽屉可以修复，大多数室内杂物可以移除，其中一些还可以移动。",
+    "Aliases": [
+      "Better Bases"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-better-bases",
+    "RepoName": "BetterBases",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.1.0",
+    "Error": true,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "更好的相机",
     "Name": "BetterCamera",
     "Type": "mod",
@@ -2182,6 +2220,43 @@
     "Status": null,
     "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "更黑暗的夜晚",
+    "Name": "DarkerNights",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
+    "Aliases": [
+      "Darker Nights"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-darker-nights",
+    "RepoName": "DarkerNights",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": []
   },
   {
@@ -4433,6 +4508,41 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "室内篝火",
+    "Name": "IndoorCampfires",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组允许你在室内生篝火。",
+    "Aliases": [
+      "Indoor Campfires"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-indoor-campfires",
+    "RepoName": "IndoorCampfires",
+    "Dependencies": [],
+    "Version": "2.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "室内绿植",
     "Name": "IndoorsGreenery",
     "Type": "mod",
@@ -6534,6 +6644,41 @@
     "Status": null,
     "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "随机主菜单",
+    "Name": "RandomMainMenu",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
+    "Aliases": [
+      "Random Main Menu"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-random-mainmenu",
+    "RepoName": "RandomMainMenu",
+    "Dependencies": [],
+    "Version": "2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": []
   },
   {
@@ -9786,6 +9931,41 @@
     "Status": null,
     "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/Thekillergreece/mod_list/main/Thekillergreece.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "工作钟",
+    "Name": "WorkingClocks",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
+    "Aliases": [
+      "Working Clocks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-working-clocks",
+    "RepoName": "WorkingClocks",
+    "Dependencies": [],
+    "Version": "1.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": []
   },
   {
