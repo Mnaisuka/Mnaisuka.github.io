@@ -542,5 +542,9 @@
     "Nonlethal Flares": "非致命性信号弹",
     "Displays the SaveSlot that will be loaded before pressing Resume in the Main Menu.": "显示在主菜单中按下“继续”按钮之前将加载的存档槽位。",
     "ResumePreviewer": "简历预览器",
-    "This mod allows you to carry a customizable picture of something you care about.": "这个模组允许你携带一张你关心的事物的自定义图片。"
+    "This mod allows you to carry a customizable picture of something you care about.": "这个模组允许你携带一张你关心的事物的自定义图片。",
+    "Mutes the sound, removes the animation and dims the lights during carcass harvesting with a progress bar, in honor of the old days.": "为了致敬过去，在收割动物尸体时，会静音、移除动画并调暗灯光，同时显示进度条。",
+    "Old School Harvesting": "老式收割",
+    "Makes wolves invulnerable and prevents wolf carcasses from spawning ingame.": "使狼群无敌，并阻止游戏中生成狼的尸体。",
+    "Not The Wolves!": "不是狼队！"
 }

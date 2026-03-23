@@ -6012,6 +6012,41 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "不是狼队！",
+    "Name": "NotTheWolves",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "使狼群无敌，并阻止游戏中生成狼的尸体。",
+    "Aliases": [
+      "Not The Wolves!"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/NotTheWolves",
+    "RepoName": "NotTheWolves",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "不那么傻",
     "Name": "NotSoSillyMod",
     "Type": "mod",
@@ -6046,6 +6081,41 @@
     "Status": null,
     "PreviousAuthors": null,
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "老式收割",
+    "Name": "OldSchoolHarvesting",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "为了致敬过去，在收割动物尸体时，会静音、移除动画并调暗灯光，同时显示进度条。",
+    "Aliases": [
+      "Old School Harvesting"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/OldSchoolHarvesting",
+    "RepoName": "OldSchoolHarvesting",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll"
+    ],
+    "AuthorUrl": null,
+    "SupportUrl": null,
+    "Categories": [],
+    "TestedOn": null,
+    "Released": null,
+    "Updated": null,
+    "Images": [],
+    "Status": null,
+    "PreviousAuthors": null,
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": []
   },
   {
