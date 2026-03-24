@@ -49,7 +49,7 @@ def save_cache():
 
 
 def thelongdark():
-    url = "https://tldmods.com/api.json?details"
+    url = "https://tldmods.net/api.json?details"
 
     response = requests.get(url=url, timeout=60)
     response.raise_for_status()
