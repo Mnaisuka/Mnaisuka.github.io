@@ -1,0 +1,143 @@
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #1c1c1e;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.how-to-container {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+h1, h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #facc15;
+    margin-top: 20px;
+}
+
+.install-important {
+    background: #7f1d1d;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #ef4444;
+    margin-bottom: 15px;
+}
+
+ol.install-instructions li {
+    margin-bottom: 12px;
+}
+
+a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 8px;
+}
+
+code {
+    background: #020617;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+</style>
+
+<div class="main-content instructions-page">
+    <div class="install-instructions how-to-container">
+        <h1>如何在《The Long Dark》中安装Mod</h1>
+
+        <p class="install-important">
+            当前Mod仅支持 <b>Steam</b> 版本的游戏，并且仅适用于 <b>Windows</b> 系统。
+        </p>
+
+        <p class="install-important">
+            本网站与 Hinterland Games 无任何关联，仅用于提供Mod下载入口。
+        </p>
+
+        <ol class="install-instructions">
+            <li>
+                如果你没有关闭崩溃报告和数据分析，请先启动游戏并关闭它们。<br>
+                <b>这很重要！</b> 除非确定是官方问题，否则不要打扰开发者。
+            </li>
+
+            <li>
+                <strong>在安装Mod前务必备份存档！虽然Mod通常经过测试，但仍可能出现问题。</strong><br>
+                存档路径：<code>C:\Users\[用户名]\AppData\Local\Hinterland\TheLongDark</code>
+            </li>
+
+            <li style="color: orange;">
+                首先，请确保安装了 Melon Loader 运行环境：
+                <ul>
+                    <li>Microsoft Visual C++ 2015-2019 运行库（64位）</li>
+                    <li>.NET 6.0 Runtime</li>
+                </ul>
+            </li>
+
+            <li>
+                接下来安装 MelonLoader：
+                <ul>
+                    <li>下载 MelonLoader.Installer.exe</li>
+                    <li>运行安装程序（位置不限）</li>
+                    <li>选择 TheLongDark（或手动添加）</li>
+                    <li style="color: orange;">
+                        选择版本 <strong>0.7.2</strong><br>
+                        （勾选“Enable Nightly Builds”并选择最新版本）
+                    </li>
+                    <li>等待安装完成</li>
+                </ul>
+            </li>
+
+            <li>
+                下载Mod（如为zip需解压），将 .dll / .modcomponent 文件放入游戏目录中的 Mods 文件夹<br>
+                （注意查看Mod说明，有些包含多个版本）
+            </li>
+
+            <li>确保安装所有依赖项</li>
+
+            <li>启动游戏，享受Mod吧 :)</li>
+        </ol>
+    </div>
+
+    <div class="common-issues how-to-container">
+        <h2>常见问题</h2>
+
+        <h4>出现 “iL2CPP-init detour failed” 错误</h4>
+        <p>需要安装 .NET 6 Runtime</p>
+
+        <h4>提示缺少 UnhollowerBaseLib</h4>
+        <p>该Mod未适配当前版本，请删除该Mod</p>
+
+        <h4>游戏启动崩溃</h4>
+        <p>请确认使用 MelonLoader 0.7.2</p>
+
+        <h4>Epic版本无法运行Mod</h4>
+        <p>Epic版本有防篡改系统，目前无法支持Mod</p>
+
+        <h4>如何卸载 MelonLoader</h4>
+        <p>重新运行安装程序并选择游戏，即可卸载</p>
+        <p>或手动删除以下文件夹：MelonLoader、Mods、Plugins、UserData、UserLibs 和 version.dll</p>
+
+        <h4>Mod支持剧情模式吗？</h4>
+        <p>目前不支持。生存模式与剧情模式已分离，理论上可以分别安装，但存在加载问题。</p>
+    </div>
+</div>
