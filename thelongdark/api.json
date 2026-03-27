@@ -678,7 +678,7 @@
     "Released": "2024-12-21",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/af81ef357e8411f248ad5866f50a24f771e001dc/pics/Architect.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Architect.webp"
     ],
     "Status": {
       "working": true,
@@ -1061,6 +1061,63 @@
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "更好的基地",
+    "Name": "BetterBases",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的模组，允许玩家以多种方式改善他们的基地：大多数家具可以移动（如果你先清理掉杂物），大多数损坏的橱柜和抽屉可以修复，大多数室内杂物可以移除，其中一些还可以移动。",
+    "Aliases": [
+      "Better Bases"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-better-bases",
+    "RepoName": "BetterBases",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.1.0",
+    "Error": true,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Base Building",
+      "Overhaul",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-06-20",
+    "Updated": "2023-06-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/better_bases_0.jpg"
+    ],
+    "Status": {
+      "working": false,
+      "beta": false,
+      "patchnotes": "NEW: Added a system to add custom definitions so new objects can be added to the clutter pool, or modify existing ones\n- FIX: Fixed an error thrown on quitting",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   {
@@ -2332,7 +2389,7 @@
     "Released": "2024-10-10",
     "Updated": "2026-01-16",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/39e8ca8ffb9f766d5b44dbf7cad8bff8e63bcdcd/pics/ClothingTweaker.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/ClothingTweaker.webp"
     ],
     "Status": {
       "working": true,
@@ -3069,6 +3126,61 @@
     "PreviousAuthors": "stmSantana",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更黑暗的夜晚",
+    "Name": "DarkerNights",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
+    "Aliases": [
+      "Darker Nights"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-darker-nights",
+    "RepoName": "DarkerNights",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2020-12-22",
+    "Updated": "2023-01-24",
+    "Images": [
+      "https://tld.xpazeapps.com/images/darker_nights_0.jpg",
+      "https://tld.xpazeapps.com/images/darker_nights_1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
@@ -4489,8 +4601,7 @@
     "Released": "2021-09-12",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Foods.png",
-      "https://i.imgur.com/i3JowEX.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Foods.webp"
     ],
     "Status": {
       "working": true,
@@ -5026,7 +5137,7 @@
     "Released": "2025-05-26",
     "Updated": "2026-02-14",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/4d56185b662f51df77ee6a0f20ecfcb951530962/pics/GearInfo.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/GearInfo.webp"
     ],
     "Status": {
       "working": true,
@@ -6199,6 +6310,57 @@
     ]
   },
   {
+    "DisplayName": "室内篝火",
+    "Name": "IndoorCampfires",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组允许你在室内生篝火。",
+    "Aliases": [
+      "Indoor Campfires"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-indoor-campfires",
+    "RepoName": "IndoorCampfires",
+    "Dependencies": [],
+    "Version": "2.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/indoor_campfires_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "室内绿植",
     "Name": "IndoorsGreenery",
     "Type": "mod",
@@ -6364,41 +6526,40 @@
     "DisplayName": "室内墙面装饰",
     "Name": "InteriorWallDecorations",
     "Type": "mod",
-    "Author": "Atlas Lumi",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Atlas Lumi",
-      "Thekillergreece"
+      "MooseMeat"
     ],
     "Description": "允许你用图片装饰你的基地，并上传你自己的图片。",
     "Aliases": [
       "Interior Wall Decorations"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/InteriorWallDecorations",
+    "ModUrl": "https://github.com/moosemeat817/InteriorWallDecorations",
     "RepoName": "InteriorWallDecorations",
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "2.0",
+    "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/InteriorWallDecorations/releases/download/v2.0/InteriorWallDecorations.zip",
+    "Download": "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip",
     "Downloads": [
-      "https://github.com/Atlas-Lumi/InteriorWallDecorations/releases/download/v2.0/InteriorWallDecorations.zip"
+      "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
     ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.0.1"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2023-04-19",
+    "Released": "2026-03-26",
+    "Updated": "2026-03-26",
     "Images": [
-      "https://github.com/stmSantana/InteriorWallDecorations/blob/main/Images/Gallery/Gallery.jpg?raw=true"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/IWD1.jpg"
     ],
     "Status": {
       "working": true,
@@ -6407,8 +6568,8 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "stmSantana",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
+    "PreviousAuthors": "Atlas Lumi, Thekillergreece, stmSantana",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
       "tftft"
     ]
@@ -6477,7 +6638,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.1",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -6807,7 +6968,7 @@
     "Released": "2023-01-07",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Jump.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Jump.webp"
     ],
     "Status": {
       "working": true,
@@ -8271,7 +8432,7 @@
     "Released": "2021-10-26",
     "Updated": "2025-07-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Clothing.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Clothing.webp"
     ],
     "Status": {
       "working": true,
@@ -8524,8 +8685,7 @@
     "Released": "2021-08-30",
     "Updated": "2026-01-06",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/PastimeReading.png",
-      "https://i.imgur.com/ji8mHV2.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/PastimeReading.webp"
     ],
     "Status": {
       "working": true,
@@ -8733,8 +8893,7 @@
     "Released": "2022-11-25",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/2a5b4216a75eeb1aecbe8e92b5a608263a24e5a5/pics/Personality2.png",
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Personality.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Personality2.webp"
     ],
     "Status": {
       "working": true,
@@ -9268,6 +9427,57 @@
     },
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "随机主菜单",
+    "Name": "RandomMainMenu",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
+    "Aliases": [
+      "Random Main Menu"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-random-mainmenu",
+    "RepoName": "RandomMainMenu",
+    "Dependencies": [],
+    "Version": "2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/random_main_menu_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -10270,7 +10480,7 @@
     "Released": "2024-12-03",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/d67747c798cfae0812ba2b47aa3c63a173205fc6/pics/SCP.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/SCP.webp"
     ],
     "Status": {
       "working": true,
@@ -10766,7 +10976,7 @@
     "Released": "2023-03-07",
     "Updated": "2026-01-14",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Silly.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Silly.webp"
     ],
     "Status": {
       "working": true,
@@ -11305,7 +11515,7 @@
     "Released": "2021-01-20",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Sonic.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Sonic.webp"
     ],
     "Status": {
       "working": true,
@@ -12306,7 +12516,7 @@
     "Released": "2026-01-12",
     "Updated": "2026-02-02",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TimescaleHK.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TimescaleHK.webp"
     ],
     "Status": {
       "working": true,
@@ -12386,7 +12596,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-BuryHumanCorpses.dll",
@@ -12406,7 +12616,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-corpse.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-corpse.webp"
     ],
     "Status": {
       "working": true,
@@ -12440,7 +12650,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksDroppedObjectOrientation",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-DroppedObjectOrientation.dll",
@@ -12491,7 +12701,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksExtendedFOVSlider",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-ExtendedFOVSlider.dll",
@@ -12511,7 +12721,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-fov.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-fov.webp"
     ],
     "Status": {
       "working": true,
@@ -12547,7 +12757,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-FallDeathGoat.dll",
@@ -12567,7 +12777,7 @@
     "Released": "2024-12-28",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/879c607a09fb9d428bf7784d4e374e39cd6ad30b/pics/TT-goat.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-goat.webp"
     ],
     "Status": {
       "working": true,
@@ -12601,7 +12811,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-MapTextOuline.dll",
@@ -12621,7 +12831,61 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-outlines.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-outlines.webp"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "微调：扭伤无止境",
+    "Name": "TinyTweaksNoSaveOnSprain",
+    "Type": "mod",
+    "Author": "Waltz",
+    "DisplayAuthor": [
+      "Waltz"
+    ],
+    "Description": "扭伤时阻止自动保存。默认情况下仅在斜坡上行走时触发，但也可以切换至跌倒时触发。",
+    "Aliases": [
+      "Tiny Tweaks: No Save On Sprains",
+      "TinyTweaks-NoSaveOnSprain"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
+    "RepoName": "TinyTweaksNoSaveOnSprain",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll",
+    "Downloads": [
+      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll"
+    ],
+    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
+    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "Categories": [
+      "Quality of Life",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-27",
+    "Updated": "2026-03-27",
+    "Images": [
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-nsos.webp"
     ],
     "Status": {
       "working": true,
@@ -12653,7 +12917,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksPauseOnRadial",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-PauseOnRadial.dll",
@@ -12674,7 +12938,7 @@
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/3617bc12f223b9c4e63c0b5a1a07f1a72bc37107/pics/TT-radialPause.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-radialPause.webp"
     ],
     "Status": {
       "working": true,
@@ -12697,7 +12961,7 @@
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "植物将在45天后重新生长（可更改）。",
+    "Description": "可收获作物将在 45 天后重新生长（可更改）。",
     "Aliases": [
       "Tiny Tweaks: Plants Regrow",
       "TinyTweaks-RespawnablePlants"
@@ -12709,7 +12973,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RespawnablePlants.dll",
@@ -12727,9 +12991,9 @@
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
-    "Updated": "2026-01-05",
+    "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-regrow.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-regrow.webp"
     ],
     "Status": {
       "working": true,
@@ -12761,7 +13025,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksRunWithLantern",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RunWithLantern.dll",
@@ -12780,7 +13044,7 @@
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/3617bc12f223b9c4e63c0b5a1a07f1a72bc37107/pics/TT-lantern.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-lantern.webp"
     ],
     "Status": {
       "working": true,
@@ -12814,7 +13078,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-WakeUpCall.dll",
@@ -12832,9 +13096,9 @@
       "ml": "0.7.2"
     },
     "Released": "2025-01-12",
-    "Updated": "2026-01-05",
+    "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/29237bf2fd62d8a14528d6281f3c52236ce8ee64/pics/TT-wakeup.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-wakeup.webp"
     ],
     "Status": {
       "working": true,
@@ -13793,6 +14057,57 @@
     },
     "PreviousAuthors": "nbakulev ds5678",
     "Source": "https://raw.githubusercontent.com/Thekillergreece/mod_list/main/Thekillergreece.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "工作钟",
+    "Name": "WorkingClocks",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
+    "Aliases": [
+      "Working Clocks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-working-clocks",
+    "RepoName": "WorkingClocks",
+    "Dependencies": [],
+    "Version": "1.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/working_clocks_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
       "tftft"
