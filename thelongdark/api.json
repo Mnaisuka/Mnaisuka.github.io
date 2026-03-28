@@ -1914,7 +1914,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
     ]
@@ -2301,54 +2301,53 @@
     "DisplayName": "服装扩展",
     "Name": "ClothingExpanded",
     "Type": "mod",
-    "Author": "TonisGaming",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "TonisGaming"
+      "MooseMeat"
     ],
     "Description": "增加了将配饰与服装组合使用的方法，以便同时装备更多配饰。",
     "Aliases": [
-      "Clothing Expanded",
-      "V1.0"
+      "Clothing Expanded"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TonisGaming/ClothingExpanded",
+    "ModUrl": "https://github.com/moosemeat817/ClothingExpanded",
     "RepoName": "ClothingExpanded",
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "1.0.5",
-    "Error": true,
+    "Version": "1.1.0",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/TonisGaming/ClothingExpanded/releases/tag/V1.0.5",
+    "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip",
     "Downloads": [
-      "https://github.com/TonisGaming/ClothingExpanded/releases/tag/V1.0.5"
+      "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip"
     ],
-    "AuthorUrl": "https://github.com/TonisGaming",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Quality of Life",
       "Gear Items",
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.1"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "2024-05-14",
-    "Updated": "2024-05-19",
-    "Images": [],
+    "Released": "2026-03-28",
+    "Updated": "2026-03-28",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Clothing_Expanded.png"
+    ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
-      "issues": "Items may get duplicated when combining/uncombining clothing items."
+      "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
-    "GameVersion": [
-      "tftft"
-    ]
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "服装调整器 2",
@@ -2884,20 +2883,21 @@
     ],
     "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />改进了制作界面，并支持自定义蓝图/配方创建。",
     "Aliases": [
-      "Crafting Revisions"
+      "Crafting Revisions",
+      "ModComponent"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/CraftingRevisions/",
+    "ModUrl": "https://github.com/dommrogers/ModComponent",
     "RepoName": "CraftingRevisions",
     "Dependencies": [
       "ModSettings"
     ],
     "Version": "2.3.3",
     "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/CraftingRevisions/releases/download/2.3.3/CraftingRevisions.dll",
+    "AutoUpdate": false,
+    "Download": "https://github.com/dommrogers/ModComponent",
     "Downloads": [
-      "https://github.com/dommrogers/CraftingRevisions/releases/download/2.3.3/CraftingRevisions.dll"
+      "https://github.com/dommrogers/ModComponent"
     ],
     "AuthorUrl": "https://github.com/dommrogers",
     "SupportUrl": "https://www.patreon.com/STBlade",
@@ -3230,7 +3230,7 @@
       "issues": "Sometimes the masks filter doesn't drain\nThe improvised filter sometimes stops functioning"
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
     ]
@@ -5215,20 +5215,21 @@
     ],
     "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />用于生成模组物品的实用模组。",
     "Aliases": [
-      "Gear Spawner"
+      "Gear Spawner",
+      "ModComponent"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/GearSpawner",
+    "ModUrl": "https://github.com/dommrogers/ModComponent",
     "RepoName": "GearSpawner",
     "Dependencies": [
       "ModSettings"
     ],
     "Version": "2.3.2",
     "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/GearSpawner/releases/download/2.3.2/GearSpawner.dll",
+    "AutoUpdate": false,
+    "Download": "https://github.com/dommrogers/ModComponent",
     "Downloads": [
-      "https://github.com/dommrogers/GearSpawner/releases/download/2.3.2/GearSpawner.dll"
+      "https://github.com/dommrogers/ModComponent"
     ],
     "AuthorUrl": "https://github.com/dommrogers",
     "SupportUrl": "https://www.patreon.com/STBlade",
@@ -7136,7 +7137,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
     ]
@@ -7256,18 +7257,19 @@
     ],
     "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />用于本地化文本的实用模组。",
     "Aliases": [
-      "Localization Utilities"
+      "Localization Utilities",
+      "ModComponent"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/LocalizationUtilities/",
+    "ModUrl": "https://github.com/dommrogers/ModComponent",
     "RepoName": "LocalizationUtilities",
     "Dependencies": [],
     "Version": "2.1.0",
     "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/LocalizationUtilities/releases/download/2.1.0/LocalizationUtilities.dll",
+    "AutoUpdate": false,
+    "Download": "hhttps://github.com/dommrogers/ModComponent",
     "Downloads": [
-      "https://github.com/dommrogers/LocalizationUtilities/releases/download/2.1.0/LocalizationUtilities.dll"
+      "hhttps://github.com/dommrogers/ModComponent"
     ],
     "AuthorUrl": "https://github.com/dommrogers",
     "SupportUrl": "https://www.patreon.com/STBlade",
@@ -13208,7 +13210,7 @@
       "issues": ""
     },
     "PreviousAuthors": "TheDevv",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
     ]
