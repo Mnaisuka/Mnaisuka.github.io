@@ -3247,8 +3247,7 @@
     ],
     "Description": "此模组允许在游戏内访问 Hinterland 的开发者控制台。按 F1 打开/关闭控制台，输入“help”查看命令列表。",
     "Aliases": [
-      "DeveloperConsole",
-      "DeveloperConsole_1.8.2"
+      "DeveloperConsole"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/",
@@ -3256,12 +3255,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.8.2",
+    "Version": "1.8.6",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.2/DeveloperConsole_1.8.2.zip",
+    "Download": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.6/DeveloperConsole.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.2/DeveloperConsole_1.8.2.zip"
+      "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.6/DeveloperConsole.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -3270,11 +3269,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2.0"
     },
     "Released": "2023-04-02",
-    "Updated": "2026-01-03",
+    "Updated": "2026-04-01",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsole.jpg"
     ],
@@ -3307,12 +3306,12 @@
     "ModUrl": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute",
     "RepoName": "DeveloperConsoleWintermute",
     "Dependencies": [],
-    "Version": "1.7.0",
+    "Version": "1.7.2",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.0/DeveloperConsoleWintermute.dll",
+    "Download": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.2/DeveloperConsoleWintermute.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.0/DeveloperConsoleWintermute.dll"
+      "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.2/DeveloperConsoleWintermute.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -3325,7 +3324,7 @@
       "ml": "0.7.2.0"
     },
     "Released": "2026-03-21",
-    "Updated": "2026-03-21",
+    "Updated": "2026-04-01",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsolewintermute.jpg"
     ],
@@ -12394,7 +12393,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.1",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -12407,11 +12406,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-03-18",
+    "Updated": "2026-03-31",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
