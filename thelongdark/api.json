@@ -817,12 +817,12 @@
       "ModSettings",
       "AudioCore"
     ],
-    "Version": "2.0.0",
+    "Version": "2.0.5",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.0/AudioManager.dll",
+    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.5/AudioManager.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.0/AudioManager.dll"
+      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.5/AudioManager.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -832,11 +832,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2.0"
     },
     "Released": "2023-01-14",
-    "Updated": "2026-03-20",
+    "Updated": "2026-04-02",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiomanager.jpg"
     ],
@@ -7512,7 +7512,7 @@
     "ModUrl": "https://github.com/monsieurmeh/MehToolBox",
     "RepoName": "MehToolBox",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll",
@@ -7525,11 +7525,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
-    "Released": "2026-2-4",
-    "Updated": "2026-2-4",
+    "Released": "2026-4-1",
+    "Updated": "2026-4-1",
     "Images": [],
     "Status": {
       "working": true,
@@ -7768,19 +7768,18 @@
     ],
     "Description": "允许其他模组在游戏内显示其设置。此模组本身不具备任何功能，仅应作为其他模组的依赖项使用。感谢 zeobviouslyfakeacc 的辛勤付出！",
     "Aliases": [
-      "ModSettings",
-      "ModSettings_2.2.2"
+      "ModSettings"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/DigitalzombieTLD/ModSettings/",
     "RepoName": "ModSettings",
     "Dependencies": [],
-    "Version": "2.2.2",
+    "Version": "2.2.5",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.2/ModSettings_2.2.2.zip",
+    "Download": "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.5/ModSettings.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.2/ModSettings_2.2.2.zip"
+      "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.5/ModSettings.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -7788,18 +7787,18 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2.0"
     },
     "Released": "2023-06-22",
-    "Updated": "2026-01-03",
+    "Updated": "2026-04-02",
     "Images": [
       "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/list_icon_modsettings.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "TLD 2.51",
+      "patchnotes": "Stuff",
       "notes": "",
       "issues": ""
     },
@@ -10889,6 +10888,61 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "霰弹枪",
+    "Name": "Shotgun",
+    "Type": "mod",
+    "Author": "Team Shotgun",
+    "DisplayAuthor": [
+      "Team Shotgun"
+    ],
+    "Description": "听说你们都想要一把霰弹枪……",
+    "Aliases": [
+      "Shotgun"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/MehToolBox/releases/tag/shotgun",
+    "RepoName": "Shotgun",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent",
+      "AudioManager",
+      "AudioCore",
+      "MehToolBox"
+    ],
+    "Version": "0.6.7",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.52",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-4-1",
+    "Updated": "2026-4-1",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "沉默的主角",
