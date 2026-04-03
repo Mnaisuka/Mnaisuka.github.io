@@ -6636,7 +6636,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.4",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -6653,7 +6653,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-10-23",
-    "Updated": "2026-03-26",
+    "Updated": "2026-04-02",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/InterloperHUDPro.PNG"
     ],
@@ -12447,7 +12447,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.2",
+    "Version": "1.3.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -12464,7 +12464,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-03-31",
+    "Updated": "2026-04-02",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
