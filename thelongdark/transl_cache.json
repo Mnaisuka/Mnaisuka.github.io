@@ -553,5 +553,7 @@
     "Prevents autosave when getting a sprain. By default only from walking on slopes, but from falling can be toggled as well": "扭伤时阻止自动保存。默认情况下仅在斜坡上行走时触发，但也可以切换至跌倒时触发。",
     "Adds a minimap that can show animals, spraypaint markings, and select gear.": "添加一个小地图，可以显示动物、喷漆标记和选定的装备。",
     "Heard y'all wanted a shotgun...": "听说你们都想要一把霰弹枪……",
-    "Shotgun": "霰弹枪"
+    "Shotgun": "霰弹枪",
+    "It was always burning, since the world's been turning.": "自世界运转以来，它就一直在燃烧。",
+    "Infinite Fires": "无尽之火"
 }

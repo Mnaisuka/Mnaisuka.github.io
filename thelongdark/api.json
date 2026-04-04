@@ -6465,46 +6465,44 @@
     ]
   },
   {
-    "DisplayName": "无限之火",
+    "DisplayName": "无尽之火",
     "Name": "InfiniteFires",
     "Type": "mod",
-    "Author": "Digitalzombie",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Digitalzombie"
+      "MooseMeat"
     ],
-    "Description": "使用鼠标中键将火势设置为无限持续。",
+    "Description": "自世界运转以来，它就一直在燃烧。",
     "Aliases": [
-      "InfiniteFiresDLC",
-      "InfiniteFires",
-      "InfiniteFires"
+      "Infinite Fires",
+      "InfiniteFiresDLC"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/InfiniteFiresDLC",
+    "ModUrl": "https://github.com/moosemeat817/InfiniteFires",
     "RepoName": "InfiniteFires",
     "Dependencies": [
-      "AlternativeActionUtilities"
+      "AlternativeActions"
     ],
-    "Version": "1.3.0",
+    "Version": "1.4.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/InfiniteFiresDLC/releases/download/v1.3.0/InfiniteFiresDLC.dll",
+    "Download": "https://github.com/moosemeat817/InfiniteFires/releases/download/1.4.0/InfiniteFiresDLC.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/InfiniteFiresDLC/releases/download/v1.3.0/InfiniteFiresDLC.dll"
+      "https://github.com/moosemeat817/InfiniteFires/releases/download/1.4.0/InfiniteFiresDLC.dll"
     ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
-      "Gameplay",
-      "Cheats"
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
+      "tld": "2.52",
+      "ml": "0.7.2"
     },
-    "Released": "2023-04-12",
-    "Updated": "2023-04-12",
+    "Released": "2026-04-04",
+    "Updated": "2026-04-04",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_infinitefires.jpg"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/list_icon_infinitefires.jpg"
     ],
     "Status": {
       "working": true,
@@ -6513,12 +6511,9 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "PreviousAuthors": "DigitalZombie",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "室内墙面装饰",
