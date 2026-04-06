@@ -638,62 +638,6 @@
     ]
   },
   {
-    "DisplayName": "建筑师",
-    "Name": "Architect",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "模块化基地建造模组",
-    "Aliases": [
-      "Architect"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/Architect",
-    "RepoName": "Architect",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent",
-      "ModData"
-    ],
-    "Version": "0.7.8",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/Architect/releases/download/v0.7.8-beta/Architect.zip",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/Architect/releases/download/v0.7.8-beta/Architect.zip"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gameplay",
-      "Gear Items",
-      "Base Building"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2024-12-21",
-    "Updated": "2026-01-11",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Architect.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "箭头模组",
     "Name": "ArrowMod",
     "Type": "mod",
@@ -2348,60 +2292,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "服装调整器 2",
-    "Name": "ClothingTweaker2",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "服装调整器全新升级。随时随地编辑服装属性。",
-    "Aliases": [
-      "Clothing Tweaker 2"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/ClothingTweaker2",
-    "RepoName": "ClothingTweaker2",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "1.0.5",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/ClothingTweaker2/releases/latest/download/ClothingTweaker2.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/ClothingTweaker2/releases/latest/download/ClothingTweaker2.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Clothing",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2024-10-10",
-    "Updated": "2026-01-16",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/ClothingTweaker.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
   },
   {
     "DisplayName": "海岸连接",
@@ -4562,59 +4452,6 @@
     ]
   },
   {
-    "DisplayName": "“卡路里华尔兹”出品的食物",
-    "Name": "FoodsByCalorieWaltz",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "新增 20 多种独特美味的<a href='https://raw.githubusercontent.com/HAHAYOUDEAD/FoodsByCalorieWaltz/main/Images/allRender2.png' target='_blank'>食品和饮料</a>。包含可爱的收藏品和实用场景！<br><br>将其解压到 .../Mods/ 目录进行安装。",
-    "Aliases": [
-      "Foods by 'Calorie Waltz'"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/FoodsByCalorieWaltz",
-    "RepoName": "FoodsByCalorieWaltz",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "1.0.12",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/FoodsByCalorieWaltz/releases/latest/download/FoodsByCalorieWaltz.zip",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/FoodsByCalorieWaltz/releases/latest/download/FoodsByCalorieWaltz.zip"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Food"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2021-09-12",
-    "Updated": "2026-01-04",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Foods.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "ForagersDelight",
     "Name": "ForagersDelight",
     "Type": "mod",
@@ -5092,60 +4929,6 @@
     },
     "PreviousAuthors": "Xpazeman",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "装备信息",
-    "Name": "GearInfo",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "显示您物品栏中的其他装备信息（装备名称旁边有一个小的（i）按钮）",
-    "Aliases": [
-      "Gear Info"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/GearInfo",
-    "RepoName": "GearInfo",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "0.9.7",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/GearInfo/releases/latest/download/GearInfo.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/GearInfo/releases/latest/download/GearInfo.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gear Items",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-05-26",
-    "Updated": "2026-02-14",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/GearInfo.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -6924,59 +6707,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "跳",
-    "Name": "Jump",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "允许跳跃。还有一些设置选项。安装方法是将其拖放到 .../Mods/ 目录下。",
-    "Aliases": [
-      "Jump"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/Jump",
-    "RepoName": "Jump",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.2.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/Jump/releases/latest/download/Jump.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/Jump/releases/latest/download/Jump.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gameplay",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-01-07",
-    "Updated": "2026-01-04",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Jump.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "DigitalZombie",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "煤油灯微调",
     "Name": "KeroseneLampTweaks",
     "Type": "mod",
@@ -7877,12 +7607,12 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-Moment/releases/download/1.0.7/Moment.dll",
+    "Download": "https://github.com/No3371/TLD-Moment/releases/download/1.0.8/Moment.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-Moment/releases/download/1.0.7/Moment.dll"
+      "https://github.com/No3371/TLD-Moment/releases/download/1.0.8/Moment.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -7890,11 +7620,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
     "Released": "2023-05-29",
-    "Updated": "2026-01-08",
+    "Updated": "2026-04-06",
     "Images": [],
     "Status": {
       "working": true,
@@ -8195,12 +7925,12 @@
       "ModData",
       "Moment"
     ],
-    "Version": "1.0.9",
+    "Version": "1.0.10",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-Muscle/releases/download/1.0.9/Muscle.dll",
+    "Download": "https://github.com/No3371/TLD-Muscle/releases/download/1.0.10/Muscle.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-Muscle/releases/download/1.0.9/Muscle.dll"
+      "https://github.com/No3371/TLD-Muscle/releases/download/1.0.10/Muscle.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -8208,11 +7938,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
     "Released": "2023-05-29",
-    "Updated": "2026-01-11",
+    "Updated": "2026-04-06",
     "Images": [],
     "Status": {
       "working": true,
@@ -8385,58 +8115,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "诺斯福克服装包",
-    "Name": "NorthfolkClothingPack",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "新增 2 件之前出现过的服装 + 3 件全新、灵感源自北方民间的可制作服装。<br><br>这是一个标准的 ModComponent 包，安装方法是将其拖放到 .../Mods/ 目录下。",
-    "Aliases": [
-      "Northfolk Clothing Pack"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/NorthfolkClothingPack",
-    "RepoName": "NorthfolkClothingPack",
-    "Dependencies": [
-      "ModComponent"
-    ],
-    "Version": "1.0.7",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/NorthfolkClothingPack/releases/latest/download/NorthfolkClothingPack.modcomponent",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/NorthfolkClothingPack/releases/latest/download/NorthfolkClothingPack.modcomponent"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Clothing"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2021-10-26",
-    "Updated": "2025-07-11",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Clothing.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "nbakulev",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -8640,59 +8318,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "消遣阅读",
-    "Name": "PastimeReading",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "添加了一本可读、可自定义的书籍，带有动画等效果。<br><br><a href='https://youtu.be/MIUvKW89SgI' target='_blank'>展示视频</a>。<a href='https://www.youtube.com/watch?v=q_k4YNhaY5A' target='_blank'>详细评测（带字幕）</a> 。<br><br>安装 Mod 的方法是将 .zip 文件解压到 .../Mods/ 目录。",
-    "Aliases": [
-      "Pastime Reading"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/PastimeReading",
-    "RepoName": "PastimeReading",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.2.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/PastimeReading/releases/download/v1.2.4-beta/pastimeReading.zip",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/PastimeReading/releases/download/v1.2.4-beta/pastimeReading.zip"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gameplay",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2021-08-30",
-    "Updated": "2026-01-06",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/PastimeReading.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": "- No sounds"
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "探路者之巅",
     "Name": "PathfindersAscent",
     "Type": "mod",
@@ -8845,59 +8470,6 @@
     "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "性格",
-    "Name": "Personality",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "可以自定义角色：替换纹理和更换服装。<br><br>将其解压到 .../Mods/ 目录进行安装。",
-    "Aliases": [
-      "Personality"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/Personality",
-    "RepoName": "Personality",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "0.7.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/Personality/releases/download/v0.7.2-beta/Personality.zip",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/Personality/releases/download/v0.7.2-beta/Personality.zip"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Clothing",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2022-11-25",
-    "Updated": "2026-01-11",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Personality2.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -10107,6 +9679,56 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "重新掷骰子判定烧毁的建筑物",
+    "Name": "RerollBurntBuildings",
+    "Type": "mod",
+    "Author": "Cass",
+    "DisplayAuthor": [
+      "Cass"
+    ],
+    "Description": "新增控制台命令，允许你重新生成随机的烧毁建筑。现在也包括随机生成的渔屋门。完整说明请参阅 README 文件。",
+    "Aliases": [
+      "Reroll Burnt Buildings"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/GruffCassquatch/RerollBurntBuildings",
+    "RepoName": "RerollBurntBuildings",
+    "Dependencies": [
+      "ModSettings",
+      "DeveloperConsole"
+    ],
+    "Version": "2.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/GruffCassquatch/RerollBurntBuildings/releases/download/2.0.0/RerollBurntBuildings.dll",
+    "Downloads": [
+      "https://github.com/GruffCassquatch/RerollBurntBuildings/releases/download/2.0.0/RerollBurntBuildings.dll"
+    ],
+    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.12",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-05-02",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
     "GameVersion": []
   },
@@ -10430,64 +10052,6 @@
     ]
   },
   {
-    "DisplayName": "安全屋定制加强版",
-    "Name": "SafehouseCustomizationPlus",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "可进行全方位自定义，允许移动和拾取容器、炉灶、工作台等等。<br><br>警告！此模组尚处于实验阶段。目前尚未收到物品丢失的报告，但仍存在这种可能性。为了以防万一，请务必备份存档。",
-    "Aliases": [
-      "SCPlus",
-      "SafehouseCustomizationPlus",
-      "Safehouse Customization Plus"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/SafehouseCustomizationPlus",
-    "RepoName": "SafehouseCustomizationPlus",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent",
-      "ModData"
-    ],
-    "Version": "1.9.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/SafehouseCustomizationPlus/releases/latest/download/SafehouseCustomizationPlus.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/SafehouseCustomizationPlus/releases/latest/download/SafehouseCustomizationPlus.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Quality of Life",
-      "Base Building",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2024-12-03",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/SCP.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "保存图像滤镜",
     "Name": "SaveImageFilter",
     "Type": "mod",
@@ -10779,6 +10343,54 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "庇护所温度调整",
+    "Name": "ShelterTemperatureTweaks",
+    "Type": "mod",
+    "Author": "Cass",
+    "DisplayAuthor": [
+      "Cass"
+    ],
+    "Description": "允许您调整没有加载界面的庇护所（例如登山者小屋）的温度。完整说明请参见README文件。",
+    "Aliases": [
+      "Shelter Temperature Tweaks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/GruffCassquatch/ShelterTemperatureTweaks",
+    "RepoName": "ShelterTemperatureTweaks",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/GruffCassquatch/ShelterTemperatureTweaks/releases/download/2.0.0/ShelterTemperatureTweaks.dll",
+    "Downloads": [
+      "https://github.com/GruffCassquatch/ShelterTemperatureTweaks/releases/download/2.0.0/ShelterTemperatureTweaks.dll"
+    ],
+    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.12",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-05-02",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
     "GameVersion": []
   },
@@ -10982,61 +10594,54 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
     "GameVersion": []
   },
   {
-    "DisplayName": "傻瓜模组",
-    "Name": "SillyMod",
+    "DisplayName": "沉默的主角",
+    "Name": "SilentProtagonist",
     "Type": "mod",
-    "Author": "Waltz",
+    "Author": "Cass",
     "DisplayAuthor": [
-      "Waltz"
+      "Cass"
     ],
-    "Description": "增添乐趣：装备物品物理效果、碰撞等等<br><br>别在你的普通存档里用它，你会后悔的。",
+    "Description": "静音玩家角色语音。完整说明请参阅README文件。",
     "Aliases": [
-      "Silly Mod"
+      "Silent Protagonist"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/SillyMod",
-    "RepoName": "SillyMod",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.0.0",
+    "ModUrl": "https://github.com/GruffCassquatch/SilentProtagonist",
+    "RepoName": "SilentProtagonist",
+    "Dependencies": [],
+    "Version": "1.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/SillyMod/releases/latest/download/SillyMod.dll",
+    "Download": "https://github.com/GruffCassquatch/SilentProtagonist/releases/download/1.0.0/SilentProtagonist.dll",
     "Downloads": [
-      "https://github.com/HAHAYOUDEAD/SillyMod/releases/latest/download/SillyMod.dll"
+      "https://github.com/GruffCassquatch/SilentProtagonist/releases/download/1.0.0/SilentProtagonist.dll"
     ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "SupportUrl": null,
     "Categories": [
-      "Cheats",
-      "Misc"
+      "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
+      "tld": "2.01",
+      "ml": "0.5.7"
     },
-    "Released": "2023-03-07",
-    "Updated": "2026-01-14",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Silly.webp"
-    ],
+    "Released": "",
+    "Updated": "2022-08-09",
+    "Images": [],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "",
+      "notes": "Use with 2.01 Time Capsule, will not work on game versions >2.02",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "简易保存和恢复工具",
@@ -11523,58 +11128,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "索尼克模式",
-    "Name": "SonicMode",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "让你跑得更快。还有额外的耐力恢复设置。",
-    "Aliases": [
-      "Sonic Mode"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/SonicMode",
-    "RepoName": "SonicMode",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.2.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/SonicMode/releases/latest/download/SonicMode.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/SonicMode/releases/latest/download/SonicMode.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2021-01-20",
-    "Updated": "2026-01-11",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Sonic.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -12099,6 +11652,52 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "太阳方位修正",
+    "Name": "SunOrientationFixes",
+    "Type": "mod",
+    "Author": "Cass",
+    "DisplayAuthor": [
+      "Cass"
+    ],
+    "Description": "修正了多个区域的太阳方位。现在所有区域应该彼此一致，并与世界地图保持一致。",
+    "Aliases": [
+      "Sun Orientation Fixes"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/GruffCassquatch/SunOrientationFixes",
+    "RepoName": "SunOrientationFixes",
+    "Dependencies": [],
+    "Version": "2.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/GruffCassquatch/SunOrientationFixes/releases/download/2.0/SunOrientationFixes.dll",
+    "Downloads": [
+      "https://github.com/GruffCassquatch/SunOrientationFixes/releases/download/2.0/SunOrientationFixes.dll"
+    ],
+    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.06",
+      "ml": "0.6.0"
+    },
+    "Released": "",
+    "Updated": "2023-01-08",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "Go to repo for older game versions",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
     "GameVersion": []
   },
@@ -12525,60 +12124,6 @@
     ]
   },
   {
-    "DisplayName": "时间刻度快捷键",
-    "Name": "TimeScaleHotkey",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "允许您通过按下可配置的热键来加快或减慢时间流逝。",
-    "Aliases": [
-      "TimeAccelerator",
-      "TimeScaleHotkey",
-      "Timescale Hotkey"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TimescaleHotkey",
-    "RepoName": "TimeScaleHotkey",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TimescaleHotkey/releases/latest/download/TimeScaleHotkey.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TimescaleHotkey/releases/latest/download/TimeScaleHotkey.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-01-12",
-    "Updated": "2026-02-02",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TimescaleHK.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "罐头改进",
     "Name": "TinCanImprovements",
     "Type": "mod",
@@ -12623,542 +12168,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "微调：埋葬尸体",
-    "Name": "TinyTweaksBuryHumanCorpses",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "由于安全屋自定义功能相同，因此此功能已冗余。但仍然有效。<br><br>右键点击那些恶心的尸体，就能把它们清除掉。",
-    "Aliases": [
-      "Tiny Tweaks: Bury Corpses",
-      "TinyTweaks-BuryHumanCorpses"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksBuryHumanCorpses",
-    "Dependencies": [
-      "ModData"
-    ],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-BuryHumanCorpses.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-BuryHumanCorpses.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gameplay",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-03-12",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-corpse.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "细微调整：修正水滴方向",
-    "Name": "TinyTweaksDroppedObjectOrientation",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "把掉落的木制火柴和步枪摆正，使它们处于正确的方向。因为是的，它们之前的方向错了。",
-    "Aliases": [
-      "TinyTweaks-FixDroppedOrientation",
-      "TinyTweaksDroppedObjectOrientation",
-      "Tiny Tweaks: Correct Drop Orientation",
-      "TinyTweaks-DroppedObjectOrientation"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksDroppedObjectOrientation",
-    "Dependencies": [],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-DroppedObjectOrientation.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-DroppedObjectOrientation.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-03-12",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-orientation.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "细微调整：扩展视野",
-    "Name": "TinyTweaksExtendedFOVSlider",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "将视野滑块扩展至 150",
-    "Aliases": [
-      "Tiny Tweaks: Extended FOV",
-      "TinyTweaks-ExtendedFOVSlider"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksExtendedFOVSlider",
-    "Dependencies": [],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-ExtendedFOVSlider.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-ExtendedFOVSlider.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Graphics",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-03-12",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-fov.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "微调：秋季死亡山羊",
-    "Name": "TinyTweaksFallDeathGoat",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "禁用坠落死亡触发机制，但使坠落伤害翻倍（可调整）",
-    "Aliases": [
-      "TinyTweaks-DeathTriggerGoat",
-      "TinyTweaksFallDeathGoat",
-      "Tiny Tweaks: Fall Death Goat",
-      "TinyTweaks-FallDeathGoat"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksFallDeathGoat",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-FallDeathGoat.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-FallDeathGoat.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gameplay",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2024-12-28",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-goat.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "细微调整：地图文本轮廓",
-    "Name": "TinyTweaksMapTextOuline",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "地图上的文字以轮廓线显示，方便您看清内容。有几种不同的版本。",
-    "Aliases": [
-      "Tiny Tweaks: Map Text Outline",
-      "TinyTweaks-MapTextOuline"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksMapTextOuline",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-MapTextOuline.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-MapTextOuline.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Quality of Life",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-03-12",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-outlines.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "微调：扭伤无止境",
-    "Name": "TinyTweaksNoSaveOnSprain",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "扭伤时阻止自动保存。默认情况下仅在斜坡上行走时触发，但也可以切换至跌倒时触发。",
-    "Aliases": [
-      "Tiny Tweaks: No Save On Sprains",
-      "TinyTweaks-NoSaveOnSprain"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksNoSaveOnSprain",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Quality of Life",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-03-27",
-    "Updated": "2026-03-27",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-nsos.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "细微调整：暂停径向线",
-    "Name": "TinyTweaksPauseOnRadial",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "加载径向菜单时速度变慢。",
-    "Aliases": [
-      "Tiny Tweaks: Pause On Radial",
-      "TinyTweaks-PauseOnRadial"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksPauseOnRadial",
-    "Dependencies": [],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-PauseOnRadial.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-PauseOnRadial.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Quality of Life",
-      "Gameplay",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-10-15",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-radialPause.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "微小调整：植物再生",
-    "Name": "TinyTweaksRespawnablePlants",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "可收获作物将在 45 天后重新生长（可更改）。",
-    "Aliases": [
-      "Tiny Tweaks: Plants Regrow",
-      "TinyTweaks-RespawnablePlants"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksRespawnablePlants",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RespawnablePlants.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RespawnablePlants.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Gameplay",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-03-12",
-    "Updated": "2026-03-27",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-regrow.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "微调：使用 Lantern 运行",
-    "Name": "TinyTweaksRunWithLantern",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "移除灯笼动画的限制：允许移动并移除镜头锁定。",
-    "Aliases": [
-      "Tiny Tweaks: Run With Lantern",
-      "TinyTweaks-RunWithLantern"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksRunWithLantern",
-    "Dependencies": [],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RunWithLantern.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RunWithLantern.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-10-15",
-    "Updated": "2026-01-05",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-lantern.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "微调：唤醒",
-    "Name": "TinyTweaksWakeUpCall",
-    "Type": "mod",
-    "Author": "Waltz",
-    "DisplayAuthor": [
-      "Waltz"
-    ],
-    "Description": "允许您随意中断睡眠。可以选择在极光出现时唤醒，以及其他一些功能。",
-    "Aliases": [
-      "Tiny Tweaks: Wakeup Call",
-      "TinyTweaks-WakeUpCall"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
-    "RepoName": "TinyTweaksWakeUpCall",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-WakeUpCall.dll",
-    "Downloads": [
-      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-WakeUpCall.dll"
-    ],
-    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
-    "SupportUrl": "https://paypal.me/FardyHernandez",
-    "Categories": [
-      "Quality of Life",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-01-12",
-    "Updated": "2026-03-27",
-    "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-wakeup.webp"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
-    "GameVersion": [
-      "vanilla"
-    ]
   },
   {
     "DisplayName": "切换HUD",
@@ -14005,6 +13014,54 @@
     "GameVersion": [
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "狼群夜间出没",
+    "Name": "WolvesComeOutAtNight",
+    "Type": "mod",
+    "Author": "Cass",
+    "DisplayAuthor": [
+      "Cass"
+    ],
+    "Description": "防止狼在白天生成。可按区域设置，也可设置为全局生效。完整说明请参见README文件。",
+    "Aliases": [
+      "Wolves Come Out At Night"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/GruffCassquatch/WolvesComeOutAtNight",
+    "RepoName": "WolvesComeOutAtNight",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.3.1",
+    "Error": true,
+    "AutoUpdate": true,
+    "Download": "https://github.com/GruffCassquatch/WolvesComeOutAtNight/releases/download/1.2.3.1/WolvesComeOutAtNight.dll",
+    "Downloads": [
+      "https://github.com/GruffCassquatch/WolvesComeOutAtNight/releases/download/1.2.3.1/WolvesComeOutAtNight.dll"
+    ],
+    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.12",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-04-21",
+    "Images": [],
+    "Status": {
+      "working": false,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "狼群夜间出没",
