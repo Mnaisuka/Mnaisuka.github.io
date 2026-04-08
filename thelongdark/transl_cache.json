@@ -555,5 +555,7 @@
     "Heard y'all wanted a shotgun...": "听说你们都想要一把霰弹枪……",
     "Shotgun": "霰弹枪",
     "It was always burning, since the world's been turning.": "自世界运转以来，它就一直在燃烧。",
-    "Infinite Fires": "无尽之火"
+    "Infinite Fires": "无尽之火",
+    "Provides access to prepper cache information for the current game.": "提供当前游戏的生存物资储备信息。",
+    "PrepperCache": "PrepperCache"
 }

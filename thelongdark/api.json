@@ -6481,14 +6481,14 @@
     "ModUrl": "https://github.com/moosemeat817/InfiniteFires",
     "RepoName": "InfiniteFires",
     "Dependencies": [
-      "AlternativeActions"
+      ""
     ],
-    "Version": "1.4.0",
+    "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/InfiniteFires/releases/download/1.4.0/InfiniteFiresDLC.dll",
+    "Download": "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/InfiniteFires/releases/download/1.4.0/InfiniteFiresDLC.dll"
+      "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -6500,7 +6500,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-04",
-    "Updated": "2026-04-04",
+    "Updated": "2026-04-08",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/list_icon_infinitefires.jpg"
     ],
@@ -8176,6 +8176,61 @@
     ]
   },
   {
+    "DisplayName": "运动追踪器",
+    "Name": "MotionTracker",
+    "Type": "mod",
+    "Author": "okclm",
+    "DisplayAuthor": [
+      "okclm"
+    ],
+    "Description": "添加一个小地图，可以显示动物、喷漆标记和选定的装备。",
+    "Aliases": [
+      "MotionTracker"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/okclm/MotionTracker",
+    "RepoName": "MotionTracker",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/okclm/MotionTracker/releases/download/v1.3.0/MotionTracker.dll",
+    "Downloads": [
+      "https://github.com/okclm/MotionTracker/releases/download/v1.3.0/MotionTracker.zip",
+      "https://github.com/okclm/MotionTracker/releases/download/v1.3.0/MotionTracker.dll"
+    ],
+    "AuthorUrl": "https://github.com/okclm?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.52",
+      "ml": "0.7.2.0"
+    },
+    "Released": "2023-04-16",
+    "Updated": "2026-03-27",
+    "Images": [
+      "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/list_icon_motiontracker.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "TLD 2.5 / Unity 6 fix, Cougars added, Issue with Crows sometimes remaining on the radar fixed.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Digitalzombie",
+    "Source": "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/okclm_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "肌肉",
     "Name": "Muscle",
     "Type": "mod",
@@ -9218,6 +9273,60 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "PrepperCache",
+    "Name": "PrepperCache",
+    "Type": "mod",
+    "Author": "okclm",
+    "DisplayAuthor": [
+      "okclm"
+    ],
+    "Description": "提供当前游戏的生存物资储备信息。",
+    "Aliases": [
+      "PrepperCache"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/okclm/PrepperCache",
+    "RepoName": "PrepperCache",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/okclm/PrepperCache/releases/download/v1.2.0/PrepperCache.dll",
+    "Downloads": [
+      "https://github.com/okclm/PrepperCache/releases/download/v1.2.0/PrepperCache.dll"
+    ],
+    "AuthorUrl": "https://github.com/okclm?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.52",
+      "ml": "0.7.2.0"
+    },
+    "Released": "2026-04-07",
+    "Updated": "2026-04-07",
+    "Images": [
+      "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/list_icon_preppercache.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "TLD 2.5 / Unity 6 fix.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "okclm",
+    "Source": "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/okclm_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
   },
   {
     "DisplayName": "保存容器内的物品",
