@@ -11322,12 +11322,12 @@
     "ModUrl": "https://github.com/Sm4rtBoyTom/SkilletInRadial",
     "RepoName": "SkilletInRadial",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.0.1/SkilletInRadial.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.0/SkilletInRadial.dll",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.0.1/SkilletInRadial.dll"
+      "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.0/SkilletInRadial.dll"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -11338,11 +11338,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.54",
       "ml": "0.7.2"
     },
     "Released": "2026-01-31",
-    "Updated": "2026-01-31",
+    "Updated": "2026-04-10",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_SkilletInRadial.jpg"
     ],
