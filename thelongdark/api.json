@@ -1563,7 +1563,7 @@
       "Modders' Gear Toolbox"
     ],
     "Version": "1.2.2",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip",
     "Downloads": [
@@ -1586,7 +1586,7 @@
       "https://i.imgur.com/oYzE4vg.jpg"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "A lot of stuff. Check changelog on the repo.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -1780,7 +1780,7 @@
       "ExamineActionsAPI"
     ],
     "Version": "2.2.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1FIX/CampingTools.zip",
     "Downloads": [
@@ -1801,7 +1801,7 @@
       "https://i.imgur.com/s4QXeLl.jpg"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -2732,7 +2732,7 @@
       "ModComponent"
     ],
     "Version": "1.4.3",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip",
     "Downloads": [
@@ -2753,7 +2753,7 @@
       "https://i.imgur.com/nGMeJ68.jpg"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "Fixed for last version.",
       "notes": "Unzip the .zip, drop contents in mods folder.",
@@ -4312,7 +4312,7 @@
       "Modders' Gear Toolbox"
     ],
     "Version": "2.7.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/V.2.7.1/FirePack.zip",
     "Downloads": [
@@ -4334,7 +4334,7 @@
       "https://i.imgur.com/NxKjE7P.jpg"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "Added French and Turkish localizations. Updated bowdrill. Updated Russian and Italian localizations. Bug fixes.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -6379,7 +6379,7 @@
       "Modders' Gear Toolbox"
     ],
     "Version": "3.1.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip",
     "Downloads": [
@@ -6401,7 +6401,7 @@
       "https://imgur.com/9TpDA41.jpg"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -6890,12 +6890,13 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.2/ItemScanner.dll",
+    "Download": "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.3/ItemScanner.dll",
     "Downloads": [
-      "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.2/ItemScanner.dll"
+      "https://github.com/hzb1130/ItemScanner/releases/latest/download/ItemScanner.dll",
+      "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.3/ItemScanner.dll"
     ],
     "AuthorUrl": "https://github.com/hzb1130",
     "SupportUrl": null,
@@ -6904,11 +6905,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.54",
       "ml": "0.7.2"
     },
     "Released": "2026-02-10",
-    "Updated": "2026-02-26",
+    "Updated": "2026-04-11",
     "Images": [
       "https://raw.githubusercontent.com/hzb1130/ItemScanner/main/images/3.1.png"
     ],
@@ -7823,7 +7824,7 @@
       "ModComponent"
     ],
     "Version": "1.0.4",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip",
     "Downloads": [
@@ -7846,7 +7847,7 @@
       "https://i.imgur.com/4WpvfIK.png"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "Updated to latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -8117,6 +8118,55 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "更多燃料加速剂",
+    "Name": "MoreFuelAccelerant",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "以引火物和脂肪为燃料。助燃剂消耗较慢。",
+    "Aliases": [
+      "MoreFuelAccelerant",
+      "More_Fuels_Accelerants"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/More-fuel-accelerant",
+    "RepoName": "MoreFuelAccelerant",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/More-fuel-accelerant/releases/download/v1.3.0/More_Fuels_Accelerants.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/More-fuel-accelerant/releases/download/v1.3.0/More_Fuels_Accelerants.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.54",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-11",
+    "Updated": "2026-04-11",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_hzb1130.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "莫尔伍德",
@@ -13963,6 +14013,55 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "天气显示",
+    "Name": "WeatherDisplay",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "在屏幕上显示当前天气信息。",
+    "Aliases": [
+      "WeatherDisplay",
+      "WeatherDisplayMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/WeatherDisplay",
+    "RepoName": "WeatherDisplay",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/WeatherDisplay/releases/download/v1.0.0/WeatherDisplayMod.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/WeatherDisplay/releases/download/v1.0.0/WeatherDisplayMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.54",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-11",
+    "Updated": "2026-04-11",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_hzb1130.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "轻型木工工具",
