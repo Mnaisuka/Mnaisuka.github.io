@@ -7549,7 +7549,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "新增14种轻微疾病。",
+    "Description": "新增 14 种轻微负面状态和 3 种增益状态。",
     "Aliases": [
       "MinorMiseries",
       "Minor_Miseries"
@@ -7563,7 +7563,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.4.0",
+    "Version": "1.5.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
