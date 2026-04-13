@@ -1114,6 +1114,63 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更好的基地",
+    "Name": "BetterBases",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的模组，允许玩家以多种方式改善他们的基地：大多数家具可以移动（如果你先清理掉杂物），大多数损坏的橱柜和抽屉可以修复，大多数室内杂物可以移除，其中一些还可以移动。",
+    "Aliases": [
+      "Better Bases"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-better-bases",
+    "RepoName": "BetterBases",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.1.0",
+    "Error": true,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Base Building",
+      "Overhaul",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-06-20",
+    "Updated": "2023-06-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/better_bases_0.jpg"
+    ],
+    "Status": {
+      "working": false,
+      "beta": false,
+      "patchnotes": "NEW: Added a system to add custom definitions so new objects can be added to the clutter pool, or modify existing ones\n- FIX: Fixed an error thrown on quitting",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
@@ -3177,6 +3234,61 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更黑暗的夜晚",
+    "Name": "DarkerNights",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
+    "Aliases": [
+      "Darker Nights"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-darker-nights",
+    "RepoName": "DarkerNights",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2020-12-22",
+    "Updated": "2023-01-24",
+    "Images": [
+      "https://tld.xpazeapps.com/images/darker_nights_0.jpg",
+      "https://tld.xpazeapps.com/images/darker_nights_1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
@@ -4082,55 +4194,6 @@
     "GameVersion": [
       "vanilla"
     ]
-  },
-  {
-    "DisplayName": "搜索速度更快",
-    "Name": "FasterSearching",
-    "Type": "mod",
-    "Author": "MikeyPdog",
-    "DisplayAuthor": [
-      "MikeyPdog",
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "加快对容器的搜索速度，使空容器的搜索速度达到瞬时完成。",
-    "Aliases": [
-      "Faster Searching"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/FasterSearching",
-    "RepoName": "FasterSearching",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/FasterSearching/releases/download/v1.3/FasterSearching.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/FasterSearching/releases/download/v1.3/FasterSearching.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.10",
-      "ml": "0.6.0"
-    },
-    "Released": "2018-06-10",
-    "Updated": "2023-04-04",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "脂肪破坏者",
@@ -6352,6 +6415,57 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "室内篝火",
+    "Name": "IndoorCampfires",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组允许你在室内生篝火。",
+    "Aliases": [
+      "Indoor Campfires"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-indoor-campfires",
+    "RepoName": "IndoorCampfires",
+    "Dependencies": [],
+    "Version": "2.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/indoor_campfires_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
@@ -6568,52 +6682,6 @@
     ]
   },
   {
-    "DisplayName": "入侵者区域选择",
-    "Name": "InterloperRegionSelection",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "此模组允许你在入侵者模式下选择出生区域。",
-    "Aliases": [
-      "Interloper Region Selection"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/InterloperRegionSelection",
-    "RepoName": "InterloperRegionSelection",
-    "Dependencies": [],
-    "Version": "1.8",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/InterloperRegionSelection/releases/download/v1.8/InterloperRegionSelection.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/InterloperRegionSelection/releases/download/v1.8/InterloperRegionSelection.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2018-07-29",
-    "Updated": "2023-12-06",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
-  },
-  {
     "DisplayName": "InterloperHUDPro",
     "Name": "InterloperHUDPro",
     "Type": "mod",
@@ -6631,7 +6699,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -9628,6 +9696,57 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "随机主菜单",
+    "Name": "RandomMainMenu",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
+    "Aliases": [
+      "Random Main Menu"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-random-mainmenu",
+    "RepoName": "RandomMainMenu",
+    "Dependencies": [],
+    "Version": "2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/random_main_menu_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
@@ -10645,52 +10764,6 @@
     "GameVersion": [
       "vanilla"
     ]
-  },
-  {
-    "DisplayName": "保存图像滤镜",
-    "Name": "SaveImageFilter",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "保存并重新加载您选择的图像滤镜（选项 &gt; 显示 &gt; 图像滤镜），而不是每次重新启动游戏时都恢复为“无滤镜”。",
-    "Aliases": [
-      "Save Image Filter"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/SaveImageFilter",
-    "RepoName": "SaveImageFilter",
-    "Dependencies": [],
-    "Version": "1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/SaveImageFilter/releases/download/v1.0/SaveImageFilter.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/SaveImageFilter/releases/download/v1.0/SaveImageFilter.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
-    },
-    "Released": "2020-10-21",
-    "Updated": "2020-10-21",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "保存管理器",
@@ -12738,52 +12811,6 @@
     ]
   },
   {
-    "DisplayName": "罐头改进",
-    "Name": "TinCanImprovements",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "允许将 4 个锡罐合成 1 个废金属，将锡罐的重量减少到 0.05 千克，修复了罐头食品的重量错误。",
-    "Aliases": [
-      "Tin Can Improvements"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/TinCanImprovements",
-    "RepoName": "TinCanImprovements",
-    "Dependencies": [],
-    "Version": "1.0",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/TinCanImprovements/releases/download/v1.0/TinCanImprovements.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/TinCanImprovements/releases/download/v1.0/TinCanImprovements.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
-    },
-    "Released": "2022-10-21",
-    "Updated": "2020-10-21",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
-  },
-  {
     "DisplayName": "微调：埋葬尸体",
     "Name": "TinyTweaksBuryHumanCorpses",
     "Type": "mod",
@@ -14312,6 +14339,57 @@
     },
     "PreviousAuthors": "nbakulev ds5678",
     "Source": "https://raw.githubusercontent.com/Thekillergreece/mod_list/main/Thekillergreece.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "工作钟",
+    "Name": "WorkingClocks",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
+    "Aliases": [
+      "Working Clocks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-working-clocks",
+    "RepoName": "WorkingClocks",
+    "Dependencies": [],
+    "Version": "1.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/working_clocks_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
     "GameVersion": [
       "vanilla",
       "tftft"
