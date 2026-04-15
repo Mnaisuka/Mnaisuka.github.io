@@ -6517,7 +6517,7 @@
   },
   {
     "DisplayName": "室内墙面装饰",
-    "Name": "InteriorWallDecorations",
+    "Name": "MyPicturesMod",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
@@ -6525,17 +6525,18 @@
     ],
     "Description": "允许你用图片装饰你的基地，并上传你自己的图片。",
     "Aliases": [
-      "Interior Wall Decorations"
+      "Interior Wall Decorations",
+      "InteriorWallDecorations"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/moosemeat817/InteriorWallDecorations",
-    "RepoName": "InteriorWallDecorations",
+    "RepoName": "MyPicturesMod",
     "Dependencies": [
       "ModComponent"
     ],
     "Version": "2.1.0",
     "Error": false,
-    "AutoUpdate": true,
+    "AutoUpdate": false,
     "Download": "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip",
     "Downloads": [
       "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
@@ -9685,6 +9686,62 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  {
+    "DisplayName": "随机化器：过渡",
+    "Name": "RandomizerTransitions",
+    "Type": "mod",
+    "Author": "Waltz",
+    "DisplayAuthor": [
+      "Waltz"
+    ],
+    "Description": "随机化场景间的过渡。以全新的混乱方式探索大熊湖。可在新的游戏创建菜单中启用。",
+    "Aliases": [
+      "Randomizer: Transitions",
+      "Randomizer-Transitions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/HAHAYOUDEAD/Randomizer",
+    "RepoName": "RandomizerTransitions",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "0.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/HAHAYOUDEAD/Randomizer/releases/latest/download/Randomizer-Transitions.dll",
+    "Downloads": [
+      "https://github.com/HAHAYOUDEAD/Randomizer/releases/latest/download/Randomizer-Transitions.dll"
+    ],
+    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
+    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "Categories": [
+      "Gameplay",
+      "Overhaul",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.54",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-15",
+    "Updated": "2026-04-15",
+    "Images": [
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Transitions.webp"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   {
