@@ -564,5 +564,11 @@
     "Tinder and fat as fuel.The accelerant is consumed more slowly.": "以引火物和脂肪为燃料。助燃剂消耗较慢。",
     "Adds 14 new minor afflictions and 3 new buffs.": "新增 14 种轻微负面状态和 3 种增益状态。",
     "Randomizer: Transitions": "随机化器：过渡",
-    "Randomizes transisions between scenes. Explore Great Bear in all new chaotic fashion. Enabled in new game creation menu": "随机化场景间的过渡。以全新的混乱方式探索大熊湖。可在新的游戏创建菜单中启用。"
+    "Randomizes transisions between scenes. Explore Great Bear in all new chaotic fashion. Enabled in new game creation menu": "随机化场景间的过渡。以全新的混乱方式探索大熊湖。可在新的游戏创建菜单中启用。",
+    "Save Backup": "保存备份",
+    "Lets you save up to 9 places like your home base, and fast travel to them anytime at the press of a button. Includes balance options. For example, you can have one home base while you explore the world, without the tedium of transferring your hoard to each region.": "最多可保存 9 个地点（例如您的基地），并可随时一键快速旅行至这些地点。包含余额选项。例如，您可以在探索世界时拥有一个基地，而无需将物资逐个运送到各个区域。",
+    "Automatically backs up all your saves to its subfolder once per real day. Particularly when playing with mods, this lets you recover your save if something goes wrong.": "它会自动将所有存档备份到其子文件夹中，备份频率为每天一次。尤其是在使用模组的情况下，这可以让你在出现问题时恢复存档。",
+    "Auto-Fill Map on Explore": "在“探索”中自动填充地图",
+    "Fast Travel": "快速旅行",
+    "Fills in the map around you as you explore, with a configurable range. Fully compatible with Map Manager.": "探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。"
 }
