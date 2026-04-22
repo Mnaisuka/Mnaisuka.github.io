@@ -366,59 +366,6 @@
     ]
   },
   {
-    "DisplayName": "替代行动公用事业",
-    "Name": "AlternativeActionUtilities",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "一个用于在点击物体时执行自定义操作的实用模组。",
-    "Aliases": [
-      "AlternativeActionUtilities"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/AlternativeActionUtilities",
-    "RepoName": "AlternativeActionUtilities",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/AlternativeActionUtilities/releases/download/v1.10/AlternativeActionUtilities.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/AlternativeActionUtilities/releases/download/v1.10/AlternativeActionUtilities.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-04-07",
-    "Updated": "2023-04-07",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_alternativeactions.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "First after-DLC release",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "环境光",
     "Name": "AmbientLights",
     "Type": "mod",
@@ -747,114 +694,6 @@
     ]
   },
   {
-    "DisplayName": "AudioCore",
-    "Name": "AudioCore",
-    "Type": "plugin",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "这是个插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！",
-    "Aliases": [
-      "AudioCore"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/AudioCore",
-    "RepoName": "AudioCore",
-    "Dependencies": [],
-    "Version": "3.1.0",
-    "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Audio",
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.0"
-    },
-    "Released": "",
-    "Updated": "2026-03-20",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiocore.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "TLD 2.51 fix",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "音频管理器",
-    "Name": "AudioManager",
-    "Type": "library",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "用于使用自定义音频片段和控制原版音频的辅助模组。可禁用火焰音效、禁用瀑布音效、调节室内风效音量（例如类似沙沙声）、调节极光音乐音量。",
-    "Aliases": [
-      "AudioManager"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/AudioManager/",
-    "RepoName": "AudioManager",
-    "Dependencies": [
-      "ModSettings",
-      "AudioCore"
-    ],
-    "Version": "2.0.5",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.5/AudioManager.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.5/AudioManager.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Audio",
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.52",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2023-01-14",
-    "Updated": "2026-04-02",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiomanager.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "I did more stuff!",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "极光监测器",
     "Name": "AuroraMonitor",
     "Type": "mod",
@@ -1115,6 +954,120 @@
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "更好的基地",
+    "Name": "BetterBases",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的模组，允许玩家以多种方式改善他们的基地：大多数家具可以移动（如果你先清理掉杂物），大多数损坏的橱柜和抽屉可以修复，大多数室内杂物可以移除，其中一些还可以移动。",
+    "Aliases": [
+      "Better Bases"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-better-bases",
+    "RepoName": "BetterBases",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.1.0",
+    "Error": true,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Base Building",
+      "Overhaul",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-06-20",
+    "Updated": "2023-06-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/better_bases_0.jpg"
+    ],
+    "Status": {
+      "working": false,
+      "beta": false,
+      "patchnotes": "NEW: Added a system to add custom definitions so new objects can be added to the clutter pool, or modify existing ones\n- FIX: Fixed an error thrown on quitting",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更好的基地",
+    "Name": "BetterBases",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的模组，允许玩家以多种方式改善他们的基地：大多数家具可以移动（如果你先清理掉杂物），大多数损坏的橱柜和抽屉可以修复，大多数室内杂物可以移除，其中一些还可以移动。",
+    "Aliases": [
+      "Better Bases"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-better-bases",
+    "RepoName": "BetterBases",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.1.0",
+    "Error": true,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Base Building",
+      "Overhaul",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-06-20",
+    "Updated": "2023-06-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/better_bases_0.jpg"
+    ],
+    "Status": {
+      "working": false,
+      "beta": false,
+      "patchnotes": "NEW: Added a system to add custom definitions so new objects can be added to the clutter pool, or modify existing ones\n- FIX: Fixed an error thrown on quitting",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   {
@@ -1869,63 +1822,6 @@
     ]
   },
   {
-    "DisplayName": "烛光",
-    "Name": "Candlelight",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "新增蜡烛和制作蜡烛的新材料",
-    "Aliases": [
-      "Candlelight",
-      "Candlelight_2.0.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/Candlelight/",
-    "RepoName": "Candlelight",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent",
-      "ModData"
-    ],
-    "Version": "2.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/Candlelight/releases/download/v2.0.0/Candlelight_2.0.0.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/Candlelight/releases/download/v2.0.0/Candlelight_2.0.0.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Gear Items"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.0"
-    },
-    "Released": "",
-    "Updated": "2026-01-03",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_candlelight2.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "罐装补充装",
     "Name": "CanisterRefill",
     "Type": "mod",
@@ -1970,61 +1866,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "罐头制造",
-    "Name": "CanneryManufacturing",
-    "Type": "mod",
-    "Author": "Varrxion",
-    "DisplayAuthor": [
-      "Varrxion"
-    ],
-    "Description": "旨在提高荒凉湾最后避难所罐头厂工坊的可用性，尤其是在入侵者难度下。",
-    "Aliases": [
-      "CanneryManufacturing"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Varrxion/CanneryManufacturing",
-    "RepoName": "CanneryManufacturing",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "1.7.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Varrxion/CanneryManufacturing/releases/download/1.7.3/CanneryManufacturing.zip",
-    "Downloads": [
-      "https://github.com/Varrxion/CanneryManufacturing/releases/download/1.7.3/CanneryManufacturing.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Gear Items"
-    ],
-    "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.6.0"
-    },
-    "Released": "2023-04-14",
-    "Updated": "2024-12-13",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_cannerymanufactoring.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "Digitalzombie, Atlas Lumi, ds5678",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
@@ -2137,58 +1978,6 @@
     "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "更改自定义设置",
-    "Name": "ChangeCustomSettings",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "允许你更改跑步游戏的难度设置",
-    "Aliases": [
-      "ChangeCustomSettings"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/ChangeCustomSettings",
-    "RepoName": "ChangeCustomSettings",
-    "Dependencies": [],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/ChangeCustomSettings/releases/download/v1.1.0/ChangeCustomSettings.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/ChangeCustomSettings/releases/download/v1.1.0/ChangeCustomSettings.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Misc",
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.43",
-      "ml": "0.6.6.0"
-    },
-    "Released": "2025-05-06",
-    "Updated": "2025-05-28",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_changecustomsettings.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
@@ -2716,57 +2505,6 @@
     ]
   },
   {
-    "DisplayName": "CougarSoundBegone",
-    "Name": "CougarSoundBegone",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "启动时在主菜单中杀死那只愚蠢的美洲狮",
-    "Aliases": [
-      "CougarSoundBegone",
-      "CougarSoundBegone_1.3.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/CougarSoundBegone",
-    "RepoName": "CougarSoundBegone",
-    "Dependencies": [],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/CougarSoundBegone/releases/download/v1.3.0/CougarSoundBegone_1.3.0.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/CougarSoundBegone/releases/download/v1.3.0/CougarSoundBegone_1.3.0.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Audio"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2024-06-27",
-    "Updated": "2026-01-03",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "舒适毯",
     "Name": "CozyBlankets",
     "Type": "mod",
@@ -2815,62 +2553,6 @@
     },
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "CozyCushions",
-    "Name": "CozyCushions",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "14 种可制作的枕头；可坐在椅子、长凳、马桶等其他物品上；可选增益效果",
-    "Aliases": [
-      "CozyCushions",
-      "CozyCushions_1.8.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/CozyCushions",
-    "RepoName": "CozyCushions",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "1.8.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/CozyCushions/releases/download/v1.8.0/CozyCushions_1.8.0.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/CozyCushions/releases/download/v1.8.0/CozyCushions_1.8.0.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gear Items"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2023-10-12",
-    "Updated": "2026-01-03",
-    "Images": [
-      "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/list_icon_cozycushions.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "TLD 2.25 fix",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -3231,6 +2913,116 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更黑暗的夜晚",
+    "Name": "DarkerNights",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
+    "Aliases": [
+      "Darker Nights"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-darker-nights",
+    "RepoName": "DarkerNights",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2020-12-22",
+    "Updated": "2023-01-24",
+    "Images": [
+      "https://tld.xpazeapps.com/images/darker_nights_0.jpg",
+      "https://tld.xpazeapps.com/images/darker_nights_1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更黑暗的夜晚",
+    "Name": "DarkerNights",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
+    "Aliases": [
+      "Darker Nights"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-darker-nights",
+    "RepoName": "DarkerNights",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Gameplay",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "2020-12-22",
+    "Updated": "2023-01-24",
+    "Images": [
+      "https://tld.xpazeapps.com/images/darker_nights_0.jpg",
+      "https://tld.xpazeapps.com/images/darker_nights_1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
@@ -3286,113 +3078,6 @@
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "开发者控制台",
-    "Name": "DeveloperConsole",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie",
-      "FINDarkside",
-      "zeobviouslyfakeacc",
-      "ds5678"
-    ],
-    "Description": "此模组允许在游戏内访问 Hinterland 的开发者控制台。按 F1 打开/关闭控制台，输入“help”查看命令列表。",
-    "Aliases": [
-      "DeveloperConsole"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/",
-    "RepoName": "DeveloperConsole",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.8.6",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.6/DeveloperConsole.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.6/DeveloperConsole.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.52",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2023-04-02",
-    "Updated": "2026-04-01",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsole.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "开发者控制台冬季静音",
-    "Name": "DeveloperConsoleWintermute",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "故事模式控制台。请查看发行说明以获取详细说明。",
-    "Aliases": [
-      "DeveloperConsoleWintermute"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute",
-    "RepoName": "DeveloperConsoleWintermute",
-    "Dependencies": [],
-    "Version": "1.7.2",
-    "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.2/DeveloperConsoleWintermute.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.2/DeveloperConsoleWintermute.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.20",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2026-03-21",
-    "Updated": "2026-04-01",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsolewintermute.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Check release notes for instructions. Wintermute version lacks behind survival version.",
-      "issues": ""
-    },
-    "PreviousAuthors": "FINDarkside, zeobviouslyfakeacc, ds5678",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -3495,61 +3180,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
     "GameVersion": [
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "DualSenseX",
-    "Name": "DualSenseX",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "请查看 GitHub 上的说明。",
-    "Aliases": [
-      "DualSenseX",
-      "DualSenseX_1.0.3"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/DualSenseX/",
-    "RepoName": "DualSenseX",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/DualSenseX/releases/download/1.0.3/DualSenseX_1.0.3.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/DualSenseX/releases/download/1.0.3/DualSenseX_1.0.3.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1"
-    },
-    "Released": "2024-02-16",
-    "Updated": "2024-02-16",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_dsx.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
       "tftft"
     ]
   },
@@ -4193,55 +3823,6 @@
     "GameVersion": [
       "vanilla"
     ]
-  },
-  {
-    "DisplayName": "搜索速度更快",
-    "Name": "FasterSearching",
-    "Type": "mod",
-    "Author": "MikeyPdog",
-    "DisplayAuthor": [
-      "MikeyPdog",
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "加快对容器的搜索速度，使空容器的搜索速度达到瞬时完成。",
-    "Aliases": [
-      "Faster Searching"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/FasterSearching",
-    "RepoName": "FasterSearching",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/FasterSearching/releases/download/v1.3/FasterSearching.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/FasterSearching/releases/download/v1.3/FasterSearching.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.10",
-      "ml": "0.6.0"
-    },
-    "Released": "2018-06-10",
-    "Updated": "2023-04-04",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "脂肪破坏者",
@@ -4891,57 +4472,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "FoxCompanion",
-    "Name": "FoxCompanion",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "一只小狐狸陪伴孤独的《漫漫长夜》玩家。",
-    "Aliases": [
-      "FoxCompanion",
-      "TLD.FoxCompanion_Mod_v0.9.9.5_FURY"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/FoxCompanion",
-    "RepoName": "FoxCompanion",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "0.9.9.5",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/FoxCompanion/releases/download/0.9.9.5/TLD.FoxCompanion_Mod_v0.9.9.5_FURY.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/FoxCompanion/releases/download/0.9.9.5/TLD.FoxCompanion_Mod_v0.9.9.5_FURY.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.02",
-      "ml": "0.5.7.0"
-    },
-    "Released": "",
-    "Updated": "2021-10-07",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "友善湾",
     "Name": "FriendlyInlet",
     "Type": "mod",
@@ -5101,59 +4631,6 @@
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "全力挥杆",
-    "Name": "FullSwing",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "新增了调整冰箱门摆动速度和半径的选项",
-    "Aliases": [
-      "FullSwing"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/FullSwing/",
-    "RepoName": "FullSwing",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/FullSwing/releases/download/v1.0.0/FullSwing.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/FullSwing/releases/download/v1.0.0/FullSwing.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-04-09",
-    "Updated": "2023-04-09",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_fullswing.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
@@ -6463,6 +5940,108 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "室内篝火",
+    "Name": "IndoorCampfires",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组允许你在室内生篝火。",
+    "Aliases": [
+      "Indoor Campfires"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-indoor-campfires",
+    "RepoName": "IndoorCampfires",
+    "Dependencies": [],
+    "Version": "2.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/indoor_campfires_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "室内篝火",
+    "Name": "IndoorCampfires",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组允许你在室内生篝火。",
+    "Aliases": [
+      "Indoor Campfires"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-indoor-campfires",
+    "RepoName": "IndoorCampfires",
+    "Dependencies": [],
+    "Version": "2.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/indoor_campfires_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
@@ -6680,52 +6259,6 @@
     ]
   },
   {
-    "DisplayName": "入侵者区域选择",
-    "Name": "InterloperRegionSelection",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "此模组允许你在入侵者模式下选择出生区域。",
-    "Aliases": [
-      "Interloper Region Selection"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/InterloperRegionSelection",
-    "RepoName": "InterloperRegionSelection",
-    "Dependencies": [],
-    "Version": "1.8",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/InterloperRegionSelection/releases/download/v1.8/InterloperRegionSelection.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/InterloperRegionSelection/releases/download/v1.8/InterloperRegionSelection.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2018-07-29",
-    "Updated": "2023-12-06",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
-  },
-  {
     "DisplayName": "InterloperHUDPro",
     "Name": "InterloperHUDPro",
     "Type": "mod",
@@ -6925,60 +6458,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/Deaadman/3a1287ffab06a13f98b7d6a6f8785526/raw/ModList.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "物品选择器",
-    "Name": "ItemPicker",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "拾取树枝、石头或其他物品时无需进行物品检查。批量拾取您周围一定范围内的所有树枝、石头或其他物品。可选择是否消耗卡路里。完全可自定义。",
-    "Aliases": [
-      "ItemPicker",
-      "ItemPicker_v1.0.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/ItemPicker",
-    "RepoName": "ItemPicker",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/ItemPicker/releases/download/v1.0.0/ItemPicker_v1.0.0.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/ItemPicker/releases/download/v1.0.0/ItemPicker_v1.0.0.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-04-16",
-    "Updated": "2023-04-16",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_itempicker.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -7301,58 +6780,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "利萨斯修复",
-    "Name": "LitharsMending",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "可以修复破损的衣物",
-    "Aliases": [
-      "LitharsMending"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/LitharsMending",
-    "RepoName": "LitharsMending",
-    "Dependencies": [],
-    "Version": "1.1.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/LitharsMending/releases/download/1.1.0/LitharsMending.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/LitharsMending/releases/download/1.1.0/LitharsMending.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2024-10-24",
-    "Updated": "2024-10-25",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_litharsmending.jpg"
-    ],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "本地化工具",
     "Name": "LocalizationUtilities",
     "Type": "mod",
@@ -7396,57 +6823,6 @@
     },
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "孤独虎鲸",
-    "Name": "LonelyOrca",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "一款移植到DLC发布后的《漫漫长夜》的经典MOD。一只孤独的虎鲸生活在荒芜角。",
-    "Aliases": [
-      "LonelyOrca"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/LonelyOrca/",
-    "RepoName": "LonelyOrca",
-    "Dependencies": [],
-    "Version": "4.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/LonelyOrca/releases/download/v4.0.0/LonelyOrca.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/LonelyOrca/releases/download/v4.0.0/LonelyOrca.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-04-10",
-    "Updated": "2023-04-10",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_lonelyorca.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "WulfMarius",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -7862,56 +7238,6 @@
     },
     "PreviousAuthors": "ds5678, WulfMarius",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "模组设置",
-    "Name": "ModSettings",
-    "Type": "library",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "允许其他模组在游戏内显示其设置。此模组本身不具备任何功能，仅应作为其他模组的依赖项使用。感谢 zeobviouslyfakeacc 的辛勤付出！",
-    "Aliases": [
-      "ModSettings"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/ModSettings/",
-    "RepoName": "ModSettings",
-    "Dependencies": [],
-    "Version": "2.2.5",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.5/ModSettings.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.5/ModSettings.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.52",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2023-06-22",
-    "Updated": "2026-04-02",
-    "Images": [
-      "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/list_icon_modsettings.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Stuff",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "zeobviouslyfakeacc",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -8544,64 +7870,6 @@
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "北极光广播",
-    "Name": "NorthernLightsBroadcast",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "在 TLD 上观看您最喜爱的电影和剧集",
-    "Aliases": [
-      "NorthernLightsBroadcast",
-      "NorthernLightsBroadcast_v2.0.6"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/NorthernLightsBroadcast/",
-    "RepoName": "NorthernLightsBroadcast",
-    "Dependencies": [
-      "ModSettings",
-      "AudioCore",
-      "AudioManager"
-    ],
-    "Version": "2.0.6",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/NorthernLightsBroadcast/releases/download/v2.0.6/NorthernLightsBroadcast_v2.0.6.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/NorthernLightsBroadcast/releases/download/v2.0.6/NorthernLightsBroadcast_v2.0.6.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Graphics",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-05-16",
-    "Updated": "2024-10-17",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_northernlightsbroadcast.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "BetterBases compatibility added",
-      "notes": "*.mp4 or *.avi files recommended. Videoplay uses installed codecs. Can be hit and miss, webm *could* maybe work too, feedback about working formats appreciated",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
@@ -9282,58 +8550,6 @@
     ]
   },
   {
-    "DisplayName": "放置于任何位置",
-    "Name": "PlacingAnywhere",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "《漫漫长夜》的模组，移除了放置物品时的限制，并添加了旋转和定位物体的控制功能。",
-    "Aliases": [
-      "Placing Anywhere"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/tld-placing-anywhere",
-    "RepoName": "PlacingAnywhere",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "3.0.5",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/tld-placing-anywhere/releases/download/v3.0.5/PlacingAnywhere.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/tld-placing-anywhere/releases/download/v3.0.5/PlacingAnywhere.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.0"
-    },
-    "Released": "",
-    "Updated": "2026-03-20",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Stuff",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "xpazeman",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "植物收获调整器",
     "Name": "PlantHarvestTweaker",
     "Type": "mod",
@@ -9690,6 +8906,108 @@
     },
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "随机主菜单",
+    "Name": "RandomMainMenu",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
+    "Aliases": [
+      "Random Main Menu"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-random-mainmenu",
+    "RepoName": "RandomMainMenu",
+    "Dependencies": [],
+    "Version": "2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/random_main_menu_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "随机主菜单",
+    "Name": "RandomMainMenu",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
+    "Aliases": [
+      "Random Main Menu"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-random-mainmenu",
+    "RepoName": "RandomMainMenu",
+    "Dependencies": [],
+    "Version": "2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/random_main_menu_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -10705,58 +10023,6 @@
     ]
   },
   {
-    "DisplayName": "在后台运行",
-    "Name": "RunInBackground",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "即使游戏失去焦点，也能保持游戏运行。",
-    "Aliases": [
-      "RunInBackground"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/RunInBackground",
-    "RepoName": "RunInBackground",
-    "Dependencies": [],
-    "Version": "1.2.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/RunInBackground/releases/download/v1.2.0/RunInBackground.dll",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/RunInBackground/releases/download/v1.2.0/RunInBackground.dll"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2024-07-01",
-    "Updated": "2024-07-01",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_runinbackground.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "安全屋定制加强版",
     "Name": "SafehouseCustomizationPlus",
     "Type": "mod",
@@ -10865,52 +10131,6 @@
     "GameVersion": [
       "vanilla"
     ]
-  },
-  {
-    "DisplayName": "保存图像滤镜",
-    "Name": "SaveImageFilter",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "保存并重新加载您选择的图像滤镜（选项 &gt; 显示 &gt; 图像滤镜），而不是每次重新启动游戏时都恢复为“无滤镜”。",
-    "Aliases": [
-      "Save Image Filter"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/SaveImageFilter",
-    "RepoName": "SaveImageFilter",
-    "Dependencies": [],
-    "Version": "1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/SaveImageFilter/releases/download/v1.0/SaveImageFilter.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/SaveImageFilter/releases/download/v1.0/SaveImageFilter.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
-    },
-    "Released": "2020-10-21",
-    "Updated": "2020-10-21",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "保存管理器",
@@ -11785,65 +11005,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Ezinw/ModListTLD/refs/heads/main/ModListTLD.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "单人纸牌",
-    "Name": "Solitaire",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "优雅地消磨时光——玩纸牌游戏",
-    "Aliases": [
-      "Solitaire",
-      "Solitaire_1.4.4"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/Solitaire/",
-    "RepoName": "Solitaire",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent",
-      "AudioCore",
-      "DeveloperConsole",
-      "AudioManager"
-    ],
-    "Version": "1.4.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/Solitaire/releases/download/v1.4.4/Solitaire_1.4.4.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/Solitaire/releases/download/v1.4.4/Solitaire_1.4.4.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "",
-    "Updated": "2024-10-20",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_solitaire.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Bugfixes",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -12958,52 +12119,6 @@
     ]
   },
   {
-    "DisplayName": "罐头改进",
-    "Name": "TinCanImprovements",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "允许将 4 个锡罐合成 1 个废金属，将锡罐的重量减少到 0.05 千克，修复了罐头食品的重量错误。",
-    "Aliases": [
-      "Tin Can Improvements"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/TinCanImprovements",
-    "RepoName": "TinCanImprovements",
-    "Dependencies": [],
-    "Version": "1.0",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/TinCanImprovements/releases/download/v1.0/TinCanImprovements.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/TinCanImprovements/releases/download/v1.0/TinCanImprovements.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
-    },
-    "Released": "2022-10-21",
-    "Updated": "2020-10-21",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
-  },
-  {
     "DisplayName": "微调：埋葬尸体",
     "Name": "TinyTweaksBuryHumanCorpses",
     "Type": "mod",
@@ -13906,56 +13021,6 @@
     ]
   },
   {
-    "DisplayName": "UnityExplorerTLD",
-    "Name": "UnityExplorerTLD",
-    "Type": "mod",
-    "Author": "Digitalzombie",
-    "DisplayAuthor": [
-      "Digitalzombie"
-    ],
-    "Description": "UnityExplorer 针对顶级域名进行了优化",
-    "Aliases": [
-      "UnityExplorerTLD",
-      "UnityExplorerTLD_6.0.0"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/UnityExplorerTLD/",
-    "RepoName": "UnityExplorerTLD",
-    "Dependencies": [],
-    "Version": "6.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/UnityExplorerTLD/releases/download/v6.0.0/UnityExplorerTLD_6.0.0.zip",
-    "Downloads": [
-      "https://github.com/DigitalzombieTLD/UnityExplorerTLD/releases/download/v6.0.0/UnityExplorerTLD_6.0.0.zip"
-    ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Misc",
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.0"
-    },
-    "Released": "2024-12-08",
-    "Updated": "2026-01-03",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "yukieji, sinai",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "通用调整",
     "Name": "UniversalTweaks",
     "Type": "mod",
@@ -14582,59 +13647,109 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
+    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla",
       "tftft"
     ]
   },
   {
-    "DisplayName": "是的，我知道",
-    "Name": "YesIKnow",
+    "DisplayName": "工作钟",
+    "Name": "WorkingClocks",
     "Type": "mod",
-    "Author": "Digitalzombie",
+    "Author": "Xpazeman",
     "DisplayAuthor": [
-      "Digitalzombie"
+      "Xpazeman"
     ],
-    "Description": "禁用物品和/或火焰的悬停文本。",
+    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
     "Aliases": [
-      "Yes I Know"
+      "Working Clocks"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/YesIKnow",
-    "RepoName": "YesIKnow",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
+    "ModUrl": "https://github.com/Xpazeman/tld-working-clocks",
+    "RepoName": "WorkingClocks",
+    "Dependencies": [],
+    "Version": "1.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/YesIKnow/releases/download/v1.0.0/YesIKnow.dll",
+    "Download": "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/YesIKnow/releases/download/v1.0.0/YesIKnow.dll"
+      "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll"
     ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
     "Categories": [
-      "Quality of Life",
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
+      "tld": "2.24",
+      "ml": "0.6.1"
     },
-    "Released": "2024-07-01",
-    "Updated": "2024-07-01",
-    "Images": [],
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/working_clocks_0.jpg"
+    ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Updated to work with TLD 2.06",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "工作钟",
+    "Name": "WorkingClocks",
+    "Type": "mod",
+    "Author": "Xpazeman",
+    "DisplayAuthor": [
+      "Xpazeman"
+    ],
+    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
+    "Aliases": [
+      "Working Clocks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Xpazeman/tld-working-clocks",
+    "RepoName": "WorkingClocks",
+    "Dependencies": [],
+    "Version": "1.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll",
+    "Downloads": [
+      "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll"
+    ],
+    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
+    "SupportUrl": "https://ko-fi.com/xpazeman",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.24",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2023-01-22",
+    "Images": [
+      "https://tld.xpazeapps.com/images/working_clocks_0.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated to work with TLD 2.06",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
       "tftft"
