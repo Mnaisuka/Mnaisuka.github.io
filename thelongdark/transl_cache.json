@@ -570,5 +570,7 @@
     "Automatically backs up all your saves to its subfolder once per real day. Particularly when playing with mods, this lets you recover your save if something goes wrong.": "它会自动将所有存档备份到其子文件夹中，备份频率为每天一次。尤其是在使用模组的情况下，这可以让你在出现问题时恢复存档。",
     "Auto-Fill Map on Explore": "在“探索”中自动填充地图",
     "Fast Travel": "快速旅行",
-    "Fills in the map around you as you explore, with a configurable range. Fully compatible with Map Manager.": "探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。"
+    "Fills in the map around you as you explore, with a configurable range. Fully compatible with Map Manager.": "探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。",
+    "PZLoadingScreen": "PZ加载屏幕",
+    "Just a custom PZ-like custom loading screens mod": "只是一个类似 PZ 的自定义加载界面模组"
 }
