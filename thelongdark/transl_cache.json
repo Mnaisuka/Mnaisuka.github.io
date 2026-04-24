@@ -572,5 +572,8 @@
     "Fast Travel": "快速旅行",
     "Fills in the map around you as you explore, with a configurable range. Fully compatible with Map Manager.": "探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。",
     "PZLoadingScreen": "PZ加载屏幕",
-    "Just a custom PZ-like custom loading screens mod": "只是一个类似 PZ 的自定义加载界面模组"
+    "Just a custom PZ-like custom loading screens mod": "只是一个类似 PZ 的自定义加载界面模组",
+    "A gameplay mod that adds new trader boxes to the world and other tweaks to the trader.": "一款游戏玩法模组，为游戏世界添加了新的交易箱，并对交易系统进行了其他调整。",
+    "Automatically creates hourly and daily backups of your save files. Particularly when playing with mods, this lets you recover your save if something goes wrong.": "自动创建每小时和每日的存档文件备份。尤其是在使用模组时，这可以让你在出现问题时恢复存档。",
+    "Improved Trader": "改进型交易员"
 }
