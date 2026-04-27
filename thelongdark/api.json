@@ -156,6 +156,62 @@
     ]
   },
   {
+    "DisplayName": "痛苦与增益",
+    "Name": "AfflictionsAndBuffs",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "这个模组增加了 3 种新的负面状态和 4 种新的增益状态！<br>风之轻抚 - 你在新鲜空气中待了很久。你的肺里充满了风的轻柔乐章……闭上眼睛，哪怕只是一瞬间，该是多么美好……<br>饥饿——你已经饿了很久了，你的身体正在拼命地消耗能量。<br> HowDidYouDoThat? - 彩蛋（可能永远没人会发现）<br>增益效果：<br> BurningHeart——你为熊熊燃烧的火焰添了柴。它温暖舒适的余温依然萦绕在你的心间。<br>决心——天气晴朗！你感觉好多了<br>雾霭之拥——你被浓雾包围。野生动物对你的存在察觉甚少。<br>小心——在这个冷酷的世界里，你并不孤单……<br>在森林的某个角落，还藏着另一颗心。与其他的心不同，这颗心充满了善良和爱。<br>知道它的存在会让你更强大。不要放弃！一位看不见的伙伴相信你！",
+    "Aliases": [
+      "AfflictionsAndBuffs"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/AfflictionsAndBuffs",
+    "RepoName": "AfflictionsAndBuffs",
+    "Dependencies": [
+      "ModComponent",
+      "ModData",
+      "AfflictionComponent"
+    ],
+    "Version": "1.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-25",
+    "Updated": "2026-04-25",
+    "Images": [
+      "https://github.com/WillWunderhorn/LittleWolfStorm_tld_modlist/blob/main/images/raw/prev.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_LittleWolfStorm.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "害怕黑暗",
     "Name": "AfraidoftheDark",
     "Type": "mod",
@@ -635,6 +691,58 @@
     "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "动物之声",
+    "Name": "AnimalSounds",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "这款模组可以让你像狼一样嚎叫，还有更多功能……",
+    "Aliases": [
+      "AnimalSounds"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/AnimalSounds/releases/tag/Latest",
+    "RepoName": "AnimalSounds",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/WillWunderhorn/AnimalSounds/releases/download/Latest/AnimalSounds.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/AnimalSounds/releases/download/Latest/AnimalSounds.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Audio"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-04-18",
+    "Updated": "2026-04-24",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_LittleWolfStorm.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   {
@@ -8497,6 +8605,106 @@
     ]
   },
   {
+    "DisplayName": "无摄像机摇摆",
+    "Name": "NoCameraSway",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "摄像机将停止晃动",
+    "Aliases": [
+      "NoCameraSway"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/NoCameraSway",
+    "RepoName": "NoCameraSway",
+    "Dependencies": [],
+    "Version": "2.5.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/WillWunderhorn/NoCameraSway/releases/download/Latest/NoCameraSway.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/NoCameraSway/releases/download/Latest/NoCameraSway.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-23",
+    "Updated": "2026-04-23",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Sway now has a speed and amplitude of 0.001 to prevent triggering a bob",
+      "notes": "Camera will sway in the background if you open the menu",
+      "issues": ""
+    },
+    "PreviousAuthors": "WulfMarius",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_LittleWolfStorm.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "不再受困",
+    "Name": "NoMoreCabinFever",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "消除幽闭恐惧症",
+    "Aliases": [
+      "NoMoreCabinFever"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/NoMoreCabinFever",
+    "RepoName": "NoMoreCabinFever",
+    "Dependencies": [],
+    "Version": "1.4",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/WillWunderhorn/NoMoreCabinFever/releases/download/Latest/NoMoreCabinFever.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/NoMoreCabinFever/releases/download/Latest/NoMoreCabinFever.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-04-20",
+    "Updated": "2026-04-24",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "WulfMarius",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_LittleWolfStorm.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "非操作手电筒",
     "Name": "NonOPTorches",
     "Type": "mod",
@@ -11414,6 +11622,56 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "展会交易者信托",
+    "Name": "ShowTraderTrust",
+    "Type": "mod",
+    "Author": "Pathoschild",
+    "DisplayAuthor": [
+      "Pathoschild"
+    ],
+    "Description": "显示您在通过无线电与交易员交谈时，对他的当前信任程度。",
+    "Aliases": [
+      "Show Trader Trust"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme",
+    "RepoName": "ShowTraderTrust",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.0/ShowTraderTrust.dll",
+    "Downloads": [
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.0/ShowTraderTrust.dll"
+    ],
+    "AuthorUrl": "https://github.com/Pathoschild",
+    "SupportUrl": "https://www.patreon.com/Pathoschild",
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-26",
+    "Updated": "2026-04-26",
+    "Images": [
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/ShowTraderTrust/docs/images/overlay.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Initial release.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
     "GameVersion": [
       "vanilla"
     ]
