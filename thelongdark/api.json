@@ -195,7 +195,7 @@
     "Released": "2026-04-25",
     "Updated": "2026-04-25",
     "Images": [
-      "https://github.com/WillWunderhorn/LittleWolfStorm_tld_modlist/blob/main/images/raw/prev.png"
+      "https://github.com/WillWunderhorn/LittleWolfStorm_tld_modlist/raw/main/AfflictionsAndBuffsPrev.png"
     ],
     "Status": {
       "working": true,
@@ -11537,12 +11537,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.9.1",
+    "Version": "1.9.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.1/Shortcuts.dll",
+    "Download": "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.2/Shortcuts.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.1/Shortcuts.dll"
+      "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.2/Shortcuts.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
