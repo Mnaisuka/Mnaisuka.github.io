@@ -1075,7 +1075,7 @@
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。",
+    "Description": "<p>探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。</p><p> <a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">更多信息请参阅readme文件</a>。</p>",
     "Aliases": [
       "Auto-Fill Map on Explore"
     ],
@@ -1085,12 +1085,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.0/AutoFillMapOnExplore.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.1/AutoFillMapOnExplore.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.0/AutoFillMapOnExplore.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.1/AutoFillMapOnExplore.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -1103,7 +1103,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-19",
-    "Updated": "2026-04-19",
+    "Updated": "2026-04-28",
     "Images": [
       "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/AutoFillMapOnExplore/docs/images/map.png",
       "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/AutoFillMapOnExplore/docs/images/config.png"
@@ -1111,7 +1111,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Initial release.",
+      "patchnotes": "Internal changes to be more futureproof.",
       "notes": "",
       "issues": ""
     },
@@ -4199,7 +4199,7 @@
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "最多可保存 9 个地点（例如您的基地），并可随时一键快速旅行至这些地点。包含余额选项。例如，您可以在探索世界时拥有一个基地，而无需将物资逐个运送到各个区域。",
+    "Description": "<p>最多可保存 9 个地点（例如您的基地），并可随时一键快速旅行至这些地点。包含余额选项。例如，您可以在探索世界时拥有一个基地，而无需将物资逐个运送到各个区域。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">更多信息请参阅readme文件</a>。</p>",
     "Aliases": [
       "Fast Travel"
     ],
@@ -4210,12 +4210,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "0.3.0",
+    "Version": "0.3.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F0.3.0/FastTravel.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F0.3.1/FastTravel.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F0.3.0/FastTravel.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F0.3.1/FastTravel.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -4229,7 +4229,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-19",
-    "Updated": "2026-04-21",
+    "Updated": "2026-04-28",
     "Images": [
       "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/travel.png",
       "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/save-location.png",
@@ -4238,7 +4238,7 @@
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Added optional restrictions by weather or when under attack; balance restrictions are now disabled by default.",
+      "patchnotes": "Internal changes to be more futureproof.",
       "notes": "⚠ This mod is still experimental before its 1.0.0 release. Keeping save backups is recommended when using this mod.",
       "issues": ""
     },
@@ -7835,7 +7835,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.5.2",
+    "Version": "1.5.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -7852,14 +7852,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-04-25",
+    "Updated": "2026-04-29",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Added AfflictionsAndBuffs support",
+      "patchnotes": "Added MajorMiseries support",
       "notes": "",
       "issues": ""
     },
@@ -11130,7 +11130,7 @@
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "自动创建每小时和每日的存档文件备份。尤其是在使用模组时，这可以让你在出现问题时恢复存档。",
+    "Description": "<p>自动创建每小时和每日的存档文件备份。尤其是在使用模组时，这可以让你在出现问题时恢复存档。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/SaveBackup#readme\">更多信息请参阅readme文件</a>。</p>",
     "Aliases": [
       "Save Backup"
     ],
@@ -11634,7 +11634,7 @@
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "显示您在通过无线电与交易员交谈时，对他的当前信任程度。",
+    "Description": "<p>显示您在通过无线电与交易员交谈时，对他的当前信任程度。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme\">更多信息请参阅readme文件</a>。</p>",
     "Aliases": [
       "Show Trader Trust"
     ],
@@ -11642,12 +11642,12 @@
     "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme",
     "RepoName": "ShowTraderTrust",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.0/ShowTraderTrust.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.1/ShowTraderTrust.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.0/ShowTraderTrust.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.1/ShowTraderTrust.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -11659,14 +11659,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-26",
-    "Updated": "2026-04-26",
+    "Updated": "2026-04-28",
     "Images": [
       "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/ShowTraderTrust/docs/images/overlay.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Initial release.",
+      "patchnotes": "Fixed performance impact for some players; internal changes to be more futureproof.",
       "notes": "",
       "issues": ""
     },
@@ -13179,7 +13179,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.7",
+    "Version": "1.3.8",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -13196,14 +13196,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-04-25",
+    "Updated": "2026-04-29",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added AfflictionsAndBuffs support",
+      "patchnotes": "Added MajorMiseries support",
       "notes": "",
       "issues": ""
     },
