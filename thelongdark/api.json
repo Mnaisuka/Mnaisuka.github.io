@@ -6527,6 +6527,52 @@
     ]
   },
   {
+    "DisplayName": "改进型急救小组",
+    "Name": "ImprovedFirstAidPanel",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "提升生活质量的小改进：优化急救面板，增加身体部位过滤和直接治疗按钮，使其更易于使用。",
+    "Aliases": [
+      "ImprovedFirstAidPanel"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/ImprovedFirstAidPanel",
+    "RepoName": "ImprovedFirstAidPanel",
+    "Dependencies": [],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/ImprovedFirstAidPanel/releases/latest/download/ImprovedFirstAidPanel.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/ImprovedFirstAidPanel/releases/latest/download/ImprovedFirstAidPanel.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": null,
+    "Categories": [
+      "QoL"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-02",
+    "Updated": "2026-05-02",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "门内温度",
     "Name": "InDoorTemp",
     "Type": "mod",
