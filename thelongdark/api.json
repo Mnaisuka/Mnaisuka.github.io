@@ -7881,7 +7881,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.5.3",
+    "Version": "1.5.4",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -7898,14 +7898,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-04-29",
+    "Updated": "2026-05-03",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Added MajorMiseries support",
+      "patchnotes": "some bug fixing",
       "notes": "",
       "issues": ""
     },
