@@ -9156,7 +9156,7 @@
       "beta": false,
       "patchnotes": "",
       "notes": "",
-      "issues": ""
+      "issues": "Several features dont work, WIP"
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
@@ -13426,7 +13426,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-BuryHumanCorpses.dll",
@@ -13440,7 +13440,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
@@ -13480,7 +13480,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksDroppedObjectOrientation",
     "Dependencies": [],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-DroppedObjectOrientation.dll",
@@ -13493,7 +13493,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
@@ -13531,7 +13531,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksExtendedFOVSlider",
     "Dependencies": [],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-ExtendedFOVSlider.dll",
@@ -13545,7 +13545,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
@@ -13587,7 +13587,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-FallDeathGoat.dll",
@@ -13601,7 +13601,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2024-12-28",
@@ -13641,7 +13641,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-MapTextOuline.dll",
@@ -13655,7 +13655,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
@@ -13695,7 +13695,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll",
@@ -13709,7 +13709,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-03-27",
@@ -13747,7 +13747,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksPauseOnRadial",
     "Dependencies": [],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-PauseOnRadial.dll",
@@ -13762,7 +13762,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-10-15",
@@ -13803,7 +13803,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RespawnablePlants.dll",
@@ -13817,7 +13817,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
@@ -13855,7 +13855,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksRunWithLantern",
     "Dependencies": [],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RunWithLantern.dll",
@@ -13868,13 +13868,66 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
       "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-lantern.webp"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "细微调整：快速交互",
+    "Name": "TinyTweaksSpeedyInteractions",
+    "Type": "mod",
+    "Author": "Waltz",
+    "DisplayAuthor": [
+      "Waltz"
+    ],
+    "Description": "调整所有非动画交互速度，包括制作、修理、采集、进食以及所有其他带有进度条的动作。",
+    "Aliases": [
+      "Tiny Tweaks: Speedy Interactions",
+      "TinyTweaks-SpeedyInteractions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
+    "RepoName": "TinyTweaksSpeedyInteractions",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-SpeedyInteractions.dll",
+    "Downloads": [
+      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-SpeedyInteractions.dll"
+    ],
+    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
+    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-08",
+    "Updated": "2026-05-08",
+    "Images": [
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Speedy.webp"
     ],
     "Status": {
       "working": true,
@@ -13908,7 +13961,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-WakeUpCall.dll",
@@ -13922,7 +13975,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-01-12",

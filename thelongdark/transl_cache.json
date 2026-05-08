@@ -591,5 +591,7 @@
     "<p>Fills in the map around you as you explore, with a configurable range. Fully compatible with Map Manager.</p><p>See <a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">readme for more info</a>.</p>": "<p>探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。</p><p> <a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">更多信息请参阅readme文件</a>。</p>",
     "<p>Lets you save up to 9 places like your home base, and fast travel to them anytime at the press of a button. Includes balance options. For example, you can have one home base while you explore the world, without the tedium of transferring your hoard to each region.</p><p>See <a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">readme for more info</a>.</p>": "<p>最多可保存 9 个地点（例如您的基地），并可随时一键快速旅行至这些地点。包含余额选项。例如，您可以在探索世界时拥有一个基地，而无需将物资逐个运送到各个区域。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">更多信息请参阅readme文件</a>。</p>",
     "ImprovedFirstAidPanel": "改进型急救小组",
-    "Small QoL to improved the First Aid Panel, making the panel easier to use by adding body-area filtering and direct treatment buttons": "提升生活质量的小改进：优化急救面板，增加身体部位过滤和直接治疗按钮，使其更易于使用。"
+    "Small QoL to improved the First Aid Panel, making the panel easier to use by adding body-area filtering and direct treatment buttons": "提升生活质量的小改进：优化急救面板，增加身体部位过滤和直接治疗按钮，使其更易于使用。",
+    "Adjust any non-animated interaction speed, this includes crafting, repair, harvesting, eating and every other action with a progress circle": "调整所有非动画交互速度，包括制作、修理、采集、进食以及所有其他带有进度条的动作。",
+    "Tiny Tweaks: Speedy Interactions": "细微调整：快速交互"
 }
