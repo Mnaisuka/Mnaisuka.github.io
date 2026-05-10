@@ -593,5 +593,6 @@
     "ImprovedFirstAidPanel": "改进型急救小组",
     "Small QoL to improved the First Aid Panel, making the panel easier to use by adding body-area filtering and direct treatment buttons": "提升生活质量的小改进：优化急救面板，增加身体部位过滤和直接治疗按钮，使其更易于使用。",
     "Adjust any non-animated interaction speed, this includes crafting, repair, harvesting, eating and every other action with a progress circle": "调整所有非动画交互速度，包括制作、修理、采集、进食以及所有其他带有进度条的动作。",
-    "Tiny Tweaks: Speedy Interactions": "细微调整：快速交互"
+    "Tiny Tweaks: Speedy Interactions": "细微调整：快速交互",
+    "Harvestables will regrow after 45 days (can be changed). Harvestables iclude anything that grows, i.e. saplings, lichen, mushrooms, acorns etc.": "可收获物会在 45 天后重新生长（可以更改）。可收获物包括所有生长物，例如树苗、地衣、蘑菇、橡子等。"
 }
