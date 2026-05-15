@@ -7707,6 +7707,58 @@
     ]
   },
   {
+    "DisplayName": "重大苦难",
+    "Name": "MajorMiseries",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem",
+      "Flower Field"
+    ],
+    "Description": "新增 16 种主要负面状态和 1 种增益状态。",
+    "Aliases": [
+      "MajorMiseries"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/MajorMiseries",
+    "RepoName": "MajorMiseries",
+    "Dependencies": [
+      "AfflictionComponent",
+      "ModComponent",
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-14",
+    "Updated": "2026-05-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "地图制作工具",
     "Name": "MapMakerTools",
     "Type": "mod",
@@ -12987,55 +13039,6 @@
     "GameVersion": [
       "tftft"
     ]
-  },
-  {
-    "DisplayName": "汗液系统",
-    "Name": "SweatSystem",
-    "Type": "mod",
-    "Author": "EtherSystem",
-    "DisplayAuthor": [
-      "EtherSystem"
-    ],
-    "Description": "增加了一个系统，当玩家过热时，该系统会使玩家出汗。",
-    "Aliases": [
-      "SweatSystem"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/EtherSystem/SweatSystem",
-    "RepoName": "SweatSystem",
-    "Dependencies": [],
-    "Version": "1.0.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/EtherSystem/SweatSystem/releases/latest/download/SweatSystem.dll",
-    "Downloads": [
-      "https://github.com/EtherSystem/SweatSystem/releases/latest/download/SweatSystem.dll"
-    ],
-    "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Clothing"
-    ],
-    "TestedOn": {
-      "tld": "2.55",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-01-20",
-    "Updated": "2026-01-21",
-    "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/SweatSystem.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "TLD-狼皮围巾",
