@@ -597,5 +597,7 @@
     "Harvestables will regrow after 45 days (can be changed). Harvestables iclude anything that grows, i.e. saplings, lichen, mushrooms, acorns etc.": "可收获物会在 45 天后重新生长（可以更改）。可收获物包括所有生长物，例如树苗、地衣、蘑菇、橡子等。",
     "Adds 4 new afflictions and 4 buffs!": "新增 4 种负面状态和 4 种增益状态！",
     "Adds 16 new major afflictions and 1 new buff.": "新增 16 种主要负面状态和 1 种增益状态。",
-    "MajorMiseries": "重大苦难"
+    "MajorMiseries": "重大苦难",
+    "About A mod for The Long Dark that randomizes Interloper loot.": "关于《漫漫长夜》的一个模组，它可以随机化入侵者掉落的战利品。",
+    "Mod for The Long Dark that adds Forsaken Airfield, ZOC, Sundered Pass and Bleak Inlet to the Interloper region list.": "为《漫漫长夜》添加 Forsaken Airfield、ZOC、Sundered Pass 和 Bleak Inlet 到 Interloper 区域列表的 Mod。"
 }
