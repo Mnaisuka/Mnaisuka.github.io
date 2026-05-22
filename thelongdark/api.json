@@ -2572,7 +2572,7 @@
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "允许您调整原版可制作物品的制作地点。",
+    "Description": "该模组通过共用道路将沿海公路和布莱克湾连接起来。",
     "Aliases": [
       "Coastal Connection"
     ],
@@ -12530,10 +12530,10 @@
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "急救系统扩展。灵感源自《潜行者》系列。兼容强化版疾病系统。",
+    "Description": "急救系统扩展。灵感源自《潜行者》系列。兼容“强化疾病”模组。更多信息请访问 GitHub wiki。",
     "Aliases": [
       "StalkerAidsAndSupplements",
-      "v3.0"
+      "v4.0"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements",
@@ -12541,14 +12541,16 @@
     "Dependencies": [
       "ModSettings",
       "ModComponent",
-      "AlcoholMod"
+      "ModData",
+      "AlcoholMod",
+      "Moment"
     ],
-    "Version": "3.0.1",
+    "Version": "4.0.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.1",
+    "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v4.0.0",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.1"
+      "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v4.0.0"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -12566,15 +12568,15 @@
       "ml": "0.7.2"
     },
     "Released": "2024-08-01",
-    "Updated": "2026-04-25",
+    "Updated": "2026-05-22",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.jpg"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_StalkerAidsAndSupplements.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.1",
+      "notes": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases",
       "issues": ""
     },
     "PreviousAuthors": "",
