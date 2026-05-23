@@ -601,5 +601,10 @@
     "About A mod for The Long Dark that randomizes Interloper loot.": "关于《漫漫长夜》的一个模组，它可以随机化入侵者掉落的战利品。",
     "Mod for The Long Dark that adds Forsaken Airfield, ZOC, Sundered Pass and Bleak Inlet to the Interloper region list.": "为《漫漫长夜》添加 Forsaken Airfield、ZOC、Sundered Pass 和 Bleak Inlet 到 Interloper 区域列表的 Mod。",
     "This mod connects Coastal Highway and Bleak Inlet by their shared road.": "该模组通过共用道路将沿海公路和布莱克湾连接起来。",
-    "Expansion of the First Aid System. Inspired by S.T.A.L.K.E.R Series. Compatible with Improved Afflictions. Please visit GitHub wiki for further information.": "急救系统扩展。灵感源自《潜行者》系列。兼容“强化疾病”模组。更多信息请访问 GitHub wiki。"
+    "Expansion of the First Aid System. Inspired by S.T.A.L.K.E.R Series. Compatible with Improved Afflictions. Please visit GitHub wiki for further information.": "急救系统扩展。灵感源自《潜行者》系列。兼容“强化疾病”模组。更多信息请访问 GitHub wiki。",
+    "Tinder, charcoal and fat as fuel. The accelerant is consumed more slowly.": "以引火物、木炭和油脂为燃料。助燃剂消耗较慢。",
+    "Fixed the issue where the plant collection icon on the map would not disappear after gathering.": "修复了采集后地图上植物采集图标不会消失的问题。",
+    "MapIconFix": "地图图标修复",
+    "Damage and kill info broadcast": "伤害和击杀信息广播",
+    "HuntBroadcast": "亨特广播"
 }
