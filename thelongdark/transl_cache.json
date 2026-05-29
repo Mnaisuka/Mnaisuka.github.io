@@ -606,5 +606,9 @@
     "Fixed the issue where the plant collection icon on the map would not disappear after gathering.": "修复了采集后地图上植物采集图标不会消失的问题。",
     "MapIconFix": "地图图标修复",
     "Damage and kill info broadcast": "伤害和击杀信息广播",
-    "HuntBroadcast": "亨特广播"
+    "HuntBroadcast": "亨特广播",
+    "A mod that can disable all cairns.": "一个可以禁用所有石堆的模组。",
+    "PlacingGeometrically": "几何放置",
+    "A variant of Placing Anywhere that adds some functionality.\n几何学放置。": "A variant of Placing Anywhere that adds some functionality. 几何学放置。",
+    "No Cairns": "没有凯恩斯"
 }
