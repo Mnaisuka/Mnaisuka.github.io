@@ -801,6 +801,59 @@
     ]
   },
   {
+    "DisplayName": "箭头模组",
+    "Name": "ArrowMod",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "允许更改箭矢和箭头的制作时间。新增箭矢制作选项。更改设置后可能需要重启游戏。",
+    "Aliases": [
+      "ArrowMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-ArrowMod",
+    "RepoName": "ArrowMod",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "2.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-ArrowMod/releases/latest/download/ArrowMod.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-ArrowMod/releases/latest/download/ArrowMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-02-07",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "AudioCore",
     "Name": "AudioCore",
     "Type": "plugin",
@@ -4260,6 +4313,62 @@
     ]
   },
   {
+    "DisplayName": "FireAddons",
+    "Name": "FireAddons",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "闷烧灰烬，烹饪时间取决于温度，不同的引火物有不同的生火加成。详情请参阅 GitHub 上的 readme 文件。",
+    "Aliases": [
+      "FireAddons"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-fireAddons",
+    "RepoName": "FireAddons",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "3.1.6",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-fireAddons/releases/latest/download/FireAddons.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-fireAddons/releases/latest/download/FireAddons.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-04-27",
+    "Images": [
+      "https://raw.githubusercontent.com/ttr/tld-fireAddons/master/media/cooking.png",
+      "https://raw.githubusercontent.com/ttr/tld-fireAddons/master/media/embers.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "修复Steam创意工坊物品",
     "Name": "FixSteamWorkshopItems",
     "Type": "mod",
@@ -6213,6 +6322,58 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "门内温度",
+    "Name": "InDoorTemp",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "室内温度与室外温度保持一致。避难场所（雪地、汽车、洞穴）不再提供额外温度加成。",
+    "Aliases": [
+      "In Door Temps",
+      "IndoorTemps"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-InDoorTemps",
+    "RepoName": "InDoorTemp",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.3.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-InDoorTemps/releases/latest/download/IndoorTemps.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-InDoorTemps/releases/latest/download/IndoorTemps.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-02-02",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "室内篝火",
     "Name": "IndoorCampfires",
     "Type": "mod",
@@ -7864,6 +8025,57 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "MooseSatchelMod",
+    "Name": "MooseSatchelMod",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "佩戴驼鹿袋可减少肉类、鱼类、内脏和馅饼的气味和腐烂。",
+    "Aliases": [
+      "MooseSatchelMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-MooseSatchelMod",
+    "RepoName": "MooseSatchelMod",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-MooseSatchelMod/releases/latest/download/MooseSatchelMod.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-MooseSatchelMod/releases/latest/download/MooseSatchelMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-05-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
@@ -9585,6 +9797,58 @@
     ]
   },
   {
+    "DisplayName": "RN剥离功能",
+    "Name": "RnStripped",
+    "Type": "mod",
+    "Author": "RN mod",
+    "DisplayAuthor": [
+      "RN mod",
+      "ttr"
+    ],
+    "Description": "尸体移动和用电器点亮火把——提取自 Relentless Nights mod（快去看看！）",
+    "Aliases": [
+      "RN-Stripped functions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-RnStripped",
+    "RepoName": "RnStripped",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-RnStripped/releases/latest/download/RnStripped.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-RnStripped/releases/latest/download/RnStripped.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2024-05-20",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "径向菜单实用程序",
     "Name": "RadialMenuUtilities",
     "Type": "library",
@@ -10105,60 +10369,6 @@
     },
     "PreviousAuthors": "ShieldHeart",
     "Source": "https://raw.githubusercontent.com/Burakalite/ModInstallerDescription/master/RelentlessNight.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "无情之夜",
-    "Name": "RelentlessNight",
-    "Type": "mod",
-    "Author": "ShieldHeart",
-    "DisplayAuthor": [
-      "ShieldHeart",
-      "STBlade"
-    ],
-    "Description": "顶级域名 2.23 使用 RN 4.7.2，顶级域名 2.19 使用 RN 4.7.1，顶级域名 2.10 及以上使用 RN 4.6.3，顶级域名 2.06 和 2.08 使用 RN 4.6.1<br>地球自转速度正在减慢。白昼和黑夜越来越长。每一个漫漫长夜都比前一个更加寒冷难耐。没有哪个地方能幸免于寒冷。在这个诡异的新世界里，你能生存多久？<br><br>您可以加入我们的 Relentless Mods discord 频道，参与模组讨论、更新并报告任何问题 - <a href='https://discord.gg/GjAG9XNfR7' target='_blank'>INVITE</a> 。",
-    "Aliases": [
-      "Relentless Night"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ShieldHeart1/RelentlessNight",
-    "RepoName": "RelentlessNight",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "4.7.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/ShieldHeart1/RelentlessNight/releases/download/4.7.2/RelentlessNight.dll",
-    "Downloads": [
-      "https://github.com/ShieldHeart1/RelentlessNight/releases/download/4.7.2/RelentlessNight.dll"
-    ],
-    "AuthorUrl": "https://github.com/ShieldHeart1",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.23",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-03-30",
-    "Updated": "2023-09-29",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Relentless Night updated to work with latest build of game - 2.23.",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ShieldHeart",
-    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -12385,6 +12595,59 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "挣扎调整",
+    "Name": "StruggleTweaks",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "设置狼在挣扎后立即死亡的几率，或更改狼的流血致死时间。您还可以更改点击力度，以节省鼠标按键。",
+    "Aliases": [
+      "StruggleTweaks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-StruggleTweaks",
+    "RepoName": "StruggleTweaks",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.5.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-StruggleTweaks/releases/latest/download/StruggleTweaks.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-StruggleTweaks/releases/latest/download/StruggleTweaks.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.27",
+      "ml": "0.6.1"
+    },
+    "Released": "",
+    "Updated": "2024-05-17",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "AlexTheRegent",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "太阳方位修正",
     "Name": "SunOrientationFixes",
     "Type": "mod",
@@ -13543,6 +13806,60 @@
     "PreviousAuthors": "TheDevv",
     "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "工具质量",
+    "Name": "ToolsQuality",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "保持工具锋利。工具状况不佳会增加操作时间。调整收获动物尸体/树枝的时间倍率。",
+    "Aliases": [
+      "ToolsQuality"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-ToolsQuality",
+    "RepoName": "ToolsQuality",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-ToolsQuality/releases/latest/download/ToolsQuality.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-ToolsQuality/releases/latest/download/ToolsQuality.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6."
+    },
+    "Released": "",
+    "Updated": "2025-02-07",
+    "Images": [
+      "https://github.com/ttr/tld-ToolsQuality/raw/master/TQ-1.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "Please remove QuickerWoodCutting mod as it's redundant to this. Should work with Harvest Yield Tweaker.",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
