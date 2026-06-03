@@ -163,7 +163,7 @@
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "这个模组增加了 3 种新的负面状态和 4 种新的增益状态！<br>风之轻抚 - 你在新鲜空气中待了很久。你的肺里充满了风的轻柔乐章……闭上眼睛，哪怕只是一瞬间，该是多么美好……<br>饥饿——你已经饿了很久了，你的身体正在拼命地消耗能量。<br> HowDidYouDoThat? - 彩蛋（可能永远没人会发现）<br>增益效果：<br> BurningHeart——你为熊熊燃烧的火焰添了柴。它温暖舒适的余温依然萦绕在你的心间。<br>决心——天气晴朗！你感觉好多了<br>雾霭之拥——你被浓雾包围。野生动物对你的存在察觉甚少。<br>小心——在这个冷酷的世界里，你并不孤单……<br>在森林的某个角落，还藏着另一颗心。与其他的心不同，这颗心充满了善良和爱。<br>知道它的存在会让你更强大。不要放弃！一位看不见的伙伴相信你！",
+    "Description": "新增 4 种负面状态和 4 种增益状态！",
     "Aliases": [
       "AfflictionsAndBuffs"
     ],
@@ -175,7 +175,7 @@
       "ModData",
       "AfflictionComponent"
     ],
-    "Version": "1.0",
+    "Version": "1.5",
     "Error": false,
     "AutoUpdate": false,
     "Download": "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll",
@@ -193,9 +193,9 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-25",
-    "Updated": "2026-04-25",
+    "Updated": "2026-05-12",
     "Images": [
-      "https://github.com/WillWunderhorn/LittleWolfStorm_tld_modlist/raw/main/AfflictionsAndBuffsPrev.png"
+      "https://raw.githubusercontent.com/WillWunderhorn/AfflictionsAndBuffs/refs/heads/master/AfflictionsAndBuffsPrev.png"
     ],
     "Status": {
       "working": true,
@@ -207,8 +207,7 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -6291,7 +6290,7 @@
     "ModUrl": "https://github.com/EtherSystem/ImprovedFirstAidPanel",
     "RepoName": "ImprovedFirstAidPanel",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ImprovedFirstAidPanel/releases/latest/download/ImprovedFirstAidPanel.dll",
@@ -6308,12 +6307,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-02",
-    "Updated": "2026-05-02",
+    "Updated": "2026-06-03",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "fix issues with intestinal parasites",
       "notes": "",
       "issues": ""
     },
