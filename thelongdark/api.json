@@ -1120,55 +1120,6 @@
     ]
   },
   {
-    "DisplayName": "海滩拾贝调整",
-    "Name": "BeachcombingAdjustments",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "允许你更改海滩拾荒的掉落列表。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "Beachcombing Adjustments"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/BeachcombingAdjustments",
-    "RepoName": "BeachcombingAdjustments",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.1",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/BeachcombingAdjustments/releases/download/1.1/BeachcombingAdjustments.dll",
-    "Downloads": [
-      "https://github.com/ds5678/BeachcombingAdjustments/releases/download/1.1/BeachcombingAdjustments.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
-    },
-    "Released": "",
-    "Updated": "2021-01-20",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "睡袋调整器",
     "Name": "BedrollTweaker",
     "Type": "mod",
@@ -2560,6 +2511,62 @@
     ]
   },
   {
+    "DisplayName": "收藏卡",
+    "Name": "CollectorCards",
+    "Type": "mod",
+    "Author": "Kaiusername",
+    "DisplayAuthor": [
+      "Kaiusername"
+    ],
+    "Description": "在大熊湖各处寻找一系列手绘卡片！",
+    "Aliases": [
+      "Collector Cards",
+      "Collector.Cards"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Kaiusername/Collector-Cards",
+    "RepoName": "CollectorCards",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Kaiusername/Collector-Cards/releases/download/Update/Collector.Cards.modcomponent",
+    "Downloads": [
+      "https://github.com/Kaiusername/Collector-Cards/releases/download/Update/Collector.Cards.modcomponent"
+    ],
+    "AuthorUrl": "https://github.com/Kaiusername",
+    "SupportUrl": "https://www.patreon.com/Kaiusername1",
+    "Categories": [
+      "Gear Items",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.27",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-10-31",
+    "Updated": "2024-03-22",
+    "Images": [
+      "https://i.imgur.com/4lX7aJq.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Rebuilt mod from the ground up. Added new cards and new card packs.",
+      "notes": "Download the .modcomponent and drop it into your 'mods' folder.",
+      "issues": "Mod will not be able to be translated into other languages until a later update."
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "伴侣狼",
     "Name": "ExpandedAiFrameworkCompanionWolfMod",
     "Type": "mod",
@@ -2662,57 +2669,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "坐标抓取器",
-    "Name": "CoordinatesGrabber",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "实用模组。允许您查看/复制交互式物品的名称、位置、旋转和场景。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "Coordinates Grabber",
-      "Coordinates-Grabber"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/Coordinates-Grabber",
-    "RepoName": "CoordinatesGrabber",
-    "Dependencies": [
-      "ModSettings",
-      "KeyboardUtilities"
-    ],
-    "Version": "5.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/Coordinates-Grabber/releases/download/5.0.0/Coordinates-Grabber.dll",
-    "Downloads": [
-      "https://github.com/ds5678/Coordinates-Grabber/releases/download/5.0.0/Coordinates-Grabber.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.06",
-      "ml": "0.6.0.0"
-    },
-    "Released": "",
-    "Updated": "2023-03-15",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
   },
   {
     "DisplayName": "CougarSoundBegone",
@@ -6290,7 +6246,7 @@
     "ModUrl": "https://github.com/EtherSystem/ImprovedFirstAidPanel",
     "RepoName": "ImprovedFirstAidPanel",
     "Dependencies": [],
-    "Version": "1.0.2",
+    "Version": "1.0.4",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ImprovedFirstAidPanel/releases/latest/download/ImprovedFirstAidPanel.dll",
@@ -6307,7 +6263,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-02",
-    "Updated": "2026-06-03",
+    "Updated": "2026-06-04",
     "Images": [],
     "Status": {
       "working": true,
@@ -7407,55 +7363,6 @@
     ]
   },
   {
-    "DisplayName": "保持自身健康",
-    "Name": "MaintainYourself",
-    "Type": "mod",
-    "Author": "Deus",
-    "DisplayAuthor": [
-      "Deus"
-    ],
-    "Description": "这增加了自定义状态恢复的选项。通过调整恢复速度，您可以根据自身需求来调整状态恢复的难易程度。",
-    "Aliases": [
-      "Maintain Yourself"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Deus13/MaintainYourself",
-    "RepoName": "MaintainYourself",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.1.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/Deus13/MaintainYourself/releases/download/2.1.0/MaintainYourself.dll",
-    "Downloads": [
-      "https://github.com/Deus13/MaintainYourself/releases/download/2.1.0/MaintainYourself.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
-    },
-    "Released": "",
-    "Updated": "2021-06-18",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "重大苦难",
     "Name": "MajorMiseries",
     "Type": "mod",
@@ -7464,7 +7371,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "新增 16 种主要负面状态和 1 种增益状态。",
+    "Description": "新增 18 种主要负面状态和 1 种增益状态。",
     "Aliases": [
       "MajorMiseries"
     ],
@@ -7477,7 +7384,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
@@ -7494,12 +7401,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-14",
-    "Updated": "2026-05-19",
+    "Updated": "2026-06-03",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "",
+      "patchnotes": "Aurora Influence woooo",
       "notes": "",
       "issues": ""
     },
@@ -12962,6 +12869,62 @@
     ]
   },
   {
+    "DisplayName": "长期发展（TLDev）区域",
+    "Name": "TheLongDevelopment(TLDev)Regions",
+    "Type": "mod",
+    "Author": "Kaiusername",
+    "DisplayAuthor": [
+      "Kaiusername",
+      "STBlade"
+    ],
+    "Description": "《漫长的开发》是一个小型团队模组项目，旨在以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。",
+    "Aliases": [
+      "The Long Development (TLDev) Regions",
+      "97xM7k8nCH"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://discord.gg/97xM7k8nCH",
+    "RepoName": "TheLongDevelopment(TLDev)Regions",
+    "Dependencies": [],
+    "Version": "2.24.3",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://discord.gg/97xM7k8nCH",
+    "Downloads": [
+      "https://discord.gg/97xM7k8nCH"
+    ],
+    "AuthorUrl": "https://github.com/Kaiusername",
+    "SupportUrl": "https://www.patreon.com/Kaiusername1",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Base Building",
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2021-06-06",
+    "Updated": "2026-01-01",
+    "Images": [
+      "https://i.imgur.com/SHTfGf0.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "This content is in EARLY ACCESS. Please report all issues to our bug tracker forum on the TLDev Discord!",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "长心情",
     "Name": "TheLongMood",
     "Type": "mod",
@@ -13706,54 +13669,6 @@
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "切换HUD",
-    "Name": "ToggleHUD",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "允许玩家切换气味和时间指示器，而不是让它们在一段时间后消失。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "Toggle HUD",
-      "Toggle-HUD"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/Toggle-HUD",
-    "RepoName": "ToggleHUD",
-    "Dependencies": [],
-    "Version": "3.1.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/ds5678/Toggle-HUD/releases/download/3.1.0/Toggle-HUD.dll",
-    "Downloads": [
-      "https://github.com/ds5678/Toggle-HUD/releases/download/3.1.0/Toggle-HUD.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
-    },
-    "Released": "",
-    "Updated": "2021-04-01",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
