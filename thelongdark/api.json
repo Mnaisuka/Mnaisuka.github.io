@@ -176,7 +176,7 @@
       "ModData",
       "AfflictionComponent"
     ],
-    "Version": "1.6",
+    "Version": "1.6.5",
     "Error": false,
     "AutoUpdate": false,
     "Download": "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll",
@@ -194,7 +194,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-25",
-    "Updated": "2026-06-10",
+    "Updated": "2026-06-15",
     "Images": [
       "https://raw.githubusercontent.com/WillWunderhorn/AfflictionsAndBuffs/refs/heads/master/AfflictionsAndBuffsPrev.png"
     ],
