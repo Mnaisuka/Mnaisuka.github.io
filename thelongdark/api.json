@@ -7478,7 +7478,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
@@ -7500,7 +7500,7 @@
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Added difficulty presets for CO/BlackLung/Sepsis and new UI displays",
+      "patchnotes": "Fixing crafting modifier duration issue",
       "notes": "",
       "issues": ""
     },
@@ -7681,7 +7681,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.5.7",
+    "Version": "1.5.8",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -7705,7 +7705,7 @@
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Added new AC interfaces for BadDream/NightTerror/Splinter/StuckFood/BackPain, need AC v1.3",
+      "patchnotes": "Fixing crafting modifier duration issue",
       "notes": "",
       "issues": ""
     },
@@ -12984,7 +12984,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.10",
+    "Version": "1.3.11",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -13008,7 +13008,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added StalkerAids&Supplements Support",
+      "patchnotes": "Fixing crafting modifier duration issue",
       "notes": "",
       "issues": ""
     },
