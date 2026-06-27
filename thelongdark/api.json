@@ -8548,6 +8548,57 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "无收割动画",
+    "Name": "NoHarvestAnimations",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "禁用第一人称视角下的猎物尸体收割和分割动画。",
+    "Aliases": [
+      "No Harvest Animations"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/NoHarvestAnimations",
+    "RepoName": "NoHarvestAnimations",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/NoHarvestAnimations/releases/latest/download/NoHarvestAnimations.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/NoHarvestAnimations/releases/latest/download/NoHarvestAnimations.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-06-27",
+    "Updated": "2026-06-27",
+    "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Usage.png",
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Settings.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "无摄像机摇摆",
     "Name": "NoCameraSway",
     "Type": "mod",
@@ -9543,7 +9594,7 @@
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "A variant of Placing Anywhere that adds some functionality. 几何学放置。",
+    "Description": "A variant of Placing Anywhere that adds some functionality. 几何学放置（中文版在GitHub）。",
     "Aliases": [
       "PlacingGeometrically"
     ],
@@ -9553,12 +9604,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/hzb1130/PlacingGeometrically/releases/download/v1.1.0/PlacingGeometrically.dll",
+    "Download": "https://github.com/hzb1130/PlacingGeometrically/releases/download/v1.2/PlacingGeometrically.dll",
     "Downloads": [
-      "https://github.com/hzb1130/PlacingGeometrically/releases/download/v1.1.0/PlacingGeometrically.dll"
+      "https://github.com/hzb1130/PlacingGeometrically/releases/download/v1.2/PlacingGeometrically.dll"
     ],
     "AuthorUrl": "https://github.com/hzb1130",
     "SupportUrl": null,
@@ -9571,7 +9622,7 @@
       "ml": "0.72"
     },
     "Released": "2026-05-29",
-    "Updated": "2026-05-29",
+    "Updated": "2026-06-27",
     "Images": [
       "https://raw.githubusercontent.com/hzb1130/PlacingGeometrically/main/1.png"
     ],
