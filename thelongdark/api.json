@@ -869,12 +869,12 @@
     "ModUrl": "https://github.com/DigitalzombieTLD/AudioCore",
     "RepoName": "AudioCore",
     "Dependencies": [],
-    "Version": "3.1.0",
+    "Version": "3.1.5",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll",
+    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.5/AudioCore.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll"
+      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.5/AudioCore.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -887,14 +887,14 @@
       "ml": "0.7.2.0"
     },
     "Released": "",
-    "Updated": "2026-03-20",
+    "Updated": "2026-07-01",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiocore.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "TLD 2.51 fix",
+      "patchnotes": "Fix by Meh",
       "notes": "",
       "issues": ""
     },
