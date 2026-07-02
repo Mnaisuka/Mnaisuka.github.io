@@ -3136,61 +3136,6 @@
     ]
   },
   {
-    "DisplayName": "更黑暗的夜晚",
-    "Name": "DarkerNights",
-    "Type": "mod",
-    "Author": "Xpazeman",
-    "DisplayAuthor": [
-      "Xpazeman"
-    ],
-    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
-    "Aliases": [
-      "Darker Nights"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Xpazeman/tld-darker-nights",
-    "RepoName": "DarkerNights",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll",
-    "Downloads": [
-      "https://github.com/Xpazeman/tld-darker-nights/releases/latest/download/DarkerNights.dll"
-    ],
-    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
-    "SupportUrl": "https://ko-fi.com/xpazeman",
-    "Categories": [
-      "Gameplay",
-      "Graphics"
-    ],
-    "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
-    },
-    "Released": "2020-12-22",
-    "Updated": "2023-01-24",
-    "Images": [
-      "https://tld.xpazeapps.com/images/darker_nights_0.jpg",
-      "https://tld.xpazeapps.com/images/darker_nights_1.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Updated to work with TLD 2.06",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "死寂",
     "Name": "DeadAir",
     "Type": "mod",
@@ -6415,57 +6360,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "室内篝火",
-    "Name": "IndoorCampfires",
-    "Type": "mod",
-    "Author": "Xpazeman",
-    "DisplayAuthor": [
-      "Xpazeman"
-    ],
-    "Description": "这个模组允许你在室内生篝火。",
-    "Aliases": [
-      "Indoor Campfires"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Xpazeman/tld-indoor-campfires",
-    "RepoName": "IndoorCampfires",
-    "Dependencies": [],
-    "Version": "2.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll",
-    "Downloads": [
-      "https://github.com/Xpazeman/tld-indoor-campfires/releases/latest/download/IndoorCampfires.dll"
-    ],
-    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
-    "SupportUrl": "https://ko-fi.com/xpazeman",
-    "Categories": [
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-01-22",
-    "Images": [
-      "https://tld.xpazeapps.com/images/indoor_campfires_0.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Updated to work with TLD 2.06",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -9993,57 +9887,6 @@
     },
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "随机主菜单",
-    "Name": "RandomMainMenu",
-    "Type": "mod",
-    "Author": "Xpazeman",
-    "DisplayAuthor": [
-      "Xpazeman"
-    ],
-    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
-    "Aliases": [
-      "Random Main Menu"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Xpazeman/tld-random-mainmenu",
-    "RepoName": "RandomMainMenu",
-    "Dependencies": [],
-    "Version": "2.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll",
-    "Downloads": [
-      "https://github.com/Xpazeman/tld-random-mainmenu/releases/latest/download/RandomMainMenu.dll"
-    ],
-    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
-    "SupportUrl": "https://ko-fi.com/xpazeman",
-    "Categories": [
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-01-22",
-    "Images": [
-      "https://tld.xpazeapps.com/images/random_main_menu_0.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Updated to work with TLD 2.06",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -14850,57 +14693,6 @@
     },
     "PreviousAuthors": "nbakulev ds5678",
     "Source": "https://raw.githubusercontent.com/Thekillergreece/mod_list/main/Thekillergreece.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "工作钟",
-    "Name": "WorkingClocks",
-    "Type": "mod",
-    "Author": "Xpazeman",
-    "DisplayAuthor": [
-      "Xpazeman"
-    ],
-    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
-    "Aliases": [
-      "Working Clocks"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Xpazeman/tld-working-clocks",
-    "RepoName": "WorkingClocks",
-    "Dependencies": [],
-    "Version": "1.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll",
-    "Downloads": [
-      "https://github.com/Xpazeman/tld-working-clocks/releases/latest/download/WorkingClocks.dll"
-    ],
-    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
-    "SupportUrl": "https://ko-fi.com/xpazeman",
-    "Categories": [
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-01-22",
-    "Images": [
-      "https://tld.xpazeapps.com/images/working_clocks_0.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Updated to work with TLD 2.06",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
     "GameVersion": [
       "vanilla",
       "tftft"
