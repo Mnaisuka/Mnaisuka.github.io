@@ -5923,12 +5923,12 @@
       "Expanded AI Framework",
       "AudioManager"
     ],
-    "Version": "2.0.1",
+    "Version": "2.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.1",
+    "Download": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.2",
     "Downloads": [
-      "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.1"
+      "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.2"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -5936,11 +5936,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2024-12-12",
-    "Updated": "2025-11-28",
+    "Updated": "2026-07-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -6076,12 +6076,12 @@
     "ModUrl": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/",
     "RepoName": "ImprovedMagnifyingLens",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.1/ImprovedMagnifyingLens.dll",
+    "Download": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.2/ImprovedMagnifyingLens.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.1/ImprovedMagnifyingLens.dll"
+      "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.2/ImprovedMagnifyingLens.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -6090,11 +6090,11 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-04-01",
-    "Updated": "2026-02-07",
+    "Updated": "2026-07-06",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63&s=600"
     ],
@@ -7525,7 +7525,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.1",
+    "Version": "1.2.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
@@ -7542,12 +7542,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-14",
-    "Updated": "2026-06-20",
+    "Updated": "2026-07-06",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Fixing crafting modifier duration issue",
+      "patchnotes": "Gold Mine in AC is now considered as sheltered for the Aurora Influence",
       "notes": "",
       "issues": ""
     },
@@ -7704,6 +7704,58 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "关爱邻里",
+    "Name": "MindfulNeighborhood",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "此模组在静心小屋区域新增了保安小屋、钓鱼小屋、储物棚和猎人隐蔽处。它还将静心小屋内的炉灶替换成了壁炉。最后，它将小屋从贾斯蒂的棚屋移到了静心小屋区域。",
+    "Aliases": [
+      "Mindful Neighborhood"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/MindfulNeighborhood",
+    "RepoName": "MindfulNeighborhood",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.0.0/MindfulNeighborhood.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.0.0/MindfulNeighborhood.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-05",
+    "Updated": "2026-07-05",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/MindfulNeighborhood.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "小苦难系列",
