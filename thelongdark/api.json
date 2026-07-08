@@ -847,6 +847,59 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "箭头模组",
+    "Name": "ArrowMod",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "允许更改箭矢和箭头的制作时间。新增箭矢制作选项。更改设置后可能需要重启游戏。",
+    "Aliases": [
+      "ArrowMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-ArrowMod",
+    "RepoName": "ArrowMod",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "2.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-ArrowMod/releases/latest/download/ArrowMod.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-ArrowMod/releases/latest/download/ArrowMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-02-07",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
     "GameVersion": [
       "vanilla",
@@ -2284,7 +2337,7 @@
       "beta": false,
       "patchnotes": "",
       "notes": "",
-      "issues": ""
+      "issues": "Issue with prepper cache randomization. All cache's load the same scene. Fix being worked on (No ETA at the moment)."
     },
     "PreviousAuthors": "Cass",
     "Source": "https://raw.githubusercontent.com/Ezinw/ModListTLD/refs/heads/main/ModListTLD.json",
@@ -4411,6 +4464,62 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "FireAddons",
+    "Name": "FireAddons",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "闷烧灰烬，烹饪时间取决于温度，不同的引火物有不同的生火加成。详情请参阅 GitHub 上的 readme 文件。",
+    "Aliases": [
+      "FireAddons"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-fireAddons",
+    "RepoName": "FireAddons",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "3.1.6",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-fireAddons/releases/latest/download/FireAddons.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-fireAddons/releases/latest/download/FireAddons.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-04-27",
+    "Images": [
+      "https://raw.githubusercontent.com/ttr/tld-fireAddons/master/media/cooking.png",
+      "https://raw.githubusercontent.com/ttr/tld-fireAddons/master/media/embers.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
     "GameVersion": [
       "vanilla",
@@ -6414,6 +6523,58 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "门内温度",
+    "Name": "InDoorTemp",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "室内温度与室外温度保持一致。避难场所（雪地、汽车、洞穴）不再提供额外温度加成。",
+    "Aliases": [
+      "In Door Temps",
+      "IndoorTemps"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-InDoorTemps",
+    "RepoName": "InDoorTemp",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.3.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-InDoorTemps/releases/latest/download/IndoorTemps.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-InDoorTemps/releases/latest/download/IndoorTemps.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-02-02",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
     "GameVersion": [
       "vanilla",
@@ -7525,7 +7686,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.2",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
@@ -7542,12 +7703,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-14",
-    "Updated": "2026-07-06",
+    "Updated": "2026-07-08",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Gold Mine in AC is now considered as sheltered for the Aurora Influence",
+      "patchnotes": "Fixed an issue causing the player to fall out of the map after a sleepwalking event",
       "notes": "",
       "issues": ""
     },
@@ -7725,12 +7886,12 @@
       "ModData",
       "ModComponent"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.0.0/MindfulNeighborhood.dll",
+    "Download": "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.1.0/MindfulNeighborhood.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.0.0/MindfulNeighborhood.dll"
+      "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.1.0/MindfulNeighborhood.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -7742,7 +7903,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-05",
-    "Updated": "2026-07-05",
+    "Updated": "2026-07-08",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/MindfulNeighborhood.png"
     ],
@@ -8124,6 +8285,57 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "MooseSatchelMod",
+    "Name": "MooseSatchelMod",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "佩戴驼鹿袋可减少肉类、鱼类、内脏和馅饼的气味和腐烂。",
+    "Aliases": [
+      "MooseSatchelMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-MooseSatchelMod",
+    "RepoName": "MooseSatchelMod",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-MooseSatchelMod/releases/latest/download/MooseSatchelMod.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-MooseSatchelMod/releases/latest/download/MooseSatchelMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2025-05-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": [
+      "vanilla",
       "tftft"
     ]
   },
@@ -9992,6 +10204,58 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "RN剥离功能",
+    "Name": "RnStripped",
+    "Type": "mod",
+    "Author": "RN mod",
+    "DisplayAuthor": [
+      "RN mod",
+      "ttr"
+    ],
+    "Description": "尸体移动和用电器点亮火把——提取自 Relentless Nights mod（快去看看！）",
+    "Aliases": [
+      "RN-Stripped functions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-RnStripped",
+    "RepoName": "RnStripped",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-RnStripped/releases/latest/download/RnStripped.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-RnStripped/releases/latest/download/RnStripped.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6.6"
+    },
+    "Released": "",
+    "Updated": "2024-05-20",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
     "GameVersion": [
       "vanilla",
@@ -10741,56 +11005,6 @@
     ]
   },
   {
-    "DisplayName": "重新掷骰子判定烧毁的建筑物",
-    "Name": "RerollBurntBuildings",
-    "Type": "mod",
-    "Author": "Cass",
-    "DisplayAuthor": [
-      "Cass"
-    ],
-    "Description": "新增控制台命令，允许你重新生成随机的烧毁建筑。现在也包括随机生成的渔屋门。完整说明请参阅 README 文件。",
-    "Aliases": [
-      "Reroll Burnt Buildings"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/RerollBurntBuildings",
-    "RepoName": "RerollBurntBuildings",
-    "Dependencies": [
-      "ModSettings",
-      "DeveloperConsole"
-    ],
-    "Version": "2.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/GruffCassquatch/RerollBurntBuildings/releases/download/2.0.0/RerollBurntBuildings.dll",
-    "Downloads": [
-      "https://github.com/GruffCassquatch/RerollBurntBuildings/releases/download/2.0.0/RerollBurntBuildings.dll"
-    ],
-    "AuthorUrl": "https://github.com/GruffCassquatch",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-05-02",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
-    "GameVersion": []
-  },
-  {
     "DisplayName": "研究书籍修改器",
     "Name": "ResearchBookTweaker",
     "Type": "mod",
@@ -11467,54 +11681,6 @@
     },
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
-    "GameVersion": []
-  },
-  {
-    "DisplayName": "庇护所温度调整",
-    "Name": "ShelterTemperatureTweaks",
-    "Type": "mod",
-    "Author": "Cass",
-    "DisplayAuthor": [
-      "Cass"
-    ],
-    "Description": "允许您调整没有加载界面的庇护所（例如登山者小屋）的温度。完整说明请参见README文件。",
-    "Aliases": [
-      "Shelter Temperature Tweaks"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/ShelterTemperatureTweaks",
-    "RepoName": "ShelterTemperatureTweaks",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/GruffCassquatch/ShelterTemperatureTweaks/releases/download/2.0.0/ShelterTemperatureTweaks.dll",
-    "Downloads": [
-      "https://github.com/GruffCassquatch/ShelterTemperatureTweaks/releases/download/2.0.0/ShelterTemperatureTweaks.dll"
-    ],
-    "AuthorUrl": "https://github.com/GruffCassquatch",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-05-02",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
     "GameVersion": []
   },
   {
@@ -12792,57 +12958,64 @@
       "issues": ""
     },
     "PreviousAuthors": "AlexTheRegent",
-    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
     "GameVersion": [
       "vanilla",
       "tftft"
     ]
   },
   {
-    "DisplayName": "太阳方位修正",
-    "Name": "SunOrientationFixes",
+    "DisplayName": "挣扎调整",
+    "Name": "StruggleTweaks",
     "Type": "mod",
-    "Author": "Cass",
+    "Author": "ttr",
     "DisplayAuthor": [
-      "Cass"
+      "ttr"
     ],
-    "Description": "修正了多个区域的太阳方位。现在所有区域应该彼此一致，并与世界地图保持一致。",
+    "Description": "设置狼在挣扎后立即死亡的几率，或更改狼的流血致死时间。您还可以更改点击力度，以节省鼠标按键。",
     "Aliases": [
-      "Sun Orientation Fixes"
+      "StruggleTweaks"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/SunOrientationFixes",
-    "RepoName": "SunOrientationFixes",
-    "Dependencies": [],
-    "Version": "2.0.0",
+    "ModUrl": "https://github.com/ttr/tld-StruggleTweaks",
+    "RepoName": "StruggleTweaks",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.5.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/GruffCassquatch/SunOrientationFixes/releases/download/2.0/SunOrientationFixes.dll",
+    "Download": "https://github.com/ttr/tld-StruggleTweaks/releases/latest/download/StruggleTweaks.dll",
     "Downloads": [
-      "https://github.com/GruffCassquatch/SunOrientationFixes/releases/download/2.0/SunOrientationFixes.dll"
+      "https://github.com/ttr/tld-StruggleTweaks/releases/latest/download/StruggleTweaks.dll"
     ],
-    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "AuthorUrl": "https://github.com/ttr",
     "SupportUrl": null,
     "Categories": [
-      "Quality of Life"
+      "Quality of Life",
+      "Gameplay",
+      "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.06",
-      "ml": "0.6.0"
+      "tld": "2.27",
+      "ml": "0.6.1"
     },
     "Released": "",
-    "Updated": "2023-01-08",
+    "Updated": "2024-05-17",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "Go to repo for older game versions",
+      "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
-    "GameVersion": []
+    "PreviousAuthors": "AlexTheRegent",
+    "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
   },
   {
     "DisplayName": "幸存者知识",
@@ -14057,6 +14230,60 @@
       "issues": ""
     },
     "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "工具质量",
+    "Name": "ToolsQuality",
+    "Type": "mod",
+    "Author": "ttr",
+    "DisplayAuthor": [
+      "ttr"
+    ],
+    "Description": "保持工具锋利。工具状况不佳会增加操作时间。调整收获动物尸体/树枝的时间倍率。",
+    "Aliases": [
+      "ToolsQuality"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/ttr/tld-ToolsQuality",
+    "RepoName": "ToolsQuality",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/ttr/tld-ToolsQuality/releases/latest/download/ToolsQuality.dll",
+    "Downloads": [
+      "https://github.com/ttr/tld-ToolsQuality/releases/latest/download/ToolsQuality.dll"
+    ],
+    "AuthorUrl": "https://github.com/ttr",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.39",
+      "ml": "0.6."
+    },
+    "Released": "",
+    "Updated": "2025-02-07",
+    "Images": [
+      "https://github.com/ttr/tld-ToolsQuality/raw/master/TQ-1.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "Please remove QuickerWoodCutting mod as it's redundant to this. Should work with Harvest Yield Tweaker.",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/ttr/tld-modconfig-repo/master/ttr.json",
     "GameVersion": [
       "vanilla",
@@ -14803,54 +15030,6 @@
     "GameVersion": [
       "tftft"
     ]
-  },
-  {
-    "DisplayName": "狼群夜间出没",
-    "Name": "WolvesComeOutAtNight",
-    "Type": "mod",
-    "Author": "Cass",
-    "DisplayAuthor": [
-      "Cass"
-    ],
-    "Description": "防止狼在白天生成。可按区域设置，也可设置为全局生效。完整说明请参见README文件。",
-    "Aliases": [
-      "Wolves Come Out At Night"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/WolvesComeOutAtNight",
-    "RepoName": "WolvesComeOutAtNight",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.2.3.1",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/GruffCassquatch/WolvesComeOutAtNight/releases/download/1.2.3.1/WolvesComeOutAtNight.dll",
-    "Downloads": [
-      "https://github.com/GruffCassquatch/WolvesComeOutAtNight/releases/download/1.2.3.1/WolvesComeOutAtNight.dll"
-    ],
-    "AuthorUrl": "https://github.com/GruffCassquatch",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-04-21",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "TKG 出品的木雕作品",
