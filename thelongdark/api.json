@@ -577,59 +577,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "伏击狼",
-    "Name": "ExpandedAiFrameworkAmbushWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "新增一种狼的生成类型，它会隐藏在地图各处，等待你经过……",
-    "Aliases": [
-      "Ambush Wolf",
-      "ExpandedAiFramework.AmbushWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkAmbushWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -2661,59 +2608,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "伴侣狼",
-    "Name": "ExpandedAiFrameworkCompanionWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "此模组新增了一种狼的生成类型，可以用肉引诱并最终驯服。目前该模组仍处于早期开发阶段，幼狼可以跟随玩家并逐渐长大，但除了消耗大量肉之外，没有其他功能性改动。",
-    "Aliases": [
-      "Companion Wolf",
-      "ExpandedAiFramework.CompanionWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkCompanionWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -3348,6 +3242,56 @@
     ]
   },
   {
+    "DisplayName": "DeadAirReborn",
+    "Name": "DeadAirReborn",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "TonisGaming制作的DeadAir模组的复兴",
+    "Aliases": [
+      "DeadAirReborn"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/DeadAirReborn",
+    "RepoName": "DeadAirReborn",
+    "Dependencies": [
+      "ModComponent",
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.2.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/DeadAirReborn/releases/latest/download/DeadAirReborn.zip",
+    "Downloads": [
+      "https://github.com/EtherSystem/DeadAirReborn/releases/latest/download/DeadAirReborn.zip"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-13",
+    "Updated": "2026-07-13",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "Updated for 2.55. Filters drain can be set on IN-GAME TIME I wanted. Integration of ModData for starter kit persistence.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "TonisGaming",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "开发者控制台",
     "Name": "DeveloperConsole",
     "Type": "mod",
@@ -3925,58 +3869,6 @@
       "issues": "BETA. Unstable. It crashes. No corruption noted."
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "扩展人工智能框架",
-    "Name": "ExpandedAiFramework",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "为新的生成机制和AI行为提供必要的框架。",
-    "Aliases": [
-      "Expanded Ai Framework"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFramework",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "BACK UP YOUR SAVES!",
-      "issues": "BETA. Unstable. It crashes. No corruption noted."
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla",
@@ -4355,62 +4247,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Data-0_Mods.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "功能设置",
-    "Name": "FeatSettings",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "公开专长的效果和解锁设置。允许解锁传承专长“大型猫科动物杀手”。消除通过漏洞或控制台命令“错误”解锁的专长启动音效。允许在任何难度级别下自定义专长数量。",
-    "Aliases": [
-      "Feat Settings"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/FeatSettings",
-    "RepoName": "FeatSettings",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.4.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay",
-      "Utility Mod",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-10-08",
-    "Updated": "2026-1-5",
-    "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/BigCatKiller.PNG"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
   },
   {
     "DisplayName": "功能设置",
@@ -7914,54 +7750,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "工具箱",
-    "Name": "MehToolBox",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "供模组制作者在模组中使用工具箱。",
-    "Aliases": [
-      "Meh Tool Box"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/MehToolBox",
-    "RepoName": "MehToolBox",
-    "Dependencies": [],
-    "Version": "1.1.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.52",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-4-1",
-    "Updated": "2026-4-1",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -8042,7 +7830,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.5.8",
+    "Version": "1.5.9",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -8059,14 +7847,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-06-20",
+    "Updated": "2026-07-13",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Fixing crafting modifier duration issue",
+      "patchnotes": "StuckFood dont remove overconfidence anymore",
       "notes": "",
       "issues": ""
     },
@@ -8302,12 +8090,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.0.4",
-    "Error": true,
+    "Version": "1.0.5",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip",
+    "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v1.0.5/ModdersGearToolbox.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip"
+      "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v1.0.5/ModdersGearToolbox.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -8317,16 +8105,16 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-07-27",
-    "Updated": "2025-09-05",
+    "Updated": "2026-07-14",
     "Images": [
       "https://i.imgur.com/4WpvfIK.png"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "Updated to latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -9059,58 +8847,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "非致命性信号弹",
-    "Name": "NonLethalFlares",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "禁用信号枪造成的伤害和流血效果。可选择启用或禁用信号枪子弹粘附在野生动物身上的效果。",
-    "Aliases": [
-      "Nonlethal Flares"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/NonLethalFlares",
-    "RepoName": "NonLethalFlares",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-3-13",
-    "Updated": "2026-3-13",
-    "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/unamused.PNG"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -9269,54 +9005,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "不是狼队！",
-    "Name": "NotTheWolves",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "使狼群无敌，并阻止游戏中生成狼的尸体。",
-    "Aliases": [
-      "Not The Wolves!"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/NotTheWolves",
-    "RepoName": "NotTheWolves",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-3-22",
-    "Updated": "2026-3-22",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -9371,54 +9059,6 @@
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "老式收割",
-    "Name": "OldSchoolHarvesting",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "为了致敬过去，在收割动物尸体时，会静音、移除动画并调暗灯光，同时显示进度条。",
-    "Aliases": [
-      "Old School Harvesting"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/OldSchoolHarvesting",
-    "RepoName": "OldSchoolHarvesting",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-3-22",
-    "Updated": "2026-3-22",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -12079,61 +11719,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "霰弹枪",
-    "Name": "Shotgun",
-    "Type": "mod",
-    "Author": "Team Shotgun",
-    "DisplayAuthor": [
-      "Team Shotgun"
-    ],
-    "Description": "听说你们都想要一把霰弹枪……",
-    "Aliases": [
-      "Shotgun"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/MehToolBox/releases/tag/shotgun",
-    "RepoName": "Shotgun",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ModComponent",
-      "AudioManager",
-      "AudioCore",
-      "MehToolBox"
-    ],
-    "Version": "0.6.7",
-    "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.52",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-4-1",
-    "Updated": "2026-4-1",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -12238,6 +11823,59 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "简易保存和恢复工具",
+    "Name": "TLDTools",
+    "Type": "mod",
+    "Author": "Tactical Ex",
+    "DisplayAuthor": [
+      "Tactical Ex"
+    ],
+    "Description": "描述：一款简单易用的工具，让您更方便地备份和恢复《漫漫长夜》的生存模式游戏存档。注意：这是一个外部工具，并非模组，无需模组加载器即可使用。",
+    "Aliases": [
+      "Simple save and restore tool",
+      "2.2"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
+    "RepoName": "TLDTools",
+    "Dependencies": [],
+    "Version": "2.2.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0",
+    "Downloads": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0"
+    ],
+    "AuthorUrl": "https://gitlab.com/TacticalEx",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-08-24",
+    "Updated": "2026-03-06",
+    "Images": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Added optional mod-data configuration support for backing up and restoring with mods enabled",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -14577,115 +14215,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "追踪狼",
-    "Name": "ExpandedAiFrameworkTrackingWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "新增一种狼的生成类型，无论你的气味强度如何，它都会追踪你穿越整个地图。小心背后！",
-    "Aliases": [
-      "Tracking Wolf",
-      "ExpandedAiFramework.TrackingWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkTrackingWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "擅闯者",
-    "Name": "Trespasser",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh",
-      "Flower Field",
-      "Atmudia"
-    ],
-    "Description": "新增一种介于潜行者和入侵者之间的全新难度模式。初始包含 3 场比赛，并有机会在世界各地找到入侵者模式禁用的物品。",
-    "Aliases": [
-      "Trespasser"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/TrespasserMod",
-    "RepoName": "Trespasser",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/TrespasserMod/releases/latest/download/Trespasser.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/Trespasser/releases/latest/download/Trespasser.dll",
-      "https://github.com/monsieurmeh/TrespasserMod/releases/latest/download/Trespasser.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-2-14",
-    "Updated": "2026-2-14",
-    "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TrespasserMod/main/Assets/trespasser_bw_icon.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -15013,59 +14543,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "流浪狼",
-    "Name": "ExpandedAiFrameworkWanderingWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "创建一种新的狼生成类型，它会在地图上四处游荡，而不是待在一个小区域内。",
-    "Aliases": [
-      "Wandering Wolf",
-      "ExpandedAiFramework.WanderingWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkWanderingWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
