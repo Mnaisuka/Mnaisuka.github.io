@@ -3580,12 +3580,12 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.2.2",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.2.2/DynamicTrees.dll",
+    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll",
     "Downloads": [
-      "https://github.com/Fuar11/DynamicTrees/releases/download/1.2.2/DynamicTrees.dll"
+      "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -3593,11 +3593,11 @@
       "Graphics"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.57",
       "ml": "0.7.2"
     },
     "Released": "2023-11-14",
-    "Updated": "2026-01-06",
+    "Updated": "2026-07-14",
     "Images": [
       "https://i.imgur.com/zdZMjCh.jpg"
     ],
@@ -6078,7 +6078,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.3.2",
+    "Version": "1.4.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Fuar11/ImprovedLoadingScreens/releases/latest/download/ImprovedLoadingScreens.dll",
@@ -6091,11 +6091,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.57",
       "ml": "0.7.2"
     },
     "Released": "",
-    "Updated": "2025-01-06",
+    "Updated": "2026-07-14",
     "Images": [],
     "Status": {
       "working": true,
@@ -6541,12 +6541,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "3.1.1",
-    "Error": true,
+    "Version": "3.1.2",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip"
+      "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -6555,16 +6555,16 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-04-30",
-    "Updated": "2025-08-01",
+    "Updated": "2026-07-15",
     "Images": [
       "https://imgur.com/9TpDA41.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
