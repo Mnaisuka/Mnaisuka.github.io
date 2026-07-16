@@ -1613,12 +1613,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "1.2.2",
-    "Error": true,
+    "Version": "1.2.3",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.3/BountifulForaging.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip"
+      "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.3/BountifulForaging.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -1628,18 +1628,18 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-15",
-    "Updated": "2025-09-20",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/oYzE4vg.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "A lot of stuff. Check changelog on the repo.",
+      "patchnotes": "Updated for latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -2785,12 +2785,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.4.3",
-    "Error": true,
+    "Version": "1.4.4",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip",
+    "Download": "https://github.com/Jods-Its/CozyBlankets/releases/download/v.1.4.4/CozyBlankets.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip"
+      "https://github.com/Jods-Its/CozyBlankets/releases/download/v.1.4.4/CozyBlankets.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -2798,16 +2798,16 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-21",
-    "Updated": "2025-08-02",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/nGMeJ68.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "Fixed for last version.",
       "notes": "Unzip the .zip, drop contents in mods folder.",
@@ -4375,12 +4375,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "2.7.1",
-    "Error": true,
+    "Version": "2.7.2",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/V.2.7.1/FirePack.zip",
+    "Download": "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/v.2.7.2/FirePack.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/V.2.7.1/FirePack.zip"
+      "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/v.2.7.2/FirePack.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -4389,18 +4389,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-19",
-    "Updated": "2024-06-28",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/NxKjE7P.jpg"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
-      "patchnotes": "Added French and Turkish localizations. Updated bowdrill. Updated Russian and Italian localizations. Bug fixes.",
+      "patchnotes": "Updated for latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -4769,8 +4769,8 @@
       "Quality Of Life"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-15",
     "Updated": "2023-06-15",
@@ -6288,7 +6288,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.2.23",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Fuar11/ImprovedTales/releases/latest",
@@ -8090,12 +8090,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v1.0.5/ModdersGearToolbox.zip",
+    "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v.1.0.6/ModdersGearToolbox.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v1.0.5/ModdersGearToolbox.zip"
+      "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v.1.0.6/ModdersGearToolbox.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -8109,14 +8109,14 @@
       "ml": "0.7.2"
     },
     "Released": "2023-07-27",
-    "Updated": "2026-07-14",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/4WpvfIK.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated to latest version.",
+      "patchnotes": "Fixed NoBones bug.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -13167,6 +13167,8 @@
     ],
     "Description": "《漫长的开发》是一个小型团队模组项目，旨在以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。",
     "Aliases": [
+      "TheLongDevelopment",
+      "TheLongDevelopment(TLDev)Regions",
       "The Long Development (TLDev) Regions",
       "97xM7k8nCH"
     ],
