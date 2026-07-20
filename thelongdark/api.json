@@ -1830,12 +1830,12 @@
       "Modders' Gear Toolbox",
       "ExamineActionsAPI"
     ],
-    "Version": "2.2.2",
+    "Version": "2.2.3",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.2/CampingTools.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.3/CampingTools.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.2/CampingTools.zip"
+      "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.3/CampingTools.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -1847,7 +1847,7 @@
       "ml": "0.7.2"
     },
     "Released": "2023-04-24",
-    "Updated": "2026-07-18",
+    "Updated": "2026-07-20",
     "Images": [
       "https://i.imgur.com/s4QXeLl.jpg"
     ],
@@ -4486,12 +4486,12 @@
       "ModComponent",
       "AlcoholMod"
     ],
-    "Version": "6.3",
+    "Version": "6.4",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.3/FoodPackByTKG.7z",
+    "Download": "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.4/FoodPackByTKG.7z",
     "Downloads": [
-      "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.3/FoodPackByTKG.7z"
+      "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.4/FoodPackByTKG.7z"
     ],
     "AuthorUrl": "https://github.com/Thekillergreece",
     "SupportUrl": null,
@@ -4499,18 +4499,18 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-04-11",
-    "Updated": "2026-01-21",
+    "Updated": "2026-07-19",
     "Images": [
       "https://i.imgur.com/daZdf7U.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Version 6.3 - Added a new item and some fixes.",
+      "patchnotes": "Version 6.4 - Added a new item and some fixes.",
       "notes": "Just drop the content into the mods folder.",
       "issues": ""
     },
