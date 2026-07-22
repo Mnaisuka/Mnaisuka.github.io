@@ -367,60 +367,6 @@
     ]
   },
   {
-    "DisplayName": "最高等级的替代寄生虫",
-    "Name": "AlternativeParasitesAtMaxLvl",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "烹饪等级达到5级时，肠道寄生虫会重新出现，但影响较小。仅影响烹饪等级达到5级的角色。",
-    "Aliases": [
-      "Alternative Parasites At Max Lvl"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl",
-    "RepoName": "AlternativeParasitesAtMaxLvl",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.2.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.2.0/AlternativeParasitesAtMaxLvl.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.2.0/AlternativeParasitesAtMaxLvl.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-22",
-    "Updated": "2026-01-22",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/ParasitesThumbnail1.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/305620_19.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/305620_20.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Incremental mode and Fixed mode. Optional reminder to take dose when the real affliction kicks in. Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "替代行动公用事业",
     "Name": "AlternativeActionUtilities",
     "Type": "mod",
@@ -638,58 +584,6 @@
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "动物重生时间模组",
-    "Name": "AnimalRespawnTimeMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "该模组允许通过 ModSettings 以天为单位调整动物的重生时间。",
-    "Aliases": [
-      "Animal Respawn Time Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod",
-    "RepoName": "AnimalRespawnTimeMod",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-02-08",
-    "Updated": "2026-02-15",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "ModSettings implementation. Old Json file can be deleted.",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -1441,59 +1335,6 @@
     ]
   },
   {
-    "DisplayName": "更大的捕兽人",
-    "Name": "BiggerTrappers",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "此模组扩展了神秘湖中的猎人小屋，使其面积略微增大。小屋的内部和外部沿一个轴进行了修改（使其变宽）。",
-    "Aliases": [
-      "Bigger Trapper's"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/BiggerTrappers",
-    "RepoName": "BiggerTrappers",
-    "Dependencies": [
-      "ModData"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/BiggerTrappers/releases/download/1.0.0/BiggerTrappers.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/BiggerTrappers/releases/download/1.0.0/BiggerTrappers.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Base Building"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-03-07",
-    "Updated": "2026-03-07",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BiggerTrappers/BiggerT1.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BiggerTrappers/BiggerT2.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Some items may be floating in their original position. Tried to fix most stuff.",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "出血重制版",
     "Name": "BleedingRevamped",
     "Type": "mod",
@@ -2078,62 +1919,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "冷饮模式",
-    "Name": "CatchColdMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "该模组增加了感染感冒的机制，玩家可以逐渐产生抵抗力，否则感冒会恶化为肺炎。",
-    "Aliases": [
-      "Catch Cold Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/CatchColdMod",
-    "RepoName": "CatchColdMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "Affliction Component"
-    ],
-    "Version": "1.1.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.2/CatchColdMod.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.2/CatchColdMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-02-21",
-    "Updated": "2026-02-28",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_42.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_43.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "- new icons\n- when treating pneumonia, the damage will be less severe\n- overall a little less harsh pneumonia\n- fixed birch bark tea\n- added coughing when afflicted pneumonia\n- fix for cold risk not curing when fully depleted",
-      "notes": "Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -5163,59 +4948,6 @@
     ]
   },
   {
-    "DisplayName": "完美状态改装",
-    "Name": "GearPerfectConditionMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "将指定拾取装备的物品掉落率设为 100%。可自定义 JSON 数据。默认物品：火柴、灯油、放大镜、消毒剂、保温瓶。",
-    "Aliases": [
-      "ToolsFullConditionMod",
-      "GearPerfectConditionMod",
-      "Gear Perfect Condition Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/GearPerfectConditionMod",
-    "RepoName": "GearPerfectConditionMod",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/GearPerfectConditionMod/releases/download/1.0.0/GearPerfectConditionMod.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/GearPerfectConditionMod/releases/download/1.0.0/GearPerfectConditionMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gear Items"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-26",
-    "Updated": "2026-01-26",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/GearPerfectConditionMod/305620_16asd.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/GearPerfectConditionMod/305620_15asd.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "This mod is the successor of my former mod, ToolsFullConditionMod",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "齿轮生成器",
     "Name": "GearSpawner",
     "Type": "mod",
@@ -5537,56 +5269,6 @@
     ]
   },
   {
-    "DisplayName": "热键修改器",
-    "Name": "HotkeyMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "简单的快捷键模组。装备枪械时，会优先装备弹匣容量最大的枪械（如果该枪械在JSON列表中）。装备火炬时，会优先装备满足“LEAST”条件的火炬。基本规则是：装备列表中的第一个物品。该模组也支持服装和配饰，并实现了切换功能：第一次点击装备指定的服装，第二次点击切换回之前装备的物品（如果有的话）。更多详情请查看仓库！",
-    "Aliases": [
-      "Hotkey Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/HotkeyMod",
-    "RepoName": "HotkeyMod",
-    "Dependencies": [],
-    "Version": "1.2.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.1/HotkeyMod.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.1/HotkeyMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-22",
-    "Updated": "2026-02-01",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HotkeyMod/Screenshot%202026-01-22%20221343.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Fixed an issue with ruined torches getting selected first.",
-      "notes": "Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "房屋灯光",
     "Name": "HouseLights",
     "Type": "mod",
@@ -5682,62 +5364,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "饥饿重塑",
-    "Name": "HungerRevamped",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar",
-      "TLD modding community"
-    ],
-    "Description": "改进了饥饿系统，将饥饿值和储存的卡路里分开计算。增加了各种烹饪自定义选项，例如允许烹饪变质的食物。",
-    "Aliases": [
-      "Hunger Revamped"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/HungerRevamped",
-    "RepoName": "HungerRevamped",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "2.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay",
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2018-03-31",
-    "Updated": "2026-02-28",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_bar_fill_levels.png",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_and_stored_calories.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Updated for current version.\nFixed Harvest Can.\nAdded a feature which gives you a recycled can when used one up in a cooking recipe.\nMade debug logging off by default.",
-      "notes": "Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "BA, zeobviouslyfakeacc",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -7781,7 +7407,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.5.9",
+    "Version": "1.5.10",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -7798,14 +7424,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-07-13",
+    "Updated": "2026-07-22",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "StuckFood dont remove overconfidence anymore",
+      "patchnotes": "Balancing patch for scratch/splinter/backpain",
       "notes": "",
       "issues": ""
     },
@@ -9319,58 +8945,6 @@
     ]
   },
   {
-    "DisplayName": "肉干腐烂速度较慢",
-    "Name": "PemmicanSlowerDecay",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "一个简单的mod，修改了熟制肉干，降低了它的腐烂速度，使其与腌肉的腐烂速度相匹配。",
-    "Aliases": [
-      "Pemmican Slower Decay"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/PemmicanSlowerDecay",
-    "RepoName": "PemmicanSlowerDecay",
-    "Dependencies": [],
-    "Version": "1.3.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.3.0/PemmicanSlowerDecay.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.3.0/PemmicanSlowerDecay.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gear Items",
-      "Food"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-22",
-    "Updated": "2026-01-22",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/PemmicanThumbnail1.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/osszehasonlitas.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Works with GearInfo. Added a patch for Gear Decay Modifier mod by Romain to exclude Pemmican bars from that mod, because Pemmican is different than a rabbit pie!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "性格",
     "Name": "Personality",
     "Type": "mod",
@@ -10631,60 +10205,6 @@
     ]
   },
   {
-    "DisplayName": "可再生火药模组",
-    "Name": "RenewableGunpowderMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "此模组添加了火药材料：硫磺粉、树桩清除剂和铅，可通过海滩拾取和容器掉落获得。我是在发现 Sm4rtBoyTom 的 AmmunitionCraftingTools 模组在火药可再生性方面做得更好之前制作了这个模组的。不过没关系，也许有人会用到它。",
-    "Aliases": [
-      "Renewable Gunpowder Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/RenewableGunpowderMod",
-    "RepoName": "RenewableGunpowderMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/RenewableGunpowderMod/releases/download/1.1.0/RenewableGunpowderMod.zip",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/RenewableGunpowderMod/releases/download/1.1.0/RenewableGunpowderMod.zip"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay",
-      "Gear Items"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-22",
-    "Updated": "2026-01-22",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RenewableGunpowderMod/305620_14.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "可修复的",
     "Name": "RepairableRepairables",
     "Type": "mod",
@@ -10893,64 +10413,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "回收子弹模组",
-    "Name": "RetrieveBulletsMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "这个模组让玩家可以从用枪械猎杀的动物身上回收子弹。你可以从动物尸体上收集名为“损坏子弹”的新物品，然后在弹药工坊进行重铸。",
-    "Aliases": [
-      "Retrieve Bullets Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/RetrieveBulletsMod",
-    "RepoName": "RetrieveBulletsMod",
-    "Dependencies": [
-      "ModComponent",
-      "ModData"
-    ],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/RetrieveBulletsMod/releases/download/1.1.0/RetrieveBulletsMod.zip",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/RetrieveBulletsMod/releases/download/1.1.0/RetrieveBulletsMod.zip"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay",
-      "Gear Items",
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-22",
-    "Updated": "2026-01-22",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_9.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_10b.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_12.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_11.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
   },
   {
     "DisplayName": "复古食品包",
@@ -11369,58 +10831,6 @@
     ]
   },
   {
-    "DisplayName": "鳞鱼模组",
-    "Name": "ScaledFishMod",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "你有没有想过为什么同一种鱼看起来大小都一样？现在不用再疑惑了！Scaled Fish Mod 会让鱼的模型大小根据它们的体重动态变化。",
-    "Aliases": [
-      "Scaled Fish Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/ScaledFishMod",
-    "RepoName": "ScaledFishMod",
-    "Dependencies": [],
-    "Version": "1.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Food",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-01-22",
-    "Updated": "2026-01-25",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_13.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "经验丰富的闯入者",
     "Name": "SeasonedInterloping",
     "Type": "mod",
@@ -11827,6 +11237,59 @@
     },
     "PreviousAuthors": "",
     "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "简易保存和恢复工具",
+    "Name": "TLDTools",
+    "Type": "mod",
+    "Author": "Tactical Ex",
+    "DisplayAuthor": [
+      "Tactical Ex"
+    ],
+    "Description": "描述：一款简单易用的工具，让您更方便地备份和恢复《漫漫长夜》的生存模式游戏存档。注意：这是一个外部工具，并非模组，无需模组加载器即可使用。",
+    "Aliases": [
+      "Simple save and restore tool",
+      "2.2"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
+    "RepoName": "TLDTools",
+    "Dependencies": [],
+    "Version": "2.2.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0",
+    "Downloads": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0"
+    ],
+    "AuthorUrl": "https://gitlab.com/TacticalEx",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-08-24",
+    "Updated": "2026-03-06",
+    "Images": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Added optional mod-data configuration support for backing up and restoring with mods enabled",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12487,61 +11950,6 @@
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "偷肉模组",
-    "Name": "StolenMeatMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh",
-      "BaltaZar"
-    ],
-    "Description": "如果储存不当，放在外面的肉会被掠食者偷走。如果你把肉堆在门口，也可能招来一些不速之客！这会让你停止堆放肉堆，或者也许你会利用它们来获得好处？",
-    "Aliases": [
-      "Stolen Meat Mod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/StolenMeatMod",
-    "RepoName": "StolenMeatMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/StolenMeatMod/releases/download/v1.0.0/StolenMeatMod.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/StolenMeatMod/releases/download/v1.0.0/StolenMeatMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
-    },
-    "Released": "2026-03-01",
-    "Updated": "2026-03-01",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/StolenMeatMod/SMthumbnail.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/StolenMeatMod/SM2.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "Check the Repo for more details!",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
