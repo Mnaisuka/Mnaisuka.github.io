@@ -624,5 +624,7 @@
     "This mod adds a security hut, fishing hut, storage shed and hunter's blind to the Mindful Cabin Area.  It also replaces the potbelly stove with a fireplace in the Mindful Cabin.  Finally, it moves the cabin from Justy's hovel to the Mindful Cabin area.": "此模组在静心小屋区域新增了保安小屋、钓鱼小屋、储物棚和猎人隐蔽处。它还将静心小屋内的炉灶替换成了壁炉。最后，它将小屋从贾斯蒂的棚屋移到了静心小屋区域。",
     "Mindful Neighborhood": "关爱邻里",
     "Revival of DeadAir mod made by TonisGaming": "TonisGaming制作的DeadAir模组的复兴",
-    "DeadAirReborn": "DeadAirReborn"
+    "DeadAirReborn": "DeadAirReborn",
+    "Pain Component": "疼痛成分",
+    "A dependency mod that extends the pain and painkiller system from Improved Afflictions to other custom affliction implementations.": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。"
 }
