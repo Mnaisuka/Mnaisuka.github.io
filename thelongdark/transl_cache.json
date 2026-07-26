@@ -626,5 +626,7 @@
     "Revival of DeadAir mod made by TonisGaming": "TonisGaming制作的DeadAir模组的复兴",
     "DeadAirReborn": "DeadAirReborn",
     "Pain Component": "疼痛成分",
-    "A dependency mod that extends the pain and painkiller system from Improved Afflictions to other custom affliction implementations.": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。"
+    "A dependency mod that extends the pain and painkiller system from Improved Afflictions to other custom affliction implementations.": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。",
+    "AutoTorchLight": "自动手电筒",
+    "Auto Light Torch When it burn out.": "自动点火手电筒，当它烧坏时。"
 }

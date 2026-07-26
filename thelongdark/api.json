@@ -1121,6 +1121,54 @@
     ]
   },
   {
+    "DisplayName": "自动手电筒",
+    "Name": "AutoTorchLight",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "自动点火手电筒，当它烧坏时。",
+    "Aliases": [
+      "AutoTorchLight"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/AutoTorchLight",
+    "RepoName": "AutoTorchLight",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.0.0/AutoTorchLight.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.0.0/AutoTorchLight.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-26",
+    "Updated": "2026-07-26",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "海滩拾贝调整",
     "Name": "BeachcombingAdjustments",
     "Type": "mod",
