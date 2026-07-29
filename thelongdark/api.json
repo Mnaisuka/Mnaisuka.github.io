@@ -3787,12 +3787,12 @@
     "ModUrl": "https://github.com/No3371/TLD-ExamineActionsAPI",
     "RepoName": "ExamineActionsAPI",
     "Dependencies": [],
-    "Version": "2.0.7",
+    "Version": "2.0.8",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.7/ExamineActionsAPI.dll",
+    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ExamineActionsAPI.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.7/ExamineActionsAPI.dll"
+      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ExamineActionsAPI.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -3801,11 +3801,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-07-07",
-    "Updated": "2026-01-21",
+    "Updated": "2026-07-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -13338,12 +13338,12 @@
     "Dependencies": [
       "ExamineActionsAPI"
     ],
-    "Version": "1.1.1",
+    "Version": "1.1.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.4/ThingsToDo.dll",
+    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ThingsToDo.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.4/ThingsToDo.dll"
+      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ThingsToDo.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -13351,11 +13351,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-07-07",
-    "Updated": "2026-01-09",
+    "Updated": "2026-07-30",
     "Images": [],
     "Status": {
       "working": true,
