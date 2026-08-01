@@ -3873,6 +3873,54 @@
     ]
   },
   {
+    "DisplayName": "扩展技能",
+    "Name": "ExpandedSkills",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "一个将原版技能等级扩展至最多 10 级的模组。",
+    "Aliases": [
+      "ExpandedSkills"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/ExpandedSkills",
+    "RepoName": "ExpandedSkills",
+    "Dependencies": [
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-01",
+    "Updated": "2026-08-01",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "扩展交易框架",
     "Name": "ExpandedTradingFramework",
     "Type": "mod",

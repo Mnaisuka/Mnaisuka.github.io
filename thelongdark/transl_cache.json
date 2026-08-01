@@ -628,5 +628,7 @@
     "Pain Component": "疼痛成分",
     "A dependency mod that extends the pain and painkiller system from Improved Afflictions to other custom affliction implementations.": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。",
     "AutoTorchLight": "自动手电筒",
-    "Auto Light Torch When it burn out.": "自动点火手电筒，当它烧坏时。"
+    "Auto Light Torch When it burn out.": "自动点火手电筒，当它烧坏时。",
+    "A mod to expand vanilla skills to a maximum of 10 levels": "一个将原版技能等级扩展至最多 10 级的模组。",
+    "ExpandedSkills": "扩展技能"
 }
