@@ -3890,7 +3890,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
