@@ -658,12 +658,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll",
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.2.0/AnimalRespawnTimeMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll"
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.2.0/AnimalRespawnTimeMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -675,14 +675,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-08",
-    "Updated": "2026-02-15",
+    "Updated": "2026-08-08",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "ModSettings implementation. Old Json file can be deleted.",
+      "patchnotes": "Now compatible with Expanded AI Framework (EAF)",
       "notes": "",
       "issues": ""
     },
@@ -5802,12 +5802,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "2.1.0",
+    "Version": "2.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll",
+    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.0/HungerRevamped.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll"
+      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.0/HungerRevamped.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -5820,7 +5820,7 @@
       "ml": "0.7.2"
     },
     "Released": "2018-03-31",
-    "Updated": "2026-02-28",
+    "Updated": "2026-08-08",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_bar_fill_levels.png",
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_and_stored_calories.png"
@@ -5828,7 +5828,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated for current version.\nFixed Harvest Can.\nAdded a feature which gives you a recycled can when used one up in a cooking recipe.\nMade debug logging off by default.",
+      "patchnotes": "- calorie reserves needs 80% full hunger bar to build bodyfat (from 60%)\n- max carrying capacity buff from Well fed is now customizable through ModSettings\n- optional Vitamin C level message after eating",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -11532,12 +11532,12 @@
     "ModUrl": "https://github.com/BaltaZar-7/ScaledFishMod",
     "RepoName": "ScaledFishMod",
     "Dependencies": [],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll",
+    "Download": "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.2.0/ScaledFishMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll"
+      "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.2.0/ScaledFishMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -11550,15 +11550,16 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-01-25",
+    "Updated": "2026-08-08",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_13.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/SF3.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Now meat is scaled too!",
       "notes": "",
       "issues": ""
     },
