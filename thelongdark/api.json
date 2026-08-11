@@ -107,7 +107,8 @@
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar",
-      "Deadman"
+      "Deadman",
+      "EtherSystem"
     ],
     "Description": "一个框架模组，允许模组制作者向游戏中添加他们自己的自定义疾病效果。",
     "Aliases": [
@@ -121,7 +122,7 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.0.6",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/TLD-Mods/AfflictionComponent/releases/latest",
@@ -134,11 +135,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2024-08-25",
-    "Updated": "2026-02-21",
+    "Updated": "2026-06-10",
     "Images": [
       "https://i.imgur.com/EUZC3G7.png"
     ],
@@ -151,6 +152,61 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "痛苦与增益",
+    "Name": "AfflictionsAndBuffs",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "新增 4 种负面状态和 4 种增益状态！",
+    "Aliases": [
+      "AfflictionsAndBuffs"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/AfflictionsAndBuffs",
+    "RepoName": "AfflictionsAndBuffs",
+    "Dependencies": [
+      "ModComponent",
+      "ModData",
+      "AfflictionComponent"
+    ],
+    "Version": "1.6.5",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-25",
+    "Updated": "2026-06-15",
+    "Images": [
+      "https://raw.githubusercontent.com/WillWunderhorn/AfflictionsAndBuffs/refs/heads/master/AfflictionsAndBuffsPrev.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -180,12 +236,12 @@
       "https://github.com/EtherSystem/TLD-Afraid-of-the-Dark/releases/latest/download/AnxietyAtNight.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2022-04-11",
@@ -275,12 +331,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.1",
+    "Version": "1.4.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/AllRandomLayoutsAtOnce/releases/download/1.4.1/AllRandomLayoutsAtOnce.dll",
+    "Download": "https://github.com/RomainDeschampsFR/AllRandomLayoutsAtOnce/releases/download/1.4.2/AllRandomLayoutsAtOnce.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/AllRandomLayoutsAtOnce/releases/download/1.4.1/AllRandomLayoutsAtOnce.dll"
+      "https://github.com/RomainDeschampsFR/AllRandomLayoutsAtOnce/releases/download/1.4.2/AllRandomLayoutsAtOnce.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -291,11 +347,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "v0.6.6"
+      "tld": "2.55",
+      "ml": "v0.7.2"
     },
     "Released": "2025-01-18",
-    "Updated": "2025-06-17",
+    "Updated": "2025-06-01",
     "Images": [],
     "Status": {
       "working": true,
@@ -307,8 +363,7 @@
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -342,8 +397,8 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
@@ -603,12 +658,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll",
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.2.0/AnimalRespawnTimeMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.1.0/AnimalRespawnTimeMod.dll"
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.2.0/AnimalRespawnTimeMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -616,18 +671,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-02-08",
-    "Updated": "2026-02-15",
+    "Updated": "2026-08-08",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "ModSettings implementation. Old Json file can be deleted.",
+      "patchnotes": "Now compatible with Expanded AI Framework (EAF)",
       "notes": "",
       "issues": ""
     },
@@ -635,6 +690,58 @@
     "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "动物之声",
+    "Name": "AnimalSounds",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "这款模组可以让你像狼一样嚎叫，还有更多功能……",
+    "Aliases": [
+      "AnimalSounds"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/AnimalSounds/releases/tag/Latest",
+    "RepoName": "AnimalSounds",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/WillWunderhorn/AnimalSounds/releases/download/Latest/AnimalSounds.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/AnimalSounds/releases/download/Latest/AnimalSounds.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Audio"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-04-18",
+    "Updated": "2026-04-24",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   {
@@ -678,7 +785,7 @@
     "Released": "2024-12-21",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/af81ef357e8411f248ad5866f50a24f771e001dc/pics/Architect.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Architect.webp"
     ],
     "Status": {
       "working": true,
@@ -762,12 +869,12 @@
     "ModUrl": "https://github.com/DigitalzombieTLD/AudioCore",
     "RepoName": "AudioCore",
     "Dependencies": [],
-    "Version": "3.1.0",
+    "Version": "3.1.5",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll",
+    "Download": "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.5/AudioCore.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.0/AudioCore.dll"
+      "https://github.com/DigitalzombieTLD/AudioCore/releases/download/v3.1.5/AudioCore.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -780,14 +887,14 @@
       "ml": "0.7.2.0"
     },
     "Released": "",
-    "Updated": "2026-03-20",
+    "Updated": "2026-07-01",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiocore.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "TLD 2.51 fix",
+      "patchnotes": "Fix by Meh",
       "notes": "",
       "issues": ""
     },
@@ -817,12 +924,12 @@
       "ModSettings",
       "AudioCore"
     ],
-    "Version": "2.0.0",
+    "Version": "2.0.5",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.0/AudioManager.dll",
+    "Download": "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.5/AudioManager.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.0/AudioManager.dll"
+      "https://github.com/DigitalzombieTLD/AudioManager/releases/download/v2.0.5/AudioManager.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -832,11 +939,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2.0"
     },
     "Released": "2023-01-14",
-    "Updated": "2026-03-20",
+    "Updated": "2026-04-02",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiomanager.jpg"
     ],
@@ -928,7 +1035,7 @@
     "RepoName": "AutoUpdatingPlugin",
     "Dependencies": [],
     "Version": "2.0.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/dommrogers/AutoUpdatingPlugin/releases/download/2.0.0/AutoUpdatingPlugin.dll",
     "Downloads": [
@@ -947,7 +1054,7 @@
       "https://github.com/dommrogers/mod_list/blob/master/aup.png?raw=true"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -958,6 +1065,108 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "在“探索”中自动填充地图",
+    "Name": "AutoFillMaponExplore",
+    "Type": "mod",
+    "Author": "Pathoschild",
+    "DisplayAuthor": [
+      "Pathoschild"
+    ],
+    "Description": "<p>探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。</p><p> <a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">更多信息请参阅readme文件</a>。</p>",
+    "Aliases": [
+      "Auto-Fill Map on Explore"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme",
+    "RepoName": "AutoFillMaponExplore",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.1/AutoFillMapOnExplore.dll",
+    "Downloads": [
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.1/AutoFillMapOnExplore.dll"
+    ],
+    "AuthorUrl": "https://github.com/Pathoschild",
+    "SupportUrl": "https://www.patreon.com/Pathoschild",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-19",
+    "Updated": "2026-04-28",
+    "Images": [
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/AutoFillMapOnExplore/docs/images/map.png",
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/AutoFillMapOnExplore/docs/images/config.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Internal changes to be more futureproof.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "自动手电筒",
+    "Name": "AutoTorchLight",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "自动点火手电筒，当它烧坏时。",
+    "Aliases": [
+      "AutoTorchLight"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/AutoTorchLight",
+    "RepoName": "AutoTorchLight",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.0.0/AutoTorchLight.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.0.0/AutoTorchLight.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-26",
+    "Updated": "2026-07-26",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "海滩拾贝调整",
@@ -1061,63 +1270,6 @@
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "更好的基地",
-    "Name": "BetterBases",
-    "Type": "mod",
-    "Author": "Xpazeman",
-    "DisplayAuthor": [
-      "Xpazeman"
-    ],
-    "Description": "《漫漫长夜》的模组，允许玩家以多种方式改善他们的基地：大多数家具可以移动（如果你先清理掉杂物），大多数损坏的橱柜和抽屉可以修复，大多数室内杂物可以移除，其中一些还可以移动。",
-    "Aliases": [
-      "Better Bases"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Xpazeman/tld-better-bases",
-    "RepoName": "BetterBases",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "1.1.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll",
-    "Downloads": [
-      "https://github.com/Xpazeman/tld-better-bases/releases/latest/download/BetterBases.dll"
-    ],
-    "AuthorUrl": "https://github.com/Xpazeman?tab=repositories",
-    "SupportUrl": "https://ko-fi.com/xpazeman",
-    "Categories": [
-      "Gameplay",
-      "Base Building",
-      "Overhaul",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-06-20",
-    "Updated": "2023-06-22",
-    "Images": [
-      "https://tld.xpazeapps.com/images/better_bases_0.jpg"
-    ],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "NEW: Added a system to add custom definitions so new objects can be added to the clutter pool, or modify existing ones\n- FIX: Fixed an error thrown on quitting",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/xpazeman.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
@@ -1250,12 +1402,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.1",
+    "Version": "1.2.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.1/BetterSkillXP.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.2/BetterSkillXP.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.1/BetterSkillXP.dll"
+      "https://github.com/RomainDeschampsFR/BetterSkillXP/releases/download/1.2.2/BetterSkillXP.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1263,11 +1415,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-04-05",
-    "Updated": "2026-02-07",
+    "Updated": "2026-05-19",
     "Images": [],
     "Status": {
       "working": true,
@@ -1367,8 +1519,8 @@
       "Base Building"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-03-07",
     "Updated": "2026-03-07",
@@ -1390,59 +1542,6 @@
     ]
   },
   {
-    "DisplayName": "双筒望远镜",
-    "Name": "Binoculars",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "让你看得更远。<br><br><a href='https://github.com/ds5678/Binoculars' target='_blank'>安装说明</a><br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "Binoculars",
-      "latest"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/Binoculars",
-    "RepoName": "Binoculars",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "4.4.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/ds5678/Binoculars/releases/latest",
-    "Downloads": [
-      "https://github.com/ds5678/Binoculars/releases/download/4.4.0/Binoculars.dll",
-      "https://github.com/ds5678/Binoculars/releases/download/4.4.0/Binoculars.modcomponent",
-      "https://github.com/ds5678/Binoculars/releases/latest"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
-    },
-    "Released": "",
-    "Updated": "2021-11-21",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "出血重制版",
     "Name": "BleedingRevamped",
     "Type": "mod",
@@ -1458,12 +1557,12 @@
     "ModUrl": "https://github.com/RomainDeschampsFR/BleedingRevamped",
     "RepoName": "BleedingRevamped",
     "Dependencies": [],
-    "Version": "2.2.1",
+    "Version": "2.2.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.1/BleedingRevamped.dll",
+    "Download": "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.2/BleedingRevamped.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.1/BleedingRevamped.dll"
+      "https://github.com/RomainDeschampsFR/BleedingRevamped/releases/download/2.2.2/BleedingRevamped.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -1471,11 +1570,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-11-07",
-    "Updated": "2026-02-09",
+    "Updated": "2026-05-25",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://user-images.githubusercontent.com/38351288/281925127-62f56906-2afb-4c01-9ac0-e7c64848f08e.png&s=600"
     ],
@@ -1562,12 +1661,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "1.2.2",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.3/BountifulForaging.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/V.1.2.2/BountifulForaging.zip"
+      "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.3/BountifulForaging.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -1577,18 +1676,18 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-15",
-    "Updated": "2025-09-20",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/oYzE4vg.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "A lot of stuff. Check changelog on the repo.",
+      "patchnotes": "Updated for latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -1779,12 +1878,12 @@
       "Modders' Gear Toolbox",
       "ExamineActionsAPI"
     ],
-    "Version": "2.2.1",
+    "Version": "2.2.3",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1FIX/CampingTools.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.3/CampingTools.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/V.2.2.1FIX/CampingTools.zip"
+      "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.3/CampingTools.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -1792,11 +1891,11 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-04-24",
-    "Updated": "2025-08-01",
+    "Updated": "2026-07-20",
     "Images": [
       "https://i.imgur.com/s4QXeLl.jpg"
     ],
@@ -1914,7 +2013,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
     ]
@@ -2062,8 +2161,8 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-02-21",
     "Updated": "2026-02-28",
@@ -2198,7 +2297,7 @@
     "Description": "允许您在开始新的沙盒游戏时选择起始位置。超过 300 个地点，涵盖所有区域和难度模式。完整说明请参阅 README 文件。",
     "Aliases": [
       "Choose Starting Location",
-      "v1.1"
+      "v1.2"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Ezinw/ChooseStartingLocation",
@@ -2206,12 +2305,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0",
+    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.2.0",
     "Downloads": [
-      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.1.0"
+      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.2.0"
     ],
     "AuthorUrl": "https://github.com/Ezinw",
     "SupportUrl": null,
@@ -2220,11 +2319,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-02-20",
-    "Updated": "2026-02-20",
+    "Updated": "2026-07-16",
     "Images": [
       "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/CSL.jpg"
     ],
@@ -2301,54 +2400,53 @@
     "DisplayName": "服装扩展",
     "Name": "ClothingExpanded",
     "Type": "mod",
-    "Author": "TonisGaming",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "TonisGaming"
+      "MooseMeat"
     ],
     "Description": "增加了将配饰与服装组合使用的方法，以便同时装备更多配饰。",
     "Aliases": [
-      "Clothing Expanded",
-      "V1.0"
+      "Clothing Expanded"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TonisGaming/ClothingExpanded",
+    "ModUrl": "https://github.com/moosemeat817/ClothingExpanded",
     "RepoName": "ClothingExpanded",
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "1.0.5",
-    "Error": true,
+    "Version": "1.1.0",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/TonisGaming/ClothingExpanded/releases/tag/V1.0.5",
+    "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip",
     "Downloads": [
-      "https://github.com/TonisGaming/ClothingExpanded/releases/tag/V1.0.5"
+      "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip"
     ],
-    "AuthorUrl": "https://github.com/TonisGaming",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Quality of Life",
       "Gear Items",
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.1"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "2024-05-14",
-    "Updated": "2024-05-19",
-    "Images": [],
+    "Released": "2026-03-28",
+    "Updated": "2026-03-28",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Clothing_Expanded.png"
+    ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
-      "issues": "Items may get duplicated when combining/uncombining clothing items."
+      "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
-    "GameVersion": [
-      "tftft"
-    ]
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "服装调整器 2",
@@ -2389,7 +2487,7 @@
     "Released": "2024-10-10",
     "Updated": "2026-01-16",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/39e8ca8ffb9f766d5b44dbf7cad8bff8e63bcdcd/pics/ClothingTweaker.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/ClothingTweaker.webp"
     ],
     "Status": {
       "working": true,
@@ -2408,35 +2506,41 @@
     "DisplayName": "海岸连接",
     "Name": "CoastalConnection",
     "Type": "mod",
-    "Author": "ds5678",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "ds5678"
+      "MooseMeat"
     ],
-    "Description": "通过共用道路连接沿海公路和布莱克湾。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "该模组通过共用道路将沿海公路和布莱克湾连接起来。",
     "Aliases": [
       "Coastal Connection"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/CoastalConnection",
+    "ModUrl": "https://github.com/moosemeat817/CoastalConnection",
     "RepoName": "CoastalConnection",
-    "Dependencies": [],
-    "Version": "1.0.0",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/CoastalConnection/releases/download/1.0.0/CoastalConnection.dll",
+    "Download": "https://github.com/moosemeat817/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll",
     "Downloads": [
-      "https://github.com/ds5678/CoastalConnection/releases/download/1.0.0/CoastalConnection.dll"
+      "https://github.com/moosemeat817/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll"
     ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
     "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.7.0.0"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2025-02-20",
-    "Images": [],
+    "Released": "2026-05-20",
+    "Updated": "2026-05-20",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/CoastalConnection.jpg"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -2444,12 +2548,9 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "PreviousAuthors": "ds5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "收藏卡",
@@ -2663,6 +2764,60 @@
     ]
   },
   {
+    "DisplayName": "美洲狮背包",
+    "Name": "CougarBackpack",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "一款美洲狮皮背包。升级版可选驼鹿皮斜挎包。",
+    "Aliases": [
+      "Cougar Backpack"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/CougarBackpack",
+    "RepoName": "CougarBackpack",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.0.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/CougarBackpack/releases/download/1.0.2/CougarBackpack.modcomponent",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/CougarBackpack/releases/download/1.0.2/CougarBackpack.modcomponent"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
+    "Categories": [
+      "Gear Items",
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-09",
+    "Updated": "2026-08-10",
+    "Images": [
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CougarBackpack/CougarBp1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Fixed repairable ingredient\nMade harvestable behavior",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "CougarSoundBegone",
     "Name": "CougarSoundBegone",
     "Type": "mod",
@@ -2732,12 +2887,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.4.3",
+    "Version": "1.4.4",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip",
+    "Download": "https://github.com/Jods-Its/CozyBlankets/releases/download/v.1.4.4/CozyBlankets.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/CozyBlankets/releases/download/V.1.4.3/CozyBlankets.zip"
+      "https://github.com/Jods-Its/CozyBlankets/releases/download/v.1.4.4/CozyBlankets.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -2745,11 +2900,11 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-21",
-    "Updated": "2025-08-02",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/nGMeJ68.jpg"
     ],
@@ -2977,53 +3132,6 @@
     ]
   },
   {
-    "DisplayName": "自定义保存数据实用程序",
-    "Name": "CustomSaveDataUtilities",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "用于自定义装备物品保存数据的实用模组。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "Custom Save Data Utilities"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/CustomSaveDataUtilities",
-    "RepoName": "CustomSaveDataUtilities",
-    "Dependencies": [],
-    "Version": "1.0.1",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/ds5678/CustomSaveDataUtilities/releases/download/1.0.1/CustomSaveDataUtilities.dll",
-    "Downloads": [
-      "https://github.com/ds5678/CustomSaveDataUtilities/releases/download/1.0.1/CustomSaveDataUtilities.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
-    },
-    "Released": "",
-    "Updated": "2021-10-12",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "自定义白色",
     "Name": "CustomWhiteout",
     "Type": "mod",
@@ -3185,55 +3293,54 @@
     ]
   },
   {
-    "DisplayName": "死寂",
-    "Name": "DeadAir",
+    "DisplayName": "DeadAirReborn",
+    "Name": "DeadAirReborn",
     "Type": "mod",
-    "Author": "TonisGaming",
+    "Author": "EtherSystem",
     "DisplayAuthor": [
-      "TonisGaming"
+      "EtherSystem"
     ],
-    "Description": "强烈建议仅在新存档中使用此功能。它会将整个大熊湖变成一片有毒的荒地，类似于ZoC的化学池。预计会出现问题。",
+    "Description": "TonisGaming制作的DeadAir模组的复兴",
     "Aliases": [
-      "Dead Air"
+      "DeadAirReborn"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TonisGaming/DeadAir",
-    "RepoName": "DeadAir",
+    "ModUrl": "https://github.com/EtherSystem/DeadAirReborn",
+    "RepoName": "DeadAirReborn",
     "Dependencies": [
-      "ModComponent"
+      "ModComponent",
+      "ModSettings",
+      "ModData"
     ],
-    "Version": "1.1",
+    "Version": "1.2.0",
     "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/TonisGaming/DeadAir/releases/download/BETA-1.1/DeadAir.zip",
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/DeadAirReborn/releases/latest/download/DeadAirReborn.zip",
     "Downloads": [
-      "https://github.com/TonisGaming/DeadAir/releases/download/BETA-1.1/DeadAir.zip"
+      "https://github.com/EtherSystem/DeadAirReborn/releases/latest/download/DeadAirReborn.zip"
     ],
-    "AuthorUrl": "https://github.com/TonisGaming",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
-      "Gameplay",
-      "Gear Items"
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.25",
-      "ml": "0.6.1"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
-    "Released": "2023-12-10",
-    "Updated": "2023-12-11",
+    "Released": "2026-07-13",
+    "Updated": "2026-07-13",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "",
-      "notes": "Unzip the downloaded file and place the files into the mods folder",
-      "issues": "Sometimes the masks filter doesn't drain\nThe improvised filter sometimes stops functioning"
+      "patchnotes": "Updated for 2.55. Filters drain can be set on IN-GAME TIME I wanted. Integration of ModData for starter kit persistence.",
+      "notes": "",
+      "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
-    "GameVersion": [
-      "tftft"
-    ]
+    "PreviousAuthors": "TonisGaming",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "开发者控制台",
@@ -3248,8 +3355,7 @@
     ],
     "Description": "此模组允许在游戏内访问 Hinterland 的开发者控制台。按 F1 打开/关闭控制台，输入“help”查看命令列表。",
     "Aliases": [
-      "DeveloperConsole",
-      "DeveloperConsole_1.8.2"
+      "DeveloperConsole"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/",
@@ -3257,12 +3363,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.8.2",
+    "Version": "1.8.8",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.2/DeveloperConsole_1.8.2.zip",
+    "Download": "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.8/DeveloperConsole.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.2/DeveloperConsole_1.8.2.zip"
+      "https://github.com/DigitalzombieTLD/TLD-Developer-Console/releases/download/v1.8.8/DeveloperConsole.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -3271,11 +3377,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.54",
       "ml": "0.7.2.0"
     },
     "Released": "2023-04-02",
-    "Updated": "2026-01-03",
+    "Updated": "2026-04-22",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsole.jpg"
     ],
@@ -3308,12 +3414,12 @@
     "ModUrl": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute",
     "RepoName": "DeveloperConsoleWintermute",
     "Dependencies": [],
-    "Version": "1.7.0",
+    "Version": "1.7.2",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.0/DeveloperConsoleWintermute.dll",
+    "Download": "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.2/DeveloperConsoleWintermute.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.0/DeveloperConsoleWintermute.dll"
+      "https://github.com/DigitalzombieTLD/DeveloperConsoleWintermute/releases/download/v1.7.2/DeveloperConsoleWintermute.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -3326,7 +3432,7 @@
       "ml": "0.7.2.0"
     },
     "Released": "2026-03-21",
-    "Updated": "2026-03-21",
+    "Updated": "2026-04-01",
     "Images": [
       "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsolewintermute.jpg"
     ],
@@ -3341,55 +3447,6 @@
     "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "消除幽闭恐惧症",
-    "Name": "DisableCabinFever",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "禁用所有游戏模式下的“幽闭恐惧症”效果。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "DisableCabinFever",
-      "Disable Cabin Fever",
-      "Disable-Cabin-Fever"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/Disable-Cabin-Fever",
-    "RepoName": "DisableCabinFever",
-    "Dependencies": [],
-    "Version": "4.0.1",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/Disable-Cabin-Fever/releases/download/4.0.1/Disable-Cabin-Fever.dll",
-    "Downloads": [
-      "https://github.com/ds5678/Disable-Cabin-Fever/releases/download/4.0.1/Disable-Cabin-Fever.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
-    },
-    "Released": "",
-    "Updated": "2021-06-17",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
@@ -3574,12 +3631,12 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.2.2",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.2.2/DynamicTrees.dll",
+    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll",
     "Downloads": [
-      "https://github.com/Fuar11/DynamicTrees/releases/download/1.2.2/DynamicTrees.dll"
+      "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -3587,11 +3644,11 @@
       "Graphics"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.57",
       "ml": "0.7.2"
     },
     "Released": "2023-11-14",
-    "Updated": "2026-01-06",
+    "Updated": "2026-07-14",
     "Images": [
       "https://i.imgur.com/zdZMjCh.jpg"
     ],
@@ -3629,12 +3686,12 @@
       "ModData",
       "AudioManager"
     ],
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/DynamicWorld/releases/download/1.0.1/DynamicWorld.zip",
+    "Download": "https://github.com/Fuar11/DynamicWorld/releases/download/1.1.0/DynamicWorld.dll",
     "Downloads": [
-      "https://github.com/Fuar11/DynamicWorld/releases/download/1.0.1/DynamicWorld.zip"
+      "https://github.com/Fuar11/DynamicWorld/releases/download/1.1.0/DynamicWorld.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -3642,11 +3699,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.33",
-      "ml": "0.6.6"
+      "tld": "2.57",
+      "ml": "0.7.2"
     },
     "Released": "2024-07-24",
-    "Updated": "2024-12-03",
+    "Updated": "2026-07-12",
     "Images": [],
     "Status": {
       "working": true,
@@ -3784,12 +3841,12 @@
     "ModUrl": "https://github.com/No3371/TLD-ExamineActionsAPI",
     "RepoName": "ExamineActionsAPI",
     "Dependencies": [],
-    "Version": "2.0.7",
+    "Version": "2.0.8",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.7/ExamineActionsAPI.dll",
+    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ExamineActionsAPI.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.7/ExamineActionsAPI.dll"
+      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ExamineActionsAPI.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -3798,11 +3855,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-07-07",
-    "Updated": "2026-01-21",
+    "Updated": "2026-07-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -3868,6 +3925,103 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "扩展技能",
+    "Name": "ExpandedSkills",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "一个将原版技能等级扩展至最多 10 级的模组。",
+    "Aliases": [
+      "ExpandedSkills"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/ExpandedSkills",
+    "RepoName": "ExpandedSkills",
+    "Dependencies": [
+      "ModData"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-01",
+    "Updated": "2026-08-01",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "扩展交易框架",
+    "Name": "ExpandedTradingFramework",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "为交易者创建自定义交易的框架。",
+    "Aliases": [
+      "ExpandedTradingFramework"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/ExpandedTradingFramework",
+    "RepoName": "ExpandedTradingFramework",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/ExpandedTradingFramework/releases/latest/download/ExpandedTradingFramework.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/ExpandedTradingFramework/releases/latest/download/ExpandedTradingFramework.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-06-22",
+    "Updated": "2026-07-24",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "Fix some icon/SR issues",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "出口期刊",
@@ -3977,8 +4131,7 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -4030,6 +4183,63 @@
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "快速旅行",
+    "Name": "FastTravel",
+    "Type": "mod",
+    "Author": "Pathoschild",
+    "DisplayAuthor": [
+      "Pathoschild"
+    ],
+    "Description": "<p>允许你保存任意数量的地点，并随时一键快速旅行到这些地点。包含物品平衡选项。例如，你可以在探索世界时拥有一个固定的大本营，而无需将你的物品逐个运送到各个区域，省去了繁琐的步骤。</p><p>请参阅<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">readme文件</a>并<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#save-safety\">保存安全设置</a>以获取更多信息。</p>",
+    "Aliases": [
+      "Fast Travel"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme",
+    "RepoName": "FastTravel",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F1.0.0/FastTravel.dll",
+    "Downloads": [
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F1.0.0/FastTravel.dll"
+    ],
+    "AuthorUrl": "https://github.com/Pathoschild",
+    "SupportUrl": "https://www.patreon.com/Pathoschild",
+    "Categories": [
+      "Gameplay",
+      "Utility Mod",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-19",
+    "Updated": "2026-05-30",
+    "Images": [
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/travel.png",
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/pause-menu-2.png",
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/config.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Added new GUI to manage fast travel destinations. Added support for naming and reordering destinations. Added support for any number of destinations beyond 9. Fixed wrong region name shown on-screen when traveling across regions. The mod is no longer experimental.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "更快的收割",
@@ -4084,55 +4294,6 @@
     "GameVersion": [
       "vanilla"
     ]
-  },
-  {
-    "DisplayName": "搜索速度更快",
-    "Name": "FasterSearching",
-    "Type": "mod",
-    "Author": "MikeyPdog",
-    "DisplayAuthor": [
-      "MikeyPdog",
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "加快对容器的搜索速度，使空容器的搜索速度达到瞬时完成。",
-    "Aliases": [
-      "Faster Searching"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/FasterSearching",
-    "RepoName": "FasterSearching",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/FasterSearching/releases/download/v1.3/FasterSearching.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/FasterSearching/releases/download/v1.3/FasterSearching.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life"
-    ],
-    "TestedOn": {
-      "tld": "2.10",
-      "ml": "0.6.0"
-    },
-    "Released": "2018-06-10",
-    "Updated": "2023-04-04",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "脂肪破坏者",
@@ -4313,12 +4474,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "2.7.1",
+    "Version": "2.7.2",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/V.2.7.1/FirePack.zip",
+    "Download": "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/v.2.7.2/FirePack.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/V.2.7.1/FirePack.zip"
+      "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/v.2.7.2/FirePack.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -4327,18 +4488,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-19",
-    "Updated": "2024-06-28",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/NxKjE7P.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added French and Turkish localizations. Updated bowdrill. Updated Russian and Italian localizations. Bug fixes.",
+      "patchnotes": "Updated for latest version.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -4475,12 +4636,12 @@
       "ModComponent",
       "AlcoholMod"
     ],
-    "Version": "6.3",
+    "Version": "6.4",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.3/FoodPackByTKG.7z",
+    "Download": "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.4/FoodPackByTKG.7z",
     "Downloads": [
-      "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.3/FoodPackByTKG.7z"
+      "https://github.com/Thekillergreece/FoodPackByTKG/releases/download/v6.4/FoodPackByTKG.7z"
     ],
     "AuthorUrl": "https://github.com/Thekillergreece",
     "SupportUrl": null,
@@ -4488,18 +4649,18 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-04-11",
-    "Updated": "2026-01-21",
+    "Updated": "2026-07-19",
     "Images": [
       "https://i.imgur.com/daZdf7U.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Version 6.3 - Added a new item and some fixes.",
+      "patchnotes": "Version 6.4 - Added a new item and some fixes.",
       "notes": "Just drop the content into the mods folder.",
       "issues": ""
     },
@@ -4601,8 +4762,7 @@
     "Released": "2021-09-12",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Foods.png",
-      "https://i.imgur.com/i3JowEX.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Foods.webp"
     ],
     "Status": {
       "working": true,
@@ -4625,10 +4785,10 @@
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "Forager&#39;s Delight mod 为一些服装物品添加了少量（可自定义的）负重加成。",
+    "Description": "Forager&#39;s Delight mod 为所有服装物品添加少量（可自定义）负重加成。",
     "Aliases": [
       "ForagersDelight",
-      "Forager.s.Delight"
+      "v1.3"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/Forager-s-Delight",
@@ -4636,12 +4796,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.2.0/Forager.s.Delight.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/tag/v1.3.0",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/download/v1.2.0/Forager.s.Delight.dll"
+      "https://github.com/Sm4rtBoyTom/Forager-s-Delight/releases/tag/v1.3.0"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -4655,14 +4815,12 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-10-05",
-    "Updated": "2026-01-04",
-    "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ForagersDelight.jpg"
-    ],
+    "Updated": "2026-06-25",
+    "Images": [],
     "Status": {
       "working": true,
       "beta": false,
@@ -4710,8 +4868,8 @@
       "Quality Of Life"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-06-15",
     "Updated": "2023-06-15",
@@ -4957,9 +5115,10 @@
     "Dependencies": [
       "ModSettings",
       "ModComponent",
-      "ComplexLogger"
+      "ComplexLogger",
+      "ExamineActionsAPI"
     ],
-    "Version": "1.2.30",
+    "Version": "1.2.31",
     "Error": false,
     "AutoUpdate": false,
     "Download": "https://github.com/Arkhorse/FuelManager/releases",
@@ -4980,7 +5139,7 @@
       "ml": "0.7.2"
     },
     "Released": "2023-05-12",
-    "Updated": "2026-01-27",
+    "Updated": "2026-05-27",
     "Images": [],
     "Status": {
       "working": true,
@@ -5138,7 +5297,7 @@
     "Released": "2025-05-26",
     "Updated": "2026-02-14",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/4d56185b662f51df77ee6a0f20ecfcb951530962/pics/GearInfo.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/GearInfo.webp"
     ],
     "Status": {
       "working": true,
@@ -5184,8 +5343,8 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-26",
     "Updated": "2026-01-26",
@@ -5375,7 +5534,7 @@
     "Description": "启用/禁用用户界面的某些部分，以获得更沉浸式的体验。",
     "Aliases": [
       "HUDTweaks",
-      "v2.0"
+      "releases"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/HUDTweaks",
@@ -5383,12 +5542,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.0.0",
+    "Version": "2.0.1",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/tag/v2.0.0",
+    "Download": "https://github.com/Sm4rtBoyTom/HUDTweaks/releases",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/HUDTweaks/releases/tag/v2.0.0"
+      "https://github.com/Sm4rtBoyTom/HUDTweaks/releases"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -5400,14 +5559,12 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-01-02",
-    "Updated": "2026-2-24",
-    "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_HUDTweals.jpg"
-    ],
+    "Updated": "2026-07-09",
+    "Images": [],
     "Status": {
       "working": true,
       "beta": false,
@@ -5558,8 +5715,8 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-22",
     "Updated": "2026-02-01",
@@ -5575,54 +5732,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "房屋地下室",
-    "Name": "HouseBasements",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "为游戏增加一些地下室。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "House Basements"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/HouseBasements",
-    "RepoName": "HouseBasements",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.2.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/ds5678/HouseBasements/releases/download/1.2.0/HouseBasements.dll",
-    "Downloads": [
-      "https://github.com/ds5678/HouseBasements/releases/download/1.2.0/HouseBasements.dll"
-    ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.00",
-      "ml": "0.5.4.0"
-    },
-    "Released": "",
-    "Updated": "2022-07-22",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": "The scenes required for this mod were removed in 2.03, so this cannot be updated."
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -5747,12 +5856,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "2.1.0",
+    "Version": "2.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll",
+    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.0/HungerRevamped.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.1.0/HungerRevamped.dll"
+      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.0/HungerRevamped.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -5761,11 +5870,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2018-03-31",
-    "Updated": "2026-02-28",
+    "Updated": "2026-08-08",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_bar_fill_levels.png",
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_and_stored_calories.png"
@@ -5773,7 +5882,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated for current version.\nFixed Harvest Can.\nAdded a feature which gives you a recycled can when used one up in a cooking recipe.\nMade debug logging off by default.",
+      "patchnotes": "- calorie reserves needs 80% full hunger bar to build bodyfat (from 60%)\n- max carrying capacity buff from Well fed is now customizable through ModSettings\n- optional Vitamin C level message after eating",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -5782,6 +5891,56 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "亨特广播",
+    "Name": "HuntBroadcast",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "伤害和击杀信息广播",
+    "Aliases": [
+      "HuntBroadcast"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/HuntBroadcast",
+    "RepoName": "HuntBroadcast",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/HuntBroadcast/releases/download/v1.0.0/HuntBroadcast.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/HuntBroadcast/releases/download/v1.0.0/HuntBroadcast.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-23",
+    "Updated": "2026-05-23",
+    "Images": [
+      "https://raw.githubusercontent.com/hzb1130/HuntBroadcast/main/1.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "改善的痛苦",
@@ -5804,12 +5963,12 @@
       "ModSettings",
       "AfflictionComponent"
     ],
-    "Version": "3.1.3",
+    "Version": "3.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.3/ImprovedAfflictions.dll",
+    "Download": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.2.0/ImprovedAfflictions.dll",
     "Downloads": [
-      "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.1.3/ImprovedAfflictions.dll"
+      "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.2.0/ImprovedAfflictions.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -5817,11 +5976,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-07-22",
-    "Updated": "2026-01-06",
+    "Updated": "2026-04-25",
     "Images": [],
     "Status": {
       "working": true,
@@ -5911,12 +6070,12 @@
       "Expanded AI Framework",
       "AudioManager"
     ],
-    "Version": "2.0.1",
+    "Version": "2.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.1",
+    "Download": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.2",
     "Downloads": [
-      "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.1"
+      "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.2"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -5924,11 +6083,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.40",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2024-12-12",
-    "Updated": "2025-11-28",
+    "Updated": "2026-07-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -6016,7 +6175,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.3.2",
+    "Version": "1.4.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Fuar11/ImprovedLoadingScreens/releases/latest/download/ImprovedLoadingScreens.dll",
@@ -6029,11 +6188,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.57",
       "ml": "0.7.2"
     },
     "Released": "",
-    "Updated": "2025-01-06",
+    "Updated": "2026-07-14",
     "Images": [],
     "Status": {
       "working": true,
@@ -6064,12 +6223,12 @@
     "ModUrl": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/",
     "RepoName": "ImprovedMagnifyingLens",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.1/ImprovedMagnifyingLens.dll",
+    "Download": "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.2/ImprovedMagnifyingLens.dll",
     "Downloads": [
-      "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.1/ImprovedMagnifyingLens.dll"
+      "https://github.com/RomainDeschampsFR/ImprovedMagnifyingLens/releases/download/1.0.2/ImprovedMagnifyingLens.dll"
     ],
     "AuthorUrl": "https://github.com/RomainDeschampsFR?tab=repositories",
     "SupportUrl": null,
@@ -6078,11 +6237,11 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-04-01",
-    "Updated": "2026-02-07",
+    "Updated": "2026-07-06",
     "Images": [
       "https://tldmods.com/thumb.php?u=https://github.com/user-attachments/assets/e9fea722-f788-4eda-80bf-0ee28e2d6b63&s=600"
     ],
@@ -6226,7 +6385,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.2.2",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Fuar11/ImprovedTales/releases/latest",
@@ -6240,11 +6399,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.57",
       "ml": "0.7.2"
     },
     "Released": "2023-04-11",
-    "Updated": "2026-01-06",
+    "Updated": "2026-07-12",
     "Images": [],
     "Status": {
       "working": true,
@@ -6257,6 +6416,104 @@
     "GameVersion": [
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "改进型交易员",
+    "Name": "ImprovedTrader",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款游戏玩法模组，为游戏世界添加了新的交易箱，并对交易系统进行了其他调整。",
+    "Aliases": [
+      "Improved Trader",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedTrader",
+    "RepoName": "ImprovedTrader",
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedTrader/releases/latest/",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedTrader/releases/latest/"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-23",
+    "Updated": "2026-04-23",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "改进型急救小组",
+    "Name": "ImprovedFirstAidPanel",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "提升生活质量的小改进：优化急救面板，增加身体部位过滤和直接治疗按钮，使其更易于使用。",
+    "Aliases": [
+      "ImprovedFirstAidPanel"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/ImprovedFirstAidPanel",
+    "RepoName": "ImprovedFirstAidPanel",
+    "Dependencies": [],
+    "Version": "1.0.5",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/ImprovedFirstAidPanel/releases/latest/download/ImprovedFirstAidPanel.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/ImprovedFirstAidPanel/releases/latest/download/ImprovedFirstAidPanel.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-02",
+    "Updated": "2026-06-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "fix issues with intestinal parasites",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "门内温度",
@@ -6381,12 +6638,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "3.1.1",
+    "Version": "3.1.2",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/V.3.1.1/IndoorsGreenery.zip"
+      "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -6395,11 +6652,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-04-30",
-    "Updated": "2025-08-01",
+    "Updated": "2026-07-15",
     "Images": [
       "https://imgur.com/9TpDA41.jpg"
     ],
@@ -6468,100 +6725,44 @@
     ]
   },
   {
-    "DisplayName": "无限之火",
+    "DisplayName": "无尽之火",
     "Name": "InfiniteFires",
     "Type": "mod",
-    "Author": "Digitalzombie",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Digitalzombie"
+      "MooseMeat"
     ],
-    "Description": "使用鼠标中键将火势设置为无限持续。",
+    "Description": "自世界运转以来，它就一直在燃烧。",
     "Aliases": [
-      "InfiniteFiresDLC",
-      "InfiniteFires",
-      "InfiniteFires"
+      "Infinite Fires",
+      "InfiniteFiresDLC"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/DigitalzombieTLD/InfiniteFiresDLC",
+    "ModUrl": "https://github.com/moosemeat817/InfiniteFires",
     "RepoName": "InfiniteFires",
     "Dependencies": [
-      "AlternativeActionUtilities"
+      ""
     ],
-    "Version": "1.3.0",
+    "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/InfiniteFiresDLC/releases/download/v1.3.0/InfiniteFiresDLC.dll",
+    "Download": "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/InfiniteFiresDLC/releases/download/v1.3.0/InfiniteFiresDLC.dll"
+      "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll"
     ],
-    "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.32",
-      "ml": "0.6.1.0"
-    },
-    "Released": "2023-04-12",
-    "Updated": "2023-04-12",
-    "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_infinitefires.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "室内墙面装饰",
-    "Name": "InteriorWallDecorations",
-    "Type": "mod",
-    "Author": "Atlas Lumi",
-    "DisplayAuthor": [
-      "Atlas Lumi",
-      "Thekillergreece"
-    ],
-    "Description": "允许你用图片装饰你的基地，并上传你自己的图片。",
-    "Aliases": [
-      "Interior Wall Decorations"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Atlas-Lumi/InteriorWallDecorations",
-    "RepoName": "InteriorWallDecorations",
-    "Dependencies": [
-      "ModComponent"
-    ],
-    "Version": "2.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Atlas-Lumi/InteriorWallDecorations/releases/download/v2.0/InteriorWallDecorations.zip",
-    "Downloads": [
-      "https://github.com/Atlas-Lumi/InteriorWallDecorations/releases/download/v2.0/InteriorWallDecorations.zip"
-    ],
-    "AuthorUrl": "https://github.com/Atlas-Lumi",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.12",
-      "ml": "0.6.0.1"
+      "tld": "2.52",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2023-04-19",
+    "Released": "2026-04-04",
+    "Updated": "2026-04-08",
     "Images": [
-      "https://github.com/stmSantana/InteriorWallDecorations/blob/main/Images/Gallery/Gallery.jpg?raw=true"
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/list_icon_infinitefires.jpg"
     ],
     "Status": {
       "working": true,
@@ -6570,8 +6771,59 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "stmSantana",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/atlaslumi.json",
+    "PreviousAuthors": "DigitalZombie",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "室内墙面装饰",
+    "Name": "MyPicturesMod",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "允许你用图片装饰你的基地，并上传你自己的图片。",
+    "Aliases": [
+      "Interior Wall Decorations",
+      "InteriorWallDecorations"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/InteriorWallDecorations",
+    "RepoName": "MyPicturesMod",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "2.1.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-26",
+    "Updated": "2026-03-26",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/IWD1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Atlas Lumi, Thekillergreece, stmSantana",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
       "tftft"
     ]
@@ -6640,7 +6892,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -6648,23 +6900,23 @@
       "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-10-23",
-    "Updated": "2026-03-24",
+    "Updated": "2026-04-23",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/InterloperHUDPro.PNG"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "New display HUD for the active scene",
       "notes": "",
       "issues": ""
     },
@@ -6740,12 +6992,12 @@
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "3.0.0",
+    "Version": "3.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.0/ItemPiles.modcomponent",
+    "Download": "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent",
     "Downloads": [
-      "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.0/ItemPiles.modcomponent"
+      "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -6757,7 +7009,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-03-17",
-    "Updated": "2026-03-17",
+    "Updated": "2026-07-03",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/item-pile-mod-title.jpg"
     ],
@@ -6899,25 +7151,26 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.2",
+    "Version": "1.0.5",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.2/ItemScanner.dll",
+    "Download": "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.5/ItemScanner.dll",
     "Downloads": [
-      "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.2/ItemScanner.dll"
+      "https://github.com/hzb1130/ItemScanner/releases/latest/download/ItemScanner.dll",
+      "https://github.com/hzb1130/ItemScanner/releases/download/v1.0.5/ItemScanner.dll"
     ],
     "AuthorUrl": "https://github.com/hzb1130",
     "SupportUrl": null,
     "Categories": [
-      "Gameplay",
-      "Quality of Life"
+      "Quality of Life",
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-02-10",
-    "Updated": "2026-02-26",
+    "Updated": "2026-05-23",
     "Images": [
       "https://raw.githubusercontent.com/hzb1130/ItemScanner/main/images/3.1.png"
     ],
@@ -6929,7 +7182,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_hzb1130.json",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
     "GameVersion": []
   },
   {
@@ -6970,7 +7223,7 @@
     "Released": "2023-01-07",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Jump.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Jump.webp"
     ],
     "Status": {
       "working": true,
@@ -7092,53 +7345,56 @@
     "DisplayName": "皮革制品",
     "Name": "Leatherworks",
     "Type": "mod",
-    "Author": "TonisGaming",
+    "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
-      "TonisGaming"
+      "Sm4rtBoyTom"
     ],
     "Description": "新增了从兽皮中再生皮革的方法，可以制作某些皮革服装，还新增了树皮，树皮可用于制作面粉、食物和绳索等多种用途。",
     "Aliases": [
       "Leatherworks",
-      "V1.2"
+      "v1.3"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TonisGaming/Leatherworks",
+    "ModUrl": "https://github.com/Sm4rtBoyTom/Leatherworks",
     "RepoName": "Leatherworks",
     "Dependencies": [
       "ModSettings",
-      "ModComponent",
-      "Modders' Gear Toolbox"
+      "ModComponent"
     ],
-    "Version": "1.2.5",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/TonisGaming/Leatherworks/releases/tag/V1.2.5",
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.0",
     "Downloads": [
-      "https://github.com/TonisGaming/Leatherworks/releases/tag/V1.2.5"
+      "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.0"
     ],
-    "AuthorUrl": "https://github.com/TonisGaming",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/Sm4rtBoyTom",
+    "SupportUrl": "https://ko-fi.com/sm4rtboytom",
     "Categories": [
       "Quality of Life",
+      "Gameplay",
       "Gear Items",
-      "Clothing"
+      "Clothing",
+      "Food",
+      "Overhaul",
+      "Misc"
     ],
     "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.1"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-11-28",
-    "Updated": "2024-06-27",
+    "Updated": "2026-07-17",
     "Images": [],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "Unzip the downloaded file, then drop the files into the mods folder. Also has a Camping Tools version ",
-      "issues": ""
+      "notes": "",
+      "issues": "Unstable pre-release, issues are expected"
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "PreviousAuthors": "TonisGaming",
+    "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
     "GameVersion": [
       "tftft"
     ]
@@ -7398,51 +7654,56 @@
     ]
   },
   {
-    "DisplayName": "地图制作工具",
-    "Name": "MapMakerTools",
+    "DisplayName": "重大苦难",
+    "Name": "MajorMiseries",
     "Type": "mod",
-    "Author": "ds5678",
+    "Author": "EtherSystem",
     "DisplayAuthor": [
-      "ds5678"
+      "EtherSystem",
+      "Flower Field"
     ],
-    "Description": "辅助绘制《漫漫长夜》地形图的模组",
+    "Description": "新增 18 种主要负面状态和 1 种增益状态。",
     "Aliases": [
-      "Map Maker Tools"
+      "MajorMiseries"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/Map-Maker-Tools",
-    "RepoName": "MapMakerTools",
-    "Dependencies": [],
-    "Version": "4.0.0",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/Map-Maker-Tools/releases/download/4.0.0/MapMakerTools.dll",
-    "Downloads": [
-      "https://github.com/ds5678/Map-Maker-Tools/releases/download/4.0.0/MapMakerTools.dll"
+    "ModUrl": "https://github.com/EtherSystem/MajorMiseries",
+    "RepoName": "MajorMiseries",
+    "Dependencies": [
+      "AfflictionComponent",
+      "ModComponent",
+      "ModSettings",
+      "ModData"
     ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
+    "Version": "1.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Gameplay"
+    ],
     "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2021-02-19",
+    "Released": "2026-05-14",
+    "Updated": "2026-07-08",
     "Images": [],
     "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
+      "working": true,
+      "beta": true,
+      "patchnotes": "Fixed an issue causing the player to fall out of the map after a sleepwalking event",
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "地图管理器",
@@ -7496,9 +7757,55 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
+  },
+  {
+    "DisplayName": "地图图标修复",
+    "Name": "MapIconFix",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "修复了采集后地图上植物采集图标不会消失的问题。",
+    "Aliases": [
+      "MapIconFix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/MapIconFix",
+    "RepoName": "MapIconFix",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/MapIconFix/releases/download/v1.0.0/MapIconFix.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/MapIconFix/releases/download/v1.0.0/MapIconFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-15",
+    "Updated": "2026-04-15",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "工具箱",
@@ -7516,7 +7823,7 @@
     "ModUrl": "https://github.com/monsieurmeh/MehToolBox",
     "RepoName": "MehToolBox",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll",
@@ -7529,11 +7836,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
-    "Released": "2026-2-4",
-    "Updated": "2026-2-4",
+    "Released": "2026-4-1",
+    "Updated": "2026-4-1",
     "Images": [],
     "Status": {
       "working": true,
@@ -7549,6 +7856,58 @@
     ]
   },
   {
+    "DisplayName": "关爱邻里",
+    "Name": "MindfulNeighborhood",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "此模组在静心小屋区域新增了保安小屋、钓鱼小屋、储物棚和猎人隐蔽处。它还将静心小屋内的炉灶替换成了壁炉。最后，它将小屋从贾斯蒂的棚屋移到了静心小屋区域。",
+    "Aliases": [
+      "Mindful Neighborhood"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/MindfulNeighborhood",
+    "RepoName": "MindfulNeighborhood",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.1.0/MindfulNeighborhood.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.1.0/MindfulNeighborhood.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-05",
+    "Updated": "2026-07-08",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/MindfulNeighborhood.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "小苦难系列",
     "Name": "MinorMiseries",
     "Type": "mod",
@@ -7557,7 +7916,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "新增14种轻微疾病。",
+    "Description": "新增 14 种轻微负面状态和 3 种增益状态。",
     "Aliases": [
       "MinorMiseries",
       "Minor_Miseries"
@@ -7571,7 +7930,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.4.0",
+    "Version": "1.5.10",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -7579,23 +7938,23 @@
       "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-03-02",
+    "Updated": "2026-07-22",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "",
+      "patchnotes": "Balancing patch for scratch/splinter/backpain",
       "notes": "",
       "issues": ""
     },
@@ -7772,19 +8131,18 @@
     ],
     "Description": "允许其他模组在游戏内显示其设置。此模组本身不具备任何功能，仅应作为其他模组的依赖项使用。感谢 zeobviouslyfakeacc 的辛勤付出！",
     "Aliases": [
-      "ModSettings",
-      "ModSettings_2.2.2"
+      "ModSettings"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/DigitalzombieTLD/ModSettings/",
     "RepoName": "ModSettings",
     "Dependencies": [],
-    "Version": "2.2.2",
+    "Version": "2.2.5",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.2/ModSettings_2.2.2.zip",
+    "Download": "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.5/ModSettings.dll",
     "Downloads": [
-      "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.2/ModSettings_2.2.2.zip"
+      "https://github.com/DigitalzombieTLD/ModSettings/releases/download/v2.2.5/ModSettings.dll"
     ],
     "AuthorUrl": "https://github.com/DigitalzombieTLD?tab=repositories",
     "SupportUrl": null,
@@ -7792,18 +8150,18 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2.0"
     },
     "Released": "2023-06-22",
-    "Updated": "2026-01-03",
+    "Updated": "2026-04-02",
     "Images": [
       "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/list_icon_modsettings.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "TLD 2.51",
+      "patchnotes": "Stuff",
       "notes": "",
       "issues": ""
     },
@@ -7832,12 +8190,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.0.4",
+    "Version": "1.0.6",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip",
+    "Download": "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v.1.0.6/ModdersGearToolbox.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/V.1.0.4/ModdersGearToolbox.zip"
+      "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v.1.0.6/ModdersGearToolbox.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -7847,18 +8205,18 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.44",
-      "ml": "0.6.6"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-07-27",
-    "Updated": "2025-09-05",
+    "Updated": "2026-07-16",
     "Images": [
       "https://i.imgur.com/4WpvfIK.png"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated to latest version.",
+      "patchnotes": "Fixed NoBones bug.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -7887,12 +8245,12 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-Moment/releases/download/1.0.7/Moment.dll",
+    "Download": "https://github.com/No3371/TLD-Moment/releases/download/1.0.8/Moment.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-Moment/releases/download/1.0.7/Moment.dll"
+      "https://github.com/No3371/TLD-Moment/releases/download/1.0.8/Moment.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -7900,11 +8258,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
     "Released": "2023-05-29",
-    "Updated": "2026-01-08",
+    "Updated": "2026-04-06",
     "Images": [],
     "Status": {
       "working": true,
@@ -8129,6 +8487,55 @@
     ]
   },
   {
+    "DisplayName": "更多燃料加速剂",
+    "Name": "MoreFuelAccelerant",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "以引火物、木炭和油脂为燃料。助燃剂消耗较慢。",
+    "Aliases": [
+      "MoreFuelAccelerant",
+      "More_Fuels_Accelerants"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/More-fuel-accelerant",
+    "RepoName": "MoreFuelAccelerant",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.4.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/More-fuel-accelerant/releases/download/v1.4.0/More_Fuels_Accelerants.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/More-fuel-accelerant/releases/download/v1.4.0/More_Fuels_Accelerants.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-11",
+    "Updated": "2026-04-11",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "莫尔伍德",
     "Name": "MoreWood",
     "Type": "mod",
@@ -8186,6 +8593,61 @@
     ]
   },
   {
+    "DisplayName": "运动追踪器",
+    "Name": "MotionTracker",
+    "Type": "mod",
+    "Author": "okclm",
+    "DisplayAuthor": [
+      "okclm"
+    ],
+    "Description": "添加一个小地图，可以显示动物、喷漆标记和选定的装备。",
+    "Aliases": [
+      "MotionTracker"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/okclm/MotionTracker",
+    "RepoName": "MotionTracker",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.4.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/okclm/MotionTracker/releases/download/v1.4.0/MotionTracker.dll",
+    "Downloads": [
+      "https://github.com/okclm/MotionTracker/releases/download/v1.4.0/MotionTracker.zip",
+      "https://github.com/okclm/MotionTracker/releases/download/v1.4.0/MotionTracker.dll"
+    ],
+    "AuthorUrl": "https://github.com/okclm?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2.0"
+    },
+    "Released": "2023-04-16",
+    "Updated": "2026-06-27",
+    "Images": [
+      "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/list_icon_motiontracker.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "TLD 2.55 / Added ability to control the radar mini map placement on the screen.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Digitalzombie",
+    "Source": "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/okclm_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "肌肉",
     "Name": "Muscle",
     "Type": "mod",
@@ -8205,12 +8667,12 @@
       "ModData",
       "Moment"
     ],
-    "Version": "1.0.9",
+    "Version": "1.0.10",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-Muscle/releases/download/1.0.9/Muscle.dll",
+    "Download": "https://github.com/No3371/TLD-Muscle/releases/download/1.0.10/Muscle.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-Muscle/releases/download/1.0.9/Muscle.dll"
+      "https://github.com/No3371/TLD-Muscle/releases/download/1.0.10/Muscle.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -8218,11 +8680,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.52",
       "ml": "0.7.2"
     },
     "Released": "2023-05-29",
-    "Updated": "2026-01-11",
+    "Updated": "2026-04-06",
     "Images": [],
     "Status": {
       "working": true,
@@ -8238,50 +8700,201 @@
     ]
   },
   {
-    "DisplayName": "非操作手电筒",
-    "Name": "NonOPTorches",
+    "DisplayName": "没有凯恩斯",
+    "Name": "NoCairns",
     "Type": "mod",
-    "Author": "Deus",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Deus"
+      "MooseMeat"
     ],
-    "Description": "这个模组降低了火把的威力。",
+    "Description": "一个可以禁用所有石堆的模组。",
     "Aliases": [
-      "Non-OP Torches",
-      "Non-OP-Torches"
+      "No Cairns"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Deus13/Non-OP-Torches",
-    "RepoName": "NonOPTorches",
+    "ModUrl": "https://github.com/moosemeat817/NoCairns",
+    "RepoName": "NoCairns",
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.1.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/Deus13/Non-OP-Torches/releases/download/2.1.0/Non-OP-Torches.dll",
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/NoCairns/releases/download/1.0.0/NoCairns.dll",
     "Downloads": [
-      "https://github.com/Deus13/Non-OP-Torches/releases/download/2.1.0/Non-OP-Torches.dll"
+      "https://github.com/moosemeat817/NoCairns/releases/download/1.0.0/NoCairns.dll"
     ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
     "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2021-06-18",
-    "Images": [],
+    "Released": "2026-05-29",
+    "Updated": "2026-05-29",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/NoCairns.png"
+    ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "无收割动画",
+    "Name": "NoHarvestAnimations",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "禁用第一人称视角下的猎物尸体收割和分割动画。",
+    "Aliases": [
+      "No Harvest Animations"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/NoHarvestAnimations",
+    "RepoName": "NoHarvestAnimations",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/NoHarvestAnimations/releases/latest/download/NoHarvestAnimations.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/NoHarvestAnimations/releases/latest/download/NoHarvestAnimations.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-06-27",
+    "Updated": "2026-06-27",
+    "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Usage.png",
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Settings.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "无摄像机摇摆",
+    "Name": "NoCameraSway",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "摄像机将停止晃动",
+    "Aliases": [
+      "NoCameraSway"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/NoCameraSway",
+    "RepoName": "NoCameraSway",
+    "Dependencies": [],
+    "Version": "2.5.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/WillWunderhorn/NoCameraSway/releases/download/Latest/NoCameraSway.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/NoCameraSway/releases/download/Latest/NoCameraSway.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-23",
+    "Updated": "2026-04-23",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Sway now has a speed and amplitude of 0.001 to prevent triggering a bob",
+      "notes": "Camera will sway in the background if you open the menu",
+      "issues": ""
+    },
+    "PreviousAuthors": "WulfMarius",
+    "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "不再受困",
+    "Name": "NoMoreCabinFever",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "消除幽闭恐惧症",
+    "Aliases": [
+      "NoMoreCabinFever"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/NoMoreCabinFever",
+    "RepoName": "NoMoreCabinFever",
+    "Dependencies": [],
+    "Version": "1.4",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/WillWunderhorn/NoMoreCabinFever/releases/download/Latest/NoMoreCabinFever.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/NoMoreCabinFever/releases/download/Latest/NoMoreCabinFever.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-04-20",
+    "Updated": "2026-04-24",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "WulfMarius",
+    "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -8434,7 +9047,7 @@
     "Released": "2021-10-26",
     "Updated": "2025-07-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Clothing.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Clothing.webp"
     ],
     "Status": {
       "working": true,
@@ -8615,9 +9228,10 @@
     "Dependencies": [
       "AfflictionComponent",
       "ModComponent",
-      "ModSettings"
+      "ModSettings",
+      "ModData"
     ],
-    "Version": "1.4.1",
+    "Version": "2.0.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/OxygenLevels/releases/latest/download/OxygenLevels.dll",
@@ -8625,16 +9239,16 @@
       "https://github.com/EtherSystem/OxygenLevels/releases/latest/download/OxygenLevels.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-01-07",
-    "Updated": "2026-03-06",
+    "Updated": "2026-05-19",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/OxygenLevels.png"
     ],
@@ -8648,6 +9262,107 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "PZ加载屏幕",
+    "Name": "PZLoadingScreen",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "只是一个类似 PZ 的自定义加载界面模组",
+    "Aliases": [
+      "PZLoadingScreen"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/PZLoadingScreen",
+    "RepoName": "PZLoadingScreen",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/PZLoadingScreen/releases/latest/download/PZLoadingScreen.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/PZLoadingScreen/releases/latest/download/PZLoadingScreen.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-23",
+    "Updated": "2026-04-23",
+    "Images": [
+      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/PZLoadingScreen.PNG"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "疼痛成分",
+    "Name": "PainComponent",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。",
+    "Aliases": [
+      "Pain Component",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/PainComponent",
+    "RepoName": "PainComponent",
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/PainComponent/releases/latest/",
+    "Downloads": [
+      "https://github.com/Fuar11/PainComponent/releases/latest/"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.57",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-22",
+    "Updated": "2026-07-22",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "消遣阅读",
@@ -8687,8 +9402,7 @@
     "Released": "2021-08-30",
     "Updated": "2026-01-06",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/PastimeReading.png",
-      "https://i.imgur.com/ji8mHV2.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/PastimeReading.webp"
     ],
     "Status": {
       "working": true,
@@ -8836,8 +9550,8 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
@@ -8896,8 +9610,7 @@
     "Released": "2022-11-25",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/2a5b4216a75eeb1aecbe8e92b5a608263a24e5a5/pics/Personality2.png",
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Personality.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Personality2.webp"
     ],
     "Status": {
       "working": true,
@@ -9129,6 +9842,57 @@
     ]
   },
   {
+    "DisplayName": "几何放置",
+    "Name": "PlacingGeometrically",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "A variant of Placing Anywhere that adds some functionality. 几何学放置（中文版在GitHub）。",
+    "Aliases": [
+      "PlacingGeometrically"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/PlacingGeometrically",
+    "RepoName": "PlacingGeometrically",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/PlacingGeometrically/releases/download/v1.2/PlacingGeometrically.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/PlacingGeometrically/releases/download/v1.2/PlacingGeometrically.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.72"
+    },
+    "Released": "2026-05-29",
+    "Updated": "2026-06-27",
+    "Images": [
+      "https://raw.githubusercontent.com/hzb1130/PlacingGeometrically/main/1.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "植物收获调整器",
     "Name": "PlantHarvestTweaker",
     "Type": "mod",
@@ -9232,6 +9996,60 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "PrepperCache",
+    "Name": "PrepperCache",
+    "Type": "mod",
+    "Author": "okclm",
+    "DisplayAuthor": [
+      "okclm"
+    ],
+    "Description": "提供当前游戏的生存物资储备信息。",
+    "Aliases": [
+      "PrepperCache"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/okclm/PrepperCache",
+    "RepoName": "PrepperCache",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/okclm/PrepperCache/releases/download/v1.2.0/PrepperCache.dll",
+    "Downloads": [
+      "https://github.com/okclm/PrepperCache/releases/download/v1.2.0/PrepperCache.dll"
+    ],
+    "AuthorUrl": "https://github.com/okclm?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.52",
+      "ml": "0.7.2.0"
+    },
+    "Released": "2026-04-07",
+    "Updated": "2026-04-07",
+    "Images": [
+      "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/list_icon_preppercache.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "TLD 2.5 / Unity 6 fix.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "okclm",
+    "Source": "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/okclm_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "保存容器内的物品",
     "Name": "PreserveContainerItems",
     "Type": "mod",
@@ -9254,7 +10072,6 @@
     "AutoUpdate": true,
     "Download": "https://github.com/moosemeat817/PreserveContainerItems/releases/download/1.0.0/PreserveContainerItems.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.3.1/PredatorSpawnSelector.dll",
       "https://github.com/moosemeat817/PreserveContainerItems/releases/download/1.0.0/PreserveContainerItems.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
@@ -9491,53 +10308,106 @@
     "DisplayName": "随机生成入侵者稀有怪",
     "Name": "RandomizeInterloperRareSpawns",
     "Type": "mod",
-    "Author": "ds5678",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "ds5678"
+      "MooseMeat"
     ],
-    "Description": "禁用入侵者掉落物品表，并替换为新的随机生成物品。请勿在现有存档上使用。<br><br><a href='https://github.com/ds5678/RandomizeInterloperRareSpawns' target='_blank'>安装说明</a><br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "关于《漫漫长夜》的一个模组，它可以随机化入侵者掉落的战利品。",
     "Aliases": [
-      "Randomize Interloper Rare Spawns",
-      "latest"
+      "Randomize Interloper Rare Spawns"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/RandomizeInterloperRareSpawns",
+    "ModUrl": "https://github.com/moosemeat817/RandomizeInterloperRareSpawns",
     "RepoName": "RandomizeInterloperRareSpawns",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-19",
+    "Updated": "2026-05-19",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/RandomizeInterloperRareSpawns.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "DS5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "随机化器：过渡",
+    "Name": "RandomizerTransitions",
+    "Type": "mod",
+    "Author": "Waltz",
+    "DisplayAuthor": [
+      "Waltz"
+    ],
+    "Description": "随机化场景间的过渡。以全新的混乱方式探索大熊湖。可在新的游戏创建菜单中启用。",
+    "Aliases": [
+      "Randomizer: Transitions",
+      "Randomizer-Transitions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/HAHAYOUDEAD/Randomizer",
+    "RepoName": "RandomizerTransitions",
     "Dependencies": [
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.2.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/ds5678/RandomizeInterloperRareSpawns/releases/latest",
+    "Version": "0.3.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/HAHAYOUDEAD/Randomizer/releases/latest/download/Randomizer-Transitions.dll",
     "Downloads": [
-      "https://github.com/ds5678/RandomizeInterloperRareSpawns/releases/download/1.2.0/RandomizeInterloperRareSpawns.dll",
-      "https://github.com/ds5678/RandomizeInterloperRareSpawns/releases/download/1.2.0/RandomizeInterloperRareSpawns.modcomponent",
-      "https://github.com/ds5678/RandomizeInterloperRareSpawns/releases/latest"
+      "https://github.com/HAHAYOUDEAD/Randomizer/releases/latest/download/Randomizer-Transitions.dll"
     ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
+    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
+    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "Categories": [
+      "Gameplay",
+      "Overhaul",
+      "Misc"
+    ],
     "TestedOn": {
-      "tld": "1.97",
-      "ml": "0.4.3.0"
+      "tld": "2.54",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2021-10-21",
-    "Images": [],
+    "Released": "2026-04-15",
+    "Updated": "2026-05-30",
+    "Images": [
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Transitions.webp"
+    ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -9771,12 +10641,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.2.2",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.2/ReducedLoot.dll",
+    "Download": "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.3/ReducedLoot.dll",
     "Downloads": [
-      "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.2/ReducedLoot.dll"
+      "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.3/ReducedLoot.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -9784,11 +10654,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-10-31",
-    "Updated": "2026-01-06",
+    "Updated": "2026-04-25",
     "Images": [],
     "Status": {
       "working": true,
@@ -9995,8 +10865,8 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
@@ -10026,7 +10896,8 @@
     ],
     "Description": "“可修复物品”功能允许您修复三种用于修理、制作和磨砺的基本工具。可修复的工具如下：步枪清洁套装、缝纫套装、磨刀石/磨刀石。",
     "Aliases": [
-      "RepairableRepairables"
+      "RepairableRepairables",
+      "v1.1"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/Repairable-Repairables",
@@ -10034,12 +10905,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.1.3",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/download/v1.1.0/RepairableRepairables.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/tag/v1.1.3",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/download/v1.1.0/RepairableRepairables.dll"
+      "https://github.com/Sm4rtBoyTom/Repairable-Repairables/releases/tag/v1.1.3"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -10051,11 +10922,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-05-31",
-    "Updated": "2026-01-05",
+    "Updated": "2026-06-25",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RepairableRepairables.jpg"
     ],
@@ -10201,12 +11072,12 @@
       "https://github.com/EtherSystem/ResumePreview/releases/latest/download/ResumePreviewer.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-03-17",
@@ -10241,6 +11112,7 @@
     "ModUrl": "https://github.com/BaltaZar-7/RetrieveBulletsMod",
     "RepoName": "RetrieveBulletsMod",
     "Dependencies": [
+      "ModSettings",
       "ModComponent",
       "ModData"
     ],
@@ -10259,8 +11131,8 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
@@ -10484,7 +11356,7 @@
     "Released": "2024-12-03",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/d67747c798cfae0812ba2b47aa3c63a173205fc6/pics/SCP.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/SCP.webp"
     ],
     "Status": {
       "working": true,
@@ -10495,6 +11367,58 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "保存备份",
+    "Name": "SaveBackup",
+    "Type": "mod",
+    "Author": "Pathoschild",
+    "DisplayAuthor": [
+      "Pathoschild"
+    ],
+    "Description": "<p>自动创建每小时和每日的存档文件备份。尤其是在使用模组时，这可以让你在出现问题时恢复存档。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/SaveBackup#readme\">更多信息请参阅readme文件</a>。</p>",
+    "Aliases": [
+      "Save Backup"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/SaveBackup#readme",
+    "RepoName": "SaveBackup",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.4.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/save-backup%2F1.4.0/SaveBackup.dll",
+    "Downloads": [
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/save-backup%2F1.4.0/SaveBackup.dll"
+    ],
+    "AuthorUrl": "https://github.com/Pathoschild",
+    "SupportUrl": "https://www.patreon.com/Pathoschild",
+    "Categories": [
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-19",
+    "Updated": "2026-05-30",
+    "Images": [
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/SaveBackup/docs/images/config.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Added option to trigger a backup at any time.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -10663,12 +11587,12 @@
     "ModUrl": "https://github.com/BaltaZar-7/ScaledFishMod",
     "RepoName": "ScaledFishMod",
     "Dependencies": [],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll",
+    "Download": "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.2.0/ScaledFishMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.1.0/ScaledFishMod.dll"
+      "https://github.com/BaltaZar-7/ScaledFishMod/releases/download/1.2.0/ScaledFishMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -10677,19 +11601,20 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-01-25",
+    "Updated": "2026-08-08",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_13.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg"
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg",
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/SF3.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Now meat is scaled too!",
       "notes": "",
       "issues": ""
     },
@@ -10703,35 +11628,41 @@
     "DisplayName": "经验丰富的闯入者",
     "Name": "SeasonedInterloping",
     "Type": "mod",
-    "Author": "ds5678",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "ds5678"
+      "MooseMeat"
     ],
-    "Description": "将“被遗弃的机场”、“凄凉的入口”、“污染区”和“破碎的通道”添加到“入侵者”起始区域列表中。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "为《漫漫长夜》添加 Forsaken Airfield、ZOC、Sundered Pass 和 Bleak Inlet 到 Interloper 区域列表的 Mod。",
     "Aliases": [
       "Seasoned Interloping"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/SeasonedInterloping",
+    "ModUrl": "https://github.com/moosemeat817/SeasonedInterloping",
     "RepoName": "SeasonedInterloping",
-    "Dependencies": [],
-    "Version": "1.2.0",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/SeasonedInterloping/releases/download/1.2.0/SeasonedInterloping.dll",
+    "Download": "https://github.com/moosemeat817/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll",
     "Downloads": [
-      "https://github.com/ds5678/SeasonedInterloping/releases/download/1.2.0/SeasonedInterloping.dll"
+      "https://github.com/moosemeat817/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll"
     ],
-    "AuthorUrl": null,
-    "SupportUrl": "https://www.patreon.com/ds5678",
-    "Categories": [],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
     "TestedOn": {
-      "tld": "2.33",
-      "ml": "0.6.6.0"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2024-12-02",
-    "Images": [],
+    "Released": "2026-05-20",
+    "Updated": "2026-05-20",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/SeasonedInterloping.png"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -10739,12 +11670,9 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/ds5678.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "PreviousAuthors": "ds5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "庇护所温度调整",
@@ -10862,12 +11790,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.9.0",
+    "Version": "1.9.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.0/Shortcuts.dll",
+    "Download": "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.2/Shortcuts.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.0/Shortcuts.dll"
+      "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.2/Shortcuts.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -10881,7 +11809,7 @@
       "ml": "0.7.2"
     },
     "Released": "2025-01-25",
-    "Updated": "2026-01-03",
+    "Updated": "2026-04-21",
     "Images": [
       "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_Shortcuts.jpg"
     ],
@@ -10897,50 +11825,109 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "沉默的主角",
-    "Name": "SilentProtagonist",
+    "DisplayName": "霰弹枪",
+    "Name": "Shotgun",
     "Type": "mod",
-    "Author": "Cass",
+    "Author": "Team Shotgun",
     "DisplayAuthor": [
-      "Cass"
+      "Team Shotgun"
     ],
-    "Description": "静音玩家角色语音。完整说明请参阅README文件。",
+    "Description": "听说你们都想要一把霰弹枪……",
     "Aliases": [
-      "Silent Protagonist"
+      "Shotgun"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/GruffCassquatch/SilentProtagonist",
-    "RepoName": "SilentProtagonist",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/GruffCassquatch/SilentProtagonist/releases/download/1.0.0/SilentProtagonist.dll",
-    "Downloads": [
-      "https://github.com/GruffCassquatch/SilentProtagonist/releases/download/1.0.0/SilentProtagonist.dll"
+    "ModUrl": "https://github.com/monsieurmeh/MehToolBox/releases/tag/shotgun",
+    "RepoName": "Shotgun",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent",
+      "AudioManager",
+      "AudioCore",
+      "MehToolBox"
     ],
-    "AuthorUrl": "https://github.com/GruffCassquatch",
+    "Version": "0.6.7",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
     "SupportUrl": null,
     "Categories": [
-      "Quality of Life"
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.01",
-      "ml": "0.5.7"
+      "tld": "2.52",
+      "ml": "0.7.2"
     },
-    "Released": "",
-    "Updated": "2022-08-09",
+    "Released": "2026-4-1",
+    "Updated": "2026-4-1",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "Use with 2.01 Time Capsule, will not work on game versions >2.02",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/gruffcassquatch.json",
-    "GameVersion": []
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "展会交易者信托",
+    "Name": "ShowTraderTrust",
+    "Type": "mod",
+    "Author": "Pathoschild",
+    "DisplayAuthor": [
+      "Pathoschild"
+    ],
+    "Description": "<p>显示您在通过无线电与交易员交谈时，对他的当前信任程度。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme\">更多信息请参阅readme文件</a>。</p>",
+    "Aliases": [
+      "Show Trader Trust"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme",
+    "RepoName": "ShowTraderTrust",
+    "Dependencies": [],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.1/ShowTraderTrust.dll",
+    "Downloads": [
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.1/ShowTraderTrust.dll"
+    ],
+    "AuthorUrl": "https://github.com/Pathoschild",
+    "SupportUrl": "https://www.patreon.com/Pathoschild",
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-26",
+    "Updated": "2026-04-28",
+    "Images": [
+      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/ShowTraderTrust/docs/images/overlay.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Fixed performance impact for some players; internal changes to be more futureproof.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "傻瓜模组",
@@ -10980,7 +11967,7 @@
     "Released": "2023-03-07",
     "Updated": "2026-01-14",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/Silly.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Silly.webp"
     ],
     "Status": {
       "working": true,
@@ -11170,12 +12157,12 @@
     "ModUrl": "https://github.com/Sm4rtBoyTom/SkilletInRadial",
     "RepoName": "SkilletInRadial",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.0.1/SkilletInRadial.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.0/SkilletInRadial.dll",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.0.1/SkilletInRadial.dll"
+      "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.0/SkilletInRadial.dll"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -11186,11 +12173,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.54",
       "ml": "0.7.2"
     },
     "Released": "2026-01-31",
-    "Updated": "2026-01-31",
+    "Updated": "2026-04-10",
     "Images": [
       "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_SkilletInRadial.jpg"
     ],
@@ -11519,7 +12506,7 @@
     "Released": "2021-01-20",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Sonic.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Sonic.webp"
     ],
     "Status": {
       "working": true,
@@ -11649,10 +12636,10 @@
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "急救系统扩展。灵感源自《潜行者》系列。兼容强化版疾病系统。",
+    "Description": "急救系统扩展。灵感源自《潜行者》系列。兼容“强化疾病”模组。更多信息请访问 GitHub wiki。",
     "Aliases": [
       "StalkerAidsAndSupplements",
-      "v3.0"
+      "v4.1"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements",
@@ -11660,14 +12647,18 @@
     "Dependencies": [
       "ModSettings",
       "ModComponent",
-      "AlcoholMod"
+      "ModData",
+      "AlcoholMod",
+      "Moment",
+      "AfflictionComponent",
+      "ExpandedTradingFramework"
     ],
-    "Version": "3.0.0",
+    "Version": "4.1.1",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.0",
+    "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v4.1.1",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v3.0.0"
+      "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v4.1.1"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -11681,19 +12672,19 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2024-08-01",
-    "Updated": "2026-02-24",
+    "Updated": "2026-07-25",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreMeds.jpg"
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_StalkerAidsAndSupplements.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v2.2.0",
+      "notes": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases",
       "issues": ""
     },
     "PreviousAuthors": "",
@@ -11735,8 +12726,8 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-03-01",
     "Updated": "2026-03-01",
@@ -12164,43 +13155,43 @@
     ]
   },
   {
-    "DisplayName": "汗液系统",
-    "Name": "SweatSystem",
+    "DisplayName": "SutherlandExpandedStock",
+    "Name": "SutherlandExpandedStock",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "增加了一个系统，当玩家过热时，该系统会使玩家出汗。",
+    "Description": "使用 ETF 的内容修改器为交易员创建 56 个新的自定义交易。",
     "Aliases": [
-      "SweatSystem"
+      "SutherlandExpandedStock"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/EtherSystem/SweatSystem",
-    "RepoName": "SweatSystem",
-    "Dependencies": [],
-    "Version": "1.0.1",
+    "ModUrl": "https://github.com/EtherSystem/SutherlandExpandedStock",
+    "RepoName": "SutherlandExpandedStock",
+    "Dependencies": [
+      "ExpandedTradingFramework",
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/EtherSystem/SweatSystem/releases/latest/download/SweatSystem.dll",
+    "Download": "https://github.com/EtherSystem/SutherlandExpandedStock/releases/latest/download/SutherlandExpandedStock.dll",
     "Downloads": [
-      "https://github.com/EtherSystem/SweatSystem/releases/latest/download/SweatSystem.dll"
+      "https://github.com/EtherSystem/SutherlandExpandedStock/releases/latest/download/SutherlandExpandedStock.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
-      "Gameplay",
-      "Clothing"
+      "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
-    "Released": "2026-01-20",
-    "Updated": "2026-01-21",
-    "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/SweatSystem.jpg"
-    ],
+    "Released": "2026-06-22",
+    "Updated": "2026-06-22",
+    "Images": [],
     "Status": {
       "working": true,
       "beta": true,
@@ -12332,6 +13323,8 @@
     ],
     "Description": "《漫长的开发》是一个小型团队模组项目，旨在以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。",
     "Aliases": [
+      "TheLongDevelopment",
+      "TheLongDevelopment(TLDev)Regions",
       "The Long Development (TLDev) Regions",
       "97xM7k8nCH"
     ],
@@ -12339,7 +13332,7 @@
     "ModUrl": "https://discord.gg/97xM7k8nCH",
     "RepoName": "TheLongDevelopment(TLDev)Regions",
     "Dependencies": [],
-    "Version": "2.24.3",
+    "Version": "2.55",
     "Error": false,
     "AutoUpdate": false,
     "Download": "https://discord.gg/97xM7k8nCH",
@@ -12355,11 +13348,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2021-06-06",
-    "Updated": "2026-01-01",
+    "Updated": "2026-07-18",
     "Images": [
       "https://i.imgur.com/SHTfGf0.png"
     ],
@@ -12399,7 +13392,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.11",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll",
@@ -12407,23 +13400,23 @@
       "https://github.com/EtherSystem/TheLongMood/releases/latest/download/TheLongMood.dll"
     ],
     "AuthorUrl": "https://github.com/EtherSystem",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/ethersystem",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2026-02-16",
-    "Updated": "2026-03-18",
+    "Updated": "2026-06-20",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Fixing crafting modifier duration issue",
       "notes": "",
       "issues": ""
     },
@@ -12449,12 +13442,12 @@
     "Dependencies": [
       "ExamineActionsAPI"
     ],
-    "Version": "1.1.1",
+    "Version": "1.1.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.4/ThingsToDo.dll",
+    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ThingsToDo.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.4/ThingsToDo.dll"
+      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ThingsToDo.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -12462,11 +13455,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-07-07",
-    "Updated": "2026-01-09",
+    "Updated": "2026-07-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -12520,7 +13513,7 @@
     "Released": "2026-01-12",
     "Updated": "2026-02-02",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TimescaleHK.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TimescaleHK.webp"
     ],
     "Status": {
       "working": true,
@@ -12534,52 +13527,6 @@
     "GameVersion": [
       "vanilla"
     ]
-  },
-  {
-    "DisplayName": "罐头改进",
-    "Name": "TinCanImprovements",
-    "Type": "mod",
-    "Author": "zeobviouslyfakeacc",
-    "DisplayAuthor": [
-      "zeobviouslyfakeacc"
-    ],
-    "Description": "允许将 4 个锡罐合成 1 个废金属，将锡罐的重量减少到 0.05 千克，修复了罐头食品的重量错误。",
-    "Aliases": [
-      "Tin Can Improvements"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/zeobviouslyfakeacc/TinCanImprovements",
-    "RepoName": "TinCanImprovements",
-    "Dependencies": [],
-    "Version": "1.0",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/zeobviouslyfakeacc/TinCanImprovements/releases/download/v1.0/TinCanImprovements.dll",
-    "Downloads": [
-      "https://github.com/zeobviouslyfakeacc/TinCanImprovements/releases/download/v1.0/TinCanImprovements.dll"
-    ],
-    "AuthorUrl": "https://github.com/zeobviouslyfakeacc",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "1.94",
-      "ml": "0.4.3.0"
-    },
-    "Released": "2022-10-21",
-    "Updated": "2020-10-21",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/zeobviouslyfakeacc.json",
-    "GameVersion": []
   },
   {
     "DisplayName": "微调：埋葬尸体",
@@ -12600,7 +13547,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-BuryHumanCorpses.dll",
@@ -12614,13 +13561,13 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-corpse.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-corpse.webp"
     ],
     "Status": {
       "working": true,
@@ -12654,7 +13601,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksDroppedObjectOrientation",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-DroppedObjectOrientation.dll",
@@ -12667,7 +13614,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
@@ -12705,7 +13652,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksExtendedFOVSlider",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-ExtendedFOVSlider.dll",
@@ -12719,13 +13666,13 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-fov.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-fov.webp"
     ],
     "Status": {
       "working": true,
@@ -12761,7 +13708,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-FallDeathGoat.dll",
@@ -12775,13 +13722,13 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2024-12-28",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/879c607a09fb9d428bf7784d4e374e39cd6ad30b/pics/TT-goat.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-goat.webp"
     ],
     "Status": {
       "working": true,
@@ -12815,7 +13762,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-MapTextOuline.dll",
@@ -12829,13 +13776,67 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-outlines.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-outlines.webp"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "微调：扭伤无止境",
+    "Name": "TinyTweaksNoSaveOnSprain",
+    "Type": "mod",
+    "Author": "Waltz",
+    "DisplayAuthor": [
+      "Waltz"
+    ],
+    "Description": "扭伤时阻止自动保存。默认情况下仅在斜坡上行走时触发，但也可以切换至跌倒时触发。",
+    "Aliases": [
+      "Tiny Tweaks: No Save On Sprains",
+      "TinyTweaks-NoSaveOnSprain"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
+    "RepoName": "TinyTweaksNoSaveOnSprain",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll",
+    "Downloads": [
+      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-NoSaveOnSprain.dll"
+    ],
+    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
+    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "Categories": [
+      "Quality of Life",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-27",
+    "Updated": "2026-03-27",
+    "Images": [
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-nsos.webp"
     ],
     "Status": {
       "working": true,
@@ -12867,7 +13868,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksPauseOnRadial",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-PauseOnRadial.dll",
@@ -12882,13 +13883,13 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/3617bc12f223b9c4e63c0b5a1a07f1a72bc37107/pics/TT-radialPause.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-radialPause.webp"
     ],
     "Status": {
       "working": true,
@@ -12911,7 +13912,7 @@
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "植物将在45天后重新生长（可更改）。",
+    "Description": "可收获物会在 45 天后重新生长（可以更改）。可收获物包括所有生长物，例如树苗、地衣、蘑菇、橡子等。",
     "Aliases": [
       "Tiny Tweaks: Plants Regrow",
       "TinyTweaks-RespawnablePlants"
@@ -12923,7 +13924,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RespawnablePlants.dll",
@@ -12937,13 +13938,13 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-03-12",
-    "Updated": "2026-01-05",
+    "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-regrow.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-regrow.webp"
     ],
     "Status": {
       "working": true,
@@ -12975,7 +13976,7 @@
     "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
     "RepoName": "TinyTweaksRunWithLantern",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-RunWithLantern.dll",
@@ -12988,13 +13989,66 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/3617bc12f223b9c4e63c0b5a1a07f1a72bc37107/pics/TT-lantern.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-lantern.webp"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "细微调整：快速交互",
+    "Name": "TinyTweaksSpeedyInteractions",
+    "Type": "mod",
+    "Author": "Waltz",
+    "DisplayAuthor": [
+      "Waltz"
+    ],
+    "Description": "调整所有非动画交互速度，包括制作、修理、采集、进食以及所有其他带有进度条的动作。",
+    "Aliases": [
+      "Tiny Tweaks: Speedy Interactions",
+      "TinyTweaks-SpeedyInteractions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/HAHAYOUDEAD/TinyTweaks",
+    "RepoName": "TinyTweaksSpeedyInteractions",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-SpeedyInteractions.dll",
+    "Downloads": [
+      "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-SpeedyInteractions.dll"
+    ],
+    "AuthorUrl": "https://github.com/HAHAYOUDEAD",
+    "SupportUrl": "https://paypal.me/FardyHernandez",
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-08",
+    "Updated": "2026-05-08",
+    "Images": [
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Speedy.webp"
     ],
     "Status": {
       "working": true,
@@ -13028,7 +14082,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/TinyTweaks/releases/latest/download/TinyTweaks-WakeUpCall.dll",
@@ -13042,13 +14096,13 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2025-01-12",
-    "Updated": "2026-01-05",
+    "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/29237bf2fd62d8a14528d6281f3c52236ce8ee64/pics/TT-wakeup.png"
+      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-wakeup.webp"
     ],
     "Status": {
       "working": true,
@@ -13158,7 +14212,7 @@
       "issues": ""
     },
     "PreviousAuthors": "TheDevv",
-    "Source": "https://raw.githubusercontent.com/TonisGaming/TLDModListJSON/main/TonisGaming.JSON",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/TonisGaming.JSON",
     "GameVersion": [
       "tftft"
     ]
@@ -13757,6 +14811,55 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "天气显示",
+    "Name": "WeatherDisplay",
+    "Type": "mod",
+    "Author": "hzb1130",
+    "DisplayAuthor": [
+      "hzb1130"
+    ],
+    "Description": "在屏幕上显示当前天气信息。",
+    "Aliases": [
+      "WeatherDisplay",
+      "WeatherDisplayMod"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/hzb1130/WeatherDisplay",
+    "RepoName": "WeatherDisplay",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/hzb1130/WeatherDisplay/releases/download/v1.0.1/WeatherDisplayMod.dll",
+    "Downloads": [
+      "https://github.com/hzb1130/WeatherDisplay/releases/download/v1.0.1/WeatherDisplayMod.dll"
+    ],
+    "AuthorUrl": "https://github.com/hzb1130",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-11",
+    "Updated": "2026-06-30",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "轻型木工工具",
