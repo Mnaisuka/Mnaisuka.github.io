@@ -14379,6 +14379,55 @@
     ]
   },
   {
+    "DisplayName": "TranslatedTextures（俄语）",
+    "Name": "TranslatedTextures",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "所有纹理现已翻译完毕！",
+    "Aliases": [
+      "TranslatedTextures (Rus)"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/TranslatedTextures",
+    "RepoName": "TranslatedTextures",
+    "Dependencies": [],
+    "Version": "1.0.5",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/WillWunderhorn/TranslatedTextures/releases/download/Latest/TranslatedTextures.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/TranslatedTextures/releases/download/Latest/TranslatedTextures.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-25",
+    "Updated": "2026-08-25",
+    "Images": [
+      "https://raw.githubusercontent.com/WillWunderhorn/TranslatedTextures/refs/heads/master/TranslatedTextures(Russian).png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "I might have missed something",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "擅闯者",
     "Name": "Trespasser",
     "Type": "mod",

@@ -635,5 +635,7 @@
     "A backpack made of Cougar. Upgrade to the Moose hide satchel.": "一款美洲狮皮背包。升级版可选驼鹿皮斜挎包。",
     "Fixes the broken \"give up the chase\" timer that makes wolf howls stutter and restart endlessly, most noticeable on aurora nights. Bears and cougars share the same defect and are fixed too. No animal tuning is changed.": "修复了“放弃追逐”计时器的故障，该故障会导致狼嚎声断断续续并无限循环，在极光之夜尤为明显。熊和美洲狮也存在同样的缺陷，现已修复。所有动物的数值调整均未更改。",
     "Disables the first-person carcass harvesting and quartering animations, using the game's native progress circle instead. Optionally speeds harvesting and quartering up in real time, leaving the in-game time they cost unchanged.": "禁用第一人称视角下的猎物采集和分割动画，改用游戏自带的进度条。可选择实时加快采集和分割速度，但游戏内耗时不变。",
-    "Wolf Howl Fix": "狼嚎修复"
+    "Wolf Howl Fix": "狼嚎修复",
+    "All Textures are now translated!": "所有纹理现已翻译完毕！",
+    "TranslatedTextures (Rus)": "TranslatedTextures（俄语）"
 }
