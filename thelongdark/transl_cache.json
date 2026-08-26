@@ -637,5 +637,7 @@
     "Disables the first-person carcass harvesting and quartering animations, using the game's native progress circle instead. Optionally speeds harvesting and quartering up in real time, leaving the in-game time they cost unchanged.": "禁用第一人称视角下的猎物采集和分割动画，改用游戏自带的进度条。可选择实时加快采集和分割速度，但游戏内耗时不变。",
     "Wolf Howl Fix": "狼嚎修复",
     "All Textures are now translated!": "所有纹理现已翻译完毕！",
-    "TranslatedTextures (Rus)": "TranslatedTextures（俄语）"
+    "TranslatedTextures (Rus)": "TranslatedTextures（俄语）",
+    "WindMovementFix": "风向修复",
+    "Just a little fix for the wind speed debuff bug": "修复了一个风速减益的bug"
 }

@@ -14394,7 +14394,7 @@
     "ModUrl": "https://github.com/WillWunderhorn/TranslatedTextures",
     "RepoName": "TranslatedTextures",
     "Dependencies": [],
-    "Version": "1.0.5",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/TranslatedTextures/releases/download/Latest/TranslatedTextures.dll",
@@ -14412,7 +14412,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-25",
-    "Updated": "2026-08-25",
+    "Updated": "2026-08-26",
     "Images": [
       "https://raw.githubusercontent.com/WillWunderhorn/TranslatedTextures/refs/heads/master/TranslatedTextures(Russian).png"
     ],
@@ -15060,6 +15060,52 @@
     "GameVersion": [
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "风向修复",
+    "Name": "WindMovementFix",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "修复了一个风速减益的bug",
+    "Aliases": [
+      "WindMovementFix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/WindMovementFix",
+    "RepoName": "WindMovementFix",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/WindMovementFix/releases/latest/download/WindMovementFix.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/WindMovementFix/releases/latest/download/WindMovementFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-25",
+    "Updated": "2026-08-25",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "狼嚎修复",
