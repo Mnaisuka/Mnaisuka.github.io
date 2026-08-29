@@ -1169,6 +1169,111 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "BaltaTools",
+    "Name": "BaltaTools",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "为游戏添加了一些工具。",
+    "Aliases": [
+      "BaltaTools"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/BaltaTools",
+    "RepoName": "BaltaTools",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent",
+      "Modders' Gear Toolbox",
+      "ExpandedTradingFramework"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.0/BaltaTools.zip",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.0/BaltaTools.zip"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
+    "Categories": [
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-28",
+    "Updated": "2026-08-28",
+    "Images": [
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BaltaTools/BaltaToolsWallpaper.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "Check the Repo readme for more details!",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "WhiteTweaks",
+    "Name": "BaltaTweaks",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "BaltaZar 做了一些小调整。",
+    "Aliases": [
+      "BaltaTweaks"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/BaltaTweaks",
+    "RepoName": "BaltaTweaks",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.0.0/BaltaTweaks.dll",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.0.0/BaltaTweaks.dll"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-28",
+    "Updated": "2026-08-28",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "海滩拾贝调整",
     "Name": "BeachcombingAdjustments",
     "Type": "mod",
@@ -6894,7 +6999,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.0",
+    "Version": "1.4.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -6911,14 +7016,14 @@
       "ml": "0.7.2"
     },
     "Released": "2025-10-23",
-    "Updated": "2026-04-23",
+    "Updated": "2026-08-29",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/InterloperHUDPro.PNG"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "New display HUD for the active scene",
+      "patchnotes": "stuff",
       "notes": "",
       "issues": ""
     },
@@ -7664,7 +7769,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "新增 18 种主要负面状态和 1 种增益状态。",
+    "Description": "新增 20 种主要负面状态和 1 种增益状态。",
     "Aliases": [
       "MajorMiseries"
     ],
@@ -7677,7 +7782,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
@@ -7694,12 +7799,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-14",
-    "Updated": "2026-07-08",
+    "Updated": "2026-08-29",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Fixed an issue causing the player to fall out of the map after a sleepwalking event",
+      "patchnotes": "Way too much stuff, read the mod's readme",
       "notes": "",
       "issues": ""
     },
