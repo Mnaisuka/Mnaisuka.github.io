@@ -644,5 +644,15 @@
     "BaltaTools": "BaltaTools",
     "Adds 20 new major afflictions and 1 new buff.": "新增 20 种主要负面状态和 1 种增益状态。",
     "Small tweaks made by BaltaZar.": "BaltaZar 做了一些小调整。",
-    "Adds a couple tools to the game.": "为游戏添加了一些工具。"
+    "Adds a couple tools to the game.": "为游戏添加了一些工具。",
+    "Long Largo": "长拉戈",
+    "Debug Output": "调试输出",
+    "QoL StaminaStays": "QoL StaniaStays",
+    "A massive overhaul mod developed for The Long Dark that aims to integrate all interior buildings directly into the open world without any loading screens. Walk through doors seamlessly and experience the interior and exterior as one unified environment.": "这款为《漫漫长夜》开发的大型改造模组旨在将所有室内建筑直接融入开放世界，无需任何加载画面。玩家可以无缝穿梭于门之间，体验室内外融为一体的奇妙世界。",
+    "QoL Firestart": "QoL Firestart",
+    "<p>Long Largo is a mod with a single goal: to enhance your gaming experience by improving the music.</p><p>Long Largo restores music from the story campaign and integrates it into your playthrough.</p><p>... And you can even disable wolf stalking sound!</p>": "<p>Long Largo 是一款旨在通过改善音乐来提升游戏体验的模组。</p><p> Long Largo 恢复了故事战役中的音乐，并将其融入到你的游戏过程中。</p><p> ……而且你甚至可以关闭狼群追踪的声音！</p>",
+    "<p>QoL StaminaStays is a simple mod that prevents stamina bar fadeout by timer. Stamina now fades only when it is full like in most modern games.</p>": "<p>QoL StaminaStays 是一款简单的模组，它可以防止体力条因计时器而逐渐消失。现在，体力条只有在充满时才会消失，就像大多数现代游戏一样。</p>",
+    "Seamless Interiors": "无缝内饰",
+    "<p>QoL FireStart is a mod that makes fire starting process a little simpler by choosing optimal gear.</p><p>This includes choosing a torch if lit, or a magnifying lens if weather permits, as well as protecting the birchbark and choosing a book or stick as fuel.</p>": "<p>QoL FireStart 是一款通过选择最佳装备来简化生火过程的模组。</p><p>这包括选择火把（如果点燃的话）或放大镜（如果天气允许的话），以及保护桦树皮并选择书或树枝作为燃料。</p>",
+    "<p>Debug Output is a mod created specifically for mod developers.</p><p>It assists in mod debugging by enabling a special debug mode that displays important mod parameters in real time as text or a table.</p><p>See <a href=\"https://github.com/Danileros/DebugOutput/blob/main/README.MD\">readme for more info</a>.</p>": "<p>调试输出是一个专为模组开发者创建的模组。</p><p>它通过启用特殊的调试模式来帮助调试模组，该模式可以实时以文本或表格的形式显示重要的模组参数。</p><p><a href=\"https://github.com/Danileros/DebugOutput/blob/main/README.MD\">更多信息请参阅readme文件</a>。</p>"
 }

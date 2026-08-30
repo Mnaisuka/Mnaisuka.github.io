@@ -3448,6 +3448,56 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "调试输出",
+    "Name": "DebugOutput",
+    "Type": "mod",
+    "Author": "Danileros",
+    "DisplayAuthor": [
+      "Danileros"
+    ],
+    "Description": "<p>调试输出是一个专为模组开发者创建的模组。</p><p>它通过启用特殊的调试模式来帮助调试模组，该模式可以实时以文本或表格的形式显示重要的模组参数。</p><p><a href=\"https://github.com/Danileros/DebugOutput/blob/main/README.MD\">更多信息请参阅readme文件</a>。</p>",
+    "Aliases": [
+      "Debug Output"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Danileros/DebugOutput",
+    "RepoName": "DebugOutput",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Danileros/DebugOutput/releases/download/v1.0.0/DebugOutput.dll",
+    "Downloads": [
+      "https://github.com/Danileros/DebugOutput/releases/download/v1.0.0/DebugOutput.dll"
+    ],
+    "AuthorUrl": "https://github.com/Danileros",
+    "SupportUrl": null,
+    "Categories": [
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-17",
+    "Updated": "2026-08-17",
+    "Images": [
+      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_DebugOutput.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Danileros_modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "开发者控制台",
     "Name": "DeveloperConsole",
     "Type": "mod",
@@ -7712,6 +7762,61 @@
     ]
   },
   {
+    "DisplayName": "长拉戈",
+    "Name": "LongLargo",
+    "Type": "mod",
+    "Author": "Danileros",
+    "DisplayAuthor": [
+      "Danileros"
+    ],
+    "Description": "<p>Long Largo 是一款旨在通过改善音乐来提升游戏体验的模组。</p><p> Long Largo 恢复了故事战役中的音乐，并将其融入到你的游戏过程中。</p><p> ……而且你甚至可以关闭狼群追踪的声音！</p>",
+    "Aliases": [
+      "Long Largo",
+      "LongLargo1.1.3"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Danileros/LongLargo",
+    "RepoName": "LongLargo",
+    "Dependencies": [
+      "ModSettings",
+      "AudioCore",
+      "AudioManager"
+    ],
+    "Version": "1.1.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Danileros/LongLargo/releases/download/v1.1.3/LongLargo1.1.3.zip",
+    "Downloads": [
+      "https://github.com/Danileros/LongLargo/releases/download/v1.1.3/LongLargo1.1.3.zip"
+    ],
+    "AuthorUrl": "https://github.com/Danileros",
+    "SupportUrl": null,
+    "Categories": [
+      "Audio"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-25",
+    "Updated": "2026-08-26",
+    "Images": [
+      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_LongLargo.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "No more music fadeout when entering buildings. Settings revamped. Fixed weather stingers.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Danileros_modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "保持自身健康",
     "Name": "MaintainYourself",
     "Type": "mod",
@@ -10257,6 +10362,106 @@
     ]
   },
   {
+    "DisplayName": "QoL Firestart",
+    "Name": "QoLFirestart",
+    "Type": "mod",
+    "Author": "Danileros",
+    "DisplayAuthor": [
+      "Danileros"
+    ],
+    "Description": "<p>QoL FireStart 是一款通过选择最佳装备来简化生火过程的模组。</p><p>这包括选择火把（如果点燃的话）或放大镜（如果天气允许的话），以及保护桦树皮并选择书或树枝作为燃料。</p>",
+    "Aliases": [
+      "QoL Firestart"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Danileros/QoLFirestart",
+    "RepoName": "QoLFirestart",
+    "Dependencies": [],
+    "Version": "1.1.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Danileros/QoLFirestart/releases/download/v1.1.1/QoLFireStart.dll",
+    "Downloads": [
+      "https://github.com/Danileros/QoLFirestart/releases/download/v1.1.1/QoLFireStart.dll"
+    ],
+    "AuthorUrl": "https://github.com/Danileros",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-27",
+    "Updated": "2026-08-25",
+    "Images": [
+      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_QoLFirestart.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Danileros_modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "QoL StaniaStays",
+    "Name": "QoLStaminaStays",
+    "Type": "mod",
+    "Author": "Danileros",
+    "DisplayAuthor": [
+      "Danileros"
+    ],
+    "Description": "<p>QoL StaminaStays 是一款简单的模组，它可以防止体力条因计时器而逐渐消失。现在，体力条只有在充满时才会消失，就像大多数现代游戏一样。</p>",
+    "Aliases": [
+      "QoL StaminaStays"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Danileros/QoLStaminaStays",
+    "RepoName": "QoLStaminaStays",
+    "Dependencies": [],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Danileros/QoLStaminaStays/releases/download/v1.1.0/QoLStaminaStays.dll",
+    "Downloads": [
+      "https://github.com/Danileros/QoLStaminaStays/releases/download/v1.1.0/QoLStaminaStays.dll"
+    ],
+    "AuthorUrl": "https://github.com/Danileros",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-04",
+    "Updated": "2026-08-20",
+    "Images": [
+      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_QoLStaminaStays.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Fixed other reasons to disappear",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Danileros_modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "RN剥离功能",
     "Name": "RnStripped",
     "Type": "mod",
@@ -11727,6 +11932,58 @@
     "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "无缝内饰",
+    "Name": "SeamlessInteriors",
+    "Type": "mod",
+    "Author": "Hamsi Buglama",
+    "DisplayAuthor": [
+      "Hamsi Buglama"
+    ],
+    "Description": "这款为《漫漫长夜》开发的大型改造模组旨在将所有室内建筑直接融入开放世界，无需任何加载画面。玩家可以无缝穿梭于门之间，体验室内外融为一体的奇妙世界。",
+    "Aliases": [
+      "Seamless Interiors"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/karsontr13/TLD-Seamless-Interiors",
+    "RepoName": "SeamlessInteriors",
+    "Dependencies": [],
+    "Version": "2.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.0.0/SeamlessInteriors.dll",
+    "Downloads": [
+      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.0.0/SeamlessInteriors.dll"
+    ],
+    "AuthorUrl": "https://github.com/karsontr13",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-10",
+    "Updated": "2026-08-17",
+    "Images": [
+      "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/main/SeamlessInteriors.PNG"
+    ],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "Initial Release",
+      "notes": "This mod is in a very early stage of development. Even with testing, it may contain undiscovered bugs. Do not use this with your primary/main save files. Please consider the risks before installing.\n\nThere is a high risk of conflict with other mods that modify the structure or interior of buildings. This has not been tested with other custom interior mods yet.",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   {
