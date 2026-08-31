@@ -1185,9 +1185,7 @@
     "RepoName": "BaltaTools",
     "Dependencies": [
       "ModSettings",
-      "ModComponent",
-      "Modders' Gear Toolbox",
-      "ExpandedTradingFramework"
+      "ModComponent"
     ],
     "Version": "1.0.0",
     "Error": false,
@@ -1214,7 +1212,7 @@
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "Check the Repo readme for more details!",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
@@ -1241,12 +1239,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.0.0/BaltaTweaks.dll",
+    "Download": "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.1.0/BaltaTweaks.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.0.0/BaltaTweaks.dll"
+      "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.1.0/BaltaTweaks.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -1258,12 +1256,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-28",
-    "Updated": "2026-08-28",
+    "Updated": "2026-08-31",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Added UI for Tip ups' condition, when in ice fishing panel (tip up selecttion)",
       "notes": "",
       "issues": ""
     },
@@ -2253,12 +2251,12 @@
       "ModData",
       "Affliction Component"
     ],
-    "Version": "1.1.2",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.2/CatchColdMod.dll",
+    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.2.0/CatchColdMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.1.2/CatchColdMod.dll"
+      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.2.0/CatchColdMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -2270,7 +2268,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-21",
-    "Updated": "2026-02-28",
+    "Updated": "2026-08-31",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_42.jpg",
@@ -2279,7 +2277,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "- new icons\n- when treating pneumonia, the damage will be less severe\n- overall a little less harsh pneumonia\n- fixed birch bark tea\n- added coughing when afflicted pneumonia\n- fix for cold risk not curing when fully depleted",
+      "patchnotes": "- hopefully fixed the bug with multiple notifications with cold risk\n- reducing (curing) cold risk is taking double time now, because it was too easy",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -5859,12 +5857,12 @@
     "ModUrl": "https://github.com/BaltaZar-7/HotkeyMod",
     "RepoName": "HotkeyMod",
     "Dependencies": [],
-    "Version": "1.2.1",
+    "Version": "1.2.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.1/HotkeyMod.dll",
+    "Download": "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.2/HotkeyMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.1/HotkeyMod.dll"
+      "https://github.com/BaltaZar-7/HotkeyMod/releases/download/1.2.2/HotkeyMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -5876,14 +5874,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-02-01",
+    "Updated": "2026-08-31",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HotkeyMod/Screenshot%202026-01-22%20221343.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fixed an issue with ruined torches getting selected first.",
+      "patchnotes": "Block when a Panel is opened",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -8538,6 +8536,58 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更多配件槽位",
+    "Name": "MoreAccessorySlots",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "最多可提供 2 个额外的配件槽位。",
+    "Aliases": [
+      "More Accessory Slots"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/MoreAccessorySlots",
+    "RepoName": "MoreAccessorySlots",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/MoreAccessorySlots/releases/download/1.0.0/MoreAccessorySlots.dll",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/MoreAccessorySlots/releases/download/1.0.0/MoreAccessorySlots.dll"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
+    "Categories": [
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-31",
+    "Updated": "2026-08-31",
+    "Images": [
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/MoreAccessorySlots/MoreAccessorySlots.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   {
