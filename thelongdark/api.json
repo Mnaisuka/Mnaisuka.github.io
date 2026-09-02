@@ -5147,6 +5147,58 @@
     ]
   },
   {
+    "DisplayName": "自由观看",
+    "Name": "FreeLook",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "行走时可自由转动视角。按住某个键，视角会从你行进的方向向外移动，但角色不会转动，这样你就可以一边走一边看向另一个方向。松开键，视角会以你设定的速度转回原位。按住、切换或双击即可锁定视角，支持手柄操作。转动视角时，你手中的物品会隐藏，手电筒和灯笼的照明不受影响。",
+    "Aliases": [
+      "Free Look"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/TLD-FreeLook",
+    "RepoName": "FreeLook",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/TLD-FreeLook/releases/latest/download/FreeLook.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/TLD-FreeLook/releases/latest/download/FreeLook.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-09-01",
+    "Updated": "2026-09-01",
+    "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/FreeLook_Screenshot_cr.jpg",
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/FreeLook_Settings_cr1.jpg",
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/FreeLook_Settings_cr2.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "友善湾",
     "Name": "FriendlyInlet",
     "Type": "mod",
