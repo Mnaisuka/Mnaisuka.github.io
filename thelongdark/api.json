@@ -122,7 +122,7 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.4.0",
+    "Version": "1.4.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/TLD-Mods/AfflictionComponent/releases/latest",
@@ -135,11 +135,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.57",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "2024-08-25",
-    "Updated": "2026-08-10",
+    "Updated": "2026-08-22",
     "Images": [
       "https://i.imgur.com/EUZC3G7.png"
     ],
@@ -6170,12 +6170,12 @@
       "ModSettings",
       "AfflictionComponent"
     ],
-    "Version": "3.2.0",
+    "Version": "3.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.2.0/ImprovedAfflictions.dll",
+    "Download": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.3.0/ImprovedAfflictions.dll",
     "Downloads": [
-      "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.2.0/ImprovedAfflictions.dll"
+      "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.3.0/ImprovedAfflictions.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -6187,7 +6187,7 @@
       "ml": "0.7.2"
     },
     "Released": "2023-07-22",
-    "Updated": "2026-04-25",
+    "Updated": "2026-07-22",
     "Images": [],
     "Status": {
       "working": true,
@@ -7819,10 +7819,10 @@
     "DisplayAuthor": [
       "Danileros"
     ],
-    "Description": "<p>Long Largo 是一款旨在通过改善音乐来提升游戏体验的模组。</p><p> Long Largo 恢复了故事战役中的音乐，并将其融入到你的游戏过程中。</p><p> ……而且你甚至可以关闭狼群追踪的声音！</p>",
+    "Description": "<p>Long Largo 是一款旨在通过改善音乐来提升游戏体验的模组。</p><p> Long Largo 恢复了故事战役中的音乐，并将其融入到你的游戏过程中。</p><p> ……你甚至可以关闭狼群追踪的声音！</p>",
     "Aliases": [
       "Long Largo",
-      "LongLargo1.1.3"
+      "LongLargo1.1.4"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Danileros/LongLargo",
@@ -7832,12 +7832,12 @@
       "AudioCore",
       "AudioManager"
     ],
-    "Version": "1.1.3",
+    "Version": "1.1.4",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Danileros/LongLargo/releases/download/v1.1.3/LongLargo1.1.3.zip",
+    "Download": "https://github.com/Danileros/LongLargo/releases/download/v1.1.4/LongLargo1.1.4.zip",
     "Downloads": [
-      "https://github.com/Danileros/LongLargo/releases/download/v1.1.3/LongLargo1.1.3.zip"
+      "https://github.com/Danileros/LongLargo/releases/download/v1.1.4/LongLargo1.1.4.zip"
     ],
     "AuthorUrl": "https://github.com/Danileros",
     "SupportUrl": null,
@@ -7849,14 +7849,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-25",
-    "Updated": "2026-08-26",
+    "Updated": "2026-09-03",
     "Images": [
       "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_LongLargo.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "No more music fadeout when entering buildings. Settings revamped. Fixed weather stingers.",
+      "patchnotes": "New features: disable copyright music, wintermute wolf stalking. Settings reworked. Missing dependencies message is gone.",
       "notes": "",
       "issues": ""
     },
@@ -14858,7 +14858,7 @@
     "ModUrl": "https://github.com/WillWunderhorn/TranslatedTextures",
     "RepoName": "TranslatedTextures",
     "Dependencies": [],
-    "Version": "1.2.1",
+    "Version": "1.2.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/TranslatedTextures/releases/download/Latest/TranslatedTextures.dll",
@@ -14876,7 +14876,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-25",
-    "Updated": "2026-08-26",
+    "Updated": "2026-09-03",
     "Images": [
       "https://raw.githubusercontent.com/WillWunderhorn/TranslatedTextures/refs/heads/master/TranslatedTextures(Russian).png"
     ],
@@ -14884,7 +14884,7 @@
       "working": true,
       "beta": false,
       "patchnotes": "",
-      "notes": "I might have missed something",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
