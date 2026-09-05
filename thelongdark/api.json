@@ -658,12 +658,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.2.0/AnimalRespawnTimeMod.dll",
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.3.0/AnimalRespawnTimeMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.2.0/AnimalRespawnTimeMod.dll"
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.3.0/AnimalRespawnTimeMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -675,14 +675,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-08",
-    "Updated": "2026-08-08",
+    "Updated": "2026-09-05",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Now compatible with Expanded AI Framework (EAF)",
+      "patchnotes": "Fixed the whole mod. It was not working properly.\nEAF will soon have an update, then the two mods will be compatible!",
       "notes": "",
       "issues": ""
     },
@@ -1185,14 +1185,15 @@
     "RepoName": "BaltaTools",
     "Dependencies": [
       "ModSettings",
-      "ModComponent"
+      "ModComponent",
+      "ExpandedTradingFramework"
     ],
-    "Version": "1.0.0",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.0/BaltaTools.zip",
+    "Download": "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.2/BaltaTools.zip",
     "Downloads": [
-      "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.0/BaltaTools.zip"
+      "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.2/BaltaTools.zip"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -1200,11 +1201,11 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.55",
-      "ml": "0.7.2"
+      "tld": "",
+      "ml": ""
     },
     "Released": "2026-08-28",
-    "Updated": "2026-08-28",
+    "Updated": "2026-09-05",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BaltaTools/BaltaToolsWallpaper.png"
     ],
@@ -1239,12 +1240,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.1.0/BaltaTweaks.dll",
+    "Download": "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.2.1/BaltaTweaks.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.1.0/BaltaTweaks.dll"
+      "https://github.com/BaltaZar-7/BaltaTweaks/releases/download/1.2.1/BaltaTweaks.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -1256,7 +1257,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-28",
-    "Updated": "2026-08-31",
+    "Updated": "2026-09-05",
     "Images": [],
     "Status": {
       "working": true,
@@ -2251,12 +2252,12 @@
       "ModData",
       "Affliction Component"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.2.0/CatchColdMod.dll",
+    "Download": "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.2.1/CatchColdMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.2.0/CatchColdMod.dll"
+      "https://github.com/BaltaZar-7/CatchColdMod/releases/download/1.2.1/CatchColdMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -2268,7 +2269,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-02-21",
-    "Updated": "2026-08-31",
+    "Updated": "2026-09-04",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_42.jpg",
@@ -2277,7 +2278,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "- hopefully fixed the bug with multiple notifications with cold risk\n- reducing (curing) cold risk is taking double time now, because it was too easy",
+      "patchnotes": "Fixed multiple cold risk notifications - Thanks to EtherSystem!\nRussian localizations for Modsettings",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -5154,7 +5155,7 @@
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "行走时可自由转动视角。按住某个键，视角会从你行进的方向向外移动，但角色不会转动，这样你就可以一边走一边看向另一个方向。松开键，视角会以你设定的速度转回原位。按住、切换或双击即可锁定视角，支持手柄操作。转动视角时，你手中的物品会隐藏，手电筒和灯笼的照明不受影响。",
+    "Description": "终于可以自由地四处走动了！既要留意捕食者，也可以尽情欣赏美丽的风景。",
     "Aliases": [
       "Free Look"
     ],
@@ -5164,7 +5165,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/JesseWV/TLD-FreeLook/releases/latest/download/FreeLook.dll",
@@ -5181,16 +5182,17 @@
       "ml": "0.7.2"
     },
     "Released": "2026-09-01",
-    "Updated": "2026-09-01",
+    "Updated": "2026-09-04",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/FreeLook_Screenshot_cr.jpg",
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/FreeLook_Settings_cr1.jpg",
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/FreeLook_Settings_cr2.jpg"
+      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/tldmods-main.gif",
+      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/Settings_1.jpg",
+      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/Settings_2.jpg",
+      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/Settings_3.jpg"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Now works in vehicles and includes a new Focus View mode!",
       "notes": "",
       "issues": ""
     },
@@ -7556,7 +7558,7 @@
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "新增了从兽皮中再生皮革的方法，可以制作某些皮革服装，还新增了树皮，树皮可用于制作面粉、食物和绳索等多种用途。",
+    "Description": "增加了从兽皮中再生皮革的方法，能够制作某些皮革服装，并增加了树皮，可以用来制作面粉、食物和绳子等物品。",
     "Aliases": [
       "Leatherworks",
       "v1.3"
@@ -7566,14 +7568,15 @@
     "RepoName": "Leatherworks",
     "Dependencies": [
       "ModSettings",
-      "ModComponent"
+      "ModComponent",
+      "Modders' Gear Toolbox"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.1",
     "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.0",
+    "AutoUpdate": false,
+    "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.0"
+      "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -7591,14 +7594,16 @@
       "ml": "0.7.2"
     },
     "Released": "2023-11-28",
-    "Updated": "2026-07-17",
-    "Images": [],
+    "Updated": "2026-09-05",
+    "Images": [
+      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_Leatherworks.jpg"
+    ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "https://github.com/Sm4rtBoyTom/Leatherworks",
       "notes": "",
-      "issues": "Unstable pre-release, issues are expected"
+      "issues": ""
     },
     "PreviousAuthors": "TonisGaming",
     "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
@@ -8588,58 +8593,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "更多配件槽位",
-    "Name": "MoreAccessorySlots",
-    "Type": "mod",
-    "Author": "BaltaZar",
-    "DisplayAuthor": [
-      "BaltaZar"
-    ],
-    "Description": "最多可提供 2 个额外的配件槽位。",
-    "Aliases": [
-      "More Accessory Slots"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/BaltaZar-7/MoreAccessorySlots",
-    "RepoName": "MoreAccessorySlots",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/MoreAccessorySlots/releases/download/1.0.0/MoreAccessorySlots.dll",
-    "Downloads": [
-      "https://github.com/BaltaZar-7/MoreAccessorySlots/releases/download/1.0.0/MoreAccessorySlots.dll"
-    ],
-    "AuthorUrl": "https://github.com/BaltaZar-7",
-    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
-    "Categories": [
-      "Clothing"
-    ],
-    "TestedOn": {
-      "tld": "2.55",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-08-31",
-    "Updated": "2026-08-31",
-    "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/MoreAccessorySlots/MoreAccessorySlots.jpg"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -14850,7 +14803,7 @@
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "所有纹理现已翻译完毕！",
+    "Description": "将所有纹理翻译成俄语！（特别感谢 mik5937 的测试和本地化帮助）",
     "Aliases": [
       "TranslatedTextures (Rus)"
     ],
@@ -14858,7 +14811,7 @@
     "ModUrl": "https://github.com/WillWunderhorn/TranslatedTextures",
     "RepoName": "TranslatedTextures",
     "Dependencies": [],
-    "Version": "1.2.3",
+    "Version": "1.3.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/TranslatedTextures/releases/download/Latest/TranslatedTextures.dll",
@@ -14876,7 +14829,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-25",
-    "Updated": "2026-09-03",
+    "Updated": "2026-09-05",
     "Images": [
       "https://raw.githubusercontent.com/WillWunderhorn/TranslatedTextures/refs/heads/master/TranslatedTextures(Russian).png"
     ],
