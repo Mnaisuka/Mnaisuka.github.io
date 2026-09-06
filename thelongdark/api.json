@@ -1031,25 +1031,25 @@
       "Auto Updating Plugin"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/AutoUpdatingPlugin",
+    "ModUrl": "https://github.com/moosemeat817/AutoUpdatePlugin",
     "RepoName": "AutoUpdatingPlugin",
     "Dependencies": [],
-    "Version": "2.0.0",
+    "Version": "2.0.1",
     "Error": true,
     "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/AutoUpdatingPlugin/releases/download/2.0.0/AutoUpdatingPlugin.dll",
+    "Download": "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll",
     "Downloads": [
-      "https://github.com/dommrogers/AutoUpdatingPlugin/releases/download/2.0.0/AutoUpdatingPlugin.dll"
+      "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll"
     ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
     "Released": "",
-    "Updated": "2026-01-02",
+    "Updated": "2026-09-06",
     "Images": [
       "https://github.com/dommrogers/mod_list/blob/master/aup.png?raw=true"
     ],
@@ -1061,7 +1061,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -4098,7 +4098,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
@@ -4115,12 +4115,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-01",
-    "Updated": "2026-08-01",
+    "Updated": "2026-09-06",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Fixed a bug where the fire starting skill was reset on scene transition and minimum skill levels was badly held above level 6",
       "notes": "",
       "issues": ""
     },
@@ -5165,7 +5165,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/JesseWV/TLD-FreeLook/releases/latest/download/FreeLook.dll",
@@ -5182,17 +5182,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-09-01",
-    "Updated": "2026-09-04",
+    "Updated": "2026-09-06",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/tldmods-main.gif",
-      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/Settings_1.jpg",
-      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/Settings_2.jpg",
-      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/Settings_3.jpg"
+      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/tldmods-main.gif"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Now works in vehicles and includes a new Focus View mode!",
+      "patchnotes": "Recall: tap X to swing back to whatever you were last looking at. Plus fixes for object placement and wolf struggles.",
       "notes": "",
       "issues": ""
     },
