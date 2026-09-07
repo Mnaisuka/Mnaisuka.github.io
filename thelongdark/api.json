@@ -176,9 +176,9 @@
       "ModData",
       "AfflictionComponent"
     ],
-    "Version": "1.6.5",
+    "Version": "1.7.0",
     "Error": false,
-    "AutoUpdate": false,
+    "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll",
     "Downloads": [
       "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll"
@@ -194,7 +194,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-04-25",
-    "Updated": "2026-06-15",
+    "Updated": "2026-09-07",
     "Images": [
       "https://raw.githubusercontent.com/WillWunderhorn/AfflictionsAndBuffs/refs/heads/master/AfflictionsAndBuffsPrev.png"
     ],
@@ -1035,7 +1035,7 @@
     "RepoName": "AutoUpdatingPlugin",
     "Dependencies": [],
     "Version": "2.0.1",
-    "Error": true,
+    "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll",
     "Downloads": [
@@ -1054,7 +1054,7 @@
       "https://github.com/dommrogers/mod_list/blob/master/aup.png?raw=true"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -9132,7 +9132,7 @@
     "Dependencies": [],
     "Version": "1.4",
     "Error": false,
-    "AutoUpdate": false,
+    "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/NoMoreCabinFever/releases/download/Latest/NoMoreCabinFever.dll",
     "Downloads": [
       "https://github.com/WillWunderhorn/NoMoreCabinFever/releases/download/Latest/NoMoreCabinFever.dll"
