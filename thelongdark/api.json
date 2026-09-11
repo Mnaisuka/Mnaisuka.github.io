@@ -101,6 +101,55 @@
     ]
   },
   {
+    "DisplayName": "可调节步行速度",
+    "Name": "AdjustableWalkSpeed",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "可调节行走速度允许玩家使用滚轮输入来调节行走速度，使其变慢，从而营造更具电影感的场景。",
+    "Aliases": [
+      "Adjustable Walk Speed"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/AdjustableWalkSpeed",
+    "RepoName": "AdjustableWalkSpeed",
+    "Dependencies": [],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/AdjustableWalkSpeed/releases/download/1.1/AdjustableWalkSpeed.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/AdjustableWalkSpeed/releases/download/1.1/AdjustableWalkSpeed.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-12-18",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "痛苦组成部分",
     "Name": "AfflictionComponent",
     "Type": "mod",
@@ -152,6 +201,62 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "痛苦组成部分",
+    "Name": "AfflictionComponent",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar",
+      "Deadman",
+      "EtherSystem"
+    ],
+    "Description": "一个框架模组，允许模组制作者向游戏中添加他们自己的自定义疾病效果。",
+    "Aliases": [
+      "Affliction Component",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/TLD-Mods/AfflictionComponent",
+    "RepoName": "AfflictionComponent",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModData"
+    ],
+    "Version": "1.4.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/TLD-Mods/AfflictionComponent/releases/latest",
+    "Downloads": [
+      "https://github.com/TLD-Mods/AfflictionComponent/releases/latest"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-08-25",
+    "Updated": "2026-08-22",
+    "Images": [
+      "https://i.imgur.com/EUZC3G7.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -1536,60 +1641,6 @@
     "Source": "https://gist.githubusercontent.com/RomainDeschampsFR/52fc7fdde03b746ef05cee8b525396fb/raw/ModDefinitionFile.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "更好的水资源管理",
-    "Name": "BetterWaterManagement",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "改进《漫漫长夜》中水资源管理方式的模组。<br><br><a href='https://github.com/dommrogers/Better-Water-Management' target='_blank'>安装说明</a>",
-    "Aliases": [
-      "BetterWaterManagement",
-      "Better Water Management",
-      "5.2"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/Better-Water-Management",
-    "RepoName": "BetterWaterManagement",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "5.2.0",
-    "Error": true,
-    "AutoUpdate": false,
-    "Download": "https://github.com/dommrogers/Better-Water-Management/releases/tag/5.2.0",
-    "Downloads": [
-      "https://github.com/dommrogers/Better-Water-Management/releases/download/5.2.0/Better-Water-Management.dll",
-      "https://github.com/dommrogers/Better-Water-Management/releases/download/5.2.0/Better-Water-Management.modcomponent",
-      "https://github.com/dommrogers/Better-Water-Management/releases/tag/5.2.0"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.22",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-10-07",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678, WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
     ]
   },
   {
@@ -3134,57 +3185,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "修改稿",
-    "Name": "CraftingRevisions",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />改进了制作界面，并支持自定义蓝图/配方创建。",
-    "Aliases": [
-      "Crafting Revisions"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/CraftingRevisions/",
-    "RepoName": "CraftingRevisions",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.3.3",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/CraftingRevisions/releases/download/2.3.3/CraftingRevisions.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/CraftingRevisions/releases/download/2.3.3/CraftingRevisions.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.33",
-      "ml": "0.6.6"
-    },
-    "Released": "",
-    "Updated": "2024-12-02",
-    "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/partofmc.png?raw=true"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "制作热键",
     "Name": "CraftingHotkey",
     "Type": "mod",
@@ -3766,6 +3766,59 @@
     ]
   },
   {
+    "DisplayName": "动态温度",
+    "Name": "DynamicTemperature",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款游戏模组，为室内避难所添加动态温度和简化的模拟热力学。让你的安全屋保持温暖！",
+    "Aliases": [
+      "CoolHome",
+      "DynamicTemperature",
+      "Dynamic Temperature"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/DynamicTemperature",
+    "RepoName": "DynamicTemperature",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/DynamicTemperature/releases/latest/download/DynamicTemperature.zip",
+    "Downloads": [
+      "https://github.com/Fuar11/DynamicTemperature/releases/latest/download/DynamicTemperature.zip"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-01-26",
+    "Updated": "2026-01-26",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "yasenfire",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "动态树",
     "Name": "DynamicTrees",
     "Type": "mod",
@@ -3806,6 +3859,113 @@
     "Images": [
       "https://i.imgur.com/zdZMjCh.jpg"
     ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "动态树",
+    "Name": "DynamicTrees",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar",
+      "Jods-Its"
+    ],
+    "Description": "动态树木会动态替换树木的树叶纹理，以表现积雪，从而为游戏增添更多沉浸感。",
+    "Aliases": [
+      "Dynamic Trees"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/DynamicTrees",
+    "RepoName": "DynamicTrees",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModData"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Graphics"
+    ],
+    "TestedOn": {
+      "tld": "2.57",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-11-14",
+    "Updated": "2026-07-14",
+    "Images": [
+      "https://i.imgur.com/zdZMjCh.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "动态世界",
+    "Name": "DynamicWorld",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "增加了包括地震在内的动态事件，使大熊湖的世界感觉更加动态，并随着时间的推移而变化。",
+    "Aliases": [
+      "Dynamic World"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/DynamicWorld",
+    "RepoName": "DynamicWorld",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings",
+      "ModData",
+      "AudioManager"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/DynamicWorld/releases/download/1.1.0/DynamicWorld.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/DynamicWorld/releases/download/1.1.0/DynamicWorld.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.57",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-07-24",
+    "Updated": "2026-07-12",
+    "Images": [],
     "Status": {
       "working": true,
       "beta": false,
@@ -3867,7 +4027,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -4721,55 +4881,6 @@
     ]
   },
   {
-    "DisplayName": "修复Steam创意工坊物品",
-    "Name": "FixSteamWorkshopItems",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "一个非常快速的修改，可以重新启用创意工坊本地化文件",
-    "Aliases": [
-      "Fix Steam Workshop Items"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/FixSteamWorkshopItems",
-    "RepoName": "FixSteamWorkshopItems",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/FixSteamWorkshopItems/releases/download/1.0.0/FixSteamWorkshopItems.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/FixSteamWorkshopItems/releases/download/1.0.0/FixSteamWorkshopItems.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.19",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-04-02",
-    "Updated": "2023-04-02",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "TKG出品的食品包",
     "Name": "FoodPackByTKG",
     "Type": "mod",
@@ -5301,6 +5412,59 @@
     ]
   },
   {
+    "DisplayName": "冷冻食品",
+    "Name": "FrozenFood",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "冷冻食品旨在通过允许食物随着时间推移而冻结，为游戏增添更多真实感。",
+    "Aliases": [
+      "Frozen Foods",
+      "FrozenFood",
+      "Frozen Food"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/FrozenFood",
+    "RepoName": "FrozenFood",
+    "Dependencies": [
+      "ModData"
+    ],
+    "Version": "1.5.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.1/FrozenFood.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.1/FrozenFood.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Food"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-05-28",
+    "Updated": "2025-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "燃油管理器",
     "Name": "FuelManager",
     "Type": "mod",
@@ -5572,57 +5736,6 @@
     ]
   },
   {
-    "DisplayName": "齿轮生成器",
-    "Name": "GearSpawner",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />用于生成模组物品的实用模组。",
-    "Aliases": [
-      "Gear Spawner"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/GearSpawner",
-    "RepoName": "GearSpawner",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "2.3.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/GearSpawner/releases/download/2.3.2/GearSpawner.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/GearSpawner/releases/download/2.3.2/GearSpawner.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.33",
-      "ml": "0.6.6"
-    },
-    "Released": "",
-    "Updated": "2023-06-22",
-    "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/partofmc.png?raw=true"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "大巴岛",
     "Name": "GreatBareIsland",
     "Type": "mod",
@@ -5785,47 +5898,44 @@
     ]
   },
   {
-    "DisplayName": "万圣节",
-    "Name": "Halloween",
+    "DisplayName": "收成产量调整器",
+    "Name": "HarvestYieldTweaker",
     "Type": "mod",
-    "Author": "TLD Modding Community",
+    "Author": "Fuar",
     "DisplayAuthor": [
-      "TLD Modding Community"
+      "Fuar"
     ],
-    "Description": "嚎叫万圣节 - 由 Discord Modding 社区倾情呈现",
+    "Description": "一种游戏玩法模组，允许用户更改分解某些物品所获得的收益量。",
     "Aliases": [
-      "TLDHalloween",
-      "Halloween",
-      "Halloween",
-      "TLD-Halloween"
+      "Harvest Yield Tweaker",
+      "1.1"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TLD-Mods/TLD-Halloween/",
-    "RepoName": "Halloween",
+    "ModUrl": "https://github.com/Fuar11/HarvestYieldTweaker",
+    "RepoName": "HarvestYieldTweaker",
     "Dependencies": [
-      "ModComponent"
+      "ComplexLogger",
+      "ModSettings"
     ],
-    "Version": "1.0.1",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/TLD-Mods/TLD-Halloween/releases/download/1.0.1/TLD-Halloween.zip",
+    "Download": "https://github.com/Fuar11/HarvestYieldTweaker/releases/tag/1.1.1",
     "Downloads": [
-      "https://github.com/TLD-Mods/TLD-Halloween/releases/download/1.0.1/TLD-Halloween.zip"
+      "https://github.com/Fuar11/HarvestYieldTweaker/releases/tag/1.1.1"
     ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
     "Categories": [
-      "Misc"
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.24",
-      "ml": "0.6.1"
+      "tld": "2.51",
+      "ml": "0.7.2"
     },
-    "Released": "2023-10-27",
-    "Updated": "2023-11-02",
-    "Images": [
-      "https://raw.githubusercontent.com/TLD-Mods/TLD-Halloween/master/ThumbHW2.png"
-    ],
+    "Released": "2024-12-04",
+    "Updated": "2026-01-06",
+    "Images": [],
     "Status": {
       "working": true,
       "beta": false,
@@ -5834,10 +5944,9 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -5887,7 +5996,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -6202,6 +6311,59 @@
     ]
   },
   {
+    "DisplayName": "改善的痛苦",
+    "Name": "ImprovedAfflictions",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "改进的疾病系统对许多疾病进行了彻底的改造和更改，使其持续时间更长、造成更致命的影响，并使游戏更具挑战性。",
+    "Aliases": [
+      "Improved Afflictions"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedAfflictions",
+    "RepoName": "ImprovedAfflictions",
+    "Dependencies": [
+      "ModData",
+      "Moment",
+      "ModSettings",
+      "AfflictionComponent"
+    ],
+    "Version": "3.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.3.0/ImprovedAfflictions.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedAfflictions/releases/download/3.3.0/ImprovedAfflictions.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-07-22",
+    "Updated": "2026-07-22",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "改良服装",
     "Name": "ImprovedClothing",
     "Type": "mod",
@@ -6254,6 +6416,58 @@
     ]
   },
   {
+    "DisplayName": "改良服装",
+    "Name": "ImprovedClothing",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "增加了在冰雪中行走、动物袭击后衣物被浸湿的情况，以及一种快速脱下身上衣物的新方法。",
+    "Aliases": [
+      "Improved Clothing"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedClothing",
+    "RepoName": "ImprovedClothing",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedClothing/releases/download/1.2.2/ImprovedClothing.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedClothing/releases/download/1.2.2/ImprovedClothing.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-04-13",
+    "Updated": "2026-01-06",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "改良版美洲狮",
     "Name": "ImprovedCougar",
     "Type": "mod",
@@ -6294,6 +6508,115 @@
     },
     "Released": "2024-12-12",
     "Updated": "2026-07-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "改良版美洲狮",
+    "Name": "ImprovedCougar",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款游戏玩法模组，它添加并修改了与美洲狮相关的机制。",
+    "Aliases": [
+      "Improved Cougar",
+      "2.0"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedCougar",
+    "RepoName": "ImprovedCougar",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings",
+      "ModData",
+      "Expanded AI Framework",
+      "AudioManager"
+    ],
+    "Version": "2.0.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.2",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedCougar/releases/tag/2.0.2"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-12-12",
+    "Updated": "2026-07-05",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "改良烧瓶",
+    "Name": "ImprovedFlasks",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款为保温瓶添加全新便捷功能的玩法模组。",
+    "Aliases": [
+      "Improved Flasks",
+      "1.2"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedFlasks",
+    "RepoName": "ImprovedFlasks",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedFlasks/releases/tag/1.2.3",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedFlasks/releases/tag/1.2.3"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-12-04",
+    "Updated": "2025-05-17",
     "Images": [],
     "Status": {
       "working": true,
@@ -6357,7 +6680,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "tftft"
     ]
@@ -6408,6 +6731,57 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "改进的加载界面",
+    "Name": "ImprovedLoadingScreens",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款改进游戏加载界面的模组，提供自定义提示、背景图片，并可启用或禁用加载界面的各种功能。",
+    "Aliases": [
+      "Improved Loading Screens"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedLoadingScreens",
+    "RepoName": "ImprovedLoadingScreens",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.4.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedLoadingScreens/releases/latest/download/ImprovedLoadingScreens.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedLoadingScreens/releases/latest/download/ImprovedLoadingScreens.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.57",
+      "ml": "0.7.2"
+    },
+    "Released": "",
+    "Updated": "2026-07-14",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -6570,6 +6944,59 @@
     ]
   },
   {
+    "DisplayName": "改进的配乐",
+    "Name": "ImprovedSoundtrack",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "通过添加播放原声带中稀有或已移除曲目的新条件，改进了游戏内配乐。包括发现新地点时播放的彩蛋音乐。",
+    "Aliases": [
+      "Improved OST",
+      "ImprovedSoundtrack",
+      "Improved Soundtrack"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedSoundtrack",
+    "RepoName": "ImprovedSoundtrack",
+    "Dependencies": [
+      "ModSettings",
+      "AudioCore"
+    ],
+    "Version": "1.1.4",
+    "Error": true,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedSoundtrack/releases/download/v1.1.4/ImprovedSoundtrack.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedSoundtrack/releases/download/v1.1.4/ImprovedSoundtrack.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Audio"
+    ],
+    "TestedOn": {
+      "tld": "2.02",
+      "ml": "0.5.5.0"
+    },
+    "Released": "",
+    "Updated": "2022-09-30",
+    "Images": [],
+    "Status": {
+      "working": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": "Not updated for TFTFT Expansion Update"
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "改进的故事",
     "Name": "ImprovedTales",
     "Type": "mod",
@@ -6613,6 +7040,112 @@
     "Images": [],
     "Status": {
       "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "改进的故事",
+    "Name": "ImprovedTales",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "通过提供生活质量自定义选项，改进信号虚空故事。",
+    "Aliases": [
+      "",
+      "ImprovedTales",
+      "Improved Tales",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedTales",
+    "RepoName": "ImprovedTales",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedTales/releases/latest",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedTales/releases/latest"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "TestedOn": {
+      "tld": "2.57",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-04-11",
+    "Updated": "2026-07-12",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
+    "DisplayName": "改进型交易员",
+    "Name": "ImprovedTrader",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款游戏玩法模组，为游戏世界添加了新的交易箱，并对交易系统进行了其他调整。",
+    "Aliases": [
+      "Improved Trader",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ImprovedTrader",
+    "RepoName": "ImprovedTrader",
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ImprovedTrader/releases/latest/",
+    "Downloads": [
+      "https://github.com/Fuar11/ImprovedTrader/releases/latest/"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-23",
+    "Updated": "2026-04-23",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
       "patchnotes": "",
       "notes": "",
       "issues": ""
@@ -6670,7 +7203,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "tftft"
     ]
@@ -7501,53 +8034,6 @@
     ]
   },
   {
-    "DisplayName": "键盘实用程序",
-    "Name": "KeyboardUtilities",
-    "Type": "mod",
-    "Author": "ds5678",
-    "DisplayAuthor": [
-      "ds5678"
-    ],
-    "Description": "一个实用模组，使其他模组能够更轻松地使用键盘和鼠标输入。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
-    "Aliases": [
-      "Keyboard Utilities"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/ds5678/KeyboardUtilities",
-    "RepoName": "KeyboardUtilities",
-    "Dependencies": [],
-    "Version": "2.0.0",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/ds5678/KeyboardUtilities/releases/download/2.0.0/KeyboardUtilities.dll",
-    "Downloads": [
-      "https://github.com/ds5678/KeyboardUtilities/releases/download/2.0.0/KeyboardUtilities.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.31",
-      "ml": "0.6.1"
-    },
-    "Released": "",
-    "Updated": "2023-02-28",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "Sinai",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "皮革制品",
     "Name": "Leatherworks",
     "Type": "mod",
@@ -7708,55 +8194,6 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/digitalzombie_tld_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "本地化工具",
-    "Name": "LocalizationUtilities",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />用于本地化文本的实用模组。",
-    "Aliases": [
-      "Localization Utilities"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/LocalizationUtilities/",
-    "RepoName": "LocalizationUtilities",
-    "Dependencies": [],
-    "Version": "2.1.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/LocalizationUtilities/releases/download/2.1.0/LocalizationUtilities.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/LocalizationUtilities/releases/download/2.1.0/LocalizationUtilities.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.39",
-      "ml": "0.6.6"
-    },
-    "Released": "",
-    "Updated": "2025-01-21",
-    "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/partofmc.png?raw=true"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -8278,114 +8715,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "数据",
-    "Name": "ModData",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "TLD 的一个实用模组，允许其他模组独立于存档文件保存数据。",
-    "Aliases": [
-      "Mod Data"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/ModData",
-    "RepoName": "ModData",
-    "Dependencies": [],
-    "Version": "1.5.5",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/ModData/releases/download/1.5.5/ModData.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/ModData/releases/download/1.5.5/ModData.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [
-      "Utility Mod"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2023-03-16",
-    "Updated": "2026-01-02",
-    "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/moddata.png?raw=true"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "模块组件",
-    "Name": "ModComponent",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "现在内置了 GearSpawner、CraftingRevisions 和 LocalizationUtilities。实用模组；允许您加载外部物品包。",
-    "Aliases": [
-      "AssetLoader",
-      "ModComponentMapper",
-      "ModComponentAPI",
-      "ModComponent",
-      "ModComponent"
-    ],
-    "Replaces": [
-      "LocalizationUtilities",
-      "GearSpawner",
-      "CraftingRevisions"
-    ],
-    "ModUrl": "https://github.com/dommrogers/ModComponent",
-    "RepoName": "ModComponent",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "7.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/ModComponent/releases/download/7.0.0/ModComponent.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/ModComponent/releases/download/7.0.0/ModComponent.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "",
-    "Updated": "2026-01-02",
-    "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/modcomponent.png?raw=true"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678, WulfMarius",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "模组设置",
     "Name": "ModSettings",
     "Type": "library",
@@ -8644,6 +8973,57 @@
     ]
   },
   {
+    "DisplayName": "更多摄像机刷新点",
+    "Name": "MoreCameraSpawns",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一款游戏玩法模组，为大熊湖下游附近的即时相机添加了新的生成点。",
+    "Aliases": [
+      "More Camera Spawns"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/MoreCameraSpawns",
+    "RepoName": "MoreCameraSpawns",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/MoreCameraSpawns/releases/download/1.1.0/MoreCameraSpawns.zip",
+    "Downloads": [
+      "https://github.com/Fuar11/MoreCameraSpawns/releases/download/1.1.0/MoreCameraSpawns.zip"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-12-07",
+    "Updated": "2026-01-29",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "更多烹饪栏目",
     "Name": "MoreCookingSlots",
     "Type": "mod",
@@ -8746,6 +9126,59 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "更多锁着的门",
+    "Name": "MoreLockedDoors",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "为游戏世界中的门和建筑物增加更多锁。",
+    "Aliases": [
+      "",
+      "MoreLockedDoors",
+      "More Locked Doors",
+      "v2.0"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/MoreLockedDoors",
+    "RepoName": "MoreLockedDoors",
+    "Dependencies": [
+      "ModComponent",
+      "ModData"
+    ],
+    "Version": "2.0.2",
+    "Error": true,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/MoreLockedDoors/releases/tag/v2.0.2",
+    "Downloads": [
+      "https://github.com/Fuar11/MoreLockedDoors/releases/tag/v2.0.2"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.32",
+      "ml": "0.6.1"
+    },
+    "Released": "2023-03-26",
+    "Updated": "2024-10-18",
+    "Images": [],
+    "Status": {
+      "working": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -9624,6 +10057,59 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "疼痛成分",
+    "Name": "PainComponent",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。",
+    "Aliases": [
+      "Pain Component",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/PainComponent",
+    "RepoName": "PainComponent",
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/PainComponent/releases/latest/",
+    "Downloads": [
+      "https://github.com/Fuar11/PainComponent/releases/latest/"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.57",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-07-22",
+    "Updated": "2026-07-22",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -11033,6 +11519,58 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "战利品减少",
+    "Name": "ReducedLoot",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "减少战利品会减少世界中某些物品的数量，方法是让这些物品在随机生成时直接消失。",
+    "Aliases": [
+      "Reduced Loot"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ReducedLoot",
+    "RepoName": "ReducedLoot",
+    "Dependencies": [
+      "ModData",
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.3/ReducedLoot.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.3/ReducedLoot.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-10-31",
+    "Updated": "2026-04-25",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12609,56 +13147,6 @@
     ]
   },
   {
-    "DisplayName": "跳过介绍重制版",
-    "Name": "SkipIntroRedux",
-    "Type": "mod",
-    "Author": "STBlade",
-    "DisplayAuthor": [
-      "STBlade"
-    ],
-    "Description": "允许玩家在开始游戏时直接进入主菜单。<br><br><b>风险自负</b>——现在省略了那些烦人的免责声明。",
-    "Aliases": [
-      "SkipIntro",
-      "SkipIntroRedux",
-      "Skip Intro Redux"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/dommrogers/SkipIntroRedux",
-    "RepoName": "SkipIntroRedux",
-    "Dependencies": [],
-    "Version": "3.1.2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/dommrogers/SkipIntroRedux/releases/download/3.1.2/SkipIntroRedux.dll",
-    "Downloads": [
-      "https://github.com/dommrogers/SkipIntroRedux/releases/download/3.1.2/SkipIntroRedux.dll"
-    ],
-    "AuthorUrl": "https://github.com/dommrogers",
-    "SupportUrl": "https://www.patreon.com/STBlade",
-    "Categories": [],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "",
-    "Updated": "2026-01-02",
-    "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/skipintro.png?raw=true"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "ds5678, AlexTheRegent",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
     "DisplayName": "天空合作社",
     "Name": "SkyCoop",
     "Type": "mod",
@@ -13512,6 +14000,58 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "幸存者知识",
+    "Name": "SurvivorKnowledge",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "通过将制作配方和采集活动与技能等级挂钩，模拟幸存者的知识。",
+    "Aliases": [
+      "Knowledge Mod",
+      "SurvivorKnowledge",
+      "Survivor Knowledge"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/SurvivorKnowledge",
+    "RepoName": "SurvivorKnowledge",
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger"
+    ],
+    "Version": "1.3.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.2/SurvivorKnowledge.dll",
+    "Downloads": [
+      "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.2/SurvivorKnowledge.dll"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-01-08",
+    "Updated": "2024-12-10",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/STBlade.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -14808,7 +15348,7 @@
     "ModUrl": "https://github.com/WillWunderhorn/TranslatedTextures",
     "RepoName": "TranslatedTextures",
     "Dependencies": [],
-    "Version": "1.3.1",
+    "Version": "1.3.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/TranslatedTextures/releases/download/Latest/TranslatedTextures.dll",
