@@ -577,59 +577,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "伏击狼",
-    "Name": "ExpandedAiFrameworkAmbushWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "新增一种狼的生成类型，它会隐藏在地图各处，等待你经过……",
-    "Aliases": [
-      "Ambush Wolf",
-      "ExpandedAiFramework.AmbushWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkAmbushWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -1071,6 +1018,55 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "自动更新插件",
+    "Name": "AutoUpdatingPlugin",
+    "Type": "plugin",
+    "Author": "STBlade",
+    "DisplayAuthor": [
+      "STBlade",
+      "ds5678"
+    ],
+    "Description": "插件。自动更新大多数模组和插件。",
+    "Aliases": [
+      "Auto Updating Plugin"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/AutoUpdatePlugin",
+    "RepoName": "AutoUpdatingPlugin",
+    "Dependencies": [],
+    "Version": "2.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "",
+    "Updated": "2026-09-06",
+    "Images": [
+      "https://github.com/dommrogers/mod_list/blob/master/aup.png?raw=true"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "在“探索”中自动填充地图",
     "Name": "AutoFillMaponExplore",
     "Type": "mod",
@@ -1190,7 +1186,8 @@
     "Dependencies": [
       "ModSettings",
       "ModComponent",
-      "ExpandedTradingFramework"
+      "ExpandedTradingFramework",
+      "modders'geartoolbox"
     ],
     "Version": "1.0.2",
     "Error": false,
@@ -1205,8 +1202,8 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "",
-      "ml": ""
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2026-08-28",
     "Updated": "2026-09-05",
@@ -1216,7 +1213,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Fix for toolbelt",
       "notes": "",
       "issues": ""
     },
@@ -1862,6 +1859,56 @@
     ]
   },
   {
+    "DisplayName": "砌砖工门维修",
+    "Name": "BricklayersDoorFix",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "修理砖瓦匠静修处的门。",
+    "Aliases": [
+      "Bricklayers Door Fix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/BricklayersDoorFix",
+    "RepoName": "BricklayersDoorFix",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/BricklayersDoorFix/releases/download/1.0.0/BricklayersDoorFix.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/BricklayersDoorFix/releases/download/1.0.0/BricklayersDoorFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-08",
+    "Updated": "2026-02-08",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_BricklayersDoorFix.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "含咖啡因的汽水",
     "Name": "CaffeinatedSodas",
     "Type": "mod",
@@ -2295,6 +2342,56 @@
     ]
   },
   {
+    "DisplayName": "选择起始装备重制版",
+    "Name": "ChooseStartingGearRedux",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "替换“选择初始装备和DLC-选择初始装备-DLC”。选择您希望在游戏开始时使用的物品。",
+    "Aliases": [
+      "Choose Starting Gear Redux"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/ChooseStartingGearRedux",
+    "RepoName": "ChooseStartingGearRedux",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.0.1/ChooseStartingGearRedux.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.0.1/ChooseStartingGearRedux.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-01-30",
+    "Updated": "2026-01-30",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML-ChooseStartingGearRedux.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "选择起始位置",
     "Name": "ChooseStartingLocationTFTFT",
     "Type": "mod",
@@ -2405,6 +2502,58 @@
     ]
   },
   {
+    "DisplayName": "服装扩展",
+    "Name": "ClothingExpanded",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "增加了将配饰与服装组合使用的方法，以便同时装备更多配饰。",
+    "Aliases": [
+      "Clothing Expanded"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/ClothingExpanded",
+    "RepoName": "ClothingExpanded",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Quality of Life",
+      "Gear Items",
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-28",
+    "Updated": "2026-03-28",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Clothing_Expanded.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "服装调整器 2",
     "Name": "ClothingTweaker2",
     "Type": "mod",
@@ -2457,6 +2606,56 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "海岸连接",
+    "Name": "CoastalConnection",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "该模组通过共用道路将沿海公路和布莱克湾连接起来。",
+    "Aliases": [
+      "Coastal Connection"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/CoastalConnection",
+    "RepoName": "CoastalConnection",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-20",
+    "Updated": "2026-05-20",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/CoastalConnection.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "ds5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "收藏卡",
@@ -2512,59 +2711,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "伴侣狼",
-    "Name": "ExpandedAiFrameworkCompanionWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "此模组新增了一种狼的生成类型，可以用肉引诱并最终驯服。目前该模组仍处于早期开发阶段，幼狼可以跟随玩家并逐渐长大，但除了消耗大量肉之外，没有其他功能性改动。",
-    "Aliases": [
-      "Companion Wolf",
-      "ExpandedAiFramework.CompanionWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkCompanionWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -2938,6 +3084,57 @@
     ]
   },
   {
+    "DisplayName": "Craft Anywhere Redux",
+    "Name": "CraftAnywhereRedux",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "允许您调整原版可制作物品的制作地点。",
+    "Aliases": [
+      "Craft Anywhere Redux"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/CraftAnywhereRedux",
+    "RepoName": "CraftAnywhereRedux",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/CraftAnywhereRedux/releases/download/1.3.0/CraftAnywhereRedux.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/CraftAnywhereRedux/releases/download/1.3.0/CraftAnywhereRedux.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-01-25",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_CraftAnywhereRedux.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "修改稿",
     "Name": "CraftingRevisions",
     "Type": "mod",
@@ -3038,6 +3235,56 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "自定义白色",
+    "Name": "CustomWhiteout",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "一款适用于《漫漫长夜》的模组，可让您体验自定义的白茫茫一片挑战。",
+    "Aliases": [
+      "CustomWhiteout"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/CustomWhiteout",
+    "RepoName": "CustomWhiteout",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "3.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-02-20",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_CustomWhiteout.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "MikeyPdog , ds5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "更黑暗的夜晚",
@@ -3772,58 +4019,6 @@
       "issues": "BETA. Unstable. It crashes. No corruption noted."
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
-    "DisplayName": "扩展人工智能框架",
-    "Name": "ExpandedAiFramework",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "为新的生成机制和AI行为提供必要的框架。",
-    "Aliases": [
-      "Expanded Ai Framework"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFramework",
-    "Dependencies": [
-      "ModSettings",
-      "ModData"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "BACK UP YOUR SAVES!",
-      "issues": "BETA. Unstable. It crashes. No corruption noted."
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla",
@@ -3926,6 +4121,58 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "出口期刊",
+    "Name": "ExportJournal",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "适用于《漫漫长夜》（2.51+）的模组，允许玩家导出当前存档游戏的日志数据。",
+    "Aliases": [
+      "Export Journal"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/ExportJournal",
+    "RepoName": "ExportJournal",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/ExportJournal/releases/download/1.1.0/ExportJournal.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/ExportJournal/releases/download/1.1.0/ExportJournal.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-01-16",
+    "Updated": "2026-01-16",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_ExportJournal2.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "额外图形设置",
@@ -4198,62 +4445,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Data-0_Mods.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "功能设置",
-    "Name": "FeatSettings",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "公开专长的效果和解锁设置。允许解锁传承专长“大型猫科动物杀手”。消除通过漏洞或控制台命令“错误”解锁的专长启动音效。允许在任何难度级别下自定义专长数量。",
-    "Aliases": [
-      "Feat Settings"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/FeatSettings",
-    "RepoName": "FeatSettings",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.4.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Quality of Life",
-      "Gameplay",
-      "Utility Mod",
-      "Cheats"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-10-08",
-    "Updated": "2026-1-5",
-    "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/BigCatKiller.PNG"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
   },
   {
     "DisplayName": "功能设置",
@@ -4801,6 +4992,56 @@
     ]
   },
   {
+    "DisplayName": "防御瞭望台",
+    "Name": "FortifiedLookouts",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "扩大规模，增加第二个常规大小的嵌入式瞭望台，并抬高窗户，以便清晰地看到神秘湖、沿海公路和布莱克湾的瞭望台。",
+    "Aliases": [
+      "Fortified Lookouts"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/FortifiedLookouts",
+    "RepoName": "FortifiedLookouts",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.1.1/FortifiedLookouts.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/FortifiedLookouts/releases/download/1.1.1/FortifiedLookouts.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-07-25",
+    "Updated": "2026-02-22",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_FortifiedLookouts.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "FoxCompanion",
     "Name": "FoxCompanion",
     "Type": "mod",
@@ -4899,6 +5140,56 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "友善湾",
+    "Name": "FriendlyInlet",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "将木材刷新点重新分配到海岸，使凄凉湾更加宜人，并减少和重新安置一些狼的刷新点。",
+    "Aliases": [
+      "FriendlyInlet"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/FriendlyInlet",
+    "RepoName": "FriendlyInlet",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/FriendlyInlet/releases/download/1.1.0/FriendlyInlet.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/FriendlyInlet/releases/download/1.1.0/FriendlyInlet.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-05-21",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_FriendlyInlet.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
   },
   {
@@ -5275,6 +5566,56 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "大巴岛",
+    "Name": "GreatBareIsland",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "这是大熊岛的另一个版本，移除了大部分小木屋、拖车和普通房屋，或者用废墟代替它们，以带来新的挑战。",
+    "Aliases": [
+      "GreatBareIsland"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/GreatBareIsland",
+    "RepoName": "GreatBareIsland",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/GreatBareIsland/releases/download/1.1.0/GreatBareIsland.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/GreatBareIsland/releases/download/1.1.0/GreatBareIsland.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-24",
+    "Updated": "2026-08-14",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_GreatBareIsland.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "HUD 位置",
@@ -6535,6 +6876,110 @@
     ]
   },
   {
+    "DisplayName": "无尽之火",
+    "Name": "InfiniteFires",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "自世界运转以来，它就一直在燃烧。",
+    "Aliases": [
+      "Infinite Fires",
+      "InfiniteFiresDLC"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/InfiniteFires",
+    "RepoName": "InfiniteFires",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.5.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.52",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-04-04",
+    "Updated": "2026-04-08",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/list_icon_infinitefires.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "DigitalZombie",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "室内墙面装饰",
+    "Name": "MyPicturesMod",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "允许你用图片装饰你的基地，并上传你自己的图片。",
+    "Aliases": [
+      "Interior Wall Decorations",
+      "InteriorWallDecorations"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/InteriorWallDecorations",
+    "RepoName": "MyPicturesMod",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "2.1.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-26",
+    "Updated": "2026-03-26",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/IWD1.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Atlas Lumi, Thekillergreece, stmSantana",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": [
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "入侵者区域选择",
     "Name": "InterloperRegionSelection",
     "Type": "mod",
@@ -6628,6 +7073,106 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "库存重新分配",
+    "Name": "InventoryReassignments",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "这是一个适用于《漫漫长夜》的模组，允许玩家将各种装备物品重新分配到不同的物品栏类别中。",
+    "Aliases": [
+      "InventoryReassignments"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/InventoryReassignments",
+    "RepoName": "InventoryReassignments",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/InventoryReassignments/releases/download/1.2.0/InventoryReassignments.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/InventoryReassignments/releases/download/1.2.0/InventoryReassignments.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-04-14",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_InventoryReassignments.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "物品堆",
+    "Name": "ItemPiles",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "为堆叠物品添加蓝图。",
+    "Aliases": [
+      "Item Piles"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/ItemPiles",
+    "RepoName": "ItemPiles",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "3.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent",
+    "Downloads": [
+      "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-17",
+    "Updated": "2026-07-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/item-pile-mod-title.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
   },
   {
@@ -7007,6 +7552,59 @@
     "GameVersion": [
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "利萨岭",
+    "Name": "LitharsRidge",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat",
+      "Marcy"
+    ],
+    "Description": "在布莱克湾，有一处隐蔽的山脊，上面有一间舒适的小屋、风景优美的观景点，还有一条小径等待探险者去发现。",
+    "Aliases": [
+      "Lithar's Ridge"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/LitharsRidge",
+    "RepoName": "LitharsRidge",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.4.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/LitharsRidge/releases/download/1.4.0/LitharsRidge.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/LitharsRidge/releases/download/1.4.0/LitharsRidge.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-09-22",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_LitharsRidge.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "利萨斯修复",
@@ -7461,46 +8059,52 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
     ]
   },
   {
-    "DisplayName": "工具箱",
-    "Name": "MehToolBox",
+    "DisplayName": "关爱邻里",
+    "Name": "MindfulNeighborhood",
     "Type": "mod",
-    "Author": "MonsieurMeh",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "MonsieurMeh"
+      "MooseMeat"
     ],
-    "Description": "供模组制作者在模组中使用工具箱。",
+    "Description": "此模组在静心小屋区域新增了保安小屋、钓鱼小屋、储物棚和猎人隐蔽处。它还将静心小屋内的炉灶替换成了壁炉。最后，它将小屋从贾斯蒂的棚屋移到了静心小屋区域。",
     "Aliases": [
-      "Meh Tool Box"
+      "Mindful Neighborhood"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/MehToolBox",
-    "RepoName": "MehToolBox",
-    "Dependencies": [],
-    "Version": "1.1.1",
+    "ModUrl": "https://github.com/moosemeat817/MindfulNeighborhood",
+    "RepoName": "MindfulNeighborhood",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll",
+    "Download": "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.1.0/MindfulNeighborhood.dll",
     "Downloads": [
-      "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll"
+      "https://github.com/moosemeat817/MindfulNeighborhood/releases/download/1.1.0/MindfulNeighborhood.dll"
     ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
-      "Misc"
+      "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.52",
+      "tld": "2.55",
       "ml": "0.7.2"
     },
-    "Released": "2026-4-1",
-    "Updated": "2026-4-1",
-    "Images": [],
+    "Released": "2026-07-05",
+    "Updated": "2026-07-08",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/MindfulNeighborhood.png"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -7509,10 +8113,8 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
-    "GameVersion": [
-      "vanilla"
-    ]
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "小苦难系列",
@@ -7567,6 +8169,57 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "痛苦模式加强版",
+    "Name": "MiseryModePlus",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "这款适用于《漫漫长夜》的模组，在苦难模式下增加了更多怪物刷新点，并添加了自定义设置，允许在自定义游戏中启用苦难效果。原名：额外苦难刷新点和自定义游戏中的苦难效果。",
+    "Aliases": [
+      "Misery Mode Plus"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/MiseryModePlus",
+    "RepoName": "MiseryModePlus",
+    "Dependencies": [
+      "ModSettings",
+      "ModData"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-10",
+    "Updated": "2026-03-10",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_MiseryModePlus.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
   },
   {
@@ -7882,6 +8535,59 @@
     "GameVersion": [
       "vanilla",
       "tftft"
+    ]
+  },
+  {
+    "DisplayName": "更多配件槽位",
+    "Name": "MoreAccessorySlots",
+    "Type": "mod",
+    "Author": "BaltaZar",
+    "DisplayAuthor": [
+      "BaltaZar"
+    ],
+    "Description": "最多可提供 2 个额外的配件槽。最右侧的配件槽位于最外层，因此会承受战斗中的伤害。",
+    "Aliases": [
+      "More Accessory Slots"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/BaltaZar-7/MoreAccessorySlots",
+    "RepoName": "MoreAccessorySlots",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/BaltaZar-7/MoreAccessorySlots/releases/download/1.0.1/MoreAccessorySlots.dll",
+    "Downloads": [
+      "https://github.com/BaltaZar-7/MoreAccessorySlots/releases/download/1.0.1/MoreAccessorySlots.dll"
+    ],
+    "AuthorUrl": "https://github.com/BaltaZar-7",
+    "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
+    "Categories": [
+      "Gameplay",
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-08-31",
+    "Updated": "2026-09-04",
+    "Images": [
+      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/MoreAccessorySlots/MoreAccessorySlots.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Russian Localization",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/heads/main/ModlistFile.json",
+    "GameVersion": [
+      "vanilla"
     ]
   },
   {
@@ -8302,6 +9008,56 @@
     ]
   },
   {
+    "DisplayName": "没有凯恩斯",
+    "Name": "NoCairns",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "一个可以禁用所有石堆的模组。",
+    "Aliases": [
+      "No Cairns"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/NoCairns",
+    "RepoName": "NoCairns",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/NoCairns/releases/download/1.0.0/NoCairns.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/NoCairns/releases/download/1.0.0/NoCairns.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-29",
+    "Updated": "2026-05-29",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/NoCairns.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "无收割动画",
     "Name": "NoHarvestAnimations",
     "Type": "mod",
@@ -8450,58 +9206,6 @@
     "GameVersion": [
       "vanilla",
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "非致命性信号弹",
-    "Name": "NonLethalFlares",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "禁用信号枪造成的伤害和流血效果。可选择启用或禁用信号枪子弹粘附在野生动物身上的效果。",
-    "Aliases": [
-      "Nonlethal Flares"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/NonLethalFlares",
-    "RepoName": "NonLethalFlares",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.1",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-3-13",
-    "Updated": "2026-3-13",
-    "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/unamused.PNG"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -8709,54 +9413,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "不是狼队！",
-    "Name": "NotTheWolves",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "使狼群无敌，并阻止游戏中生成狼的尸体。",
-    "Aliases": [
-      "Not The Wolves!"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/NotTheWolves",
-    "RepoName": "NotTheWolves",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-3-22",
-    "Updated": "2026-3-22",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -8811,54 +9467,6 @@
     "Source": "https://raw.githubusercontent.com/No3371/TLD-Mods/main/modlist.json",
     "GameVersion": [
       "tftft"
-    ]
-  },
-  {
-    "DisplayName": "老式收割",
-    "Name": "OldSchoolHarvesting",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "为了致敬过去，在收割动物尸体时，会静音、移除动画并调暗灯光，同时显示进度条。",
-    "Aliases": [
-      "Old School Harvesting"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/OldSchoolHarvesting",
-    "RepoName": "OldSchoolHarvesting",
-    "Dependencies": [],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-3-22",
-    "Updated": "2026-3-22",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
     ]
   },
   {
@@ -9118,6 +9726,58 @@
     ]
   },
   {
+    "DisplayName": "探路者之巅",
+    "Name": "PathfindersAscent",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "这是 Timberwolf Mountain、Blackrock 和 Ash Canyon 的另一种版本，旨在为经验丰富的幸存者提供全新的、具有挑战性的体验。",
+    "Aliases": [
+      "Pathfinders Ascent"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/PathfindersAscent",
+    "RepoName": "PathfindersAscent",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent"
+    ],
+    "Version": "1.3.1",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.3.1/PathfindersAscent.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/PathfindersAscent/releases/download/1.3.1/PathfindersAscent.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-06-18",
+    "Updated": "2026-01-30",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_PathfindersAscent.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "暂停日记",
     "Name": "PauseInJournal",
     "Type": "mod",
@@ -9271,6 +9931,59 @@
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
     "GameVersion": [
       "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "亲人的照片",
+    "Name": "PhotoofaLovedOne",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "这个模组允许你携带一张你关心的事物的自定义图片。",
+    "Aliases": [
+      "Photo of a Loved One"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/Photo-of-a-Loved-One",
+    "RepoName": "PhotoofaLovedOne",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.7.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/photomod.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
     ]
   },
   {
@@ -9541,6 +10254,56 @@
     ]
   },
   {
+    "DisplayName": "捕食者生成选择器",
+    "Name": "PredatorSpawnSelector",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "按区域启用或禁用掠食者生成，并选择每个区域出现的狼或熊的种类。***此模组替换了“移除美洲狮”和“任意位置的灰狼”两个模组***",
+    "Aliases": [
+      "Predator Spawn Selector"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/PredatorSpawnSelector",
+    "RepoName": "PredatorSpawnSelector",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.4.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.4.0/PredatorSpawnSelector.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.4.0/PredatorSpawnSelector.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-08-03",
+    "Updated": "2026-08-15",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_PredatorSpawnSelector.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "PrepperCache",
     "Name": "PrepperCache",
     "Type": "mod",
@@ -9593,6 +10356,56 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "保存容器内的物品",
+    "Name": "PreserveContainerItems",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "装备物品如果状态降至0%，将不再从容器中消失。注意：此功能尚未在所有类型的容器上进行测试，请谨慎操作。",
+    "Aliases": [
+      "Preserve Container Items"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/PreserveContainerItems",
+    "RepoName": "PreserveContainerItems",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/PreserveContainerItems/releases/download/1.0.0/PreserveContainerItems.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/PreserveContainerItems/releases/download/1.0.0/PreserveContainerItems.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-02-28",
+    "Updated": "2026-02-28",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_PreserveContainerItems.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "生活质量",
@@ -9900,6 +10713,56 @@
     ]
   },
   {
+    "DisplayName": "随机生成入侵者稀有怪",
+    "Name": "RandomizeInterloperRareSpawns",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "关于《漫漫长夜》的一个模组，它可以随机化入侵者掉落的战利品。",
+    "Aliases": [
+      "Randomize Interloper Rare Spawns"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/RandomizeInterloperRareSpawns",
+    "RepoName": "RandomizeInterloperRareSpawns",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-19",
+    "Updated": "2026-05-19",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/RandomizeInterloperRareSpawns.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "DS5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "随机化器：过渡",
     "Name": "RandomizerTransitions",
     "Type": "mod",
@@ -10012,6 +10875,56 @@
     ]
   },
   {
+    "DisplayName": "峡谷桥梁修复",
+    "Name": "RavineBridgeFix",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "修好峡谷里的桥。",
+    "Aliases": [
+      "Ravine Bridge Fix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/RavineBridgeFix",
+    "RepoName": "RavineBridgeFix",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/RavineBridgeFix/releases/download/1.1.0/RavineBridgeFix.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/RavineBridgeFix/releases/download/1.1.0/RavineBridgeFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-07-10",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_RavineBridgeFix.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "配方要求",
     "Name": "RecipeRequirements",
     "Type": "mod",
@@ -10065,6 +10978,56 @@
       "vanilla",
       "tftft"
     ]
+  },
+  {
+    "DisplayName": "录音工具",
+    "Name": "RecordingUtils",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "为《漫漫长夜》添加的模组，可更好地控制摄像机，用于录制或直播。",
+    "Aliases": [
+      "Recording Utils"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/RecordingUtils",
+    "RepoName": "RecordingUtils",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "0.5.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/RecordingUtils/releases/download/0.5.0/RecordingUtils.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/RecordingUtils/releases/download/0.5.0/RecordingUtils.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-10",
+    "Updated": "2026-03-10",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_RecordingUtils.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "战利品减少",
@@ -11120,6 +12083,56 @@
     ]
   },
   {
+    "DisplayName": "经验丰富的闯入者",
+    "Name": "SeasonedInterloping",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "为《漫漫长夜》添加 Forsaken Airfield、ZOC、Sundered Pass 和 Bleak Inlet 到 Interloper 区域列表的 Mod。",
+    "Aliases": [
+      "Seasoned Interloping"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/SeasonedInterloping",
+    "RepoName": "SeasonedInterloping",
+    "Dependencies": [
+      ""
+    ],
+    "Version": "1.3.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-05-20",
+    "Updated": "2026-05-20",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/SeasonedInterloping.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "ds5678",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "庇护所温度调整",
     "Name": "ShelterTemperatureTweaks",
     "Type": "mod",
@@ -11168,47 +12181,44 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "霰弹枪",
-    "Name": "Shotgun",
+    "DisplayName": "靶场",
+    "Name": "ShootingRange",
     "Type": "mod",
-    "Author": "Team Shotgun",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "Team Shotgun"
+      "MooseMeat"
     ],
-    "Description": "听说你们都想要一把霰弹枪……",
+    "Description": "在普莱森特山谷的沉思池附近，启用射击场目标、风向标、狩猎掩体和温暖的谷仓。",
     "Aliases": [
-      "Shotgun"
+      "Shooting Range"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/MehToolBox/releases/tag/shotgun",
-    "RepoName": "Shotgun",
+    "ModUrl": "https://github.com/moosemeat817/ShootingRange",
+    "RepoName": "ShootingRange",
     "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ModComponent",
-      "AudioManager",
-      "AudioCore",
-      "MehToolBox"
+      "ModSettings"
     ],
-    "Version": "0.6.7",
+    "Version": "1.2.0",
     "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll",
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/ShootingRange/releases/download/1.2.0/ShootingRange.dll",
     "Downloads": [
-      "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll"
+      "https://github.com/moosemeat817/ShootingRange/releases/download/1.2.0/ShootingRange.dll"
     ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.52",
+      "tld": "2.51",
       "ml": "0.7.2"
     },
-    "Released": "2026-4-1",
-    "Updated": "2026-4-1",
-    "Images": [],
+    "Released": "2025-07-7",
+    "Updated": "2026-01-03",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_ShootingRange.jpg"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -11217,10 +12227,60 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "快捷方式",
+    "Name": "Shortcuts",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "为部分区域添加了多种快捷方式。您需要重新加载游戏才能使更改生效。",
+    "Aliases": [
+      "Shortcuts"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/Shortcuts",
+    "RepoName": "Shortcuts",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.9.2",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.2/Shortcuts.dll",
+    "Downloads": [
+      "https://github.com/moosemeat817/Shortcuts/releases/download/1.9.2/Shortcuts.dll"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Cheats"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-01-25",
+    "Updated": "2026-04-21",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_Shortcuts.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "霰弹枪",
@@ -11376,6 +12436,59 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/main/theList.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "简易保存和恢复工具",
+    "Name": "TLDTools",
+    "Type": "mod",
+    "Author": "Tactical Ex",
+    "DisplayAuthor": [
+      "Tactical Ex"
+    ],
+    "Description": "描述：一款简单易用的工具，让您更方便地备份和恢复《漫漫长夜》的生存模式游戏存档。注意：这是一个外部工具，并非模组，无需模组加载器即可使用。",
+    "Aliases": [
+      "Simple save and restore tool",
+      "2.2"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://gitlab.com/TacticalEx/tld-tools",
+    "RepoName": "TLDTools",
+    "Dependencies": [],
+    "Version": "2.2.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0",
+    "Downloads": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/releases/2.2.0"
+    ],
+    "AuthorUrl": "https://gitlab.com/TacticalEx",
+    "SupportUrl": null,
+    "Categories": [
+      "Quality of Life",
+      "Utility Mod",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2023-08-24",
+    "Updated": "2026-03-06",
+    "Images": [
+      "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Added optional mod-data configuration support for backing up and restoring with mods enabled",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12144,42 +13257,44 @@
     ]
   },
   {
-    "DisplayName": "弹力阿姆斯特朗",
-    "Name": "StretchArmstrong",
+    "DisplayName": "故事模式收集品",
+    "Name": "StoryModeCollectibles",
     "Type": "mod",
-    "Author": "TLD Modding Community",
+    "Author": "MooseMeat",
     "DisplayAuthor": [
-      "TLD Modding Community"
+      "MooseMeat"
     ],
-    "Description": "更改您可以与事物互动的范围。",
+    "Description": "将 Wintermute 中的可收集物品添加到生存模式中。",
     "Aliases": [
-      "Stretch Armstrong"
+      "Story Mode Collectibles"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/TLD-Mods/StretchArmstrong",
-    "RepoName": "StretchArmstrong",
+    "ModUrl": "https://github.com/moosemeat817/StoryModeCollectibles",
+    "RepoName": "StoryModeCollectibles",
     "Dependencies": [
-      "ModSettings"
+      "ModComponent"
     ],
     "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/TLD-Mods/StretchArmstrong/releases/download/2.1.0/StretchArmstrong.dll",
+    "Download": "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent",
     "Downloads": [
-      "https://github.com/TLD-Mods/StretchArmstrong/releases/download/2.1.0/StretchArmstrong.dll"
+      "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent"
     ],
-    "AuthorUrl": null,
-    "SupportUrl": null,
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
     "Categories": [
-      "Gameplay"
+      "Gear Items"
     ],
     "TestedOn": {
       "tld": "2.51",
       "ml": "0.7.2"
     },
-    "Released": "2025-04-21",
-    "Updated": "2026-01-03",
-    "Images": [],
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/storymodecollectibles.png"
+    ],
     "Status": {
       "working": true,
       "beta": false,
@@ -12187,10 +13302,10 @@
       "notes": "",
       "issues": ""
     },
-    "PreviousAuthors": "bushtail, phaedrus",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": [
-      "vanilla"
+      "tftft"
     ]
   },
   {
@@ -12238,7 +13353,7 @@
       "issues": ""
     },
     "PreviousAuthors": "bushtail, phaedrus",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12545,6 +13660,59 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "TLD-狼皮围巾",
+    "Name": "TLDWolfskinScarf",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat"
+    ],
+    "Description": "新增一条可制作的狼毛围巾。",
+    "Aliases": [
+      "TLD-WolfskinScarf",
+      "WolfskinScarf"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/WolfskinScarf",
+    "RepoName": "TLDWolfskinScarf",
+    "Dependencies": [
+      "ModComponent"
+    ],
+    "Version": "2.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent",
+    "Downloads": [
+      "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Clothing"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-03-17",
+    "Updated": "2026-03-17",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/wolfscarf.png"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Atlas Lumi",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "靶场练习与大师级猎手",
@@ -13663,59 +14831,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "追踪狼",
-    "Name": "ExpandedAiFrameworkTrackingWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "新增一种狼的生成类型，无论你的气味强度如何，它都会追踪你穿越整个地图。小心背后！",
-    "Aliases": [
-      "Tracking Wolf",
-      "ExpandedAiFramework.TrackingWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkTrackingWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -13769,61 +14884,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "擅闯者",
-    "Name": "Trespasser",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh",
-      "Flower Field",
-      "Atmudia"
-    ],
-    "Description": "新增一种介于潜行者和入侵者之间的全新难度模式。初始包含 3 场比赛，并有机会在世界各地找到入侵者模式禁用的物品。",
-    "Aliases": [
-      "Trespasser"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/TrespasserMod",
-    "RepoName": "Trespasser",
-    "Dependencies": [
-      "ModSettings"
-    ],
-    "Version": "1.0.0",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/TrespasserMod/releases/latest/download/Trespasser.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/Trespasser/releases/latest/download/Trespasser.dll",
-      "https://github.com/monsieurmeh/TrespasserMod/releases/latest/download/Trespasser.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-2-14",
-    "Updated": "2026-2-14",
-    "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TrespasserMod/main/Assets/trespasser_bw_icon.png"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
   },
   {
     "DisplayName": "擅闯者",
@@ -14198,59 +15258,6 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://gitlab.com/TacticalEx/tld-tools-modlist/-/raw/main/tld-tools.json",
-    "GameVersion": [
-      "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "流浪狼",
-    "Name": "ExpandedAiFrameworkWanderingWolfMod",
-    "Type": "mod",
-    "Author": "MonsieurMeh",
-    "DisplayAuthor": [
-      "MonsieurMeh"
-    ],
-    "Description": "创建一种新的狼生成类型，它会在地图上四处游荡，而不是待在一个小区域内。",
-    "Aliases": [
-      "Wandering Wolf",
-      "ExpandedAiFramework.WanderingWolfMod"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/ExpandedAiFramework",
-    "RepoName": "ExpandedAiFrameworkWanderingWolfMod",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ExpandedAiFramework"
-    ],
-    "Version": "0.12.4",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Overhaul"
-    ],
-    "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2"
-    },
-    "Released": "2025-09-14",
-    "Updated": "2026-1-5",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": true,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
@@ -14408,6 +15415,58 @@
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Data-0_Mods.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "野火",
+    "Name": "WildFire",
+    "Type": "mod",
+    "Author": "MooseMeat",
+    "DisplayAuthor": [
+      "MooseMeat",
+      "Marcy"
+    ],
+    "Description": "这是一个适用于《漫漫长夜》的模组，它为火焰添加了颜色、烟雾和火花自定义功能，以及 6 件新的装备物品，并使一些原版物品可以燃烧。",
+    "Aliases": [
+      "WildFire"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/moosemeat817/WildFire",
+    "RepoName": "WildFire",
+    "Dependencies": [
+      "ModSettings",
+      "ModComponent"
+    ],
+    "Version": "1.1.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/moosemeat817/WildFire/releases/download/1.1.0/WildFire.zip",
+    "Downloads": [
+      "https://github.com/moosemeat817/WildFire/releases/download/1.1.0/WildFire.zip"
+    ],
+    "AuthorUrl": "https://github.com/moosemeat817",
+    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.51",
+      "ml": "0.7.2"
+    },
+    "Released": "2025-11-13",
+    "Updated": "2026-2-2",
+    "Images": [
+      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_WildFire.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
   },
   {
