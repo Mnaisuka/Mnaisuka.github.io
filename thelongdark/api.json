@@ -4043,7 +4043,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.1.0",
+    "Version": "1.1.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
@@ -4060,12 +4060,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-01",
-    "Updated": "2026-09-16",
+    "Updated": "2026-09-18",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fixed a bug preventing cooking recipes and research books from being correctly recognized and added a dependency on ModSettings to allow customization of the XP required for new levels",
+      "patchnotes": "fix bunch of stuff",
       "notes": "",
       "issues": ""
     },
@@ -8875,10 +8875,10 @@
     "Version": "1.4.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/okclm/MotionTracker/releases/download/v1.4.0/MotionTracker.dll",
+    "Download": "https://github.com/okclm/MotionTracker/releases/download/v1.4.1/MotionTracker.dll",
     "Downloads": [
       "https://github.com/okclm/MotionTracker/releases/download/v1.4.0/MotionTracker.zip",
-      "https://github.com/okclm/MotionTracker/releases/download/v1.4.0/MotionTracker.dll"
+      "https://github.com/okclm/MotionTracker/releases/download/v1.4.1/MotionTracker.dll"
     ],
     "AuthorUrl": "https://github.com/okclm?tab=repositories",
     "SupportUrl": null,
