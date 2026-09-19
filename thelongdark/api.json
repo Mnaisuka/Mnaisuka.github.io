@@ -4043,7 +4043,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.1.2",
+    "Version": "1.1.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
@@ -9844,12 +9844,12 @@
     "ModUrl": "https://github.com/BaltaZar-7/PemmicanSlowerDecay",
     "RepoName": "PemmicanSlowerDecay",
     "Dependencies": [],
-    "Version": "1.3.0",
+    "Version": "1.4.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.3.0/PemmicanSlowerDecay.dll",
+    "Download": "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.4.0/PemmicanSlowerDecay.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.3.0/PemmicanSlowerDecay.dll"
+      "https://github.com/BaltaZar-7/PemmicanSlowerDecay/releases/download/1.4.0/PemmicanSlowerDecay.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -9862,7 +9862,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-01-22",
+    "Updated": "2026-09-18",
     "Images": [
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/PemmicanThumbnail1.jpg",
       "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/osszehasonlitas.jpg"
@@ -9870,7 +9870,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Fixed decay rate and calorie persistence",
       "notes": "Works with GearInfo. Added a patch for Gear Decay Modifier mod by Romain to exclude Pemmican bars from that mod, because Pemmican is different than a rabbit pie!",
       "issues": ""
     },
