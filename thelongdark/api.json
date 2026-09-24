@@ -4043,7 +4043,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.1.3",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
@@ -4060,14 +4060,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-01",
-    "Updated": "2026-09-18",
+    "Updated": "2026-09-24",
     "Images": [],
     "Status": {
       "working": true,
-      "beta": false,
-      "patchnotes": "fix bunch of stuff",
+      "beta": true,
+      "patchnotes": "reworked skill reward handling, fixing Cooking (yes, again...), Gunsmithing and Fire Starting progression issues, plus general cleanup",
       "notes": "",
-      "issues": ""
+      "issues": "Some funkiness can be expected for milling machines and several inconsistent stuff every here and there, will be fixed one day."
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
