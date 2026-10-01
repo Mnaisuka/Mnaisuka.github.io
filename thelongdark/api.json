@@ -15369,6 +15369,52 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "天气大修",
+    "Name": "WeatherOverhaul",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "一个旨在使原版游戏天气可预测并添加新的自定义天气阶段的模组",
+    "Aliases": [
+      "WeatherOverhaul"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/WeatherOverhaul",
+    "RepoName": "WeatherOverhaul",
+    "Dependencies": [],
+    "Version": "1.0.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/WeatherOverhaul/releases/latest/download/WeatherOverhaul.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/WeatherOverhaul/releases/latest/download/WeatherOverhaul.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-01",
+    "Updated": "2026-10-01",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "轻型木工工具",
     "Name": "WeightlessWoodworkingTools",
     "Type": "mod",

@@ -665,5 +665,7 @@
     "Finally look around freely while walking! Keep an eye on predators or just take in the beautiful scenery.": "终于可以自由地四处走动了！既要留意捕食者，也可以尽情欣赏美丽的风景。",
     "Murmurations": "群鸟",
     "An experimental mod aiming to add murmurations to the game": "一个旨在为游戏添加群鸟飞行的实验性模组",
-    "Provides up to 2 extra accessory slots.\nThe most right one considered the most outer layer, so that is taking the damage from struggles.": "最多可提供 2 个额外的配件槽。最右侧的配件槽位于最外层，因此会承受战斗中的伤害。"
+    "Provides up to 2 extra accessory slots.\nThe most right one considered the most outer layer, so that is taking the damage from struggles.": "最多可提供 2 个额外的配件槽。最右侧的配件槽位于最外层，因此会承受战斗中的伤害。",
+    "A mod designed to make vanilla weather predictable and add new custom weather stages": "一个旨在使原版游戏天气可预测并添加新的自定义天气阶段的模组",
+    "WeatherOverhaul": "天气大修"
 }
