@@ -7043,7 +7043,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.1",
+    "Version": "1.4.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -7060,14 +7060,14 @@
       "ml": "0.7.2"
     },
     "Released": "2025-10-23",
-    "Updated": "2026-08-29",
+    "Updated": "2026-10-02",
     "Images": [
       "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/InterloperHUDPro.PNG"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "stuff",
+      "patchnotes": "Added a new option to display WeatherOverhaul weather stage",
       "notes": "",
       "issues": ""
     },
@@ -12388,6 +12388,57 @@
     ]
   },
   {
+    "DisplayName": "寂静行者",
+    "Name": "SilentWalker",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "像经验丰富的幸存者一样打包装备：水瓶装满水并竖直放置，金属物品分开包装，柴火捆扎牢固。使用独立的滑轨分别存放小件物品、木柴、金属和水，这样可以减少你和野生动物的干扰，或者两者都能做到。",
+    "Aliases": [
+      "Silent Walker"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/TLD-SilentWalker",
+    "RepoName": "SilentWalker",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "2.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/TLD-SilentWalker/releases/latest/download/SilentWalker.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/TLD-SilentWalker/releases/latest/download/SilentWalker.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Audio",
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-01",
+    "Updated": "2026-10-01",
+    "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLD-SilentWalker/master/screenshots/tldmods-main-2.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "COMPLETE OVERHAUL! Now with two modes - Linked: One slider makes your footsteps quieter, for you AND for wildlife - Separate: Tune how much is just what you hear versus what the wildlife hears. Plus pack noise sliders for small supplies, wood, metal and water, detailed ground, clothing and tone controls, and an Enabled switch. Your 1.0.0 settings carry over.",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "傻瓜模组",
     "Name": "SillyMod",
     "Type": "mod",
@@ -15384,7 +15435,7 @@
     "ModUrl": "https://github.com/EtherSystem/WeatherOverhaul",
     "RepoName": "WeatherOverhaul",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.0.3",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/WeatherOverhaul/releases/latest/download/WeatherOverhaul.dll",
@@ -15401,12 +15452,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-10-01",
-    "Updated": "2026-10-01",
+    "Updated": "2026-10-02",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "Add an API to integrate the display of weather stages in IHP",
       "notes": "",
       "issues": ""
     },
