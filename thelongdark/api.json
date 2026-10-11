@@ -9521,6 +9521,54 @@
     ]
   },
   {
+    "DisplayName": "对象接收器修复",
+    "Name": "ObjectSinkFix",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "修复家具下沉到地板或地面，以及返回该地点时容器消失的问题。在现有存档中，将下沉的家具放回原位，并将丢失的容器找回。自动运行。",
+    "Aliases": [
+      "Object Sink Fix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/TLD-ObjectSinkFix",
+    "RepoName": "ObjectSinkFix",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/TLD-ObjectSinkFix/releases/latest/download/ObjectSinkFix.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/TLD-ObjectSinkFix/releases/latest/download/ObjectSinkFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-11",
+    "Updated": "2026-10-11",
+    "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLD-ObjectSinkFix/master/Release.jpg"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "First release. Stops furniture sinking, restores furniture that already sank, stops containers vanishing on reload, and brings back containers the bug already removed. One optional setting with ModSettings.",
+      "notes": "ModSettings is optional and only needed for the one setting.",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "老式收割",
     "Name": "OldSchoolHarvesting",
     "Type": "mod",
@@ -12097,12 +12145,12 @@
     "ModUrl": "https://github.com/karsontr13/TLD-Seamless-Interiors",
     "RepoName": "SeamlessInteriors",
     "Dependencies": [],
-    "Version": "2.1.1",
+    "Version": "2.2.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.1.1/SeamlessInteriors.dll",
+    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.2.0/SeamlessInteriors.dll",
     "Downloads": [
-      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.1.1/SeamlessInteriors.dll"
+      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.2.0/SeamlessInteriors.dll"
     ],
     "AuthorUrl": "https://github.com/karsontr13",
     "SupportUrl": "https://buymeacoffee.com/karsontr13",
@@ -12115,7 +12163,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-10",
-    "Updated": "2026-09-13",
+    "Updated": "2026-10-11",
     "Images": [
       "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/main/SeamlessInteriors.PNG"
     ],

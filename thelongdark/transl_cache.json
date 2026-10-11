@@ -671,5 +671,7 @@
     "Pack your gear like a seasoned survivor: bottles full and upright, metal separated and wrapped, firewood tied down. Makes your movement quieter for you, the wildlife, or both, with separate sliders for small supplies, wood, metal and water.": "像经验丰富的幸存者一样打包装备：水瓶装满水并竖直放置，金属物品分开包装，柴火捆扎牢固。使用独立的滑轨分别存放小件物品、木柴、金属和水，这样可以减少你和野生动物的干扰，或者两者都能做到。",
     "Silent Walker": "寂静行者",
     "Adds 10 handy filmmaking and cinematic tools!<br>Includes a built-in tutorial!<br>Thanks to Système Éther for suggesting some of the mechanics!": "新增 10 款实用电影制作和影视工具！<br>内置教程！<br>感谢 Système Éther 提出的部分机制建议！",
-    "Absolute Cinema": "绝对影院"
+    "Absolute Cinema": "绝对影院",
+    "Fixes furniture sinking into floors and the ground, and containers vanishing when you return to a location. Puts sunken furniture back and brings lost containers back, on existing saves. Works automatically.": "修复家具下沉到地板或地面，以及返回该地点时容器消失的问题。在现有存档中，将下沉的家具放回原位，并将丢失的容器找回。自动运行。",
+    "Object Sink Fix": "对象接收器修复"
 }
