@@ -3709,6 +3709,54 @@
     ]
   },
   {
+    "DisplayName": "修复重复项目",
+    "Name": "DuplicateItemFix",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "修复了可以反复从同一地点拾取的木棍、石头、煤炭和其他物品的问题。它会在每个区域加载时清理存档中的错误数据。无需任何设置，自动运行。",
+    "Aliases": [
+      "Duplicate Item Fix"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/TLD-DuplicateItemFix",
+    "RepoName": "DuplicateItemFix",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/TLD-DuplicateItemFix/releases/latest/download/DuplicateItemFix.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/TLD-DuplicateItemFix/releases/latest/download/DuplicateItemFix.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-11",
+    "Updated": "2026-10-11",
+    "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLD-DuplicateItemFix/master/screenshots/tldmods-main.gif"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "First release. Back up your saves first.",
+      "notes": "Repairs existing damage only. Regions you never revisit keep their damage.",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "动态温度",
     "Name": "DynamicTemperature",
     "Type": "mod",
@@ -9145,6 +9193,7 @@
     "Released": "2026-06-27",
     "Updated": "2026-07-31",
     "Images": [
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Release.png",
       "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Usage.png",
       "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Settings.png"
     ],
@@ -15798,7 +15847,7 @@
     "Released": "2026-07-31",
     "Updated": "2026-07-31",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/WolfHowlFix_BuggedHowl.gif",
+      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/WolfHowlFix_Release.gif",
       "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/WolfHowlFix_Settings.png"
     ],
     "Status": {
