@@ -7489,6 +7489,58 @@
     ]
   },
   {
+    "DisplayName": "只需放大",
+    "Name": "JustZoom",
+    "Type": "mod",
+    "Author": "LittleWolfStorm",
+    "DisplayAuthor": [
+      "LittleWolfStorm"
+    ],
+    "Description": "按下 Z 键即可放大，然后使用鼠标滚轮进行缩放！所有设置都可以在 ModSettings 中进行调整。<br>请不要将其与 AbsoluteCinema mod 一起使用",
+    "Aliases": [
+      "Just Zoom"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/WillWunderhorn/JustZoom/releases/tag/Latest",
+    "RepoName": "JustZoom",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/WillWunderhorn/JustZoom/releases/download/Latest/JustZoom.dll",
+    "Downloads": [
+      "https://github.com/WillWunderhorn/JustZoom/releases/download/Latest/JustZoom.dll"
+    ],
+    "AuthorUrl": "https://github.com/WillWunderhorn",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Graphics",
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.55",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-14",
+    "Updated": "2026-10-14",
+    "Images": [
+      "https://github.com/WillWunderhorn/JustZoom/blob/master/JustZoomPreview.webp?raw=true"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "don't use with AbsoluteCinema",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/WillWunderhorn/LittleWolfStorm_tld_modlist/main/LittleWolfStorm_tld_modlist.json",
+    "GameVersion": []
+  },
+  {
     "DisplayName": "煤油灯微调",
     "Name": "KeroseneLampTweaks",
     "Type": "mod",
@@ -12194,12 +12246,12 @@
     "ModUrl": "https://github.com/karsontr13/TLD-Seamless-Interiors",
     "RepoName": "SeamlessInteriors",
     "Dependencies": [],
-    "Version": "2.2.0",
+    "Version": "2.3.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.2.0/SeamlessInteriors.dll",
+    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.3.0/SeamlessInteriors.dll",
     "Downloads": [
-      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.2.0/SeamlessInteriors.dll"
+      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.3.0/SeamlessInteriors.dll"
     ],
     "AuthorUrl": "https://github.com/karsontr13",
     "SupportUrl": "https://buymeacoffee.com/karsontr13",
@@ -12212,7 +12264,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-10",
-    "Updated": "2026-10-11",
+    "Updated": "2026-10-14",
     "Images": [
       "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/main/SeamlessInteriors.PNG"
     ],

@@ -675,5 +675,7 @@
     "Fixes furniture sinking into floors and the ground, and containers vanishing when you return to a location. Puts sunken furniture back and brings lost containers back, on existing saves. Works automatically.": "修复家具下沉到地板或地面，以及返回该地点时容器消失的问题。在现有存档中，将下沉的家具放回原位，并将丢失的容器找回。自动运行。",
     "Object Sink Fix": "对象接收器修复",
     "Fixes sticks, stones, coal and other items that you can pick up again and again from the same spot. It cleans up the bad data in your save as each region loads. Works automatically, with no settings.": "修复了可以反复从同一地点拾取的木棍、石头、煤炭和其他物品的问题。它会在每个区域加载时清理存档中的错误数据。无需任何设置，自动运行。",
-    "Duplicate Item Fix": "修复重复项目"
+    "Duplicate Item Fix": "修复重复项目",
+    "Just Zoom": "只需放大",
+    "Just press Z to zoom in, then use the mouse wheel to zoom in or out! Everything is also adjustable in ModSettings.<br>Please don't use it with AbsoluteCinema mod": "按下 Z 键即可放大，然后使用鼠标滚轮进行缩放！所有设置都可以在 ModSettings 中进行调整。<br>请不要将其与 AbsoluteCinema mod 一起使用"
 }
