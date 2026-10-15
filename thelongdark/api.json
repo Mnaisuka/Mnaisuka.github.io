@@ -9076,7 +9076,7 @@
     "ModUrl": "https://github.com/EtherSystem/Murmurations",
     "RepoName": "Murmurations",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/Murmurations/releases/latest/download/Murmurations.dll",
@@ -9093,12 +9093,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-09-12",
-    "Updated": "2026-09-13",
+    "Updated": "2026-10-14",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added presets for Murmurations behavior profile",
+      "patchnotes": "Fix the animated birds not working after a reload",
       "notes": "",
       "issues": ""
     },
@@ -15635,7 +15635,7 @@
     "ModUrl": "https://github.com/EtherSystem/WeatherOverhaul",
     "RepoName": "WeatherOverhaul",
     "Dependencies": [],
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/WeatherOverhaul/releases/latest/download/WeatherOverhaul.dll",
@@ -15652,12 +15652,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-10-01",
-    "Updated": "2026-10-03",
+    "Updated": "2026-10-15",
     "Images": [],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "some bug fixing",
+      "patchnotes": "the visual effects of the various aurora variants are now correctly visible in indoor environments (with the exception of snowfall, to prevent it from appearing indoors, for obvious reasons of realism)",
       "notes": "",
       "issues": ""
     },
