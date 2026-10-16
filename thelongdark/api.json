@@ -12246,12 +12246,12 @@
     "ModUrl": "https://github.com/karsontr13/TLD-Seamless-Interiors",
     "RepoName": "SeamlessInteriors",
     "Dependencies": [],
-    "Version": "2.3.0",
+    "Version": "2.3.1",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.3.0/SeamlessInteriors.dll",
+    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.3.1/SeamlessInteriors.dll",
     "Downloads": [
-      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.3.0/SeamlessInteriors.dll"
+      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.3.1/SeamlessInteriors.dll"
     ],
     "AuthorUrl": "https://github.com/karsontr13",
     "SupportUrl": "https://buymeacoffee.com/karsontr13",
@@ -12264,7 +12264,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-10",
-    "Updated": "2026-10-14",
+    "Updated": "2026-10-16",
     "Images": [
       "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/main/SeamlessInteriors.PNG"
     ],
