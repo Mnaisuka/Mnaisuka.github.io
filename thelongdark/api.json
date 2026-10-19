@@ -7,7 +7,7 @@
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "新增 10 款实用电影制作和影视工具！<br>内置教程！<br>感谢 Système Éther 提出的部分机制建议！",
+    "Description": "新增 10 种实用的电影拍摄与镜头控制工具！<br>内置操作教程。<br>感谢 Système Éther 提供部分机制建议！",
     "Aliases": [
       "Absolute Cinema"
     ],
@@ -37,7 +37,7 @@
     "Released": "2026-10-10",
     "Updated": "2026-10-10",
     "Images": [
-      "https://raw.githubusercontent.com/WillWunderhorn/AbsoluteCinema/refs/heads/master/DirectorModePreview.webp"
+      "/thelongdark/assets/img/mods/db69ce17dac443cd145cdb0b.webp?v=6676712888aa"
     ],
     "Status": {
       "working": true,
@@ -58,7 +58,7 @@
     "DisplayAuthor": [
       "Deadman"
     ],
-    "Description": "自适应武器库是《漫漫长夜》中一项改进现有武器机制的模组。",
+    "Description": "自适应武器库旨在改进《漫漫长夜》现有的武器机制。",
     "Aliases": [
       "Adaptive Arsenal"
     ],
@@ -86,7 +86,7 @@
     "Released": "2024-01-16",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/Deaadman/AdaptiveArsenal/release/Images/Thumbnail.webp"
+      "/thelongdark/assets/img/mods/6304bcc3e3146465130d19dd.webp?v=e5bdfa9a9e00"
     ],
     "Status": {
       "working": true,
@@ -103,14 +103,14 @@
     ]
   },
   {
-    "DisplayName": "可调节步行速度",
+    "DisplayName": "步行速度调节",
     "Name": "AdjustableWalkSpeed",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "可调节行走速度允许玩家使用滚轮输入来调节行走速度，使其变慢，从而营造更具电影感的场景。",
+    "Description": "使用鼠标滚轮调节步行速度，放慢脚步，享受更具电影感的荒野时刻。",
     "Aliases": [
       "Adjustable Walk Speed"
     ],
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "DisplayName": "痛苦组成部分",
+    "DisplayName": "疾病效果组件",
     "Name": "AfflictionComponent",
     "Type": "mod",
     "Author": "Fuar",
@@ -161,7 +161,7 @@
       "Deadman",
       "EtherSystem"
     ],
-    "Description": "一个框架模组，允许模组制作者向游戏中添加他们自己的自定义疾病效果。",
+    "Description": "为模组开发者提供扩展框架，可向游戏中添加自定义疾病效果。",
     "Aliases": [
       "Affliction Component",
       "latest"
@@ -208,14 +208,14 @@
     ]
   },
   {
-    "DisplayName": "痛苦与增益",
+    "DisplayName": "疾病与增益",
     "Name": "AfflictionsAndBuffs",
     "Type": "mod",
     "Author": "LittleWolfStorm",
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "新增 4 种负面状态和 4 种增益状态！",
+    "Description": "新增 4 种负面状态和 4 种增益效果！",
     "Aliases": [
       "AfflictionsAndBuffs"
     ],
@@ -247,7 +247,7 @@
     "Released": "2026-04-25",
     "Updated": "2026-09-29",
     "Images": [
-      "https://raw.githubusercontent.com/WillWunderhorn/AfflictionsAndBuffs/refs/heads/master/AfflictionsAndBuffsPrev.webp"
+      "/thelongdark/assets/img/mods/b0fcbc92ddaec64c088236e5.webp?v=cf5933ab4b5d"
     ],
     "Status": {
       "working": true,
@@ -263,14 +263,14 @@
     ]
   },
   {
-    "DisplayName": "害怕黑暗",
+    "DisplayName": "惧怕黑暗",
     "Name": "AfraidoftheDark",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "让玩家夜不能寐。",
+    "Description": "让角色在夜晚感到不安。",
     "Aliases": [
       "Afraid of the Dark",
       "AnxietyAtNight"
@@ -298,7 +298,7 @@
     "Released": "2022-04-11",
     "Updated": "2026-03-18",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/AnxietyAtNight.png"
+      "/thelongdark/assets/img/mods/db2b079c964a37d52a1bb722.png?v=9b659c7eff43"
     ],
     "Status": {
       "working": true,
@@ -312,14 +312,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "酒精修饰",
+    "DisplayName": "酒精系统扩展",
     "Name": "AlcoholMod",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "ModComponent 的一个可选插件，用于启用酒精机制。如果没有它，所有含酒精食物的功能都与不含酒精的食物相同。",
+    "Description": "ModComponent 的可选扩展，用于启用酒精机制。未安装时，含酒精的食物会按普通食物处理。",
     "Aliases": [
       "AlcoholMod"
     ],
@@ -365,14 +365,14 @@
     ]
   },
   {
-    "DisplayName": "一次性生成所有随机布局",
+    "DisplayName": "同时启用所有随机布局",
     "Name": "AllRandomLayoutsAtOnce",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "此模组允许你在同一次游戏中组合所有随机布局。",
+    "Description": "在同一轮游戏中组合启用所有随机布局。",
     "Aliases": [
       "All Random Layouts At Once"
     ],
@@ -418,14 +418,14 @@
     ]
   },
   {
-    "DisplayName": "最高等级的替代寄生虫",
+    "DisplayName": "烹饪满级时的替代寄生虫",
     "Name": "AlternativeParasitesAtMaxLvl",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "烹饪等级达到5级时，肠道寄生虫会重新出现，但影响较小。仅影响烹饪等级达到5级的角色。",
+    "Description": "烹饪技能达到 5 级时重新启用肠道寄生虫，并采用较轻的负面影响。效果仅作用于烹饪技能满级的角色。",
     "Aliases": [
       "Alternative Parasites At Max Lvl"
     ],
@@ -454,9 +454,9 @@
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/ParasitesThumbnail1.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/305620_19.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AlternativeParasitesAtMaxLvl/305620_20.jpg"
+      "/thelongdark/assets/img/mods/e8d3cf76a99e2cdf6d24a12c.jpg?v=18b1aa12e626",
+      "/thelongdark/assets/img/mods/85927813867e8b08f142126c.jpg?v=de7803e6994e",
+      "/thelongdark/assets/img/mods/c9c2761177c74f18f43a4273.jpg?v=05a9f6ec264e"
     ],
     "Status": {
       "working": true,
@@ -472,14 +472,14 @@
     ]
   },
   {
-    "DisplayName": "替代行动公用事业",
+    "DisplayName": "自定义交互工具",
     "Name": "AlternativeActionUtilities",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "一个用于在点击物体时执行自定义操作的实用模组。",
+    "Description": "用于为游戏物件添加自定义点击操作的工具模组。",
     "Aliases": [
       "AlternativeActionUtilities"
     ],
@@ -508,7 +508,7 @@
     "Released": "2023-04-07",
     "Updated": "2023-04-07",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_alternativeactions.jpg"
+      "/thelongdark/assets/img/mods/33ff8f8f49c21ec04da3e05f.jpg?v=a5bc15f24e58"
     ],
     "Status": {
       "working": true,
@@ -525,14 +525,14 @@
     ]
   },
   {
-    "DisplayName": "环境光",
+    "DisplayName": "环境光照",
     "Name": "AmbientLights",
     "Type": "mod",
     "Author": "Thekillergreece",
     "DisplayAuthor": [
       "Thekillergreece"
     ],
-    "Description": "该模组旨在修改室内有窗户的默认照明，使其更明亮，这样在正午时分就不需要光源就能四处走动，并且更能反映室外的情况（一天中的时间、天气和太阳的位置）。",
+    "Description": "调整带窗室内的默认光照，让房间更加明亮，白天活动时不再总需要额外光源；室内亮度也会随室外时段、天气和太阳位置变化。",
     "Aliases": [
       "AmbientLights",
       "Ambient Lights"
@@ -588,7 +588,7 @@
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "新增一种狼的生成类型，它会隐藏在地图各处，等待你经过……",
+    "Description": "新增一种潜伏型狼群：它们会藏在地图各处，等待你经过……",
     "Aliases": [
       "Ambush Wolf",
       "ExpandedAiFramework.AmbushWolfMod"
@@ -641,7 +641,7 @@
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "该模组改进并改变了弹药的制作过程，使其更难，但也更有趣、更有成就感。",
+    "Description": "重做弹药制作流程。制作难度有所提高，但过程更有趣，完成后也更有成就感。",
     "Aliases": [
       "AmmunitionCraftingTools",
       "v3.2"
@@ -676,7 +676,7 @@
     "Released": "2024-10-28",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_AmmoTools.jpg"
+      "/thelongdark/assets/img/mods/fdd97da6060b56e1414cfb38.jpg?v=57ee2ca03997"
     ],
     "Status": {
       "working": true,
@@ -692,14 +692,14 @@
     ]
   },
   {
-    "DisplayName": "动物重生时间模组",
+    "DisplayName": "动物重生时间调节",
     "Name": "AnimalRespawnTimeMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "该模组允许通过 ModSettings 以天为单位调整动物的重生时间。",
+    "Description": "通过 ModSettings 按天调整动物的重生间隔。",
     "Aliases": [
       "Animal Respawn Time Mod"
     ],
@@ -728,7 +728,7 @@
     "Released": "2026-02-08",
     "Updated": "2026-09-05",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/AnimalRespawnTimeMod/305620_26.jpg"
+      "/thelongdark/assets/img/mods/77b450efd5571f5928367d3e.jpg?v=ddfde482d51f"
     ],
     "Status": {
       "working": true,
@@ -744,14 +744,14 @@
     ]
   },
   {
-    "DisplayName": "动物之声",
+    "DisplayName": "动物叫声",
     "Name": "AnimalSounds",
     "Type": "mod",
     "Author": "LittleWolfStorm",
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "这款模组可以让你像狼一样嚎叫，还有更多功能……",
+    "Description": "让角色可以像狼一样嚎叫，还有更多声音……",
     "Aliases": [
       "AnimalSounds"
     ],
@@ -803,7 +803,7 @@
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "模块化基地建造模组",
+    "Description": "模块化基地建造模组。",
     "Aliases": [
       "Architect"
     ],
@@ -836,7 +836,7 @@
     "Released": "2024-12-21",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Architect.webp"
+      "/thelongdark/assets/img/mods/0bb04c6d9c5efe3a2783d7ce.webp?v=0f1cae7e476f"
     ],
     "Status": {
       "working": true,
@@ -852,14 +852,14 @@
     ]
   },
   {
-    "DisplayName": "箭头模组",
+    "DisplayName": "箭矢制作调整",
     "Name": "ArrowMod",
     "Type": "mod",
     "Author": "ttr",
     "DisplayAuthor": [
       "ttr"
     ],
-    "Description": "允许更改箭矢和箭头的制作时间。新增箭矢制作选项。更改设置后可能需要重启游戏。",
+    "Description": "可调整箭矢与箭头的制作耗时，并增加箭矢制作选项。<br><br>更改设置后可能需要重启游戏。",
     "Aliases": [
       "ArrowMod"
     ],
@@ -905,14 +905,14 @@
     ]
   },
   {
-    "DisplayName": "AudioCore",
+    "DisplayName": "音频核心",
     "Name": "AudioCore",
     "Type": "plugin",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "这是个插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！插件！！！",
+    "Description": "这是一个插件！这是插件！这是插件！安装前请确认你需要的是插件。",
     "Aliases": [
       "AudioCore"
     ],
@@ -940,7 +940,7 @@
     "Released": "",
     "Updated": "2026-07-01",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiocore.jpg"
+      "/thelongdark/assets/img/mods/5a79b1d602c6a15db3b0ba90.jpg?v=27f9cbc6f63c"
     ],
     "Status": {
       "working": true,
@@ -964,7 +964,7 @@
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "用于使用自定义音频片段和控制原版音频的辅助模组。可禁用火焰音效、禁用瀑布音效、调节室内风效音量（例如类似沙沙声）、调节极光音乐音量。",
+    "Description": "用于加载自定义音效并控制原版音频的辅助模组。<br><br>可关闭照明弹和瀑布音效、调整室内风声等环境音量，以及调节极光音乐音量。",
     "Aliases": [
       "AudioManager"
     ],
@@ -996,7 +996,7 @@
     "Released": "2023-01-14",
     "Updated": "2026-04-02",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_audiomanager.jpg"
+      "/thelongdark/assets/img/mods/bcd52242bf04bfeaac224426.jpg?v=dbd87b8ab2da"
     ],
     "Status": {
       "working": true,
@@ -1020,7 +1020,7 @@
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "这是一个正在开发中的模组，最终将允许完全控制天气。目前可以控制极光，并在急救界面显示天气统计数据。",
+    "Description": "仍在开发中的天气控制模组，计划逐步开放完整天气调节功能。目前可控制极光，并在急救界面显示天气数据。",
     "Aliases": [
       "Aurora Monitor"
     ],
@@ -1054,8 +1054,8 @@
     "Released": "2023-08-29",
     "Updated": "2024-10-14",
     "Images": [
-      "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/Images/AuroraMonitor/BleakInlet-Pensive-Lookout-Colours.jpg",
-      "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/Images/AuroraMonitor/WeatherDisplay.jpg"
+      "/thelongdark/assets/img/mods/25432a56dc3137b195757ec7.jpg?v=e60f6ee435df",
+      "/thelongdark/assets/img/mods/695bb75185759a93c125637e.jpg?v=9d73e7714392"
     ],
     "Status": {
       "working": false,
@@ -1069,7 +1069,7 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "自动更新插件",
+    "DisplayName": "插件自动更新器",
     "Name": "AutoUpdatingPlugin",
     "Type": "plugin",
     "Author": "STBlade",
@@ -1077,7 +1077,7 @@
       "STBlade",
       "ds5678"
     ],
-    "Description": "插件。自动更新大多数模组和插件。",
+    "Description": "插件，可自动更新大多数模组和插件。",
     "Aliases": [
       "Auto Updating Plugin"
     ],
@@ -1102,7 +1102,7 @@
     "Released": "",
     "Updated": "2026-09-06",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/aup.png?raw=true"
+      "/thelongdark/assets/img/mods/91937f8ee833d8952776188a.png?v=3660c38e2989"
     ],
     "Status": {
       "working": true,
@@ -1118,14 +1118,14 @@
     ]
   },
   {
-    "DisplayName": "在“探索”中自动填充地图",
+    "DisplayName": "探索时自动绘制地图",
     "Name": "AutoFillMaponExplore",
     "Type": "mod",
     "Author": "Pathoschild",
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "<p>探索过程中，它会在你周围地图上自动填充信息，填充范围可配置。与地图管理器完全兼容。</p><p> <a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">更多信息请参阅readme文件</a>。</p>",
+    "Description": "<p>探索时自动绘制周围地图，绘制范围可自行设置。与 Map Manager 完全兼容。</p><p>详细信息请参阅<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">项目说明</a>。</p>",
     "Aliases": [
       "Auto-Fill Map on Explore"
     ],
@@ -1155,8 +1155,8 @@
     "Released": "2026-04-19",
     "Updated": "2026-04-28",
     "Images": [
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/AutoFillMapOnExplore/docs/images/map.png",
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/AutoFillMapOnExplore/docs/images/config.png"
+      "/thelongdark/assets/img/mods/38a716129bfe2f8a554ce99b.png?v=56f16e7e4942",
+      "/thelongdark/assets/img/mods/aca86fc0fe9a9a90f183d023.png?v=1f365c77d31c"
     ],
     "Status": {
       "working": true,
@@ -1172,14 +1172,14 @@
     ]
   },
   {
-    "DisplayName": "自动手电筒",
+    "DisplayName": "火把熄灭后自动点燃",
     "Name": "AutoTorchLight",
     "Type": "mod",
     "Author": "hzb1130",
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "自动点火手电筒，当它烧坏时。",
+    "Description": "当前一支火把燃尽时，自动点燃下一支火把。",
     "Aliases": [
       "AutoTorchLight"
     ],
@@ -1220,14 +1220,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "BaltaTools",
+    "DisplayName": "Balta 工具集",
     "Name": "BaltaTools",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "为游戏添加了一些工具。",
+    "Description": "为游戏添加几种实用工具。",
     "Aliases": [
       "BaltaTools"
     ],
@@ -1259,7 +1259,7 @@
     "Released": "2026-08-28",
     "Updated": "2026-09-05",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BaltaTools/BaltaToolsWallpaper.png"
+      "/thelongdark/assets/img/mods/22a69b0609b4717c515568cb.png?v=5ef177eb9785"
     ],
     "Status": {
       "working": true,
@@ -1275,14 +1275,14 @@
     ]
   },
   {
-    "DisplayName": "WhiteTweaks",
+    "DisplayName": "Balta 调整合集",
     "Name": "BaltaTweaks",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "BaltaZar 做了一些小调整。",
+    "Description": "BaltaZar 制作的一组小型调整。",
     "Aliases": [
       "BaltaTweaks"
     ],
@@ -1325,14 +1325,14 @@
     ]
   },
   {
-    "DisplayName": "海滩拾贝调整",
+    "DisplayName": "海滩拾荒调整",
     "Name": "BeachcombingAdjustments",
     "Type": "mod",
     "Author": "ds5678",
     "DisplayAuthor": [
       "ds5678"
     ],
-    "Description": "允许你更改海滩拾荒的掉落列表。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "允许调整海滩拾荒时可以找到的物品。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
     "Aliases": [
       "Beachcombing Adjustments"
     ],
@@ -1374,14 +1374,14 @@
     ]
   },
   {
-    "DisplayName": "睡袋调整器",
+    "DisplayName": "睡袋属性调整",
     "Name": "BedrollTweaker",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "* 调整每种睡袋的保暖性、重量和损耗速度。* 允许睡袋的保暖效果“叠加”。",
+    "Description": "可调整各类睡袋的保暖度、重量和损耗速度。<br>还可启用不同睡袋保暖加成的叠加效果。",
     "Aliases": [
       "Bedroll Tweaker"
     ],
@@ -1429,14 +1429,14 @@
     ]
   },
   {
-    "DisplayName": "更好的相机",
+    "DisplayName": "相机功能增强",
     "Name": "BetterCamera",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "通过允许缩放、将照片保存到磁盘等操作，增强了相机的功能。",
+    "Description": "增强相机功能，支持缩放、将照片保存到磁盘等操作。",
     "Aliases": [
       "Better Camera"
     ],
@@ -1469,7 +1469,7 @@
     "Released": "2025-08-18",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_BC.jpg"
+      "/thelongdark/assets/img/mods/893b335e65f6f9ab9ddaa841.jpg?v=f8e27734f25a"
     ],
     "Status": {
       "working": true,
@@ -1485,14 +1485,14 @@
     ]
   },
   {
-    "DisplayName": "更美好的夜空",
+    "DisplayName": "夜空改造",
     "Name": "BetterNightSky",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "通过添加流星雨等新功能，以及赋予月亮和星星全新的外观，彻底改变了夜空。",
+    "Description": "全面改造夜空：加入流星雨等新内容，并为月亮和星星带来全新外观。",
     "Aliases": [
       "Better Night Sky",
       "Better-Night-Sky"
@@ -1524,7 +1524,7 @@
     "Released": "2017-08-29",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_BNS.jpg"
+      "/thelongdark/assets/img/mods/fd07f1714874b8ab491fbb3f.jpg?v=de835ee4c38a"
     ],
     "Status": {
       "working": true,
@@ -1540,14 +1540,14 @@
     ]
   },
   {
-    "DisplayName": "提升技能经验",
+    "DisplayName": "技能经验调整",
     "Name": "BetterSkillXP",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "有了这个模组，技能点数会根据完成任务所花费的时间（可调整）来获得。",
+    "Description": "技能点数会根据你进行各项活动所花费的时间获得；相关时间参数可以调整。",
     "Aliases": [
       "Better Skill XP"
     ],
@@ -1591,14 +1591,14 @@
     ]
   },
   {
-    "DisplayName": "更好的水资源管理",
+    "DisplayName": "饮水管理优化",
     "Name": "BetterWaterManagement",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "改进《漫漫长夜》中水资源管理方式的模组。<br><br><a href='https://github.com/dommrogers/Better-Water-Management' target='_blank'>安装说明</a>",
+    "Description": "改进《漫漫长夜》中的饮水管理方式。<br><br><a href='https://github.com/dommrogers/Better-Water-Management' target='_blank'>安装说明</a>",
     "Aliases": [
       "BetterWaterManagement",
       "Better Water Management",
@@ -1645,14 +1645,14 @@
     ]
   },
   {
-    "DisplayName": "更大的捕兽人",
+    "DisplayName": "扩建捕兽人小屋",
     "Name": "BiggerTrappers",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "此模组扩展了神秘湖中的猎人小屋，使其面积略微增大。小屋的内部和外部沿一个轴进行了修改（使其变宽）。",
+    "Description": "扩建神秘湖的捕兽人小屋，让它变得更宽敞。室内和室外都沿一个方向扩展。",
     "Aliases": [
       "Bigger Trapper's"
     ],
@@ -1681,8 +1681,8 @@
     "Released": "2026-03-07",
     "Updated": "2026-03-07",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BiggerTrappers/BiggerT1.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/BiggerTrappers/BiggerT2.jpg"
+      "/thelongdark/assets/img/mods/da3740b1dfb6ee53c62f5908.jpg?v=e9479cafec10",
+      "/thelongdark/assets/img/mods/078480ca1d097ab847e387b0.jpg?v=549e78ea4c83"
     ],
     "Status": {
       "working": true,
@@ -1698,14 +1698,14 @@
     ]
   },
   {
-    "DisplayName": "出血重制版",
+    "DisplayName": "动物流血机制改造",
     "Name": "BleedingRevamped",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "改进了动物的出血机制。",
+    "Description": "改造动物受伤后的流血机制。",
     "Aliases": [
       "Bleeding Revamped"
     ],
@@ -1748,14 +1748,14 @@
     ]
   },
   {
-    "DisplayName": "蓝图清理器",
+    "DisplayName": "蓝图列表整理",
     "Name": "BlueprintCleaner",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "- 此模组为您的制作/烹饪面板增添了一些便利性。- 它允许您随时隐藏/显示所需的蓝图/配方，从而尽可能保持面板的整洁。",
+    "Description": "为制作和烹饪界面带来便利：可随时隐藏或显示蓝图与配方，让界面保持整洁。",
     "Aliases": [
       "Blueprint Cleaner"
     ],
@@ -1798,14 +1798,14 @@
     ]
   },
   {
-    "DisplayName": "丰富的觅食",
+    "DisplayName": "野外采集丰收",
     "Name": "BountifulForaging",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "在野外寻找食物和有用的材料。",
+    "Description": "在野外寻找食物和实用材料。",
     "Aliases": [
       "Bountiful Foraging"
     ],
@@ -1855,14 +1855,14 @@
     ]
   },
   {
-    "DisplayName": "弓箭维修",
+    "DisplayName": "弓具维修",
     "Name": "BowRepair",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "使所有弓箭都可维修，费用和地点可定制。",
+    "Description": "让所有弓都可以修理，并可自定义修理材料和地点。",
     "Aliases": [
       "Bow Repair",
       "BowRepair"
@@ -1894,7 +1894,7 @@
     "Released": "2024-03-10",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_BR.jpg"
+      "/thelongdark/assets/img/mods/ee4d09b7c0299ae1f0ad91ff.jpg?v=edea7370c4ea"
     ],
     "Status": {
       "working": true,
@@ -1910,14 +1910,14 @@
     ]
   },
   {
-    "DisplayName": "砌砖工门维修",
+    "DisplayName": "砖匠隐居处门扉修复",
     "Name": "BricklayersDoorFix",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "修理砖瓦匠静修处的门。",
+    "Description": "修复砖匠隐居处的门。",
     "Aliases": [
       "Bricklayers Door Fix"
     ],
@@ -1946,7 +1946,7 @@
     "Released": "2026-02-08",
     "Updated": "2026-02-08",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_BricklayersDoorFix.jpg"
+      "/thelongdark/assets/img/mods/aa285453bc3e17f678daafeb.jpg?v=fc10cb6f5447"
     ],
     "Status": {
       "working": true,
@@ -1960,14 +1960,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "含咖啡因的汽水",
+    "DisplayName": "含咖啡因汽水",
     "Name": "CaffeinatedSodas",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "汽水现在确实能稍微缓解疲劳。汽水通常含有咖啡因，所以肯定能让你精神一振，对吧？",
+    "Description": "汽水现在可以少量缓解疲劳。汽水通常含有咖啡因，总该能让你提提神吧？",
     "Aliases": [
       "Caffeinated Sodas"
     ],
@@ -1998,7 +1998,7 @@
     "Released": "2024-12-08",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_CS.jpg"
+      "/thelongdark/assets/img/mods/5bf4eeb2b69be6f5f73500e8.jpg?v=fd71910f7cad"
     ],
     "Status": {
       "working": true,
@@ -2021,7 +2021,7 @@
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "户外探险工具。",
+    "Description": "为户外探险准备的实用工具。",
     "Aliases": [
       "Camping Tools"
     ],
@@ -2077,7 +2077,7 @@
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "新增蜡烛和制作蜡烛的新材料",
+    "Description": "新增蜡烛和用于制作蜡烛的材料。",
     "Aliases": [
       "Candlelight",
       "Candlelight_2.0.0"
@@ -2110,7 +2110,7 @@
     "Released": "",
     "Updated": "2026-01-03",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_candlelight2.jpg"
+      "/thelongdark/assets/img/mods/b8296d345465d20f5f917123.jpg?v=a5ee553eda6a"
     ],
     "Status": {
       "working": true,
@@ -2127,14 +2127,14 @@
     ]
   },
   {
-    "DisplayName": "罐装补充装",
+    "DisplayName": "呼吸器气罐填充",
     "Name": "CanisterRefill",
     "Type": "mod",
     "Author": "TonisGaming",
     "DisplayAuthor": [
       "TonisGaming"
     ],
-    "Description": "增加了呼吸器空罐的补充功能",
+    "Description": "允许为呼吸器使用的空气罐重新充气。",
     "Aliases": [
       "Canister Refill"
     ],
@@ -2175,14 +2175,14 @@
     ]
   },
   {
-    "DisplayName": "罐头制造",
+    "DisplayName": "罐头厂工作台改良",
     "Name": "CanneryManufacturing",
     "Type": "mod",
     "Author": "Varrxion",
     "DisplayAuthor": [
       "Varrxion"
     ],
-    "Description": "旨在提高荒凉湾最后避难所罐头厂工坊的可用性，尤其是在入侵者难度下。",
+    "Description": "改善黯淡海湾 Last Resort 罐头厂工作间的使用体验，尤其适用于流浪者难度。",
     "Aliases": [
       "CanneryManufacturing"
     ],
@@ -2213,7 +2213,7 @@
     "Released": "2023-04-14",
     "Updated": "2024-12-13",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_cannerymanufactoring.jpg"
+      "/thelongdark/assets/img/mods/6b57359134b1ded26d10b679.jpg?v=38b9713f6d7a"
     ],
     "Status": {
       "working": true,
@@ -2230,7 +2230,7 @@
     ]
   },
   {
-    "DisplayName": "胴体产量调节器",
+    "DisplayName": "尸体收获量调整",
     "Name": "CarcassYieldTweaker",
     "Type": "mod",
     "Author": "Romain",
@@ -2238,7 +2238,7 @@
       "Romain",
       "Lycanthor"
     ],
-    "Description": "可以调整胴体产量和收获时间。",
+    "Description": "调整动物尸体可获得的材料数量和采集所需时间。",
     "Aliases": [
       "Carcass Yield Tweaker"
     ],
@@ -2285,14 +2285,14 @@
     ]
   },
   {
-    "DisplayName": "冷饮模式",
+    "DisplayName": "感冒机制",
     "Name": "CatchColdMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "该模组增加了感染感冒的机制，玩家可以逐渐产生抵抗力，否则感冒会恶化为肺炎。",
+    "Description": "新增感冒机制：角色可能患上感冒、逐渐产生抵抗力；若病情恶化，还可能发展为肺炎。",
     "Aliases": [
       "Catch Cold Mod"
     ],
@@ -2323,9 +2323,9 @@
     "Released": "2026-02-21",
     "Updated": "2026-09-04",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/CatchColdMod.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_42.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CatchColdMod/305620_43.jpg"
+      "/thelongdark/assets/img/mods/a4d041e24f83c3776a838322.jpg?v=6f0fc971a0b9",
+      "/thelongdark/assets/img/mods/bcbe744bd5a1cabdd1694538.jpg?v=b7d0b791df1b",
+      "/thelongdark/assets/img/mods/125a5abba2f4b74d4a1f106e.jpg?v=0d8d93655684"
     ],
     "Status": {
       "working": true,
@@ -2341,14 +2341,14 @@
     ]
   },
   {
-    "DisplayName": "更改自定义设置",
+    "DisplayName": "游戏中调整自定义设置",
     "Name": "ChangeCustomSettings",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "允许你更改跑步游戏的难度设置",
+    "Description": "允许在游戏进行期间修改难度设置。",
     "Aliases": [
       "ChangeCustomSettings"
     ],
@@ -2376,7 +2376,7 @@
     "Released": "2025-05-06",
     "Updated": "2025-05-28",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_changecustomsettings.jpg"
+      "/thelongdark/assets/img/mods/dac9d9c54bf81699a61a477a.jpg?v=ff0a6569826a"
     ],
     "Status": {
       "working": true,
@@ -2393,14 +2393,14 @@
     ]
   },
   {
-    "DisplayName": "选择起始装备重制版",
+    "DisplayName": "自选初始装备 Redux",
     "Name": "ChooseStartingGearRedux",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "替换“选择初始装备和DLC-选择初始装备-DLC”。选择您希望在游戏开始时使用的物品。",
+    "Description": "取代 Choose Starting Gear、DLC-Choose Starting Gear 和 DLC 版本。开局时选择你想携带的物品。",
     "Aliases": [
       "Choose Starting Gear Redux"
     ],
@@ -2429,7 +2429,7 @@
     "Released": "2026-01-30",
     "Updated": "2026-01-30",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML-ChooseStartingGearRedux.jpg"
+      "/thelongdark/assets/img/mods/c3d124a565f3ee9705af39ca.jpg?v=3b09bd023cf7"
     ],
     "Status": {
       "working": true,
@@ -2443,14 +2443,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "选择起始位置",
+    "DisplayName": "自选出生地点",
     "Name": "ChooseStartingLocationTFTFT",
     "Type": "mod",
     "Author": "Ezinw",
     "DisplayAuthor": [
       "Ezinw"
     ],
-    "Description": "允许您在开始新的沙盒游戏时选择起始位置。超过 300 个地点，涵盖所有区域和难度模式。完整说明请参阅 README 文件。",
+    "Description": "开始新的沙盒游戏时，可选择出生地点。包含 300 多个地点，覆盖所有区域和难度。完整说明请见 README。",
     "Aliases": [
       "Choose Starting Location",
       "v1.2"
@@ -2481,7 +2481,7 @@
     "Released": "2026-02-20",
     "Updated": "2026-07-16",
     "Images": [
-      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/CSL.jpg"
+      "/thelongdark/assets/img/mods/b29030e1817adec85548a5cd.jpg?v=01388c4e36b2"
     ],
     "Status": {
       "working": true,
@@ -2498,14 +2498,14 @@
     ]
   },
   {
-    "DisplayName": "选择起始条件",
+    "DisplayName": "自选开局状态",
     "Name": "ChooseStartingCondition",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "《漫漫长夜》的一个MOD。这个MOD允许你在开始新游戏时选择你的初始状态，包括疲劳、饥饿、口渴、体温、伤病和疾病。",
+    "Description": "允许在新游戏开始时设置角色状态，包括疲劳、饥饿、口渴、体温、伤势和疾病。",
     "Aliases": [
       "ChooseStartingCondition",
       "ChooseStartingConditions"
@@ -2537,7 +2537,7 @@
     "Released": "2025-07-24",
     "Updated": "2025-09-20",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ChooseStartingConditions.jpg"
+      "/thelongdark/assets/img/mods/73c98a6792447efaa82fdd27.jpg?v=03efeb7811b6"
     ],
     "Status": {
       "working": true,
@@ -2553,14 +2553,14 @@
     ]
   },
   {
-    "DisplayName": "服装扩展",
+    "DisplayName": "服装配饰扩展",
     "Name": "ClothingExpanded",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "增加了将配饰与服装组合使用的方法，以便同时装备更多配饰。",
+    "Description": "允许将配饰与服装搭配穿戴，让角色同时装备更多配饰。",
     "Aliases": [
       "Clothing Expanded"
     ],
@@ -2591,7 +2591,7 @@
     "Released": "2026-03-28",
     "Updated": "2026-03-28",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/Clothing_Expanded.png"
+      "/thelongdark/assets/img/mods/6419055e295aff720badb6d0.png?v=e7bb2c4e9f05"
     ],
     "Status": {
       "working": true,
@@ -2605,14 +2605,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "服装调整器 2",
+    "DisplayName": "服装属性调整 2",
     "Name": "ClothingTweaker2",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "服装调整器全新升级。随时随地编辑服装属性。",
+    "Description": "重新构思的服装调整工具，可在游戏过程中编辑服装属性。",
     "Aliases": [
       "Clothing Tweaker 2"
     ],
@@ -2643,7 +2643,7 @@
     "Released": "2024-10-10",
     "Updated": "2026-01-16",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/ClothingTweaker.webp"
+      "/thelongdark/assets/img/mods/b976635afff394791f1dbc4d.webp?v=9a70f7e63d6c"
     ],
     "Status": {
       "working": true,
@@ -2659,14 +2659,14 @@
     ]
   },
   {
-    "DisplayName": "海岸连接",
+    "DisplayName": "沿海公路连通",
     "Name": "CoastalConnection",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "该模组通过共用道路将沿海公路和布莱克湾连接起来。",
+    "Description": "打通沿海公路与黯淡海湾之间的道路。",
     "Aliases": [
       "Coastal Connection"
     ],
@@ -2695,7 +2695,7 @@
     "Released": "2026-05-20",
     "Updated": "2026-05-20",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/CoastalConnection.jpg"
+      "/thelongdark/assets/img/mods/d241ab0c3dbb4baf01d4f3ff.jpg?v=8fe1c16667e6"
     ],
     "Status": {
       "working": true,
@@ -2709,14 +2709,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "收藏卡",
+    "DisplayName": "收藏卡片",
     "Name": "CollectorCards",
     "Type": "mod",
     "Author": "Kaiusername",
     "DisplayAuthor": [
       "Kaiusername"
     ],
-    "Description": "在大熊湖各处寻找一系列手绘卡片！",
+    "Description": "在大熊岛各处寻找一套手绘收藏卡片！",
     "Aliases": [
       "Collector Cards",
       "Collector.Cards"
@@ -2765,14 +2765,14 @@
     ]
   },
   {
-    "DisplayName": "伴侣狼",
+    "DisplayName": "伙伴狼",
     "Name": "ExpandedAiFrameworkCompanionWolfMod",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "此模组新增了一种狼的生成类型，可以用肉引诱并最终驯服。目前该模组仍处于早期开发阶段，幼狼可以跟随玩家并逐渐长大，但除了消耗大量肉之外，没有其他功能性改动。",
+    "Description": "新增一种狼：可以用肉引诱，最终驯服为伙伴。模组仍处于早期开发阶段，目前可以让幼狼跟随并成长，但除了让你的肉类储备消耗得更快之外，还没有实际功能。",
     "Aliases": [
       "Companion Wolf",
       "ExpandedAiFramework.CompanionWolfMod"
@@ -2818,14 +2818,14 @@
     ]
   },
   {
-    "DisplayName": "复杂日志记录器",
+    "DisplayName": "详细日志记录",
     "Name": "ComplexLogger",
     "Type": "library",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "一个为游戏添加更复杂日志记录功能的模组",
+    "Description": "为游戏加入更详尽的日志记录功能。",
     "Aliases": [
       "Complex Logger"
     ],
@@ -2869,14 +2869,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "坐标抓取器",
+    "DisplayName": "交互物件坐标查看器",
     "Name": "CoordinatesGrabber",
     "Type": "mod",
     "Author": "ds5678",
     "DisplayAuthor": [
       "ds5678"
     ],
-    "Description": "实用模组。允许您查看/复制交互式物品的名称、位置、旋转和场景。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "实用工具模组，可查看或复制可交互物件的名称、位置、旋转角度和场景信息。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
     "Aliases": [
       "Coordinates Grabber",
       "Coordinates-Grabber"
@@ -2920,14 +2920,14 @@
     ]
   },
   {
-    "DisplayName": "美洲狮背包",
+    "DisplayName": "美洲狮皮背包",
     "Name": "CougarBackpack",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "一款美洲狮皮背包。升级版可选驼鹿皮斜挎包。",
+    "Description": "用美洲狮皮制作的背包。可升级为驼鹿皮挎包。",
     "Aliases": [
       "Cougar Backpack"
     ],
@@ -2958,7 +2958,7 @@
     "Released": "2026-08-09",
     "Updated": "2026-08-10",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/CougarBackpack/CougarBp1.jpg"
+      "/thelongdark/assets/img/mods/fc1da1a13d4a678efddd0b46.jpg?v=d029264de0d8"
     ],
     "Status": {
       "working": true,
@@ -2974,14 +2974,14 @@
     ]
   },
   {
-    "DisplayName": "CougarSoundBegone",
+    "DisplayName": "移除美洲狮主菜单音效",
     "Name": "CougarSoundBegone",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "启动时在主菜单中杀死那只愚蠢的美洲狮",
+    "Description": "启动游戏时移除主菜单中美洲狮的音效。",
     "Aliases": [
       "CougarSoundBegone",
       "CougarSoundBegone_1.3.0"
@@ -3025,14 +3025,14 @@
     ]
   },
   {
-    "DisplayName": "舒适毯",
+    "DisplayName": "温暖毯子",
     "Name": "CozyBlankets",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "让您在寒冷的冬夜里倍感温暖。原作者：ds5678。",
+    "Description": "在寒冷的冬夜里为你增添暖意。原作者：ds5678。",
     "Aliases": [
       "CozyBlankets"
     ],
@@ -3079,14 +3079,14 @@
     ]
   },
   {
-    "DisplayName": "CozyCushions",
+    "DisplayName": "舒适靠垫",
     "Name": "CozyCushions",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "14 种可制作的枕头；可坐在椅子、长凳、马桶等其他物品上；可选增益效果",
+    "Description": "新增 14 种可制作的靠垫；可以坐在椅子、长凳、马桶等物件上，并可选择启用增益效果。",
     "Aliases": [
       "CozyCushions",
       "CozyCushions_1.8.0"
@@ -3118,7 +3118,7 @@
     "Released": "2023-10-12",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/list_icon_cozycushions.jpg"
+      "/thelongdark/assets/img/mods/52bfe40b03c8e93ec6a17bca.jpg?v=c36fed7ce20a"
     ],
     "Status": {
       "working": true,
@@ -3135,14 +3135,14 @@
     ]
   },
   {
-    "DisplayName": "Craft Anywhere Redux",
+    "DisplayName": "随处制作 Redux",
     "Name": "CraftAnywhereRedux",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "允许您调整原版可制作物品的制作地点。",
+    "Description": "调整原版可制作物品的制作地点限制。",
     "Aliases": [
       "Craft Anywhere Redux"
     ],
@@ -3172,7 +3172,7 @@
     "Released": "2025-01-25",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_CraftAnywhereRedux.jpg"
+      "/thelongdark/assets/img/mods/dd3c15a854a08f8b18f96c2a.jpg?v=f8ea1719bb8b"
     ],
     "Status": {
       "working": true,
@@ -3186,14 +3186,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "修改稿",
+    "DisplayName": "制作系统改进",
     "Name": "CraftingRevisions",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />改进了制作界面，并支持自定义蓝图/配方创建。",
+    "Description": "** 此功能现已并入 ModComponent 7.0.0。<br />改进制作界面，并允许创建自定义蓝图和配方。",
     "Aliases": [
       "Crafting Revisions"
     ],
@@ -3220,7 +3220,7 @@
     "Released": "",
     "Updated": "2024-12-02",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/partofmc.png?raw=true"
+      "/thelongdark/assets/img/mods/7e8f82b89eea6afd5d26fcf2.png?v=51ec5bb405b4"
     ],
     "Status": {
       "working": true,
@@ -3237,7 +3237,7 @@
     ]
   },
   {
-    "DisplayName": "制作热键",
+    "DisplayName": "制作界面快捷键",
     "Name": "CraftingHotkey",
     "Type": "mod",
     "Author": "BA",
@@ -3288,14 +3288,14 @@
     ]
   },
   {
-    "DisplayName": "自定义白色",
+    "DisplayName": "自定义暴风雪挑战",
     "Name": "CustomWhiteout",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "一款适用于《漫漫长夜》的模组，可让您体验自定义的白茫茫一片挑战。",
+    "Description": "在《漫漫长夜》中体验自定义的暴风雪挑战。",
     "Aliases": [
       "CustomWhiteout"
     ],
@@ -3324,7 +3324,7 @@
     "Released": "2025-02-20",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_CustomWhiteout.jpg"
+      "/thelongdark/assets/img/mods/4e72efe0120262c79115941c.jpg?v=624f98166ce1"
     ],
     "Status": {
       "working": true,
@@ -3338,14 +3338,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "更黑暗的夜晚",
+    "DisplayName": "更深沉的夜色",
     "Name": "DarkerNights",
     "Type": "mod",
     "Author": "Xpazeman",
     "DisplayAuthor": [
       "Xpazeman"
     ],
-    "Description": "《漫漫长夜》的MOD，让夜晚更加黑暗，带来新的挑战。",
+    "Description": "让《漫漫长夜》的夜晚更加黑暗，带来新的生存挑战。",
     "Aliases": [
       "Darker Nights"
     ],
@@ -3393,14 +3393,14 @@
     ]
   },
   {
-    "DisplayName": "DeadAirReborn",
+    "DisplayName": "DeadAir 复刻版",
     "Name": "DeadAirReborn",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "TonisGaming制作的DeadAir模组的复兴",
+    "Description": "复刻 TonisGaming 制作的 DeadAir 模组。",
     "Aliases": [
       "DeadAirReborn"
     ],
@@ -3443,14 +3443,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "调试输出",
+    "DisplayName": "调试信息输出",
     "Name": "DebugOutput",
     "Type": "mod",
     "Author": "Danileros",
     "DisplayAuthor": [
       "Danileros"
     ],
-    "Description": "<p>调试输出是一个专为模组开发者创建的模组。</p><p>它通过启用特殊的调试模式来帮助调试模组，该模式可以实时以文本或表格的形式显示重要的模组参数。</p><p><a href=\"https://github.com/Danileros/DebugOutput/blob/main/README.MD\">更多信息请参阅readme文件</a>。</p>",
+    "Description": "<p>专为模组开发者制作的调试工具。</p><p>启用特殊调试模式后，可通过文字或表格实时查看重要的模组参数，帮助排查问题。</p><p>更多信息请参阅<a href=\"https://github.com/Danileros/DebugOutput/blob/main/README.MD\">项目说明</a>。</p>",
     "Aliases": [
       "Debug Output"
     ],
@@ -3477,7 +3477,7 @@
     "Released": "2026-08-17",
     "Updated": "2026-08-17",
     "Images": [
-      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_DebugOutput.jpg"
+      "/thelongdark/assets/img/mods/46b79079cd80454fb378b134.jpg?v=5ccf5b730564"
     ],
     "Status": {
       "working": true,
@@ -3503,7 +3503,7 @@
       "zeobviouslyfakeacc",
       "ds5678"
     ],
-    "Description": "此模组允许在游戏内访问 Hinterland 的开发者控制台。按 F1 打开/关闭控制台，输入“help”查看命令列表。",
+    "Description": "在游戏中启用 Hinterland 的开发者控制台。按 F1 打开或关闭控制台，输入“help”可查看命令列表。",
     "Aliases": [
       "DeveloperConsole"
     ],
@@ -3533,7 +3533,7 @@
     "Released": "2023-04-02",
     "Updated": "2026-04-22",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsole.jpg"
+      "/thelongdark/assets/img/mods/eea4ccceec2805306f116adb.jpg?v=22ca54c51753"
     ],
     "Status": {
       "working": true,
@@ -3549,14 +3549,14 @@
     ]
   },
   {
-    "DisplayName": "开发者控制台冬季静音",
+    "DisplayName": "冬日秘境开发者控制台",
     "Name": "DeveloperConsoleWintermute",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "故事模式控制台。请查看发行说明以获取详细说明。",
+    "Description": "剧情模式控制台。详细操作说明请查看版本发布说明。",
     "Aliases": [
       "DeveloperConsoleWintermute"
     ],
@@ -3584,7 +3584,7 @@
     "Released": "2026-03-21",
     "Updated": "2026-04-01",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_developerconsolewintermute.jpg"
+      "/thelongdark/assets/img/mods/1b62b74e3e5037b68e6c13c2.jpg?v=e93e6d448540"
     ],
     "Status": {
       "working": true,
@@ -3600,14 +3600,14 @@
     ]
   },
   {
-    "DisplayName": "可丢弃的不可丢弃物品",
+    "DisplayName": "允许丢弃特殊物品",
     "Name": "DroppableUndroppables",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "可以随意丢弃任何物品，不受任何限制。再也没有无法丢弃的收藏品、相机或短波收音机了。",
+    "Description": "不受限制地在任何地点丢弃物品，不再受无法丢弃的收藏品、相机或短波收音机所限。",
     "Aliases": [
       "Droppable Undroppables"
     ],
@@ -3638,7 +3638,7 @@
     "Released": "2025-01-18",
     "Updated": "2025-04-06",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_DU.jpg"
+      "/thelongdark/assets/img/mods/b186d7bd41431f592e489dad.jpg?v=27d96878ac4b"
     ],
     "Status": {
       "working": true,
@@ -3661,7 +3661,7 @@
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "请查看 GitHub 上的说明。",
+    "Description": "请查看 GitHub 上的使用说明。",
     "Aliases": [
       "DualSenseX",
       "DualSenseX_1.0.3"
@@ -3692,7 +3692,7 @@
     "Released": "2024-02-16",
     "Updated": "2024-02-16",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_dsx.jpg"
+      "/thelongdark/assets/img/mods/b174b628a5ae05b9fc2d64d1.jpg?v=4f22f8243544"
     ],
     "Status": {
       "working": true,
@@ -3709,14 +3709,14 @@
     ]
   },
   {
-    "DisplayName": "修复重复项目",
+    "DisplayName": "重复物品修复",
     "Name": "DuplicateItemFix",
     "Type": "mod",
     "Author": "Lycanthor",
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "修复了可以反复从同一地点拾取的木棍、石头、煤炭和其他物品的问题。它会在每个区域加载时清理存档中的错误数据。无需任何设置，自动运行。",
+    "Description": "修复树枝、石头、煤炭等物品在同一地点反复刷新的问题。每次载入区域时会清理存档中的异常数据。无需设置，自动运行。",
     "Aliases": [
       "Duplicate Item Fix"
     ],
@@ -3743,7 +3743,7 @@
     "Released": "2026-10-11",
     "Updated": "2026-10-11",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLD-DuplicateItemFix/master/screenshots/tldmods-main.gif"
+      "/thelongdark/assets/img/mods/0944387b35a3677f8d746f05.gif?v=a95afdf6f97e"
     ],
     "Status": {
       "working": true,
@@ -3764,7 +3764,7 @@
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一款游戏模组，为室内避难所添加动态温度和简化的模拟热力学。让你的安全屋保持温暖！",
+    "Description": "为室内避难所加入动态温度与简化的热力模拟。让你的安全屋保持温暖！",
     "Aliases": [
       "CoolHome",
       "DynamicTemperature",
@@ -3810,7 +3810,7 @@
     ]
   },
   {
-    "DisplayName": "动态树",
+    "DisplayName": "动态树木",
     "Name": "DynamicTrees",
     "Type": "mod",
     "Author": "Fuar",
@@ -3818,7 +3818,7 @@
       "Fuar",
       "Jods-Its"
     ],
-    "Description": "动态树木会动态替换树木的树叶纹理，以表现积雪，从而为游戏增添更多沉浸感。",
+    "Description": "动态调整树木的枝叶贴图，呈现逐渐积累的降雪效果，进一步增强游戏的沉浸感。",
     "Aliases": [
       "Dynamic Trees"
     ],
@@ -3871,7 +3871,7 @@
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "增加了包括地震在内的动态事件，使大熊湖的世界感觉更加动态，并随着时间的推移而变化。",
+    "Description": "加入地震等动态事件，让大熊岛随着时间推移不断变化，更显生机。",
     "Aliases": [
       "Dynamic World"
     ],
@@ -3924,7 +3924,7 @@
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "使收获的植物可食用，并可根据需求定制卡路里和维生素 C 含量。",
+    "Description": "采集到的植物可以食用，并可自定义其热量和维生素 C 含量。",
     "Aliases": [
       "Edible Plants"
     ],
@@ -3955,7 +3955,7 @@
     "Released": "2024-02-13",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/THUMB_EP.jpg"
+      "/thelongdark/assets/img/mods/ff48984298f0ac054c8cf502.jpg?v=c54e8150d72c"
     ],
     "Status": {
       "working": true,
@@ -3971,14 +3971,14 @@
     ]
   },
   {
-    "DisplayName": "永恒天气",
+    "DisplayName": "持久在线天气",
     "Name": "EternalWeather",
     "Type": "mod",
     "Author": "Deadman",
     "DisplayAuthor": [
       "Deadman"
     ],
-    "Description": "永恒天气是一个允许玩家将天气从多种状态更改为无限持续时间的模组。",
+    "Description": "允许玩家从多种天气状态中选择一种，并让该天气持续不变。",
     "Aliases": [
       "Eternal Weather"
     ],
@@ -4007,7 +4007,7 @@
     "Released": "2023-10-27",
     "Updated": "2024-06-29",
     "Images": [
-      "https://raw.githubusercontent.com/Deaadman/EternalWeather/release/Images/EternalWeatherThumbnail.png"
+      "/thelongdark/assets/img/mods/27ff5e745e7f91e426f014e5.png?v=b947359c90ba"
     ],
     "Status": {
       "working": true,
@@ -4024,14 +4024,14 @@
     ]
   },
   {
-    "DisplayName": "检查操作 API",
+    "DisplayName": "检查动作 API",
     "Name": "ExamineActionsAPI",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "用于自定义Examine操作的Mod框架。",
+    "Description": "用于创建自定义检查动作的模组开发框架。",
     "Aliases": [
       "Examine Actions API"
     ],
@@ -4073,14 +4073,14 @@
     ]
   },
   {
-    "DisplayName": "扩展人工智能框架",
+    "DisplayName": "扩展 AI 框架",
     "Name": "ExpandedAiFramework",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "为新的生成机制和AI行为提供必要的框架。",
+    "Description": "为新增的生物生成机制和 AI 行为提供必要的开发框架。",
     "Aliases": [
       "Expanded Ai Framework"
     ],
@@ -4125,14 +4125,14 @@
     ]
   },
   {
-    "DisplayName": "扩展技能",
+    "DisplayName": "技能等级扩展",
     "Name": "ExpandedSkills",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "一个将原版技能等级扩展至最多 10 级的模组。",
+    "Description": "将原版技能的最高等级扩展至 10 级。",
     "Aliases": [
       "ExpandedSkills"
     ],
@@ -4173,14 +4173,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "扩展交易框架",
+    "DisplayName": "交易系统扩展框架",
     "Name": "ExpandedTradingFramework",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "为交易者创建自定义交易的框架。",
+    "Description": "为交易者创建自定义交易内容的开发框架。",
     "Aliases": [
       "ExpandedTradingFramework"
     ],
@@ -4222,14 +4222,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "出口期刊",
+    "DisplayName": "导出日志",
     "Name": "ExportJournal",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "适用于《漫漫长夜》（2.51+）的模组，允许玩家导出当前存档游戏的日志数据。",
+    "Description": "适用于《漫漫长夜》2.51 及以上版本，可导出当前存档中的日志数据。",
     "Aliases": [
       "Export Journal"
     ],
@@ -4258,7 +4258,7 @@
     "Released": "2026-01-16",
     "Updated": "2026-01-16",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_ExportJournal2.jpg"
+      "/thelongdark/assets/img/mods/1dc9cae5375dd29ea2df61fa.jpg?v=1c75f0b2beb6"
     ],
     "Status": {
       "working": true,
@@ -4274,14 +4274,14 @@
     ]
   },
   {
-    "DisplayName": "额外图形设置",
+    "DisplayName": "额外画面设置",
     "Name": "ExtraGraphicsSettings",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "一个为图形效果添加更多选项的模组。",
+    "Description": "为游戏画面添加更多可调选项。",
     "Aliases": [
       "Extra Graphics Settings"
     ],
@@ -4333,14 +4333,14 @@
     ]
   },
   {
-    "DisplayName": "极端气温骤降",
+    "DisplayName": "极端降温",
     "Name": "ExtremeTemperatureDrop",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "改变温度降解",
+    "Description": "调整温度下降的幅度。",
     "Aliases": [
       "Extreme Temperature Drop",
       "ExtremeTempDrop"
@@ -4390,7 +4390,7 @@
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "<p>允许你保存任意数量的地点，并随时一键快速旅行到这些地点。包含物品平衡选项。例如，你可以在探索世界时拥有一个固定的大本营，而无需将你的物品逐个运送到各个区域，省去了繁琐的步骤。</p><p>请参阅<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">readme文件</a>并<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#save-safety\">保存安全设置</a>以获取更多信息。</p>",
+    "Description": "<p>保存任意数量的地点，并可随时一键快速前往。包含多种平衡性选项；例如，探索世界时可保留一个固定的家，不必每到一个区域就费力搬运所有囤积物资。</p><p>详情请参阅<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">项目说明</a>和<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#save-safety\">存档安全说明</a>。</p>",
     "Aliases": [
       "Fast Travel"
     ],
@@ -4422,9 +4422,9 @@
     "Released": "2026-04-19",
     "Updated": "2026-05-30",
     "Images": [
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/travel.png",
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/pause-menu-2.png",
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/FastTravel/docs/images/config.png"
+      "/thelongdark/assets/img/mods/ce1057cbe62ccc77ca8012be.png?v=f98eafb83294",
+      "/thelongdark/assets/img/mods/1eee108a66ee17a1db94bd71.png?v=c98c772ff4c4",
+      "/thelongdark/assets/img/mods/fa79fa77bb7e2d684c83532e.png?v=51f754ee931b"
     ],
     "Status": {
       "working": true,
@@ -4440,14 +4440,14 @@
     ]
   },
   {
-    "DisplayName": "更快的收割",
+    "DisplayName": "加快采集速度",
     "Name": "FasterHarvesting",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "增加了自定义选项，可以更改收获物品所需的时间。",
+    "Description": "提供自定义选项，可调整采集物品所需的时间。",
     "Aliases": [
       "Faster Harvesting"
     ],
@@ -4478,7 +4478,7 @@
     "Released": "2023-08-31",
     "Updated": "2023-10-02",
     "Images": [
-      "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/Images/FasterHarvesting/Fir%20Limb.jpg"
+      "/thelongdark/assets/img/mods/7bf47e44adb23cbdd3ad9c06.jpg?v=41e7afc97d97"
     ],
     "Status": {
       "working": false,
@@ -4494,14 +4494,14 @@
     ]
   },
   {
-    "DisplayName": "脂肪破坏者",
+    "DisplayName": "清理变质动物脂肪",
     "Name": "FatDestroyer",
     "Type": "mod",
     "Author": "Data-0",
     "DisplayAuthor": [
       "Data-0"
     ],
-    "Description": "让世界各地所有低品质的脂肪消失，这样它们就不会永远腐烂在你家门口了。",
+    "Description": "移除世界各处状态不佳的动物脂肪，避免它们永远腐坏在门外。",
     "Aliases": [
       "Fat Destroyer",
       "RuinedFatDestroyer"
@@ -4532,7 +4532,7 @@
     "Released": "2026-03-11",
     "Updated": "2026-03-11",
     "Images": [
-      "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/Fat%20destroy.png"
+      "/thelongdark/assets/img/mods/8fefba6e3b47ead9ce4136c6.png?v=b20ed0204712"
     ],
     "Status": {
       "working": true,
@@ -4546,14 +4546,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "功能设置",
+    "DisplayName": "生存专长设置",
     "Name": "FeatSettings",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "公开专长的效果和解锁设置。允许解锁传承专长“大型猫科动物杀手”。消除通过漏洞或控制台命令“错误”解锁的专长启动音效。允许在任何难度级别下自定义专长数量。",
+    "Description": "开放生存专长的效果与解锁设置，可解锁旧版专长“大型猫科猎手”。还可消除通过漏洞或控制台以非正常方式解锁专长时的启动音效，并自定义各难度下可启用的专长数量。",
     "Aliases": [
       "Feat Settings"
     ],
@@ -4585,7 +4585,7 @@
     "Released": "2025-10-08",
     "Updated": "2026-1-5",
     "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/BigCatKiller.PNG"
+      "/thelongdark/assets/img/mods/a96e5d2d2ec29c7cb5bd3f14.png?v=32771ed7e5e9"
     ],
     "Status": {
       "working": true,
@@ -4602,14 +4602,14 @@
     ]
   },
   {
-    "DisplayName": "菲利格拉尼的技能",
+    "DisplayName": "Filigrani 技能",
     "Name": "FiligranisSkills",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "自定义技能 API",
+    "Description": "自定义技能 API。",
     "Aliases": [
       "Filigrani's Skills"
     ],
@@ -4652,14 +4652,14 @@
     ]
   },
   {
-    "DisplayName": "火焰包 DLC",
+    "DisplayName": "生火工具包 DLC",
     "Name": "FirePackDLC",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "新型可再生生火工具。原作者：ds5678 和 WulfMarius。",
+    "Description": "新增可再生的生火工具。原作者：ds5678 和 WulfMarius。",
     "Aliases": [
       "Fire Pack DLC",
       "FirePack"
@@ -4709,14 +4709,14 @@
     ]
   },
   {
-    "DisplayName": "FireAddons",
+    "DisplayName": "生火扩展",
     "Name": "FireAddons",
     "Type": "mod",
     "Author": "ttr",
     "DisplayAuthor": [
       "ttr"
     ],
-    "Description": "闷烧灰烬，烹饪时间取决于温度，不同的引火物有不同的生火加成。详情请参阅 GitHub 上的 readme 文件。",
+    "Description": "加入阴燃灰烬、根据温度计算烹饪时间，以及不同引火物提供不同生火加成等功能。详情请查看 GitHub 上的项目说明。",
     "Aliases": [
       "FireAddons"
     ],
@@ -4747,8 +4747,8 @@
     "Released": "",
     "Updated": "2025-04-27",
     "Images": [
-      "https://raw.githubusercontent.com/ttr/tld-fireAddons/master/media/cooking.png",
-      "https://raw.githubusercontent.com/ttr/tld-fireAddons/master/media/embers.png"
+      "/thelongdark/assets/img/mods/ef06258a284df5300f9cad7b.png?v=014e714a8060",
+      "/thelongdark/assets/img/mods/638ae1aa0ab0fc04d7cc0a61.png?v=50a907ef82b9"
     ],
     "Status": {
       "working": true,
@@ -4765,14 +4765,14 @@
     ]
   },
   {
-    "DisplayName": "修复Steam创意工坊物品",
+    "DisplayName": "Steam 创意工坊物品修复",
     "Name": "FixSteamWorkshopItems",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "一个非常快速的修改，可以重新启用创意工坊本地化文件",
+    "Description": "快速修复模组，重新启用创意工坊的本地化文件。",
     "Aliases": [
       "Fix Steam Workshop Items"
     ],
@@ -4814,7 +4814,7 @@
     ]
   },
   {
-    "DisplayName": "TKG出品的食品包",
+    "DisplayName": "TKG 食物包",
     "Name": "FoodPackByTKG",
     "Type": "mod",
     "Author": "Thekillergreece",
@@ -4822,7 +4822,7 @@
       "Thekillergreece",
       "Kaiusername"
     ],
-    "Description": "为游戏新增了 38 种食物。此模组在扩展时考虑到了 Waltz 的模组，所以请务必也下载 Waltz 的模组！",
+    "Description": "为游戏新增 38 种食物。<br><br>此模组专为配合 Waltz 的模组扩展，建议一并下载。",
     "Aliases": [
       "Food Pack by 'TKG'"
     ],
@@ -4870,14 +4870,14 @@
     ]
   },
   {
-    "DisplayName": "食品调整器",
+    "DisplayName": "食物调整工具",
     "Name": "FoodTweaker",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "食物微调器。它的作用是什么？它可以调整食物的成分。",
+    "Description": "食物调整工具。它能做什么？当然是调整食物。",
     "Aliases": [
       "Food Tweaker"
     ],
@@ -4923,14 +4923,14 @@
     ]
   },
   {
-    "DisplayName": "“卡路里华尔兹”出品的食物",
+    "DisplayName": "Calorie Waltz 食物包",
     "Name": "FoodsByCalorieWaltz",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "新增 20 多种独特美味的<a href='https://raw.githubusercontent.com/HAHAYOUDEAD/FoodsByCalorieWaltz/main/Images/allRender2.png' target='_blank'>食品和饮料</a>。包含可爱的收藏品和实用场景！<br><br>将其解压到 .../Mods/ 目录进行安装。",
+    "Description": "新增 20 多种独特美味的<a href='https://raw.githubusercontent.com/HAHAYOUDEAD/FoodsByCalorieWaltz/main/Images/allRender2.png' target='_blank'>食物与饮品</a>，还包含可爱的收藏品和实用设置！<br><br>将文件解压到 .../Mods/ 目录即可安装。",
     "Aliases": [
       "Foods by 'Calorie Waltz'"
     ],
@@ -4960,7 +4960,7 @@
     "Released": "2021-09-12",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Foods.webp"
+      "/thelongdark/assets/img/mods/c0685214b7fc832e2f924a07.webp?v=391a6228c489"
     ],
     "Status": {
       "working": true,
@@ -4976,14 +4976,14 @@
     ]
   },
   {
-    "DisplayName": "ForagersDelight",
+    "DisplayName": "采集者的乐趣",
     "Name": "ForagersDelight",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "Forager&#39;s Delight mod 为所有服装物品添加少量（可自定义）负重加成。",
+    "Description": "为所有衣物增加少量（可自定义）的负重加成。",
     "Aliases": [
       "ForagersDelight",
       "v1.3"
@@ -5019,7 +5019,7 @@
     "Released": "2025-10-05",
     "Updated": "2026-08-14",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_ForagersDelight.jpg"
+      "/thelongdark/assets/img/mods/feb306dfdf5dc633eb4e8956.jpg?v=8ffcc2a3d93a"
     ],
     "Status": {
       "working": true,
@@ -5035,14 +5035,14 @@
     ]
   },
   {
-    "DisplayName": "锻造蓝图 DLC",
+    "DisplayName": "锻炉蓝图 DLC",
     "Name": "ForgeBlueprintsDLC",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "锻造台里还有更多蓝图。原作者：ds5678。",
+    "Description": "为锻炉增加更多蓝图。原作者：ds5678。",
     "Aliases": [
       "Forge Blueprints DLC",
       "ForgeBlueprints"
@@ -5091,14 +5091,14 @@
     ]
   },
   {
-    "DisplayName": "防御瞭望台",
+    "DisplayName": "瞭望点加固扩建",
     "Name": "FortifiedLookouts",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "扩大规模，增加第二个常规大小的嵌入式瞭望台，并抬高窗户，以便清晰地看到神秘湖、沿海公路和布莱克湾的瞭望台。",
+    "Description": "扩建瞭望点、增设一座标准尺寸的内嵌瞭望台，并抬高窗户以改善视野。适用于神秘湖、沿海公路和黯淡海湾。",
     "Aliases": [
       "Fortified Lookouts"
     ],
@@ -5127,7 +5127,7 @@
     "Released": "2025-07-25",
     "Updated": "2026-02-22",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_FortifiedLookouts.jpg"
+      "/thelongdark/assets/img/mods/58768e292822e2c40b39f51e.jpg?v=eb860eb4c4e3"
     ],
     "Status": {
       "working": true,
@@ -5141,14 +5141,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "FoxCompanion",
+    "DisplayName": "狐狸伙伴",
     "Name": "FoxCompanion",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "一只小狐狸陪伴孤独的《漫漫长夜》玩家。",
+    "Description": "为孤独的《漫漫长夜》玩家带来一只小狐狸伙伴。",
     "Aliases": [
       "FoxCompanion",
       "TLD.FoxCompanion_Mod_v0.9.9.5_FURY"
@@ -5192,14 +5192,14 @@
     ]
   },
   {
-    "DisplayName": "自由观看",
+    "DisplayName": "自由视角",
     "Name": "FreeLook",
     "Type": "mod",
     "Author": "Lycanthor",
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "终于可以自由地四处走动了！既要留意捕食者，也可以尽情欣赏美丽的风景。",
+    "Description": "行走时终于可以自由环顾四周！留意附近的掠食者，也可以欣赏沿途风景。",
     "Aliases": [
       "Free Look"
     ],
@@ -5228,7 +5228,7 @@
     "Released": "2026-09-01",
     "Updated": "2026-09-06",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLD-FreeLook/master/screenshots/tldmods-main.gif"
+      "/thelongdark/assets/img/mods/3f2bae6607212a825703b190.gif?v=ab98826056a9"
     ],
     "Status": {
       "working": true,
@@ -5242,14 +5242,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "友善湾",
+    "DisplayName": "友善的黯淡海湾",
     "Name": "FriendlyInlet",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "将木材刷新点重新分配到海岸，使凄凉湾更加宜人，并减少和重新安置一些狼的刷新点。",
+    "Description": "将木材刷新点重新分配到海岸，并减少、调整部分狼群刷新位置，让黯淡海湾更适合生存。",
     "Aliases": [
       "FriendlyInlet"
     ],
@@ -5278,7 +5278,7 @@
     "Released": "2025-05-21",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_FriendlyInlet.jpg"
+      "/thelongdark/assets/img/mods/76e7b0d03992a45cd3c8eaf2.jpg?v=c7fabdc7acdf"
     ],
     "Status": {
       "working": true,
@@ -5292,14 +5292,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "冷冻食品",
+    "DisplayName": "食物冷冻",
     "Name": "FrozenFood",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "冷冻食品旨在通过允许食物随着时间推移而冻结，为游戏增添更多真实感。",
+    "Description": "让食物随时间逐渐冻结，为游戏增添几分真实感。",
     "Aliases": [
       "Frozen Foods",
       "FrozenFood",
@@ -5345,14 +5345,14 @@
     ]
   },
   {
-    "DisplayName": "燃油管理器",
+    "DisplayName": "燃料管理器",
     "Name": "FuelManager",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "燃油管理器新增多项提升用户体验的功能，以协助管理各种燃油项目。这些功能涵盖了“更佳燃油管理”的所有功能。",
+    "Description": "提供多项便利功能，帮助管理各种燃料物品，并包含 Better-Fuel-Management 的全部功能。",
     "Aliases": [
       "Fuel Manager",
       "releases"
@@ -5405,14 +5405,14 @@
     ]
   },
   {
-    "DisplayName": "全力挥杆",
+    "DisplayName": "冰箱门全幅开启",
     "Name": "FullSwing",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "新增了调整冰箱门摆动速度和半径的选项",
+    "Description": "调整冰箱门的开启速度和旋转角度。",
     "Aliases": [
       "FullSwing"
     ],
@@ -5441,7 +5441,7 @@
     "Released": "2023-04-09",
     "Updated": "2023-04-09",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_fullswing.jpg"
+      "/thelongdark/assets/img/mods/bd7eed8fba5c194d2c631c9a.jpg?v=37f6d6cb9525"
     ],
     "Status": {
       "working": true,
@@ -5458,14 +5458,14 @@
     ]
   },
   {
-    "DisplayName": "装备衰减修正器",
+    "DisplayName": "装备损耗速度调整",
     "Name": "GearDecayModifier",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "这款适用于《漫漫长夜》的MOD可以修改装备的损耗速度。设置选项包括完全停止损耗和大幅加快损耗速度。有多种损耗类别可供修改。",
+    "Description": "调整《漫漫长夜》中各类装备的损耗速度。可从完全停止损耗到大幅加快损耗，并能按类别分别设置。",
     "Aliases": [
       "Gear Decay Modifier"
     ],
@@ -5516,7 +5516,7 @@
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "显示您物品栏中的其他装备信息（装备名称旁边有一个小的（i）按钮）",
+    "Description": "在物品栏中显示额外的装备信息；点击装备名称旁的小型“i”按钮即可查看。",
     "Aliases": [
       "Gear Info"
     ],
@@ -5547,7 +5547,7 @@
     "Released": "2025-05-26",
     "Updated": "2026-02-14",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/GearInfo.webp"
+      "/thelongdark/assets/img/mods/2122b3dcf7dc71ab1c356515.webp?v=8ce3c4388f7e"
     ],
     "Status": {
       "working": true,
@@ -5563,14 +5563,14 @@
     ]
   },
   {
-    "DisplayName": "完美状态改装",
+    "DisplayName": "指定装备满状态",
     "Name": "GearPerfectConditionMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "将指定拾取装备的物品掉落率设为 100%。可自定义 JSON 数据。默认物品：火柴、灯油、放大镜、消毒剂、保温瓶。",
+    "Description": "将指定的拾取装备设置为 100% 状态，可通过 JSON 自定义。默认包括：火柴、灯油、放大镜、消毒剂和保温瓶。",
     "Aliases": [
       "ToolsFullConditionMod",
       "GearPerfectConditionMod",
@@ -5599,8 +5599,8 @@
     "Released": "2026-01-26",
     "Updated": "2026-01-26",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/GearPerfectConditionMod/305620_16asd.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/GearPerfectConditionMod/305620_15asd.jpg"
+      "/thelongdark/assets/img/mods/5072d4e14f3b302cc315020a.jpg?v=a46c25acbfaf",
+      "/thelongdark/assets/img/mods/53eaf1f3c57daf6e9fa5d169.jpg?v=415ffd22461c"
     ],
     "Status": {
       "working": true,
@@ -5616,14 +5616,14 @@
     ]
   },
   {
-    "DisplayName": "齿轮生成器",
+    "DisplayName": "装备生成器",
     "Name": "GearSpawner",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />用于生成模组物品的实用模组。",
+    "Description": "** 此功能现已并入 ModComponent 7.0.0。<br />用于生成模组物品的实用工具。",
     "Aliases": [
       "Gear Spawner"
     ],
@@ -5650,7 +5650,7 @@
     "Released": "",
     "Updated": "2023-06-22",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/partofmc.png?raw=true"
+      "/thelongdark/assets/img/mods/7e8f82b89eea6afd5d26fcf2.png?v=51ec5bb405b4"
     ],
     "Status": {
       "working": true,
@@ -5667,14 +5667,14 @@
     ]
   },
   {
-    "DisplayName": "大巴岛",
+    "DisplayName": "荒寂大熊岛",
     "Name": "GreatBareIsland",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "这是大熊岛的另一个版本，移除了大部分小木屋、拖车和普通房屋，或者用废墟代替它们，以带来新的挑战。",
+    "Description": "大熊岛的另一种地图版本：移除大多数小屋、拖车和普通房屋，或将它们替换为废墟，带来全新挑战。",
     "Aliases": [
       "GreatBareIsland"
     ],
@@ -5703,7 +5703,7 @@
     "Released": "2026-02-24",
     "Updated": "2026-08-14",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_GreatBareIsland.jpg"
+      "/thelongdark/assets/img/mods/d4611fc4290375a69e5d3139.jpg?v=dee197baf050"
     ],
     "Status": {
       "working": true,
@@ -5717,14 +5717,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "HUD 位置",
+    "DisplayName": "界面位置调整",
     "Name": "HUDPositioner",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "允许对游戏内 UI 元素进行更深入的自定义，通过更改它们在屏幕上的锚定位置，并通过 Mod 设置自由调整它们的位置。",
+    "Description": "通过 Mod Settings 扩展自定义游戏界面的能力：更改界面元素的锚定位置，并自由调整其屏幕坐标。",
     "Aliases": [
       "HUD Positioner",
       "HUDPositioner"
@@ -5757,7 +5757,7 @@
     "Released": "2026-01-06",
     "Updated": "2026-01-06",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_HP.jpg"
+      "/thelongdark/assets/img/mods/dacb6da46036c4e3b54d32fc.jpg?v=830486871fdc"
     ],
     "Status": {
       "working": true,
@@ -5773,7 +5773,7 @@
     ]
   },
   {
-    "DisplayName": "HUDTweaks",
+    "DisplayName": "界面显示调整",
     "Name": "HUDTweaks",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
@@ -5781,7 +5781,7 @@
       "Sm4rtBoyTom",
       "Digitalzombie"
     ],
-    "Description": "启用/禁用用户界面的某些部分，以获得更沉浸式的体验。",
+    "Description": "启用或禁用部分界面元素，让游戏体验更具沉浸感。",
     "Aliases": [
       "HUDTweaks",
       "releases"
@@ -5829,14 +5829,14 @@
     ]
   },
   {
-    "DisplayName": "万圣节",
+    "DisplayName": "嚎叫万圣节",
     "Name": "Halloween",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "DisplayAuthor": [
       "TLD Modding Community"
     ],
-    "Description": "嚎叫万圣节 - 由 Discord Modding 社区倾情呈现",
+    "Description": "“嚎叫万圣节”特别内容，由 Discord 模组社区带来。",
     "Aliases": [
       "TLDHalloween",
       "Halloween",
@@ -5868,7 +5868,7 @@
     "Released": "2023-10-27",
     "Updated": "2023-11-02",
     "Images": [
-      "https://raw.githubusercontent.com/TLD-Mods/TLD-Halloween/master/ThumbHW2.png"
+      "/thelongdark/assets/img/mods/43b9d3ebefa6424f14303f0b.png?v=82955fa9526b"
     ],
     "Status": {
       "working": true,
@@ -5885,14 +5885,14 @@
     ]
   },
   {
-    "DisplayName": "收成产量调整器",
+    "DisplayName": "拆解产出调整",
     "Name": "HarvestYieldTweaker",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一种游戏玩法模组，允许用户更改分解某些物品所获得的收益量。",
+    "Description": "允许玩家调整拆解特定物品时获得的材料数量。",
     "Aliases": [
       "Harvest Yield Tweaker",
       "1.1"
@@ -5937,14 +5937,14 @@
     ]
   },
   {
-    "DisplayName": "热键修改器",
+    "DisplayName": "快捷装备键",
     "Name": "HotkeyMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "简单的快捷键模组。装备枪械时，会优先装备弹匣容量最大的枪械（如果该枪械在JSON列表中）。装备火炬时，会优先装备满足“LEAST”条件的火炬。基本规则是：装备列表中的第一个物品。该模组也支持服装和配饰，并实现了切换功能：第一次点击装备指定的服装，第二次点击切换回之前装备的物品（如果有的话）。更多详情请查看仓库！",
+    "Description": "简易快捷键模组。装备枪械时，优先装备弹匣中子弹最多的枪（需列入 JSON 配置）；装备火把时，优先选择耐久最低的一支。若未触发以上规则，则装备列表中的第一件物品。支持衣物与配饰，并提供切换功能：第一次按键装备指定衣物，再次按键则换回原本穿戴的物品。更多详情请查看项目仓库。",
     "Aliases": [
       "Hotkey Mod"
     ],
@@ -5971,7 +5971,7 @@
     "Released": "2026-01-22",
     "Updated": "2026-08-31",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HotkeyMod/Screenshot%202026-01-22%20221343.jpg"
+      "/thelongdark/assets/img/mods/c2d50edaa1067dcd6ca8560c.jpg?v=5eca79cf3eed"
     ],
     "Status": {
       "working": true,
@@ -5987,14 +5987,14 @@
     ]
   },
   {
-    "DisplayName": "房屋灯光",
+    "DisplayName": "房屋照明",
     "Name": "HouseLights",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "神奇地，大熊湖恢复了供电！再也不用在黑暗中摸索着回家了！",
+    "Description": "让大熊岛的电力奇迹般恢复！再也不用摸黑在房屋里跌跌撞撞。",
     "Aliases": [
       "House Lights"
     ],
@@ -6025,7 +6025,7 @@
     "Released": "2019-05-12",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_HL.jpg"
+      "/thelongdark/assets/img/mods/d30b993ead3ed3129e4fb90b.jpg?v=f05d41cfa437"
     ],
     "Status": {
       "working": true,
@@ -6048,7 +6048,7 @@
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "这个模组旨在抓取那些不阅读说明的用户。请勿安装此模组。如果您正在阅读此说明，则说明您已通过测试。",
+    "Description": "这个模组专门用来测试不看说明的用户。请不要安装它。如果你读到了这里，说明你通过了测试。",
     "Aliases": [
       "How To Read"
     ],
@@ -6087,7 +6087,7 @@
     ]
   },
   {
-    "DisplayName": "饥饿重塑",
+    "DisplayName": "饥饿系统改造",
     "Name": "HungerRevamped",
     "Type": "mod",
     "Author": "BaltaZar",
@@ -6095,7 +6095,7 @@
       "BaltaZar",
       "TLD modding community"
     ],
-    "Description": "改进了饥饿系统，将饥饿值和储存的卡路里分开计算。增加了各种烹饪自定义选项，例如允许烹饪变质的食物。",
+    "Description": "改进饥饿系统，将饥饿感与体内储存的热量分开计算。提供多种烹饪自定义选项，例如允许烹煮已变质的食物。",
     "Aliases": [
       "Hunger Revamped"
     ],
@@ -6126,8 +6126,8 @@
     "Released": "2018-03-31",
     "Updated": "2026-08-14",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_bar_fill_levels.png",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/HungerRevamped/hunger_and_stored_calories.png"
+      "/thelongdark/assets/img/mods/f041c4695546d42f69b6fd4c.png?v=230761858489",
+      "/thelongdark/assets/img/mods/ff7c0cfba04713d5a06073fd.png?v=984d6dd94d7c"
     ],
     "Status": {
       "working": true,
@@ -6143,14 +6143,14 @@
     ]
   },
   {
-    "DisplayName": "亨特广播",
+    "DisplayName": "狩猎信息播报",
     "Name": "HuntBroadcast",
     "Type": "mod",
     "Author": "hzb1130",
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "伤害和击杀信息广播",
+    "Description": "播报造成的伤害和击杀信息。",
     "Aliases": [
       "HuntBroadcast"
     ],
@@ -6179,7 +6179,7 @@
     "Released": "2026-05-23",
     "Updated": "2026-05-23",
     "Images": [
-      "https://raw.githubusercontent.com/hzb1130/HuntBroadcast/main/1.png"
+      "/thelongdark/assets/img/mods/6cef02981faf6c44cdf0f492.png?v=2a7fa8c5cd2e"
     ],
     "Status": {
       "working": true,
@@ -6193,14 +6193,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "改善的痛苦",
+    "DisplayName": "疾病效果强化",
     "Name": "ImprovedAfflictions",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "改进的疾病系统对许多疾病进行了彻底的改造和更改，使其持续时间更长、造成更致命的影响，并使游戏更具挑战性。",
+    "Description": "全面改造多种疾病效果：延长持续时间、加重致命影响，让生存挑战更加严峻。",
     "Aliases": [
       "Improved Afflictions"
     ],
@@ -6246,14 +6246,14 @@
     ]
   },
   {
-    "DisplayName": "改良服装",
+    "DisplayName": "服装功能改进",
     "Name": "ImprovedClothing",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "增加了在冰雪中行走、动物袭击后衣物被浸湿的情况，以及一种快速脱下身上衣物的新方法。",
+    "Description": "新增在雪地和冰面行走、遭受动物攻击时衣物变湿的效果，并提供从角色身上快速放置衣物的新方式。",
     "Aliases": [
       "Improved Clothing"
     ],
@@ -6298,14 +6298,14 @@
     ]
   },
   {
-    "DisplayName": "改良版美洲狮",
+    "DisplayName": "美洲狮机制改进",
     "Name": "ImprovedCougar",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一款游戏玩法模组，它添加并修改了与美洲狮相关的机制。",
+    "Description": "新增并调整与美洲狮相关的游戏机制。",
     "Aliases": [
       "Improved Cougar",
       "2.0"
@@ -6353,14 +6353,14 @@
     ]
   },
   {
-    "DisplayName": "改良烧瓶",
+    "DisplayName": "保温瓶改进",
     "Name": "ImprovedFlasks",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一款为保温瓶添加全新便捷功能的玩法模组。",
+    "Description": "为保温瓶加入新的便利功能。",
     "Aliases": [
       "Improved Flasks",
       "1.2"
@@ -6407,14 +6407,14 @@
     ]
   },
   {
-    "DisplayName": "改进的加载界面",
+    "DisplayName": "加载画面改进",
     "Name": "ImprovedLoadingScreens",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一款改进游戏加载界面的模组，提供自定义提示、背景图片，并可启用或禁用加载界面的各种功能。",
+    "Description": "改进游戏加载画面，加入自定义提示、背景图片，并允许启用或禁用多种加载画面元素。",
     "Aliases": [
       "Improved Loading Screens"
     ],
@@ -6458,14 +6458,14 @@
     ]
   },
   {
-    "DisplayName": "改进型放大镜",
+    "DisplayName": "放大镜生火改进",
     "Name": "ImprovedMagnifyingLens",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "用放大镜生火，增添一些真实感",
+    "Description": "让使用放大镜点火的过程更贴近真实情况。",
     "Aliases": [
       "Improved Magnifying Lens"
     ],
@@ -6509,14 +6509,14 @@
     ]
   },
   {
-    "DisplayName": "改善所有人的休息",
+    "DisplayName": "所有模式均可恢复休息状态",
     "Name": "ImprovedRestForAll",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "此模组允许在“休息期间的状况恢复”设置为“无”（自定义模式）时，通过“改善的休息增益”恢复状况。",
+    "Description": "在自定义模式中，即使将“休息期间恢复状态”设为“无”，也能通过 Improved Rest 增益恢复角色状态。",
     "Aliases": [
       "Improved Rest For All"
     ],
@@ -6561,14 +6561,14 @@
     ]
   },
   {
-    "DisplayName": "改进的配乐",
+    "DisplayName": "游戏配乐扩展",
     "Name": "ImprovedSoundtrack",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "通过添加播放原声带中稀有或已移除曲目的新条件，改进了游戏内配乐。包括发现新地点时播放的彩蛋音乐。",
+    "Description": "扩充游戏配乐的播放条件，让原声带中稀有或已移除的曲目有机会响起，并加入发现新地点时的提示音。",
     "Aliases": [
       "Improved OST",
       "ImprovedSoundtrack",
@@ -6614,14 +6614,14 @@
     ]
   },
   {
-    "DisplayName": "改进的故事",
+    "DisplayName": "信号虚空剧情改进",
     "Name": "ImprovedTales",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "通过提供生活质量自定义选项，改进信号虚空故事。",
+    "Description": "为“信号虚空”剧情任务加入多项便利性自定义选项。",
     "Aliases": [
       "",
       "ImprovedTales",
@@ -6668,14 +6668,14 @@
     ]
   },
   {
-    "DisplayName": "改进型交易员",
+    "DisplayName": "交易者改进",
     "Name": "ImprovedTrader",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一款游戏玩法模组，为游戏世界添加了新的交易箱，并对交易系统进行了其他调整。",
+    "Description": "在世界各处加入新的交易者箱子，并调整交易者相关内容。",
     "Aliases": [
       "Improved Trader",
       "latest"
@@ -6720,14 +6720,14 @@
     ]
   },
   {
-    "DisplayName": "改进型急救小组",
+    "DisplayName": "急救面板改进",
     "Name": "ImprovedFirstAidPanel",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "提升生活质量的小改进：优化急救面板，增加身体部位过滤和直接治疗按钮，使其更易于使用。",
+    "Description": "优化急救面板的使用体验，加入按身体部位筛选和直接治疗按钮。",
     "Aliases": [
       "ImprovedFirstAidPanel"
     ],
@@ -6766,14 +6766,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "门内温度",
+    "DisplayName": "室内温度调整",
     "Name": "InDoorTemp",
     "Type": "mod",
     "Author": "ttr",
     "DisplayAuthor": [
       "ttr"
     ],
-    "Description": "室内温度与室外温度保持一致。避难场所（雪地、汽车、洞穴）不再提供额外温度加成。",
+    "Description": "让室内温度与室外温度保持一致。雪洞、汽车和洞穴等避难所不再提供固定温度加成。",
     "Aliases": [
       "In Door Temps",
       "IndoorTemps"
@@ -6818,14 +6818,14 @@
     ]
   },
   {
-    "DisplayName": "室内篝火",
+    "DisplayName": "室内营火",
     "Name": "IndoorCampfires",
     "Type": "mod",
     "Author": "Xpazeman",
     "DisplayAuthor": [
       "Xpazeman"
     ],
-    "Description": "这个模组允许你在室内生篝火。",
+    "Description": "允许在室内生起营火。",
     "Aliases": [
       "Indoor Campfires"
     ],
@@ -6869,14 +6869,14 @@
     ]
   },
   {
-    "DisplayName": "室内绿植",
+    "DisplayName": "室内种植",
     "Name": "IndoorsGreenery",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "打造属于你自己的室内农场，重新种植植物。",
+    "Description": "打造室内农场，让植物重新生长。",
     "Aliases": [
       "Indoors Greenery"
     ],
@@ -6925,14 +6925,14 @@
     ]
   },
   {
-    "DisplayName": "无限作弊死亡",
+    "DisplayName": "无限次死里逃生",
     "Name": "InfiniteCheatDeath",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "允许无限次复活。<i>但不会</i>移除作弊死亡的惩罚。",
+    "Description": "允许无限次复活。死里逃生的惩罚不会因此移除。",
     "Aliases": [
       "Infinite Cheat Death"
     ],
@@ -6959,7 +6959,7 @@
     "Released": "2025-05-24",
     "Updated": "2025-05-24",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_ICD.jpg"
+      "/thelongdark/assets/img/mods/cb50603b420b8748191ebec1.jpg?v=3ac932742cee"
     ],
     "Status": {
       "working": true,
@@ -6975,14 +6975,14 @@
     ]
   },
   {
-    "DisplayName": "无尽之火",
+    "DisplayName": "永不熄灭的火焰",
     "Name": "InfiniteFires",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "自世界运转以来，它就一直在燃烧。",
+    "Description": "世界转动不息，火焰也从未熄灭。",
     "Aliases": [
       "Infinite Fires",
       "InfiniteFiresDLC"
@@ -7012,7 +7012,7 @@
     "Released": "2026-04-04",
     "Updated": "2026-04-08",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/list_icon_infinitefires.jpg"
+      "/thelongdark/assets/img/mods/3191128a4d7891ba5e14e418.jpg?v=e17523b876c8"
     ],
     "Status": {
       "working": true,
@@ -7026,14 +7026,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "室内墙面装饰",
+    "DisplayName": "室内墙面装饰画",
     "Name": "MyPicturesMod",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "允许你用图片装饰你的基地，并上传你自己的图片。",
+    "Description": "用图片装饰你的基地，也可以上传自己的图片。",
     "Aliases": [
       "Interior Wall Decorations",
       "InteriorWallDecorations"
@@ -7063,7 +7063,7 @@
     "Released": "2026-03-26",
     "Updated": "2026-03-26",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/IWD1.jpg"
+      "/thelongdark/assets/img/mods/fc411643b2a62ebef67e5768.jpg?v=30320f32d898"
     ],
     "Status": {
       "working": true,
@@ -7079,14 +7079,14 @@
     ]
   },
   {
-    "DisplayName": "入侵者区域选择",
+    "DisplayName": "流浪者难度出生区域选择",
     "Name": "InterloperRegionSelection",
     "Type": "mod",
     "Author": "zeobviouslyfakeacc",
     "DisplayAuthor": [
       "zeobviouslyfakeacc"
     ],
-    "Description": "此模组允许你在入侵者模式下选择出生区域。",
+    "Description": "在流浪者难度下选择初始出生区域。",
     "Aliases": [
       "Interloper Region Selection"
     ],
@@ -7125,14 +7125,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "InterloperHUDPro",
+    "DisplayName": "流浪者 HUD 增强",
     "Name": "InterloperHUDPro",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "新增几个HUD显示界面。",
+    "Description": "新增若干游戏界面信息显示。",
     "Aliases": [
       "InterloperHUDPro"
     ],
@@ -7161,7 +7161,7 @@
     "Released": "2025-10-23",
     "Updated": "2026-10-02",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/InterloperHUDPro.PNG"
+      "/thelongdark/assets/img/mods/de2abe24b8be0745c5cd91f2.png?v=f95d3f3c6f04"
     ],
     "Status": {
       "working": true,
@@ -7175,14 +7175,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "库存重新分配",
+    "DisplayName": "物品栏分类调整",
     "Name": "InventoryReassignments",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "这是一个适用于《漫漫长夜》的模组，允许玩家将各种装备物品重新分配到不同的物品栏类别中。",
+    "Description": "允许将各类装备重新分配到不同的物品栏分类中。",
     "Aliases": [
       "InventoryReassignments"
     ],
@@ -7211,7 +7211,7 @@
     "Released": "2025-04-14",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_InventoryReassignments.jpg"
+      "/thelongdark/assets/img/mods/88699bc9514fa12916651179.jpg?v=eb7f88eacfb3"
     ],
     "Status": {
       "working": true,
@@ -7225,14 +7225,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "物品堆",
+    "DisplayName": "物品堆叠蓝图",
     "Name": "ItemPiles",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "为堆叠物品添加蓝图。",
+    "Description": "为堆放成堆的物品添加制作蓝图。",
     "Aliases": [
       "Item Piles"
     ],
@@ -7261,7 +7261,7 @@
     "Released": "2026-03-17",
     "Updated": "2026-07-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/item-pile-mod-title.jpg"
+      "/thelongdark/assets/img/mods/ab04aa240b4f4f8784faf8c4.jpg?v=c7331eb792eb"
     ],
     "Status": {
       "working": true,
@@ -7282,7 +7282,7 @@
     "DisplayAuthor": [
       "Deadman"
     ],
-    "Description": "物品稀有度是一项修改，它赋予《漫漫长夜》中的每件物品一种独特性。",
+    "Description": "为《漫漫长夜》中的每件物品赋予独特的稀有程度。",
     "Aliases": [
       "Item Rarities"
     ],
@@ -7313,7 +7313,7 @@
     "Released": "2023-09-11",
     "Updated": "2026-01-10",
     "Images": [
-      "https://raw.githubusercontent.com/Deaadman/item-rarities/main/Images/Thumbnail.webp"
+      "/thelongdark/assets/img/mods/f5f41823ffc80e59b12f1bc5.webp?v=4561f6acdf10"
     ],
     "Status": {
       "working": true,
@@ -7330,14 +7330,14 @@
     ]
   },
   {
-    "DisplayName": "物品选择器",
+    "DisplayName": "快速拾取",
     "Name": "ItemPicker",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "拾取树枝、石头或其他物品时无需进行物品检查。批量拾取您周围一定范围内的所有树枝、石头或其他物品。可选择是否消耗卡路里。完全可自定义。",
+    "Description": "拾取树枝、石头等物品时跳过检查界面。<br><br>可一次拾取周围一定范围内的所有树枝、石头或其他物品，并可选择是否消耗热量。<br><br>所有选项均可自定义。",
     "Aliases": [
       "ItemPicker",
       "ItemPicker_v1.0.0"
@@ -7367,7 +7367,7 @@
     "Released": "2023-04-16",
     "Updated": "2023-04-16",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_itempicker.jpg"
+      "/thelongdark/assets/img/mods/90b9babdcb63121df697b960.jpg?v=1e251df6ddfe"
     ],
     "Status": {
       "working": true,
@@ -7384,14 +7384,14 @@
     ]
   },
   {
-    "DisplayName": "物品扫描器",
+    "DisplayName": "附近物品扫描器",
     "Name": "ItemScanner",
     "Type": "mod",
     "Author": "hzb1130",
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "TLD MOD 可以扫描玩家周围的物品、容器和可收获的植物，并在屏幕上显示它们的位置。",
+    "Description": "扫描玩家周围的物品、容器和可采集植物，并在屏幕上显示它们的位置。",
     "Aliases": [
       "ItemScanner"
     ],
@@ -7422,7 +7422,7 @@
     "Released": "2026-02-10",
     "Updated": "2026-05-23",
     "Images": [
-      "https://raw.githubusercontent.com/hzb1130/ItemScanner/main/images/3.1.png"
+      "/thelongdark/assets/img/mods/ee7c596d82b7279db77517bf.png?v=826b68203e21"
     ],
     "Status": {
       "working": true,
@@ -7436,14 +7436,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "跳",
+    "DisplayName": "跳跃",
     "Name": "Jump",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "允许跳跃。还有一些设置选项。安装方法是将其拖放到 .../Mods/ 目录下。",
+    "Description": "让角色可以跳跃，并提供若干相关设置。将文件放入 .../Mods/ 目录即可安装。",
     "Aliases": [
       "Jump"
     ],
@@ -7473,7 +7473,7 @@
     "Released": "2023-01-07",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Jump.webp"
+      "/thelongdark/assets/img/mods/cc3e83cf0463e8ecfad0808b.webp?v=017daebf3c5b"
     ],
     "Status": {
       "working": true,
@@ -7489,14 +7489,14 @@
     ]
   },
   {
-    "DisplayName": "只需放大",
+    "DisplayName": "快速缩放",
     "Name": "JustZoom",
     "Type": "mod",
     "Author": "LittleWolfStorm",
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "按下 Z 键即可放大，然后使用鼠标滚轮进行缩放！所有设置都可以在 ModSettings 中进行调整。<br>请不要将其与 AbsoluteCinema mod 一起使用",
+    "Description": "按 Z 放大画面，再使用鼠标滚轮调整缩放程度！所有选项也可在 ModSettings 中调整。<br>请勿与 AbsoluteCinema 模组同时使用。",
     "Aliases": [
       "Just Zoom"
     ],
@@ -7527,7 +7527,7 @@
     "Released": "2026-10-14",
     "Updated": "2026-10-14",
     "Images": [
-      "https://github.com/WillWunderhorn/JustZoom/blob/master/JustZoomPreview.webp?raw=true"
+      "/thelongdark/assets/img/mods/bdd0a4c940ee2805957ca597.webp?v=172a2bc4edb3"
     ],
     "Status": {
       "working": true,
@@ -7541,14 +7541,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "煤油灯微调",
+    "DisplayName": "煤油灯调整",
     "Name": "KeroseneLampTweaks",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "修改煤油灯的燃料消耗率，增加其衰减，并改变其发出的光的颜色。",
+    "Description": "调整煤油灯的燃料消耗速度，为灯具加入损耗，并更改其发出的光线颜色。",
     "Aliases": [
       "Kerosene Lamp Tweaks"
     ],
@@ -7597,14 +7597,14 @@
     ]
   },
   {
-    "DisplayName": "键盘实用程序",
+    "DisplayName": "键盘输入工具",
     "Name": "KeyboardUtilities",
     "Type": "mod",
     "Author": "ds5678",
     "DisplayAuthor": [
       "ds5678"
     ],
-    "Description": "一个实用模组，使其他模组能够更轻松地使用键盘和鼠标输入。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "实用工具模组，帮助其他模组更方便地处理键盘和鼠标输入。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
     "Aliases": [
       "Keyboard Utilities"
     ],
@@ -7644,14 +7644,14 @@
     ]
   },
   {
-    "DisplayName": "皮革制品",
+    "DisplayName": "皮革工艺",
     "Name": "Leatherworks",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "增加了从兽皮中再生皮革的方法，能够制作某些皮革服装，并增加了树皮，可以用来制作面粉、食物和绳子等物品。",
+    "Description": "新增从兽皮再生皮革的方法，并允许制作部分皮革服装；还加入可用于制作面粉、食物和绳索等物品的树皮。",
     "Aliases": [
       "Leatherworks",
       "v1.3"
@@ -7689,7 +7689,7 @@
     "Released": "2023-11-28",
     "Updated": "2026-09-05",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_Leatherworks.jpg"
+      "/thelongdark/assets/img/mods/1104f9f406d779d9af40e047.jpg?v=2103d8705490"
     ],
     "Status": {
       "working": true,
@@ -7705,7 +7705,7 @@
     ]
   },
   {
-    "DisplayName": "利萨岭",
+    "DisplayName": "Lithar 山脊",
     "Name": "LitharsRidge",
     "Type": "mod",
     "Author": "MooseMeat",
@@ -7713,7 +7713,7 @@
       "MooseMeat",
       "Marcy"
     ],
-    "Description": "在布莱克湾，有一处隐蔽的山脊，上面有一间舒适的小屋、风景优美的观景点，还有一条小径等待探险者去发现。",
+    "Description": "黯淡海湾中一处隐秘的山脊，那里有舒适的小屋、风景优美的观景点，以及等待探索者发现的小径。",
     "Aliases": [
       "Lithar's Ridge"
     ],
@@ -7744,7 +7744,7 @@
     "Released": "2025-09-22",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_LitharsRidge.jpg"
+      "/thelongdark/assets/img/mods/55c941eb68b28a51fd683b0a.jpg?v=e30fbeaaa22f"
     ],
     "Status": {
       "working": true,
@@ -7758,14 +7758,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "利萨斯修复",
+    "DisplayName": "修补破损衣物",
     "Name": "LitharsMending",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "可以修复破损的衣物",
+    "Description": "允许修补已经损坏至无法使用的衣物。",
     "Aliases": [
       "LitharsMending"
     ],
@@ -7793,7 +7793,7 @@
     "Released": "2024-10-24",
     "Updated": "2024-10-25",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_litharsmending.jpg"
+      "/thelongdark/assets/img/mods/92ee1ff0600532f81a748678.jpg?v=e89868d973e6"
     ],
     "Status": {
       "working": false,
@@ -7817,7 +7817,7 @@
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "**现已成为 ModComponent 7.0.0 的一部分<br />用于本地化文本的实用模组。",
+    "Description": "** 此功能现已并入 ModComponent 7.0.0。<br />用于处理本地化文本的实用工具。",
     "Aliases": [
       "Localization Utilities"
     ],
@@ -7842,7 +7842,7 @@
     "Released": "",
     "Updated": "2025-01-21",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/partofmc.png?raw=true"
+      "/thelongdark/assets/img/mods/7e8f82b89eea6afd5d26fcf2.png?v=51ec5bb405b4"
     ],
     "Status": {
       "working": true,
@@ -7859,14 +7859,14 @@
     ]
   },
   {
-    "DisplayName": "孤独虎鲸",
+    "DisplayName": "孤独的虎鲸",
     "Name": "LonelyOrca",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "一款移植到DLC发布后的《漫漫长夜》的经典MOD。一只孤独的虎鲸生活在荒芜角。",
+    "Description": "将一款经典模组移植到 DLC 之后的《漫漫长夜》。一头孤独的虎鲸栖息在荒凉据点。",
     "Aliases": [
       "LonelyOrca"
     ],
@@ -7893,7 +7893,7 @@
     "Released": "2023-04-10",
     "Updated": "2023-04-10",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_lonelyorca.jpg"
+      "/thelongdark/assets/img/mods/8c78069fbb587ba25b605f09.jpg?v=b3789d1457c8"
     ],
     "Status": {
       "working": true,
@@ -7910,14 +7910,14 @@
     ]
   },
   {
-    "DisplayName": "长拉戈",
+    "DisplayName": "悠长的慢板",
     "Name": "LongLargo",
     "Type": "mod",
     "Author": "Danileros",
     "DisplayAuthor": [
       "Danileros"
     ],
-    "Description": "<p>Long Largo 是一款旨在通过改善音乐来提升游戏体验的模组。</p><p> Long Largo 恢复了故事战役中的音乐，并将其融入到你的游戏过程中。</p><p> ……你甚至可以关闭狼群追踪的声音！</p>",
+    "Description": "<p>Long Largo 只有一个目标：通过改进音乐来提升游戏体验。</p><p>它恢复了剧情战役中的音乐，并将这些曲目融入你的生存旅程。</p><p>此外，你甚至可以关闭狼群跟踪时的音效！</p>",
     "Aliases": [
       "Long Largo",
       "LongLargo1.1.4"
@@ -7949,7 +7949,7 @@
     "Released": "2026-07-25",
     "Updated": "2026-09-03",
     "Images": [
-      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_LongLargo.jpg"
+      "/thelongdark/assets/img/mods/715a6294640278c551acdea7.jpg?v=9fbab8013edc"
     ],
     "Status": {
       "working": true,
@@ -7965,14 +7965,14 @@
     ]
   },
   {
-    "DisplayName": "保持自身健康",
+    "DisplayName": "状态恢复自定义",
     "Name": "MaintainYourself",
     "Type": "mod",
     "Author": "Deus",
     "DisplayAuthor": [
       "Deus"
     ],
-    "Description": "这增加了自定义状态恢复的选项。通过调整恢复速度，您可以根据自身需求来调整状态恢复的难易程度。",
+    "Description": "提供自定义状态恢复幅度的选项。可以让状态恢复变得更难或更容易，并根据角色需求按比例恢复。",
     "Aliases": [
       "Maintain Yourself"
     ],
@@ -8022,7 +8022,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "新增 20 种主要负面状态和 1 种增益状态。",
+    "Description": "新增 20 种重大疾病和 1 种增益效果。",
     "Aliases": [
       "MajorMiseries"
     ],
@@ -8073,7 +8073,7 @@
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "在玩家位置显示玩家箭头中心 显示地图 勘测地图选项： - 修改勘测范围 - 修改勘测时间 - 自动使用宝丽来相机（即使您没有） 自动在地图上添加尸体",
+    "Description": "显示玩家箭头、将地图中心定位到玩家、揭示地图。<br><br>地图勘测选项：<br>- 调整勘测范围<br>- 调整勘测所需时间<br>- 自动使用宝丽来照片（即使没有携带）<br><br>自动将尸体标记到地图上。",
     "Aliases": [
       "Map Manager"
     ],
@@ -8128,7 +8128,7 @@
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "修复了采集后地图上植物采集图标不会消失的问题。",
+    "Description": "修复采集植物后，地图上的植物采集图标仍不消失的问题。",
     "Aliases": [
       "MapIconFix"
     ],
@@ -8168,14 +8168,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "工具箱",
+    "DisplayName": "Meh 模组工具箱",
     "Name": "MehToolBox",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "供模组制作者在模组中使用工具箱。",
+    "Description": "供模组作者在其模组中使用的工具箱。",
     "Aliases": [
       "Meh Tool Box"
     ],
@@ -8216,14 +8216,14 @@
     ]
   },
   {
-    "DisplayName": "关爱邻里",
+    "DisplayName": "静思小屋周边扩建",
     "Name": "MindfulNeighborhood",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "此模组在静心小屋区域新增了保安小屋、钓鱼小屋、储物棚和猎人隐蔽处。它还将静心小屋内的炉灶替换成了壁炉。最后，它将小屋从贾斯蒂的棚屋移到了静心小屋区域。",
+    "Description": "在静思小屋区域新增警卫小屋、钓鱼小屋、储物棚和猎人瞭望点；将静思小屋里的腹式炉替换为壁炉；并将小屋从 Justy 的棚屋迁至静思小屋区域。",
     "Aliases": [
       "Mindful Neighborhood"
     ],
@@ -8254,7 +8254,7 @@
     "Released": "2026-07-05",
     "Updated": "2026-07-08",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/MindfulNeighborhood.png"
+      "/thelongdark/assets/img/mods/b53cf3140fc0096ba549742a.png?v=4828a24a0689"
     ],
     "Status": {
       "working": true,
@@ -8268,7 +8268,7 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "小苦难系列",
+    "DisplayName": "轻微苦难",
     "Name": "MinorMiseries",
     "Type": "mod",
     "Author": "EtherSystem",
@@ -8276,7 +8276,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "新增 14 种轻微负面状态和 3 种增益状态。",
+    "Description": "新增 14 种轻微疾病和 3 种增益效果。",
     "Aliases": [
       "MinorMiseries",
       "Minor_Miseries"
@@ -8309,7 +8309,7 @@
     "Released": "2026-01-27",
     "Updated": "2026-09-16",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/MinorMiseries.jpg"
+      "/thelongdark/assets/img/mods/1c900132bbb8071cde157778.jpg?v=899c3c91cb49"
     ],
     "Status": {
       "working": true,
@@ -8323,14 +8323,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "痛苦模式加强版",
+    "DisplayName": "苦难模式增强",
     "Name": "MiseryModePlus",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "这款适用于《漫漫长夜》的模组，在苦难模式下增加了更多怪物刷新点，并添加了自定义设置，允许在自定义游戏中启用苦难效果。原名：额外苦难刷新点和自定义游戏中的苦难效果。",
+    "Description": "为《漫漫长夜》新增苦难模式出生地点，并加入自定义模式选项，可在自定义游戏中启用苦难模式疾病。曾用名：额外苦难出生点、在自定义游戏中启用苦难效果。",
     "Aliases": [
       "Misery Mode Plus"
     ],
@@ -8360,7 +8360,7 @@
     "Released": "2026-03-10",
     "Updated": "2026-03-10",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_MiseryModePlus.jpg"
+      "/thelongdark/assets/img/mods/50728f74514857d9c6a3b24a.jpg?v=040085d258b7"
     ],
     "Status": {
       "working": true,
@@ -8374,14 +8374,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "数据",
+    "DisplayName": "模组数据存储",
     "Name": "ModData",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "TLD 的一个实用模组，允许其他模组独立于存档文件保存数据。",
+    "Description": "实用工具模组，让其他模组能够独立于存档保存数据。",
     "Aliases": [
       "Mod Data"
     ],
@@ -8408,7 +8408,7 @@
     "Released": "2023-03-16",
     "Updated": "2026-01-02",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/moddata.png?raw=true"
+      "/thelongdark/assets/img/mods/983e608fdb671aecd933ba5b.png?v=81b1ba28e1d1"
     ],
     "Status": {
       "working": true,
@@ -8424,14 +8424,14 @@
     ]
   },
   {
-    "DisplayName": "模块组件",
+    "DisplayName": "模组组件",
     "Name": "ModComponent",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "现在内置了 GearSpawner、CraftingRevisions 和 LocalizationUtilities。实用模组；允许您加载外部物品包。",
+    "Description": "现已内置 GearSpawner、CraftingRevisions 和 LocalizationUtilities。<br><br>实用工具模组，可加载外部物品包。",
     "Aliases": [
       "AssetLoader",
       "ModComponentMapper",
@@ -8466,7 +8466,7 @@
     "Released": "",
     "Updated": "2026-01-02",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/modcomponent.png?raw=true"
+      "/thelongdark/assets/img/mods/c9e5ece77d63d516aef066b8.png?v=060b0c8152a6"
     ],
     "Status": {
       "working": true,
@@ -8489,7 +8489,7 @@
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "允许其他模组在游戏内显示其设置。此模组本身不具备任何功能，仅应作为其他模组的依赖项使用。感谢 zeobviouslyfakeacc 的辛勤付出！",
+    "Description": "允许其他模组在游戏中显示设置。本模组本身不提供功能，仅作为其他模组的依赖项使用。<br><br>感谢 zeobviouslyfakeacc 的所有工作！",
     "Aliases": [
       "ModSettings"
     ],
@@ -8516,7 +8516,7 @@
     "Released": "2023-06-22",
     "Updated": "2026-04-02",
     "Images": [
-      "https://raw.githubusercontent.com/DigitalzombieTLD/ModListJson/master/list_icon_modsettings.jpg"
+      "/thelongdark/assets/img/mods/97aeda36e0a3372775bd180f.jpg?v=a288d8b1cb13"
     ],
     "Status": {
       "working": true,
@@ -8532,14 +8532,14 @@
     ]
   },
   {
-    "DisplayName": "Modders&#39; Gear Toolbox",
+    "DisplayName": "模组作者装备工具箱",
     "Name": "ModdersGearToolbox",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "此模组旨在通过添加“通用”材料和工具来帮助其他模组制作者，供他们在自己的模组中使用。完整物品列表请参见GitHub仓库。",
+    "Description": "为其他模组作者提供可在模组中使用的通用材料和工具。完整物品列表请查看 GitHub 仓库。",
     "Aliases": [
       "Modders' Gear Toolbox"
     ],
@@ -8588,14 +8588,14 @@
     ]
   },
   {
-    "DisplayName": "片刻",
+    "DisplayName": "Moment",
     "Name": "Moment",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "用于监控游戏内时间和安排事件的模组工具。",
+    "Description": "模组开发工具，供模组监测游戏内时间并安排事件。",
     "Aliases": [
       "Moment"
     ],
@@ -8638,14 +8638,14 @@
     ]
   },
   {
-    "DisplayName": "MooseSatchelMod",
+    "DisplayName": "驼鹿背包减轻气味与腐坏",
     "Name": "MooseSatchelMod",
     "Type": "mod",
     "Author": "ttr",
     "DisplayAuthor": [
       "ttr"
     ],
-    "Description": "佩戴驼鹿袋可减少肉类、鱼类、内脏和馅饼的气味和腐烂。",
+    "Description": "穿戴驼鹿背包时，肉类、鱼、肠子和派的气味与腐坏速度会降低。",
     "Aliases": [
       "MooseSatchelMod"
     ],
@@ -8689,14 +8689,14 @@
     ]
   },
   {
-    "DisplayName": "更多配件槽位",
+    "DisplayName": "额外配饰栏位",
     "Name": "MoreAccessorySlots",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "最多可提供 2 个额外的配件槽。最右侧的配件槽位于最外层，因此会承受战斗中的伤害。",
+    "Description": "最多增加 2 个配饰栏位。最右侧栏位被视为最外层，因此在挣扎时由该栏位的配饰承受伤害。",
     "Aliases": [
       "More Accessory Slots"
     ],
@@ -8726,7 +8726,7 @@
     "Released": "2026-08-31",
     "Updated": "2026-09-04",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/MoreAccessorySlots/MoreAccessorySlots.jpg"
+      "/thelongdark/assets/img/mods/527a64d4c640d932cad9a785.jpg?v=15c9767462d0"
     ],
     "Status": {
       "working": true,
@@ -8742,14 +8742,14 @@
     ]
   },
   {
-    "DisplayName": "更多摄像机刷新点",
+    "DisplayName": "即时相机刷新点扩展",
     "Name": "MoreCameraSpawns",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一款游戏玩法模组，为大熊湖下游附近的即时相机添加了新的生成点。",
+    "Description": "在大熊岛南部新增即时相机的刷新地点。",
     "Aliases": [
       "More Camera Spawns"
     ],
@@ -8793,14 +8793,14 @@
     ]
   },
   {
-    "DisplayName": "更多烹饪栏目",
+    "DisplayName": "更多烹饪位置",
     "Name": "MoreCookingSlots",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "有没有想过为什么火桶上只能放两个锅？现在你可以了！这个模组为某些火源增加了烹饪槽位。",
+    "Description": "还在疑惑为什么火桶上最多只能放两个锅吗？这个模组为特定火源增加了更多烹饪位置。",
     "Aliases": [
       "More Cooking Slots"
     ],
@@ -8831,7 +8831,7 @@
     "Released": "2025-08-31",
     "Updated": "2025-08-31",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_MCS.jpg"
+      "/thelongdark/assets/img/mods/c8b92fe417eb428ab016ed01.jpg?v=b927f533126b"
     ],
     "Status": {
       "working": true,
@@ -8847,14 +8847,14 @@
     ]
   },
   {
-    "DisplayName": "更多锁着的门",
+    "DisplayName": "更多上锁的门",
     "Name": "MoreLockedDoors",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "为游戏世界中的门和建筑物增加更多锁。",
+    "Description": "在游戏世界中的更多门和建筑上增加锁具。",
     "Aliases": [
       "",
       "MoreLockedDoors",
@@ -8900,14 +8900,14 @@
     ]
   },
   {
-    "DisplayName": "更多燃料加速剂",
+    "DisplayName": "更多燃料与助燃剂",
     "Name": "MoreFuelAccelerant",
     "Type": "mod",
     "Author": "hzb1130",
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "以引火物、木炭和油脂为燃料。助燃剂消耗较慢。",
+    "Description": "允许将引火物、木炭和动物脂肪用作燃料，并减慢助燃剂的消耗速度。",
     "Aliases": [
       "MoreFuelAccelerant",
       "More_Fuels_Accelerants"
@@ -8949,14 +8949,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "莫尔伍德",
+    "DisplayName": "更多木材种类",
     "Name": "MoreWood",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "此模组新增了两种木材。桦木——类似于雪松，生成于桦树林中。橡木——类似于冷杉，可在橡树周围找到，也会随机生成于森林中。",
+    "Description": "新增两种木材：桦木，类似雪松木，刷新于桦树林；橡木，类似冷杉木，可在橡树附近找到，也会随机刷新在森林中。",
     "Aliases": [
       "MoreWood",
       "v2.3"
@@ -8990,7 +8990,7 @@
     "Released": "2024-10-04",
     "Updated": "2026-01-04",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_MoreWood.jpg"
+      "/thelongdark/assets/img/mods/a4c0748372df0e08867650dc.jpg?v=5b6aa7bbe433"
     ],
     "Status": {
       "working": true,
@@ -9006,14 +9006,14 @@
     ]
   },
   {
-    "DisplayName": "运动追踪器",
+    "DisplayName": "动态追踪地图",
     "Name": "MotionTracker",
     "Type": "mod",
     "Author": "okclm",
     "DisplayAuthor": [
       "okclm"
     ],
-    "Description": "添加一个小地图，可以显示动物、喷漆标记和选定的装备。",
+    "Description": "新增小地图，可显示动物、喷漆标记和选定的装备。",
     "Aliases": [
       "MotionTracker"
     ],
@@ -9044,7 +9044,7 @@
     "Released": "2023-04-16",
     "Updated": "2026-09-12",
     "Images": [
-      "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/list_icon_motiontracker.png"
+      "/thelongdark/assets/img/mods/24c05296b70ae1cde0c1890a.png?v=403643b1cc52"
     ],
     "Status": {
       "working": true,
@@ -9061,14 +9061,14 @@
     ]
   },
   {
-    "DisplayName": "群鸟",
+    "DisplayName": "椋鸟群飞",
     "Name": "Murmurations",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "一个旨在为游戏添加群鸟飞行的实验性模组",
+    "Description": "一款实验性模组，尝试在游戏中加入鸟群盘旋飞舞的景象。",
     "Aliases": [
       "Murmurations"
     ],
@@ -9107,14 +9107,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "肌肉",
+    "DisplayName": "肌肉锻炼",
     "Name": "Muscle",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "吃得好，多运动，睡得好，你就能长肌肉。",
+    "Description": "饮食充足、经常活动并保证良好睡眠，就能增长肌肉。",
     "Aliases": [
       "Muscle"
     ],
@@ -9159,14 +9159,14 @@
     ]
   },
   {
-    "DisplayName": "没有凯恩斯",
+    "DisplayName": "移除石堆标记",
     "Name": "NoCairns",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "一个可以禁用所有石堆的模组。",
+    "Description": "可禁用游戏中的所有石堆标记。",
     "Aliases": [
       "No Cairns"
     ],
@@ -9195,7 +9195,7 @@
     "Released": "2026-05-29",
     "Updated": "2026-05-29",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/NoCairns.png"
+      "/thelongdark/assets/img/mods/c659f4df3ed983a6eff92aa3.png?v=fb0f885bdb48"
     ],
     "Status": {
       "working": true,
@@ -9209,14 +9209,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "无收割动画",
+    "DisplayName": "移除收获动画",
     "Name": "NoHarvestAnimations",
     "Type": "mod",
     "Author": "Lycanthor",
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "禁用第一人称视角下的猎物采集和分割动画，改用游戏自带的进度条。可选择实时加快采集和分割速度，但游戏内耗时不变。",
+    "Description": "禁用第一人称下剥取和分割尸体的动画，改用游戏原有的进度圆环。还可选择加快现实时间中的处理速度，但消耗的游戏内时间保持不变。",
     "Aliases": [
       "No Harvest Animations"
     ],
@@ -9245,9 +9245,9 @@
     "Released": "2026-06-27",
     "Updated": "2026-07-31",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Release.png",
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Usage.png",
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/NoHarvestAnimations_Settings.png"
+      "/thelongdark/assets/img/mods/2e63ffdab331c3c016220a49.png?v=601d64c65dfe",
+      "/thelongdark/assets/img/mods/d1b2068aab05713cd8f8db54.png?v=53886d6cea63",
+      "/thelongdark/assets/img/mods/828fdb256f83249b6727b29d.png?v=1b722f768454"
     ],
     "Status": {
       "working": true,
@@ -9261,14 +9261,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "无摄像机摇摆",
+    "DisplayName": "关闭镜头晃动",
     "Name": "NoCameraSway",
     "Type": "mod",
     "Author": "LittleWolfStorm",
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "摄像机将停止晃动",
+    "Description": "停止镜头摇晃。",
     "Aliases": [
       "NoCameraSway"
     ],
@@ -9311,14 +9311,14 @@
     ]
   },
   {
-    "DisplayName": "不再受困",
+    "DisplayName": "不再患上幽闭症",
     "Name": "NoMoreCabinFever",
     "Type": "mod",
     "Author": "LittleWolfStorm",
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "消除幽闭恐惧症",
+    "Description": "",
     "Aliases": [
       "NoMoreCabinFever"
     ],
@@ -9361,14 +9361,14 @@
     ]
   },
   {
-    "DisplayName": "非致命性信号弹",
+    "DisplayName": "非致命信号弹",
     "Name": "NonLethalFlares",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "禁用信号枪造成的伤害和流血效果。可选择启用或禁用信号枪子弹粘附在野生动物身上的效果。",
+    "Description": "关闭信号枪对动物造成的伤害和流血效果。还可选择是否让信号枪弹丸附着在野生动物身上。",
     "Aliases": [
       "Nonlethal Flares"
     ],
@@ -9397,7 +9397,7 @@
     "Released": "2026-3-13",
     "Updated": "2026-3-13",
     "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/main/unamused.PNG"
+      "/thelongdark/assets/img/mods/08c3731c4466a748e0f55821.png?v=7e4d55a4fc3f"
     ],
     "Status": {
       "working": true,
@@ -9413,14 +9413,14 @@
     ]
   },
   {
-    "DisplayName": "北极光广播",
+    "DisplayName": "极光影视播放",
     "Name": "NorthernLightsBroadcast",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "在 TLD 上观看您最喜爱的电影和剧集",
+    "Description": "在《漫漫长夜》中观看你喜爱的电影和电视剧。",
     "Aliases": [
       "NorthernLightsBroadcast",
       "NorthernLightsBroadcast_v2.0.6"
@@ -9454,7 +9454,7 @@
     "Released": "2023-05-16",
     "Updated": "2024-10-17",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_northernlightsbroadcast.jpg"
+      "/thelongdark/assets/img/mods/6f95f050fc54cb72210834f3.jpg?v=860fa0534bc7"
     ],
     "Status": {
       "working": true,
@@ -9471,14 +9471,14 @@
     ]
   },
   {
-    "DisplayName": "诺斯福克服装包",
+    "DisplayName": "北方民俗服装包",
     "Name": "NorthfolkClothingPack",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "新增 2 件之前出现过的服装 + 3 件全新、灵感源自北方民间的可制作服装。<br><br>这是一个标准的 ModComponent 包，安装方法是将其拖放到 .../Mods/ 目录下。",
+    "Description": "新增 2 件曾经出现过的服装，以及 3 件受北方民俗启发的全新可制作服装。<br><br>这是标准的 ModComponent 物品包，将文件放入 .../Mods/ 目录即可安装。",
     "Aliases": [
       "Northfolk Clothing Pack"
     ],
@@ -9507,7 +9507,7 @@
     "Released": "2021-10-26",
     "Updated": "2025-07-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Clothing.webp"
+      "/thelongdark/assets/img/mods/c80fae168b6a5d904e7f9572.webp?v=5a7c10a00c57"
     ],
     "Status": {
       "working": true,
@@ -9523,14 +9523,14 @@
     ]
   },
   {
-    "DisplayName": "不是狼队！",
+    "DisplayName": "别再是狼了！",
     "Name": "NotTheWolves",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "使狼群无敌，并阻止游戏中生成狼的尸体。",
+    "Description": "让狼变为无敌，并阻止游戏中生成狼尸体。",
     "Aliases": [
       "Not The Wolves!"
     ],
@@ -9571,14 +9571,14 @@
     ]
   },
   {
-    "DisplayName": "不那么傻",
+    "DisplayName": "真实物品物理效果",
     "Name": "NotSoSillyMod",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "启用放置于地面的齿轮的物理效果，持续 10 秒，这样你就可以自然地丢弃物品，或者利用重力堆积物品。旨在使其在生存模式中实用。但仍存在一定风险，请查看自述文件以了解正确使用方法。",
+    "Description": "让放置的装备在 10 秒内启用物理效果，以便自然地丢放物品，或利用重力将物品堆叠起来。设计目标是在生存模式中实用易用，但仍有一定风险，请先阅读说明文件了解正确用法。",
     "Aliases": [
       "NotSoSilly"
     ],
@@ -9622,14 +9622,14 @@
     ]
   },
   {
-    "DisplayName": "对象接收器修复",
+    "DisplayName": "物品下沉修复",
     "Name": "ObjectSinkFix",
     "Type": "mod",
     "Author": "Lycanthor",
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "修复家具下沉到地板或地面，以及返回该地点时容器消失的问题。在现有存档中，将下沉的家具放回原位，并将丢失的容器找回。自动运行。",
+    "Description": "修复家具陷入地板或地面，以及返回地点时容器消失的问题。可在现有存档中自动复位下沉的家具并找回丢失的容器。",
     "Aliases": [
       "Object Sink Fix"
     ],
@@ -9656,7 +9656,7 @@
     "Released": "2026-10-11",
     "Updated": "2026-10-11",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLD-ObjectSinkFix/master/Release.jpg"
+      "/thelongdark/assets/img/mods/5d3aa2a3599632d693f82c67.jpg?v=1e4f6dc33ece"
     ],
     "Status": {
       "working": true,
@@ -9670,14 +9670,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "老式收割",
+    "DisplayName": "经典收获方式",
     "Name": "OldSchoolHarvesting",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "为了致敬过去，在收割动物尸体时，会静音、移除动画并调暗灯光，同时显示进度条。",
+    "Description": "向旧日体验致敬：使用进度条处理尸体时，关闭音效、移除动画并调暗光线。",
     "Aliases": [
       "Old School Harvesting"
     ],
@@ -9718,7 +9718,7 @@
     ]
   },
   {
-    "DisplayName": "氧气水平",
+    "DisplayName": "氧气含量",
     "Name": "OxygenLevels",
     "Type": "mod",
     "Author": "EtherSystem",
@@ -9726,7 +9726,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "添加一个根据玩家海拔高度模拟缺氧的系统。",
+    "Description": "根据玩家所处海拔模拟缺氧状况。",
     "Aliases": [
       "OxygenLevels"
     ],
@@ -9758,7 +9758,7 @@
     "Released": "2026-01-07",
     "Updated": "2026-05-19",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/OxygenLevels.png"
+      "/thelongdark/assets/img/mods/85dcd2ae788fb9cf462d8352.png?v=6f54c4b6d3b1"
     ],
     "Status": {
       "working": true,
@@ -9772,14 +9772,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "PZ加载屏幕",
+    "DisplayName": "PZ 风格加载画面",
     "Name": "PZLoadingScreen",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "只是一个类似 PZ 的自定义加载界面模组",
+    "Description": "一款自定义加载画面模组，采用类似 PZ 的风格。",
     "Aliases": [
       "PZLoadingScreen"
     ],
@@ -9806,7 +9806,7 @@
     "Released": "2026-04-23",
     "Updated": "2026-04-23",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/PZLoadingScreen.PNG"
+      "/thelongdark/assets/img/mods/4a6b49287b898d0ae7679bbc.png?v=bddda920883b"
     ],
     "Status": {
       "working": true,
@@ -9820,14 +9820,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "疼痛成分",
+    "DisplayName": "疼痛组件",
     "Name": "PainComponent",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "一个依赖模组，它将 Improved Afflictions 中的疼痛和止痛药系统扩展到其他自定义的痛苦实现中。",
+    "Description": "依赖模组，可将 Improved Afflictions 中的疼痛与止痛药系统扩展到其他自定义疾病效果。",
     "Aliases": [
       "Pain Component",
       "latest"
@@ -9880,7 +9880,7 @@
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "添加了一本可读、可自定义的书籍，带有动画等效果。<br><br><a href='https://youtu.be/MIUvKW89SgI' target='_blank'>展示视频</a>。<a href='https://www.youtube.com/watch?v=q_k4YNhaY5A' target='_blank'>详细评测（带字幕）</a> 。<br><br>安装 Mod 的方法是将 .zip 文件解压到 .../Mods/ 目录。",
+    "Description": "新增一本可阅读、可自定义的书籍，并带有动画等效果。<br><br><a href='https://youtu.be/MIUvKW89SgI' target='_blank'>功能展示视频</a>。<a href='https://www.youtube.com/watch?v=q_k4YNhaY5A' target='_blank'>详细评测（含字幕）</a>。<br><br>解压 .zip 文件到 .../Mods/ 目录即可安装。",
     "Aliases": [
       "Pastime Reading"
     ],
@@ -9910,7 +9910,7 @@
     "Released": "2021-08-30",
     "Updated": "2026-01-06",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/PastimeReading.webp"
+      "/thelongdark/assets/img/mods/0198024bbf859dc6b8b792f6.webp?v=40af14a32100"
     ],
     "Status": {
       "working": true,
@@ -9926,14 +9926,14 @@
     ]
   },
   {
-    "DisplayName": "探路者之巅",
+    "DisplayName": "探路者的攀登",
     "Name": "PathfindersAscent",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "这是 Timberwolf Mountain、Blackrock 和 Ash Canyon 的另一种版本，旨在为经验丰富的幸存者提供全新的、具有挑战性的体验。",
+    "Description": "对伐木场山、黑岩和灰烬峡谷进行改造，为资深幸存者带来焕然一新、更具挑战性的体验。",
     "Aliases": [
       "Pathfinders Ascent"
     ],
@@ -9964,7 +9964,7 @@
     "Released": "2025-06-18",
     "Updated": "2026-01-30",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_PathfindersAscent.jpg"
+      "/thelongdark/assets/img/mods/430821833f2bbbd74ab89811.jpg?v=0181288d384c"
     ],
     "Status": {
       "working": true,
@@ -9978,14 +9978,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "暂停日记",
+    "DisplayName": "日志界面暂停游戏",
     "Name": "PauseInJournal",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "游戏将在日志的任何类别中暂停。",
+    "Description": "打开日志中的任意分类时暂停游戏。",
     "Aliases": [
       "Pause In Journal"
     ],
@@ -10029,14 +10029,14 @@
     ]
   },
   {
-    "DisplayName": "肉干腐烂速度较慢",
+    "DisplayName": "肉干棒减缓腐坏",
     "Name": "PemmicanSlowerDecay",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "一个简单的mod，修改了熟制肉干，降低了它的腐烂速度，使其与腌肉的腐烂速度相匹配。",
+    "Description": "调整熟制肉干棒，降低其腐坏速度，使之与风干肉的腐坏速度一致。",
     "Aliases": [
       "Pemmican Slower Decay"
     ],
@@ -10064,8 +10064,8 @@
     "Released": "2026-01-22",
     "Updated": "2026-09-18",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/PemmicanThumbnail1.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/PemmicanSlowerDecay/osszehasonlitas.jpg"
+      "/thelongdark/assets/img/mods/3af98c80eb573616b69db94e.jpg?v=43e8d49b27cc",
+      "/thelongdark/assets/img/mods/3f961c1a66b216811485703e.jpg?v=0f6b42728c19"
     ],
     "Status": {
       "working": true,
@@ -10081,14 +10081,14 @@
     ]
   },
   {
-    "DisplayName": "性格",
+    "DisplayName": "角色外观自定义",
     "Name": "Personality",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "可以自定义角色：替换纹理和更换服装。<br><br>将其解压到 .../Mods/ 目录进行安装。",
+    "Description": "自定义角色外观：替换贴图并更换服装。<br><br>解压到 .../Mods/ 目录即可安装。",
     "Aliases": [
       "Personality"
     ],
@@ -10118,7 +10118,7 @@
     "Released": "2022-11-25",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Personality2.webp"
+      "/thelongdark/assets/img/mods/14c22da10ebc655e402e88b1.webp?v=ee5a50229bfd"
     ],
     "Status": {
       "working": true,
@@ -10134,14 +10134,14 @@
     ]
   },
   {
-    "DisplayName": "亲人的照片",
+    "DisplayName": "挚爱之人的照片",
     "Name": "PhotoofaLovedOne",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "这个模组允许你携带一张你关心的事物的自定义图片。",
+    "Description": "允许随身携带一张可自定义的照片，纪念你所珍视的人或事物。",
     "Aliases": [
       "Photo of a Loved One"
     ],
@@ -10170,7 +10170,7 @@
     "Released": "2026-03-17",
     "Updated": "2026-03-17",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/photomod.png"
+      "/thelongdark/assets/img/mods/22d34007fabc27cc6eba78a8.png?v=8e056831e7e4"
     ],
     "Status": {
       "working": true,
@@ -10187,14 +10187,14 @@
     ]
   },
   {
-    "DisplayName": "从钓鱼点取水",
+    "DisplayName": "从冰钓洞取水",
     "Name": "PickWaterFromFishingHoles",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "从淡水钓鱼点收集无限量的非饮用水。",
+    "Description": "可以从淡水冰钓洞中收集不限量的未煮沸水。",
     "Aliases": [
       "Pick Water From Fishing Holes"
     ],
@@ -10248,7 +10248,7 @@
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "采摘松针，泡成富含维生素C的茶。所有食材均可根据个人喜好定制。",
+    "Description": "采集松针簇并将其煮成富含维生素 C 的茶。所有内容均可自定义。",
     "Aliases": [
       "Pine Needle Tea",
       "PineNeedleTea"
@@ -10282,7 +10282,7 @@
     "Released": "2024-07-06",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/Thumb_PNT.jpg"
+      "/thelongdark/assets/img/mods/7d0c43f5843b4f3a1dcc3b72.jpg?v=0fd10e7e9c80"
     ],
     "Status": {
       "working": true,
@@ -10298,14 +10298,14 @@
     ]
   },
   {
-    "DisplayName": "放置于任何位置",
+    "DisplayName": "自由放置物品",
     "Name": "PlacingAnywhere",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "《漫漫长夜》的模组，移除了放置物品时的限制，并添加了旋转和定位物体的控制功能。",
+    "Description": "移除放置物品时的限制，并提供旋转和调整物品位置的操作。",
     "Aliases": [
       "Placing Anywhere"
     ],
@@ -10357,7 +10357,7 @@
     "DisplayAuthor": [
       "hzb1130"
     ],
-    "Description": "A variant of Placing Anywhere that adds some functionality. 几何学放置（中文版在GitHub）。",
+    "Description": "自由放置模组的一个变体，并增加了一些功能。<br>中文版可在 GitHub 获取。",
     "Aliases": [
       "PlacingGeometrically"
     ],
@@ -10387,7 +10387,7 @@
     "Released": "2026-05-29",
     "Updated": "2026-06-27",
     "Images": [
-      "https://raw.githubusercontent.com/hzb1130/PlacingGeometrically/main/1.png"
+      "/thelongdark/assets/img/mods/b170aeefaf6c329a610462a1.png?v=fe1eaf329d83"
     ],
     "Status": {
       "working": true,
@@ -10401,14 +10401,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "植物收获调整器",
+    "DisplayName": "植物采集调整",
     "Name": "PlantHarvestTweaker",
     "Type": "mod",
     "Author": "Marcy",
     "DisplayAuthor": [
       "Marcy"
     ],
-    "Description": "植物收割的方方面面均可自定义：时间、所需工具、工具损耗、产量。",
+    "Description": "自定义植物采集的各项内容：所需时间、工具要求、工具损耗和产出数量。",
     "Aliases": [
       "Plant Harvest Tweaker"
     ],
@@ -10438,7 +10438,7 @@
     "Released": "2025-03-28",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/refs/heads/main/THUMB_PHT.jpg"
+      "/thelongdark/assets/img/mods/72e561ed09f68b4d83a6f907.jpg?v=df3c775d6d0e"
     ],
     "Status": {
       "working": true,
@@ -10454,14 +10454,14 @@
     ]
   },
   {
-    "DisplayName": "捕食者生成选择器",
+    "DisplayName": "掠食者刷新设置",
     "Name": "PredatorSpawnSelector",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "按区域启用或禁用掠食者生成，并选择每个区域出现的狼或熊的种类。***此模组替换了“移除美洲狮”和“任意位置的灰狼”两个模组***",
+    "Description": "按区域启用或禁用掠食者刷新，并为每个区域选择狼或熊的种类。<br><br>此模组取代 Remove Cougars 和 Timberwolves Anywhere。",
     "Aliases": [
       "Predator Spawn Selector"
     ],
@@ -10490,7 +10490,7 @@
     "Released": "2025-08-03",
     "Updated": "2026-08-15",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_PredatorSpawnSelector.jpg"
+      "/thelongdark/assets/img/mods/9cdf70727d9b9d7f98aa5694.jpg?v=e00ea5f65a28"
     ],
     "Status": {
       "working": true,
@@ -10504,14 +10504,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "PrepperCache",
+    "DisplayName": "生存者储藏点信息",
     "Name": "PrepperCache",
     "Type": "mod",
     "Author": "okclm",
     "DisplayAuthor": [
       "okclm"
     ],
-    "Description": "提供当前游戏的生存物资储备信息。",
+    "Description": "提供当前游戏中的生存者储藏点信息。",
     "Aliases": [
       "PrepperCache"
     ],
@@ -10541,7 +10541,7 @@
     "Released": "2026-04-07",
     "Updated": "2026-04-07",
     "Images": [
-      "https://raw.githubusercontent.com/okclm/ModListJson/refs/heads/main/list_icon_preppercache.png"
+      "/thelongdark/assets/img/mods/fff36ccad998297838e465cf.png?v=63a91ccc046d"
     ],
     "Status": {
       "working": true,
@@ -10558,14 +10558,14 @@
     ]
   },
   {
-    "DisplayName": "保存容器内的物品",
+    "DisplayName": "保留容器中的物品",
     "Name": "PreserveContainerItems",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "装备物品如果状态降至0%，将不再从容器中消失。注意：此功能尚未在所有类型的容器上进行测试，请谨慎操作。",
+    "Description": "耐久度降至 0% 的装备物品将不再从容器中消失。<br><br>注意：尚未针对所有容器类型进行测试，请谨慎使用。",
     "Aliases": [
       "Preserve Container Items"
     ],
@@ -10594,7 +10594,7 @@
     "Released": "2026-02-28",
     "Updated": "2026-02-28",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_PreserveContainerItems.jpg"
+      "/thelongdark/assets/img/mods/5715a812a19a9db9eca22cfa.jpg?v=e69942c5351a"
     ],
     "Status": {
       "working": true,
@@ -10608,14 +10608,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "生活质量",
+    "DisplayName": "便利性改进",
     "Name": "QoL",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "减少用户界面带来的不便，甚至让使用体验更加愉悦。现在，您大部分时间都可以使用键盘来控制游戏。",
+    "Description": "减少界面操作中的繁琐之处，让使用体验更加顺畅。现在大多数时候都可以使用键盘控制游戏。",
     "Aliases": [
       "QoL"
     ],
@@ -10658,14 +10658,14 @@
     ]
   },
   {
-    "DisplayName": "QoL Firestart",
+    "DisplayName": "便利生火",
     "Name": "QoLFirestart",
     "Type": "mod",
     "Author": "Danileros",
     "DisplayAuthor": [
       "Danileros"
     ],
-    "Description": "<p>QoL FireStart 是一款通过选择最佳装备来简化生火过程的模组。</p><p>这包括选择火把（如果点燃的话）或放大镜（如果天气允许的话），以及保护桦树皮并选择书或树枝作为燃料。</p>",
+    "Description": "<p>自动选择合适装备，让生火过程更简单。</p><p>包括优先选择已点燃的火把，或在天气允许时使用放大镜；保护桦树皮，并选择书籍或树枝作为燃料。</p>",
     "Aliases": [
       "QoL Firestart"
     ],
@@ -10692,7 +10692,7 @@
     "Released": "2026-07-27",
     "Updated": "2026-08-25",
     "Images": [
-      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_QoLFirestart.png"
+      "/thelongdark/assets/img/mods/c37b8745c2bd22625b295186.png?v=cc7fc0b57ef0"
     ],
     "Status": {
       "working": true,
@@ -10708,14 +10708,14 @@
     ]
   },
   {
-    "DisplayName": "QoL StaniaStays",
+    "DisplayName": "耐力条常显",
     "Name": "QoLStaminaStays",
     "Type": "mod",
     "Author": "Danileros",
     "DisplayAuthor": [
       "Danileros"
     ],
-    "Description": "<p>QoL StaminaStays 是一款简单的模组，它可以防止体力条因计时器而逐渐消失。现在，体力条只有在充满时才会消失，就像大多数现代游戏一样。</p>",
+    "Description": "<p>这款简单的便利模组可防止耐力条因计时而淡出。现在只有耐力值满时才会淡出，与大多数现代游戏的表现一致。</p>",
     "Aliases": [
       "QoL StaminaStays"
     ],
@@ -10742,7 +10742,7 @@
     "Released": "2026-08-04",
     "Updated": "2026-08-20",
     "Images": [
-      "https://raw.githubusercontent.com/Danileros/TldModList/main/logo_QoLStaminaStays.jpg"
+      "/thelongdark/assets/img/mods/60a2d016a4d384dbec359663.jpg?v=f97d51b890b5"
     ],
     "Status": {
       "working": true,
@@ -10758,7 +10758,7 @@
     ]
   },
   {
-    "DisplayName": "RN剥离功能",
+    "DisplayName": "RN 精简功能",
     "Name": "RnStripped",
     "Type": "mod",
     "Author": "RN mod",
@@ -10766,7 +10766,7 @@
       "RN mod",
       "ttr"
     ],
-    "Description": "尸体移动和用电器点亮火把——提取自 Relentless Nights mod（快去看看！）",
+    "Description": "从 Relentless Nights 模组中提取的功能：搬动尸体，以及利用电器点燃火把。欢迎体验原模组！",
     "Aliases": [
       "RN-Stripped functions"
     ],
@@ -10810,14 +10810,14 @@
     ]
   },
   {
-    "DisplayName": "径向菜单实用程序",
+    "DisplayName": "环形菜单工具",
     "Name": "RadialMenuUtilities",
     "Type": "library",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "一个实用模组，可以为其他模组添加创建自定义径向菜单的功能。",
+    "Description": "实用工具模组，为其他模组添加创建自定义环形菜单的能力。",
     "Aliases": [
       "Radial Menu Utilities"
     ],
@@ -10862,14 +10862,14 @@
     ]
   },
   {
-    "DisplayName": "随机主菜单",
+    "DisplayName": "随机主菜单天气",
     "Name": "RandomMainMenu",
     "Type": "mod",
     "Author": "Xpazeman",
     "DisplayAuthor": [
       "Xpazeman"
     ],
-    "Description": "这个模组会随机化主菜单屏幕中的时间和天气，这样每次进入主菜单时都会发生变化。",
+    "Description": "随机改变主菜单画面中的时间和天气，每次进入主菜单时都会有所不同。",
     "Aliases": [
       "Random Main Menu"
     ],
@@ -10913,14 +10913,14 @@
     ]
   },
   {
-    "DisplayName": "随机生成入侵者稀有怪",
+    "DisplayName": "随机化流浪者稀有物资",
     "Name": "RandomizeInterloperRareSpawns",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "关于《漫漫长夜》的一个模组，它可以随机化入侵者掉落的战利品。",
+    "Description": "随机调整《漫漫长夜》流浪者难度中的战利品分布。",
     "Aliases": [
       "Randomize Interloper Rare Spawns"
     ],
@@ -10949,7 +10949,7 @@
     "Released": "2026-05-19",
     "Updated": "2026-05-19",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/RandomizeInterloperRareSpawns.png"
+      "/thelongdark/assets/img/mods/abe4689253195ac39e1eddfc.png?v=144aa8783ff9"
     ],
     "Status": {
       "working": true,
@@ -10963,14 +10963,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "随机化器：过渡",
+    "DisplayName": "场景切换随机化",
     "Name": "RandomizerTransitions",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "随机化场景间的过渡。以全新的混乱方式探索大熊湖。可在新的游戏创建菜单中启用。",
+    "Description": "随机改变场景之间的过渡效果，以全新的混乱方式探索大熊岛。可在新游戏创建菜单中启用。",
     "Aliases": [
       "Randomizer: Transitions",
       "Randomizer-Transitions"
@@ -11003,7 +11003,7 @@
     "Released": "2026-04-15",
     "Updated": "2026-05-30",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Transitions.webp"
+      "/thelongdark/assets/img/mods/f1c5e998f3ee178c82c683ae.webp?v=a7c7853d59bd"
     ],
     "Status": {
       "working": true,
@@ -11019,14 +11019,14 @@
     ]
   },
   {
-    "DisplayName": "稀有专属战利品",
+    "DisplayName": "稀有专属物资",
     "Name": "RareExclusiveLoot",
     "Type": "mod",
     "Author": "Thekillergreece",
     "DisplayAuthor": [
       "Thekillergreece"
     ],
-    "Description": "地堡和/或商人处出售的物品现在也会出现在世界各地，尽管数量稀少且稀有。",
+    "Description": "原本只会出现在地堡和/或交易者处的物品，现在也会在世界中生成，但数量稀少、出现概率较低。",
     "Aliases": [
       "Rare-ExclusiveLoot",
       "RareExclusiveLoot",
@@ -11082,7 +11082,7 @@
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "修好峡谷里的桥。",
+    "Description": "修复峡谷中的桥梁。",
     "Aliases": [
       "Ravine Bridge Fix"
     ],
@@ -11111,7 +11111,7 @@
     "Released": "2025-07-10",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_RavineBridgeFix.jpg"
+      "/thelongdark/assets/img/mods/239228a1f7433f08bcf93c20.jpg?v=0e5179b79d48"
     ],
     "Status": {
       "working": true,
@@ -11125,14 +11125,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "配方要求",
+    "DisplayName": "配方技能要求调整",
     "Name": "RecipeRequirements",
     "Type": "mod",
     "Author": "Ezinw",
     "DisplayAuthor": [
       "Ezinw"
     ],
-    "Description": "允许玩家调整制作特定食谱所需的烹饪技能等级。",
+    "Description": "允许玩家调整制作特定配方所需的烹饪技能等级。",
     "Aliases": [
       "Recipe Requirements",
       "v1.0"
@@ -11163,7 +11163,7 @@
     "Released": "2024-12-24",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/RecipeReq.jpg"
+      "/thelongdark/assets/img/mods/ea41103ef8ff0cb7b2a93e2e.jpg?v=47bfa0b700fb"
     ],
     "Status": {
       "working": true,
@@ -11180,14 +11180,14 @@
     ]
   },
   {
-    "DisplayName": "录音工具",
+    "DisplayName": "录制工具",
     "Name": "RecordingUtils",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "为《漫漫长夜》添加的模组，可更好地控制摄像机，用于录制或直播。",
+    "Description": "改进游戏内镜头控制，方便录制视频或进行直播。",
     "Aliases": [
       "Recording Utils"
     ],
@@ -11216,7 +11216,7 @@
     "Released": "2026-03-10",
     "Updated": "2026-03-10",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_RecordingUtils.jpg"
+      "/thelongdark/assets/img/mods/927d1f327cd7b43d09ad3cd5.jpg?v=20c253d5526b"
     ],
     "Status": {
       "working": true,
@@ -11230,14 +11230,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "战利品减少",
+    "DisplayName": "减少物资",
     "Name": "ReducedLoot",
     "Type": "mod",
     "Author": "Fuar",
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "减少战利品会减少世界中某些物品的数量，方法是让这些物品在随机生成时直接消失。",
+    "Description": "通过在物品随机生成时将部分物品移除，减少世界中特定物品的数量。",
     "Aliases": [
       "Reduced Loot"
     ],
@@ -11282,7 +11282,7 @@
     ]
   },
   {
-    "DisplayName": "无情之夜",
+    "DisplayName": "无尽长夜",
     "Name": "RelentlessNight",
     "Type": "mod",
     "Author": "ShieldHeart",
@@ -11290,7 +11290,7 @@
       "ShieldHeart",
       "STBlade"
     ],
-    "Description": "顶级域名 2.23 使用 RN 4.7.2，顶级域名 2.19 使用 RN 4.7.1，顶级域名 2.10 及以上使用 RN 4.6.3，顶级域名 2.06 和 2.08 使用 RN 4.6.1<br>地球自转速度正在减慢。白昼和黑夜越来越长。每一个漫漫长夜都比前一个更加寒冷难耐。没有哪个地方能幸免于寒冷。在这个诡异的新世界里，你能生存多久？<br><br>您可以加入我们的 Relentless Mods discord 频道，参与模组讨论、更新并报告任何问题 - <a href='https://discord.gg/GjAG9XNfR7' target='_blank'>INVITE</a> 。",
+    "Description": "《漫漫长夜》2.23 请使用 RN 4.7.2；2.19 使用 RN 4.7.1；2.10 及以上版本使用 RN 4.6.3；2.06 和 2.08 使用 RN 4.6.1。<br>地球自转正在减慢，白昼与黑夜变得越来越漫长。每一个长夜都比之前更加寒冷、更加严酷。寒冷无处不在。你能在这个诡异的新世界中生存多久？<br><br>欢迎加入 Relentless Mods Discord 频道，参与模组讨论、获取更新或报告问题：<a href='https://discord.gg/GjAG9XNfR7' target='_blank'>邀请链接</a>。",
     "Aliases": [
       "Relentless Night"
     ],
@@ -11336,14 +11336,14 @@
     ]
   },
   {
-    "DisplayName": "寂静启示录的遗迹",
+    "DisplayName": "静默末日遗物",
     "Name": "RelicsOfTheQuietApocalypse",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "《寂静末日遗迹》mod 恢复了旧版 TLD 中的装备物品纹理。（可通过 ModSettings 进行自定义。）",
+    "Description": "恢复《漫漫长夜》早期版本中的 GearItem 贴图。（可通过 ModSettings 自定义。）",
     "Aliases": [
       "RelicsOfTheQuietApocalypse",
       "v0.2"
@@ -11377,7 +11377,7 @@
     "Released": "2025-07-24",
     "Updated": "2026-02-28",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RetroTextures.jpg"
+      "/thelongdark/assets/img/mods/3d6d84d27b9335eec7b95117.jpg?v=ee0be131a905"
     ],
     "Status": {
       "working": true,
@@ -11393,7 +11393,7 @@
     ]
   },
   {
-    "DisplayName": "记住要分解物品",
+    "DisplayName": "记住拆解选项",
     "Name": "RememberBreakDownItem",
     "Type": "mod",
     "Author": "Romain",
@@ -11441,14 +11441,14 @@
     ]
   },
   {
-    "DisplayName": "可再生火药模组",
+    "DisplayName": "可再生火药材料",
     "Name": "RenewableGunpowderMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "此模组添加了火药材料：硫磺粉、树桩清除剂和铅，可通过海滩拾取和容器掉落获得。我是在发现 Sm4rtBoyTom 的 AmmunitionCraftingTools 模组在火药可再生性方面做得更好之前制作了这个模组的。不过没关系，也许有人会用到它。",
+    "Description": "将硫磺粉、树桩清除剂和铅加入海滩搜寻与容器战利品表，使火药材料能够通过搜刮获得。我是在意识到 Sm4rtBoyTom 的 AmmunitionCraftingTools 模组已经更好地实现火药材料可再生之前制作了这个模组。也许仍有人会用得上。",
     "Aliases": [
       "Renewable Gunpowder Mod"
     ],
@@ -11479,7 +11479,7 @@
     "Released": "2026-01-22",
     "Updated": "2026-01-22",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RenewableGunpowderMod/305620_14.jpg"
+      "/thelongdark/assets/img/mods/e1aec0913e74621da4c2286a.jpg?v=107d69928fd7"
     ],
     "Status": {
       "working": true,
@@ -11495,14 +11495,14 @@
     ]
   },
   {
-    "DisplayName": "可修复的",
+    "DisplayName": "修理工具也能修理",
     "Name": "RepairableRepairables",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "“可修复物品”功能允许您修复三种用于修理、制作和磨砺的基本工具。可修复的工具如下：步枪清洁套装、缝纫套装、磨刀石/磨刀石。",
+    "Description": "允许修理三种用于修理、制作和打磨的基础工具：步枪清洁套件、缝纫包和磨刀石。",
     "Aliases": [
       "RepairableRepairables",
       "v1.1"
@@ -11536,7 +11536,7 @@
     "Released": "2025-05-31",
     "Updated": "2026-06-25",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_RepairableRepairables.jpg"
+      "/thelongdark/assets/img/mods/f614ea6afc1d6e87c563a10b.jpg?v=21cbc8874d07"
     ],
     "Status": {
       "working": true,
@@ -11552,14 +11552,14 @@
     ]
   },
   {
-    "DisplayName": "重新掷骰子判定烧毁的建筑物",
+    "DisplayName": "重新随机生成烧毁建筑",
     "Name": "RerollBurntBuildings",
     "Type": "mod",
     "Author": "Cass",
     "DisplayAuthor": [
       "Cass"
     ],
-    "Description": "新增控制台命令，允许你重新生成随机的烧毁建筑。现在也包括随机生成的渔屋门。完整说明请参阅 README 文件。",
+    "Description": "新增控制台命令，可重新随机生成烧毁建筑。现在也支持随机生成的钓鱼小屋门。完整说明请查看 README。",
     "Aliases": [
       "Reroll Burnt Buildings"
     ],
@@ -11602,14 +11602,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "研究书籍修改器",
+    "DisplayName": "研究书籍阅读时间调整",
     "Name": "ResearchBookTweaker",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "更早的阅读间隔模式",
+    "Description": "原名为“缩短阅读间隔”模组。",
     "Aliases": [
       "Research Book Tweaker"
     ],
@@ -11657,14 +11657,14 @@
     ]
   },
   {
-    "DisplayName": "简历预览器",
+    "DisplayName": "继续游戏存档预览",
     "Name": "ResumePreviewer",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "显示在主菜单中按下“继续”按钮之前将加载的存档槽位。",
+    "Description": "在主菜单点击“继续”之前，显示即将载入的存档槽位。",
     "Aliases": [
       "ResumePreviewer"
     ],
@@ -11691,7 +11691,7 @@
     "Released": "2026-03-17",
     "Updated": "2026-03-21",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/ResumePreviewer.PNG"
+      "/thelongdark/assets/img/mods/11eeb45739eee22145eb5bf1.png?v=e7e26965e3f8"
     ],
     "Status": {
       "working": true,
@@ -11705,14 +11705,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "回收子弹模组",
+    "DisplayName": "回收子弹",
     "Name": "RetrieveBulletsMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "这个模组让玩家可以从用枪械猎杀的动物身上回收子弹。你可以从动物尸体上收集名为“损坏子弹”的新物品，然后在弹药工坊进行重铸。",
+    "Description": "允许从被枪械击杀的动物身上回收子弹。可从尸体上收获名为“损坏的子弹”的新物品，再前往弹药工作台重新锻造。",
     "Aliases": [
       "Retrieve Bullets Mod"
     ],
@@ -11745,8 +11745,8 @@
     "Released": "2026-01-22",
     "Updated": "2026-08-21",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/ico_gearitem__damagedbullet3.png",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/RetrieveBulletsMod/305620_9.jpg"
+      "/thelongdark/assets/img/mods/438455eb7d27968ba98b25e1.png?v=b15d7b86e5cf",
+      "/thelongdark/assets/img/mods/f11f627f9249e48cf0abee59.jpg?v=fda2a0b09db3"
     ],
     "Status": {
       "working": true,
@@ -11770,7 +11770,7 @@
       "Thekillergreece",
       "Inarissa"
     ],
-    "Description": "23 种复古食品。",
+    "Description": "新增 23 种复古食品。",
     "Aliases": [
       "RetroFood",
       "RetroFoodPack",
@@ -11819,14 +11819,14 @@
     ]
   },
   {
-    "DisplayName": "丰富的存在感",
+    "DisplayName": "Discord 游戏状态显示",
     "Name": "RichPresence",
     "Type": "mod",
     "Author": "Atmudia",
     "DisplayAuthor": [
       "Atmudia"
     ],
-    "Description": "《漫漫长夜》的丰富存在感。",
+    "Description": "为《漫漫长夜》提供 Rich Presence 游戏状态显示。",
     "Aliases": [
       "Rich Presence",
       "RichPresenceMod"
@@ -11868,14 +11868,14 @@
     ]
   },
   {
-    "DisplayName": "在后台运行",
+    "DisplayName": "后台运行游戏",
     "Name": "RunInBackground",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "即使游戏失去焦点，也能保持游戏运行。",
+    "Description": "游戏窗口失去焦点时，仍让游戏继续运行。",
     "Aliases": [
       "RunInBackground"
     ],
@@ -11903,7 +11903,7 @@
     "Released": "2024-07-01",
     "Updated": "2024-07-01",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_runinbackground.jpg"
+      "/thelongdark/assets/img/mods/cddb2e8f531806d6cc4fd9b1.jpg?v=6c4f6180f0fa"
     ],
     "Status": {
       "working": true,
@@ -11920,14 +11920,14 @@
     ]
   },
   {
-    "DisplayName": "安全屋定制加强版",
+    "DisplayName": "安全屋自由改造增强版",
     "Name": "SafehouseCustomizationPlus",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "可进行全方位自定义，允许移动和拾取容器、炉灶、工作台等等。<br><br>警告！此模组尚处于实验阶段。目前尚未收到物品丢失的报告，但仍存在这种可能性。为了以防万一，请务必备份存档。",
+    "Description": "允许在任何地点进行自定义，并可移动或拾取容器、炉灶、工作台等更多物品。<br><br>警告：此模组仍属实验性质。虽然尚无物品丢失报告，但风险依然存在，请务必备份存档。",
     "Aliases": [
       "SCPlus",
       "SafehouseCustomizationPlus",
@@ -11962,7 +11962,7 @@
     "Released": "2024-12-03",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/SCP.webp"
+      "/thelongdark/assets/img/mods/32bd8370a5de31040b6fb77a.webp?v=f195372aec27"
     ],
     "Status": {
       "working": true,
@@ -11978,14 +11978,14 @@
     ]
   },
   {
-    "DisplayName": "保存备份",
+    "DisplayName": "存档备份",
     "Name": "SaveBackup",
     "Type": "mod",
     "Author": "Pathoschild",
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "<p>自动创建每小时和每日的存档文件备份。尤其是在使用模组时，这可以让你在出现问题时恢复存档。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/SaveBackup#readme\">更多信息请参阅readme文件</a>。</p>",
+    "Description": "<p>自动按小时和按天备份存档。尤其是在使用模组时，如果发生问题，可以借此恢复存档。</p><p>更多信息请查看<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/SaveBackup#readme\">说明文档</a>。</p>",
     "Aliases": [
       "Save Backup"
     ],
@@ -12014,7 +12014,7 @@
     "Released": "2026-04-19",
     "Updated": "2026-05-30",
     "Images": [
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/SaveBackup/docs/images/config.png"
+      "/thelongdark/assets/img/mods/f421eba8d461a71ca5ea9026.png?v=8691aeb24921"
     ],
     "Status": {
       "working": true,
@@ -12030,14 +12030,14 @@
     ]
   },
   {
-    "DisplayName": "保存图像滤镜",
+    "DisplayName": "保存画面滤镜设置",
     "Name": "SaveImageFilter",
     "Type": "mod",
     "Author": "zeobviouslyfakeacc",
     "DisplayAuthor": [
       "zeobviouslyfakeacc"
     ],
-    "Description": "保存并重新加载您选择的图像滤镜（选项 &gt; 显示 &gt; 图像滤镜），而不是每次重新启动游戏时都恢复为“无滤镜”。",
+    "Description": "保存并重新载入你选择的画面滤镜（选项 > 显示 > 画面滤镜），避免每次重启游戏时都恢复为“无滤镜”。",
     "Aliases": [
       "Save Image Filter"
     ],
@@ -12076,14 +12076,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "保存管理器",
+    "DisplayName": "存档管理器",
     "Name": "SaveManager",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "新增了在沙盒/生存模式下使用快捷键保存、读取和自动保存游戏进度的功能。同时还新增了自动保存功能。",
+    "Description": "允许在沙盒/生存模式中使用快捷键保存、载入和自动保存游戏；同时提供自动保存功能。",
     "Aliases": [
       "Save Manager"
     ],
@@ -12130,14 +12130,14 @@
     ]
   },
   {
-    "DisplayName": "安全保障",
+    "DisplayName": "存档安全提示",
     "Name": "SaveSafety",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "该模组会在保存/读取失败时发出通知，以避免存档损坏。",
+    "Description": "保存或载入失败时向你发出通知，避免存档损坏。",
     "Aliases": [
       "Save Safety"
     ],
@@ -12178,14 +12178,14 @@
     ]
   },
   {
-    "DisplayName": "鳞鱼模组",
+    "DisplayName": "鱼类模型尺寸变化",
     "Name": "ScaledFishMod",
     "Type": "mod",
     "Author": "BaltaZar",
     "DisplayAuthor": [
       "BaltaZar"
     ],
-    "Description": "你有没有想过为什么同一种鱼看起来大小都一样？现在不用再疑惑了！Scaled Fish Mod 会让鱼的模型大小根据它们的体重动态变化。",
+    "Description": "是否曾好奇为什么同一种鱼看起来都一样大？这个模组会根据鱼的重量动态调整鱼的模型尺寸。",
     "Aliases": [
       "Scaled Fish Mod"
     ],
@@ -12213,9 +12213,9 @@
     "Released": "2026-01-22",
     "Updated": "2026-08-08",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_13.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/305620_25.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/ScaledFishMod/SF3.jpg"
+      "/thelongdark/assets/img/mods/4e65eaea5c892a41467114aa.jpg?v=df41eac32150",
+      "/thelongdark/assets/img/mods/86974501470684a0326bf82c.jpg?v=43e537e472f2",
+      "/thelongdark/assets/img/mods/d8beff6683b288ec9ec6db25.jpg?v=b0fcaa354471"
     ],
     "Status": {
       "working": true,
@@ -12231,14 +12231,14 @@
     ]
   },
   {
-    "DisplayName": "无缝内饰",
+    "DisplayName": "无缝室内",
     "Name": "SeamlessInteriors",
     "Type": "mod",
     "Author": "Hamsi Buglama",
     "DisplayAuthor": [
       "Hamsi Buglama"
     ],
-    "Description": "这款为《漫漫长夜》开发的大型改造模组旨在将所有室内建筑直接融入开放世界，无需任何加载画面。玩家可以无缝穿梭于门之间，体验室内外融为一体的奇妙世界。",
+    "Description": "为《漫漫长夜》开发的大型改造模组，旨在将所有室内建筑直接融入开放世界，取消加载画面。你可以无缝穿过门扉，让室内与室外成为一个连贯的世界。",
     "Aliases": [
       "Seamless Interiors"
     ],
@@ -12266,7 +12266,7 @@
     "Released": "2026-07-10",
     "Updated": "2026-10-16",
     "Images": [
-      "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/main/SeamlessInteriors.PNG"
+      "/thelongdark/assets/img/mods/cf2ded295663db4911d8e7aa.png?v=2d1a4a9c335d"
     ],
     "Status": {
       "working": true,
@@ -12283,14 +12283,14 @@
     ]
   },
   {
-    "DisplayName": "经验丰富的闯入者",
+    "DisplayName": "老练流浪者",
     "Name": "SeasonedInterloping",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "为《漫漫长夜》添加 Forsaken Airfield、ZOC、Sundered Pass 和 Bleak Inlet 到 Interloper 区域列表的 Mod。",
+    "Description": "将被遗忘的机场、零地带、断裂山口和黯淡海湾加入《漫漫长夜》的流浪者区域列表。",
     "Aliases": [
       "Seasoned Interloping"
     ],
@@ -12319,7 +12319,7 @@
     "Released": "2026-05-20",
     "Updated": "2026-05-20",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/SeasonedInterloping.png"
+      "/thelongdark/assets/img/mods/f574a1aef1b87566b434a487.png?v=fd2d29493a55"
     ],
     "Status": {
       "working": true,
@@ -12333,14 +12333,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "庇护所温度调整",
+    "DisplayName": "避难所温度调整",
     "Name": "ShelterTemperatureTweaks",
     "Type": "mod",
     "Author": "Cass",
     "DisplayAuthor": [
       "Cass"
     ],
-    "Description": "允许您调整没有加载界面的庇护所（例如登山者小屋）的温度。完整说明请参见README文件。",
+    "Description": "允许调整没有加载画面的避难所温度，例如登山者小屋。完整说明请查看 README。",
     "Aliases": [
       "Shelter Temperature Tweaks"
     ],
@@ -12381,14 +12381,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "靶场",
+    "DisplayName": "射击场",
     "Name": "ShootingRange",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "在普莱森特山谷的沉思池附近，启用射击场目标、风向标、狩猎掩体和温暖的谷仓。",
+    "Description": "启用射击场靶子、风向标、猎人瞭望点，以及静思池塘附近一座温暖的谷仓。",
     "Aliases": [
       "Shooting Range"
     ],
@@ -12417,7 +12417,7 @@
     "Released": "2025-07-7",
     "Updated": "2026-01-03",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_ShootingRange.jpg"
+      "/thelongdark/assets/img/mods/9745fcbfd50b8bd541208742.jpg?v=661b178d86d5"
     ],
     "Status": {
       "working": true,
@@ -12431,14 +12431,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "快捷方式",
+    "DisplayName": "区域捷径",
     "Name": "Shortcuts",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "为部分区域添加了多种快捷方式。您需要重新加载游戏才能使更改生效。",
+    "Description": "为部分区域新增多条捷径。需要重新载入游戏才能使更改生效。",
     "Aliases": [
       "Shortcuts"
     ],
@@ -12469,7 +12469,7 @@
     "Released": "2025-01-25",
     "Updated": "2026-04-21",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_Shortcuts.jpg"
+      "/thelongdark/assets/img/mods/8786ca97739900d69c679695.jpg?v=1cc722971a07"
     ],
     "Status": {
       "working": true,
@@ -12490,7 +12490,7 @@
     "DisplayAuthor": [
       "Team Shotgun"
     ],
-    "Description": "听说你们都想要一把霰弹枪……",
+    "Description": "听说你们想要一把霰弹枪……",
     "Aliases": [
       "Shotgun"
     ],
@@ -12538,14 +12538,14 @@
     ]
   },
   {
-    "DisplayName": "展会交易者信托",
+    "DisplayName": "显示交易者信任度",
     "Name": "ShowTraderTrust",
     "Type": "mod",
     "Author": "Pathoschild",
     "DisplayAuthor": [
       "Pathoschild"
     ],
-    "Description": "<p>显示您在通过无线电与交易员交谈时，对他的当前信任程度。</p><p><a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme\">更多信息请参阅readme文件</a>。</p>",
+    "Description": "<p>通过无线电与交易者交谈时，显示当前的信任等级。</p><p>更多信息请查看<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme\">说明文档</a>。</p>",
     "Aliases": [
       "Show Trader Trust"
     ],
@@ -12572,7 +12572,7 @@
     "Released": "2026-04-26",
     "Updated": "2026-04-28",
     "Images": [
-      "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/stable/src/ShowTraderTrust/docs/images/overlay.png"
+      "/thelongdark/assets/img/mods/0f520b726761dd1595fcf8bd.png?v=ee5690e3689e"
     ],
     "Status": {
       "working": true,
@@ -12588,14 +12588,14 @@
     ]
   },
   {
-    "DisplayName": "寂静行者",
+    "DisplayName": "静步行者",
     "Name": "SilentWalker",
     "Type": "mod",
     "Author": "Lycanthor",
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "像经验丰富的幸存者一样打包装备：水瓶装满水并竖直放置，金属物品分开包装，柴火捆扎牢固。使用独立的滑轨分别存放小件物品、木柴、金属和水，这样可以减少你和野生动物的干扰，或者两者都能做到。",
+    "Description": "像经验丰富的幸存者一样整理装备：将瓶子装满并直立放置，分隔并包裹金属物品，把木柴捆扎固定。可降低你、野生动物或双方听到的移动声，并能分别调整小型补给、木材、金属和水的音量。",
     "Aliases": [
       "Silent Walker"
     ],
@@ -12625,7 +12625,7 @@
     "Released": "2026-10-01",
     "Updated": "2026-10-01",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLD-SilentWalker/master/screenshots/tldmods-main-2.jpg"
+      "/thelongdark/assets/img/mods/b65a3d90085a8efc3c836633.jpg?v=ce8572e256e6"
     ],
     "Status": {
       "working": true,
@@ -12639,14 +12639,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "傻瓜模组",
+    "DisplayName": "趣味物理模组",
     "Name": "SillyMod",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "增添乐趣：装备物品物理效果、碰撞等等<br><br>别在你的普通存档里用它，你会后悔的。",
+    "Description": "为装备物品启用物理效果、碰撞等趣味功能。<br><br>不要在常用存档中使用，否则你会后悔的。",
     "Aliases": [
       "Silly Mod"
     ],
@@ -12676,7 +12676,7 @@
     "Released": "2023-03-07",
     "Updated": "2026-01-14",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Silly.webp"
+      "/thelongdark/assets/img/mods/2b6b6f4d48be6e8ce4b16e23.webp?v=9f2cf59d8a44"
     ],
     "Status": {
       "working": true,
@@ -12692,14 +12692,14 @@
     ]
   },
   {
-    "DisplayName": "简易保存和恢复工具",
+    "DisplayName": "简易存档备份与恢复工具",
     "Name": "TLDTools",
     "Type": "mod",
     "Author": "Tactical Ex",
     "DisplayAuthor": [
       "Tactical Ex"
     ],
-    "Description": "描述：一款简单易用的工具，让您更方便地备份和恢复《漫漫长夜》的生存模式游戏存档。注意：这是一个外部工具，并非模组，无需模组加载器即可使用。",
+    "Description": "一款简单工具，让备份和恢复《漫漫长夜》生存模式存档更加方便。注意：这是外部工具，不是模组，也不需要安装模组加载器。",
     "Aliases": [
       "Simple save and restore tool",
       "2.2"
@@ -12729,7 +12729,7 @@
     "Released": "2023-08-24",
     "Updated": "2026-03-06",
     "Images": [
-      "https://gitlab.com/TacticalEx/tld-tools/-/raw/master/readmeAssets/readme-screen.png"
+      "/thelongdark/assets/img/mods/237896e76e3ba446656a656a.png?v=829631df5a30"
     ],
     "Status": {
       "working": true,
@@ -12745,14 +12745,14 @@
     ]
   },
   {
-    "DisplayName": "技能调整",
+    "DisplayName": "技能效果调整",
     "Name": "SkillAdjustment",
     "Type": "mod",
     "Author": "Ezinw",
     "DisplayAuthor": [
       "Ezinw"
     ],
-    "Description": "允许玩家调整每个等级的技能加成。",
+    "Description": "允许玩家调整每个技能等级所提供的效果。",
     "Aliases": [
       "Skill Adjustment",
       "v1.2"
@@ -12783,7 +12783,7 @@
     "Released": "2023-12-06",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/SkillAdjustment.jpg"
+      "/thelongdark/assets/img/mods/96493421dc0116cd15021727.jpg?v=0b204925f3f6"
     ],
     "Status": {
       "working": true,
@@ -12800,7 +12800,7 @@
     ]
   },
   {
-    "DisplayName": "技能经理",
+    "DisplayName": "技能管理器",
     "Name": "SkillManager",
     "Type": "mod",
     "Author": "The Illusion",
@@ -12851,14 +12851,14 @@
     ]
   },
   {
-    "DisplayName": "径向",
+    "DisplayName": "环形菜单加入煎锅",
     "Name": "SkilletInRadial",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "顾名思义……它为径向面板添加了煎锅。",
+    "Description": "顾名思义：将煎锅加入环形菜单。",
     "Aliases": [
       "SkilletInRadial"
     ],
@@ -12888,7 +12888,7 @@
     "Released": "2026-01-31",
     "Updated": "2026-04-10",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_SkilletInRadial.jpg"
+      "/thelongdark/assets/img/mods/b4faaa061bea234e905e824f.jpg?v=0832008420f7"
     ],
     "Status": {
       "working": true,
@@ -12904,14 +12904,14 @@
     ]
   },
   {
-    "DisplayName": "跳过介绍重制版",
+    "DisplayName": "跳过开场动画增强版",
     "Name": "SkipIntroRedux",
     "Type": "mod",
     "Author": "STBlade",
     "DisplayAuthor": [
       "STBlade"
     ],
-    "Description": "允许玩家在开始游戏时直接进入主菜单。<br><br><b>风险自负</b>——现在省略了那些烦人的免责声明。",
+    "Description": "启动游戏时可直接跳转到主菜单。<br><br><b>风险自负</b>——此模组也会跳过那些烦人的免责声明。",
     "Aliases": [
       "SkipIntro",
       "SkipIntroRedux",
@@ -12938,7 +12938,7 @@
     "Released": "",
     "Updated": "2026-01-02",
     "Images": [
-      "https://github.com/dommrogers/mod_list/blob/master/skipintro.png?raw=true"
+      "/thelongdark/assets/img/mods/3359d06ba623cbfb1d0aa4dd.png?v=e37a67622112"
     ],
     "Status": {
       "working": true,
@@ -12954,7 +12954,7 @@
     ]
   },
   {
-    "DisplayName": "天空合作社",
+    "DisplayName": "Sky 联机合作",
     "Name": "SkyCoop",
     "Type": "mod",
     "Author": "Filigrani",
@@ -12962,7 +12962,7 @@
       "Filigrani",
       "REDcat"
     ],
-    "Description": "游戏的多人游戏模式",
+    "Description": "《漫漫长夜》的多人联机模组。",
     "Aliases": [
       "Sky Co-op",
       "SkyCoopInstaller"
@@ -12995,7 +12995,7 @@
     "Released": "2021-05-22",
     "Updated": "2023-01-15",
     "Images": [
-      "https://raw.githubusercontent.com/Filigrani/-ModListJson/main/assets/img/Banner.png"
+      "/thelongdark/assets/img/mods/8cb1cbf67583f426d0460d01.png?v=2502ae108585"
     ],
     "Status": {
       "working": true,
@@ -13011,14 +13011,14 @@
     ]
   },
   {
-    "DisplayName": "SleepWithoutABed",
+    "DisplayName": "无床睡眠",
     "Name": "SleepWithoutABed",
     "Type": "mod",
     "Author": "Ezinw",
     "DisplayAuthor": [
       "Ezinw"
     ],
-    "Description": "允许玩家无需床铺或睡袋即可睡觉。可通过环形菜单中的“消磨时间”选项访问。",
+    "Description": "允许玩家不使用床或睡袋睡觉。可通过环形菜单中的“消磨时间”选项使用。",
     "Aliases": [
       "SleepWithoutABed",
       "v2.3"
@@ -13048,7 +13048,7 @@
     "Released": "2024-02-01",
     "Updated": "2026-01-27",
     "Images": [
-      "https://raw.githubusercontent.com/Ezinw/ModListTLD/main/Images/SWaB.jpg"
+      "/thelongdark/assets/img/mods/aa4472ba15a8f88c33527117.jpg?v=86ee3e5251a8"
     ],
     "Status": {
       "working": true,
@@ -13065,14 +13065,14 @@
     ]
   },
   {
-    "DisplayName": "单人纸牌",
+    "DisplayName": "纸牌接龙",
     "Name": "Solitaire",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "优雅地消磨时光——玩纸牌游戏",
+    "Description": "优雅地消磨时间——来玩一局纸牌接龙吧。",
     "Aliases": [
       "Solitaire",
       "Solitaire_1.4.4"
@@ -13107,7 +13107,7 @@
     "Released": "",
     "Updated": "2024-10-20",
     "Images": [
-      "https://github.com/DigitalzombieTLD/ModListJson/raw/master/list_icon_solitaire.jpg"
+      "/thelongdark/assets/img/mods/ffe92a0468a5045f87756e22.jpg?v=7639e62f3b04"
     ],
     "Status": {
       "working": true,
@@ -13124,14 +13124,14 @@
     ]
   },
   {
-    "DisplayName": "冬至",
+    "DisplayName": "四季更迭",
     "Name": "Solstice",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "将季节信息添加到顶级域名中",
+    "Description": "为《漫漫长夜》加入季节变化。",
     "Aliases": [
       "Solstice"
     ],
@@ -13179,14 +13179,14 @@
     ]
   },
   {
-    "DisplayName": "索尼克模式",
+    "DisplayName": "音速模式",
     "Name": "SonicMode",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "让你跑得更快。还有额外的耐力恢复设置。",
+    "Description": "允许角色快速移动，并提供额外的耐力恢复设置。",
     "Aliases": [
       "Sonic Mode"
     ],
@@ -13215,7 +13215,7 @@
     "Released": "2021-01-20",
     "Updated": "2026-01-11",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Sonic.webp"
+      "/thelongdark/assets/img/mods/ca8cea2911b27a79a2a0c6b7.webp?v=59dd4935f94d"
     ],
     "Status": {
       "working": true,
@@ -13231,14 +13231,14 @@
     ]
   },
   {
-    "DisplayName": "扭伤",
+    "DisplayName": "扭伤系统增强",
     "Name": "Sprainkle",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "一款全新改进的模组，完全取代了旧的脚踝扭伤模组。该模组包含针对脚踝和手腕扭伤的独立设置，以及针对一般扭伤的设置。",
+    "Description": "全面取代旧版脚踝扭伤模组。分别提供脚踝和手腕扭伤设置，以及一般扭伤相关设置。",
     "Aliases": [
       "Sprainkle"
     ],
@@ -13283,14 +13283,14 @@
     ]
   },
   {
-    "DisplayName": "堆栈管理器",
+    "DisplayName": "堆叠管理器",
     "Name": "StackManager",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "增加了更多物品的堆叠功能",
+    "Description": "让更多物品可以堆叠。",
     "Aliases": [
       "Stack Manager"
     ],
@@ -13338,14 +13338,14 @@
     ]
   },
   {
-    "DisplayName": "跟踪者援助和补充剂",
+    "DisplayName": "潜行者辅助药剂",
     "Name": "StalkerAidsAndSupplements",
     "Type": "mod",
     "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
       "Sm4rtBoyTom"
     ],
-    "Description": "急救系统扩展。灵感源自《潜行者》系列。兼容“强化疾病”模组。更多信息请访问 GitHub wiki。",
+    "Description": "扩展急救系统，灵感来自《潜行者》系列。兼容 Improved Afflictions。更多信息请查看 GitHub Wiki。",
     "Aliases": [
       "StalkerAidsAndSupplements",
       "v4.1"
@@ -13387,7 +13387,7 @@
     "Released": "2024-08-01",
     "Updated": "2026-08-14",
     "Images": [
-      "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Thumb_StalkerAidsAndSupplements.jpg"
+      "/thelongdark/assets/img/mods/db23dd549cd6b96f7b85d74a.jpg?v=02b84c82b3ff"
     ],
     "Status": {
       "working": true,
@@ -13403,7 +13403,7 @@
     ]
   },
   {
-    "DisplayName": "偷肉模组",
+    "DisplayName": "肉类被掠食者偷走",
     "Name": "StolenMeatMod",
     "Type": "mod",
     "Author": "MonsieurMeh",
@@ -13411,7 +13411,7 @@
       "MonsieurMeh",
       "BaltaZar"
     ],
-    "Description": "如果储存不当，放在外面的肉会被掠食者偷走。如果你把肉堆在门口，也可能招来一些不速之客！这会让你停止堆放肉堆，或者也许你会利用它们来获得好处？",
+    "Description": "未妥善存放的室外肉类会被掠食者偷走。如果把一堆肉放在门口，还可能引来几位不速之客！迫使你停止堆放肉类，或者……把它们当作诱饵？",
     "Aliases": [
       "Stolen Meat Mod"
     ],
@@ -13441,8 +13441,8 @@
     "Released": "2026-03-01",
     "Updated": "2026-03-01",
     "Images": [
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/StolenMeatMod/SMthumbnail.jpg",
-      "https://raw.githubusercontent.com/BaltaZar-7/TLDmodsiteBalta/refs/heads/main/StolenMeatMod/SM2.jpg"
+      "/thelongdark/assets/img/mods/bb821c6b2cd84bd3684d5a20.jpg?v=02eb54f11869",
+      "/thelongdark/assets/img/mods/46841d0350e9457da0632093.jpg?v=d926d1ee25a3"
     ],
     "Status": {
       "working": true,
@@ -13458,14 +13458,14 @@
     ]
   },
   {
-    "DisplayName": "存储问题",
+    "DisplayName": "储物难题",
     "Name": "StorageProblem",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "将集装箱管理做成一个小游戏。",
+    "Description": "将容器管理变成一场小游戏。",
     "Aliases": [
       "Storage Problem"
     ],
@@ -13508,14 +13508,14 @@
     ]
   },
   {
-    "DisplayName": "故事模式收集品",
+    "DisplayName": "剧情模式收藏品",
     "Name": "StoryModeCollectibles",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "将 Wintermute 中的可收集物品添加到生存模式中。",
+    "Description": "将《冬日静默》中的可收集物品加入生存模式。",
     "Aliases": [
       "Story Mode Collectibles"
     ],
@@ -13544,7 +13544,7 @@
     "Released": "2026-03-17",
     "Updated": "2026-03-17",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/storymodecollectibles.png"
+      "/thelongdark/assets/img/mods/b9b232c3e4f8f0a884d99882.png?v=a19e8be8450b"
     ],
     "Status": {
       "working": true,
@@ -13560,14 +13560,14 @@
     ]
   },
   {
-    "DisplayName": "弹力阿姆斯特朗",
+    "DisplayName": "交互距离调整",
     "Name": "StretchArmstrong",
     "Type": "mod",
     "Author": "TLD Modding Community",
     "DisplayAuthor": [
       "TLD Modding Community"
     ],
-    "Description": "更改您可以与事物互动的范围。",
+    "Description": "调整玩家与物品进行交互的距离范围。",
     "Aliases": [
       "Stretch Armstrong"
     ],
@@ -13610,14 +13610,14 @@
     ]
   },
   {
-    "DisplayName": "强力钓鱼线",
+    "DisplayName": "耐用钓鱼线",
     "Name": "StrongFishingLine",
     "Type": "mod",
     "Author": "Data-0",
     "DisplayAuthor": [
       "Data-0"
     ],
-    "Description": "一种会在世界各地容器附近生成的小物品。通常在渔屋里可以找到。分解后可以获得一些鱼线。",
+    "Description": "一种会在世界各处的容器附近生成的小物品，通常可以在钓鱼小屋找到。拆解后可获得一些钓鱼线。",
     "Aliases": [
       "Strong Fishing Line",
       "FishingLine"
@@ -13647,7 +13647,7 @@
     "Released": "2026-03-11",
     "Updated": "2026-03-11",
     "Images": [
-      "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/fishingline.png"
+      "/thelongdark/assets/img/mods/6bb61d33a1517bfa4d20155a.png?v=10c01901b03c"
     ],
     "Status": {
       "working": true,
@@ -13661,14 +13661,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "挣扎调整",
+    "DisplayName": "挣扎机制调整",
     "Name": "StruggleTweaks",
     "Type": "mod",
     "Author": "ttr",
     "DisplayAuthor": [
       "ttr"
     ],
-    "Description": "设置狼在挣扎后立即死亡的几率，或更改狼的流血致死时间。您还可以更改点击力度，以节省鼠标按键。",
+    "Description": "设置挣扎后立即击杀狼的概率，或调整狼的流血倒地时间。还可以更改按键连点的判定力度，保护鼠标按键。",
     "Aliases": [
       "StruggleTweaks"
     ],
@@ -13714,14 +13714,14 @@
     ]
   },
   {
-    "DisplayName": "太阳方位修正",
+    "DisplayName": "太阳方位修复",
     "Name": "SunOrientationFixes",
     "Type": "mod",
     "Author": "Cass",
     "DisplayAuthor": [
       "Cass"
     ],
-    "Description": "修正了多个区域的太阳方位。现在所有区域应该彼此一致，并与世界地图保持一致。",
+    "Description": "修复多个区域中的太阳方位问题，使所有区域与彼此及世界地图保持一致。",
     "Aliases": [
       "Sun Orientation Fixes"
     ],
@@ -13767,7 +13767,7 @@
     "DisplayAuthor": [
       "Fuar"
     ],
-    "Description": "通过将制作配方和采集活动与技能等级挂钩，模拟幸存者的知识。",
+    "Description": "通过技能等级解锁制作配方和采集操作，以此模拟幸存者逐步积累知识的过程。",
     "Aliases": [
       "Knowledge Mod",
       "SurvivorKnowledge",
@@ -13819,7 +13819,7 @@
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "实现最低限度的多人互动：让其他玩家找到你的尸体（某种程度上）。",
+    "Description": "实现一种精简的多人互动：让其他玩家能够找到你的尸体（大致如此）。",
     "Aliases": [
       "Survivor's Legacy"
     ],
@@ -13864,14 +13864,14 @@
     ]
   },
   {
-    "DisplayName": "SutherlandExpandedStock",
+    "DisplayName": "萨瑟兰商品扩展",
     "Name": "SutherlandExpandedStock",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "使用 ETF 的内容修改器为交易员创建 56 个新的自定义交易。",
+    "Description": "使用 ETF 制作的内容模组，为交易者新增 56 种自定义交易。",
     "Aliases": [
       "SutherlandExpandedStock"
     ],
@@ -13913,14 +13913,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "TLD-狼皮围巾",
+    "DisplayName": "狼皮围巾",
     "Name": "TLDWolfskinScarf",
     "Type": "mod",
     "Author": "MooseMeat",
     "DisplayAuthor": [
       "MooseMeat"
     ],
-    "Description": "新增一条可制作的狼毛围巾。",
+    "Description": "新增一条可用狼皮制作的围巾。",
     "Aliases": [
       "TLD-WolfskinScarf",
       "WolfskinScarf"
@@ -13950,7 +13950,7 @@
     "Released": "2026-03-17",
     "Updated": "2026-03-17",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/wolfscarf.png"
+      "/thelongdark/assets/img/mods/259a6ee906941e0fe1de89ca.png?v=994ab73c2d44"
     ],
     "Status": {
       "working": true,
@@ -13966,14 +13966,14 @@
     ]
   },
   {
-    "DisplayName": "靶场练习与大师级猎手",
+    "DisplayName": "射击训练与猎人大师",
     "Name": "TargetPracticeAndMasterHunter",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "目标练习：提供多种训练功能，让您在练习的同时享受乐趣。大师级猎人：提供多种选项，可阻止您轻松自动提升技能等级，确保您通过努力获得更多提升。详情请参阅自述文件。",
+    "Description": "射击训练：提供多种训练功能，让你练习并享受射击乐趣。<br>猎人大师：提供多种选项，阻止技能等级自动、轻松地提升，确保每个等级都需要努力获得。<br>更多详情请查看 ReadMe。",
     "Aliases": [
       "Target Practice & Master Hunter"
     ],
@@ -14022,7 +14022,7 @@
     ]
   },
   {
-    "DisplayName": "长期发展（TLDev）区域",
+    "DisplayName": "漫漫长夜开发计划区域",
     "Name": "TheLongDevelopment(TLDev)Regions",
     "Type": "mod",
     "Author": "Kaiusername",
@@ -14030,7 +14030,7 @@
       "Kaiusername",
       "STBlade"
     ],
-    "Description": "《漫长的开发》是一个小型团队模组项目，旨在以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。",
+    "Description": "THE LONG DEVELOPMENT 是一个小型模组项目团队，致力于以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。",
     "Aliases": [
       "TheLongDevelopment",
       "TheLongDevelopment(TLDev)Regions",
@@ -14080,7 +14080,7 @@
     ]
   },
   {
-    "DisplayName": "长心情",
+    "DisplayName": "漫漫长夜心境",
     "Name": "TheLongMood",
     "Type": "mod",
     "Author": "EtherSystem",
@@ -14088,7 +14088,7 @@
       "EtherSystem",
       "Flower Field"
     ],
-    "Description": "为《漫漫长夜》增添了类似《僵尸毁灭工程》的无聊和抑郁元素。",
+    "Description": "为《漫漫长夜》加入类似《僵尸毁灭工程》的无聊与抑郁机制。",
     "Aliases": [
       "TheLongMood"
     ],
@@ -14120,7 +14120,7 @@
     "Released": "2026-02-16",
     "Updated": "2026-09-16",
     "Images": [
-      "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/main/TheLongMood.PNG"
+      "/thelongdark/assets/img/mods/95b4d7509d7802cc763ba810.png?v=dc0fb1d9034a"
     ],
     "Status": {
       "working": true,
@@ -14134,14 +14134,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "可以做的事情",
+    "DisplayName": "待办事项",
     "Name": "ThingsToDo",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "EAAPI 的演示模组，提供了一些有用的功能。",
+    "Description": "EAAPI 的演示模组，提供一些实用操作。",
     "Aliases": [
       "Things To Do"
     ],
@@ -14184,14 +14184,14 @@
     ]
   },
   {
-    "DisplayName": "时间刻度快捷键",
+    "DisplayName": "时间流速快捷键",
     "Name": "TimeScaleHotkey",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "允许您通过按下可配置的热键来加快或减慢时间流逝。",
+    "Description": "通过可自定义的快捷键加快或减慢时间流逝。",
     "Aliases": [
       "TimeAccelerator",
       "TimeScaleHotkey",
@@ -14222,7 +14222,7 @@
     "Released": "2026-01-12",
     "Updated": "2026-02-02",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TimescaleHK.webp"
+      "/thelongdark/assets/img/mods/92dfc4528cccd0b4bcbb118d.webp?v=6029ca6502f3"
     ],
     "Status": {
       "working": true,
@@ -14245,7 +14245,7 @@
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "由于安全屋自定义功能相同，因此此功能已冗余。但仍然有效。<br><br>右键点击那些恶心的尸体，就能把它们清除掉。",
+    "Description": "由于 Safehouse Customization 已包含相同功能，此模组功能重复，但仍可正常使用。<br><br>右键点击尸体即可将其移除。",
     "Aliases": [
       "Tiny Tweaks: Bury Corpses",
       "TinyTweaks-BuryHumanCorpses"
@@ -14276,7 +14276,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-corpse.webp"
+      "/thelongdark/assets/img/mods/fe9f56787639c645e8d84b1c.webp?v=1eb7e70c2c81"
     ],
     "Status": {
       "working": true,
@@ -14292,14 +14292,14 @@
     ]
   },
   {
-    "DisplayName": "细微调整：修正水滴方向",
+    "DisplayName": "微调：修正物品掉落方向",
     "Name": "TinyTweaksDroppedObjectOrientation",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "把掉落的木制火柴和步枪摆正，使它们处于正确的方向。因为是的，它们之前的方向错了。",
+    "Description": "修正掉落的木制火柴和步枪的朝向。没错，它们之前的朝向确实不对。",
     "Aliases": [
       "TinyTweaks-FixDroppedOrientation",
       "TinyTweaksDroppedObjectOrientation",
@@ -14329,7 +14329,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/0923f7ff8a687c4914b8e0030c0792a77970395a/pics/TT-orientation.png"
+      "/thelongdark/assets/img/mods/192f5603456c4c8c6f9e6fc5.png?v=1cc8a1cebded"
     ],
     "Status": {
       "working": true,
@@ -14345,14 +14345,14 @@
     ]
   },
   {
-    "DisplayName": "细微调整：扩展视野",
+    "DisplayName": "微调：扩大视野范围",
     "Name": "TinyTweaksExtendedFOVSlider",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "将视野滑块扩展至 150",
+    "Description": "将视野滑块的最大值扩展至 150。",
     "Aliases": [
       "Tiny Tweaks: Extended FOV",
       "TinyTweaks-ExtendedFOVSlider"
@@ -14381,7 +14381,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-fov.webp"
+      "/thelongdark/assets/img/mods/e82d02baf9d22f425ec509e1.webp?v=cae43395322d"
     ],
     "Status": {
       "working": true,
@@ -14397,14 +14397,14 @@
     ]
   },
   {
-    "DisplayName": "微调：秋季死亡山羊",
+    "DisplayName": "微调：移除坠落致死判定",
     "Name": "TinyTweaksFallDeathGoat",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "禁用坠落死亡触发机制，但使坠落伤害翻倍（可调整）",
+    "Description": "禁用坠落致死判定，但会将坠落伤害加倍（可调整）。",
     "Aliases": [
       "TinyTweaks-DeathTriggerGoat",
       "TinyTweaksFallDeathGoat",
@@ -14437,7 +14437,7 @@
     "Released": "2024-12-28",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-goat.webp"
+      "/thelongdark/assets/img/mods/c6458deb89b15bbeadb08a32.webp?v=afdc64cd7fc5"
     ],
     "Status": {
       "working": true,
@@ -14453,14 +14453,14 @@
     ]
   },
   {
-    "DisplayName": "细微调整：地图文本轮廓",
+    "DisplayName": "微调：地图文字描边",
     "Name": "TinyTweaksMapTextOuline",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "地图上的文字以轮廓线显示，方便您看清内容。有几种不同的版本。",
+    "Description": "为地图文字添加描边，让文字更容易辨认，并提供若干样式。",
     "Aliases": [
       "Tiny Tweaks: Map Text Outline",
       "TinyTweaks-MapTextOuline"
@@ -14491,7 +14491,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-outlines.webp"
+      "/thelongdark/assets/img/mods/798c0116e0ca3e8383de3cb3.webp?v=59ed08d751f5"
     ],
     "Status": {
       "working": true,
@@ -14507,14 +14507,14 @@
     ]
   },
   {
-    "DisplayName": "微调：扭伤无止境",
+    "DisplayName": "微调：扭伤时不自动保存",
     "Name": "TinyTweaksNoSaveOnSprain",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "扭伤时阻止自动保存。默认情况下仅在斜坡上行走时触发，但也可以切换至跌倒时触发。",
+    "Description": "扭伤时不再自动保存。默认仅适用于在斜坡上行走导致的扭伤，也可启用坠落造成扭伤时的设置。",
     "Aliases": [
       "Tiny Tweaks: No Save On Sprains",
       "TinyTweaks-NoSaveOnSprain"
@@ -14545,7 +14545,7 @@
     "Released": "2026-03-27",
     "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-nsos.webp"
+      "/thelongdark/assets/img/mods/eda16429a8b9bff584f65fec.webp?v=676c98a9fb62"
     ],
     "Status": {
       "working": true,
@@ -14561,14 +14561,14 @@
     ]
   },
   {
-    "DisplayName": "细微调整：暂停径向线",
+    "DisplayName": "微调：打开环形菜单时减速",
     "Name": "TinyTweaksPauseOnRadial",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "加载径向菜单时速度变慢。",
+    "Description": "打开环形菜单时减慢时间流逝。",
     "Aliases": [
       "Tiny Tweaks: Pause On Radial",
       "TinyTweaks-PauseOnRadial"
@@ -14598,7 +14598,7 @@
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-radialPause.webp"
+      "/thelongdark/assets/img/mods/d10faf88a44bfacd927dc782.webp?v=482873336cea"
     ],
     "Status": {
       "working": true,
@@ -14614,14 +14614,14 @@
     ]
   },
   {
-    "DisplayName": "微小调整：植物再生",
+    "DisplayName": "微调：植物重新生长",
     "Name": "TinyTweaksRespawnablePlants",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "可收获物会在 45 天后重新生长（可以更改）。可收获物包括所有生长物，例如树苗、地衣、蘑菇、橡子等。",
+    "Description": "可采集植物会在 45 天后重新生长（时间可调整）。包括所有会生长的资源，例如树苗、地衣、蘑菇和橡子等。",
     "Aliases": [
       "Tiny Tweaks: Plants Regrow",
       "TinyTweaks-RespawnablePlants"
@@ -14653,7 +14653,7 @@
     "Released": "2023-03-12",
     "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-regrow.webp"
+      "/thelongdark/assets/img/mods/70a7fa5795e0d6f29037b108.webp?v=90d4fbdd6459"
     ],
     "Status": {
       "working": true,
@@ -14669,14 +14669,14 @@
     ]
   },
   {
-    "DisplayName": "微调：使用 Lantern 运行",
+    "DisplayName": "微调：手持提灯奔跑",
     "Name": "TinyTweaksRunWithLantern",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "移除灯笼动画的限制：允许移动并移除镜头锁定。",
+    "Description": "移除提灯动画带来的限制：允许移动，并解除镜头锁定。",
     "Aliases": [
       "Tiny Tweaks: Run With Lantern",
       "TinyTweaks-RunWithLantern"
@@ -14704,7 +14704,7 @@
     "Released": "2023-10-15",
     "Updated": "2026-01-05",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-lantern.webp"
+      "/thelongdark/assets/img/mods/b339749f99a4313eb54f83d3.webp?v=451ae025af6c"
     ],
     "Status": {
       "working": true,
@@ -14720,14 +14720,14 @@
     ]
   },
   {
-    "DisplayName": "细微调整：快速交互",
+    "DisplayName": "微调：加快交互速度",
     "Name": "TinyTweaksSpeedyInteractions",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "调整所有非动画交互速度，包括制作、修理、采集、进食以及所有其他带有进度条的动作。",
+    "Description": "调整所有非动画交互的速度，包括制作、修理、采集、进食，以及其他带有进度圆环的操作。",
     "Aliases": [
       "Tiny Tweaks: Speedy Interactions",
       "TinyTweaks-SpeedyInteractions"
@@ -14757,7 +14757,7 @@
     "Released": "2026-05-08",
     "Updated": "2026-05-08",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/Speedy.webp"
+      "/thelongdark/assets/img/mods/cae86512168df3e021fa7261.webp?v=7fa54131c47d"
     ],
     "Status": {
       "working": true,
@@ -14773,14 +14773,14 @@
     ]
   },
   {
-    "DisplayName": "微调：唤醒",
+    "DisplayName": "微调：随时醒来",
     "Name": "TinyTweaksWakeUpCall",
     "Type": "mod",
     "Author": "Waltz",
     "DisplayAuthor": [
       "Waltz"
     ],
-    "Description": "允许您随意中断睡眠。可以选择在极光出现时唤醒，以及其他一些功能。",
+    "Description": "允许玩家随时中断睡眠。还可设置在极光出现时醒来，并提供其他选项。",
     "Aliases": [
       "Tiny Tweaks: Wakeup Call",
       "TinyTweaks-WakeUpCall"
@@ -14811,7 +14811,7 @@
     "Released": "2025-01-12",
     "Updated": "2026-03-27",
     "Images": [
-      "https://raw.githubusercontent.com/HAHAYOUDEAD/TLDModList/refs/heads/main/pics/TT-wakeup.webp"
+      "/thelongdark/assets/img/mods/2d83df835437ebc15c9ce256.webp?v=a3a4c2f9dbf6"
     ],
     "Status": {
       "working": true,
@@ -14827,14 +14827,14 @@
     ]
   },
   {
-    "DisplayName": "切换HUD",
+    "DisplayName": "界面指示器切换",
     "Name": "ToggleHUD",
     "Type": "mod",
     "Author": "ds5678",
     "DisplayAuthor": [
       "ds5678"
     ],
-    "Description": "允许玩家切换气味和时间指示器，而不是让它们在一段时间后消失。<br><br> <a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
+    "Description": "允许玩家切换气味和时间指示器，而不是让它们在一段时间后自动消失。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>",
     "Aliases": [
       "Toggle HUD",
       "Toggle-HUD"
@@ -14875,14 +14875,14 @@
     ]
   },
   {
-    "DisplayName": "工具升级",
+    "DisplayName": "工具升级蓝图",
     "Name": "ToolUpgrade",
     "Type": "mod",
     "Author": "TonisGaming",
     "DisplayAuthor": [
       "TonisGaming"
     ],
-    "Description": "增加了通过蓝图获取物品变体和其他物品的替代方法",
+    "Description": "通过蓝图新增获取物品变体及其他物品的替代方式。",
     "Aliases": [
       "Tool Upgrade"
     ],
@@ -14927,14 +14927,14 @@
     ]
   },
   {
-    "DisplayName": "工具质量",
+    "DisplayName": "工具品质与耐用度",
     "Name": "ToolsQuality",
     "Type": "mod",
     "Author": "ttr",
     "DisplayAuthor": [
       "ttr"
     ],
-    "Description": "保持工具锋利。工具状况不佳会增加操作时间。调整收获动物尸体/树枝的时间倍率。",
+    "Description": "保持工具锋利。工具耐久度较低时，执行操作所需时间会增加。可调整处理尸体和树枝时的采集时间倍率。",
     "Aliases": [
       "ToolsQuality"
     ],
@@ -14964,7 +14964,7 @@
     "Released": "",
     "Updated": "2025-02-07",
     "Images": [
-      "https://github.com/ttr/tld-ToolsQuality/raw/master/TQ-1.png"
+      "/thelongdark/assets/img/mods/b7c4362c50934ef1943e2cac.png?v=e190797846d0"
     ],
     "Status": {
       "working": true,
@@ -14981,14 +14981,14 @@
     ]
   },
   {
-    "DisplayName": "火炬微调器",
+    "DisplayName": "火把调整",
     "Name": "TorchTweaker",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "调整了一些火把参数，并允许玩家用灯笼点燃火把。",
+    "Description": "调整火把的若干参数，并允许玩家用提灯点燃火把。",
     "Aliases": [
       "Torch Tweaker"
     ],
@@ -15042,7 +15042,7 @@
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "新增一种狼的生成类型，无论你的气味强度如何，它都会追踪你穿越整个地图。小心背后！",
+    "Description": "新增一种狼，会无视你的气味等级并跨越地图持续追踪你。小心身后！",
     "Aliases": [
       "Tracking Wolf",
       "ExpandedAiFramework.TrackingWolfMod"
@@ -15088,14 +15088,14 @@
     ]
   },
   {
-    "DisplayName": "TranslatedTextures（俄语）",
+    "DisplayName": "俄语贴图翻译",
     "Name": "TranslatedTextures",
     "Type": "mod",
     "Author": "LittleWolfStorm",
     "DisplayAuthor": [
       "LittleWolfStorm"
     ],
-    "Description": "将所有纹理翻译成俄语！（特别感谢 mik5937 的测试和本地化帮助）",
+    "Description": "将所有贴图翻译成俄语！（特别感谢 mik5937 参与测试并协助本地化。）",
     "Aliases": [
       "TranslatedTextures (Rus)"
     ],
@@ -15123,7 +15123,7 @@
     "Released": "2026-08-25",
     "Updated": "2026-09-27",
     "Images": [
-      "https://raw.githubusercontent.com/WillWunderhorn/TranslatedTextures/refs/heads/master/TranslatedTextures(Russian).png"
+      "/thelongdark/assets/img/mods/cab943747183cdc8ea106029.png?v=c89f8705d916"
     ],
     "Status": {
       "working": true,
@@ -15137,7 +15137,7 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "擅闯者",
+    "DisplayName": "擅闯者难度",
     "Name": "Trespasser",
     "Type": "mod",
     "Author": "MonsieurMeh",
@@ -15146,7 +15146,7 @@
       "Flower Field",
       "Atmudia"
     ],
-    "Description": "新增一种介于潜行者和入侵者之间的全新难度模式。初始包含 3 场比赛，并有机会在世界各地找到入侵者模式禁用的物品。",
+    "Description": "新增介于潜行者与流浪者之间的独特难度。开局获得 3 根火柴，并有机会在世界各处找到流浪者难度中禁用的物品。",
     "Aliases": [
       "Trespasser"
     ],
@@ -15176,7 +15176,7 @@
     "Released": "2026-2-14",
     "Updated": "2026-2-14",
     "Images": [
-      "https://raw.githubusercontent.com/monsieurmeh/TrespasserMod/main/Assets/trespasser_bw_icon.png"
+      "/thelongdark/assets/img/mods/4bb661d40eab9a565fbc2b21.png?v=991f29dfabf4"
     ],
     "Status": {
       "working": true,
@@ -15192,14 +15192,14 @@
     ]
   },
   {
-    "DisplayName": "独特知识",
+    "DisplayName": "知识只读一次",
     "Name": "UniqueKnowledge",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "每本书只能读一遍。",
+    "Description": "每本书只能阅读一次。",
     "Aliases": [
       "Unique Knowledge"
     ],
@@ -15242,14 +15242,14 @@
     ]
   },
   {
-    "DisplayName": "UnityExplorerTLD",
+    "DisplayName": "《漫漫长夜》Unity Explorer",
     "Name": "UnityExplorerTLD",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "UnityExplorer 针对顶级域名进行了优化",
+    "Description": "针对《漫漫长夜》优化的 UnityExplorer。",
     "Aliases": [
       "UnityExplorerTLD",
       "UnityExplorerTLD_6.0.0"
@@ -15292,14 +15292,14 @@
     ]
   },
   {
-    "DisplayName": "通用调整",
+    "DisplayName": "通用机制调整",
     "Name": "UniversalTweaks",
     "Type": "mod",
     "Author": "Deadman",
     "DisplayAuthor": [
       "Deadman"
     ],
-    "Description": "Universal Tweaks 是《漫漫长夜》的一款模组，它通过以一种合乎逻辑的方式修改现有游戏元素来增强它们。",
+    "Description": "通过符合直觉的方式调整游戏机制，改进《漫漫长夜》中已有的玩法内容。",
     "Aliases": [
       "Universal Tweaks"
     ],
@@ -15340,7 +15340,7 @@
     "Released": "2023-10-14",
     "Updated": "2026-01-06",
     "Images": [
-      "https://raw.githubusercontent.com/Deaadman/UniversalTweaks/release/Images/Thumbnail.webp"
+      "/thelongdark/assets/img/mods/dd01ba910d1771c9a4f421ac.webp?v=7757de5709a3"
     ],
     "Status": {
       "working": true,
@@ -15357,14 +15357,14 @@
     ]
   },
   {
-    "DisplayName": "先用最差的，然后扔石头",
+    "DisplayName": "优先使用最差物品与投石标记",
     "Name": "UseTheWorstFirstAndDropStone",
     "Type": "mod",
     "Author": "Romain",
     "DisplayAuthor": [
       "Romain"
     ],
-    "Description": "允许您在环形菜单和其他情况下优先使用状态最差的物品。允许您丢弃石头/引火物而不是诱饵来标记路径。更多详情请参阅自述文件。",
+    "Description": "允许在环形菜单等场合优先使用耐久度最低的物品。<br>允许投掷石头或引火物来标记路线，而非使用诱饵。<br>更多详情请查看 ReadMe。",
     "Aliases": [
       "Use The Worst First And Drop Stone"
     ],
@@ -15410,14 +15410,14 @@
     ]
   },
   {
-    "DisplayName": "维生素C追踪器",
+    "DisplayName": "维生素 C 追踪器",
     "Name": "VitaminCTracker",
     "Type": "mod",
     "Author": "The Illusion",
     "DisplayAuthor": [
       "The Illusion"
     ],
-    "Description": "终于知道你体内有多少维生素C了！从此不再对维生素C一无所知！",
+    "Description": "终于可以知道自己摄入了多少维生素 C！不必再对自己的营养状况一无所知。",
     "Aliases": [
       "Vitamin C Tracker"
     ],
@@ -15462,14 +15462,14 @@
     ]
   },
   {
-    "DisplayName": "流浪狼",
+    "DisplayName": "游荡狼",
     "Name": "ExpandedAiFrameworkWanderingWolfMod",
     "Type": "mod",
     "Author": "MonsieurMeh",
     "DisplayAuthor": [
       "MonsieurMeh"
     ],
-    "Description": "创建一种新的狼生成类型，它会在地图上四处游荡，而不是待在一个小区域内。",
+    "Description": "新增一种狼，会在地图上四处游荡，而不是一直待在一小片区域内。",
     "Aliases": [
       "Wandering Wolf",
       "ExpandedAiFramework.WanderingWolfMod"
@@ -15522,7 +15522,7 @@
     "DisplayAuthor": [
       "Deadman"
     ],
-    "Description": "对《漫漫长夜》中时间叙述方式的修改。",
+    "Description": "调整《漫漫长夜》中显示时间的方式。",
     "Aliases": [
       "Watches"
     ],
@@ -15554,7 +15554,7 @@
     "Released": "2024-08-12",
     "Updated": "2026-01-10",
     "Images": [
-      "https://raw.githubusercontent.com/Deaadman/watches/main/Images/Thumbnail.webp"
+      "/thelongdark/assets/img/mods/7cf994e712c52e0690b8a647.webp?v=7a87ec6910c3"
     ],
     "Status": {
       "working": true,
@@ -15571,7 +15571,7 @@
     ]
   },
   {
-    "DisplayName": "天气显示",
+    "DisplayName": "天气信息显示",
     "Name": "WeatherDisplay",
     "Type": "mod",
     "Author": "hzb1130",
@@ -15620,14 +15620,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "天气大修",
+    "DisplayName": "天气系统改造",
     "Name": "WeatherOverhaul",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "一个旨在使原版游戏天气可预测并添加新的自定义天气阶段的模组",
+    "Description": "让原版天气变得可预测，并加入新的自定义天气阶段。",
     "Aliases": [
       "WeatherOverhaul"
     ],
@@ -15666,14 +15666,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "轻型木工工具",
+    "DisplayName": "轻量木工工具",
     "Name": "WeightlessWoodworkingTools",
     "Type": "mod",
     "Author": "Data-0",
     "DisplayAuthor": [
       "Data-0"
     ],
-    "Description": "这使得木工工具的重量几乎可以忽略不计。玩家不应该因为想要装饰自己的家而受到惩罚。",
+    "Description": "大幅降低木工工具的重量。玩家不应仅仅因为想装饰自己的家就受到惩罚。",
     "Aliases": [
       "Weightless Woodworking Tools",
       "WeightlessTools"
@@ -15701,7 +15701,7 @@
     "Released": "2026-03-11",
     "Updated": "2026-03-11",
     "Images": [
-      "https://raw.githubusercontent.com/Data-0/ModsJson_And_Images/refs/heads/main/woodTools.png"
+      "/thelongdark/assets/img/mods/378d5e32f10686d3c71aa179.png?v=093cd8280d7a"
     ],
     "Status": {
       "working": true,
@@ -15715,7 +15715,7 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "野火",
+    "DisplayName": "野火效果自定义",
     "Name": "WildFire",
     "Type": "mod",
     "Author": "MooseMeat",
@@ -15723,7 +15723,7 @@
       "MooseMeat",
       "Marcy"
     ],
-    "Description": "这是一个适用于《漫漫长夜》的模组，它为火焰添加了颜色、烟雾和火花自定义功能，以及 6 件新的装备物品，并使一些原版物品可以燃烧。",
+    "Description": "允许自定义火焰的颜色、烟雾和火花，新增 6 种装备物品，并使多种原版物品可以燃烧。",
     "Aliases": [
       "WildFire"
     ],
@@ -15753,7 +15753,7 @@
     "Released": "2025-11-13",
     "Updated": "2026-2-2",
     "Images": [
-      "https://raw.githubusercontent.com/moosemeat817/ModListJson/main/ML_WildFire.jpg"
+      "/thelongdark/assets/img/mods/fba38613630d82bb2ea2d167.jpg?v=eff3bd1f59ef"
     ],
     "Status": {
       "working": true,
@@ -15767,14 +15767,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "野生动物调谐",
+    "DisplayName": "野生动物行为调整",
     "Name": "WildlifeTuning",
     "Type": "mod",
     "Author": "BA",
     "DisplayAuthor": [
       "BA"
     ],
-    "Description": "TLD mod 可以随机化动物行为配置。",
+    "Description": "随机调整动物行为配置。",
     "Aliases": [
       "Wildlife Tuning"
     ],
@@ -15817,14 +15817,14 @@
     ]
   },
   {
-    "DisplayName": "风向修复",
+    "DisplayName": "风速移动惩罚修复",
     "Name": "WindMovementFix",
     "Type": "mod",
     "Author": "EtherSystem",
     "DisplayAuthor": [
       "EtherSystem"
     ],
-    "Description": "修复了一个风速减益的bug",
+    "Description": "修复风速导致移动减益的错误。",
     "Aliases": [
       "WindMovementFix"
     ],
@@ -15863,14 +15863,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "狼嚎修复",
+    "DisplayName": "狼嚎音效修复",
     "Name": "WolfHowlFix",
     "Type": "mod",
     "Author": "Lycanthor",
     "DisplayAuthor": [
       "Lycanthor"
     ],
-    "Description": "修复了“放弃追逐”计时器的故障，该故障会导致狼嚎声断断续续并无限循环，在极光之夜尤为明显。熊和美洲狮也存在同样的缺陷，现已修复。所有动物的数值调整均未更改。",
+    "Description": "修复“放弃追逐”计时器故障，该故障会导致狼嚎不断卡顿并重新播放，在极光之夜尤为明显。熊和美洲狮也存在相同问题，本模组一并修复；不会调整任何动物的行为参数。",
     "Aliases": [
       "Wolf Howl Fix"
     ],
@@ -15899,8 +15899,8 @@
     "Released": "2026-07-31",
     "Updated": "2026-07-31",
     "Images": [
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/WolfHowlFix_Release.gif",
-      "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/main/WolfHowlFix_Settings.png"
+      "/thelongdark/assets/img/mods/274306cff1d9a6a24c2d0db6.gif?v=c78405274c2d",
+      "/thelongdark/assets/img/mods/73812e7cf7afc6dddebd9c37.png?v=cfd7a71a6b00"
     ],
     "Status": {
       "working": true,
@@ -15914,14 +15914,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "狼群夜间出没",
+    "DisplayName": "狼只在夜间出没",
     "Name": "WolvesComeOutAtNight",
     "Type": "mod",
     "Author": "Cass",
     "DisplayAuthor": [
       "Cass"
     ],
-    "Description": "防止狼在白天生成。可按区域设置，也可设置为全局生效。完整说明请参见README文件。",
+    "Description": "阻止狼在白天刷新。可按区域设置，也可应用于所有区域。完整说明请查看 README。",
     "Aliases": [
       "Wolves Come Out At Night"
     ],
@@ -15962,14 +15962,14 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "TKG 出品的木雕作品",
+    "DisplayName": "TKG 木雕",
     "Name": "WoodenStatues",
     "Type": "mod",
     "Author": "Thekillergreece",
     "DisplayAuthor": [
       "Thekillergreece"
     ],
-    "Description": "推出 4 款木制动物雕像，大小不一。",
+    "Description": "新增 4 个木制动物雕像，包括大、小两种尺寸。",
     "Aliases": [
       "Wooden Statues by 'TKG'",
       "WoodenStatuesByTKG"
@@ -16017,14 +16017,14 @@
     ]
   },
   {
-    "DisplayName": "工作钟",
+    "DisplayName": "可运行的时钟",
     "Name": "WorkingClocks",
     "Type": "mod",
     "Author": "Xpazeman",
     "DisplayAuthor": [
       "Xpazeman"
     ],
-    "Description": "《漫漫长夜》的MOD，可以让游戏中的一些时钟正常工作。",
+    "Description": "让游戏中的部分时钟开始运转。",
     "Aliases": [
       "Working Clocks"
     ],
@@ -16068,14 +16068,14 @@
     ]
   },
   {
-    "DisplayName": "是的，我知道",
+    "DisplayName": "我知道了",
     "Name": "YesIKnow",
     "Type": "mod",
     "Author": "Digitalzombie",
     "DisplayAuthor": [
       "Digitalzombie"
     ],
-    "Description": "禁用物品和/或火焰的悬停文本。",
+    "Description": "禁用物品和/或火源上的悬停提示文字。",
     "Aliases": [
       "Yes I Know"
     ],

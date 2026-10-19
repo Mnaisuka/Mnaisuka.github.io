@@ -1,0 +1,1230 @@
+{
+  "AbsoluteCinema": {
+    "DisplayName": "绝对影院",
+    "Description": "新增 10 种实用的电影拍摄与镜头控制工具！<br>内置操作教程。<br>感谢 Système Éther 提供部分机制建议！"
+  },
+  "AdaptiveArsenal": {
+    "DisplayName": "自适应武器库",
+    "Description": "自适应武器库旨在改进《漫漫长夜》现有的武器机制。"
+  },
+  "AdjustableWalkSpeed": {
+    "DisplayName": "步行速度调节",
+    "Description": "使用鼠标滚轮调节步行速度，放慢脚步，享受更具电影感的荒野时刻。"
+  },
+  "AfflictionComponent": {
+    "DisplayName": "疾病效果组件",
+    "Description": "为模组开发者提供扩展框架，可向游戏中添加自定义疾病效果。"
+  },
+  "AfflictionsAndBuffs": {
+    "DisplayName": "疾病与增益",
+    "Description": "新增 4 种负面状态和 4 种增益效果！"
+  },
+  "AfraidoftheDark": {
+    "DisplayName": "惧怕黑暗",
+    "Description": "让角色在夜晚感到不安。"
+  },
+  "AlcoholMod": {
+    "DisplayName": "酒精系统扩展",
+    "Description": "ModComponent 的可选扩展，用于启用酒精机制。未安装时，含酒精的食物会按普通食物处理。"
+  },
+  "AllRandomLayoutsAtOnce": {
+    "DisplayName": "同时启用所有随机布局",
+    "Description": "在同一轮游戏中组合启用所有随机布局。"
+  },
+  "AlternativeParasitesAtMaxLvl": {
+    "DisplayName": "烹饪满级时的替代寄生虫",
+    "Description": "烹饪技能达到 5 级时重新启用肠道寄生虫，并采用较轻的负面影响。效果仅作用于烹饪技能满级的角色。"
+  },
+  "AlternativeActionUtilities": {
+    "DisplayName": "自定义交互工具",
+    "Description": "用于为游戏物件添加自定义点击操作的工具模组。"
+  },
+  "AmbientLights": {
+    "DisplayName": "环境光照",
+    "Description": "调整带窗室内的默认光照，让房间更加明亮，白天活动时不再总需要额外光源；室内亮度也会随室外时段、天气和太阳位置变化。"
+  },
+  "ExpandedAiFrameworkAmbushWolfMod": {
+    "DisplayName": "伏击狼",
+    "Description": "新增一种潜伏型狼群：它们会藏在地图各处，等待你经过……"
+  },
+  "AmmunitionCraftingTools": {
+    "DisplayName": "弹药制作工具",
+    "Description": "重做弹药制作流程。制作难度有所提高，但过程更有趣，完成后也更有成就感。"
+  },
+  "AnimalRespawnTimeMod": {
+    "DisplayName": "动物重生时间调节",
+    "Description": "通过 ModSettings 按天调整动物的重生间隔。"
+  },
+  "AnimalSounds": {
+    "DisplayName": "动物叫声",
+    "Description": "让角色可以像狼一样嚎叫，还有更多声音……"
+  },
+  "Architect": {
+    "DisplayName": "建筑师",
+    "Description": "模块化基地建造模组。"
+  },
+  "ArrowMod": {
+    "DisplayName": "箭矢制作调整",
+    "Description": "可调整箭矢与箭头的制作耗时，并增加箭矢制作选项。<br><br>更改设置后可能需要重启游戏。"
+  },
+  "AudioCore": {
+    "DisplayName": "音频核心",
+    "Description": "这是一个插件！这是插件！这是插件！安装前请确认你需要的是插件。"
+  },
+  "AudioManager": {
+    "DisplayName": "音频管理器",
+    "Description": "用于加载自定义音效并控制原版音频的辅助模组。<br><br>可关闭照明弹和瀑布音效、调整室内风声等环境音量，以及调节极光音乐音量。"
+  },
+  "AuroraMonitor": {
+    "DisplayName": "极光监测器",
+    "Description": "仍在开发中的天气控制模组，计划逐步开放完整天气调节功能。目前可控制极光，并在急救界面显示天气数据。"
+  },
+  "AutoUpdatingPlugin": {
+    "DisplayName": "插件自动更新器",
+    "Description": "插件，可自动更新大多数模组和插件。"
+  },
+  "AutoFillMaponExplore": {
+    "DisplayName": "探索时自动绘制地图",
+    "Description": "<p>探索时自动绘制周围地图，绘制范围可自行设置。与 Map Manager 完全兼容。</p><p>详细信息请参阅<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/AutoFillMapOnExplore#readme\">项目说明</a>。</p>"
+  },
+  "AutoTorchLight": {
+    "DisplayName": "火把熄灭后自动点燃",
+    "Description": "当前一支火把燃尽时，自动点燃下一支火把。"
+  },
+  "BaltaTools": {
+    "DisplayName": "Balta 工具集",
+    "Description": "为游戏添加几种实用工具。"
+  },
+  "BaltaTweaks": {
+    "DisplayName": "Balta 调整合集",
+    "Description": "BaltaZar 制作的一组小型调整。"
+  },
+  "BeachcombingAdjustments": {
+    "DisplayName": "海滩拾荒调整",
+    "Description": "允许调整海滩拾荒时可以找到的物品。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>"
+  },
+  "BedrollTweaker": {
+    "DisplayName": "睡袋属性调整",
+    "Description": "可调整各类睡袋的保暖度、重量和损耗速度。<br>还可启用不同睡袋保暖加成的叠加效果。"
+  },
+  "BetterCamera": {
+    "DisplayName": "相机功能增强",
+    "Description": "增强相机功能，支持缩放、将照片保存到磁盘等操作。"
+  },
+  "BetterNightSky": {
+    "DisplayName": "夜空改造",
+    "Description": "全面改造夜空：加入流星雨等新内容，并为月亮和星星带来全新外观。"
+  },
+  "BetterSkillXP": {
+    "DisplayName": "技能经验调整",
+    "Description": "技能点数会根据你进行各项活动所花费的时间获得；相关时间参数可以调整。"
+  },
+  "BetterWaterManagement": {
+    "DisplayName": "饮水管理优化",
+    "Description": "改进《漫漫长夜》中的饮水管理方式。<br><br><a href='https://github.com/dommrogers/Better-Water-Management' target='_blank'>安装说明</a>"
+  },
+  "BiggerTrappers": {
+    "DisplayName": "扩建捕兽人小屋",
+    "Description": "扩建神秘湖的捕兽人小屋，让它变得更宽敞。室内和室外都沿一个方向扩展。"
+  },
+  "BleedingRevamped": {
+    "DisplayName": "动物流血机制改造",
+    "Description": "改造动物受伤后的流血机制。"
+  },
+  "BlueprintCleaner": {
+    "DisplayName": "蓝图列表整理",
+    "Description": "为制作和烹饪界面带来便利：可随时隐藏或显示蓝图与配方，让界面保持整洁。"
+  },
+  "BountifulForaging": {
+    "DisplayName": "野外采集丰收",
+    "Description": "在野外寻找食物和实用材料。"
+  },
+  "BowRepair": {
+    "DisplayName": "弓具维修",
+    "Description": "让所有弓都可以修理，并可自定义修理材料和地点。"
+  },
+  "BricklayersDoorFix": {
+    "DisplayName": "砖匠隐居处门扉修复",
+    "Description": "修复砖匠隐居处的门。"
+  },
+  "CaffeinatedSodas": {
+    "DisplayName": "含咖啡因汽水",
+    "Description": "汽水现在可以少量缓解疲劳。汽水通常含有咖啡因，总该能让你提提神吧？"
+  },
+  "CampingTools": {
+    "DisplayName": "露营工具",
+    "Description": "为户外探险准备的实用工具。"
+  },
+  "Candlelight": {
+    "DisplayName": "烛光",
+    "Description": "新增蜡烛和用于制作蜡烛的材料。"
+  },
+  "CanisterRefill": {
+    "DisplayName": "呼吸器气罐填充",
+    "Description": "允许为呼吸器使用的空气罐重新充气。"
+  },
+  "CanneryManufacturing": {
+    "DisplayName": "罐头厂工作台改良",
+    "Description": "改善黯淡海湾 Last Resort 罐头厂工作间的使用体验，尤其适用于流浪者难度。"
+  },
+  "CarcassYieldTweaker": {
+    "DisplayName": "尸体收获量调整",
+    "Description": "调整动物尸体可获得的材料数量和采集所需时间。"
+  },
+  "CatchColdMod": {
+    "DisplayName": "感冒机制",
+    "Description": "新增感冒机制：角色可能患上感冒、逐渐产生抵抗力；若病情恶化，还可能发展为肺炎。"
+  },
+  "ChangeCustomSettings": {
+    "DisplayName": "游戏中调整自定义设置",
+    "Description": "允许在游戏进行期间修改难度设置。"
+  },
+  "ChooseStartingGearRedux": {
+    "DisplayName": "自选初始装备 Redux",
+    "Description": "取代 Choose Starting Gear、DLC-Choose Starting Gear 和 DLC 版本。开局时选择你想携带的物品。"
+  },
+  "ChooseStartingLocationTFTFT": {
+    "DisplayName": "自选出生地点",
+    "Description": "开始新的沙盒游戏时，可选择出生地点。包含 300 多个地点，覆盖所有区域和难度。完整说明请见 README。"
+  },
+  "ChooseStartingCondition": {
+    "DisplayName": "自选开局状态",
+    "Description": "允许在新游戏开始时设置角色状态，包括疲劳、饥饿、口渴、体温、伤势和疾病。"
+  },
+  "ClothingExpanded": {
+    "DisplayName": "服装配饰扩展",
+    "Description": "允许将配饰与服装搭配穿戴，让角色同时装备更多配饰。"
+  },
+  "ClothingTweaker2": {
+    "DisplayName": "服装属性调整 2",
+    "Description": "重新构思的服装调整工具，可在游戏过程中编辑服装属性。"
+  },
+  "CoastalConnection": {
+    "DisplayName": "沿海公路连通",
+    "Description": "打通沿海公路与黯淡海湾之间的道路。"
+  },
+  "CollectorCards": {
+    "DisplayName": "收藏卡片",
+    "Description": "在大熊岛各处寻找一套手绘收藏卡片！"
+  },
+  "ExpandedAiFrameworkCompanionWolfMod": {
+    "DisplayName": "伙伴狼",
+    "Description": "新增一种狼：可以用肉引诱，最终驯服为伙伴。模组仍处于早期开发阶段，目前可以让幼狼跟随并成长，但除了让你的肉类储备消耗得更快之外，还没有实际功能。"
+  },
+  "ComplexLogger": {
+    "DisplayName": "详细日志记录",
+    "Description": "为游戏加入更详尽的日志记录功能。"
+  },
+  "CoordinatesGrabber": {
+    "DisplayName": "交互物件坐标查看器",
+    "Description": "实用工具模组，可查看或复制可交互物件的名称、位置、旋转角度和场景信息。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>"
+  },
+  "CougarBackpack": {
+    "DisplayName": "美洲狮皮背包",
+    "Description": "用美洲狮皮制作的背包。可升级为驼鹿皮挎包。"
+  },
+  "CougarSoundBegone": {
+    "DisplayName": "移除美洲狮主菜单音效",
+    "Description": "启动游戏时移除主菜单中美洲狮的音效。"
+  },
+  "CozyBlankets": {
+    "DisplayName": "温暖毯子",
+    "Description": "在寒冷的冬夜里为你增添暖意。原作者：ds5678。"
+  },
+  "CozyCushions": {
+    "DisplayName": "舒适靠垫",
+    "Description": "新增 14 种可制作的靠垫；可以坐在椅子、长凳、马桶等物件上，并可选择启用增益效果。"
+  },
+  "CraftAnywhereRedux": {
+    "DisplayName": "随处制作 Redux",
+    "Description": "调整原版可制作物品的制作地点限制。"
+  },
+  "CraftingRevisions": {
+    "DisplayName": "制作系统改进",
+    "Description": "** 此功能现已并入 ModComponent 7.0.0。<br />改进制作界面，并允许创建自定义蓝图和配方。"
+  },
+  "CraftingHotkey": {
+    "DisplayName": "制作界面快捷键",
+    "Description": "为制作菜单添加快捷键。"
+  },
+  "CustomWhiteout": {
+    "DisplayName": "自定义暴风雪挑战",
+    "Description": "在《漫漫长夜》中体验自定义的暴风雪挑战。"
+  },
+  "DarkerNights": {
+    "DisplayName": "更深沉的夜色",
+    "Description": "让《漫漫长夜》的夜晚更加黑暗，带来新的生存挑战。"
+  },
+  "DeadAirReborn": {
+    "DisplayName": "DeadAir 复刻版",
+    "Description": "复刻 TonisGaming 制作的 DeadAir 模组。"
+  },
+  "DebugOutput": {
+    "DisplayName": "调试信息输出",
+    "Description": "<p>专为模组开发者制作的调试工具。</p><p>启用特殊调试模式后，可通过文字或表格实时查看重要的模组参数，帮助排查问题。</p><p>更多信息请参阅<a href=\"https://github.com/Danileros/DebugOutput/blob/main/README.MD\">项目说明</a>。</p>"
+  },
+  "DeveloperConsole": {
+    "DisplayName": "开发者控制台",
+    "Description": "在游戏中启用 Hinterland 的开发者控制台。按 F1 打开或关闭控制台，输入“help”可查看命令列表。"
+  },
+  "DeveloperConsoleWintermute": {
+    "DisplayName": "冬日秘境开发者控制台",
+    "Description": "剧情模式控制台。详细操作说明请查看版本发布说明。"
+  },
+  "DroppableUndroppables": {
+    "DisplayName": "允许丢弃特殊物品",
+    "Description": "不受限制地在任何地点丢弃物品，不再受无法丢弃的收藏品、相机或短波收音机所限。"
+  },
+  "DualSenseX": {
+    "DisplayName": "DualSenseX",
+    "Description": "请查看 GitHub 上的使用说明。"
+  },
+  "DuplicateItemFix": {
+    "DisplayName": "重复物品修复",
+    "Description": "修复树枝、石头、煤炭等物品在同一地点反复刷新的问题。每次载入区域时会清理存档中的异常数据。无需设置，自动运行。"
+  },
+  "DynamicTemperature": {
+    "DisplayName": "动态温度",
+    "Description": "为室内避难所加入动态温度与简化的热力模拟。让你的安全屋保持温暖！"
+  },
+  "DynamicTrees": {
+    "DisplayName": "动态树木",
+    "Description": "动态调整树木的枝叶贴图，呈现逐渐积累的降雪效果，进一步增强游戏的沉浸感。"
+  },
+  "DynamicWorld": {
+    "DisplayName": "动态世界",
+    "Description": "加入地震等动态事件，让大熊岛随着时间推移不断变化，更显生机。"
+  },
+  "EdiblePlants": {
+    "DisplayName": "可食用植物",
+    "Description": "采集到的植物可以食用，并可自定义其热量和维生素 C 含量。"
+  },
+  "EternalWeather": {
+    "DisplayName": "持久在线天气",
+    "Description": "允许玩家从多种天气状态中选择一种，并让该天气持续不变。"
+  },
+  "ExamineActionsAPI": {
+    "DisplayName": "检查动作 API",
+    "Description": "用于创建自定义检查动作的模组开发框架。"
+  },
+  "ExpandedAiFramework": {
+    "DisplayName": "扩展 AI 框架",
+    "Description": "为新增的生物生成机制和 AI 行为提供必要的开发框架。"
+  },
+  "ExpandedSkills": {
+    "DisplayName": "技能等级扩展",
+    "Description": "将原版技能的最高等级扩展至 10 级。"
+  },
+  "ExpandedTradingFramework": {
+    "DisplayName": "交易系统扩展框架",
+    "Description": "为交易者创建自定义交易内容的开发框架。"
+  },
+  "ExportJournal": {
+    "DisplayName": "导出日志",
+    "Description": "适用于《漫漫长夜》2.51 及以上版本，可导出当前存档中的日志数据。"
+  },
+  "ExtraGraphicsSettings": {
+    "DisplayName": "额外画面设置",
+    "Description": "为游戏画面添加更多可调选项。"
+  },
+  "ExtremeTemperatureDrop": {
+    "DisplayName": "极端降温",
+    "Description": "调整温度下降的幅度。"
+  },
+  "FastTravel": {
+    "DisplayName": "快速旅行",
+    "Description": "<p>保存任意数量的地点，并可随时一键快速前往。包含多种平衡性选项；例如，探索世界时可保留一个固定的家，不必每到一个区域就费力搬运所有囤积物资。</p><p>详情请参阅<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#readme\">项目说明</a>和<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/FastTravel#save-safety\">存档安全说明</a>。</p>"
+  },
+  "FasterHarvesting": {
+    "DisplayName": "加快采集速度",
+    "Description": "提供自定义选项，可调整采集物品所需的时间。"
+  },
+  "FatDestroyer": {
+    "DisplayName": "清理变质动物脂肪",
+    "Description": "移除世界各处状态不佳的动物脂肪，避免它们永远腐坏在门外。"
+  },
+  "FeatSettings": {
+    "DisplayName": "生存专长设置",
+    "Description": "开放生存专长的效果与解锁设置，可解锁旧版专长“大型猫科猎手”。还可消除通过漏洞或控制台以非正常方式解锁专长时的启动音效，并自定义各难度下可启用的专长数量。"
+  },
+  "FiligranisSkills": {
+    "DisplayName": "Filigrani 技能",
+    "Description": "自定义技能 API。"
+  },
+  "FirePackDLC": {
+    "DisplayName": "生火工具包 DLC",
+    "Description": "新增可再生的生火工具。原作者：ds5678 和 WulfMarius。"
+  },
+  "FireAddons": {
+    "DisplayName": "生火扩展",
+    "Description": "加入阴燃灰烬、根据温度计算烹饪时间，以及不同引火物提供不同生火加成等功能。详情请查看 GitHub 上的项目说明。"
+  },
+  "FixSteamWorkshopItems": {
+    "DisplayName": "Steam 创意工坊物品修复",
+    "Description": "快速修复模组，重新启用创意工坊的本地化文件。"
+  },
+  "FoodPackByTKG": {
+    "DisplayName": "TKG 食物包",
+    "Description": "为游戏新增 38 种食物。<br><br>此模组专为配合 Waltz 的模组扩展，建议一并下载。"
+  },
+  "FoodTweaker": {
+    "DisplayName": "食物调整工具",
+    "Description": "食物调整工具。它能做什么？当然是调整食物。"
+  },
+  "FoodsByCalorieWaltz": {
+    "DisplayName": "Calorie Waltz 食物包",
+    "Description": "新增 20 多种独特美味的<a href='https://raw.githubusercontent.com/HAHAYOUDEAD/FoodsByCalorieWaltz/main/Images/allRender2.png' target='_blank'>食物与饮品</a>，还包含可爱的收藏品和实用设置！<br><br>将文件解压到 .../Mods/ 目录即可安装。"
+  },
+  "ForagersDelight": {
+    "DisplayName": "采集者的乐趣",
+    "Description": "为所有衣物增加少量（可自定义）的负重加成。"
+  },
+  "ForgeBlueprintsDLC": {
+    "DisplayName": "锻炉蓝图 DLC",
+    "Description": "为锻炉增加更多蓝图。原作者：ds5678。"
+  },
+  "FortifiedLookouts": {
+    "DisplayName": "瞭望点加固扩建",
+    "Description": "扩建瞭望点、增设一座标准尺寸的内嵌瞭望台，并抬高窗户以改善视野。适用于神秘湖、沿海公路和黯淡海湾。"
+  },
+  "FoxCompanion": {
+    "DisplayName": "狐狸伙伴",
+    "Description": "为孤独的《漫漫长夜》玩家带来一只小狐狸伙伴。"
+  },
+  "FreeLook": {
+    "DisplayName": "自由视角",
+    "Description": "行走时终于可以自由环顾四周！留意附近的掠食者，也可以欣赏沿途风景。"
+  },
+  "FriendlyInlet": {
+    "DisplayName": "友善的黯淡海湾",
+    "Description": "将木材刷新点重新分配到海岸，并减少、调整部分狼群刷新位置，让黯淡海湾更适合生存。"
+  },
+  "FrozenFood": {
+    "DisplayName": "食物冷冻",
+    "Description": "让食物随时间逐渐冻结，为游戏增添几分真实感。"
+  },
+  "FuelManager": {
+    "DisplayName": "燃料管理器",
+    "Description": "提供多项便利功能，帮助管理各种燃料物品，并包含 Better-Fuel-Management 的全部功能。"
+  },
+  "FullSwing": {
+    "DisplayName": "冰箱门全幅开启",
+    "Description": "调整冰箱门的开启速度和旋转角度。"
+  },
+  "GearDecayModifier": {
+    "DisplayName": "装备损耗速度调整",
+    "Description": "调整《漫漫长夜》中各类装备的损耗速度。可从完全停止损耗到大幅加快损耗，并能按类别分别设置。"
+  },
+  "GearInfo": {
+    "DisplayName": "装备信息",
+    "Description": "在物品栏中显示额外的装备信息；点击装备名称旁的小型“i”按钮即可查看。"
+  },
+  "GearPerfectConditionMod": {
+    "DisplayName": "指定装备满状态",
+    "Description": "将指定的拾取装备设置为 100% 状态，可通过 JSON 自定义。默认包括：火柴、灯油、放大镜、消毒剂和保温瓶。"
+  },
+  "GearSpawner": {
+    "DisplayName": "装备生成器",
+    "Description": "** 此功能现已并入 ModComponent 7.0.0。<br />用于生成模组物品的实用工具。"
+  },
+  "GreatBareIsland": {
+    "DisplayName": "荒寂大熊岛",
+    "Description": "大熊岛的另一种地图版本：移除大多数小屋、拖车和普通房屋，或将它们替换为废墟，带来全新挑战。"
+  },
+  "HUDPositioner": {
+    "DisplayName": "界面位置调整",
+    "Description": "通过 Mod Settings 扩展自定义游戏界面的能力：更改界面元素的锚定位置，并自由调整其屏幕坐标。"
+  },
+  "HUDTweaks": {
+    "DisplayName": "界面显示调整",
+    "Description": "启用或禁用部分界面元素，让游戏体验更具沉浸感。"
+  },
+  "Halloween": {
+    "DisplayName": "嚎叫万圣节",
+    "Description": "“嚎叫万圣节”特别内容，由 Discord 模组社区带来。"
+  },
+  "HarvestYieldTweaker": {
+    "DisplayName": "拆解产出调整",
+    "Description": "允许玩家调整拆解特定物品时获得的材料数量。"
+  },
+  "HotkeyMod": {
+    "DisplayName": "快捷装备键",
+    "Description": "简易快捷键模组。装备枪械时，优先装备弹匣中子弹最多的枪（需列入 JSON 配置）；装备火把时，优先选择耐久最低的一支。若未触发以上规则，则装备列表中的第一件物品。支持衣物与配饰，并提供切换功能：第一次按键装备指定衣物，再次按键则换回原本穿戴的物品。更多详情请查看项目仓库。"
+  },
+  "HouseLights": {
+    "DisplayName": "房屋照明",
+    "Description": "让大熊岛的电力奇迹般恢复！再也不用摸黑在房屋里跌跌撞撞。"
+  },
+  "HowToRead": {
+    "DisplayName": "如何阅读",
+    "Description": "这个模组专门用来测试不看说明的用户。请不要安装它。如果你读到了这里，说明你通过了测试。"
+  },
+  "HungerRevamped": {
+    "DisplayName": "饥饿系统改造",
+    "Description": "改进饥饿系统，将饥饿感与体内储存的热量分开计算。提供多种烹饪自定义选项，例如允许烹煮已变质的食物。"
+  },
+  "HuntBroadcast": {
+    "DisplayName": "狩猎信息播报",
+    "Description": "播报造成的伤害和击杀信息。"
+  },
+  "ImprovedAfflictions": {
+    "DisplayName": "疾病效果强化",
+    "Description": "全面改造多种疾病效果：延长持续时间、加重致命影响，让生存挑战更加严峻。"
+  },
+  "ImprovedClothing": {
+    "DisplayName": "服装功能改进",
+    "Description": "新增在雪地和冰面行走、遭受动物攻击时衣物变湿的效果，并提供从角色身上快速放置衣物的新方式。"
+  },
+  "ImprovedCougar": {
+    "DisplayName": "美洲狮机制改进",
+    "Description": "新增并调整与美洲狮相关的游戏机制。"
+  },
+  "ImprovedFlasks": {
+    "DisplayName": "保温瓶改进",
+    "Description": "为保温瓶加入新的便利功能。"
+  },
+  "ImprovedLoadingScreens": {
+    "DisplayName": "加载画面改进",
+    "Description": "改进游戏加载画面，加入自定义提示、背景图片，并允许启用或禁用多种加载画面元素。"
+  },
+  "ImprovedMagnifyingLens": {
+    "DisplayName": "放大镜生火改进",
+    "Description": "让使用放大镜点火的过程更贴近真实情况。"
+  },
+  "ImprovedRestForAll": {
+    "DisplayName": "所有模式均可恢复休息状态",
+    "Description": "在自定义模式中，即使将“休息期间恢复状态”设为“无”，也能通过 Improved Rest 增益恢复角色状态。"
+  },
+  "ImprovedSoundtrack": {
+    "DisplayName": "游戏配乐扩展",
+    "Description": "扩充游戏配乐的播放条件，让原声带中稀有或已移除的曲目有机会响起，并加入发现新地点时的提示音。"
+  },
+  "ImprovedTales": {
+    "DisplayName": "信号虚空剧情改进",
+    "Description": "为“信号虚空”剧情任务加入多项便利性自定义选项。"
+  },
+  "ImprovedTrader": {
+    "DisplayName": "交易者改进",
+    "Description": "在世界各处加入新的交易者箱子，并调整交易者相关内容。"
+  },
+  "ImprovedFirstAidPanel": {
+    "DisplayName": "急救面板改进",
+    "Description": "优化急救面板的使用体验，加入按身体部位筛选和直接治疗按钮。"
+  },
+  "InDoorTemp": {
+    "DisplayName": "室内温度调整",
+    "Description": "让室内温度与室外温度保持一致。雪洞、汽车和洞穴等避难所不再提供固定温度加成。"
+  },
+  "IndoorCampfires": {
+    "DisplayName": "室内营火",
+    "Description": "允许在室内生起营火。"
+  },
+  "IndoorsGreenery": {
+    "DisplayName": "室内种植",
+    "Description": "打造室内农场，让植物重新生长。"
+  },
+  "InfiniteCheatDeath": {
+    "DisplayName": "无限次死里逃生",
+    "Description": "允许无限次复活。死里逃生的惩罚不会因此移除。"
+  },
+  "InfiniteFires": {
+    "DisplayName": "永不熄灭的火焰",
+    "Description": "世界转动不息，火焰也从未熄灭。"
+  },
+  "MyPicturesMod": {
+    "DisplayName": "室内墙面装饰画",
+    "Description": "用图片装饰你的基地，也可以上传自己的图片。"
+  },
+  "InterloperRegionSelection": {
+    "DisplayName": "流浪者难度出生区域选择",
+    "Description": "在流浪者难度下选择初始出生区域。"
+  },
+  "InterloperHUDPro": {
+    "DisplayName": "流浪者 HUD 增强",
+    "Description": "新增若干游戏界面信息显示。"
+  },
+  "InventoryReassignments": {
+    "DisplayName": "物品栏分类调整",
+    "Description": "允许将各类装备重新分配到不同的物品栏分类中。"
+  },
+  "ItemPiles": {
+    "DisplayName": "物品堆叠蓝图",
+    "Description": "为堆放成堆的物品添加制作蓝图。"
+  },
+  "ItemRarities": {
+    "DisplayName": "物品稀有度",
+    "Description": "为《漫漫长夜》中的每件物品赋予独特的稀有程度。"
+  },
+  "ItemPicker": {
+    "DisplayName": "快速拾取",
+    "Description": "拾取树枝、石头等物品时跳过检查界面。<br><br>可一次拾取周围一定范围内的所有树枝、石头或其他物品，并可选择是否消耗热量。<br><br>所有选项均可自定义。"
+  },
+  "ItemScanner": {
+    "DisplayName": "附近物品扫描器",
+    "Description": "扫描玩家周围的物品、容器和可采集植物，并在屏幕上显示它们的位置。"
+  },
+  "Jump": {
+    "DisplayName": "跳跃",
+    "Description": "让角色可以跳跃，并提供若干相关设置。将文件放入 .../Mods/ 目录即可安装。"
+  },
+  "JustZoom": {
+    "DisplayName": "快速缩放",
+    "Description": "按 Z 放大画面，再使用鼠标滚轮调整缩放程度！所有选项也可在 ModSettings 中调整。<br>请勿与 AbsoluteCinema 模组同时使用。"
+  },
+  "KeroseneLampTweaks": {
+    "DisplayName": "煤油灯调整",
+    "Description": "调整煤油灯的燃料消耗速度，为灯具加入损耗，并更改其发出的光线颜色。"
+  },
+  "KeyboardUtilities": {
+    "DisplayName": "键盘输入工具",
+    "Description": "实用工具模组，帮助其他模组更方便地处理键盘和鼠标输入。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>"
+  },
+  "Leatherworks": {
+    "DisplayName": "皮革工艺",
+    "Description": "新增从兽皮再生皮革的方法，并允许制作部分皮革服装；还加入可用于制作面粉、食物和绳索等物品的树皮。"
+  },
+  "LitharsRidge": {
+    "DisplayName": "Lithar 山脊",
+    "Description": "黯淡海湾中一处隐秘的山脊，那里有舒适的小屋、风景优美的观景点，以及等待探索者发现的小径。"
+  },
+  "LitharsMending": {
+    "DisplayName": "修补破损衣物",
+    "Description": "允许修补已经损坏至无法使用的衣物。"
+  },
+  "LocalizationUtilities": {
+    "DisplayName": "本地化工具",
+    "Description": "** 此功能现已并入 ModComponent 7.0.0。<br />用于处理本地化文本的实用工具。"
+  },
+  "LonelyOrca": {
+    "DisplayName": "孤独的虎鲸",
+    "Description": "将一款经典模组移植到 DLC 之后的《漫漫长夜》。一头孤独的虎鲸栖息在荒凉据点。"
+  },
+  "LongLargo": {
+    "DisplayName": "悠长的慢板",
+    "Description": "<p>Long Largo 只有一个目标：通过改进音乐来提升游戏体验。</p><p>它恢复了剧情战役中的音乐，并将这些曲目融入你的生存旅程。</p><p>此外，你甚至可以关闭狼群跟踪时的音效！</p>"
+  },
+  "MaintainYourself": {
+    "DisplayName": "状态恢复自定义",
+    "Description": "提供自定义状态恢复幅度的选项。可以让状态恢复变得更难或更容易，并根据角色需求按比例恢复。"
+  },
+  "MajorMiseries": {
+    "DisplayName": "重大苦难",
+    "Description": "新增 20 种重大疾病和 1 种增益效果。"
+  },
+  "MapManager": {
+    "DisplayName": "地图管理器",
+    "Description": "显示玩家箭头、将地图中心定位到玩家、揭示地图。<br><br>地图勘测选项：<br>- 调整勘测范围<br>- 调整勘测所需时间<br>- 自动使用宝丽来照片（即使没有携带）<br><br>自动将尸体标记到地图上。"
+  },
+  "MapIconFix": {
+    "DisplayName": "地图图标修复",
+    "Description": "修复采集植物后，地图上的植物采集图标仍不消失的问题。"
+  },
+  "MehToolBox": {
+    "DisplayName": "Meh 模组工具箱",
+    "Description": "供模组作者在其模组中使用的工具箱。"
+  },
+  "MindfulNeighborhood": {
+    "DisplayName": "静思小屋周边扩建",
+    "Description": "在静思小屋区域新增警卫小屋、钓鱼小屋、储物棚和猎人瞭望点；将静思小屋里的腹式炉替换为壁炉；并将小屋从 Justy 的棚屋迁至静思小屋区域。"
+  },
+  "MinorMiseries": {
+    "DisplayName": "轻微苦难",
+    "Description": "新增 14 种轻微疾病和 3 种增益效果。"
+  },
+  "MiseryModePlus": {
+    "DisplayName": "苦难模式增强",
+    "Description": "为《漫漫长夜》新增苦难模式出生地点，并加入自定义模式选项，可在自定义游戏中启用苦难模式疾病。曾用名：额外苦难出生点、在自定义游戏中启用苦难效果。"
+  },
+  "ModData": {
+    "DisplayName": "模组数据存储",
+    "Description": "实用工具模组，让其他模组能够独立于存档保存数据。"
+  },
+  "ModComponent": {
+    "DisplayName": "模组组件",
+    "Description": "现已内置 GearSpawner、CraftingRevisions 和 LocalizationUtilities。<br><br>实用工具模组，可加载外部物品包。"
+  },
+  "ModSettings": {
+    "DisplayName": "模组设置",
+    "Description": "允许其他模组在游戏中显示设置。本模组本身不提供功能，仅作为其他模组的依赖项使用。<br><br>感谢 zeobviouslyfakeacc 的所有工作！"
+  },
+  "ModdersGearToolbox": {
+    "DisplayName": "模组作者装备工具箱",
+    "Description": "为其他模组作者提供可在模组中使用的通用材料和工具。完整物品列表请查看 GitHub 仓库。"
+  },
+  "Moment": {
+    "DisplayName": "Moment",
+    "Description": "模组开发工具，供模组监测游戏内时间并安排事件。"
+  },
+  "MooseSatchelMod": {
+    "DisplayName": "驼鹿背包减轻气味与腐坏",
+    "Description": "穿戴驼鹿背包时，肉类、鱼、肠子和派的气味与腐坏速度会降低。"
+  },
+  "MoreAccessorySlots": {
+    "DisplayName": "额外配饰栏位",
+    "Description": "最多增加 2 个配饰栏位。最右侧栏位被视为最外层，因此在挣扎时由该栏位的配饰承受伤害。"
+  },
+  "MoreCameraSpawns": {
+    "DisplayName": "即时相机刷新点扩展",
+    "Description": "在大熊岛南部新增即时相机的刷新地点。"
+  },
+  "MoreCookingSlots": {
+    "DisplayName": "更多烹饪位置",
+    "Description": "还在疑惑为什么火桶上最多只能放两个锅吗？这个模组为特定火源增加了更多烹饪位置。"
+  },
+  "MoreLockedDoors": {
+    "DisplayName": "更多上锁的门",
+    "Description": "在游戏世界中的更多门和建筑上增加锁具。"
+  },
+  "MoreFuelAccelerant": {
+    "DisplayName": "更多燃料与助燃剂",
+    "Description": "允许将引火物、木炭和动物脂肪用作燃料，并减慢助燃剂的消耗速度。"
+  },
+  "MoreWood": {
+    "DisplayName": "更多木材种类",
+    "Description": "新增两种木材：桦木，类似雪松木，刷新于桦树林；橡木，类似冷杉木，可在橡树附近找到，也会随机刷新在森林中。"
+  },
+  "MotionTracker": {
+    "DisplayName": "动态追踪地图",
+    "Description": "新增小地图，可显示动物、喷漆标记和选定的装备。"
+  },
+  "Murmurations": {
+    "DisplayName": "椋鸟群飞",
+    "Description": "一款实验性模组，尝试在游戏中加入鸟群盘旋飞舞的景象。"
+  },
+  "Muscle": {
+    "DisplayName": "肌肉锻炼",
+    "Description": "饮食充足、经常活动并保证良好睡眠，就能增长肌肉。"
+  },
+  "NoCairns": {
+    "DisplayName": "移除石堆标记",
+    "Description": "可禁用游戏中的所有石堆标记。"
+  },
+  "NoHarvestAnimations": {
+    "DisplayName": "移除收获动画",
+    "Description": "禁用第一人称下剥取和分割尸体的动画，改用游戏原有的进度圆环。还可选择加快现实时间中的处理速度，但消耗的游戏内时间保持不变。"
+  },
+  "NoCameraSway": {
+    "DisplayName": "关闭镜头晃动",
+    "Description": "停止镜头摇晃。"
+  },
+  "NoMoreCabinFever": {
+    "DisplayName": "不再患上幽闭症",
+    "Description": ""
+  },
+  "NonLethalFlares": {
+    "DisplayName": "非致命信号弹",
+    "Description": "关闭信号枪对动物造成的伤害和流血效果。还可选择是否让信号枪弹丸附着在野生动物身上。"
+  },
+  "NorthernLightsBroadcast": {
+    "DisplayName": "极光影视播放",
+    "Description": "在《漫漫长夜》中观看你喜爱的电影和电视剧。"
+  },
+  "NorthfolkClothingPack": {
+    "DisplayName": "北方民俗服装包",
+    "Description": "新增 2 件曾经出现过的服装，以及 3 件受北方民俗启发的全新可制作服装。<br><br>这是标准的 ModComponent 物品包，将文件放入 .../Mods/ 目录即可安装。"
+  },
+  "NotTheWolves": {
+    "DisplayName": "别再是狼了！",
+    "Description": "让狼变为无敌，并阻止游戏中生成狼尸体。"
+  },
+  "NotSoSillyMod": {
+    "DisplayName": "真实物品物理效果",
+    "Description": "让放置的装备在 10 秒内启用物理效果，以便自然地丢放物品，或利用重力将物品堆叠起来。设计目标是在生存模式中实用易用，但仍有一定风险，请先阅读说明文件了解正确用法。"
+  },
+  "ObjectSinkFix": {
+    "DisplayName": "物品下沉修复",
+    "Description": "修复家具陷入地板或地面，以及返回地点时容器消失的问题。可在现有存档中自动复位下沉的家具并找回丢失的容器。"
+  },
+  "OldSchoolHarvesting": {
+    "DisplayName": "经典收获方式",
+    "Description": "向旧日体验致敬：使用进度条处理尸体时，关闭音效、移除动画并调暗光线。"
+  },
+  "OxygenLevels": {
+    "DisplayName": "氧气含量",
+    "Description": "根据玩家所处海拔模拟缺氧状况。"
+  },
+  "PZLoadingScreen": {
+    "DisplayName": "PZ 风格加载画面",
+    "Description": "一款自定义加载画面模组，采用类似 PZ 的风格。"
+  },
+  "PainComponent": {
+    "DisplayName": "疼痛组件",
+    "Description": "依赖模组，可将 Improved Afflictions 中的疼痛与止痛药系统扩展到其他自定义疾病效果。"
+  },
+  "PastimeReading": {
+    "DisplayName": "消遣阅读",
+    "Description": "新增一本可阅读、可自定义的书籍，并带有动画等效果。<br><br><a href='https://youtu.be/MIUvKW89SgI' target='_blank'>功能展示视频</a>。<a href='https://www.youtube.com/watch?v=q_k4YNhaY5A' target='_blank'>详细评测（含字幕）</a>。<br><br>解压 .zip 文件到 .../Mods/ 目录即可安装。"
+  },
+  "PathfindersAscent": {
+    "DisplayName": "探路者的攀登",
+    "Description": "对伐木场山、黑岩和灰烬峡谷进行改造，为资深幸存者带来焕然一新、更具挑战性的体验。"
+  },
+  "PauseInJournal": {
+    "DisplayName": "日志界面暂停游戏",
+    "Description": "打开日志中的任意分类时暂停游戏。"
+  },
+  "PemmicanSlowerDecay": {
+    "DisplayName": "肉干棒减缓腐坏",
+    "Description": "调整熟制肉干棒，降低其腐坏速度，使之与风干肉的腐坏速度一致。"
+  },
+  "Personality": {
+    "DisplayName": "角色外观自定义",
+    "Description": "自定义角色外观：替换贴图并更换服装。<br><br>解压到 .../Mods/ 目录即可安装。"
+  },
+  "PhotoofaLovedOne": {
+    "DisplayName": "挚爱之人的照片",
+    "Description": "允许随身携带一张可自定义的照片，纪念你所珍视的人或事物。"
+  },
+  "PickWaterFromFishingHoles": {
+    "DisplayName": "从冰钓洞取水",
+    "Description": "可以从淡水冰钓洞中收集不限量的未煮沸水。"
+  },
+  "PineNeedleTea": {
+    "DisplayName": "松针茶",
+    "Description": "采集松针簇并将其煮成富含维生素 C 的茶。所有内容均可自定义。"
+  },
+  "PlacingAnywhere": {
+    "DisplayName": "自由放置物品",
+    "Description": "移除放置物品时的限制，并提供旋转和调整物品位置的操作。"
+  },
+  "PlacingGeometrically": {
+    "DisplayName": "几何放置",
+    "Description": "自由放置模组的一个变体，并增加了一些功能。<br>中文版可在 GitHub 获取。"
+  },
+  "PlantHarvestTweaker": {
+    "DisplayName": "植物采集调整",
+    "Description": "自定义植物采集的各项内容：所需时间、工具要求、工具损耗和产出数量。"
+  },
+  "PredatorSpawnSelector": {
+    "DisplayName": "掠食者刷新设置",
+    "Description": "按区域启用或禁用掠食者刷新，并为每个区域选择狼或熊的种类。<br><br>此模组取代 Remove Cougars 和 Timberwolves Anywhere。"
+  },
+  "PrepperCache": {
+    "DisplayName": "生存者储藏点信息",
+    "Description": "提供当前游戏中的生存者储藏点信息。"
+  },
+  "PreserveContainerItems": {
+    "DisplayName": "保留容器中的物品",
+    "Description": "耐久度降至 0% 的装备物品将不再从容器中消失。<br><br>注意：尚未针对所有容器类型进行测试，请谨慎使用。"
+  },
+  "QoL": {
+    "DisplayName": "便利性改进",
+    "Description": "减少界面操作中的繁琐之处，让使用体验更加顺畅。现在大多数时候都可以使用键盘控制游戏。"
+  },
+  "QoLFirestart": {
+    "DisplayName": "便利生火",
+    "Description": "<p>自动选择合适装备，让生火过程更简单。</p><p>包括优先选择已点燃的火把，或在天气允许时使用放大镜；保护桦树皮，并选择书籍或树枝作为燃料。</p>"
+  },
+  "QoLStaminaStays": {
+    "DisplayName": "耐力条常显",
+    "Description": "<p>这款简单的便利模组可防止耐力条因计时而淡出。现在只有耐力值满时才会淡出，与大多数现代游戏的表现一致。</p>"
+  },
+  "RnStripped": {
+    "DisplayName": "RN 精简功能",
+    "Description": "从 Relentless Nights 模组中提取的功能：搬动尸体，以及利用电器点燃火把。欢迎体验原模组！"
+  },
+  "RadialMenuUtilities": {
+    "DisplayName": "环形菜单工具",
+    "Description": "实用工具模组，为其他模组添加创建自定义环形菜单的能力。"
+  },
+  "RandomMainMenu": {
+    "DisplayName": "随机主菜单天气",
+    "Description": "随机改变主菜单画面中的时间和天气，每次进入主菜单时都会有所不同。"
+  },
+  "RandomizeInterloperRareSpawns": {
+    "DisplayName": "随机化流浪者稀有物资",
+    "Description": "随机调整《漫漫长夜》流浪者难度中的战利品分布。"
+  },
+  "RandomizerTransitions": {
+    "DisplayName": "场景切换随机化",
+    "Description": "随机改变场景之间的过渡效果，以全新的混乱方式探索大熊岛。可在新游戏创建菜单中启用。"
+  },
+  "RareExclusiveLoot": {
+    "DisplayName": "稀有专属物资",
+    "Description": "原本只会出现在地堡和/或交易者处的物品，现在也会在世界中生成，但数量稀少、出现概率较低。"
+  },
+  "RavineBridgeFix": {
+    "DisplayName": "峡谷桥梁修复",
+    "Description": "修复峡谷中的桥梁。"
+  },
+  "RecipeRequirements": {
+    "DisplayName": "配方技能要求调整",
+    "Description": "允许玩家调整制作特定配方所需的烹饪技能等级。"
+  },
+  "RecordingUtils": {
+    "DisplayName": "录制工具",
+    "Description": "改进游戏内镜头控制，方便录制视频或进行直播。"
+  },
+  "ReducedLoot": {
+    "DisplayName": "减少物资",
+    "Description": "通过在物品随机生成时将部分物品移除，减少世界中特定物品的数量。"
+  },
+  "RelentlessNight": {
+    "DisplayName": "无尽长夜",
+    "Description": "《漫漫长夜》2.23 请使用 RN 4.7.2；2.19 使用 RN 4.7.1；2.10 及以上版本使用 RN 4.6.3；2.06 和 2.08 使用 RN 4.6.1。<br>地球自转正在减慢，白昼与黑夜变得越来越漫长。每一个长夜都比之前更加寒冷、更加严酷。寒冷无处不在。你能在这个诡异的新世界中生存多久？<br><br>欢迎加入 Relentless Mods Discord 频道，参与模组讨论、获取更新或报告问题：<a href='https://discord.gg/GjAG9XNfR7' target='_blank'>邀请链接</a>。"
+  },
+  "RelicsOfTheQuietApocalypse": {
+    "DisplayName": "静默末日遗物",
+    "Description": "恢复《漫漫长夜》早期版本中的 GearItem 贴图。（可通过 ModSettings 自定义。）"
+  },
+  "RememberBreakDownItem": {
+    "DisplayName": "记住拆解选项",
+    "Description": ""
+  },
+  "RenewableGunpowderMod": {
+    "DisplayName": "可再生火药材料",
+    "Description": "将硫磺粉、树桩清除剂和铅加入海滩搜寻与容器战利品表，使火药材料能够通过搜刮获得。我是在意识到 Sm4rtBoyTom 的 AmmunitionCraftingTools 模组已经更好地实现火药材料可再生之前制作了这个模组。也许仍有人会用得上。"
+  },
+  "RepairableRepairables": {
+    "DisplayName": "修理工具也能修理",
+    "Description": "允许修理三种用于修理、制作和打磨的基础工具：步枪清洁套件、缝纫包和磨刀石。"
+  },
+  "RerollBurntBuildings": {
+    "DisplayName": "重新随机生成烧毁建筑",
+    "Description": "新增控制台命令，可重新随机生成烧毁建筑。现在也支持随机生成的钓鱼小屋门。完整说明请查看 README。"
+  },
+  "ResearchBookTweaker": {
+    "DisplayName": "研究书籍阅读时间调整",
+    "Description": "原名为“缩短阅读间隔”模组。"
+  },
+  "ResumePreviewer": {
+    "DisplayName": "继续游戏存档预览",
+    "Description": "在主菜单点击“继续”之前，显示即将载入的存档槽位。"
+  },
+  "RetrieveBulletsMod": {
+    "DisplayName": "回收子弹",
+    "Description": "允许从被枪械击杀的动物身上回收子弹。可从尸体上收获名为“损坏的子弹”的新物品，再前往弹药工作台重新锻造。"
+  },
+  "RetroFoodPack": {
+    "DisplayName": "复古食品包",
+    "Description": "新增 23 种复古食品。"
+  },
+  "RichPresence": {
+    "DisplayName": "Discord 游戏状态显示",
+    "Description": "为《漫漫长夜》提供 Rich Presence 游戏状态显示。"
+  },
+  "RunInBackground": {
+    "DisplayName": "后台运行游戏",
+    "Description": "游戏窗口失去焦点时，仍让游戏继续运行。"
+  },
+  "SafehouseCustomizationPlus": {
+    "DisplayName": "安全屋自由改造增强版",
+    "Description": "允许在任何地点进行自定义，并可移动或拾取容器、炉灶、工作台等更多物品。<br><br>警告：此模组仍属实验性质。虽然尚无物品丢失报告，但风险依然存在，请务必备份存档。"
+  },
+  "SaveBackup": {
+    "DisplayName": "存档备份",
+    "Description": "<p>自动按小时和按天备份存档。尤其是在使用模组时，如果发生问题，可以借此恢复存档。</p><p>更多信息请查看<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/SaveBackup#readme\">说明文档</a>。</p>"
+  },
+  "SaveImageFilter": {
+    "DisplayName": "保存画面滤镜设置",
+    "Description": "保存并重新载入你选择的画面滤镜（选项 > 显示 > 画面滤镜），避免每次重启游戏时都恢复为“无滤镜”。"
+  },
+  "SaveManager": {
+    "DisplayName": "存档管理器",
+    "Description": "允许在沙盒/生存模式中使用快捷键保存、载入和自动保存游戏；同时提供自动保存功能。"
+  },
+  "SaveSafety": {
+    "DisplayName": "存档安全提示",
+    "Description": "保存或载入失败时向你发出通知，避免存档损坏。"
+  },
+  "ScaledFishMod": {
+    "DisplayName": "鱼类模型尺寸变化",
+    "Description": "是否曾好奇为什么同一种鱼看起来都一样大？这个模组会根据鱼的重量动态调整鱼的模型尺寸。"
+  },
+  "SeamlessInteriors": {
+    "DisplayName": "无缝室内",
+    "Description": "为《漫漫长夜》开发的大型改造模组，旨在将所有室内建筑直接融入开放世界，取消加载画面。你可以无缝穿过门扉，让室内与室外成为一个连贯的世界。"
+  },
+  "SeasonedInterloping": {
+    "DisplayName": "老练流浪者",
+    "Description": "将被遗忘的机场、零地带、断裂山口和黯淡海湾加入《漫漫长夜》的流浪者区域列表。"
+  },
+  "ShelterTemperatureTweaks": {
+    "DisplayName": "避难所温度调整",
+    "Description": "允许调整没有加载画面的避难所温度，例如登山者小屋。完整说明请查看 README。"
+  },
+  "ShootingRange": {
+    "DisplayName": "射击场",
+    "Description": "启用射击场靶子、风向标、猎人瞭望点，以及静思池塘附近一座温暖的谷仓。"
+  },
+  "Shortcuts": {
+    "DisplayName": "区域捷径",
+    "Description": "为部分区域新增多条捷径。需要重新载入游戏才能使更改生效。"
+  },
+  "Shotgun": {
+    "DisplayName": "霰弹枪",
+    "Description": "听说你们想要一把霰弹枪……"
+  },
+  "ShowTraderTrust": {
+    "DisplayName": "显示交易者信任度",
+    "Description": "<p>通过无线电与交易者交谈时，显示当前的信任等级。</p><p>更多信息请查看<a href=\"https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme\">说明文档</a>。</p>"
+  },
+  "SilentWalker": {
+    "DisplayName": "静步行者",
+    "Description": "像经验丰富的幸存者一样整理装备：将瓶子装满并直立放置，分隔并包裹金属物品，把木柴捆扎固定。可降低你、野生动物或双方听到的移动声，并能分别调整小型补给、木材、金属和水的音量。"
+  },
+  "SillyMod": {
+    "DisplayName": "趣味物理模组",
+    "Description": "为装备物品启用物理效果、碰撞等趣味功能。<br><br>不要在常用存档中使用，否则你会后悔的。"
+  },
+  "TLDTools": {
+    "DisplayName": "简易存档备份与恢复工具",
+    "Description": "一款简单工具，让备份和恢复《漫漫长夜》生存模式存档更加方便。注意：这是外部工具，不是模组，也不需要安装模组加载器。"
+  },
+  "SkillAdjustment": {
+    "DisplayName": "技能效果调整",
+    "Description": "允许玩家调整每个技能等级所提供的效果。"
+  },
+  "SkillManager": {
+    "DisplayName": "技能管理器",
+    "Description": ""
+  },
+  "SkilletInRadial": {
+    "DisplayName": "环形菜单加入煎锅",
+    "Description": "顾名思义：将煎锅加入环形菜单。"
+  },
+  "SkipIntroRedux": {
+    "DisplayName": "跳过开场动画增强版",
+    "Description": "启动游戏时可直接跳转到主菜单。<br><br><b>风险自负</b>——此模组也会跳过那些烦人的免责声明。"
+  },
+  "SkyCoop": {
+    "DisplayName": "Sky 联机合作",
+    "Description": "《漫漫长夜》的多人联机模组。"
+  },
+  "SleepWithoutABed": {
+    "DisplayName": "无床睡眠",
+    "Description": "允许玩家不使用床或睡袋睡觉。可通过环形菜单中的“消磨时间”选项使用。"
+  },
+  "Solitaire": {
+    "DisplayName": "纸牌接龙",
+    "Description": "优雅地消磨时间——来玩一局纸牌接龙吧。"
+  },
+  "Solstice": {
+    "DisplayName": "四季更迭",
+    "Description": "为《漫漫长夜》加入季节变化。"
+  },
+  "SonicMode": {
+    "DisplayName": "音速模式",
+    "Description": "允许角色快速移动，并提供额外的耐力恢复设置。"
+  },
+  "Sprainkle": {
+    "DisplayName": "扭伤系统增强",
+    "Description": "全面取代旧版脚踝扭伤模组。分别提供脚踝和手腕扭伤设置，以及一般扭伤相关设置。"
+  },
+  "StackManager": {
+    "DisplayName": "堆叠管理器",
+    "Description": "让更多物品可以堆叠。"
+  },
+  "StalkerAidsAndSupplements": {
+    "DisplayName": "潜行者辅助药剂",
+    "Description": "扩展急救系统，灵感来自《潜行者》系列。兼容 Improved Afflictions。更多信息请查看 GitHub Wiki。"
+  },
+  "StolenMeatMod": {
+    "DisplayName": "肉类被掠食者偷走",
+    "Description": "未妥善存放的室外肉类会被掠食者偷走。如果把一堆肉放在门口，还可能引来几位不速之客！迫使你停止堆放肉类，或者……把它们当作诱饵？"
+  },
+  "StorageProblem": {
+    "DisplayName": "储物难题",
+    "Description": "将容器管理变成一场小游戏。"
+  },
+  "StoryModeCollectibles": {
+    "DisplayName": "剧情模式收藏品",
+    "Description": "将《冬日静默》中的可收集物品加入生存模式。"
+  },
+  "StretchArmstrong": {
+    "DisplayName": "交互距离调整",
+    "Description": "调整玩家与物品进行交互的距离范围。"
+  },
+  "StrongFishingLine": {
+    "DisplayName": "耐用钓鱼线",
+    "Description": "一种会在世界各处的容器附近生成的小物品，通常可以在钓鱼小屋找到。拆解后可获得一些钓鱼线。"
+  },
+  "StruggleTweaks": {
+    "DisplayName": "挣扎机制调整",
+    "Description": "设置挣扎后立即击杀狼的概率，或调整狼的流血倒地时间。还可以更改按键连点的判定力度，保护鼠标按键。"
+  },
+  "SunOrientationFixes": {
+    "DisplayName": "太阳方位修复",
+    "Description": "修复多个区域中的太阳方位问题，使所有区域与彼此及世界地图保持一致。"
+  },
+  "SurvivorKnowledge": {
+    "DisplayName": "幸存者知识",
+    "Description": "通过技能等级解锁制作配方和采集操作，以此模拟幸存者逐步积累知识的过程。"
+  },
+  "SurvivorsLegacy": {
+    "DisplayName": "幸存者的遗产",
+    "Description": "实现一种精简的多人互动：让其他玩家能够找到你的尸体（大致如此）。"
+  },
+  "SutherlandExpandedStock": {
+    "DisplayName": "萨瑟兰商品扩展",
+    "Description": "使用 ETF 制作的内容模组，为交易者新增 56 种自定义交易。"
+  },
+  "TLDWolfskinScarf": {
+    "DisplayName": "狼皮围巾",
+    "Description": "新增一条可用狼皮制作的围巾。"
+  },
+  "TargetPracticeAndMasterHunter": {
+    "DisplayName": "射击训练与猎人大师",
+    "Description": "射击训练：提供多种训练功能，让你练习并享受射击乐趣。<br>猎人大师：提供多种选项，阻止技能等级自动、轻松地提升，确保每个等级都需要努力获得。<br>更多详情请查看 ReadMe。"
+  },
+  "TheLongDevelopment(TLDev)Regions": {
+    "DisplayName": "漫漫长夜开发计划区域",
+    "Description": "THE LONG DEVELOPMENT 是一个小型模组项目团队，致力于以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。"
+  },
+  "TheLongMood": {
+    "DisplayName": "漫漫长夜心境",
+    "Description": "为《漫漫长夜》加入类似《僵尸毁灭工程》的无聊与抑郁机制。"
+  },
+  "ThingsToDo": {
+    "DisplayName": "待办事项",
+    "Description": "EAAPI 的演示模组，提供一些实用操作。"
+  },
+  "TimeScaleHotkey": {
+    "DisplayName": "时间流速快捷键",
+    "Description": "通过可自定义的快捷键加快或减慢时间流逝。"
+  },
+  "TinyTweaksBuryHumanCorpses": {
+    "DisplayName": "微调：埋葬尸体",
+    "Description": "由于 Safehouse Customization 已包含相同功能，此模组功能重复，但仍可正常使用。<br><br>右键点击尸体即可将其移除。"
+  },
+  "TinyTweaksDroppedObjectOrientation": {
+    "DisplayName": "微调：修正物品掉落方向",
+    "Description": "修正掉落的木制火柴和步枪的朝向。没错，它们之前的朝向确实不对。"
+  },
+  "TinyTweaksExtendedFOVSlider": {
+    "DisplayName": "微调：扩大视野范围",
+    "Description": "将视野滑块的最大值扩展至 150。"
+  },
+  "TinyTweaksFallDeathGoat": {
+    "DisplayName": "微调：移除坠落致死判定",
+    "Description": "禁用坠落致死判定，但会将坠落伤害加倍（可调整）。"
+  },
+  "TinyTweaksMapTextOuline": {
+    "DisplayName": "微调：地图文字描边",
+    "Description": "为地图文字添加描边，让文字更容易辨认，并提供若干样式。"
+  },
+  "TinyTweaksNoSaveOnSprain": {
+    "DisplayName": "微调：扭伤时不自动保存",
+    "Description": "扭伤时不再自动保存。默认仅适用于在斜坡上行走导致的扭伤，也可启用坠落造成扭伤时的设置。"
+  },
+  "TinyTweaksPauseOnRadial": {
+    "DisplayName": "微调：打开环形菜单时减速",
+    "Description": "打开环形菜单时减慢时间流逝。"
+  },
+  "TinyTweaksRespawnablePlants": {
+    "DisplayName": "微调：植物重新生长",
+    "Description": "可采集植物会在 45 天后重新生长（时间可调整）。包括所有会生长的资源，例如树苗、地衣、蘑菇和橡子等。"
+  },
+  "TinyTweaksRunWithLantern": {
+    "DisplayName": "微调：手持提灯奔跑",
+    "Description": "移除提灯动画带来的限制：允许移动，并解除镜头锁定。"
+  },
+  "TinyTweaksSpeedyInteractions": {
+    "DisplayName": "微调：加快交互速度",
+    "Description": "调整所有非动画交互的速度，包括制作、修理、采集、进食，以及其他带有进度圆环的操作。"
+  },
+  "TinyTweaksWakeUpCall": {
+    "DisplayName": "微调：随时醒来",
+    "Description": "允许玩家随时中断睡眠。还可设置在极光出现时醒来，并提供其他选项。"
+  },
+  "ToggleHUD": {
+    "DisplayName": "界面指示器切换",
+    "Description": "允许玩家切换气味和时间指示器，而不是让它们在一段时间后自动消失。<br><br><a href='https://www.patreon.com/ds5678' target='_blank'>Patreon</a>"
+  },
+  "ToolUpgrade": {
+    "DisplayName": "工具升级蓝图",
+    "Description": "通过蓝图新增获取物品变体及其他物品的替代方式。"
+  },
+  "ToolsQuality": {
+    "DisplayName": "工具品质与耐用度",
+    "Description": "保持工具锋利。工具耐久度较低时，执行操作所需时间会增加。可调整处理尸体和树枝时的采集时间倍率。"
+  },
+  "TorchTweaker": {
+    "DisplayName": "火把调整",
+    "Description": "调整火把的若干参数，并允许玩家用提灯点燃火把。"
+  },
+  "ExpandedAiFrameworkTrackingWolfMod": {
+    "DisplayName": "追踪狼",
+    "Description": "新增一种狼，会无视你的气味等级并跨越地图持续追踪你。小心身后！"
+  },
+  "TranslatedTextures": {
+    "DisplayName": "俄语贴图翻译",
+    "Description": "将所有贴图翻译成俄语！（特别感谢 mik5937 参与测试并协助本地化。）"
+  },
+  "Trespasser": {
+    "DisplayName": "擅闯者难度",
+    "Description": "新增介于潜行者与流浪者之间的独特难度。开局获得 3 根火柴，并有机会在世界各处找到流浪者难度中禁用的物品。"
+  },
+  "UniqueKnowledge": {
+    "DisplayName": "知识只读一次",
+    "Description": "每本书只能阅读一次。"
+  },
+  "UnityExplorerTLD": {
+    "DisplayName": "《漫漫长夜》Unity Explorer",
+    "Description": "针对《漫漫长夜》优化的 UnityExplorer。"
+  },
+  "UniversalTweaks": {
+    "DisplayName": "通用机制调整",
+    "Description": "通过符合直觉的方式调整游戏机制，改进《漫漫长夜》中已有的玩法内容。"
+  },
+  "UseTheWorstFirstAndDropStone": {
+    "DisplayName": "优先使用最差物品与投石标记",
+    "Description": "允许在环形菜单等场合优先使用耐久度最低的物品。<br>允许投掷石头或引火物来标记路线，而非使用诱饵。<br>更多详情请查看 ReadMe。"
+  },
+  "VitaminCTracker": {
+    "DisplayName": "维生素 C 追踪器",
+    "Description": "终于可以知道自己摄入了多少维生素 C！不必再对自己的营养状况一无所知。"
+  },
+  "ExpandedAiFrameworkWanderingWolfMod": {
+    "DisplayName": "游荡狼",
+    "Description": "新增一种狼，会在地图上四处游荡，而不是一直待在一小片区域内。"
+  },
+  "Watches": {
+    "DisplayName": "手表",
+    "Description": "调整《漫漫长夜》中显示时间的方式。"
+  },
+  "WeatherDisplay": {
+    "DisplayName": "天气信息显示",
+    "Description": "在屏幕上显示当前天气信息。"
+  },
+  "WeatherOverhaul": {
+    "DisplayName": "天气系统改造",
+    "Description": "让原版天气变得可预测，并加入新的自定义天气阶段。"
+  },
+  "WeightlessWoodworkingTools": {
+    "DisplayName": "轻量木工工具",
+    "Description": "大幅降低木工工具的重量。玩家不应仅仅因为想装饰自己的家就受到惩罚。"
+  },
+  "WildFire": {
+    "DisplayName": "野火效果自定义",
+    "Description": "允许自定义火焰的颜色、烟雾和火花，新增 6 种装备物品，并使多种原版物品可以燃烧。"
+  },
+  "WildlifeTuning": {
+    "DisplayName": "野生动物行为调整",
+    "Description": "随机调整动物行为配置。"
+  },
+  "WindMovementFix": {
+    "DisplayName": "风速移动惩罚修复",
+    "Description": "修复风速导致移动减益的错误。"
+  },
+  "WolfHowlFix": {
+    "DisplayName": "狼嚎音效修复",
+    "Description": "修复“放弃追逐”计时器故障，该故障会导致狼嚎不断卡顿并重新播放，在极光之夜尤为明显。熊和美洲狮也存在相同问题，本模组一并修复；不会调整任何动物的行为参数。"
+  },
+  "WolvesComeOutAtNight": {
+    "DisplayName": "狼只在夜间出没",
+    "Description": "阻止狼在白天刷新。可按区域设置，也可应用于所有区域。完整说明请查看 README。"
+  },
+  "WoodenStatues": {
+    "DisplayName": "TKG 木雕",
+    "Description": "新增 4 个木制动物雕像，包括大、小两种尺寸。"
+  },
+  "WorkingClocks": {
+    "DisplayName": "可运行的时钟",
+    "Description": "让游戏中的部分时钟开始运转。"
+  },
+  "YesIKnow": {
+    "DisplayName": "我知道了",
+    "Description": "禁用物品和/或火源上的悬停提示文字。"
+  }
+}

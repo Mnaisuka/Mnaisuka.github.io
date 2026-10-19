@@ -8,14 +8,50 @@ ListDisplay.prototype = {
 	json: {},
 
 	badgeDescription: {
-		"status-not-updated": "Mod hasn't been updated or tested in latest version, it might still work, but there's a chance that the update broke something",
-		"status-working": "Mod is confirmed as working in latest version",
-		"status-not-working": "Mod is broken in current version. Check the Tested on info to see what was the last compatible version",
-		"status-with-issues": "Mod works but has some issues, check the mod details for more info",
-		"justupdated": "Mod has been updated in the past week",
-		"new": "Mod has been released in the past week",
-		"TFTFT-required":"This mod requires the TFTFT DLC to work properly",
-		"Wintermute-required":"This mod requires the Wintermute DLC to work properly"
+		"status-not-updated": "尚未针对当前版本更新或测试，仍可能正常工作。",
+		"status-working": "已确认可在当前版本正常工作。",
+		"status-not-working": "当前版本无法正常工作，请查看兼容版本信息。",
+		"status-with-issues": "可以工作，但存在已知问题。",
+		"justupdated": "最近一周内更新。",
+		"new": "最近一周内发布。",
+		"TFTFT-required": "需要远方 DLC 才能正常使用。",
+		"Wintermute-required": "需要冬日秘境 DLC 才能正常使用。"
+	},
+
+	categoryNames: {
+		"quality-of-life": "生活质量",
+		"gameplay": "游戏玩法",
+		"gear-items": "装备物品",
+		"clothing": "服装",
+		"food": "食物",
+		"base-building": "基地建设",
+		"graphics": "图形",
+		"audio": "音频",
+		"overhaul": "大型改造",
+		"utility-mod": "实用工具",
+		"cheats": "作弊",
+		"misc": "其他"
+	},
+
+	badgeLabels: {
+		"status-not-updated": "尚未更新",
+		"status-working": "正常工作",
+		"status-not-working": "无法工作",
+		"status-with-issues": "存在问题",
+		"status-no-info": "状态未知",
+		"type-mod": "模组",
+		"type-plugin": "插件",
+		"type-library": "库",
+		"justupdated": "近期更新",
+		"new": "新发布",
+		"TFTFT-required": "需要远方 DLC",
+		"Wintermute-required": "需要冬日秘境 DLC",
+		"beta": "测试版"
+	},
+
+	translateCategory: function( category ) {
+		var categoryId = category.replace( /[\s_]+/g, "-" ).toLowerCase();
+		return this.categoryNames[ categoryId ] || category;
 	},
 
 	init: function( data ) {
@@ -51,7 +87,7 @@ ListDisplay.prototype = {
 
 			//Elements
 			var modBadges = item.find( ".mod-badges" );
-			var modThumb = item.find( ".mod-thumb" );
+			let modThumb = item.find( ".mod-thumb" );
 			var modData = item.find( ".mod-data" );
 			var modDesc = item.find( ".mod-description" );
 			var modLinks = item.find( ".mod-links" );
@@ -102,13 +138,13 @@ ListDisplay.prototype = {
 				iData.Categories.forEach( function( cat ) {
 					var catID = cat.replaceAll( " ", "-" ).toLowerCase();
 					//data-filter-type="category" data-filter="quality-of-life"
-					catDisplayList.push( '<span class="inline-filter-item" data-filter-type="category" data-filter="' + catID + '">' + cat + '</span>' );
+					catDisplayList.push( '<span class="inline-filter-item" data-filter-type="category" data-filter="' + catID + '">' + _this.translateCategory( cat ) + '</span>' );
 					catList.push( catID );
-					app.data.addCategory( catID,cat );
+					app.data.addCategory( catID, _this.translateCategory( cat ) );
 					
 				} );
 
-				mod.categoriesDisplay = catDisplayList.join( ", " );
+				mod.categoriesDisplay = catDisplayList.join( "" );
 				mod.categories = catList.join( "," );
 			} else {
 				mod.categoriesDisplay = "";
@@ -230,24 +266,28 @@ ListDisplay.prototype = {
 			var nowTime = new Date().getTime();
 			if(mod.status != "not-working" && mod.status != "not-updated") {
 				if ( nowTime - mod.releaseTime < 604800000 ) { //7 days
-					mod.badges.new = "NEW";
+					mod.badges.new = _this.badgeLabels.new;
 				} else if ( nowTime - mod.updateTime < 604800000 ) { //7 days
-					mod.badges.justupdated = "JUST UPDATED";
+					mod.badges.justupdated = _this.badgeLabels.justupdated;
 				}
 			}
 
-			mod.badges[ 'status-' + mod.status ] = mod.status.replaceAll( "-", " " ).toUpperCase();
-			mod.badges[ 'type-' + mod.type ] = mod.type.replaceAll( "-", " " ).toUpperCase();
+			var statusBadge = "status-" + mod.status;
+			var typeBadge = "type-" + mod.type;
+			mod.badges[ statusBadge ] = _this.badgeLabels[ statusBadge ] || mod.status;
+			if ( mod.type !== "mod" ) {
+				mod.badges[ typeBadge ] = _this.badgeLabels[ typeBadge ] || mod.type;
+			}
 			
 			if(iData.GameVersion.includes("tftft")) {
-				mod.badges[ 'TFTFT-required' ] = "TFTFT DLC Required";
+				mod.badges[ 'TFTFT-required' ] = _this.badgeLabels[ 'TFTFT-required' ];
 			}
 			if(iData.GameVersion.includes("wintermute")) {
-				mod.badges[ 'Wintermute-required' ] = "Wintermute DLC Required";
+				mod.badges[ 'Wintermute-required' ] = _this.badgeLabels[ 'Wintermute-required' ];
 			}
 			
 			if ( mod.beta ) {
-				mod.badges.beta = "BETA";
+				mod.badges.beta = _this.badgeLabels.beta;
 			}
 
 			//Populate for filters
@@ -280,10 +320,29 @@ ListDisplay.prototype = {
 			}
 
 			modThumb.find( ".thumb-fallback-text" ).html( mod.displayName );
+			let thumbImage = modThumb.find( ".thumb-image" );
+			let thumbImg = thumbImage.find( "img" );
 			if ( mod.images && mod.images.length > 0 ) {
-				modThumb.find( ".thumb-image img" ).attr( "src", mod.images[ 0 ] );
+				modThumb.removeClass( "no-image" );
+				thumbImage.css( { "display": "block", "visibility": "hidden" } );
+				thumbImg
+					.off( "error" )
+					.on( "error", function() {
+						thumbImage.hide();
+						thumbImage.closest( ".mod-thumb" ).addClass( "no-image" );
+					} )
+					.off( "load" )
+					.on( "load", function() {
+						thumbImage.css( { "display": "block", "visibility": "visible" } );
+					} );
+				thumbImg.attr( { "alt": mod.displayName, "loading": "lazy", "decoding": "async" } );
+				thumbImg.attr( "src", mod.images[ 0 ] );
+				if ( thumbImg[ 0 ].complete && thumbImg[ 0 ].naturalWidth > 0 ) {
+					thumbImage.css( { "display": "block", "visibility": "visible" } );
+				}
 			} else {
-				modThumb.find( ".thumb-image img" ).hide();
+				thumbImage.hide();
+				modThumb.addClass( "no-image" );
 			}
 
 			modData.find( ".mod-name-wrapper" ).html( mod.displayName );
@@ -309,7 +368,7 @@ ListDisplay.prototype = {
 			}
 
 			modLinks.find( ".mod-link" ).on( "click", function( e ) {
-				if ( !$( this ).hasClass( "mod-viewmore" ) ) {
+				if ( !$( this ).hasClass( "mod-viewmore" ) && !$( this ).hasClass( "mod-download" ) ) {
 					e.stopPropagation();
 				}
 			} );
@@ -324,6 +383,7 @@ ListDisplay.prototype = {
 				modData.find( ".mod-categories" ).hide();
 			}
 
+			app.userState.decorateItem( item, mod.id );
 			list.append( item );
 
 		}
@@ -358,24 +418,17 @@ ListDisplay.prototype = {
 				modItem.find( ".deps-list-wrapper" ).html( "" );
 
 				modData.deps.forEach( function( dep ) {
-					var depID = dep.replaceAll( " ", "" ).toLowerCase();
-					if ( app.data.modList[ depID ] ) {
-						var depURL = app.data.modList[ depID ].downloadURL;
-					} else {
-						var depURL = false;
-					}
+					var dependency = app.userState.findMod( dep );
+					var depURL = dependency && dependency.mod.downloadURL;
 
 					if ( depURL ) {
-						var btn = $( '<li><a href="' + depURL + '" target="_blank">' + dep + '</a></li>' );
+						var btn = $( '<li><a href="' + depURL + '" target="_blank" rel="noopener noreferrer"></a></li>' );
+						btn.find("a").attr("data-modid", dependency.id).text(dep);
 					} else {
 						var btn = $( '<li><span>' + dep + '</span></li>' );
 					}
 
 					modItem.find( ".deps-list-wrapper" ).append( btn );
-
-					btn.find( "a" ).on( "click", function( e ) {
-						e.stopPropagation();
-					} );
 				} );
 
 				modItem.find( ".mod-dependencies-download" ).off( "click" ).on( "click", function( e ) {

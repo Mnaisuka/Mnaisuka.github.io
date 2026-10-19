@@ -3,15 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>漫漫长夜MOD列表 - 中文镜像</title>
+    <title>漫漫长夜 Mod镜像站 - 中文镜像</title>
     <meta name="description" content="漫漫长夜 (TLD) 模组之家">
     <link rel="icon" href="/thelongdark/favicon.ico" type="image/x-icon">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/thelongdark/assets/css/style.css?v=3.1.0">
+    <link rel="stylesheet" href="/thelongdark/assets/css/style.css?v=4.1.0">
     <link href="/thelongdark/assets/fa/css/fontawesome.css" rel="stylesheet" />
-    <link href="/thelongdark/assets/fa/css/solid.css" rel="stylesheet" />
     <link href="/thelongdark/assets/fa/css/solid.css" rel="stylesheet" />
     <meta name="twitter:card" content="summary_large_image">
 
@@ -21,30 +20,6 @@
     <meta name="google-site-verification" content="uLSmef-B4atRyuMbnnW_0bZ4nXpNUl9n8dxfigLgWVI" />
     <meta name="msvalidate.01" content="657691E1730343AD24A38FAB1BB15AF3" />
 
-    <style>
-        .favorite-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            text-decoration: none;
-            padding: 6px 10px;
-            cursor: pointer;
-        }
-
-        .favorite-btn .icon {
-            width: 20px;
-            height: 20px;
-            fill: none;
-            stroke: #999;
-            stroke-width: 2;
-            transition: all 0.3s ease;
-        }
-
-        .favorite-btn.favorited .icon {
-            fill: gold;
-            stroke: gold;
-        }
-    </style>
 </head>
 
 <body>
@@ -52,32 +27,28 @@
         <div id="topbar" class="topbar">
             <div class="topbar-inner">
                 <div class="logo">
-                    <h1 class="title">(TLD) 漫漫长夜 Mod列表</h1>
+                    <a class="brand" href="/thelongdark/">
+                        <span><strong>漫漫长夜</strong><small>MOD 镜像站</small></span>
+                    </a>
                 </div>
                 <div class="top-menu">
-                    <div class="menu-item"><a href="index.html" class="active">模组列表</a></div>
-                    <div class="menu-item"><a href="install.html">安装教程</a></div>
-                    <div class="menu-item">
-                        <a href="https://discord.gg/EhBWKRx" target="_blank" download>Discord</a>
-                    </div>
-                    <div class="menu-item"><a
-                            href="https://the-long-dark-modding.fandom.com/wiki/The_Long_Dark_Modding_Wiki">WIKI</a>
-                    </div>
-                </div>
-                <div class="info">
+                    <a href="index.html" class="active">模组库</a>
+                    <a href="install.html">安装指南</a>
+                    <a href="https://the-long-dark-modding.fandom.com/wiki/" target="_blank" rel="noopener noreferrer">社区 Wiki</a>
                 </div>
             </div>
         </div>
 
         <div class="main-content">
-            <div id="sidebar" class="sidebar">
+            <aside id="sidebar" class="sidebar">
                 <div class="sidebar-wrapper">
-                    <div class="filter-block filter-actions">
-                        <a href="#" class="filter-action reset-filters">重置筛选</a>
-                        <a href="#" class="filter-action copy-url">链接此搜索</a>
+                    <div class="filter-panel-heading">
+                        <div><h2>筛选模组</h2></div>
+                        <button class="filter-close" type="button" aria-label="关闭筛选">×</button>
                     </div>
-                    <div class="filter-block">
-                        <input type="text" class="search-box" id="searchText" placeholder="搜索Mod..." />
+                    <div class="filter-block filter-actions">
+                        <button class="filter-action reset-filters" type="button">重置筛选</button>
+                        <button class="filter-action copy-url" type="button">分享筛选</button>
                     </div>
                     <div class="filter-block">
                         <h3 class="filter-title">分类 <span class="selected-num">3</span> <i
@@ -107,7 +78,7 @@
                     <div class="filter-block">
                         <h3 class="filter-title">类型</h3>
                         <ul class="filter-holder" data-filter-type="type">
-                            <li class="filter-item" data-filter-type="type" data-filter="mod">Mod</li>
+                            <li class="filter-item" data-filter-type="type" data-filter="mod">模组</li>
                             <li class="filter-item" data-filter-type="type" data-filter="plugin">插件</li>
                             <li class="filter-item" data-filter-type="type" data-filter="library">库</li>
                         </ul>
@@ -126,22 +97,44 @@
                     </div>
                 </div>
 
-            </div>
+            </aside>
+            <div class="filter-backdrop"></div>
 
-
-
-            <div class="modlist">
+            <div class="catalog-main modlist">
+                <div class="catalog-intro">
+                    <div>
+                        <h1>探索漫漫长夜的模组</h1>
+                        <p>发现新玩法，整理你的模组清单。</p>
+                    </div>
+                    <div class="catalog-stats"><span id="catalog-total">—</span><small>个模组收录</small></div>
+                </div>
+                <div class="catalog-controls">
+                    <label class="catalog-search">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <input type="search" class="search-box" id="searchText" placeholder="搜索名称、作者或描述…" autocomplete="off" />
+                        <kbd>/</kbd>
+                    </label>
+                    <button class="mobile-filter-toggle" type="button" aria-expanded="false">
+                        <i class="fas fa-sliders-h" aria-hidden="true"></i> 筛选
+                    </button>
+                </div>
                 <div class="mods-loading" id="mods-loading">
                     <i class="fa-solid fa-cog fa-3x fa-spin fa-spin-reverse"></i><br />
                     <h3>正在加载Mod列表...</h3>
                 </div>
 
                 <div class="mod-sorting" data-sorting="name" data-sortdir="asc">
-                    <div class="results-count">显示 <span class="num-results">0</span> 条结果</div>
-                    <div class="sort-label">排序方式:</div>
-                    <div class="sort-item active" data-sort="name">名称 <i class="fa fa-caret-up"></i></div>
-                    <div class="sort-item" data-sort="update">更新 <i class="fa fa-caret-up"></i></div>
-                    <div class="sort-item" data-sort="author">作者 <i class="fa fa-caret-up"></i></div>
+                    <div class="results-count"><strong><span class="num-results">0</span></strong> 个结果</div>
+                    <div class="catalog-views" role="tablist" aria-label="模组列表">
+                        <button class="catalog-view active" type="button" data-view="all" role="tab" aria-selected="true">全部 <span class="view-count" data-count="all">0</span></button>
+                        <button class="catalog-view" type="button" data-view="favorites" role="tab">收藏 <span class="view-count" data-count="favorites">0</span></button>
+                        <button class="catalog-view" type="button" data-view="downloaded" role="tab">已下载 <span class="view-count" data-count="downloaded">0</span></button>
+                    </div>
+                    <div class="sort-label">排序</div>
+                    <button class="sort-item active" type="button" data-sort="name">名称 <i class="fa fa-caret-up"></i></button>
+                    <button class="sort-item" type="button" data-sort="update">最近更新 <i class="fa fa-caret-up"></i></button>
+                    <button class="sort-item" type="button" data-sort="author">作者 <i class="fa fa-caret-up"></i></button>
+                    <button class="reset-downloaded" type="button" title="清除所有已下载标记"><i class="fas fa-undo" aria-hidden="true"></i> 重置下载状态</button>
                 </div>
 
                 <div class="mod-template-wrapper" id="modTemplate">
@@ -189,26 +182,15 @@
                             <div class="mod-description"></div>
                             <div class="mod-item-bottom">
                                 <div class="mod-links">
-                                    <a class="mod-link mod-support" href="#" target="_blank">
-                                        <i class="fas fa-heart" aria-hidden="true"></i> <span class="long">显示 </span>支持
-                                    </a>
-
-                                    <a class="mod-link mod-dependencies-download">依赖项 <i class="fa fa-angle-down"
-                                            aria-hidden="true"></i></a>
-                                    <a class="mod-link mod-download" href="#" target="_blank">
+                                    <button class="favorite-toggle" type="button" aria-pressed="false"><i class="fas fa-heart" aria-hidden="true"></i><span>收藏</span></button>
+                                    <a class="mod-link mod-support" href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-heart" aria-hidden="true"></i>支持作者</a>
+                                    <a class="mod-link mod-dependencies-download">依赖项 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <a class="mod-link mod-download" href="#" target="_blank" rel="noopener noreferrer">
                                         <i class="fas fa-download" aria-hidden="true"></i> <span class="long">下载</span>
                                     </a>
                                     <a class="mod-link mod-viewmore" href="#">
                                         详情
                                     </a>
-
-                                    <!-- <a class="mod-link mod-favorite favorite-btn" href="javascript:alert('该功能已下架');"
-                                        id="favoriteLink">
-                                        <svg class="icon" viewBox="0 0 24 24">
-                                            <path
-                                                d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21 12 17.27z" />
-                                        </svg>
-                                    </a> -->
 
                                 </div>
                                 <div class="mod-deps-list">
@@ -220,10 +202,13 @@
                     </div>
                 </div>
 
-                <div class="modlist-wrapper" id="modList">
-
-
-
+                <div class="modlist-wrapper" id="modList"></div>
+                <div class="empty-state" id="empty-state" hidden>
+                    <span class="empty-icon"><i class="fas fa-compass" aria-hidden="true"></i></span>
+                    <h2>这里暂时没有模组</h2>
+                    <p class="empty-description">试试调整筛选条件，或先收藏几个喜欢的模组。</p>
+                    <button class="filter-action reset-filters" type="button">清除筛选</button>
+                    <button class="filter-action empty-show-all" type="button" hidden>返回全部模组</button>
                 </div>
             </div>
 
@@ -287,14 +272,15 @@
                             </div>
                             <div class="modal-actions">
                                 <div class="actions-wrapper">
-                                    <a class="mod-action mod-support" href="#" target="_blank">
+                                    <a class="mod-action mod-support" href="#" target="_blank" rel="noopener noreferrer">
                                         显示支持 <i class="fas fa-heart" aria-hidden="true"></i>
                                     </a>
-                                    <a class="mod-action mod-source" href="#" target="_blank">源代码与说明</a>
-                                    <a class="mod-action mod-download" href="#" target="_blank">下载 <i
+                                    <a class="mod-action mod-source" href="#" target="_blank" rel="noopener noreferrer">源代码与说明</a>
+                                    <a class="mod-action mod-download" href="#" target="_blank" rel="noopener noreferrer">下载 <i
                                             class="fas fa-download" aria-hidden="true"></i></a>
                                     <a class="mod-action mod-dependencies-download">依赖项 <i class="fa fa-angle-down"
                                             aria-hidden="true"></i></a>
+                                    <button class="favorite-toggle modal-favorite" type="button" aria-pressed="false"><i class="fas fa-heart" aria-hidden="true"></i><span>收藏</span></button>
 
                                 </div>
                                 <div class="deps-list">
@@ -310,15 +296,31 @@
             </div>
         </div>
     </div>
+    <div class="dependency-dialog" id="dependency-dialog" aria-hidden="true">
+        <div class="dependency-overlay"></div>
+        <section class="dependency-panel" role="dialog" aria-modal="true" aria-labelledby="dependency-title">
+            <button class="dependency-close" type="button" aria-label="关闭">×</button>
+            <span class="dependency-kicker">下载前检查</span>
+            <h2 id="dependency-title">还需要这些前置模组</h2>
+            <p class="dependency-intro">先安装未下载的依赖项，再继续下载目标模组。</p>
+            <ul class="dependency-items"></ul>
+            <p class="dependency-note">点击依赖下载后会记录为“已下载”。此标记只保存在当前浏览器中。</p>
+            <div class="dependency-actions">
+                <button class="dependency-cancel" type="button">稍后再说</button>
+                <button class="dependency-continue" type="button">继续下载目标模组</button>
+            </div>
+        </section>
+    </div>
+    <div class="app-notice" id="app-notice" role="status" aria-live="polite"></div>
 
     <script src="assets/js/lib/jquery.min.js?v=3.4.1"></script>
     <script src="assets/js/DataStructures.js?v=4"></script>
-    <script src="assets/js/DataLoader.js?v=4"></script>
-    <script src="assets/js/ListDisplay.js?v=4"></script>
-    <script src="assets/js/Filtering.js?v=4"></script>
-    <script src="assets/js/Modals.js?v=4"></script>
-    <script src="assets/js/app.js?v=4"></script>
-    <script src="assets/js/Favorites.js"></script>
+    <script src="assets/js/DataLoader.js?v=5"></script>
+    <script src="assets/js/ListDisplay.js?v=12"></script>
+    <script src="assets/js/Filtering.js?v=8"></script>
+    <script src="assets/js/Modals.js?v=11"></script>
+    <script src="assets/js/UserState.js?v=6"></script>
+    <script src="assets/js/app.js?v=5"></script>
 </body>
 
 </html>

@@ -1,143 +1,66 @@
-<style>
-body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    background: #1c1c1e;
-    color: #e5e7eb;
-    line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="漫漫长夜 Mod 安装指南与常见问题">
+    <title>安装指南 - 漫漫长夜 Mod镜像站</title>
+    <link rel="icon" href="/thelongdark/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/thelongdark/assets/css/style.css?v=4.1.0">
+    <link rel="stylesheet" href="/thelongdark/assets/fa/css/fontawesome.css">
+    <link rel="stylesheet" href="/thelongdark/assets/fa/css/solid.css">
+</head>
+<body class="guide-page">
+    <header class="topbar">
+        <div class="topbar-inner">
+            <div class="logo">
+                <a class="brand" href="/thelongdark/">
+                    <span><strong>漫漫长夜</strong><small>MOD 镜像站</small></span>
+                </a>
+            </div>
+            <nav class="top-menu" aria-label="主导航">
+                <a href="/thelongdark/">模组库</a>
+                <a href="/thelongdark/install.html" class="active">安装指南</a>
+                <a href="https://the-long-dark-modding.fandom.com/wiki/" target="_blank" rel="noopener noreferrer">社区 Wiki</a>
+            </nav>
+        </div>
+    </header>
 
-.main-content {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-}
+    <main class="guide-layout">
+        <section class="guide-hero">
+            <h1>从准备到启程</h1>
+            <p>按顺序完成环境配置，再把模组放入游戏目录。安装前请先备份存档。</p>
+        </section>
 
-.how-to-container {
-    background: #1e293b;
-    border-radius: 12px;
-    padding: 25px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-}
+        <section class="guide-notice">
+            <i class="fas fa-triangle-exclamation" aria-hidden="true"></i>
+            <div><strong>重要说明</strong><p>当前 Mod 仅支持 Steam 版游戏和 Windows 系统。本网站与 Hinterland Games 无关联，只提供 Mod 信息与下载入口。</p></div>
+        </section>
 
-h1, h2 {
-    color: #38bdf8;
-    margin-bottom: 15px;
-}
+        <section class="guide-section">
+            <div class="guide-section-heading"><span>01—04</span><div><h2>安装步骤</h2><p>首次安装时依序操作</p></div></div>
+            <ol class="guide-steps">
+                <li><span class="step-index">01</span><div><h3>关闭崩溃报告与数据分析</h3><p>如果你尚未关闭这些选项，请先启动游戏并关闭它们。除非确认是官方问题，否则请勿打扰开发者。</p></div></li>
+                <li><span class="step-index">02</span><div><h3>备份游戏存档</h3><p>Mod 通常经过测试，但仍可能导致问题。安装前备份存档：</p><code>C:\Users\[用户名]\AppData\Local\Hinterland\TheLongDark</code></div></li>
+                <li><span class="step-index">03</span><div><h3>准备运行环境</h3><p>确保已安装以下依赖：</p><ul><li>Microsoft Visual C++ 2015–2019 运行库（64 位）</li><li>.NET 6.0 Runtime</li></ul></div></li>
+                <li><span class="step-index">04</span><div><h3>安装 MelonLoader</h3><ul><li>下载并运行 MelonLoader.Installer.exe。</li><li>选择 The Long Dark（或手动添加游戏路径）。</li><li>选择版本 <strong>0.7.2</strong>；如需 Nightly 版本，勾选 Enable Nightly Builds 并选择最新版本。</li><li>等待安装完成。</li></ul></div></li>
+                <li><span class="step-index">05</span><div><h3>安装模组并检查前置项</h3><p>如下载的是 ZIP，请先解压。将 .dll 或 .modcomponent 文件放入游戏目录的 Mods 文件夹，并按模组说明选择正确版本。安装所有前置模组后再启动游戏。</p></div></li>
+                <li><span class="step-index">06</span><div><h3>启动游戏</h3><p>启动游戏并确认模组正常加载，祝你在荒野中旅途顺利。</p></div></li>
+            </ol>
+        </section>
 
-h4 {
-    color: #facc15;
-    margin-top: 20px;
-}
-
-.install-important {
-    background: #7f1d1d;
-    padding: 12px;
-    border-radius: 8px;
-    border-left: 4px solid #ef4444;
-    margin-bottom: 15px;
-}
-
-ol.install-instructions li {
-    margin-bottom: 12px;
-}
-
-a {
-    color: #60a5fa;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-ul {
-    margin-top: 8px;
-}
-
-code {
-    background: #020617;
-    padding: 2px 6px;
-    border-radius: 6px;
-}
-</style>
-
-<div class="main-content instructions-page">
-    <div class="install-instructions how-to-container">
-        <h1>如何在《The Long Dark》中安装Mod</h1>
-
-        <p class="install-important">
-            当前Mod仅支持 <b>Steam</b> 版本的游戏，并且仅适用于 <b>Windows</b> 系统。
-        </p>
-
-        <p class="install-important">
-            本网站与 Hinterland Games 无任何关联，仅用于提供Mod下载入口。
-        </p>
-
-        <ol class="install-instructions">
-            <li>
-                如果你没有关闭崩溃报告和数据分析，请先启动游戏并关闭它们。<br>
-                <b>这很重要！</b> 除非确定是官方问题，否则不要打扰开发者。
-            </li>
-
-            <li>
-                <strong>在安装Mod前务必备份存档！虽然Mod通常经过测试，但仍可能出现问题。</strong><br>
-                存档路径：<code>C:\Users\[用户名]\AppData\Local\Hinterland\TheLongDark</code>
-            </li>
-
-            <li style="color: orange;">
-                首先，请确保安装了 Melon Loader 运行环境：
-                <ul>
-                    <li>Microsoft Visual C++ 2015-2019 运行库（64位）</li>
-                    <li>.NET 6.0 Runtime</li>
-                </ul>
-            </li>
-
-            <li>
-                接下来安装 MelonLoader：
-                <ul>
-                    <li>下载 MelonLoader.Installer.exe</li>
-                    <li>运行安装程序（位置不限）</li>
-                    <li>选择 TheLongDark（或手动添加）</li>
-                    <li style="color: orange;">
-                        选择版本 <strong>0.7.2</strong><br>
-                        （勾选“Enable Nightly Builds”并选择最新版本）
-                    </li>
-                    <li>等待安装完成</li>
-                </ul>
-            </li>
-
-            <li>
-                下载Mod（如为zip需解压），将 .dll / .modcomponent 文件放入游戏目录中的 Mods 文件夹<br>
-                （注意查看Mod说明，有些包含多个版本）
-            </li>
-
-            <li>确保安装所有依赖项</li>
-
-            <li>启动游戏，享受Mod吧 :)</li>
-        </ol>
-    </div>
-
-    <div class="common-issues how-to-container">
-        <h2>常见问题</h2>
-
-        <h4>出现 “iL2CPP-init detour failed” 错误</h4>
-        <p>需要安装 .NET 6 Runtime</p>
-
-        <h4>提示缺少 UnhollowerBaseLib</h4>
-        <p>该Mod未适配当前版本，请删除该Mod</p>
-
-        <h4>游戏启动崩溃</h4>
-        <p>请确认使用 MelonLoader 0.7.2</p>
-
-        <h4>Epic版本无法运行Mod</h4>
-        <p>Epic版本有防篡改系统，目前无法支持Mod</p>
-
-        <h4>如何卸载 MelonLoader</h4>
-        <p>重新运行安装程序并选择游戏，即可卸载</p>
-        <p>或手动删除以下文件夹：MelonLoader、Mods、Plugins、UserData、UserLibs 和 version.dll</p>
-
-        <h4>Mod支持剧情模式吗？</h4>
-        <p>目前不支持。生存模式与剧情模式已分离，理论上可以分别安装，但存在加载问题。</p>
-    </div>
-</div>
+        <section class="guide-section">
+            <div class="guide-section-heading"><span>FAQ</span><div><h2>常见问题</h2><p>遇到问题时先检查这些项目</p></div></div>
+            <div class="guide-faq">
+                <details><summary>出现 “iL2CPP-init detour failed” 错误</summary><p>请确认已安装 .NET 6 Runtime。</p></details>
+                <details><summary>提示缺少 UnhollowerBaseLib</summary><p>该模组可能未适配当前游戏版本，请检查模组页面的兼容信息；若仍无法使用，请暂时移除该模组。</p></details>
+                <details><summary>游戏启动时崩溃</summary><p>确认 MelonLoader 版本为 0.7.2，并检查是否已安装所有前置模组。</p></details>
+                <details><summary>Epic 版本能否使用模组？</summary><p>Epic 版本目前不受支持。</p></details>
+                <details><summary>如何卸载 MelonLoader？</summary><p>重新运行安装程序并选择游戏即可卸载；也可以在确认已备份后，手动删除 MelonLoader、Mods、Plugins、UserData、UserLibs 文件夹和 version.dll。</p></details>
+                <details><summary>模组支持剧情模式吗？</summary><p>目前不支持。生存模式与剧情模式已分离，分别安装也可能遇到加载问题。</p></details>
+            </div>
+        </section>
+        <a class="guide-back" href="/thelongdark/"><i class="fas fa-arrow-left" aria-hidden="true"></i> 返回模组库</a>
+    </main>
+</body>
+</html>

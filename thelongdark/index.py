@@ -154,13 +154,17 @@ def google_translate_api(raws, source="auto", target="zh-ch", timeout=30):
 
 
 CACHE_FILE = "./thelongdark/transl_cache.json"
+HIGH_QUALITY_MOD_CACHE_FILE = os.path.join(os.path.dirname(__file__), "high_quality_mod_translations.json")
 
-# 加载本地缓存
-if os.path.exists(CACHE_FILE):
-    with open(CACHE_FILE, "r", encoding="utf-8") as f:
-        tl_cache = json.load(f)
-else:
-    tl_cache = {}
+def load_translation_cache(path):
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as cache_file:
+        return json.load(cache_file)
+
+
+tl_cache = load_translation_cache(CACHE_FILE)
+high_quality_mod_cache = load_translation_cache(HIGH_QUALITY_MOD_CACHE_FILE)
 
 
 def save_cache():
@@ -180,6 +184,9 @@ def thelongdark():
     for mod in updated_mods:
         for key in ['DisplayName', 'Description']:
             original = mod[key]
+            mod_translation = high_quality_mod_cache.get(mod.get("Name"), {}).get(key)
+            if mod_translation is not None:
+                continue
             if original not in tl_cache:
                 to_translate.append(original)
     to_translate = list(set(to_translate))
@@ -196,7 +203,10 @@ def thelongdark():
     for mod in updated_mods:
         for key in ['DisplayName', 'Description']:
             original = mod[key]
-            if original in tl_cache:
+            mod_translation = high_quality_mod_cache.get(mod.get("Name"), {}).get(key)
+            if mod_translation is not None:
+                mod[key] = mod_translation
+            elif original in tl_cache:
                 mod[key] = tl_cache[original]
 
     mirror_images(updated_mods)

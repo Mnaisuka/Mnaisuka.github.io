@@ -87,15 +87,25 @@ Filters.prototype = {
 
 		$(".filter-action.copy-url").off("click").on("click", function(){
 			var url = _this.createFilterURL();
-			console.log(url);
-			window.location.href=url;
+			if (navigator.clipboard && navigator.clipboard.writeText) {
+				navigator.clipboard.writeText(url).then(function() {
+					app.userState.showNotice("筛选链接已复制。");
+				}).catch(function(error) {
+					console.error("Could not copy filter URL.", error);
+					window.prompt("复制筛选链接：", url);
+				});
+			} else {
+				window.prompt("复制筛选链接：", url);
+			}
 		});
 	},
 
 	setupInlineFilters: function(){
 		var _this = this;
 
-		$(".inline-filter-item").off("click").on("click", function(){
+		$(".inline-filter-item").off("click").on("click", function(event){
+			event.preventDefault();
+			event.stopPropagation();
 			
 			var filterType = $(this).attr("data-filter-type");
 			var filterVal = $(this).attr("data-filter");
@@ -117,6 +127,7 @@ Filters.prototype = {
 			app.modals.closeModal();
 
 			_this.applyFilters();
+			if (app.userState) app.userState.closeMobileFilters();
 		});
 	},
 
@@ -127,7 +138,9 @@ Filters.prototype = {
 		this.currentFilters = {};
 
 		this.applyFilters();
-		window.location.href="/";
+		var url = new URL(window.location.href);
+		url.search = "";
+		window.history.replaceState(null, "", url.toString());
 	},
 
 	processURLFilters: function(){
@@ -156,9 +169,10 @@ Filters.prototype = {
 	},
 
 	createFilterURL: function(){
-		var url = location.protocol + '//' + location.host + location.pathname + "?";
-
-		url += "q="+$("#searchText").val();
+		var url = new URL(window.location.href);
+		var params = new URLSearchParams();
+		var query = this.$search.val().trim();
+		if (query) params.set("q", query);
 
 		$(".filter-holder").each(function(){
 			var type = $(this).data("filter-type");
@@ -171,11 +185,12 @@ Filters.prototype = {
 			});
 
 			if (values.length){
-				url += "&"+type+"="+values.join(",");
+				params.set(type, values.join(","));
 			}
 		});
 
-		return url;
+		url.search = params.toString();
+		return url.toString();
 	},
 
 	applyFilters: function(){
@@ -283,6 +298,13 @@ Filters.prototype = {
 				}
 			}
 
+			if (app.userState && app.userState.view === "favorites" && !app.userState.favorites.has(item.attr("id"))) {
+				showItem = false;
+			}
+			if (app.userState && app.userState.view === "downloaded" && !app.userState.downloaded.has(item.attr("id"))) {
+				showItem = false;
+			}
+
 			if (showItem){
 				item.show();
 			}
@@ -291,11 +313,22 @@ Filters.prototype = {
 			
 		});
 
-		if (!query && jQuery.isEmptyObject(this.currentFilters)){
+		if (!query && jQuery.isEmptyObject(this.currentFilters) &&
+			(!app.userState || app.userState.view == "all")){
 			$("#modList .mod-item").show();
 		}
 
 		$(".results-count .num-results").text($("#modList .mod-item:visible").length);
+		var empty = $("#modList .mod-item:visible").length === 0;
+		$("#empty-state").prop("hidden", !empty);
+		$("#empty-state .reset-filters").prop("hidden", !empty || (app.userState && app.userState.view !== "all"));
+		$("#empty-state .empty-show-all").prop("hidden", !empty || !app.userState || app.userState.view === "all");
+		if (empty && app.userState && app.userState.view !== "all") {
+			var emptyView = app.userState.view === "favorites" ? "收藏" : "已下载";
+			$("#empty-state .empty-description").text(emptyView + "列表还是空的，返回全部模组继续探索。");
+		} else {
+			$("#empty-state .empty-description").text("试试调整筛选条件，或先收藏几个喜欢的模组。");
+		}
 
 		$(".mod-item-template").hide();
 	}

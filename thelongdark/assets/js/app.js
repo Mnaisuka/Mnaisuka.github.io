@@ -8,6 +8,7 @@ TLDmodlist.prototype = {
 	data: null,
 	filters: null,
 	modals: null,
+	userState: null,
 
 	loadAll: false,
 
@@ -37,9 +38,11 @@ TLDmodlist.prototype = {
 		$(document).on("dataloaded", function(){
 			_this.initFilters();
 			_this.initModals();
+			_this.userState.refresh();
 			_this.removeLoading();
 		});
 
+		this.userState = new UserState();
 		this.loadInitData();
 		this.initEvents();
 		window.setTimeout(function(){
@@ -47,8 +50,6 @@ TLDmodlist.prototype = {
 		},500);
 
 		this.showLoading();
-
-		this.initSidebarScroll();
 
 	},
 

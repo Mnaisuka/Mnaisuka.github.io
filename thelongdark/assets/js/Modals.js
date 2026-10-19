@@ -17,14 +17,8 @@ Modals.prototype = {
 		var _this = this;
 
 		$("#modList .mod-item").off("click").on("click", function(e){
-			var hover_element = $(':hover').last();
-			
-			if(hover_element.hasClass("mod-link") || hover_element.parent().hasClass("mod-link")) {
-				if(!hover_element.hasClass("mod-viewmore") || hover_element.parent().hasClass("mod-viewmore")) {
-//				console.log(hover_element);
-				return;
-				}
-			}
+			var control = $(e.target).closest("a, button");
+			if (control.length && !control.hasClass("mod-viewmore")) return;
 			e.preventDefault();
 
 			var modID = $(this).attr("id");
@@ -35,6 +29,12 @@ Modals.prototype = {
 		$(".modal-close, .modal-overlay").off("click").on("click", function(){
 			_this.closeModal();
 		});
+
+		$(document).off("keydown.modals").on("keydown.modals", function(e){
+			if (e.key === "Escape" && _this.modalOpen){
+				_this.closeModal();
+			}
+		});
 	},
 
 	openModal:function(modID){
@@ -42,6 +42,8 @@ Modals.prototype = {
 
 		var modData = app.data.modList[modID];
 		this.modalOpen = modID;
+		this.modal.attr("data-modid", modID);
+		app.userState.decorateModal(modID);
 		
 		console.log(modData);
 
@@ -104,15 +106,12 @@ Modals.prototype = {
 			this.modal.find(".deps-list-wrapper").html("");
 
 			modData.deps.forEach(function(dep){
-				var depID = dep.replaceAll(" ","-").toLowerCase();
-				if (app.data.modList[depID]){
-					var depURL = app.data.modList[depID].downloadURL;
-				}else{
-					var depURL = false;
-				}
+				var dependency = app.userState.findMod(dep);
+				var depURL = dependency && dependency.mod.downloadURL;
 
 				if (depURL){
-					var btn = $('<li><a href="'+depURL+'" target="_blank"><i class="fal fa-download" aria-hidden="true"></i> '+dep+'</a></li>');
+					var btn = $('<li><a target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i></a></li>');
+					btn.find("a").attr("href", depURL).attr("data-modid", dependency.id).append(document.createTextNode(" " + dep));
 				}else{
 					var btn = $('<li><span>'+dep+'</span></li>');
 				}
@@ -173,7 +172,8 @@ Modals.prototype = {
 				var arrowR = $('<div class="swiper-button-next"></div>');
 
 				modData.images.forEach(function(item){
-					var img = $("<img />").attr("src",item);
+					var img = $("<img />").attr({ "src": item, "alt": modData.displayName, "loading": "lazy" })
+						.on("error", function() { $(this).hide(); });
 					var slide = $('<div class="swiper-slide"></div>');
 
 					slide.append(img);
@@ -196,7 +196,8 @@ Modals.prototype = {
 				});
 
 			}else{
-				var img = $("<img />").attr("src",modData.images[0]);
+				var img = $("<img />").attr({ "src": modData.images[0], "alt": modData.displayName })
+					.on("error", function() { $(this).hide(); });
 				this.modal.find(".modal-images").html("");
 				this.modal.find(".modal-images").append(img);
 			}
