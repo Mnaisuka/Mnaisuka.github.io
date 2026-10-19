@@ -2,7 +2,127 @@ import requests
 import json
 import os
 import logging
+import hashlib
+import tempfile
 from concurrent.futures import ThreadPoolExecutor
+
+
+IMAGE_DIR = os.path.join(os.path.dirname(__file__), "assets", "img", "mods")
+IMAGE_PUBLIC_PATH = "/thelongdark/assets/img/mods"
+MAX_IMAGE_BYTES = 20 * 1024 * 1024
+IMAGE_MIME_EXTENSIONS = {
+    "image/avif": ".avif",
+    "image/bmp": ".bmp",
+    "image/gif": ".gif",
+    "image/jpeg": ".jpg",
+    "image/png": ".png",
+    "image/svg+xml": ".svg",
+    "image/webp": ".webp",
+}
+
+
+def _local_image_path(filename, content):
+    version = hashlib.sha256(content).hexdigest()[:12]
+    return f"{IMAGE_PUBLIC_PATH}/{filename}?v={version}"
+
+
+def _existing_image(url_key):
+    if not os.path.isdir(IMAGE_DIR):
+        return None
+
+    for filename in os.listdir(IMAGE_DIR):
+        if filename.startswith(url_key + "."):
+            path = os.path.join(IMAGE_DIR, filename)
+            if os.path.isfile(path):
+                with open(path, "rb") as image_file:
+                    return filename, image_file.read()
+    return None
+
+
+def download_image(url):
+    if not url.startswith(("http://", "https://")):
+        return url
+
+    url_key = hashlib.sha256(url.encode("utf-8")).hexdigest()[:24]
+    temp_path = None
+    try:
+        os.makedirs(IMAGE_DIR, exist_ok=True)
+        with requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0"},
+            stream=True,
+            timeout=(10, 30),
+        ) as response:
+            response.raise_for_status()
+            content_type = response.headers.get("Content-Type", "").split(";", 1)[0].lower()
+            extension = IMAGE_MIME_EXTENSIONS.get(content_type)
+            if not extension:
+                raise ValueError(f"unsupported image content type: {content_type or 'missing'}")
+
+            content_length = response.headers.get("Content-Length")
+            if content_length and int(content_length) > MAX_IMAGE_BYTES:
+                raise ValueError(f"image exceeds {MAX_IMAGE_BYTES} bytes")
+
+            content = bytearray()
+            for chunk in response.iter_content(chunk_size=64 * 1024):
+                content.extend(chunk)
+                if len(content) > MAX_IMAGE_BYTES:
+                    raise ValueError(f"image exceeds {MAX_IMAGE_BYTES} bytes")
+            if not content:
+                raise ValueError("empty image response")
+
+        filename = f"{url_key}{extension}"
+        output_path = os.path.join(IMAGE_DIR, filename)
+        with tempfile.NamedTemporaryFile(
+            mode="wb", dir=IMAGE_DIR, prefix=f".{url_key}-", suffix=".tmp", delete=False
+        ) as image_file:
+            temp_path = image_file.name
+            image_file.write(content)
+        os.replace(temp_path, output_path)
+        temp_path = None
+
+        for existing in os.listdir(IMAGE_DIR):
+            if existing.startswith(url_key + ".") and existing != filename:
+                os.remove(os.path.join(IMAGE_DIR, existing))
+
+        return _local_image_path(filename, content)
+    except (requests.exceptions.RequestException, OSError, ValueError) as error:
+        logging.warning("Could not mirror image %s: %s", url, error)
+        existing = _existing_image(url_key)
+        if existing:
+            filename, content = existing
+            logging.warning("Using previously mirrored image for %s", url)
+            return _local_image_path(filename, content)
+        return url
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.remove(temp_path)
+
+
+def mirror_images(mods):
+    urls = {
+        image
+        for mod in mods
+        for image in (mod.get("Images") or [])
+        if isinstance(image, str) and image.startswith(("http://", "https://"))
+    }
+    if not urls:
+        return
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        mirrored = dict(zip(urls, executor.map(download_image, urls)))
+
+    for mod in mods:
+        images = mod.get("Images") or []
+        mod["Images"] = [
+            mirrored.get(image, image) if isinstance(image, str) else image
+            for image in images
+        ]
+
+    local_count = sum(
+        image.startswith(IMAGE_PUBLIC_PATH + "/") for image in mirrored.values()
+    )
+    print(f"Mirrored {local_count} of {len(urls)} unique mod images.")
 
 
 def google_translate_api(raws, source="auto", target="zh-ch", timeout=30):
@@ -78,6 +198,8 @@ def thelongdark():
             original = mod[key]
             if original in tl_cache:
                 mod[key] = tl_cache[original]
+
+    mirror_images(updated_mods)
 
     print(updated_mods)
 
