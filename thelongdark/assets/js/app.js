@@ -293,7 +293,7 @@ TLDmodlist.prototype = {
 			});
 		}
 
-		$('#modList').html(result);
+		$('#modList').append(result);
 
 		this.resetModEvents();
 	},

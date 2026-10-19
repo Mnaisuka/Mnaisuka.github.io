@@ -106,17 +106,17 @@ def mirror_images(mods):
         for image in (mod.get("Images") or [])
         if isinstance(image, str) and image.startswith(("http://", "https://"))
     }
-    if not urls:
-        return
-
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        mirrored = dict(zip(urls, executor.map(download_image, urls)))
+    mirrored = {}
+    if urls:
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            mirrored = dict(zip(urls, executor.map(download_image, urls)))
 
     for mod in mods:
         images = mod.get("Images") or []
         mod["Images"] = [
-            mirrored.get(image, image) if isinstance(image, str) else image
+            mirrored.get(image, image)
             for image in images
+            if isinstance(image, str) and image.strip()
         ]
 
     local_count = sum(
@@ -210,8 +210,6 @@ def thelongdark():
                 mod[key] = tl_cache[original]
 
     mirror_images(updated_mods)
-
-    print(updated_mods)
 
     with open("./thelongdark/api.json", "w+", encoding="UTF-8") as f:
         json.dump(updated_mods, f, ensure_ascii=False, indent=2)

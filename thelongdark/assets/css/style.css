@@ -1271,8 +1271,6 @@ body { background: var(--page); }
 .guide-layout { max-width: 920px; }
 .guide-section { border-radius: 8px; background: #fff; }
 .guide-notice, .guide-faq details { border-radius: 7px; }
-.modlist .modlist-wrapper .mod-item .mod-thumb .thumb-image { visibility: hidden; }
-.modlist .modlist-wrapper .mod-item .mod-thumb .thumb-image[style*="visibility: visible"] { visibility: visible; }
 .modlist .modlist-wrapper .mod-item .mod-thumb.no-image .thumb-image { display: none !important; }
 .modlist .modlist-wrapper .mod-item .mod-deps-list { border: 0; border-radius: 0 0 8px 8px; background: transparent; }
 .modlist .modlist-wrapper .mod-item .mod-deps-list .deps-list-wrapper { margin: 0; padding: 8px 0 0; border: 0; text-align: left; }

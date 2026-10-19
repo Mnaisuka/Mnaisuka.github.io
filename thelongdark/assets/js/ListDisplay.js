@@ -163,8 +163,10 @@ ListDisplay.prototype = {
 				mod.supportURL = iData.SupportUrl;
 			}
 
-			if ( iData.Images && iData.Images.length ) {
-				mod.images = iData.Images;
+			if ( Array.isArray( iData.Images ) ) {
+				mod.images = iData.Images.filter( function( image ) {
+					return typeof image === "string" && image.trim() !== "";
+				} );
 			}
 
 			if ( iData.Status ) {
@@ -324,22 +326,15 @@ ListDisplay.prototype = {
 			let thumbImg = thumbImage.find( "img" );
 			if ( mod.images && mod.images.length > 0 ) {
 				modThumb.removeClass( "no-image" );
-				thumbImage.css( { "display": "block", "visibility": "hidden" } );
+				thumbImage.css( "display", "block" );
 				thumbImg
 					.off( "error" )
 					.on( "error", function() {
 						thumbImage.hide();
 						thumbImage.closest( ".mod-thumb" ).addClass( "no-image" );
-					} )
-					.off( "load" )
-					.on( "load", function() {
-						thumbImage.css( { "display": "block", "visibility": "visible" } );
 					} );
 				thumbImg.attr( { "alt": mod.displayName, "loading": "lazy", "decoding": "async" } );
 				thumbImg.attr( "src", mod.images[ 0 ] );
-				if ( thumbImg[ 0 ].complete && thumbImg[ 0 ].naturalWidth > 0 ) {
-					thumbImage.css( { "display": "block", "visibility": "visible" } );
-				}
 			} else {
 				thumbImage.hide();
 				modThumb.addClass( "no-image" );
