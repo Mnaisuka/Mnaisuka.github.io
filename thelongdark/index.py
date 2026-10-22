@@ -54,7 +54,7 @@ MOD_API_URL = "https://tldmods.net/api.json?details"
 
 # 翻译缓存文件。
 # 使用绝对路径，避免从其他工作目录启动时创建错误的缓存文件。
-CACHE_FILE = os.path.join(BASE_DIR, "thelongdark", "transl_cache.json")
+CACHE_FILE = os.path.join(BASE_DIR, "transl_cache.json")
 
 # 高质量模组翻译缓存。
 # 此缓存优先级高于普通机器翻译缓存。
