@@ -81,6 +81,7 @@ UserState.prototype = {
 		});
 
 		$(document).on("click", "#modList .mod-download, .mod-modal .mod-download", function(event) {
+			window.on_download?.(this);
 			var modId = _this.getItemId($(this));
 			if (!modId) return;
 			var downloadUrl = $(this).attr("href");
