@@ -4,6 +4,8 @@ import json
 import logging
 import os
 import tempfile
+import time
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
@@ -65,6 +67,12 @@ HIGH_QUALITY_MOD_CACHE_FILE = os.path.join(
 
 # 最终生成的模组 API JSON 文件。
 OUTPUT_FILE = os.path.join(BASE_DIR, "api.json")
+
+# 正常 API 约有 307 条记录。低于 300 条时先停止更新，防止异常响应覆盖旧文件。
+MIN_EXPECTED_MODS = 300
+
+# 记录异常 API 原始响应，便于判断数据是在上游就不完整，还是后续处理造成的。
+RAW_RESPONSE_FILE = os.path.join(BASE_DIR, "api_debug_response.json")
 
 # 每次提交给翻译接口的文本数量。
 # 数值越大，请求次数通常越少，但单次请求的数据量也越大。
@@ -188,6 +196,49 @@ def atomic_write_json(path, data, indent=4):
                     "无法清理临时 JSON 文件：%s",
                     temp_path,
                 )
+
+
+def log_mod_stats(stage, mods):
+    """输出条目数、重复名称和完全重复记录，辅助定位数据异常。"""
+    if not isinstance(mods, list):
+        logging.warning("[%s] 数据不是列表：%s", stage, type(mods).__name__)
+        return
+
+    valid_mods = [mod for mod in mods if isinstance(mod, dict)]
+    names = [mod.get("Name") for mod in valid_mods if mod.get("Name")]
+    name_counts = Counter(names)
+    duplicate_names = {
+        name: count for name, count in name_counts.items() if count > 1
+    }
+
+    object_counts = Counter(
+        json.dumps(mod, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+        for mod in valid_mods
+    )
+    exact_duplicates = sum(count - 1 for count in object_counts.values() if count > 1)
+
+    logging.info(
+        "[%s] 总条目=%s，有效字典=%s，缺失/空 Name=%s，重复 Name 组=%s，完全重复多余条目=%s",
+        stage,
+        len(mods),
+        len(valid_mods),
+        sum(not mod.get("Name") for mod in valid_mods),
+        len(duplicate_names),
+        exact_duplicates,
+    )
+
+    if duplicate_names:
+        logging.warning("[%s] 重复 Name（最多显示 30 组）：%s", stage, dict(list(duplicate_names.items())[:30]))
+
+
+def save_debug_response(response):
+    """保存异常 API 的原始响应，避免只能从处理后的数据猜原因。"""
+    try:
+        with open(RAW_RESPONSE_FILE, "wb") as debug_file:
+            debug_file.write(response.content)
+        logging.warning("已保存 API 原始响应：%s（%s 字节）", RAW_RESPONSE_FILE, len(response.content))
+    except OSError:
+        logging.exception("保存 API 原始响应失败：%s", RAW_RESPONSE_FILE)
 
 
 def load_translation_cache(path):
@@ -1050,39 +1101,44 @@ def thelongdark():
         API 返回的原始文本
     """
 
-    logging.info("开始更新《漫漫长夜》模组数据")
+    started_at = time.perf_counter()
+    logging.info("=" * 60)
+    logging.info("开始更新模组数据；run_id=%s，event=%s，commit=%s",
+                 os.getenv("GITHUB_RUN_ID", "local"),
+                 os.getenv("GITHUB_EVENT_NAME", "local"),
+                 os.getenv("GITHUB_SHA", "unknown"))
+    logging.info("脚本路径：%s", os.path.abspath(__file__))
+    logging.info("输出路径：%s", os.path.abspath(OUTPUT_FILE))
+    logging.info("API 地址：%s", MOD_API_URL)
 
-    # --------------------------------------------------------
-    # 第一步：获取最新模组数据
-    # --------------------------------------------------------
-
+    # 第一步：请求 API，并记录响应耗时、大小和服务端信息。
+    request_started = time.perf_counter()
     try:
-        # 发送 GET 请求获取模组列表。
-        # 60 秒读取超时沿用原代码的设置。
-        response = requests.get(
-            url=MOD_API_URL,
-            timeout=60,
-        )
-
-        # 如果接口返回 HTTP 错误状态，则停止本次更新。
+        response = requests.get(MOD_API_URL, timeout=60)
+        request_elapsed = time.perf_counter() - request_started
+        logging.info("API HTTP=%s，耗时=%.2fs，响应=%s 字节",
+                     response.status_code, request_elapsed, len(response.content))
+        logging.info("API 最终 URL=%s，Content-Type=%s，Date=%s，重定向次数=%s",
+                     response.url, response.headers.get("Content-Type", ""),
+                     response.headers.get("Date", ""), len(response.history))
         response.raise_for_status()
-
-        # 解析 JSON 响应。
         updated_mods = response.json()
-
-    except (
-        requests.exceptions.RequestException,
-        ValueError,
-        json.JSONDecodeError,
-    ):
-        # API 获取失败时不应覆盖现有 api.json。
-        logging.exception("获取模组 API 数据失败")
+    except (requests.exceptions.RequestException, ValueError, json.JSONDecodeError):
+        logging.exception("获取或解析模组 API 失败；旧 api.json 不会被覆盖")
         return
 
     # API 的正常返回值应当是模组字典组成的列表。
     # 如果结构异常，直接停止，防止后续流程误写文件。
     if not isinstance(updated_mods, list):
-        logging.error("模组 API 返回的数据不是列表，取消更新")
+        save_debug_response(response)
+        logging.error("API 根节点不是列表（实际类型=%s），取消更新", type(updated_mods).__name__)
+        return
+
+    log_mod_stats("API 原始数据", updated_mods)
+    if len(updated_mods) < MIN_EXPECTED_MODS:
+        save_debug_response(response)
+        logging.error("API 仅返回 %s 条，低于安全阈值 %s；取消更新以保护现有 api.json",
+                      len(updated_mods), MIN_EXPECTED_MODS)
         return
 
     # 过滤掉不符合预期的数据项。
@@ -1104,10 +1160,13 @@ def thelongdark():
             if isinstance(mod, dict)
         ]
 
-    logging.info(
-        "成功获取 %s 个有效模组",
-        len(updated_mods),
-    )
+    logging.info("过滤非字典条目后剩余 %s 条（过滤 %s 条）",
+                 len(updated_mods), invalid_count)
+    log_mod_stats("过滤后", updated_mods)
+    if len(updated_mods) < MIN_EXPECTED_MODS:
+        logging.error("有效模组仅 %s 条，低于安全阈值 %s；取消更新",
+                      len(updated_mods), MIN_EXPECTED_MODS)
+        return
 
     # --------------------------------------------------------
     # 第二步：收集需要翻译的文本
@@ -1324,15 +1383,19 @@ def thelongdark():
     # 图片镜像与文本翻译相互独立。
     # 即使某些图片下载失败，download_image() 也会尽量返回
     # 旧缓存路径或原始 URL。
+    log_mod_stats("翻译后、图片镜像前", updated_mods)
     try:
         mirror_images(updated_mods)
 
     except Exception:
         # 防止意外的图片处理错误阻止最终 JSON 输出。
         # 此时可能存在部分图片未完成镜像的情况。
-        logging.exception(
-            "图片镜像过程中发生未预料到的异常"
-        )
+        logging.exception("图片镜像过程中发生未预料到的异常")
+
+    log_mod_stats("图片镜像后、写入前", updated_mods)
+    if len(updated_mods) < MIN_EXPECTED_MODS:
+        logging.error("处理后条目数异常下降：%s；取消写入", len(updated_mods))
+        return
 
     # --------------------------------------------------------
     # 第六步：安全输出最终模组 API 文件
@@ -1356,10 +1419,24 @@ def thelongdark():
         )
         return
 
-    logging.info(
-        "模组数据更新完成：%s",
-        OUTPUT_FILE,
-    )
+    try:
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as output_file:
+            saved_mods = json.load(output_file)
+        log_mod_stats("重新读取输出文件", saved_mods)
+        logging.info("输出文件大小：%s 字节", os.path.getsize(OUTPUT_FILE))
+        if not isinstance(saved_mods, list) or len(saved_mods) != len(updated_mods):
+            logging.error("写入后条目数不一致：内存=%s，文件=%s；请检查文件是否被其他任务覆盖",
+                          len(updated_mods),
+                          len(saved_mods) if isinstance(saved_mods, list) else type(saved_mods).__name__)
+            return
+    except (OSError, json.JSONDecodeError):
+        logging.exception("写入后重新读取 api.json 校验失败")
+        return
+
+    logging.info("更新完成；最终条目=%s，耗时=%.2fs，文件=%s",
+                 len(saved_mods) if isinstance(saved_mods, list) else "非列表",
+                 time.perf_counter() - started_at,
+                 OUTPUT_FILE)
 
 
 # ============================================================
