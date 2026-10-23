@@ -1,4 +1,4 @@
-var UserState = function() {
+var UserState = function () {
 	this.storageKey = "tld-mod-catalog-state-v1";
 	this.favorites = new Set();
 	this.downloaded = new Set();
@@ -10,7 +10,7 @@ var UserState = function() {
 };
 
 UserState.prototype = {
-	load: function() {
+	load: function () {
 		try {
 			var stored = window.localStorage.getItem(this.storageKey);
 			if (!stored) return;
@@ -24,7 +24,7 @@ UserState.prototype = {
 		}
 	},
 
-	save: function() {
+	save: function () {
 		try {
 			window.localStorage.setItem(this.storageKey, JSON.stringify({
 				favorites: Array.from(this.favorites),
@@ -36,10 +36,10 @@ UserState.prototype = {
 		}
 	},
 
-	initEvents: function() {
+	initEvents: function () {
 		var _this = this;
 
-		$(document).on("click", ".favorite-toggle", function(event) {
+		$(document).on("click", ".favorite-toggle", function (event) {
 			event.preventDefault();
 			event.stopPropagation();
 			var modId = _this.getItemId($(this));
@@ -54,21 +54,21 @@ UserState.prototype = {
 			_this.refresh();
 		});
 
-		$(document).on("click", ".catalog-view", function() {
+		$(document).on("click", ".catalog-view", function () {
 			_this.view = $(this).attr("data-view");
 			$(".catalog-view").removeClass("active").attr("aria-selected", "false");
 			$(this).addClass("active").attr("aria-selected", "true");
 			if (app.filters) app.filters.applyFilters();
 		});
 
-		$(document).on("click", ".empty-show-all", function() {
+		$(document).on("click", ".empty-show-all", function () {
 			_this.view = "all";
 			$(".catalog-view").removeClass("active").attr("aria-selected", "false");
 			$(".catalog-view[data-view='all']").addClass("active").attr("aria-selected", "true");
 			if (app.filters) app.filters.applyFilters();
 		});
 
-		$(document).on("click", ".reset-downloaded", function() {
+		$(document).on("click", ".reset-downloaded", function () {
 			if (!_this.downloaded.size) {
 				_this.showNotice("目前没有已下载标记。");
 				return;
@@ -80,8 +80,7 @@ UserState.prototype = {
 			_this.showNotice("已清除所有已下载标记。");
 		});
 
-		$(document).on("click", "#modList .mod-download, .mod-modal .mod-download", function(event) {
-			window.on_download?.(this);
+		$(document).on("click", "#modList .mod-download, .mod-modal .mod-download", function (event) {
 			var modId = _this.getItemId($(this));
 			if (!modId) return;
 			var downloadUrl = $(this).attr("href");
@@ -103,33 +102,39 @@ UserState.prototype = {
 			_this.markDownloaded(modId);
 		});
 
-		$(document).on("click", ".dependency-download", function() {
+		$(document).on('contextmenu', "#modList .mod-download, .mod-modal .mod-download", function (e) {
+			e.preventDefault();
+		});
+
+		$(document).on("click", ".dependency-download", function () {
 			var modId = $(this).attr("data-modid");
 			var mod = app.data.modList[modId];
 			if (!mod || !mod.downloadURL) return;
 			_this.markDownloaded(modId);
 			window.open(mod.downloadURL, "_blank", "noopener");
+			window.on_download?.(this,app.data.modList[modId]);
 			_this.renderDependencyDialog(_this.collectMissingDependencies(_this.pendingModId));
 		});
 
-		$(document).on("click", ".deps-list-wrapper a[data-modid]", function() {
+		$(document).on("click", ".deps-list-wrapper a[data-modid]", function () {
 			_this.markDownloaded($(this).attr("data-modid"));
 		});
 
-		$(".dependency-continue").on("click", function() {
+		$(".dependency-continue").on("click", function () {
 			var mod = app.data.modList[_this.pendingModId];
 			if (mod && mod.downloadURL) {
 				_this.markDownloaded(_this.pendingModId);
 				window.open(mod.downloadURL, "_blank", "noopener");
+				window.on_download?.(this,app.data.modList[modId]);
 			}
 			_this.closeDependencyDialog();
 		});
 
-		$(".dependency-close, .dependency-cancel, .dependency-overlay").on("click", function() {
+		$(".dependency-close, .dependency-cancel, .dependency-overlay").on("click", function () {
 			_this.closeDependencyDialog();
 		});
 
-		$(document).on("keydown", function(event) {
+		$(document).on("keydown", function (event) {
 			if (event.key === "Escape") {
 				_this.closeDependencyDialog();
 				_this.closeMobileFilters();
@@ -140,24 +145,24 @@ UserState.prototype = {
 			}
 		});
 
-		$(".mobile-filter-toggle").on("click", function() {
+		$(".mobile-filter-toggle").on("click", function () {
 			_this.toggleMobileFilters();
 		});
-		$(".filter-close").on("click", function() {
+		$(".filter-close").on("click", function () {
 			_this.closeMobileFilters();
 		});
-		$(".filter-backdrop").on("click", function() {
+		$(".filter-backdrop").on("click", function () {
 			_this.closeMobileFilters();
 		});
 	},
 
-	getItemId: function(element) {
+	getItemId: function (element) {
 		var item = element.closest(".mod-item");
 		if (item.length) return item.attr("id");
 		return $(".mod-modal-wrapper").attr("data-modid") || "";
 	},
 
-	decorateItem: function(item, modId) {
+	decorateItem: function (item, modId) {
 		var favorite = this.favorites.has(modId);
 		var downloaded = this.downloaded.has(modId);
 		item.find(".favorite-toggle")
@@ -172,7 +177,7 @@ UserState.prototype = {
 		}
 	},
 
-	decorateModal: function(modId) {
+	decorateModal: function (modId) {
 		var favorite = this.favorites.has(modId);
 		$(".mod-modal-wrapper .favorite-toggle")
 			.toggleClass("is-favorite", favorite)
@@ -180,31 +185,31 @@ UserState.prototype = {
 			.find("span").text(favorite ? "已收藏" : "收藏");
 	},
 
-	markDownloaded: function(modId) {
+	markDownloaded: function (modId) {
 		if (!modId || this.downloaded.has(modId)) return;
 		this.downloaded.add(modId);
 		this.save();
 		this.refresh();
 	},
 
-	refresh: function() {
+	refresh: function () {
 		var _this = this;
-		$("#modList .mod-item").each(function() {
+		$("#modList .mod-item").each(function () {
 			_this.decorateItem($(this), $(this).attr("id"));
 		});
 		this.decorateModal($(".mod-modal-wrapper").attr("data-modid"));
 		$(".catalog-view .view-count[data-count='all']").text($("#modList .mod-item").length);
-		$(".catalog-view .view-count[data-count='favorites']").text($("#modList .mod-item").filter(function() {
+		$(".catalog-view .view-count[data-count='favorites']").text($("#modList .mod-item").filter(function () {
 			return _this.favorites.has(this.id);
 		}).length);
-		$(".catalog-view .view-count[data-count='downloaded']").text($("#modList .mod-item").filter(function() {
+		$(".catalog-view .view-count[data-count='downloaded']").text($("#modList .mod-item").filter(function () {
 			return _this.downloaded.has(this.id);
 		}).length);
 		$("#catalog-total").text($("#modList .mod-item").length);
 		if (app.filters) app.filters.applyFilters();
 	},
 
-	collectMissingDependencies: function(modId) {
+	collectMissingDependencies: function (modId) {
 		var _this = this;
 		var missing = [];
 		var visited = new Set();
@@ -212,7 +217,7 @@ UserState.prototype = {
 		var mod = app.data.modList[modId];
 
 		function visit(currentMod) {
-			(currentMod.deps || []).forEach(function(dependencyName) {
+			(currentMod.deps || []).forEach(function (dependencyName) {
 				var dependencyId = _this.normalizeId(dependencyName);
 				if (visited.has(dependencyId)) return;
 				visited.add(dependencyId);
@@ -240,11 +245,11 @@ UserState.prototype = {
 		return missing;
 	},
 
-	normalizeId: function(value) {
+	normalizeId: function (value) {
 		return String(value || "").toLowerCase().replace(/[\s_-]/g, "");
 	},
 
-	findMod: function(id) {
+	findMod: function (id) {
 		var normalized = this.normalizeId(id);
 		var keys = Object.keys(app.data.modList);
 		for (var index = 0; index < keys.length; index++) {
@@ -255,10 +260,10 @@ UserState.prototype = {
 		return null;
 	},
 
-	renderDependencyDialog: function(missing) {
+	renderDependencyDialog: function (missing) {
 		var list = $(".dependency-items").empty();
 		var _this = this;
-		missing.forEach(function(dependency) {
+		missing.forEach(function (dependency) {
 			var row = $("<li></li>");
 			var details = $("<span class='dependency-name'></span>").text(dependency.name);
 			row.append(details);
@@ -283,26 +288,26 @@ UserState.prototype = {
 		$(".dependency-close").trigger("focus");
 	},
 
-	closeDependencyDialog: function() {
+	closeDependencyDialog: function () {
 		$("#dependency-dialog").removeClass("is-open").attr("aria-hidden", "true");
 		this.pendingModId = null;
 	},
 
-	toggleMobileFilters: function() {
+	toggleMobileFilters: function () {
 		$("body").toggleClass("filters-open");
 		$(".mobile-filter-toggle").attr("aria-expanded", $("body").hasClass("filters-open") ? "true" : "false");
 	},
 
-	closeMobileFilters: function() {
+	closeMobileFilters: function () {
 		$("body").removeClass("filters-open");
 		$(".mobile-filter-toggle").attr("aria-expanded", "false");
 	},
 
-	showNotice: function(message) {
+	showNotice: function (message) {
 		var _this = this;
 		$("#app-notice").text(message).addClass("is-visible");
 		window.clearTimeout(this.noticeTimer);
-		this.noticeTimer = window.setTimeout(function() {
+		this.noticeTimer = window.setTimeout(function () {
 			$("#app-notice").removeClass("is-visible");
 		}, 4200);
 	}
