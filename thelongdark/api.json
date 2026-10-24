@@ -17,7 +17,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/AbsoluteCinema/releases/download/Latest/AbsoluteCinema.dll",
@@ -35,7 +35,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-10-10",
-    "Updated": "2026-10-10",
+    "Updated": "2026-10-24",
     "Images": [
       "/thelongdark/assets/img/mods/db69ce17dac443cd145cdb0b.webp?v=6676712888aa"
     ],
