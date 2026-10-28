@@ -600,7 +600,7 @@
       "ExpandedAiFramework"
     ],
     "Version": "0.12.4",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll",
     "Downloads": [
@@ -619,7 +619,7 @@
     "Updated": "2026-1-5",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": true,
       "patchnotes": "",
       "notes": "",
@@ -1187,12 +1187,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.0",
+    "Version": "1.2.4",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.0.0/AutoTorchLight.dll",
+    "Download": "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.2.4/AutoTorchLight.dll",
     "Downloads": [
-      "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.0.0/AutoTorchLight.dll"
+      "https://github.com/hzb1130/AutoTorchLight/releases/download/v1.2.4/AutoTorchLight.dll"
     ],
     "AuthorUrl": "https://github.com/hzb1130",
     "SupportUrl": null,
@@ -1200,11 +1200,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-07-26",
-    "Updated": "2026-07-26",
+    "Updated": "2026-10-27",
     "Images": [],
     "Status": {
       "working": true,
@@ -1236,12 +1236,12 @@
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.0",
+    "Download": "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.1",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.0"
+      "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.1"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -1255,7 +1255,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-10-27",
-    "Updated": "2026-10-27",
+    "Updated": "2026-10-28",
     "Images": [
       "/thelongdark/assets/img/mods/476dcea03e1b82ec0c39e90c.jpg?v=75e65f9232e1"
     ],
@@ -1870,12 +1870,12 @@
       "ModComponent",
       "Modders' Gear Toolbox"
     ],
-    "Version": "1.2.3",
+    "Version": "1.2.4",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.3/BountifulForaging.zip",
+    "Download": "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.4/BountifulForaging.zip",
     "Downloads": [
-      "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.3/BountifulForaging.zip"
+      "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.4/BountifulForaging.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
     "SupportUrl": null,
@@ -1885,18 +1885,18 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-06-15",
-    "Updated": "2026-07-16",
+    "Updated": "2026-10-28",
     "Images": [
       "/thelongdark/assets/img/mods/de2bb1cd43b4a380013c3463.jpg?v=953457f25701"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated for latest version.",
+      "patchnotes": "Updated for latest version. Added Russian localization (partial)",
       "notes": "Unzip the .zip, drop contents in mod folder.",
       "issues": ""
     },
@@ -2100,7 +2100,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-04-24",
@@ -2677,7 +2677,7 @@
       "ModData"
     ],
     "Version": "1.0.5",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/ClothingTweaker2/releases/latest/download/ClothingTweaker2.dll",
     "Downloads": [
@@ -2699,7 +2699,7 @@
       "/thelongdark/assets/img/mods/b976635afff394791f1dbc4d.webp?v=9a70f7e63d6c"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -2839,7 +2839,7 @@
       "ExpandedAiFramework"
     ],
     "Version": "0.12.4",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll",
     "Downloads": [
@@ -2858,7 +2858,7 @@
     "Updated": "2026-1-5",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": true,
       "patchnotes": "",
       "notes": "",
@@ -3109,7 +3109,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-06-21",
@@ -3653,6 +3653,62 @@
     ]
   },
   {
+    "DisplayName": "双管猎枪",
+    "Name": "DoubleBarrel",
+    "Type": "mod",
+    "Author": "Team Shotgun",
+    "DisplayAuthor": [
+      "Team Shotgun"
+    ],
+    "Description": "听说你们都想要一把霰弹枪……",
+    "Aliases": [
+      "Double Barrel Shotgun"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/Shotgun/",
+    "RepoName": "DoubleBarrel",
+    "Dependencies": [
+      "ModSettings",
+      "ModData",
+      "ModComponent",
+      "AudioManager",
+      "AudioCore",
+      "MehToolBox"
+    ],
+    "Version": "0.13.5",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/monsieurmeh/Shotgun/releases/latest/download/DoubleBarrel.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/Shotgun/releases/latest/download/DoubleBarrel.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.58",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-28",
+    "Updated": "2026-10-28",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla",
+      "tftft"
+    ]
+  },
+  {
     "DisplayName": "允许丢弃特殊物品",
     "Name": "DroppableUndroppables",
     "Type": "mod",
@@ -4092,12 +4148,12 @@
     "ModUrl": "https://github.com/No3371/TLD-ExamineActionsAPI",
     "RepoName": "ExamineActionsAPI",
     "Dependencies": [],
-    "Version": "2.0.8",
+    "Version": "2.0.9",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ExamineActionsAPI.dll",
+    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.9/ExamineActionsAPI.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ExamineActionsAPI.dll"
+      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.9/ExamineActionsAPI.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -4110,7 +4166,7 @@
       "ml": "0.7.2"
     },
     "Released": "2023-07-07",
-    "Updated": "2026-07-30",
+    "Updated": "2026-10-29",
     "Images": [],
     "Status": {
       "working": true,
@@ -4145,7 +4201,7 @@
       "ModData"
     ],
     "Version": "0.12.5",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll",
     "Downloads": [
@@ -4164,7 +4220,7 @@
     "Updated": "2026-9-26",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": true,
       "patchnotes": "",
       "notes": "BACK UP YOUR SAVES!",
@@ -4244,7 +4300,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedTradingFramework/releases/latest/download/ExpandedTradingFramework.dll",
@@ -4266,7 +4322,7 @@
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Fix some icon/SR issues",
+      "patchnotes": "Fix for 2.58",
       "notes": "",
       "issues": ""
     },
@@ -4617,7 +4673,7 @@
       "ModSettings"
     ],
     "Version": "1.4.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/FeatSettings/releases/latest/download/FeatSettings.dll",
     "Downloads": [
@@ -4641,7 +4697,7 @@
       "/thelongdark/assets/img/mods/a96e5d2d2ec29c7cb5bd3f14.png?v=32771ed7e5e9"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -4672,12 +4728,12 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "2.0.0",
+    "Version": "2.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-FiligranisSkills/releases/download/2.0.0/FiligranisSkills.dll",
+    "Download": "https://github.com/No3371/TLD-FiligranisSkills/releases/download/2.0.1/FiligranisSkills.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-FiligranisSkills/releases/download/2.0.0/FiligranisSkills.dll"
+      "https://github.com/No3371/TLD-FiligranisSkills/releases/download/2.0.1/FiligranisSkills.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -4685,11 +4741,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-05-29",
-    "Updated": "2026-01-21",
+    "Updated": "2026-10-29",
     "Images": [],
     "Status": {
       "working": true,
@@ -4739,7 +4795,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-06-19",
@@ -5121,7 +5177,7 @@
       "Quality Of Life"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-06-15",
@@ -6942,7 +6998,7 @@
       "Modders' Gear Toolbox"
     ],
     "Version": "3.1.2",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip",
     "Downloads": [
@@ -6964,7 +7020,7 @@
       "/thelongdark/assets/img/mods/a3c89ee7236cd033a4138974.jpg?v=27263cca0a95"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
@@ -8087,7 +8143,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.3.1",
+    "Version": "1.3.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MajorMiseries/releases/latest/download/MajorMiseries.dll",
@@ -8104,12 +8160,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-05-14",
-    "Updated": "2026-09-16",
+    "Updated": "2026-10-28",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Way too much stuff, read the mod's readme",
+      "patchnotes": "Fix for 2.58 + BlackLung buff",
       "notes": "",
       "issues": ""
     },
@@ -8342,7 +8398,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.5.11",
+    "Version": "1.5.12",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/MinorMiseries/releases/latest/download/Minor_Miseries.dll",
@@ -8359,14 +8415,14 @@
       "ml": "0.7.2"
     },
     "Released": "2026-01-27",
-    "Updated": "2026-09-16",
+    "Updated": "2026-10-28",
     "Images": [
       "/thelongdark/assets/img/mods/1c900132bbb8071cde157778.jpg?v=899c3c91cb49"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Fixed a bug preventing cooking recipes from being fully completed due to afflictions crafting penalities, leaving progress stuck at a lower percentage",
+      "patchnotes": "Fix for 2.58",
       "notes": "",
       "issues": ""
     },
@@ -8617,7 +8673,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-07-27",
@@ -9431,7 +9487,7 @@
       "ModSettings"
     ],
     "Version": "1.0.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/NonLethalFlares/releases/latest/download/NonLethalFlares.dll",
     "Downloads": [
@@ -9452,7 +9508,7 @@
       "/thelongdark/assets/img/mods/08c3731c4466a748e0f55821.png?v=7e4d55a4fc3f"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -9591,7 +9647,7 @@
     "RepoName": "NotTheWolves",
     "Dependencies": [],
     "Version": "1.0.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/NotTheWolves/releases/latest/download/NotTheWolves.dll",
     "Downloads": [
@@ -9610,7 +9666,7 @@
     "Updated": "2026-3-22",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -9738,7 +9794,7 @@
     "RepoName": "OldSchoolHarvesting",
     "Dependencies": [],
     "Version": "1.0.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/OldSchoolHarvesting/releases/latest/download/OldSchoolHarvesting.dll",
     "Downloads": [
@@ -9757,7 +9813,7 @@
     "Updated": "2026-3-22",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -10677,12 +10733,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.7.6",
+    "Version": "1.7.7",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-QoL/releases/download/1.7.6/QoL.dll",
+    "Download": "https://github.com/No3371/TLD-QoL/releases/download/1.7.7/QoL.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-QoL/releases/download/1.7.6/QoL.dll"
+      "https://github.com/No3371/TLD-QoL/releases/download/1.7.7/QoL.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -10690,11 +10746,11 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-05-12",
-    "Updated": "2026-01-20",
+    "Updated": "2026-10-29",
     "Images": [],
     "Status": {
       "working": true,
@@ -12298,12 +12354,12 @@
     "ModUrl": "https://github.com/karsontr13/TLD-Seamless-Interiors",
     "RepoName": "SeamlessInteriors",
     "Dependencies": [],
-    "Version": "2.4.0",
+    "Version": "2.4.1",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.4.0/SeamlessInteriors.dll",
+    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.4.1/SeamlessInteriors.dll",
     "Downloads": [
-      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.4.0/SeamlessInteriors.dll"
+      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.4.1/SeamlessInteriors.dll"
     ],
     "AuthorUrl": "https://github.com/karsontr13",
     "SupportUrl": "https://buymeacoffee.com/karsontr13",
@@ -12312,11 +12368,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-07-10",
-    "Updated": "2026-10-20",
+    "Updated": "2026-10-28",
     "Images": [
       "/thelongdark/assets/img/mods/cf2ded295663db4911d8e7aa.png?v=2d1a4a9c335d"
     ],
@@ -12533,61 +12589,6 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
     "GameVersion": []
-  },
-  {
-    "DisplayName": "霰弹枪",
-    "Name": "Shotgun",
-    "Type": "mod",
-    "Author": "Team Shotgun",
-    "DisplayAuthor": [
-      "Team Shotgun"
-    ],
-    "Description": "听说你们想要一把霰弹枪……",
-    "Aliases": [
-      "Shotgun"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/monsieurmeh/MehToolBox/releases/tag/shotgun",
-    "RepoName": "Shotgun",
-    "Dependencies": [
-      "ModSettings",
-      "ModData",
-      "ModComponent",
-      "AudioManager",
-      "AudioCore",
-      "MehToolBox"
-    ],
-    "Version": "0.6.7",
-    "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll",
-    "Downloads": [
-      "https://github.com/monsieurmeh/MehToolBox/releases/download/shotgun/Shotgun.dll"
-    ],
-    "AuthorUrl": "https://github.com/monsieurmeh/",
-    "SupportUrl": null,
-    "Categories": [
-      "Gameplay"
-    ],
-    "TestedOn": {
-      "tld": "2.52",
-      "ml": "0.7.2"
-    },
-    "Released": "2026-4-1",
-    "Updated": "2026-4-1",
-    "Images": [],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
-    "GameVersion": [
-      "vanilla"
-    ]
   },
   {
     "DisplayName": "显示交易者信任度",
@@ -14203,12 +14204,12 @@
     "Dependencies": [
       "ExamineActionsAPI"
     ],
-    "Version": "1.1.2",
+    "Version": "1.1.3",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ThingsToDo.dll",
+    "Download": "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.9/ThingsToDo.dll",
     "Downloads": [
-      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.8/ThingsToDo.dll"
+      "https://github.com/No3371/TLD-ExamineActionsAPI/releases/download/2.0.9/ThingsToDo.dll"
     ],
     "AuthorUrl": "https://github.com/No3371",
     "SupportUrl": "https://paypal.me/badevstudio",
@@ -14216,11 +14217,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-07-07",
-    "Updated": "2026-07-30",
+    "Updated": "2026-10-29",
     "Images": [],
     "Status": {
       "working": true,
@@ -15108,7 +15109,7 @@
       "ExpandedAiFramework"
     ],
     "Version": "0.12.4",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll",
     "Downloads": [
@@ -15127,7 +15128,7 @@
     "Updated": "2026-1-5",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": true,
       "patchnotes": "",
       "notes": "",
@@ -15209,7 +15210,7 @@
       "ModSettings"
     ],
     "Version": "1.0.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/TrespasserMod/releases/latest/download/Trespasser.dll",
     "Downloads": [
@@ -15231,7 +15232,7 @@
       "/thelongdark/assets/img/mods/4bb661d40eab9a565fbc2b21.png?v=991f29dfabf4"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -15535,7 +15536,7 @@
       "ExpandedAiFramework"
     ],
     "Version": "0.12.4",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll",
     "Downloads": [
@@ -15554,7 +15555,7 @@
     "Updated": "2026-1-5",
     "Images": [],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": true,
       "patchnotes": "",
       "notes": "",
