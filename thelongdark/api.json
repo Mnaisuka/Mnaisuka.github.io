@@ -63,15 +63,15 @@
       "Adaptive Arsenal"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/Deaadman/AdaptiveArsenal",
+    "ModUrl": "https://github.com/Deaadman/adaptive-arsenal",
     "RepoName": "AdaptiveArsenal",
     "Dependencies": [],
     "Version": "1.0.9",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Deaadman/AdaptiveArsenal/releases/latest/download/AdaptiveArsenal.dll",
+    "Download": "https://github.com/Deaadman/adaptive-arsenal/releases/latest/download/AdaptiveArsenal.dll",
     "Downloads": [
-      "https://github.com/Deaadman/AdaptiveArsenal/releases/latest/download/AdaptiveArsenal.dll"
+      "https://github.com/Deaadman/adaptive-arsenal/releases/latest/download/AdaptiveArsenal.dll"
     ],
     "AuthorUrl": "https://github.com/Deaadman",
     "SupportUrl": "https://github.com/sponsors/Deaadman",
@@ -80,26 +80,25 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2024-01-16",
     "Updated": "2026-01-05",
     "Images": [
-      "/thelongdark/assets/img/mods/6304bcc3e3146465130d19dd.webp?v=e5bdfa9a9e00"
+      "/thelongdark/assets/img/mods/e66a33d86089942c8b9c021a.webp?v=e5bdfa9a9e00"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "For information on the most recent patches, visit <a href='https://github.com/Deaadman/AdaptiveArsenal/releases/latest' target='_blank'>here</a>.",
-      "notes": "For more information, visit the <a href='https://github.com/Deaadman/AdaptiveArsenal' target='_blank'>GitHub Repository</a>.",
+      "patchnotes": "For information on recent updates, visit <a href='https://github.com/Deaadman/adaptive-arsenal/releases' target='_blank'>here</a>.",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/Deaadman/3a1287ffab06a13f98b7d6a6f8785526/raw/ModList.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -435,12 +434,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.2.0/AlternativeParasitesAtMaxLvl.dll",
+    "Download": "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.3.0/AlternativeParasitesAtMaxLvl.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.2.0/AlternativeParasitesAtMaxLvl.dll"
+      "https://github.com/BaltaZar-7/AlternativeParasitesAtMaxLvl/releases/download/1.3.0/AlternativeParasitesAtMaxLvl.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -448,11 +447,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
-    "Updated": "2026-01-22",
+    "Updated": "2026-10-29",
     "Images": [
       "/thelongdark/assets/img/mods/e8d3cf76a99e2cdf6d24a12c.jpg?v=18b1aa12e626",
       "/thelongdark/assets/img/mods/85927813867e8b08f142126c.jpg?v=de7803e6994e",
@@ -668,7 +667,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2024-10-28",
@@ -707,12 +706,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.3.0",
+    "Version": "1.4.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.3.0/AnimalRespawnTimeMod.dll",
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.4.0/AnimalRespawnTimeMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.3.0/AnimalRespawnTimeMod.dll"
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.4.0/AnimalRespawnTimeMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -720,18 +719,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-02-08",
-    "Updated": "2026-09-05",
+    "Updated": "2026-10-29",
     "Images": [
       "/thelongdark/assets/img/mods/77b450efd5571f5928367d3e.jpg?v=ddfde482d51f"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fixed the whole mod. It was not working properly.\nEAF will soon have an update, then the two mods will be compatible!",
+      "patchnotes": "Updated to TLD v2.58",
       "notes": "",
       "issues": ""
     },
@@ -1251,7 +1250,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-10-27",
@@ -1293,12 +1292,12 @@
       "ExpandedTradingFramework",
       "modders'geartoolbox"
     ],
-    "Version": "1.0.2",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.2/BaltaTools.zip",
+    "Download": "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.1.0/BaltaTools.zip",
     "Downloads": [
-      "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.0.2/BaltaTools.zip"
+      "https://github.com/BaltaZar-7/BaltaTools/releases/download/1.1.0/BaltaTools.zip"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -1306,18 +1305,18 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-08-28",
-    "Updated": "2026-09-05",
+    "Updated": "2026-10-29",
     "Images": [
       "/thelongdark/assets/img/mods/22a69b0609b4717c515568cb.png?v=5ef177eb9785"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fix for toolbelt",
+      "patchnotes": "Added compatibility for opening inventory from other panels/radial",
       "notes": "",
       "issues": ""
     },
@@ -1358,7 +1357,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-08-28",
@@ -1728,7 +1727,7 @@
       "Base Building"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-03-07",
@@ -2370,7 +2369,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-02-21",
@@ -2584,7 +2583,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2025-07-24",
@@ -2991,12 +2990,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.0.2",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/CougarBackpack/releases/download/1.0.2/CougarBackpack.modcomponent",
+    "Download": "https://github.com/BaltaZar-7/CougarBackpack/releases/download/1.1.0/CougarBackpack.modcomponent",
     "Downloads": [
-      "https://github.com/BaltaZar-7/CougarBackpack/releases/download/1.0.2/CougarBackpack.modcomponent"
+      "https://github.com/BaltaZar-7/CougarBackpack/releases/download/1.1.0/CougarBackpack.modcomponent"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -3005,18 +3004,18 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-08-09",
-    "Updated": "2026-08-10",
+    "Updated": "2026-10-29",
     "Images": [
       "/thelongdark/assets/img/mods/fc1da1a13d4a678efddd0b46.jpg?v=d029264de0d8"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fixed repairable ingredient\nMade harvestable behavior",
+      "patchnotes": "New model by met",
       "notes": "",
       "issues": ""
     },
@@ -4121,15 +4120,14 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "For information on the most recent patches, visit <a href='https://github.com/Deaadman/EternalWeather/releases/latest' target='_blank'>here</a>.",
-      "notes": "For more information, visit the <a href='https://github.com/Deaadman/EternalWeather",
+      "patchnotes": "For information on recent updates, visit <a href='https://github.com/Deaadman/EternalWeather/releases' target='_blank'>here</a>.",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/Deaadman/3a1287ffab06a13f98b7d6a6f8785526/raw/ModList.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -5050,7 +5048,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.0.12",
+    "Version": "1.0.13",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/FoodsByCalorieWaltz/releases/latest/download/FoodsByCalorieWaltz.zip",
@@ -5067,7 +5065,7 @@
       "ml": "0.7.2"
     },
     "Released": "2021-09-12",
-    "Updated": "2026-01-04",
+    "Updated": "2026-10-29",
     "Images": [
       "/thelongdark/assets/img/mods/c0685214b7fc832e2f924a07.webp?v=391a6228c489"
     ],
@@ -5122,7 +5120,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2025-10-05",
@@ -5918,7 +5916,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2025-01-02",
@@ -6074,7 +6072,7 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -6229,7 +6227,7 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2018-03-31",
@@ -7416,8 +7414,8 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-09-11",
     "Updated": "2026-01-10",
@@ -7427,15 +7425,14 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "For information on the most recent patches, visit <a href='https://github.com/Deaadman/ItemRarities/releases/latest' target='_blank'>here</a>.",
-      "notes": "For more information, visit the <a href='https://github.com/Deaadman/ItemRarities' target='_blank'>GitHub Repository</a>.",
+      "patchnotes": "For information on recent updates, visit <a href='https://github.com/Deaadman/item-rarities/releases' target='_blank'>here</a>.",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/Deaadman/3a1287ffab06a13f98b7d6a6f8785526/raw/ModList.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -7773,7 +7770,7 @@
       "ModComponent"
     ],
     "Version": "1.3.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1",
     "Downloads": [
@@ -7791,7 +7788,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2023-11-28",
@@ -7800,7 +7797,7 @@
       "/thelongdark/assets/img/mods/1104f9f406d779d9af40e047.jpg?v=2103d8705490"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -8274,6 +8271,62 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/hzb1130/modlistjson/main/hzb1130_modlistjson.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "玛西的植物收成调整器",
+    "Name": "MarcysPlantHarvestTweaker",
+    "Type": "mod",
+    "Author": "Jods-Its",
+    "DisplayAuthor": [
+      "Jods-Its"
+    ],
+    "Description": "植物收割的方方面面均可自定义：时间、所需工具、工具损耗、产量。原创作者：Marcy",
+    "Aliases": [
+      "Marcy's Plant Harvest Tweaker",
+      "PlantHarvestTweaker"
+    ],
+    "Replaces": [
+      "PlantHarvestTweaker"
+    ],
+    "ModUrl": "https://github.com/Jods-Its/Marcys_PlantHarvestTweaker",
+    "RepoName": "MarcysPlantHarvestTweaker",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.7.1",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/Jods-Its/Marcys_PlantHarvestTweaker/releases/download/v.1.7.1/PlantHarvestTweaker.dll",
+    "Downloads": [
+      "https://github.com/Jods-Its/Marcys_PlantHarvestTweaker/releases/download/v.1.7.1/PlantHarvestTweaker.dll"
+    ],
+    "AuthorUrl": "https://github.com/Jods-Its",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.58",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-29",
+    "Updated": "2026-10-29",
+    "Images": [
+      "/thelongdark/assets/img/mods/72e561ed09f68b4d83a6f907.jpg?v=df3c775d6d0e"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "Updated for latest version.",
+      "notes": "Drop .dll in mod folder.",
+      "issues": ""
+    },
+    "PreviousAuthors": "Marcy",
+    "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "Meh 模组工具箱",
@@ -8828,7 +8881,7 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-08-31",
@@ -9092,7 +9145,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2024-10-04",
@@ -11463,7 +11516,7 @@
       "ModSettings"
     ],
     "Version": "0.2.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse/releases/tag/v0.2.0",
     "Downloads": [
@@ -11479,7 +11532,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2025-07-24",
@@ -11488,7 +11541,7 @@
       "/thelongdark/assets/img/mods/3d6d84d27b9335eec7b95117.jpg?v=ee0be131a905"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": true,
       "patchnotes": "",
       "notes": "https://github.com/Sm4rtBoyTom/RelicsOfTheQuietApocalypse",
@@ -11638,7 +11691,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2025-05-31",
@@ -11847,7 +11900,7 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -12315,7 +12368,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -12919,12 +12972,12 @@
     "ModUrl": "https://github.com/Sm4rtBoyTom/SkilletInRadial",
     "RepoName": "SkilletInRadial",
     "Dependencies": [],
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.0/SkilletInRadial.dll",
+    "Download": "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.1/SkilletInRadial.dll",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.0/SkilletInRadial.dll"
+      "https://github.com/Sm4rtBoyTom/SkilletInRadial/releases/download/v1.1.1/SkilletInRadial.dll"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -12935,11 +12988,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.54",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-01-31",
-    "Updated": "2026-04-10",
+    "Updated": "2026-10-29",
     "Images": [
       "/thelongdark/assets/img/mods/b4faaa061bea234e905e824f.jpg?v=0832008420f7"
     ],
@@ -13416,7 +13469,7 @@
       "ExpandedTradingFramework"
     ],
     "Version": "4.1.2",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases/tag/v4.1.2",
     "Downloads": [
@@ -13434,7 +13487,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2024-08-01",
@@ -13443,7 +13496,7 @@
       "/thelongdark/assets/img/mods/db23dd549cd6b96f7b85d74a.jpg?v=02b84c82b3ff"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "https://github.com/Sm4rtBoyTom/StalkerAidsAndSupplements/releases",
@@ -13476,7 +13529,7 @@
       "ModData"
     ],
     "Version": "1.0.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/BaltaZar-7/StolenMeatMod/releases/download/v1.0.0/StolenMeatMod.dll",
     "Downloads": [
@@ -13488,7 +13541,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2026-03-01",
@@ -13498,7 +13551,7 @@
       "/thelongdark/assets/img/mods/46841d0350e9457da0632093.jpg?v=d926d1ee25a3"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "Check the Repo for more details!",
@@ -15366,7 +15419,7 @@
       "EnableFeatProgressInCustomMode",
       "LimitlessContainerSpace"
     ],
-    "ModUrl": "https://github.com/Deaadman/UniversalTweaks",
+    "ModUrl": "https://github.com/Deaadman/universal-tweaks",
     "RepoName": "UniversalTweaks",
     "Dependencies": [
       "ModSettings",
@@ -15375,9 +15428,9 @@
     "Version": "1.4.8",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Deaadman/UniversalTweaks/releases/latest/download/UniversalTweaks.dll",
+    "Download": "https://github.com/Deaadman/universal-tweaks/releases/latest/download/UniversalTweaks.dll",
     "Downloads": [
-      "https://github.com/Deaadman/UniversalTweaks/releases/latest/download/UniversalTweaks.dll"
+      "https://github.com/Deaadman/universal-tweaks/releases/latest/download/UniversalTweaks.dll"
     ],
     "AuthorUrl": "https://github.com/Deaadman",
     "SupportUrl": "https://github.com/sponsors/Deaadman",
@@ -15387,26 +15440,25 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2-ci.2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2023-10-14",
     "Updated": "2026-01-06",
     "Images": [
-      "/thelongdark/assets/img/mods/dd01ba910d1771c9a4f421ac.webp?v=7757de5709a3"
+      "/thelongdark/assets/img/mods/213d3055425d48d9bca08d7e.webp?v=7757de5709a3"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "For information on the most recent patches, visit <a href='https://github.com/Deaadman/UniversalTweaks/releases/latest' target='_blank'>here</a>.",
-      "notes": "For more information, visit the <a href='https://github.com/Deaadman/UniversalTweaks' target='_blank'>GitHub Repository</a>.",
+      "patchnotes": "For information on recent updates, visit <a href='https://github.com/Deaadman/universal-tweaks/releases' target='_blank'>here</a>.",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/Deaadman/3a1287ffab06a13f98b7d6a6f8785526/raw/ModList.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -15601,8 +15653,8 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.51",
-      "ml": "0.7.2.ci-2388"
+      "tld": "2.55",
+      "ml": "0.7.2"
     },
     "Released": "2024-08-12",
     "Updated": "2026-01-10",
@@ -15612,15 +15664,14 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "",
+      "patchnotes": "For information on recent updates, visit <a href='https://github.com/Deaadman/watches/releases' target='_blank'>here</a>.",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://gist.githubusercontent.com/Deaadman/3a1287ffab06a13f98b7d6a6f8785526/raw/ModList.json",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
