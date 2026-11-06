@@ -17,7 +17,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.5.5",
+    "Version": "1.6.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/AbsoluteCinema/releases/download/Latest/AbsoluteCinema.dll",
@@ -31,11 +31,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-10-10",
-    "Updated": "2026-10-27",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/db69ce17dac443cd145cdb0b.webp?v=6676712888aa"
     ],
@@ -185,7 +185,7 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-08-25",
@@ -226,7 +226,7 @@
       "ModData",
       "AfflictionComponent"
     ],
-    "Version": "1.7.1",
+    "Version": "1.7.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/WillWunderhorn/AfflictionsAndBuffs/releases/download/Latest/AfflictionsAndBuffs.dll",
@@ -240,11 +240,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-04-25",
-    "Updated": "2026-09-29",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/b0fcbc92ddaec64c088236e5.webp?v=cf5933ab4b5d"
     ],
@@ -447,7 +447,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -598,8 +598,8 @@
       "ModData",
       "ExpandedAiFramework"
     ],
-    "Version": "0.12.4",
-    "Error": true,
+    "Version": "0.12.9",
+    "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.AmbushWolfMod.dll",
     "Downloads": [
@@ -611,14 +611,14 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2025-09-14",
-    "Updated": "2026-1-5",
+    "Updated": "2026-11-4",
     "Images": [],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": true,
       "patchnotes": "",
       "notes": "",
@@ -628,64 +628,6 @@
     "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
     "GameVersion": [
       "vanilla"
-    ]
-  },
-  {
-    "DisplayName": "弹药制作工具",
-    "Name": "AmmunitionCraftingTools",
-    "Type": "mod",
-    "Author": "Sm4rtBoyTom",
-    "DisplayAuthor": [
-      "Sm4rtBoyTom"
-    ],
-    "Description": "重做弹药制作流程。制作难度有所提高，但过程更有趣，完成后也更有成就感。",
-    "Aliases": [
-      "AmmunitionCraftingTools",
-      "v3.2"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools",
-    "RepoName": "AmmunitionCraftingTools",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "3.2.2",
-    "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.2.2",
-    "Downloads": [
-      "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools/releases/tag/v3.2.2"
-    ],
-    "AuthorUrl": "https://github.com/Sm4rtBoyTom",
-    "SupportUrl": "https://ko-fi.com/sm4rtboytom",
-    "Categories": [
-      "Quality of Life",
-      "Gameplay",
-      "Gear Items",
-      "Overhaul",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.58",
-      "ml": "0.7.2"
-    },
-    "Released": "2024-10-28",
-    "Updated": "2026-01-04",
-    "Images": [
-      "/thelongdark/assets/img/mods/fdd97da6060b56e1414cfb38.jpg?v=57ee2ca03997"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "",
-      "notes": "https://github.com/Sm4rtBoyTom/AmmunitionCraftingTools",
-      "issues": ""
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Sm4rtBoyTom/ModListJson/refs/heads/main/Sm4rtBoyTomModList.json",
-    "GameVersion": [
-      "tftft"
     ]
   },
   {
@@ -719,7 +661,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-02-08",
@@ -1163,7 +1105,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "Source": "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/refs/heads/stable/mod-list.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -1235,12 +1177,12 @@
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.1",
+    "AutoUpdate": false,
+    "Download": "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.2",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.1"
+      "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.2"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -1250,11 +1192,11 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-10-27",
-    "Updated": "2026-10-28",
+    "Updated": "2026-11-05",
     "Images": [
       "/thelongdark/assets/img/mods/476dcea03e1b82ec0c39e90c.jpg?v=75e65f9232e1"
     ],
@@ -1305,7 +1247,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-08-28",
@@ -1357,7 +1299,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-08-28",
@@ -1531,7 +1473,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "tftft"
     ]
@@ -1586,7 +1528,7 @@
       "issues": ""
     },
     "PreviousAuthors": "Jonayling,ds5678,zeboviouslyfakeacc,WulfMarius",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -1727,7 +1669,7 @@
       "Base Building"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-03-07",
@@ -1877,7 +1819,7 @@
       "https://github.com/Jods-Its/Jods-Bountiful-Foraging/releases/download/v.1.2.4/BountifulForaging.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items",
       "Gameplay",
@@ -1956,7 +1898,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -2060,7 +2002,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -2094,7 +2036,7 @@
       "https://github.com/Jods-Its/Jods-Camping-Tools/releases/download/v.2.2.3/CampingTools.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items"
     ],
@@ -2369,7 +2311,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-02-21",
@@ -2463,7 +2405,7 @@
       "ModSettings"
     ],
     "Version": "1.0.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.0.1/ChooseStartingGearRedux.dll",
     "Downloads": [
@@ -2484,7 +2426,7 @@
       "/thelongdark/assets/img/mods/c3d124a565f3ee9705af39ca.jpg?v=3b09bd023cf7"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -2513,12 +2455,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.2",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.2.0",
+    "Download": "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.2.2",
     "Downloads": [
-      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.2.0"
+      "https://github.com/Ezinw/ChooseStartingLocation/releases/tag/v1.2.2"
     ],
     "AuthorUrl": "https://github.com/Ezinw",
     "SupportUrl": null,
@@ -2527,11 +2469,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-02-20",
-    "Updated": "2026-07-16",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/b29030e1817adec85548a5cd.jpg?v=01388c4e36b2"
     ],
@@ -2623,7 +2565,7 @@
       "ModComponent"
     ],
     "Version": "1.1.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": false,
     "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip",
     "Downloads": [
@@ -2646,7 +2588,7 @@
       "/thelongdark/assets/img/mods/6419055e295aff720badb6d0.png?v=e7bb2c4e9f05"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -2761,62 +2703,6 @@
     "GameVersion": []
   },
   {
-    "DisplayName": "收藏卡片",
-    "Name": "CollectorCards",
-    "Type": "mod",
-    "Author": "Kaiusername",
-    "DisplayAuthor": [
-      "Kaiusername"
-    ],
-    "Description": "在大熊岛各处寻找一套手绘收藏卡片！",
-    "Aliases": [
-      "Collector Cards",
-      "Collector.Cards"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Kaiusername/Collector-Cards",
-    "RepoName": "CollectorCards",
-    "Dependencies": [
-      "ModSettings",
-      "ModComponent"
-    ],
-    "Version": "2",
-    "Error": false,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Kaiusername/Collector-Cards/releases/download/Update/Collector.Cards.modcomponent",
-    "Downloads": [
-      "https://github.com/Kaiusername/Collector-Cards/releases/download/Update/Collector.Cards.modcomponent"
-    ],
-    "AuthorUrl": "https://github.com/Kaiusername",
-    "SupportUrl": "https://www.patreon.com/Kaiusername1",
-    "Categories": [
-      "Gear Items",
-      "Misc"
-    ],
-    "TestedOn": {
-      "tld": "2.27",
-      "ml": "0.6.1"
-    },
-    "Released": "2023-10-31",
-    "Updated": "2024-03-22",
-    "Images": [
-      "/thelongdark/assets/img/mods/09bfdf389e22da3f5b2bd457.png?v=8dd210bb0974"
-    ],
-    "Status": {
-      "working": true,
-      "beta": false,
-      "patchnotes": "Rebuilt mod from the ground up. Added new cards and new card packs.",
-      "notes": "Download the .modcomponent and drop it into your 'mods' folder.",
-      "issues": "Mod will not be able to be translated into other languages until a later update."
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Kaiusername/Mod-List/main/Kaiusername.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "伙伴狼",
     "Name": "ExpandedAiFrameworkCompanionWolfMod",
     "Type": "mod",
@@ -2837,8 +2723,8 @@
       "ModData",
       "ExpandedAiFramework"
     ],
-    "Version": "0.12.4",
-    "Error": true,
+    "Version": "0.12.9",
+    "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.CompanionWolfMod.dll",
     "Downloads": [
@@ -2850,14 +2736,14 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2025-09-14",
-    "Updated": "2026-1-5",
+    "Updated": "2026-11-4",
     "Images": [],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": true,
       "patchnotes": "",
       "notes": "",
@@ -2919,6 +2805,55 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Arkhorse/TLD-Modlist/main/modlist.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "条件损失",
+    "Name": "ConditionalConditionLoss",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "一个小型游戏玩法模组，根据温度和其他因素修改冰冻状态的损失速度。",
+    "Aliases": [
+      "Conditional Condition Loss",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/ConditionalConditionLoss",
+    "RepoName": "ConditionalConditionLoss",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/ConditionalConditionLoss/releases/latest/",
+    "Downloads": [
+      "https://github.com/Fuar11/ConditionalConditionLoss/releases/latest/"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.59",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-31",
+    "Updated": "2026-10-31",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "交互物件坐标查看器",
@@ -3004,13 +2939,13 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-08-09",
     "Updated": "2026-10-29",
     "Images": [
-      "/thelongdark/assets/img/mods/fc1da1a13d4a678efddd0b46.jpg?v=d029264de0d8"
+      "/thelongdark/assets/img/mods/90fca4a2b230f8c7eaa7bdce.png?v=7c5c6ce8c4b9"
     ],
     "Status": {
       "working": true,
@@ -3103,7 +3038,7 @@
       "https://github.com/Jods-Its/CozyBlankets/releases/download/v.1.4.4/CozyBlankets.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items"
     ],
@@ -3464,7 +3399,7 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/DeadAirReborn/releases/latest/download/DeadAirReborn.zip",
@@ -3481,12 +3416,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-13",
-    "Updated": "2026-07-13",
+    "Updated": "2026-11-02",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "Updated for 2.55. Filters drain can be set on IN-GAME TIME I wanted. Integration of ModData for starter kit persistence.",
+      "patchnotes": "Updated for 2.58.",
       "notes": "",
       "issues": ""
     },
@@ -3674,7 +3609,7 @@
       "AudioCore",
       "MehToolBox"
     ],
-    "Version": "0.13.5",
+    "Version": "0.14.0",
     "Error": false,
     "AutoUpdate": false,
     "Download": "https://github.com/monsieurmeh/Shotgun/releases/latest/download/DoubleBarrel.dll",
@@ -3687,11 +3622,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-10-28",
-    "Updated": "2026-10-28",
+    "Updated": "2026-11-03",
     "Images": [],
     "Status": {
       "working": true,
@@ -3756,7 +3691,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "tftft"
     ]
@@ -3898,7 +3833,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-26",
@@ -3937,12 +3872,12 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.3.0",
+    "Version": "1.3.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll",
+    "Download": "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.1/DynamicTrees.dll",
     "Downloads": [
-      "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.0/DynamicTrees.dll"
+      "https://github.com/Fuar11/DynamicTrees/releases/download/1.3.1/DynamicTrees.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -3950,11 +3885,11 @@
       "Graphics"
     ],
     "TestedOn": {
-      "tld": "2.57",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-11-14",
-    "Updated": "2026-07-14",
+    "Updated": "2026-10-30",
     "Images": [
       "/thelongdark/assets/img/mods/541fff2b350c8879bf1e75b4.jpg?v=9c4dc35f7642"
     ],
@@ -4005,7 +3940,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.57",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-07-24",
@@ -4073,7 +4008,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -4198,8 +4133,8 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "0.12.5",
-    "Error": true,
+    "Version": "0.12.9",
+    "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.dll",
     "Downloads": [
@@ -4211,14 +4146,14 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2025-09-14",
-    "Updated": "2026-9-26",
+    "Updated": "2026-11-4",
     "Images": [],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": true,
       "patchnotes": "",
       "notes": "BACK UP YOUR SAVES!",
@@ -4249,7 +4184,7 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.2.0",
+    "Version": "1.2.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/ExpandedSkills/releases/latest/download/ExpandedSkills.dll",
@@ -4266,12 +4201,12 @@
       "ml": "0.7.2"
     },
     "Released": "2026-08-01",
-    "Updated": "2026-09-24",
+    "Updated": "2026-11-02",
     "Images": [],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "reworked skill reward handling, fixing Cooking (yes, again...), Gunsmithing and Fire Starting progression issues, plus general cleanup",
+      "patchnotes": "Fix for 2.58",
       "notes": "",
       "issues": "Some funkiness can be expected for milling machines and several inconsistent stuff every here and there, will be fixed one day."
     },
@@ -4541,7 +4476,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "Source": "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/refs/heads/stable/mod-list.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -4787,7 +4722,7 @@
       "https://github.com/Jods-Its/Fire-Pack-DLC/releases/download/v.2.7.2/FirePack.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items",
       "Gameplay"
@@ -5061,7 +4996,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2021-09-12",
@@ -5169,7 +5104,7 @@
       "https://github.com/Jods-Its/Forge-Blueprints-DLC/releases/download/V.1.6.0/ForgeBlueprints.modcomponent"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items",
       "Quality Of Life"
@@ -5418,12 +5353,12 @@
     "Dependencies": [
       "ModData"
     ],
-    "Version": "1.5.1",
+    "Version": "1.5.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.1/FrozenFood.dll",
+    "Download": "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.2/FrozenFood.dll",
     "Downloads": [
-      "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.1/FrozenFood.dll"
+      "https://github.com/Fuar11/FrozenFood/releases/download/v1.5.2/FrozenFood.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -5432,11 +5367,11 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-05-28",
-    "Updated": "2025-01-06",
+    "Updated": "2026-10-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -5700,7 +5635,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-26",
@@ -5874,7 +5809,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -6024,7 +5959,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-12-04",
@@ -6072,7 +6007,7 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -6142,7 +6077,7 @@
       "issues": ""
     },
     "PreviousAuthors": "Xpazeman",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -6213,12 +6148,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "2.2.1",
+    "Version": "2.2.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.1/HungerRevamped.dll",
+    "Download": "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.2/HungerRevamped.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.1/HungerRevamped.dll"
+      "https://github.com/BaltaZar-7/HungerRevamped/releases/download/2.2.2/HungerRevamped.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -6227,11 +6162,11 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2018-03-31",
-    "Updated": "2026-08-14",
+    "Updated": "2026-11-03",
     "Images": [
       "/thelongdark/assets/img/mods/f041c4695546d42f69b6fd4c.png?v=230761858489",
       "/thelongdark/assets/img/mods/ff7c0cfba04713d5a06073fd.png?v=984d6dd94d7c"
@@ -6239,7 +6174,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "-Fixed bug first loading a save with the mod enabled resulting a modified calorie reserve\n-Fixed hunger level described with text badly on the Affliction panel - Added Peckish state",
+      "patchnotes": "Fixed Starvation Damage",
       "notes": "Check the Repo for more details!",
       "issues": ""
     },
@@ -6385,7 +6320,7 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-04-13",
@@ -6494,7 +6429,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-12-04",
@@ -6668,59 +6603,6 @@
     ]
   },
   {
-    "DisplayName": "游戏配乐扩展",
-    "Name": "ImprovedSoundtrack",
-    "Type": "mod",
-    "Author": "Fuar",
-    "DisplayAuthor": [
-      "Fuar"
-    ],
-    "Description": "扩充游戏配乐的播放条件，让原声带中稀有或已移除的曲目有机会响起，并加入发现新地点时的提示音。",
-    "Aliases": [
-      "Improved OST",
-      "ImprovedSoundtrack",
-      "Improved Soundtrack"
-    ],
-    "Replaces": [],
-    "ModUrl": "https://github.com/Fuar11/ImprovedSoundtrack",
-    "RepoName": "ImprovedSoundtrack",
-    "Dependencies": [
-      "ModSettings",
-      "AudioCore"
-    ],
-    "Version": "1.1.4",
-    "Error": true,
-    "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ImprovedSoundtrack/releases/download/v1.1.4/ImprovedSoundtrack.dll",
-    "Downloads": [
-      "https://github.com/Fuar11/ImprovedSoundtrack/releases/download/v1.1.4/ImprovedSoundtrack.dll"
-    ],
-    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
-    "SupportUrl": null,
-    "Categories": [
-      "Audio"
-    ],
-    "TestedOn": {
-      "tld": "2.02",
-      "ml": "0.5.5.0"
-    },
-    "Released": "",
-    "Updated": "2022-09-30",
-    "Images": [],
-    "Status": {
-      "working": false,
-      "patchnotes": "",
-      "notes": "",
-      "issues": "Not updated for TFTFT Expansion Update"
-    },
-    "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
-  },
-  {
     "DisplayName": "信号虚空剧情改进",
     "Name": "ImprovedTales",
     "Type": "mod",
@@ -6794,7 +6676,7 @@
       "ModSettings",
       "ComplexLogger"
     ],
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Fuar11/ImprovedTrader/releases/latest/",
@@ -6807,11 +6689,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-04-23",
-    "Updated": "2026-04-23",
+    "Updated": "2026-19-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -6996,20 +6878,20 @@
       "Modders' Gear Toolbox"
     ],
     "Version": "3.1.2",
-    "Error": true,
+    "Error": false,
     "AutoUpdate": false,
     "Download": "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip",
     "Downloads": [
       "https://github.com/Jods-Its/Jods-Indoors-Greenery/releases/download/v.3.1.2/IndoorsGreenery.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items",
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-04-30",
@@ -7018,17 +6900,16 @@
       "/thelongdark/assets/img/mods/a3c89ee7236cd033a4138974.jpg?v=27263cca0a95"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "Fixed for latest version of the game.",
       "notes": "Unzip the .zip, drop contents in mod folder.",
-      "issues": ""
+      "issues": "- No pot textures, throwing errors in console."
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -7076,7 +6957,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -7771,7 +7652,7 @@
     ],
     "Version": "1.3.1",
     "Error": true,
-    "AutoUpdate": true,
+    "AutoUpdate": false,
     "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1",
     "Downloads": [
       "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1"
@@ -8301,7 +8182,7 @@
       "https://github.com/Jods-Its/Marcys_PlantHarvestTweaker/releases/download/v.1.7.1/PlantHarvestTweaker.dll"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gameplay",
       "Misc"
@@ -8344,7 +8225,7 @@
     "ModUrl": "https://github.com/monsieurmeh/MehToolBox",
     "RepoName": "MehToolBox",
     "Dependencies": [],
-    "Version": "1.1.1",
+    "Version": "1.1.4",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/MehToolBox/releases/latest/download/MehToolBox.dll",
@@ -8357,11 +8238,11 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.52",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-4-1",
-    "Updated": "2026-4-1",
+    "Updated": "2026-11-3",
     "Images": [],
     "Status": {
       "working": true,
@@ -8719,7 +8600,7 @@
       "https://github.com/Jods-Its/Modders-Gear-Toolbox/releases/download/v.1.0.6/ModdersGearToolbox.zip"
     ],
     "AuthorUrl": "https://github.com/Jods-Its",
-    "SupportUrl": null,
+    "SupportUrl": "https://ko-fi.com/jodsits",
     "Categories": [
       "Gear Items",
       "Utility Mod",
@@ -8881,7 +8762,7 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-08-31",
@@ -8934,7 +8815,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-12-07",
@@ -9002,7 +8883,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -9798,7 +9679,7 @@
     "ModUrl": "https://github.com/JesseWV/TLD-ObjectSinkFix",
     "RepoName": "ObjectSinkFix",
     "Dependencies": [],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/JesseWV/TLD-ObjectSinkFix/releases/latest/download/ObjectSinkFix.dll",
@@ -9811,18 +9692,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-10-11",
-    "Updated": "2026-10-11",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/5d3aa2a3599632d693f82c67.jpg?v=1e4f6dc33ece"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "First release. Stops furniture sinking, restores furniture that already sank, stops containers vanishing on reload, and brings back containers the bug already removed. One optional setting with ModSettings.",
+      "patchnotes": "Works with The Long Dark 2.58 and 2.59. Fixes an error that 1.0.0 wrote to the MelonLoader log on every location load, which could also leave rolled loot in a container brought back by the mod.",
       "notes": "ModSettings is optional and only needed for the one setting.",
       "issues": ""
     },
@@ -10014,7 +9895,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-07-22",
@@ -10219,7 +10100,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -10453,7 +10334,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -10609,7 +10490,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/DemonBunnyBon/ModListJson/main/MarcyModList.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/MarcyModList.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -10633,7 +10514,7 @@
       "ModSettings"
     ],
     "Version": "1.4.0",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.4.0/PredatorSpawnSelector.dll",
     "Downloads": [
@@ -10654,7 +10535,7 @@
       "/thelongdark/assets/img/mods/9cdf70727d9b9d7f98aa5694.jpg?v=e00ea5f65a28"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -11304,12 +11185,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Ezinw/TLD_RecipeRequirements/releases/tag/v1.0.3",
+    "Download": "https://github.com/Ezinw/TLD_RecipeRequirements/releases/tag/v1.0.4",
     "Downloads": [
-      "https://github.com/Ezinw/TLD_RecipeRequirements/releases/tag/v1.0.3"
+      "https://github.com/Ezinw/TLD_RecipeRequirements/releases/tag/v1.0.4"
     ],
     "AuthorUrl": "https://github.com/Ezinw",
     "SupportUrl": null,
@@ -11318,11 +11199,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-12-24",
-    "Updated": "2026-01-03",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/ea41103ef8ff0cb7b2a93e2e.jpg?v=47bfa0b700fb"
     ],
@@ -11410,12 +11291,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.2.3",
+    "Version": "1.3.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.3/ReducedLoot.dll",
+    "Download": "https://github.com/Fuar11/ReducedLoot/releases/download/1.3.1/ReducedLoot.dll",
     "Downloads": [
-      "https://github.com/Fuar11/ReducedLoot/releases/download/1.2.3/ReducedLoot.dll"
+      "https://github.com/Fuar11/ReducedLoot/releases/download/1.3.1/ReducedLoot.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -11423,11 +11304,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-10-31",
-    "Updated": "2026-04-25",
+    "Updated": "2026-10-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -11634,7 +11515,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -11900,7 +11781,7 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -11944,12 +11825,12 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.6",
+    "Version": "1.7",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Thekillergreece/Retro-Food/releases/download/1.6/RetroFood.7z",
+    "Download": "https://github.com/Thekillergreece/Retro-Food/releases/download/1.7/RetroFood.rar",
     "Downloads": [
-      "https://github.com/Thekillergreece/Retro-Food/releases/download/1.6/RetroFood.7z"
+      "https://github.com/Thekillergreece/Retro-Food/releases/download/1.7/RetroFood.rar"
     ],
     "AuthorUrl": "https://github.com/Thekillergreece",
     "SupportUrl": null,
@@ -11957,18 +11838,18 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-09-19",
-    "Updated": "2026-01-07",
+    "Updated": "2026-10-30",
     "Images": [
       "/thelongdark/assets/img/mods/3cdfc71761c2f085c4c113f5.jpg?v=09f7fccb8f19"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Version 1.6.",
+      "patchnotes": "Version 1.7.",
       "notes": "Drop the files into the mods folder.",
       "issues": ""
     },
@@ -12102,7 +11983,7 @@
       "ModComponent",
       "ModData"
     ],
-    "Version": "1.9.4",
+    "Version": "1.9.8",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/HAHAYOUDEAD/SafehouseCustomizationPlus/releases/latest/download/SafehouseCustomizationPlus.dll",
@@ -12117,11 +11998,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2024-12-03",
-    "Updated": "2026-01-05",
+    "Updated": "2026-11-03",
     "Images": [
       "/thelongdark/assets/img/mods/32bd8370a5de31040b6fb77a.webp?v=f195372aec27"
     ],
@@ -12185,7 +12066,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "Source": "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/refs/heads/stable/mod-list.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12368,7 +12249,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-01-22",
@@ -12688,7 +12569,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/master/Probie_Pathoschild.json",
+    "Source": "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/refs/heads/stable/mod-list.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -12869,12 +12750,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.2.4",
+    "Version": "1.2.5",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Ezinw/TLD_Skill-Adjustment/releases/tag/v1.2.4",
+    "Download": "https://github.com/Ezinw/TLD_Skill-Adjustment/releases/tag/v1.2.5",
     "Downloads": [
-      "https://github.com/Ezinw/TLD_Skill-Adjustment/releases/tag/v1.2.4"
+      "https://github.com/Ezinw/TLD_Skill-Adjustment/releases/tag/v1.2.5"
     ],
     "AuthorUrl": "https://github.com/Ezinw",
     "SupportUrl": null,
@@ -12883,11 +12764,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-12-06",
-    "Updated": "2026-01-05",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/96493421dc0116cd15021727.jpg?v=0b204925f3f6"
     ],
@@ -13135,12 +13016,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "2.3.1",
+    "Version": "2.3.2",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Ezinw/TLD_SleepWithoutABed/releases/tag/v2.3.1",
+    "Download": "https://github.com/Ezinw/TLD_SleepWithoutABed/releases/tag/v2.3.2",
     "Downloads": [
-      "https://github.com/Ezinw/TLD_SleepWithoutABed/releases/tag/v2.3.1"
+      "https://github.com/Ezinw/TLD_SleepWithoutABed/releases/tag/v2.3.2"
     ],
     "AuthorUrl": "https://github.com/Ezinw",
     "SupportUrl": null,
@@ -13148,11 +13029,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2024-02-01",
-    "Updated": "2026-01-27",
+    "Updated": "2026-11-01",
     "Images": [
       "/thelongdark/assets/img/mods/aa4472ba15a8f88c33527117.jpg?v=86ee3e5251a8"
     ],
@@ -13335,6 +13216,53 @@
     "GameVersion": [
       "vanilla"
     ]
+  },
+  {
+    "DisplayName": "鬼魂 - 万圣节特辑",
+    "Name": "SpiritsHalloweenSpecial",
+    "Type": "mod",
+    "Author": "EtherSystem",
+    "DisplayAuthor": [
+      "EtherSystem"
+    ],
+    "Description": "鬼！吓死我了！",
+    "Aliases": [
+      "Spirits - Halloween Special",
+      "Spirits___Halloween_Special"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/EtherSystem/Spirits---Halloween-Special",
+    "RepoName": "SpiritsHalloweenSpecial",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/EtherSystem/Spirits---Halloween-Special/releases/latest/download/Spirits___Halloween_Special.dll",
+    "Downloads": [
+      "https://github.com/EtherSystem/Spirits---Halloween-Special/releases/latest/download/Spirits___Halloween_Special.dll"
+    ],
+    "AuthorUrl": "https://github.com/EtherSystem",
+    "SupportUrl": "https://ko-fi.com/ethersystem",
+    "Categories": [
+      "Misc"
+    ],
+    "TestedOn": {
+      "tld": "2.59",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-10-31",
+    "Updated": "2026-10-31",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/EtherSystem/TLDModsListJson/refs/heads/main/modlist_EtherSystemMods.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "扭伤系统增强",
@@ -13541,7 +13469,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2026-03-01",
@@ -13886,12 +13814,12 @@
       "ModSettings",
       "ComplexLogger"
     ],
-    "Version": "1.3.2",
+    "Version": "1.3.3",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.2/SurvivorKnowledge.dll",
+    "Download": "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.3/SurvivorKnowledge.dll",
     "Downloads": [
-      "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.2/SurvivorKnowledge.dll"
+      "https://github.com/Fuar11/SurvivorKnowledge/releases/download/1.3.3/SurvivorKnowledge.dll"
     ],
     "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
     "SupportUrl": null,
@@ -13899,11 +13827,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-01-08",
-    "Updated": "2024-12-10",
+    "Updated": "2026-10-30",
     "Images": [],
     "Status": {
       "working": true,
@@ -14128,62 +14056,56 @@
     ]
   },
   {
-    "DisplayName": "漫漫长夜开发计划区域",
-    "Name": "TheLongDevelopment(TLDev)Regions",
+    "DisplayName": "传送器",
+    "Name": "Teleporter",
     "Type": "mod",
-    "Author": "Kaiusername",
+    "Author": "Lycanthor",
     "DisplayAuthor": [
-      "Kaiusername",
-      "STBlade"
+      "Lycanthor"
     ],
-    "Description": "THE LONG DEVELOPMENT 是一个小型模组项目团队，致力于以美观且平衡的方式扩展《漫漫长夜》中的大熊岛。",
+    "Description": "从菜单中选择任意现有游戏目的地，即可立即前往！兼容 Seamless Interiors 插件。",
     "Aliases": [
-      "TheLongDevelopment",
-      "TheLongDevelopment(TLDev)Regions",
-      "The Long Development (TLDev) Regions",
-      "97xM7k8nCH"
+      "Teleporter"
     ],
     "Replaces": [],
-    "ModUrl": "https://discord.gg/97xM7k8nCH",
-    "RepoName": "TheLongDevelopment(TLDev)Regions",
-    "Dependencies": [],
-    "Version": "2.55.1",
-    "Error": false,
-    "AutoUpdate": false,
-    "Download": "https://discord.gg/97xM7k8nCH",
-    "Downloads": [
-      "https://discord.gg/97xM7k8nCH"
+    "ModUrl": "https://github.com/JesseWV/TLD-Teleporter",
+    "RepoName": "Teleporter",
+    "Dependencies": [
+      "ModSettings"
     ],
-    "AuthorUrl": "https://github.com/Kaiusername",
-    "SupportUrl": "https://www.patreon.com/Kaiusername1",
+    "Version": "0.1.1",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/TLD-Teleporter/releases/latest/download/Teleporter.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/TLD-Teleporter/releases/latest/download/Teleporter.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
     "Categories": [
-      "Quality of Life",
-      "Gameplay",
-      "Base Building",
-      "Overhaul"
+      "Utility Mod",
+      "Cheats"
     ],
     "TestedOn": {
       "tld": "2.58",
       "ml": "0.7.2"
     },
-    "Released": "2021-06-06",
-    "Updated": "2026-10-27",
+    "Released": "2026-10-29",
+    "Updated": "2026-10-31",
     "Images": [
-      "/thelongdark/assets/img/mods/edd6785d3d309e6b0defb1a5.png?v=c525c48ea9f6"
+      "/thelongdark/assets/img/mods/c9c96caea4bb44fcc7f13714.gif?v=94efbeeb82b4",
+      "/thelongdark/assets/img/mods/033d463929f50e0310a3b12c.jpg?v=1d4ef88ada59"
     ],
     "Status": {
       "working": true,
       "beta": true,
-      "patchnotes": "",
-      "notes": "This content is in EARLY ACCESS. Please report all issues to our bug tracker forum on the TLDev Discord!",
+      "patchnotes": "Fixed: teleporting while riding the train deleted the train. The teleporter now refuses while you are on the train, in a vehicle, on a rope, in a snow shelter or placing something. Back up your saves first.",
+      "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/Kaiusername/Mod-List/main/Kaiusername.json",
-    "GameVersion": [
-      "vanilla",
-      "tftft"
-    ]
+    "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
   },
   {
     "DisplayName": "漫漫长夜心境",
@@ -15161,8 +15083,8 @@
       "ModData",
       "ExpandedAiFramework"
     ],
-    "Version": "0.12.4",
-    "Error": true,
+    "Version": "0.12.9",
+    "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.TrackingWolfMod.dll",
     "Downloads": [
@@ -15174,14 +15096,14 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2025-09-14",
-    "Updated": "2026-1-5",
+    "Updated": "2026-11-4",
     "Images": [],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": true,
       "patchnotes": "",
       "notes": "",
@@ -15587,8 +15509,8 @@
       "ModData",
       "ExpandedAiFramework"
     ],
-    "Version": "0.12.4",
-    "Error": true,
+    "Version": "0.12.9",
+    "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/monsieurmeh/ExpandedAiFramework/releases/latest/download/ExpandedAiFramework.WanderingWolfMod.dll",
     "Downloads": [
@@ -15600,14 +15522,14 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2025-09-14",
-    "Updated": "2026-1-5",
+    "Updated": "2026-11-4",
     "Images": [],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": true,
       "patchnotes": "",
       "notes": "",
