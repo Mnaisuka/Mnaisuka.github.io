@@ -14,15 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          # 允许后续 push 回 main
-          ref: main
+      - uses: actions/checkout@v2
       - name: "指定python环境"
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v3
         with:
-          # 用 3.11 让它自动选最新的 3.11.x 补丁版本，
-          # 避免 ubuntu-latest 上没有 3.11.9 精确版本缓存而报错
           python-version: "3.11"
       - name: "安装运行环境"
         run: pip install requests
@@ -38,16 +33,15 @@ jobs:
         run: |
           git config --local user.email "2567810193@qq.com"
           git config --local user.name "Mnaisuka"
-          git pull --rebase origin main
+          git pull
           git add thelongdark/
           if git diff --cached --quiet; then
             echo "没有文件变化"
           else
             echo "正在推送更新"
             git commit -m "update"
-            git push origin main
+            git push
           fi
-
   deploy: #--------------------
     permissions:
       contents: write
@@ -63,16 +57,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main
+        uses: actions/checkout@v2
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v2
       - name: "拉取最新内容"
         run: |
           git config --local user.email "2567810193@qq.com"
           git config --local user.name "Mnaisuka"
-          git pull --rebase origin main
+          git pull
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
