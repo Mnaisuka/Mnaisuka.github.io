@@ -1025,7 +1025,7 @@
     "RepoName": "AutoUpdatingPlugin",
     "Dependencies": [],
     "Version": "2.0.1",
-    "Error": false,
+    "Error": true,
     "AutoUpdate": true,
     "Download": "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll",
     "Downloads": [
@@ -1044,7 +1044,7 @@
       "/thelongdark/assets/img/mods/91937f8ee833d8952776188a.png?v=3660c38e2989"
     ],
     "Status": {
-      "working": true,
+      "working": false,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -2404,12 +2404,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.1",
-    "Error": true,
+    "Version": "1.1.0",
+    "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.0.1/ChooseStartingGearRedux.dll",
+    "Download": "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.1.0/ChooseStartingGearRedux.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.0.1/ChooseStartingGearRedux.dll"
+      "https://github.com/moosemeat817/ChooseStartingGearRedux/releases/download/1.1.0/ChooseStartingGearRedux.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -2417,16 +2417,16 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-01-30",
-    "Updated": "2026-01-30",
+    "Updated": "2026-11-06",
     "Images": [
       "/thelongdark/assets/img/mods/c3d124a565f3ee9705af39ca.jpg?v=3b09bd023cf7"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -2564,12 +2564,12 @@
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "1.1.0",
-    "Error": true,
+    "Version": "1.2.0",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip",
+    "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip",
     "Downloads": [
-      "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.1.0/ClothingExpanded.zip"
+      "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -2579,20 +2579,20 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-28",
-    "Updated": "2026-03-28",
+    "Updated": "2026-11-06",
     "Images": [
       "/thelongdark/assets/img/mods/6419055e295aff720badb6d0.png?v=e7bb2c4e9f05"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
-      "issues": ""
+      "issues": "Crampons will reset to 100% condition after being detached from footwear"
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
