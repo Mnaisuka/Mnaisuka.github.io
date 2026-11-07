@@ -952,6 +952,56 @@
     ]
   },
   {
+    "DisplayName": "AurOS",
+    "Name": "AurOS",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "让TLD的电脑重新焕发活力。电脑出厂时未预装任何软件，快去寻找可以插入的游戏和活动吧！",
+    "Aliases": [
+      "AurOS"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/AurOS",
+    "RepoName": "AurOS",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/AurOS/releases/latest/download/AurOS.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/AurOS/releases/latest/download/AurOS.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-11-6",
+    "Updated": "2026-11-6",
+    "Images": [
+      "/thelongdark/assets/img/mods/982a802011ede958b332263c.png?v=150e1880ea19"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "极光监测器",
     "Name": "AuroraMonitor",
     "Type": "mod",
@@ -9664,6 +9714,56 @@
     ]
   },
   {
+    "DisplayName": "数字上升",
+    "Name": "NumbersGoUp",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "一款热门游戏。用 AurOS 玩吧！",
+    "Aliases": [
+      "Numbers Go Up"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/NumbersGoUp",
+    "RepoName": "NumbersGoUp",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/NumbersGoUp/releases/latest/download/NumbersGoUp.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/NumbersGoUp/releases/latest/download/NumbersGoUp.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-11-6",
+    "Updated": "2026-11-6",
+    "Images": [
+      "/thelongdark/assets/img/mods/8e2629291326a03d59f46314.png?v=008b62e415cc"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "物品下沉修复",
     "Name": "ObjectSinkFix",
     "Type": "mod",
@@ -10513,12 +10613,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.0",
-    "Error": true,
+    "Version": "1.5.0",
+    "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.4.0/PredatorSpawnSelector.dll",
+    "Download": "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.5.0/PredatorSpawnSelector.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.4.0/PredatorSpawnSelector.dll"
+      "https://github.com/moosemeat817/PredatorSpawnSelector/releases/download/1.5.0/PredatorSpawnSelector.dll"
     ],
     "AuthorUrl": "https://github.com/moosemeat817",
     "SupportUrl": "https://ko-fi.com/moosemeat817",
@@ -10526,16 +10626,16 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-08-03",
-    "Updated": "2026-08-15",
+    "Updated": "2026-11-07",
     "Images": [
       "/thelongdark/assets/img/mods/9cdf70727d9b9d7f98aa5694.jpg?v=e00ea5f65a28"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
@@ -14106,6 +14206,106 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "漫长的厄运",
+    "Name": "TheLongDoom",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "是的，《毁灭战士》可以在《漫漫长夜》中运行。",
+    "Aliases": [
+      "The Long Doom"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/TheLongDoom",
+    "RepoName": "TheLongDoom",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/TheLongDoom/releases/latest/download/TheLongDoom.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/TheLongDoom/releases/latest/download/TheLongDoom.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-11-6",
+    "Updated": "2026-11-6",
+    "Images": [
+      "/thelongdark/assets/img/mods/1f5922801b9260e7861c8494.png?v=261dc5a617af"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
+    "DisplayName": "长蛇",
+    "Name": "TheLongSnake",
+    "Type": "mod",
+    "Author": "MonsieurMeh",
+    "DisplayAuthor": [
+      "MonsieurMeh"
+    ],
+    "Description": "经典之作。用 AurOS 畅玩！",
+    "Aliases": [
+      "The Long Snake"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/monsieurmeh/TheLongSnake",
+    "RepoName": "TheLongSnake",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/monsieurmeh/TheLongSnake/releases/latest/download/TheLongSnake.dll",
+    "Downloads": [
+      "https://github.com/monsieurmeh/TheLongSnake/releases/latest/download/TheLongSnake.dll"
+    ],
+    "AuthorUrl": "https://github.com/monsieurmeh/",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-11-6",
+    "Updated": "2026-11-6",
+    "Images": [
+      "/thelongdark/assets/img/mods/c8e6e5ad611692b624d51a4d.png?v=c3bf5a8376f8"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/monsieurmeh/TLDModJSON/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "漫漫长夜心境",
