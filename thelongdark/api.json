@@ -66,7 +66,7 @@
     "ModUrl": "https://github.com/Deaadman/adaptive-arsenal",
     "RepoName": "AdaptiveArsenal",
     "Dependencies": [],
-    "Version": "1.0.9",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Deaadman/adaptive-arsenal/releases/latest/download/AdaptiveArsenal.dll",
@@ -80,13 +80,13 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2024-01-16",
-    "Updated": "2026-01-05",
+    "Updated": "2026-11-08",
     "Images": [
-      "/thelongdark/assets/img/mods/e66a33d86089942c8b9c021a.webp?v=e5bdfa9a9e00"
+      "/thelongdark/assets/img/mods/48f1dea1a234c134b0951825.webp?v=bdc90f390057"
     ],
     "Status": {
       "working": true,
@@ -1124,12 +1124,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.1/AutoFillMapOnExplore.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.1.0/AutoFillMapOnExplore.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.0.1/AutoFillMapOnExplore.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/auto-fill-map-on-explore%2F1.1.0/AutoFillMapOnExplore.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -1138,19 +1138,19 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-19",
-    "Updated": "2026-04-28",
+    "Updated": "2026-11-08",
     "Images": [
       "/thelongdark/assets/img/mods/38a716129bfe2f8a554ce99b.png?v=56f16e7e4942",
-      "/thelongdark/assets/img/mods/aca86fc0fe9a9a90f183d023.png?v=1f365c77d31c"
+      "/thelongdark/assets/img/mods/aca86fc0fe9a9a90f183d023.png?v=84dd24d21881"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Internal changes to be more futureproof.",
+      "patchnotes": "Updated for The Long Dark 2.60+ (including Iron Road DLC). Added options to show your position on the map and center on your position (enabled by default). Added default values to the mod settings UI descriptions.",
       "notes": "",
       "issues": ""
     },
@@ -4493,12 +4493,12 @@
       "ModSettings",
       "ModData"
     ],
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F1.0.0/FastTravel.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F1.0.1/FastTravel.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F1.0.0/FastTravel.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/fast-travel%2F1.0.1/FastTravel.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -4508,11 +4508,11 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-19",
-    "Updated": "2026-05-30",
+    "Updated": "2026-11-08",
     "Images": [
       "/thelongdark/assets/img/mods/ce1057cbe62ccc77ca8012be.png?v=f98eafb83294",
       "/thelongdark/assets/img/mods/1eee108a66ee17a1db94bd71.png?v=c98c772ff4c4",
@@ -4521,7 +4521,7 @@
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added new GUI to manage fast travel destinations. Added support for naming and reordering destinations. Added support for any number of destinations beyond 9. Fixed wrong region name shown on-screen when traveling across regions. The mod is no longer experimental.",
+      "patchnotes": "Updated for The Long Dark 2.60+ (including Iron Road DLC). Added safety check to avoid issues before the game is launched. Fixed unneeded MelonLoader log messages.",
       "notes": "",
       "issues": ""
     },
@@ -7331,7 +7331,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "2.0.5",
+    "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Deaadman/item-rarities/releases/latest/download/ItemRarities.dll",
@@ -7345,13 +7345,13 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-09-11",
-    "Updated": "2026-01-10",
+    "Updated": "2026-11-08",
     "Images": [
-      "/thelongdark/assets/img/mods/f5f41823ffc80e59b12f1bc5.webp?v=4561f6acdf10"
+      "/thelongdark/assets/img/mods/ecb9c406143405ae4be5d7b8.webp?v=4ddf0a015343"
     ],
     "Status": {
       "working": true,
@@ -9345,6 +9345,52 @@
       "working": true,
       "beta": false,
       "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
+    "GameVersion": []
+  },
+  {
+    "DisplayName": "没有启动热键",
+    "Name": "NoLaunchHotkeys",
+    "Type": "mod",
+    "Author": "Lycanthor",
+    "DisplayAuthor": [
+      "Lycanthor"
+    ],
+    "Description": "阻止游戏在后台启动时读取你的键盘和鼠标，因此在另一个窗口中输入内容时无法按下“退出”或使用快捷键。",
+    "Aliases": [
+      "No Launch Hotkeys"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/JesseWV/TLD-NoLaunchHotkeys",
+    "RepoName": "NoLaunchHotkeys",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/JesseWV/TLD-NoLaunchHotkeys/releases/latest/download/NoLaunchHotkeys.dll",
+    "Downloads": [
+      "https://github.com/JesseWV/TLD-NoLaunchHotkeys/releases/latest/download/NoLaunchHotkeys.dll"
+    ],
+    "AuthorUrl": "https://github.com/JesseWV",
+    "SupportUrl": null,
+    "Categories": [
+      "Utility Mod"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-11-08",
+    "Updated": "2026-11-08",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "First release.",
       "notes": "",
       "issues": ""
     },
@@ -12137,12 +12183,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.0",
+    "Version": "1.4.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/save-backup%2F1.4.0/SaveBackup.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/save-backup%2F1.4.1/SaveBackup.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/save-backup%2F1.4.0/SaveBackup.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/save-backup%2F1.4.1/SaveBackup.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -12150,18 +12196,18 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-19",
-    "Updated": "2026-05-30",
+    "Updated": "2026-11-08",
     "Images": [
-      "/thelongdark/assets/img/mods/f421eba8d461a71ca5ea9026.png?v=8691aeb24921"
+      "/thelongdark/assets/img/mods/f421eba8d461a71ca5ea9026.png?v=67d6107651d2"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Added option to trigger a backup at any time.",
+      "patchnotes": "Updated for The Long Dark 2.60+ (including Iron Road DLC). Added default values to the mod settings UI descriptions. The README.txt in backup zips no longer mentions folders which don't exist.",
       "notes": "",
       "issues": ""
     },
@@ -12640,12 +12686,12 @@
     "ModUrl": "https://github.com/Pathoschild/TheLongDarkMods/tree/stable/src/ShowTraderTrust#readme",
     "RepoName": "ShowTraderTrust",
     "Dependencies": [],
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.1/ShowTraderTrust.dll",
+    "Download": "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.2/ShowTraderTrust.dll",
     "Downloads": [
-      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.1/ShowTraderTrust.dll"
+      "https://github.com/Pathoschild/TheLongDarkMods/releases/download/show-trader-trust%2F1.0.2/ShowTraderTrust.dll"
     ],
     "AuthorUrl": "https://github.com/Pathoschild",
     "SupportUrl": "https://www.patreon.com/Pathoschild",
@@ -12653,25 +12699,25 @@
       "Quality of Life"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-26",
-    "Updated": "2026-04-28",
+    "Updated": "2026-11-08",
     "Images": [
       "/thelongdark/assets/img/mods/0f520b726761dd1595fcf8bd.png?v=ee5690e3689e"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Fixed performance impact for some players; internal changes to be more futureproof.",
+      "patchnotes": "Updated for The Long Dark 2.60+ (including Iron Road DLC). Fixed unneeded MelonLoader log messages.",
       "notes": "",
       "issues": ""
     },
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Pathoschild/TheLongDarkMods/refs/heads/stable/mod-list.json",
     "GameVersion": [
-      "vanilla"
+      "tftft"
     ]
   },
   {
@@ -15547,7 +15593,7 @@
       "ModSettings",
       "ModComponent"
     ],
-    "Version": "1.4.8",
+    "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Deaadman/universal-tweaks/releases/latest/download/UniversalTweaks.dll",
@@ -15562,13 +15608,13 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-10-14",
-    "Updated": "2026-01-06",
+    "Updated": "2026-11-08",
     "Images": [
-      "/thelongdark/assets/img/mods/213d3055425d48d9bca08d7e.webp?v=7757de5709a3"
+      "/thelongdark/assets/img/mods/ba4ce284c4f05b78f1b75ec0.webp?v=31be264a645a"
     ],
     "Status": {
       "working": true,
