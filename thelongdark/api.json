@@ -7691,21 +7691,22 @@
     "Description": "新增从兽皮再生皮革的方法，并允许制作部分皮革服装；还加入可用于制作面粉、食物和绳索等物品的树皮。",
     "Aliases": [
       "Leatherworks",
-      "v1.3"
+      "v1.4"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Sm4rtBoyTom/Leatherworks",
     "RepoName": "Leatherworks",
     "Dependencies": [
       "ModSettings",
-      "ModComponent"
+      "ModComponent",
+      "Modders' Gear Toolbox"
     ],
-    "Version": "1.3.1",
-    "Error": true,
+    "Version": "1.4.0",
+    "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1",
+    "Download": "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.4.0",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.3.1"
+      "https://github.com/Sm4rtBoyTom/Leatherworks/releases/tag/v1.4.0"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -7715,20 +7716,19 @@
       "Gear Items",
       "Clothing",
       "Food",
-      "Overhaul",
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.59",
       "ml": "0.7.2"
     },
     "Released": "2023-11-28",
-    "Updated": "2026-09-05",
+    "Updated": "2026-11-10",
     "Images": [
       "/thelongdark/assets/img/mods/1104f9f406d779d9af40e047.jpg?v=2103d8705490"
     ],
     "Status": {
-      "working": false,
+      "working": true,
       "beta": false,
       "patchnotes": "",
       "notes": "",
