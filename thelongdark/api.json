@@ -12434,12 +12434,12 @@
     "ModUrl": "https://github.com/karsontr13/TLD-Seamless-Interiors",
     "RepoName": "SeamlessInteriors",
     "Dependencies": [],
-    "Version": "2.4.1",
+    "Version": "2.5.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.4.1/SeamlessInteriors.dll",
+    "Download": "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.5.0/SeamlessInteriors.dll",
     "Downloads": [
-      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.4.1/SeamlessInteriors.dll"
+      "https://github.com/karsontr13/TLD-Seamless-Interiors/releases/download/v2.5.0/SeamlessInteriors.dll"
     ],
     "AuthorUrl": "https://github.com/karsontr13",
     "SupportUrl": "https://buymeacoffee.com/karsontr13",
@@ -12452,7 +12452,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-07-10",
-    "Updated": "2026-10-28",
+    "Updated": "2026-11-09",
     "Images": [
       "/thelongdark/assets/img/mods/cf2ded295663db4911d8e7aa.png?v=2d1a4a9c335d"
     ],
@@ -14252,6 +14252,54 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/JesseWV/TLDModsListJson/refs/heads/main/modlist_Lycanthor.json",
     "GameVersion": []
+  },
+  {
+    "DisplayName": "地形编辑器",
+    "Name": "TerrainEditor",
+    "Type": "mod",
+    "Author": "Hamsi Buglama",
+    "DisplayAuthor": [
+      "Hamsi Buglama"
+    ],
+    "Description": "一个可以让你自定义游戏世界地形、建筑和物体的模组。",
+    "Aliases": [
+      "Terrain Editor"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/karsontr13/TLD-Terrain-Editor",
+    "RepoName": "TerrainEditor",
+    "Dependencies": [],
+    "Version": "1.0.0",
+    "Error": false,
+    "AutoUpdate": false,
+    "Download": "https://github.com/karsontr13/TLD-Terrain-Editor/releases/download/v1.0.0/TerrainEditor.dll",
+    "Downloads": [
+      "https://github.com/karsontr13/TLD-Terrain-Editor/releases/download/v1.0.0/TerrainEditor.dll"
+    ],
+    "AuthorUrl": "https://github.com/karsontr13",
+    "SupportUrl": "https://buymeacoffee.com/karsontr13",
+    "Categories": [
+      "Utility"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-09-11",
+    "Updated": "2026-09-11",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "Initial Release",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/karsontr13/TLD-Mod-List/refs/heads/main/modlist.json",
+    "GameVersion": [
+      "vanilla"
+    ]
   },
   {
     "DisplayName": "漫长的厄运",

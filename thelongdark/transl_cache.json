@@ -698,5 +698,7 @@
     "The Long Snake": "长蛇",
     "Yes, Doom CAN run in The Long Dark.": "是的，《毁灭战士》可以在《漫漫长夜》中运行。",
     "No Launch Hotkeys": "没有启动热键",
-    "Stops the game reading your keyboard and mouse while it launches in the background, so typing in another window cannot press Quit or fire hotkeys.": "阻止游戏在后台启动时读取你的键盘和鼠标，因此在另一个窗口中输入内容时无法按下“退出”或使用快捷键。"
+    "Stops the game reading your keyboard and mouse while it launches in the background, so typing in another window cannot press Quit or fire hotkeys.": "阻止游戏在后台启动时读取你的键盘和鼠标，因此在另一个窗口中输入内容时无法按下“退出”或使用快捷键。",
+    "A mod that allows you to customize the world's terrain, structures, and objects.": "一个可以让你自定义游戏世界地形、建筑和物体的模组。",
+    "Terrain Editor": "地形编辑器"
 }
