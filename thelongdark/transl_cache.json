@@ -700,5 +700,7 @@
     "No Launch Hotkeys": "没有启动热键",
     "Stops the game reading your keyboard and mouse while it launches in the background, so typing in another window cannot press Quit or fire hotkeys.": "阻止游戏在后台启动时读取你的键盘和鼠标，因此在另一个窗口中输入内容时无法按下“退出”或使用快捷键。",
     "A mod that allows you to customize the world's terrain, structures, and objects.": "一个可以让你自定义游戏世界地形、建筑和物体的模组。",
-    "Terrain Editor": "地形编辑器"
+    "Terrain Editor": "地形编辑器",
+    "A comprehensive overhaul of the game's fire mechanics.": "对游戏的火焰机制进行了全面改进。",
+    "Fire Overhaul": "火灾清理"
 }

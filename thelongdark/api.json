@@ -65,7 +65,10 @@
     "Replaces": [],
     "ModUrl": "https://github.com/Deaadman/adaptive-arsenal",
     "RepoName": "AdaptiveArsenal",
-    "Dependencies": [],
+    "Dependencies": [
+      "ModSettings",
+      "ComplexLogger"
+    ],
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
@@ -172,7 +175,7 @@
       "ComplexLogger",
       "ModData"
     ],
-    "Version": "1.4.1",
+    "Version": "1.4.2",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/TLD-Mods/AfflictionComponent/releases/latest",
@@ -185,11 +188,11 @@
       "Utility Mod"
     ],
     "TestedOn": {
-      "tld": "2.59",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2024-08-25",
-    "Updated": "2026-08-22",
+    "Updated": "2026-11-11",
     "Images": [
       "/thelongdark/assets/img/mods/93beba6c6d50fbd43f7e05fd.png?v=efe0adb156fd"
     ],
@@ -4744,6 +4747,59 @@
     ]
   },
   {
+    "DisplayName": "火灾清理",
+    "Name": "FireOverhaul",
+    "Type": "mod",
+    "Author": "Fuar",
+    "DisplayAuthor": [
+      "Fuar"
+    ],
+    "Description": "对游戏的火焰机制进行了全面改进。",
+    "Aliases": [
+      "Fire Overhaul",
+      "latest"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Fuar11/FireOverhaul",
+    "RepoName": "FireOverhaul",
+    "Dependencies": [
+      "ComplexLogger",
+      "ModSettings"
+    ],
+    "Version": "0.9.0",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Fuar11/FireOverhaul/releases/latest/",
+    "Downloads": [
+      "https://github.com/Fuar11/FireOverhaul/releases/latest/"
+    ],
+    "AuthorUrl": "https://github.com/Fuar11?tab=repositories",
+    "SupportUrl": null,
+    "Categories": [
+      "Gameplay",
+      "Overhaul"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2026-11-10",
+    "Updated": "2026-10-10",
+    "Images": [],
+    "Status": {
+      "working": true,
+      "beta": true,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "",
+    "Source": "https://raw.githubusercontent.com/Fuar11/ModList/main/fuar_mods.json",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "生火工具包 DLC",
     "Name": "FirePackDLC",
     "Type": "mod",
@@ -6726,7 +6782,7 @@
       "ModSettings",
       "ComplexLogger"
     ],
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/Fuar11/ImprovedTrader/releases/latest/",
@@ -6739,11 +6795,11 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.59",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-23",
-    "Updated": "2026-19-30",
+    "Updated": "2026-11-11",
     "Images": [],
     "Status": {
       "working": true,
@@ -7329,7 +7385,8 @@
     "RepoName": "ItemRarities",
     "Dependencies": [
       "ModSettings",
-      "ModComponent"
+      "ModComponent",
+      "ComplexLogger"
     ],
     "Version": "2.1.0",
     "Error": false,
@@ -15639,7 +15696,8 @@
     "RepoName": "UniversalTweaks",
     "Dependencies": [
       "ModSettings",
-      "ModComponent"
+      "ModComponent",
+      "ComplexLogger"
     ],
     "Version": "1.5.0",
     "Error": false,
