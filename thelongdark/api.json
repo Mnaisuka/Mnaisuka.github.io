@@ -31,7 +31,7 @@
       "Overhaul"
     ],
     "TestedOn": {
-      "tld": "2.59",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-10-10",
@@ -243,7 +243,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.59",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-25",
@@ -1064,10 +1064,9 @@
     "DisplayName": "插件自动更新器",
     "Name": "AutoUpdatingPlugin",
     "Type": "plugin",
-    "Author": "STBlade",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "STBlade",
-      "ds5678"
+      "TLD Modding Community"
     ],
     "Description": "插件，可自动更新大多数模组和插件。",
     "Aliases": [
@@ -1084,8 +1083,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [],
     "TestedOn": {
       "tld": "2.55",
@@ -1104,7 +1103,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": [
       "vanilla"
     ]
@@ -2603,9 +2602,9 @@
     "DisplayName": "服装配饰扩展",
     "Name": "ClothingExpanded",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "允许将配饰与服装搭配穿戴，让角色同时装备更多配饰。",
     "Aliases": [
@@ -2624,8 +2623,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Quality of Life",
       "Gear Items",
@@ -2648,7 +2647,7 @@
       "issues": "Crampons will reset to 100% condition after being detached from footwear"
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -3331,9 +3330,9 @@
     "DisplayName": "自定义暴风雪挑战",
     "Name": "CustomWhiteout",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "在《漫漫长夜》中体验自定义的暴风雪挑战。",
     "Aliases": [
@@ -3352,8 +3351,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
@@ -3374,7 +3373,7 @@
       "issues": ""
     },
     "PreviousAuthors": "MikeyPdog , ds5678",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -7123,9 +7122,9 @@
     "DisplayName": "室内墙面装饰画",
     "Name": "MyPicturesMod",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "用图片装饰你的基地，也可以上传自己的图片。",
     "Aliases": [
@@ -7145,8 +7144,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
@@ -7167,7 +7166,7 @@
       "issues": ""
     },
     "PreviousAuthors": "Atlas Lumi, Thekillergreece, stmSantana",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": [
       "tftft"
     ]
@@ -7322,9 +7321,9 @@
     "DisplayName": "物品堆叠蓝图",
     "Name": "ItemPiles",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "为堆放成堆的物品添加制作蓝图。",
     "Aliases": [
@@ -7343,8 +7342,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
@@ -7365,7 +7364,7 @@
       "issues": ""
     },
     "PreviousAuthors": "Atlas Lumi",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -10382,9 +10381,9 @@
     "DisplayName": "挚爱之人的照片",
     "Name": "PhotoofaLovedOne",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "允许随身携带一张可自定义的照片，纪念你所珍视的人或事物。",
     "Aliases": [
@@ -10403,8 +10402,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
@@ -10425,7 +10424,7 @@
       "issues": ""
     },
     "PreviousAuthors": "Atlas Lumi",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": [
       "vanilla",
       "tftft"
@@ -13748,9 +13747,9 @@
     "DisplayName": "剧情模式收藏品",
     "Name": "StoryModeCollectibles",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "将《冬日静默》中的可收集物品加入生存模式。",
     "Aliases": [
@@ -13769,8 +13768,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gear Items"
     ],
@@ -13791,7 +13790,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": [
       "tftft"
     ]
@@ -14153,9 +14152,9 @@
     "DisplayName": "狼皮围巾",
     "Name": "TLDWolfskinScarf",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "新增一条可用狼皮制作的围巾。",
     "Aliases": [
@@ -14175,8 +14174,8 @@
     "Downloads": [
       "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Clothing"
     ],
@@ -14197,7 +14196,7 @@
       "issues": ""
     },
     "PreviousAuthors": "Atlas Lumi",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": [
       "vanilla"
     ]
