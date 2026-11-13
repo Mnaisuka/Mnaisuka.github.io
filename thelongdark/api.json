@@ -757,12 +757,12 @@
       "ModComponent",
       "ModData"
     ],
-    "Version": "0.7.8",
+    "Version": "0.7.9",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/HAHAYOUDEAD/Architect/releases/download/v0.7.8-beta/Architect.zip",
+    "Download": "https://github.com/HAHAYOUDEAD/Architect/releases/download/v0.7.9-beta/Architect.zip",
     "Downloads": [
-      "https://github.com/HAHAYOUDEAD/Architect/releases/download/v0.7.8-beta/Architect.zip"
+      "https://github.com/HAHAYOUDEAD/Architect/releases/download/v0.7.9-beta/Architect.zip"
     ],
     "AuthorUrl": "https://github.com/HAHAYOUDEAD",
     "SupportUrl": "https://paypal.me/FardyHernandez",
@@ -772,11 +772,11 @@
       "Base Building"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.58",
       "ml": "0.7.2"
     },
     "Released": "2024-12-21",
-    "Updated": "2026-01-11",
+    "Updated": "2026-11-13",
     "Images": [
       "/thelongdark/assets/img/mods/0bb04c6d9c5efe3a2783d7ce.webp?v=0f1cae7e476f"
     ],
@@ -1214,9 +1214,9 @@
     "DisplayName": "秋日舒适",
     "Name": "AutumnComforts",
     "Type": "mod",
-    "Author": "Sm4rtboyTom",
+    "Author": "Sm4rtBoyTom",
     "DisplayAuthor": [
-      "Sm4rtboyTom"
+      "Sm4rtBoyTom"
     ],
     "Description": "新增4个烹饪食谱和一种新食材——南瓜。同时，也重新推出了一些来自4DON活动的物品。",
     "Aliases": [
@@ -1229,12 +1229,12 @@
     "Dependencies": [
       "ModComponent"
     ],
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.2",
+    "Download": "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.3",
     "Downloads": [
-      "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.2"
+      "https://github.com/Sm4rtBoyTom/AutumnComforts/releases/tag/v1.0.3"
     ],
     "AuthorUrl": "https://github.com/Sm4rtBoyTom",
     "SupportUrl": "https://ko-fi.com/sm4rtboytom",
@@ -1248,7 +1248,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-10-27",
-    "Updated": "2026-11-05",
+    "Updated": "2026-11-13",
     "Images": [
       "/thelongdark/assets/img/mods/476dcea03e1b82ec0c39e90c.jpg?v=75e65f9232e1"
     ],
