@@ -1878,7 +1878,7 @@
       "Food"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-06-15",
@@ -1896,8 +1896,7 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -2093,7 +2092,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-04-24",
@@ -2111,8 +2110,7 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -3073,7 +3071,7 @@
     ],
     "Description": "在寒冷的冬夜里为你增添暖意。原作者：ds5678。",
     "Aliases": [
-      "CozyBlankets"
+      "Cozy Blankets"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Jods-Its/CozyBlankets",
@@ -3095,7 +3093,7 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-06-21",
@@ -3113,8 +3111,7 @@
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -4799,21 +4796,20 @@
     ]
   },
   {
-    "DisplayName": "生火工具包 DLC",
-    "Name": "FirePackDLC",
+    "DisplayName": "消防包",
+    "Name": "FirePack",
     "Type": "mod",
     "Author": "Jods-Its",
     "DisplayAuthor": [
       "Jods-Its"
     ],
-    "Description": "新增可再生的生火工具。原作者：ds5678 和 WulfMarius。",
+    "Description": "新型可再生生火工具。原作者：ds5678 和 WulfMarius。",
     "Aliases": [
-      "Fire Pack DLC",
-      "FirePack"
+      "Fire Pack"
     ],
     "Replaces": [],
     "ModUrl": "https://github.com/Jods-Its/Fire-Pack-DLC",
-    "RepoName": "FirePackDLC",
+    "RepoName": "FirePack",
     "Dependencies": [
       "ModSettings",
       "ModComponent",
@@ -4833,7 +4829,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-06-19",
@@ -5105,7 +5101,7 @@
       "ml": "0.7.2"
     },
     "Released": "2021-09-12",
-    "Updated": "2026-10-29",
+    "Updated": "2026-11-16",
     "Images": [
       "/thelongdark/assets/img/mods/c0685214b7fc832e2f924a07.webp?v=391a6228c489"
     ],
@@ -5215,7 +5211,7 @@
       "Quality Of Life"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-06-15",
@@ -5233,8 +5229,7 @@
     "PreviousAuthors": "ds5678",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -6996,7 +6991,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.59",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-04-30",
@@ -8259,6 +8254,63 @@
     "GameVersion": []
   },
   {
+    "DisplayName": "玛西的弓箭修理店",
+    "Name": "MarcysBowRepair",
+    "Type": "mod",
+    "Author": "Jods-Its",
+    "DisplayAuthor": [
+      "Jods-Its"
+    ],
+    "Description": "使所有弓箭都可维修，费用和地点可定制。",
+    "Aliases": [
+      "Bow Repair",
+      "MarcysBowRepair",
+      "Marcy's Bow Repair",
+      "BowRepair"
+    ],
+    "Replaces": [],
+    "ModUrl": "https://github.com/Jods-Its/Marcys_BowRepair",
+    "RepoName": "MarcysBowRepair",
+    "Dependencies": [
+      "ModSettings"
+    ],
+    "Version": "1.2.3",
+    "Error": false,
+    "AutoUpdate": true,
+    "Download": "https://github.com/Jods-Its/Marcys_BowRepair/releases/download/v1.2.3/BowRepair.dll",
+    "Downloads": [
+      "https://github.com/Jods-Its/Marcys_BowRepair/releases/download/v1.2.3/BowRepair.dll"
+    ],
+    "AuthorUrl": "https://github.com/Jods-Its",
+    "SupportUrl": "https://ko-fi.com/jodsits",
+    "Categories": [
+      "Quality of Life",
+      "Gameplay",
+      "Gear Items"
+    ],
+    "TestedOn": {
+      "tld": "2.60",
+      "ml": "0.7.2"
+    },
+    "Released": "2024-03-10",
+    "Updated": "2026-11-16",
+    "Images": [
+      "/thelongdark/assets/img/mods/ee4d09b7c0299ae1f0ad91ff.jpg?v=edea7370c4ea"
+    ],
+    "Status": {
+      "working": true,
+      "beta": false,
+      "patchnotes": "",
+      "notes": "",
+      "issues": ""
+    },
+    "PreviousAuthors": "Marcy",
+    "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
+    "GameVersion": [
+      "vanilla"
+    ]
+  },
+  {
     "DisplayName": "玛西的松针茶",
     "Name": "MarcysPineNeedleTea",
     "Type": "mod",
@@ -8773,7 +8825,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2023-07-27",
@@ -8791,8 +8843,7 @@
     "PreviousAuthors": "",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
