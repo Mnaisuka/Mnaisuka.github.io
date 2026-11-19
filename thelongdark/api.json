@@ -1073,15 +1073,15 @@
       "Auto Updating Plugin"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/AutoUpdatePlugin",
+    "ModUrl": "https://github.com/TLD-Mods/AutoUpdatePlugin",
     "RepoName": "AutoUpdatingPlugin",
     "Dependencies": [],
     "Version": "2.0.1",
     "Error": true,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll",
+    "Download": "https://github.com/TLD-Mods/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll"
+      "https://github.com/TLD-Mods/AutoUpdatePlugin/releases/download/2.0.1/AutoUpdatingPlugin.dll"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -1985,7 +1985,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-02-08",
@@ -2609,7 +2609,7 @@
       "Clothing Expanded"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/ClothingExpanded",
+    "ModUrl": "https://github.com/TLD-Mods/ClothingExpanded",
     "RepoName": "ClothingExpanded",
     "Dependencies": [
       "ModComponent"
@@ -2617,9 +2617,9 @@
     "Version": "1.2.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip",
+    "Download": "https://github.com/TLD-Mods/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip",
     "Downloads": [
-      "https://github.com/moosemeat817/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip"
+      "https://github.com/TLD-Mods/ClothingExpanded/releases/download/1.2.0/ClothingExpanded.zip"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -2635,7 +2635,7 @@
     "Released": "2026-03-28",
     "Updated": "2026-11-06",
     "Images": [
-      "/thelongdark/assets/img/mods/6419055e295aff720badb6d0.png?v=e7bb2c4e9f05"
+      "/thelongdark/assets/img/mods/dc317038898a1ea9b6d1279e.png?v=e7bb2c4e9f05"
     ],
     "Status": {
       "working": true,
@@ -2706,16 +2706,16 @@
     "DisplayName": "沿海公路连通",
     "Name": "CoastalConnection",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "打通沿海公路与黯淡海湾之间的道路。",
     "Aliases": [
       "Coastal Connection"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/CoastalConnection",
+    "ModUrl": "https://github.com/TLD-Mods/CoastalConnection",
     "RepoName": "CoastalConnection",
     "Dependencies": [
       ""
@@ -2723,23 +2723,23 @@
     "Version": "1.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll",
+    "Download": "https://github.com/TLD-Mods/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll"
+      "https://github.com/TLD-Mods/CoastalConnection/releases/download/1.1.0/CoastalConnection.dll"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-05-20",
     "Updated": "2026-05-20",
     "Images": [
-      "/thelongdark/assets/img/mods/d241ab0c3dbb4baf01d4f3ff.jpg?v=8fe1c16667e6"
+      "/thelongdark/assets/img/mods/2aad3a2393a2edd22b7a8a78.jpg?v=8fe1c16667e6"
     ],
     "Status": {
       "working": true,
@@ -2749,7 +2749,7 @@
       "issues": ""
     },
     "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -3202,7 +3202,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-01-25",
@@ -3336,7 +3336,7 @@
       "CustomWhiteout"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/CustomWhiteout",
+    "ModUrl": "https://github.com/TLD-Mods/CustomWhiteout",
     "RepoName": "CustomWhiteout",
     "Dependencies": [
       "ModSettings"
@@ -3344,9 +3344,9 @@
     "Version": "3.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll",
+    "Download": "https://github.com/TLD-Mods/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll"
+      "https://github.com/TLD-Mods/CustomWhiteout/releases/download/3.1.0/CustomWhiteout.dll"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -3360,7 +3360,7 @@
     "Released": "2025-02-20",
     "Updated": "2026-01-03",
     "Images": [
-      "/thelongdark/assets/img/mods/4e72efe0120262c79115941c.jpg?v=624f98166ce1"
+      "/thelongdark/assets/img/mods/058e482e4312587aa6e03605.png?v=7afe06ae4c24"
     ],
     "Status": {
       "working": true,
@@ -4343,7 +4343,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-01-16",
@@ -5263,7 +5263,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-07-25",
@@ -5414,7 +5414,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-05-21",
@@ -5839,7 +5839,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-02-24",
@@ -7066,9 +7066,9 @@
     "DisplayName": "永不熄灭的火焰",
     "Name": "InfiniteFires",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "世界转动不息，火焰也从未熄灭。",
     "Aliases": [
@@ -7076,7 +7076,7 @@
       "InfiniteFiresDLC"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/InfiniteFires",
+    "ModUrl": "https://github.com/TLD-Mods/InfiniteFires",
     "RepoName": "InfiniteFires",
     "Dependencies": [
       ""
@@ -7084,23 +7084,23 @@
     "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll",
+    "Download": "https://github.com/TLD-Mods/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll"
+      "https://github.com/TLD-Mods/InfiniteFires/releases/download/1.5.0/InfiniteFiresDLC.dll"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.52",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-04-04",
     "Updated": "2026-04-08",
     "Images": [
-      "/thelongdark/assets/img/mods/3191128a4d7891ba5e14e418.jpg?v=e17523b876c8"
+      "/thelongdark/assets/img/mods/e638251702f41a2fb0e8a706.jpg?v=e17523b876c8"
     ],
     "Status": {
       "working": true,
@@ -7110,7 +7110,7 @@
       "issues": ""
     },
     "PreviousAuthors": "DigitalZombie",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -7127,7 +7127,7 @@
       "InteriorWallDecorations"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/InteriorWallDecorations",
+    "ModUrl": "https://github.com/TLD-Mods/InteriorWallDecorations",
     "RepoName": "MyPicturesMod",
     "Dependencies": [
       "ModComponent"
@@ -7135,9 +7135,9 @@
     "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip",
+    "Download": "https://github.com/TLD-Mods/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip",
     "Downloads": [
-      "https://github.com/moosemeat817/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
+      "https://github.com/TLD-Mods/InteriorWallDecorations/releases/download/2.1.0/InteriorWallDecorations.zip"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -7145,13 +7145,13 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-26",
     "Updated": "2026-03-26",
     "Images": [
-      "/thelongdark/assets/img/mods/fc411643b2a62ebef67e5768.jpg?v=30320f32d898"
+      "/thelongdark/assets/img/mods/f04f1d3a325a775dded0b4fb.jpg?v=30320f32d898"
     ],
     "Status": {
       "working": true,
@@ -7293,7 +7293,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-04-14",
@@ -7325,7 +7325,7 @@
       "Item Piles"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/ItemPiles",
+    "ModUrl": "https://github.com/TLD-Mods/ItemPiles",
     "RepoName": "ItemPiles",
     "Dependencies": [
       "ModComponent"
@@ -7333,9 +7333,9 @@
     "Version": "3.0.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent",
+    "Download": "https://github.com/TLD-Mods/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent",
     "Downloads": [
-      "https://github.com/moosemeat817/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent"
+      "https://github.com/TLD-Mods/ItemPiles/releases/download/3.0.1/ItemPiles.modcomponent"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -7343,13 +7343,13 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-17",
     "Updated": "2026-07-03",
     "Images": [
-      "/thelongdark/assets/img/mods/ab04aa240b4f4f8784faf8c4.jpg?v=c7331eb792eb"
+      "/thelongdark/assets/img/mods/9ec5a83b5dc8e9b9078172b1.jpg?v=c7331eb792eb"
     ],
     "Status": {
       "working": true,
@@ -7825,7 +7825,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-09-22",
@@ -8508,7 +8508,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-07-05",
@@ -8586,16 +8586,16 @@
     "DisplayName": "苦难模式增强",
     "Name": "MiseryModePlus",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "为《漫漫长夜》新增苦难模式出生地点，并加入自定义模式选项，可在自定义游戏中启用苦难模式疾病。曾用名：额外苦难出生点、在自定义游戏中启用苦难效果。",
     "Aliases": [
       "Misery Mode Plus"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/MiseryModePlus",
+    "ModUrl": "https://github.com/TLD-Mods/MiseryModePlus",
     "RepoName": "MiseryModePlus",
     "Dependencies": [
       "ModSettings",
@@ -8604,23 +8604,23 @@
     "Version": "1.0.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll",
+    "Download": "https://github.com/TLD-Mods/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll"
+      "https://github.com/TLD-Mods/MiseryModePlus/releases/download/1.0.0/MiseryModePlus.dll"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-10",
     "Updated": "2026-03-10",
     "Images": [
-      "/thelongdark/assets/img/mods/50728f74514857d9c6a3b24a.jpg?v=040085d258b7"
+      "/thelongdark/assets/img/mods/57e43bcfd2eb37bcde244401.png?v=7c3e5aa430be"
     ],
     "Status": {
       "working": true,
@@ -8630,7 +8630,7 @@
       "issues": ""
     },
     "PreviousAuthors": "",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -9448,7 +9448,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-05-29",
@@ -10313,7 +10313,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-06-18",
@@ -10501,7 +10501,7 @@
       "Photo of a Loved One"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/Photo-of-a-Loved-One",
+    "ModUrl": "https://github.com/TLD-Mods/Photo-of-a-Loved-One",
     "RepoName": "PhotoofaLovedOne",
     "Dependencies": [
       "ModSettings"
@@ -10509,9 +10509,9 @@
     "Version": "0.7.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip",
+    "Download": "https://github.com/TLD-Mods/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip",
     "Downloads": [
-      "https://github.com/moosemeat817/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip"
+      "https://github.com/TLD-Mods/Photo-of-a-Loved-One/releases/download/0.7.0/PhotoOfALovedOne.zip"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -10519,13 +10519,13 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-17",
     "Updated": "2026-03-17",
     "Images": [
-      "/thelongdark/assets/img/mods/22d34007fabc27cc6eba78a8.png?v=8e056831e7e4"
+      "/thelongdark/assets/img/mods/8a5deda71db64fac6d92ed65.png?v=8e056831e7e4"
     ],
     "Status": {
       "working": true,
@@ -10943,7 +10943,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-02-28",
@@ -11271,16 +11271,16 @@
     "DisplayName": "随机化流浪者稀有物资",
     "Name": "RandomizeInterloperRareSpawns",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "随机调整《漫漫长夜》流浪者难度中的战利品分布。",
     "Aliases": [
       "Randomize Interloper Rare Spawns"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/RandomizeInterloperRareSpawns",
+    "ModUrl": "https://github.com/TLD-Mods/RandomizeInterloperRareSpawns",
     "RepoName": "RandomizeInterloperRareSpawns",
     "Dependencies": [
       "ModSettings"
@@ -11288,23 +11288,23 @@
     "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": false,
-    "Download": "https://github.com/moosemeat817/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip",
+    "Download": "https://github.com/TLD-Mods/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip",
     "Downloads": [
-      "https://github.com/moosemeat817/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip"
+      "https://github.com/TLD-Mods/RandomizeInterloperRareSpawns/releases/download/1.3.0/RandomizeInterloperRareSpawns.zip"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-05-19",
     "Updated": "2026-05-19",
     "Images": [
-      "/thelongdark/assets/img/mods/abe4689253195ac39e1eddfc.png?v=144aa8783ff9"
+      "/thelongdark/assets/img/mods/784b24e6a2da5852e79b34ca.png?v=144aa8783ff9"
     ],
     "Status": {
       "working": true,
@@ -11314,7 +11314,7 @@
       "issues": ""
     },
     "PreviousAuthors": "DS5678",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -11460,7 +11460,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-07-10",
@@ -11565,7 +11565,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-10",
@@ -12641,16 +12641,16 @@
     "DisplayName": "老练流浪者",
     "Name": "SeasonedInterloping",
     "Type": "mod",
-    "Author": "MooseMeat",
+    "Author": "TLD Modding Community",
     "DisplayAuthor": [
-      "MooseMeat"
+      "TLD Modding Community"
     ],
     "Description": "将被遗忘的机场、零地带、断裂山口和黯淡海湾加入《漫漫长夜》的流浪者区域列表。",
     "Aliases": [
       "Seasoned Interloping"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/SeasonedInterloping",
+    "ModUrl": "https://github.com/TLD-Mods/SeasonedInterloping",
     "RepoName": "SeasonedInterloping",
     "Dependencies": [
       ""
@@ -12658,23 +12658,23 @@
     "Version": "1.3.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll",
+    "Download": "https://github.com/TLD-Mods/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll",
     "Downloads": [
-      "https://github.com/moosemeat817/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll"
+      "https://github.com/TLD-Mods/SeasonedInterloping/releases/download/1.3.0/SeasonedInterloping.dll"
     ],
-    "AuthorUrl": "https://github.com/moosemeat817",
-    "SupportUrl": "https://ko-fi.com/moosemeat817",
+    "AuthorUrl": null,
+    "SupportUrl": null,
     "Categories": [
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.55",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-05-20",
     "Updated": "2026-05-20",
     "Images": [
-      "/thelongdark/assets/img/mods/f574a1aef1b87566b434a487.png?v=fd2d29493a55"
+      "/thelongdark/assets/img/mods/14635219a31a903ce7014ca0.png?v=fd2d29493a55"
     ],
     "Status": {
       "working": true,
@@ -12684,7 +12684,7 @@
       "issues": ""
     },
     "PreviousAuthors": "ds5678",
-    "Source": "https://raw.githubusercontent.com/moosemeat817/ModListJson/refs/heads/main/moosemeat_tld_mods.json",
+    "Source": "https://raw.githubusercontent.com/TLD-Mods/ModLists/refs/heads/master/misc.json",
     "GameVersion": []
   },
   {
@@ -12766,7 +12766,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-07-7",
@@ -12818,7 +12818,7 @@
       "Cheats"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-01-25",
@@ -13867,7 +13867,7 @@
       "Story Mode Collectibles"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/StoryModeCollectibles",
+    "ModUrl": "https://github.com/TLD-Mods/StoryModeCollectibles",
     "RepoName": "StoryModeCollectibles",
     "Dependencies": [
       "ModComponent"
@@ -13875,9 +13875,9 @@
     "Version": "2.1.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent",
+    "Download": "https://github.com/TLD-Mods/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent",
     "Downloads": [
-      "https://github.com/moosemeat817/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent"
+      "https://github.com/TLD-Mods/StoryModeCollectibles/releases/download/2.1.0/StorymodeCollectibles.modcomponent"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -13885,13 +13885,13 @@
       "Gear Items"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-17",
     "Updated": "2026-03-17",
     "Images": [
-      "/thelongdark/assets/img/mods/b9b232c3e4f8f0a884d99882.png?v=a19e8be8450b"
+      "/thelongdark/assets/img/mods/a64ceb481539496e62ca73b5.png?v=a19e8be8450b"
     ],
     "Status": {
       "working": true,
@@ -13937,7 +13937,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-04-21",
@@ -14330,7 +14330,7 @@
       "WolfskinScarf"
     ],
     "Replaces": [],
-    "ModUrl": "https://github.com/moosemeat817/WolfskinScarf",
+    "ModUrl": "https://github.com/TLD-Mods/WolfskinScarf",
     "RepoName": "TLDWolfskinScarf",
     "Dependencies": [
       "ModComponent"
@@ -14338,9 +14338,9 @@
     "Version": "2.0",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent",
+    "Download": "https://github.com/TLD-Mods/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent",
     "Downloads": [
-      "https://github.com/moosemeat817/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent"
+      "https://github.com/TLD-Mods/WolfskinScarf/releases/download/2.0.0/WolfskinScarf.modcomponent"
     ],
     "AuthorUrl": null,
     "SupportUrl": null,
@@ -14348,13 +14348,13 @@
       "Clothing"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-03-17",
     "Updated": "2026-03-17",
     "Images": [
-      "/thelongdark/assets/img/mods/259a6ee906941e0fe1de89ca.png?v=994ab73c2d44"
+      "/thelongdark/assets/img/mods/75d436897fec13750d6040d4.png?v=994ab73c2d44"
     ],
     "Status": {
       "working": true,
@@ -16292,7 +16292,7 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.51",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2025-11-13",
