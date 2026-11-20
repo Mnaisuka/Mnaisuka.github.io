@@ -7230,7 +7230,7 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.3",
+    "Version": "1.5.0",
     "Error": false,
     "AutoUpdate": true,
     "Download": "https://github.com/EtherSystem/InterloperHUDPro/releases/latest/download/InterloperHudPro.dll",
@@ -7247,14 +7247,14 @@
       "ml": "0.7.2"
     },
     "Released": "2025-10-23",
-    "Updated": "2026-11-14",
+    "Updated": "2026-11-20",
     "Images": [
       "/thelongdark/assets/img/mods/de2abe24b8be0745c5cd91f2.png?v=f95d3f3c6f04"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Now with a vitamin C tracker",
+      "patchnotes": "Added a new position editor for HUDs",
       "notes": "",
       "issues": ""
     },
