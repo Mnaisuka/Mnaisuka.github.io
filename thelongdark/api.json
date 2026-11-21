@@ -651,12 +651,12 @@
     "Dependencies": [
       "ModSettings"
     ],
-    "Version": "1.4.0",
+    "Version": "1.4.1",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.4.0/AnimalRespawnTimeMod.dll",
+    "Download": "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.4.1/AnimalRespawnTimeMod.dll",
     "Downloads": [
-      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.4.0/AnimalRespawnTimeMod.dll"
+      "https://github.com/BaltaZar-7/AnimalRespawnTimeMod/releases/download/1.4.1/AnimalRespawnTimeMod.dll"
     ],
     "AuthorUrl": "https://github.com/BaltaZar-7",
     "SupportUrl": "https://www.patreon.com/c/BaltaZar777/membership",
@@ -664,18 +664,18 @@
       "Gameplay"
     ],
     "TestedOn": {
-      "tld": "2.59",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-02-08",
-    "Updated": "2026-10-29",
+    "Updated": "2026-11-21",
     "Images": [
       "/thelongdark/assets/img/mods/77b450efd5571f5928367d3e.jpg?v=ddfde482d51f"
     ],
     "Status": {
       "working": true,
       "beta": false,
-      "patchnotes": "Updated to TLD v2.58",
+      "patchnotes": "Compatible with EAF",
       "notes": "",
       "issues": ""
     },
@@ -1884,7 +1884,7 @@
     "Released": "2023-06-15",
     "Updated": "2026-10-28",
     "Images": [
-      "/thelongdark/assets/img/mods/de2bb1cd43b4a380013c3463.jpg?v=953457f25701"
+      "/thelongdark/assets/img/mods/b3464017866206f24b00a354.jpg?v=cdf89e47f82a"
     ],
     "Status": {
       "working": true,
@@ -3099,7 +3099,7 @@
     "Released": "2023-06-21",
     "Updated": "2026-07-16",
     "Images": [
-      "/thelongdark/assets/img/mods/58774bb85a8b0aef2d11422f.jpg?v=c6acb20493ed"
+      "/thelongdark/assets/img/mods/bd5425d16c0aa3806176b07d.jpg?v=016d62c45cfe"
     ],
     "Status": {
       "working": true,
@@ -4835,7 +4835,7 @@
     "Released": "2023-06-19",
     "Updated": "2026-07-16",
     "Images": [
-      "/thelongdark/assets/img/mods/baebea089b6fa28d89155dbe.jpg?v=ab1c48f5c2ce"
+      "/thelongdark/assets/img/mods/ee6456bcb4a997bf52a07bb8.jpg?v=82f0eb90fbfa"
     ],
     "Status": {
       "working": true,
@@ -4847,8 +4847,7 @@
     "PreviousAuthors": "ds5678, WulfMarius",
     "Source": "https://raw.githubusercontent.com/Jods-Its/ModList-JSON/main/Jods-Its.JSON",
     "GameVersion": [
-      "vanilla",
-      "tftft"
+      "vanilla"
     ]
   },
   {
@@ -5217,7 +5216,7 @@
     "Released": "2023-06-15",
     "Updated": "2023-06-15",
     "Images": [
-      "/thelongdark/assets/img/mods/5a53aa3c95427ff38942be4c.jpg?v=775528fd4225"
+      "/thelongdark/assets/img/mods/525f670009d70322669e0e2a.jpg?v=ad350aef871b"
     ],
     "Status": {
       "working": true,
@@ -8406,7 +8405,7 @@
       "Misc"
     ],
     "TestedOn": {
-      "tld": "2.58",
+      "tld": "2.60",
       "ml": "0.7.2"
     },
     "Released": "2026-10-29",
