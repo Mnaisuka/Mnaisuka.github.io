@@ -13768,12 +13768,12 @@
       "ModComponent",
       "ModData"
     ],
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Error": false,
     "AutoUpdate": true,
-    "Download": "https://github.com/karsontr13/Steam-Railway/releases/download/v0.1.1/SteamRailway.dll",
+    "Download": "https://github.com/karsontr13/Steam-Railway/releases/download/v0.1.2/SteamRailway.dll",
     "Downloads": [
-      "https://github.com/karsontr13/Steam-Railway/releases/download/v0.1.1/SteamRailway.dll"
+      "https://github.com/karsontr13/Steam-Railway/releases/download/v0.1.2/SteamRailway.dll"
     ],
     "AuthorUrl": "https://github.com/karsontr13",
     "SupportUrl": "https://buymeacoffee.com/karsontr13",
@@ -13786,7 +13786,7 @@
       "ml": "0.7.2"
     },
     "Released": "2026-11-22",
-    "Updated": "2026-11-24",
+    "Updated": "2026-11-26",
     "Images": [
       "/thelongdark/assets/img/mods/373fd6249fa739da5996322a.png?v=c7af1d97f06f"
     ],
